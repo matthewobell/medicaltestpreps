@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.left h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.left h1 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin: 0 0 20px;
+  color: #111;
+}
+
+.coming-soon {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #444;
+}
+
+.badges {
+  margin-top: 10px;
+}
+
+.badges img {
+  height: 45px;
+  margin-right: 12px;
+}
+
+.right {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-card {
+  background-color: #fbd46d;
+  padding: 20px;
+  border-radius: 25px;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
