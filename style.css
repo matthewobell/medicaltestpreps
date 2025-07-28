@@ -106,16 +106,16 @@ body {
 .video-content {
   background: white;
   border-radius: 16px;
-  padding: 60px 40px;
+  padding: 80px 50px;
   width: 100%;
-  max-width: 280px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   position: relative;
   z-index: 1;
 }
 
 .video-content h3 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   color: #333;
   line-height: 1.2;
