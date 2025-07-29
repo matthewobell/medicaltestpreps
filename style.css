@@ -56,7 +56,7 @@ body {
 .coming-soon {
   font-weight: 700;
   margin: 0 0 5px;
-  color: #333;
+  color: #FFFFFF;
   font-size: 14px;
   position: relative;
   left: 95px;
@@ -70,13 +70,13 @@ body {
 /* COLOR PULSE ANIMATION */
 @keyframes colorPulse {
   0% {
-    background-color: #ccc;
+    background-color: #FF9999;
   }
   50% {
-    background-color: #999;
+    background-color: #FFC8C8;
   }
   100% {
-    background-color: #ccc;
+    background-color: #FF9999;
   }
 }
 
