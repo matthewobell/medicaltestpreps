@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: #FAD37C;
@@ -15,40 +14,39 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: none;
-  width: 100vw;          /* Full viewport width */
-  height: 100vh;         /* Full viewport height */
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  align-items: stretch;  /* Makes both sections equal height */
+  align-items: stretch;
   justify-content: stretch;
   gap: 0;
 }
 
 /* LEFT SECTION - Contains all text content and app store buttons */
 .left {
-  flex: 1;                    /* Takes up 50% of screen width */
+  flex: 1;
   min-width: 50%;
-  padding: 60px;             /* Overall padding around left content */
+  padding: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* Vertically centers all content */
-  align-items: center;       /* Horizontally centers all content */
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 /* TYPOGRAPHY - Controls all text elements */
 .left h2 {
-  font-size: 24px;          /* Brand title size */
-  margin-bottom: 30px;      /* Space below brand title */
+  font-size: 44px;
+  margin-bottom: 30px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
 }
-
 .left h1 {
-  font-size: 64px;          /* Main heading size */
-  line-height: 1.1;         /* Tight line spacing for heading */
-  margin: 0 0 40px;         /* Space below main heading */
+  font-size: 84px;
+  line-height: 1.1;
+  margin: 0 0 40px;
   color: #000;
   font-weight: 700;
   letter-spacing: -1px;
@@ -57,30 +55,28 @@ body {
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
   font-weight: 600;
-  margin: 0 0 5px;          /* Reduced bottom margin to get closer to buttons */
+  margin: 0 0 5px;
   color: #333;
   font-size: 14px;
   position: relative;
-  left: 90px;               /* Increased offset to better center over Google Play button */
+  left: 90px;
 }
 
 /* APP STORE BUTTONS CONTAINER */
 .badges {
   margin-top: 0;
-  margin-bottom: 20px;      /* Space below badges for the learn more button */
   display: flex;
-  gap: 15px;               /* Space between the two app store buttons */
+  gap: 15px;
+  margin-bottom: 20px;
 }
-
 .badges img {
-  height: 60px;            /* App store button height */
+  height: 60px;
   margin-right: 0;
   transition: transform 0.2s ease;
   cursor: pointer;
 }
-
 .badges img:hover {
-  transform: translateY(-2px);  /* Subtle hover animation */
+  transform: translateY(-2px);
 }
 
 /* LEARN MORE BUTTON */
@@ -91,45 +87,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  padding: 10px 0;
-  transition: color 0.2s ease, transform 0.2s ease;
-  font-family: inherit;
   text-decoration: underline;
+  margin-top: 10px;
+  transition: color 0.2s ease;
 }
-
 .learn-more-btn:hover {
   color: #000;
-  transform: translateX(5px);
-}
-
-/* RIGHT SECTION - Contains the screenshot */
-.right {
-  flex: 1;                 /* Takes up 50% of screen width */
-  min-width: 50%;
-  padding: 40px;           /* Padding around screenshot */
-  display: flex;
-  justify-content: center; /* Centers screenshot horizontally */
-  align-items: center;     /* Centers screenshot vertically */
-  background-color: #FAD37C;
-}
-
-/* SCREENSHOT CONTAINER - Simple container for the single screenshot */
-.screenshot-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-/* SINGLE SCREENSHOT - The static screenshot image (screenshot1.png) */
-.screenshot {
-  max-width: 280px;        /* Maximum width of the screenshot */
-  width: 100%;
-  height: auto;            /* Maintain aspect ratio */
-  border-radius: 16px;     /* Rounded corners */
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);  /* Drop shadow */
-  object-fit: cover;       /* Ensure image covers the area properly */
 }
 
 /* OVERLAY STYLES */
@@ -143,10 +106,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-  z-index: 1000;
 }
 
 .overlay.active {
@@ -154,7 +117,7 @@ body {
   visibility: visible;
 }
 
-.overlay-content {
+.modal {
   background: white;
   border-radius: 20px;
   padding: 40px;
@@ -163,194 +126,179 @@ body {
   max-height: 80vh;
   overflow-y: auto;
   position: relative;
-  transform: translateY(50px);
+  transform: translateY(20px);
   transition: transform 0.3s ease;
 }
 
-.overlay.active .overlay-content {
+.overlay.active .modal {
   transform: translateY(0);
+}
+
+.modal-header {
+  background-color: #FAD37C;
+  border-radius: 25px;
+  padding: 15px 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.modal-content {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
 }
 
 .close-btn {
   position: absolute;
-  top: 20px;
-  right: 25px;
-  background: none;
+  top: 15px;
+  right: 20px;
+  background: #000;
+  color: white;
   border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   font-size: 24px;
+  font-weight: bold;
   cursor: pointer;
-  color: #666;
-  width: 30px;
-  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .close-btn:hover {
-  background-color: #f0f0f0;
-  color: #000;
+  background: #333;
 }
 
-.overlay-header {
-  text-align: center;
-  margin-bottom: 30px;
+/* RIGHT SECTION - Now contains only the static screenshot container */
+.right {
+  flex: 1;
+  min-width: 50%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAD37C;
 }
 
-.overlay-title {
-  background: linear-gradient(135deg, #f4d03f 0%, #f1c40f 100%);
-  color: #000;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
+/* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
+.screenshot-wrapper {
+  background: white;
+  border-radius: 16px;
+  padding: 0;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.overlay-text {
-  line-height: 1.6;
-  color: #333;
-  font-size: 16px;
+/* STATIC IMAGE */
+.static-screenshot {
+  width: 100%;
+  border-radius: 16px;
 }
 
-.overlay-text p {
-  margin-bottom: 20px;
-}
-
-.overlay-text p:last-child {
-  margin-bottom: 0;
-}
-
-/* RESPONSIVE DESIGN FOR MOBILE AND TABLETS */
+/* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
 @media (max-width: 768px) {
-  /* MOBILE LAYOUT - Stack sections vertically */
   .container {
-    flex-direction: column;  /* Stack left and right sections vertically */
-    height: auto;           /* Allow container to grow with content */
-    min-height: 100vh;      /* Ensure at least full screen height */
-    overflow-x: hidden;     /* Prevent horizontal scrolling */
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
   }
-
-  /* MOBILE LEFT SECTION - Text content */
   .left {
-    min-width: 100%;        /* Take full width on mobile */
-    padding: 40px 20px 20px 20px;  /* More top padding, less bottom */
-    min-height: auto;       /* Let height adjust to content */
-    flex-shrink: 0;         /* Prevent shrinking */
+    min-width: 100%;
+    padding: 40px 20px 20px 20px;
+    min-height: auto;
+    flex-shrink: 0;
   }
-
-  /* MOBILE RIGHT SECTION - Screenshot */
   .right {
-    min-width: 100%;        /* Take full width on mobile */
-    padding: 20px;          /* Consistent padding */
-    min-height: auto;       /* Let height adjust to content */
-    flex: 1;                /* Take remaining space */
+    min-width: 100%;
+    padding: 20px;
+    min-height: auto;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  /* MOBILE TYPOGRAPHY - Smaller text sizes */
   .left h1 {
-    font-size: 36px;        /* Smaller main heading for mobile */
-    margin-bottom: 30px;    /* Adjust spacing */
+    font-size: 36px;
+    margin-bottom: 30px;
   }
-
   .left h2 {
-    font-size: 20px;        /* Smaller brand title for mobile */
-    margin-bottom: 20px;    /* Reduced margin for mobile */
+    font-size: 20px;
+    margin-bottom: 20px;
   }
-
   .coming-soon {
-    font-size: 20px;        /* Smaller "Coming soon!" text */
-    left: 0;                /* Reset positioning for mobile - center naturally */
-    margin-bottom: 20px;    /* Reduced margin for mobile */
+    font-size: 20px;
+    left: 0;
+    margin-bottom: 20px;
   }
-
-  /* MOBILE SCREENSHOT - Smaller sizing */
-  .screenshot {
-    max-width: 240px;       /* Smaller on mobile */
+  .screenshot-wrapper {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
   }
-
-  /* MOBILE APP BADGES - Smaller for mobile */
   .badges {
-    gap: 10px;              /* Reduced gap between buttons */
+    gap: 10px;
   }
-
   .badges img {
-    height: 50px;           /* Smaller app store buttons */
+    height: 50px;
   }
-
-  /* MOBILE LEARN MORE BUTTON */
-  .learn-more-btn {
-    font-size: 14px;
-  }
-
-  /* MOBILE OVERLAY */
-  .overlay-content {
+  .modal {
     padding: 30px 20px;
-    max-width: 95%;
   }
-
-  .overlay-title {
+  .modal-content {
     font-size: 16px;
-    padding: 10px 20px;
-  }
-
-  .overlay-text {
-    font-size: 14px;
   }
 }
 
 /* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
 @media (max-width: 480px) {
-  /* EXTRA SMALL MOBILE ADJUSTMENTS */
   .left {
-    padding: 30px 15px 15px 15px;  /* Balanced padding for small phones */
+    padding: 30px 15px 15px 15px;
   }
-
   .right {
-    padding: 15px;          /* Consistent padding */
+    padding: 15px;
   }
-
   .left h1 {
-    font-size: 28px;        /* Even smaller heading for small phones */
-    margin-bottom: 20px;    /* Reduced margin */
+    font-size: 28px;
+    margin-bottom: 20px;
   }
-
   .left h2 {
-    font-size: 18px;        /* Smaller brand title */
-    margin-bottom: 15px;    /* Reduced margin */
+    font-size: 18px;
+    margin-bottom: 15px;
   }
-
   .coming-soon {
-    font-size: 18px;        /* Smaller "Coming soon!" text */
-    margin-bottom: 15px;    /* Reduced margin */
+    font-size: 18px;
+    margin-bottom: 15px;
   }
-
-  /* SMALLER APP STORE BUTTONS */
   .badges img {
-    height: 45px;           /* Smaller app store buttons for small phones */
+    height: 45px;
   }
-
-  /* SMALLER SCREENSHOT */
-  .screenshot {
-    max-width: 200px;       /* Even smaller on tiny phones */
+  .screenshot-wrapper {
+    max-width: 200px;
   }
-
-  /* SMALL MOBILE OVERLAY */
-  .overlay-content {
+  .modal {
     padding: 25px 15px;
   }
-
-  .overlay-title {
+  .modal-content {
     font-size: 14px;
-    padding: 8px 16px;
   }
-
-  .overlay-text {
-    font-size: 13px;
+  .modal-header {
+    font-size: 20px;
+    padding: 12px 20px;
   }
 }
