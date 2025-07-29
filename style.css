@@ -85,7 +85,7 @@ body {
   border: none;
   color: #333;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
   cursor: pointer;
   text-decoration: underline;
   margin-top: 10px;
@@ -121,8 +121,9 @@ body {
   background: white;
   border-radius: 20px;
   padding: 60px 40px 40px 40px;
-  max-width: 700px;
+  max-width: 750px;
   width: 90%;
+  min-height: 500px;
   max-height: 80vh;
   overflow-y: auto;
   position: relative;
@@ -160,8 +161,8 @@ body {
   position: absolute;
   top: 15px;
   right: 20px;
-  background: white;
-  color: #000;
+  background: #000;
+  color: white;
   border: none;
   border-radius: 50%;
   width: 40px;
