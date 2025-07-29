@@ -15,40 +15,40 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: none;
-  width: 100vw;          /* Full viewport width */
-  height: 100vh;         /* Full viewport height */
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  align-items: stretch;  /* Makes both sections equal height */
+  align-items: stretch;
   justify-content: stretch;
   gap: 0;
 }
 
 /* LEFT SECTION - Contains all text content and app store buttons */
 .left {
-  flex: 1;                    /* Takes up 50% of screen width */
+  flex: 1;
   min-width: 50%;
-  padding: 60px;             /* Overall padding around left content */
+  padding: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* Vertically centers all content */
-  align-items: center;       /* Horizontally centers all content */
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 /* TYPOGRAPHY - Controls all text elements */
 .left h2 {
-  font-size: 24px;          /* Brand title size */
-  margin-bottom: 30px;      /* Space below brand title */
+  font-size: 24px;
+  margin-bottom: 30px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
 }
 
 .left h1 {
-  font-size: 64px;          /* Main heading size */
-  line-height: 1.1;         /* Tight line spacing for heading */
-  margin: 0 0 40px;         /* Space below main heading */
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 0 0 40px;
   color: #000;
   font-weight: 700;
   letter-spacing: -1px;
@@ -57,47 +57,47 @@ body {
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
   font-weight: 600;
-  margin: 0 0 15px;         /* Reduced bottom margin to get closer to buttons */
+  margin: 0 0 15px;
   color: #333;
   font-size: 14px;
   position: relative;
-  left: 90px;              /* Increased offset to better center over Google Play button */
+  left: 90px;
 }
 
 /* APP STORE BUTTONS CONTAINER */
 .badges {
   margin-top: 0;
   display: flex;
-  gap: 15px;               /* Space between the two app store buttons */
+  gap: 15px;
 }
 
 .badges img {
-  height: 60px;            /* App store button height */
+  height: 60px;
   margin-right: 0;
   transition: transform 0.2s ease;
   cursor: pointer;
 }
 
 .badges img:hover {
-  transform: translateY(-2px);  /* Subtle hover animation */
+  transform: translateY(-2px);
 }
 
-/* RIGHT SECTION - Contains the yellow container with carousel */
+/* RIGHT SECTION - Contains the yellow container with image */
 .right {
-  flex: 1;                 /* Takes up 50% of screen width */
+  flex: 1;
   min-width: 50%;
-  padding: 40px;           /* Padding around yellow container */
+  padding: 40px;
   display: flex;
-  justify-content: center; /* Centers yellow container horizontally */
-  align-items: center;     /* Centers yellow container vertically */
+  justify-content: center;
+  align-items: center;
   background-color: #f5f5f5;
 }
 
 /* YELLOW CONTAINER - The golden background card */
 .video-card {
   background: linear-gradient(135deg, #f4d03f 0%, #f1c40f 100%);
-  padding: 80px;           /* Equal 80px padding on all sides for generous spacing */
-  border-radius: 24px;     /* Rounded corners of yellow container */
+  padding: 80px;
+  border-radius: 24px;
   width: 90%;
   max-width: 500px;
   height: 90%;
@@ -111,7 +111,7 @@ body {
   overflow: hidden;
 }
 
-/* GRADIENT OVERLAY - Adds subtle light effect to yellow container */
+/* GRADIENT OVERLAY */
 .video-card::before {
   content: '';
   position: absolute;
@@ -123,184 +123,134 @@ body {
   pointer-events: none;
 }
 
-/* WHITE INNER CONTAINER - Contains the carousel */
+/* WHITE INNER CONTAINER - Holds the image */
 .video-content {
   background: white;
-  border-radius: 16px;     /* Rounded corners of white container */
-  padding: 0;              /* Removed all padding to eliminate white space */
+  border-radius: 16px;
+  padding: 0;
   width: 100%;
-  max-width: 280px;        /* Smaller max width for smaller carousel */
-  height: auto;            /* Let height adjust to content */
+  max-width: 280px;
+  height: auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   position: relative;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;        /* Ensures images conform to container's rounded corners */
+  overflow: hidden;
 }
 
-/* CAROUSEL CONTAINER - Controls screenshot slideshow */
-.carousel {
-  overflow: hidden;        /* Hides images outside the visible area */
+/* STATIC IMAGE - Replaces carousel */
+.static-screenshot {
   width: 100%;
-  max-width: 100%;         /* Take full width of white container */
-  height: auto;            /* Let height adjust to content */
-  border-radius: 16px;     /* Match the white container's border radius */
-  box-shadow: none;        /* Remove shadow since white container has it */
-}
-
-/* CAROUSEL TRACK - Contains all sliding images */
-.carousel-track {
-  display: flex;           /* Lines up images horizontally */
-  animation: slide 21s infinite ease-in-out;  /* 21 seconds total, 3 per image */
-}
-
-/* INDIVIDUAL SCREENSHOTS */
-.carousel-track img {
-  width: 100%;            /* Each image takes full width of carousel */
-  flex-shrink: 0;         /* Prevents images from compressing */
-}
-
-/* CAROUSEL ANIMATION - Cycles through all 7 screenshots */
-@keyframes slide {
-  0%   { transform: translateX(0%); }
-  14%  { transform: translateX(0%); }
-  16%  { transform: translateX(-100%); }
-  30%  { transform: translateX(-100%); }
-  32%  { transform: translateX(-200%); }
-  46%  { transform: translateX(-200%); }
-  48%  { transform: translateX(-300%); }
-  62%  { transform: translateX(-300%); }
-  64%  { transform: translateX(-400%); }
-  78%  { transform: translateX(-400%); }
-  80%  { transform: translateX(-500%); }
-  94%  { transform: translateX(-500%); }
-  96%  { transform: translateX(-600%); }
-  100% { transform: translateX(-600%); }
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
 /* RESPONSIVE DESIGN FOR MOBILE AND TABLETS */
 @media (max-width: 768px) {
-  /* MOBILE LAYOUT - Stack sections vertically */
   .container {
-    flex-direction: column;  /* Stack left and right sections vertically */
-    height: auto;           /* Allow container to grow with content */
-    min-height: 100vh;      /* Ensure at least full screen height */
-    overflow-x: hidden;     /* Prevent horizontal scrolling */
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
   }
 
-  /* MOBILE LEFT SECTION - Text content */
   .left {
-    min-width: 100%;        /* Take full width on mobile */
-    padding: 40px 20px 20px 20px;  /* More top padding, less bottom */
-    min-height: auto;       /* Let height adjust to content */
-    flex-shrink: 0;         /* Prevent shrinking */
+    min-width: 100%;
+    padding: 40px 20px 20px 20px;
+    min-height: auto;
+    flex-shrink: 0;
   }
 
-  /* MOBILE RIGHT SECTION - Yellow container */
   .right {
-    min-width: 100%;        /* Take full width on mobile */
-    padding: 20px;          /* Consistent padding */
-    min-height: auto;       /* Let height adjust to content */
-    flex: 1;                /* Take remaining space */
+    min-width: 100%;
+    padding: 20px;
+    min-height: auto;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  /* MOBILE TYPOGRAPHY - Smaller text sizes */
   .left h1 {
-    font-size: 36px;        /* Smaller main heading for mobile */
-    margin-bottom: 30px;    /* Adjust spacing */
+    font-size: 36px;
+    margin-bottom: 30px;
   }
 
   .left h2 {
-    font-size: 20px;        /* Smaller brand title for mobile */
-    margin-bottom: 20px;    /* Reduced margin for mobile */
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
   .coming-soon {
-    font-size: 20px;        /* Smaller "Coming soon!" text */
-    left: 0;                /* Reset positioning for mobile - center naturally */
-    margin-bottom: 20px;    /* Reduced margin for mobile */
+    font-size: 20px;
+    left: 0;
+    margin-bottom: 20px;
   }
 
-  /* MOBILE YELLOW CONTAINER - Better proportions */
   .video-card {
-    width: 90%;             /* Take most of the width */
-    height: auto;           /* Let height adjust to content */
-    max-width: 400px;       /* Reasonable max width */
-    max-height: none;       /* Remove height restriction */
-    padding: 40px 30px;     /* Balanced padding for mobile */
-    margin: 0 auto;         /* Center the container */
-    min-height: 300px;      /* Ensure minimum height */
+    width: 90%;
+    height: auto;
+    max-width: 400px;
+    max-height: none;
+    padding: 40px 30px;
+    margin: 0 auto;
+    min-height: 300px;
   }
 
-  /* MOBILE WHITE CONTAINER - Smaller sizing */
   .video-content {
-    max-width: 240px;       /* Smaller on mobile */
+    max-width: 240px;
     width: 100%;
-    height: auto;           /* Let height adjust automatically */
+    height: auto;
   }
 
-  /* MOBILE CAROUSEL - Smaller sizing */
-  .carousel {
-    max-width: 100%;        /* Take full width available */
-    height: auto;           /* Let height adjust automatically */
-  }
-
-  /* MOBILE APP BADGES - Smaller for mobile */
   .badges {
-    gap: 10px;              /* Reduced gap between buttons */
+    gap: 10px;
   }
 
   .badges img {
-    height: 50px;           /* Smaller app store buttons */
+    height: 50px;
   }
 }
 
 /* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
 @media (max-width: 480px) {
-  /* EXTRA SMALL MOBILE ADJUSTMENTS */
   .left {
-    padding: 30px 15px 15px 15px;  /* Balanced padding for small phones */
+    padding: 30px 15px 15px 15px;
   }
 
   .right {
-    padding: 15px;          /* Consistent padding */
+    padding: 15px;
   }
 
   .left h1 {
-    font-size: 28px;        /* Even smaller heading for small phones */
-    margin-bottom: 20px;    /* Reduced margin */
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .left h2 {
-    font-size: 18px;        /* Smaller brand title */
-    margin-bottom: 15px;    /* Reduced margin */
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 
   .coming-soon {
-    font-size: 18px;        /* Smaller "Coming soon!" text */
-    margin-bottom: 15px;    /* Reduced margin */
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 
-  /* SMALLER APP STORE BUTTONS */
   .badges img {
-    height: 45px;           /* Smaller app store buttons for small phones */
+    height: 45px;
   }
 
-  /* SMALL MOBILE YELLOW CONTAINER - Compact design */
   .video-card {
-    width: 85%;             /* Smaller width for tiny screens */
-    padding: 30px 20px;     /* Reduced padding for small phones */
-    min-height: 250px;      /* Smaller minimum height */
-    max-width: 300px;       /* Smaller max width */
+    width: 85%;
+    padding: 30px 20px;
+    min-height: 250px;
+    max-width: 300px;
   }
 
-  /* SMALLER WHITE CONTAINER */
   .video-content {
-    max-width: 200px;       /* Even smaller on tiny phones */
+    max-width: 200px;
   }
 }
