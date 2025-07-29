@@ -1,205 +1,85 @@
-/* LAYOUT STRUCTURE */
-* {
-  box-sizing: border-box;
+/* Learn More Link */
+.learn-more-link {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  transition: opacity 0.2s;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #FAD37C;
-  margin: 0;
-  padding: 0;
+.learn-more-link:hover {
+  opacity: 0.7;
 }
 
-/* MAIN CONTAINER - Controls the overall page layout */
-.container {
+/* Slide Overlay */
+.slide-overlay {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
   display: flex;
-  flex-wrap: wrap;
-  max-width: none;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  align-items: stretch;
-  justify-content: stretch;
-  gap: 0;
-}
-
-/* LEFT SECTION - Contains all text content and app store buttons */
-.left {
-  flex: 1;
-  min-width: 50%;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: bottom 0.4s ease;
+  z-index: 1000;
+}
+
+/* Active state */
+.slide-overlay.active {
+  bottom: 0;
+}
+
+/* Modal Box */
+.overlay-content {
+  background: #fff;
+  padding: 40px;
+  border-radius: 24px;
+  max-width: 600px;
+  width: 90%;
   text-align: center;
+  position: relative;
+  animation: slideUp 0.4s ease forwards;
 }
 
-/* TYPOGRAPHY - Controls all text elements */
-.left h2 {
-  font-size: 44px;
-  margin-bottom: 30px;
-  color: #333;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-}
-
-.left h1 {
-  font-size: 84px;
-  line-height: 1.1;
-  margin: 0 0 40px;
+/* Header Pill */
+.header-pill {
+  background-color: #fad37c;
   color: #000;
   font-weight: 700;
-  letter-spacing: -1px;
+  padding: 10px 24px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
-/* COMING SOON TEXT - Positioned above Google Play button */
-.coming-soon {
-  font-weight: 600;
-  margin: 0 0 5px;
-  color: #333;
-  font-size: 14px;
-  position: relative;
-  left: 90px;
-}
-
-/* APP STORE BUTTONS CONTAINER */
-.badges {
-  margin-top: 0;
-  display: flex;
-  gap: 15px;
-}
-
-.badges img {
-  height: 60px;
-  margin-right: 0;
-  transition: transform 0.2s ease;
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: #666;
   cursor: pointer;
+  font-weight: bold;
 }
 
-.badges img:hover {
-  transform: translateY(-2px);
+.close-btn:hover {
+  color: #000;
 }
 
-/* RIGHT SECTION - Now contains only the static screenshot container */
-.right {
-  flex: 1;
-  min-width: 50%;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FAD37C;
-}
-
-/* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
-.screenshot-wrapper {
-  background: white;
-  border-radius: 16px;
-  padding: 0;
-  width: 100%;
-  max-width: 280px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-/* STATIC IMAGE */
-.static-screenshot {
-  width: 100%;
-  border-radius: 16px;
-}
-
-/* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    height: auto;
-    min-height: 100vh;
-    overflow-x: hidden;
+/* Slide Up Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
   }
-
-  .left {
-    min-width: 100%;
-    padding: 40px 20px 20px 20px;
-    min-height: auto;
-    flex-shrink: 0;
-  }
-
-  .right {
-    min-width: 100%;
-    padding: 20px;
-    min-height: auto;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .left h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-
-  .left h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  .coming-soon {
-    font-size: 20px;
-    left: 0;
-    margin-bottom: 20px;
-  }
-
-  .screenshot-wrapper {
-    max-width: 240px;
-    width: 100%;
-    height: auto;
-  }
-
-  .badges {
-    gap: 10px;
-  }
-
-  .badges img {
-    height: 50px;
-  }
-}
-
-/* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
-@media (max-width: 480px) {
-  .left {
-    padding: 30px 15px 15px 15px;
-  }
-
-  .right {
-    padding: 15px;
-  }
-
-  .left h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-
-  .left h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-
-  .coming-soon {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-
-  .badges img {
-    height: 45px;
-  }
-
-  .screenshot-wrapper {
-    max-width: 200px;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
