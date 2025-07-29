@@ -117,7 +117,7 @@ body {
 .video-content {
   background: white;
   border-radius: 16px;
-  padding: 40px;
+  padding: 20px;
   width: 100%;
   max-width: 320px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
@@ -131,14 +131,14 @@ body {
 .carousel {
   overflow: hidden;
   width: 100%;
-  max-width: 240px;
-  border-radius: 15px;
+  max-width: 280px;
+  border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .carousel-track {
   display: flex;
-  animation: slide 9s infinite ease-in-out;
+  animation: slide 21s infinite ease-in-out;
 }
 
 .carousel-track img {
@@ -148,11 +148,19 @@ body {
 
 @keyframes slide {
   0%   { transform: translateX(0%); }
-  33%  { transform: translateX(0%); }
-  36%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-100%); }
-  69%  { transform: translateX(-200%); }
-  100% { transform: translateX(-200%); }
+  14%  { transform: translateX(0%); }
+  16%  { transform: translateX(-100%); }
+  30%  { transform: translateX(-100%); }
+  32%  { transform: translateX(-200%); }
+  46%  { transform: translateX(-200%); }
+  48%  { transform: translateX(-300%); }
+  62%  { transform: translateX(-300%); }
+  64%  { transform: translateX(-400%); }
+  78%  { transform: translateX(-400%); }
+  80%  { transform: translateX(-500%); }
+  94%  { transform: translateX(-500%); }
+  96%  { transform: translateX(-600%); }
+  100% { transform: translateX(-600%); }
 }
 
 /* Responsive Design */
