@@ -196,7 +196,7 @@ body {
   border-radius: 16px;
   padding: 0;
   width: 100%;
-  max-width: 280px;
+  max-width: 200px;
   height: auto;
   display: flex;
   align-items: center;
@@ -247,7 +247,7 @@ body {
     margin-bottom: 20px;
   }
   .screenshot-wrapper {
-    max-width: 240px;
+    max-width: 180px;
     width: 100%;
     height: auto;
   }
@@ -289,7 +289,7 @@ body {
     height: 45px;
   }
   .screenshot-wrapper {
-    max-width: 200px;
+    max-width: 150px;
   }
   .modal {
     padding: 25px 15px;
