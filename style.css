@@ -60,7 +60,7 @@ body {
   font-size: 14px;
   position: relative;
   left: 95px;
-  background-color: #FFB512;
+  background-color: #FFB614;
   border-radius: 25px;
   padding: 8px 20px;
   width: fit-content;
@@ -70,13 +70,13 @@ body {
 /* COLOR PULSE ANIMATION */
 @keyframes colorPulse {
   0% {
-    background-color: #FFB512;
+    background-color: #FFB614;
   }
   50% {
     background-color: #FFC035;
   }
   100% {
-    background-color: #FFB512;
+    background-color: #FFB614;
   }
 }
 
