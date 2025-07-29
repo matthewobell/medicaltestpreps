@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center; /* Centers yellow container horizontally */
   align-items: center;     /* Centers yellow container vertically */
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 }
 
 /* YELLOW CONTAINER - The golden background card */
@@ -129,7 +129,8 @@ body {
   border-radius: 16px;     /* Rounded corners of white container */
   padding: 0;              /* Removed all padding to eliminate white space */
   width: 100%;
-  max-width: 320px;
+  max-width: 280px;        /* Smaller max width for smaller carousel */
+  height: auto;            /* Let height adjust to content */
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   position: relative;
   z-index: 1;
@@ -144,6 +145,7 @@ body {
   overflow: hidden;        /* Hides images outside the visible area */
   width: 100%;
   max-width: 100%;         /* Take full width of white container */
+  height: auto;            /* Let height adjust to content */
   border-radius: 16px;     /* Match the white container's border radius */
   box-shadow: none;        /* Remove shadow since white container has it */
 }
@@ -191,23 +193,26 @@ body {
   /* MOBILE LEFT SECTION - Text content */
   .left {
     min-width: 100%;        /* Take full width on mobile */
-    padding: 30px 20px;     /* Reduced padding for mobile */
-    min-height: 50vh;       /* Give text section adequate space */
+    padding: 40px 20px 20px 20px;  /* More top padding, less bottom */
+    min-height: auto;       /* Let height adjust to content */
     flex-shrink: 0;         /* Prevent shrinking */
   }
 
   /* MOBILE RIGHT SECTION - Yellow container */
   .right {
     min-width: 100%;        /* Take full width on mobile */
-    padding: 15px;          /* Minimal padding to prevent cropping */
-    min-height: 50vh;       /* Ensure adequate height for carousel */
-    max-height: 50vh;       /* Limit height to prevent overflow */
-    flex-shrink: 0;         /* Prevent shrinking */
+    padding: 20px;          /* Consistent padding */
+    min-height: auto;       /* Let height adjust to content */
+    flex: 1;                /* Take remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* MOBILE TYPOGRAPHY - Smaller text sizes */
   .left h1 {
     font-size: 36px;        /* Smaller main heading for mobile */
+    margin-bottom: 30px;    /* Adjust spacing */
   }
 
   .left h2 {
@@ -221,24 +226,25 @@ body {
     margin-bottom: 20px;    /* Reduced margin for mobile */
   }
 
-  /* MOBILE YELLOW CONTAINER - Prevent cropping */
+  /* MOBILE YELLOW CONTAINER - Better proportions */
   .video-card {
-    width: 95%;             /* Slightly smaller to ensure it fits */
-    height: 85%;            /* Reduce height to fit in viewport */
-    max-width: none;        /* Remove max-width restriction */
-    max-height: 400px;      /* Set reasonable max height for mobile */
-    padding: 40px 20px;     /* Significantly reduced padding for mobile */
+    width: 90%;             /* Take most of the width */
+    height: auto;           /* Let height adjust to content */
+    max-width: 400px;       /* Reasonable max width */
+    max-height: none;       /* Remove height restriction */
+    padding: 40px 30px;     /* Balanced padding for mobile */
     margin: 0 auto;         /* Center the container */
+    min-height: 300px;      /* Ensure minimum height */
   }
 
-  /* MOBILE WHITE CONTAINER - Adjusted sizing */
+  /* MOBILE WHITE CONTAINER - Smaller sizing */
   .video-content {
-    max-width: 100%;        /* Take full width available */
+    max-width: 240px;       /* Smaller on mobile */
     width: 100%;
     height: auto;           /* Let height adjust automatically */
   }
 
-  /* MOBILE CAROUSEL - Adjusted sizing */
+  /* MOBILE CAROUSEL - Smaller sizing */
   .carousel {
     max-width: 100%;        /* Take full width available */
     height: auto;           /* Let height adjust automatically */
@@ -258,14 +264,11 @@ body {
 @media (max-width: 480px) {
   /* EXTRA SMALL MOBILE ADJUSTMENTS */
   .left {
-    padding: 20px 15px;     /* Even less padding for small phones */
-    min-height: 45vh;       /* Adjust height distribution */
+    padding: 30px 15px 15px 15px;  /* Balanced padding for small phones */
   }
 
   .right {
-    padding: 10px;          /* Minimal padding to prevent cropping */
-    min-height: 45vh;       /* Adjust height distribution */
-    max-height: 45vh;       /* Prevent overflow */
+    padding: 15px;          /* Consistent padding */
   }
 
   .left h1 {
@@ -285,14 +288,19 @@ body {
 
   /* SMALLER APP STORE BUTTONS */
   .badges img {
-    height: 40px;           /* Even smaller app store buttons for small phones */
+    height: 45px;           /* Smaller app store buttons for small phones */
   }
 
-  /* SMALL MOBILE YELLOW CONTAINER - Prevent cropping */
+  /* SMALL MOBILE YELLOW CONTAINER - Compact design */
   .video-card {
-    width: 90%;             /* Ensure it fits within screen */
-    height: 80%;            /* Reduce height further */
-    max-height: 300px;      /* Even smaller max height for tiny screens */
-    padding: 25px 15px;     /* Minimal padding for small phones */
+    width: 85%;             /* Smaller width for tiny screens */
+    padding: 30px 20px;     /* Reduced padding for small phones */
+    min-height: 250px;      /* Smaller minimum height */
+    max-width: 300px;       /* Smaller max width */
+  }
+
+  /* SMALLER WHITE CONTAINER */
+  .video-content {
+    max-width: 200px;       /* Even smaller on tiny phones */
   }
 }
