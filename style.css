@@ -55,6 +55,8 @@ body {
   margin: 0 0 30px;
   color: #333;
   font-size: 24px;
+  position: relative;
+  left: 37.5px; /* Half the width of one badge plus half the gap (60px/2 + 15px/2) */
 }
 
 .badges {
