@@ -42,6 +42,30 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    function openModal() {
+      const overlay = document.getElementById('overlay');
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    function closeModal(event) {
+      // Only close if clicking the overlay itself or the close button
+      if (event && event.target !== document.getElementById('overlay') && !event.target.classList.contains('close-btn')) {
+        return;
+      }
+      
+      const overlay = document.getElementById('overlay');
+      overlay.classList.remove('active');
+      document.body.style.overflow = 'auto'; // Restore scrolling
+    }
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    });
+  </script>
 </body>
 </html>
