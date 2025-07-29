@@ -9,23 +9,6 @@ body {
   padding: 0;
 }
 
-/* FORCE PORTRAIT LAYOUT - Override landscape on mobile */
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  .container {
-    transform: rotate(90deg);
-    transform-origin: center center;
-    width: 100vh;
-    height: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-  body {
-    overflow: hidden;
-  }
-}
-
 /* MAIN CONTAINER - Controls the overall page layout */
 .container {
   display: flex;
