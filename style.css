@@ -34,7 +34,7 @@ body {
 }
 
 .left h2 {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 30px;
   color: #333;
   font-weight: 600;
@@ -42,7 +42,7 @@ body {
 }
 
 .left h1 {
-  font-size: 48px;
+  font-size: 64px;
   line-height: 1.1;
   margin: 0 0 40px;
   color: #000;
@@ -51,10 +51,10 @@ body {
 }
 
 .coming-soon {
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 30px;
-  color: #666;
-  font-size: 16px;
+  color: #333;
+  font-size: 24px;
 }
 
 .badges {
@@ -90,8 +90,8 @@ body {
   border-radius: 24px;
   width: 90%;
   max-width: 500px;
-  height: 80%;
-  max-height: 600px;
+  height: 90%;
+  max-height: 700px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   text-align: center;
   display: flex;
