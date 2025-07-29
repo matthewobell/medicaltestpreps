@@ -57,7 +57,7 @@ body {
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
   font-weight: 600;
-  margin: 0 0 15px;
+  margin: 0 0 5px;
   color: #333;
   font-size: 14px;
   position: relative;
