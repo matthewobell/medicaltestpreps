@@ -102,13 +102,13 @@ body {
   height: 100%;
 }
 
-/* SINGLE SCREENSHOT - The static screenshot image */
+/* SINGLE SCREENSHOT - The static screenshot image (screenshot1.png) */
 .screenshot {
-  max-width: 280px;        /* Same size as the old carousel */
+  max-width: 280px;        /* Maximum width of the screenshot */
   width: 100%;
   height: auto;            /* Maintain aspect ratio */
-  border-radius: 16px;     /* Rounded corners like the old white container */
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);  /* Same shadow as old white container */
+  border-radius: 16px;     /* Rounded corners */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);  /* Drop shadow */
   object-fit: cover;       /* Ensure image covers the area properly */
 }
 
