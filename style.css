@@ -101,7 +101,6 @@ body {
   width: 100%;
   max-width: 280px;
   height: auto;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
