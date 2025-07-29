@@ -160,8 +160,8 @@ body {
   position: absolute;
   top: 15px;
   right: 20px;
-  background: #000;
-  color: white;
+  background: white;
+  color: #000;
   border: none;
   border-radius: 50%;
   width: 40px;
