@@ -268,8 +268,8 @@ body {
   }
   .coming-soon {
     font-size: 12px;
-    left: 80px;
-    margin-bottom: 10px;
+    left: 60px;
+    margin-bottom: 5px;
     padding: 6px 16px;
   }
   .screenshot-wrapper {
@@ -309,7 +309,7 @@ body {
   }
   .coming-soon {
     font-size: 11px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 5px 14px;
   }
   .badges img {
