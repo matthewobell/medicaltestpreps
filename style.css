@@ -54,16 +54,30 @@ body {
 
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 0 5px;
   color: #333;
   font-size: 14px;
   position: relative;
-  left: 93px;
-  background-color: #FF9999;
+  left: 90px;
+  background-color: #ccc;
   border-radius: 25px;
   padding: 8px 20px;
   width: fit-content;
+  animation: colorPulse 2s ease-in-out infinite;
+}
+
+/* COLOR PULSE ANIMATION */
+@keyframes colorPulse {
+  0% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: #999;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
 
 /* APP STORE BUTTONS CONTAINER */
