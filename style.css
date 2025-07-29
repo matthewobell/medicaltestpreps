@@ -124,7 +124,7 @@ body {
 .modal {
   background: white;
   border-radius: 20px;
-  padding: 60px 40px 40px 40px;
+  padding: 50px 40px;
   max-width: 750px;
   width: 90%;
   min-height: 500px;
@@ -133,6 +133,9 @@ body {
   position: relative;
   transform: translateY(20px);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .overlay.active .modal {
