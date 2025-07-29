@@ -82,7 +82,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* RIGHT SECTION - Contains the yellow container with image */
+/* RIGHT SECTION - Now contains only the static screenshot container */
 .right {
   flex: 1;
   min-width: 50%;
@@ -93,38 +93,8 @@ body {
   background-color: #f5f5f5;
 }
 
-/* YELLOW CONTAINER - The golden background card */
-.video-card {
-  background: linear-gradient(135deg, #f4d03f 0%, #f1c40f 100%);
-  padding: 80px;
-  border-radius: 24px;
-  width: 90%;
-  max-width: 500px;
-  height: 90%;
-  max-height: 700px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-/* GRADIENT OVERLAY */
-.video-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-/* WHITE INNER CONTAINER - Holds the image */
-.video-content {
+/* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
+.screenshot-wrapper {
   background: white;
   border-radius: 16px;
   padding: 0;
@@ -132,22 +102,20 @@ body {
   max-width: 280px;
   height: auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-  position: relative;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-/* STATIC IMAGE - Replaces carousel */
+/* STATIC IMAGE */
 .static-screenshot {
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-/* RESPONSIVE DESIGN FOR MOBILE AND TABLETS */
+/* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -189,17 +157,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .video-card {
-    width: 90%;
-    height: auto;
-    max-width: 400px;
-    max-height: none;
-    padding: 40px 30px;
-    margin: 0 auto;
-    min-height: 300px;
-  }
-
-  .video-content {
+  .screenshot-wrapper {
     max-width: 240px;
     width: 100%;
     height: auto;
@@ -243,14 +201,7 @@ body {
     height: 45px;
   }
 
-  .video-card {
-    width: 85%;
-    padding: 30px 20px;
-    min-height: 250px;
-    max-width: 300px;
-  }
-
-  .video-content {
+  .screenshot-wrapper {
     max-width: 200px;
   }
 }
