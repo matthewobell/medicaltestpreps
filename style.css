@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center; /* Centers yellow container horizontally */
   align-items: center;     /* Centers yellow container vertically */
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 /* YELLOW CONTAINER - The golden background card */
