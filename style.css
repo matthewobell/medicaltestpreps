@@ -15,40 +15,40 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: none;
-  width: 100vw;
-  height: 100vh;
+  width: 100vw;          /* Full viewport width */
+  height: 100vh;         /* Full viewport height */
   margin: 0;
   padding: 0;
-  align-items: stretch;
+  align-items: stretch;  /* Makes both sections equal height */
   justify-content: stretch;
   gap: 0;
 }
 
 /* LEFT SECTION - Contains all text content and app store buttons */
 .left {
-  flex: 1;
+  flex: 1;                    /* Takes up 50% of screen width */
   min-width: 50%;
-  padding: 60px;
+  padding: 60px;             /* Overall padding around left content */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;   /* Vertically centers all content */
+  align-items: center;       /* Horizontally centers all content */
   text-align: center;
 }
 
 /* TYPOGRAPHY - Controls all text elements */
 .left h2 {
-  font-size: 44px;
-  margin-bottom: 30px;
+  font-size: 24px;          /* Brand title size */
+  margin-bottom: 30px;      /* Space below brand title */
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
 }
 
 .left h1 {
-  font-size: 84px;
-  line-height: 1.1;
-  margin: 0 0 40px;
+  font-size: 64px;          /* Main heading size */
+  line-height: 1.1;         /* Tight line spacing for heading */
+  margin: 0 0 40px;         /* Space below main heading */
   color: #000;
   font-weight: 700;
   letter-spacing: -1px;
@@ -57,149 +57,300 @@ body {
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
   font-weight: 600;
-  margin: 0 0 5px;
+  margin: 0 0 5px;          /* Reduced bottom margin to get closer to buttons */
   color: #333;
   font-size: 14px;
   position: relative;
-  left: 90px;
+  left: 90px;               /* Increased offset to better center over Google Play button */
 }
 
 /* APP STORE BUTTONS CONTAINER */
 .badges {
   margin-top: 0;
+  margin-bottom: 20px;      /* Space below badges for the learn more button */
   display: flex;
-  gap: 15px;
+  gap: 15px;               /* Space between the two app store buttons */
 }
 
 .badges img {
-  height: 60px;
+  height: 60px;            /* App store button height */
   margin-right: 0;
   transition: transform 0.2s ease;
   cursor: pointer;
 }
 
 .badges img:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px);  /* Subtle hover animation */
 }
 
-/* RIGHT SECTION - Now contains only the static screenshot container */
+/* LEARN MORE BUTTON */
+.learn-more-btn {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+  font-family: inherit;
+  text-decoration: underline;
+}
+
+.learn-more-btn:hover {
+  color: #000;
+  transform: translateX(5px);
+}
+
+/* RIGHT SECTION - Contains the screenshot */
 .right {
-  flex: 1;
+  flex: 1;                 /* Takes up 50% of screen width */
   min-width: 50%;
-  padding: 40px;
+  padding: 40px;           /* Padding around screenshot */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Centers screenshot horizontally */
+  align-items: center;     /* Centers screenshot vertically */
   background-color: #FAD37C;
 }
 
-/* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
-.screenshot-wrapper {
-  background: white;
-  border-radius: 16px;
-  padding: 0;
+/* SCREENSHOT CONTAINER - Simple container for the single screenshot */
+.screenshot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  max-width: 280px;
-  height: auto;
+  height: 100%;
+}
+
+/* SINGLE SCREENSHOT - The static screenshot image (screenshot1.png) */
+.screenshot {
+  max-width: 280px;        /* Maximum width of the screenshot */
+  width: 100%;
+  height: auto;            /* Maintain aspect ratio */
+  border-radius: 16px;     /* Rounded corners */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);  /* Drop shadow */
+  object-fit: cover;       /* Ensure image covers the area properly */
+}
+
+/* OVERLAY STYLES */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay-content {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  transform: translateY(50px);
+  transition: transform 0.3s ease;
+}
+
+.overlay.active .overlay-content {
+  transform: translateY(0);
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* STATIC IMAGE */
-.static-screenshot {
-  width: 100%;
-  border-radius: 16px;
+.close-btn:hover {
+  background-color: #f0f0f0;
+  color: #000;
 }
 
-/* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
+.overlay-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.overlay-title {
+  background: linear-gradient(135deg, #f4d03f 0%, #f1c40f 100%);
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.overlay-text {
+  line-height: 1.6;
+  color: #333;
+  font-size: 16px;
+}
+
+.overlay-text p {
+  margin-bottom: 20px;
+}
+
+.overlay-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE AND TABLETS */
 @media (max-width: 768px) {
+  /* MOBILE LAYOUT - Stack sections vertically */
   .container {
-    flex-direction: column;
-    height: auto;
-    min-height: 100vh;
-    overflow-x: hidden;
+    flex-direction: column;  /* Stack left and right sections vertically */
+    height: auto;           /* Allow container to grow with content */
+    min-height: 100vh;      /* Ensure at least full screen height */
+    overflow-x: hidden;     /* Prevent horizontal scrolling */
   }
 
+  /* MOBILE LEFT SECTION - Text content */
   .left {
-    min-width: 100%;
-    padding: 40px 20px 20px 20px;
-    min-height: auto;
-    flex-shrink: 0;
+    min-width: 100%;        /* Take full width on mobile */
+    padding: 40px 20px 20px 20px;  /* More top padding, less bottom */
+    min-height: auto;       /* Let height adjust to content */
+    flex-shrink: 0;         /* Prevent shrinking */
   }
 
+  /* MOBILE RIGHT SECTION - Screenshot */
   .right {
-    min-width: 100%;
-    padding: 20px;
-    min-height: auto;
-    flex: 1;
+    min-width: 100%;        /* Take full width on mobile */
+    padding: 20px;          /* Consistent padding */
+    min-height: auto;       /* Let height adjust to content */
+    flex: 1;                /* Take remaining space */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+  /* MOBILE TYPOGRAPHY - Smaller text sizes */
   .left h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 36px;        /* Smaller main heading for mobile */
+    margin-bottom: 30px;    /* Adjust spacing */
   }
 
   .left h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 20px;        /* Smaller brand title for mobile */
+    margin-bottom: 20px;    /* Reduced margin for mobile */
   }
 
   .coming-soon {
-    font-size: 20px;
-    left: 0;
-    margin-bottom: 20px;
+    font-size: 20px;        /* Smaller "Coming soon!" text */
+    left: 0;                /* Reset positioning for mobile - center naturally */
+    margin-bottom: 20px;    /* Reduced margin for mobile */
   }
 
-  .screenshot-wrapper {
-    max-width: 240px;
-    width: 100%;
-    height: auto;
+  /* MOBILE SCREENSHOT - Smaller sizing */
+  .screenshot {
+    max-width: 240px;       /* Smaller on mobile */
   }
 
+  /* MOBILE APP BADGES - Smaller for mobile */
   .badges {
-    gap: 10px;
+    gap: 10px;              /* Reduced gap between buttons */
   }
 
   .badges img {
-    height: 50px;
+    height: 50px;           /* Smaller app store buttons */
+  }
+
+  /* MOBILE LEARN MORE BUTTON */
+  .learn-more-btn {
+    font-size: 14px;
+  }
+
+  /* MOBILE OVERLAY */
+  .overlay-content {
+    padding: 30px 20px;
+    max-width: 95%;
+  }
+
+  .overlay-title {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .overlay-text {
+    font-size: 14px;
   }
 }
 
 /* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
 @media (max-width: 480px) {
+  /* EXTRA SMALL MOBILE ADJUSTMENTS */
   .left {
-    padding: 30px 15px 15px 15px;
+    padding: 30px 15px 15px 15px;  /* Balanced padding for small phones */
   }
 
   .right {
-    padding: 15px;
+    padding: 15px;          /* Consistent padding */
   }
 
   .left h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 28px;        /* Even smaller heading for small phones */
+    margin-bottom: 20px;    /* Reduced margin */
   }
 
   .left h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 18px;        /* Smaller brand title */
+    margin-bottom: 15px;    /* Reduced margin */
   }
 
   .coming-soon {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 18px;        /* Smaller "Coming soon!" text */
+    margin-bottom: 15px;    /* Reduced margin */
   }
 
+  /* SMALLER APP STORE BUTTONS */
   .badges img {
-    height: 45px;
+    height: 45px;           /* Smaller app store buttons for small phones */
   }
 
-  .screenshot-wrapper {
-    max-width: 200px;
+  /* SMALLER SCREENSHOT */
+  .screenshot {
+    max-width: 200px;       /* Even smaller on tiny phones */
+  }
+
+  /* SMALL MOBILE OVERLAY */
+  .overlay-content {
+    padding: 25px 15px;
+  }
+
+  .overlay-title {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .overlay-text {
+    font-size: 13px;
   }
 }
