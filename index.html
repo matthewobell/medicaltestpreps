@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
   <main class="container">
@@ -17,7 +17,7 @@
         <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
       </div>
       
-      <!-- New Navigation Buttons -->
+      <!-- Navigation Buttons -->
       <div class="nav-buttons">
         <a href="about.html" class="nav-btn">About us</a>
         <a href="contact.html" class="nav-btn">Contact</a>
@@ -25,14 +25,12 @@
     </section>
     
     <section class="right">
-      <div class="video-card">
-        <div class="video-content">
-          <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
-        </div>
+      <div class="screenshot-wrapper">
+        <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
       </div>
     </section>
   </main>
-
+  
   <!-- Overlay Modal -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
@@ -49,7 +47,7 @@
       </div>
     </div>
   </div>
-
+  
   <script>
     function openModal() {
       const overlay = document.getElementById('overlay');
