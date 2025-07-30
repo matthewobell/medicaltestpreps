@@ -435,18 +435,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* LAYOUT STRUCTURE */
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #fad37c;
-  margin: 0;
-  padding: 0;
-}
-
 /* MAIN CONTAINER - Controls the overall page layout */
 .container {
   display: flex;
