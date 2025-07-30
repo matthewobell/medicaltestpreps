@@ -248,12 +248,14 @@ body {
   min-height: 100vh;
   padding: 80px 60px;
   background-color: #FAD37C;
+  text-align: center;
 }
 
 .page-title {
-  font-size: 64px;
-  color: #000;
-  font-weight: 700;
+  font-size: 44px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -0.2px;
   margin-bottom: 40px;
   line-height: 1.1;
 }
