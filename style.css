@@ -101,7 +101,7 @@ body {
 .nav-buttons {
   display: flex;
   gap: 40px;
-  margin-top: 15px;
+  margin-top: 5px;
   justify-content: center;
 }
 
