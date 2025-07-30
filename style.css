@@ -54,15 +54,14 @@ body {
 /* COMING SOON */
 .coming-soon {
   font-weight: 700;
-  margin: 0 0 5px;
+  margin-top: -20px;
+  margin-bottom: 20px;
   color: #000;
   font-size: 14px;
-  position: relative;
-  left: 95px;
   background-color: #FFB614;
   border-radius: 25px;
   padding: 8px 20px;
-  width: fit-content;
+  display: inline-block;
   animation: colorPulse 2s ease-in-out infinite;
 }
 
@@ -117,21 +116,21 @@ body {
 }
 
 .screenshot-wrapper {
-  background: transparent;
+  background: white;
   border-radius: 35px;
-  padding: 0;
+  padding: 20px;
   width: 100%;
-  max-width: 400px;
-  height: auto;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 40px auto;
 }
 
 .static-screenshot {
   width: 100%;
-  border-radius: 35px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 
 /* PAGE STRUCTURE */
@@ -264,32 +263,37 @@ body {
 
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .screenshot-wrapper {
+    max-width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
   .left h1 {
     font-size: 38px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-    font-weight: 700;
+    margin-bottom: 10px;
   }
 
   .left h2 {
     font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
-    line-height: 1.2;
+    margin-bottom: 0;
   }
 
   .badges {
     flex-direction: column;
-    align-items: center;
     gap: 12px;
   }
 
   .nav-buttons {
-    margin-top: 20px;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
   }
+}
 
   .nav-btn {
     font-size: 20px;
