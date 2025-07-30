@@ -234,6 +234,27 @@ body {
   overflow: hidden;
 }
 
+/* VIDEO CARD STRUCTURE - For larger screenshot */
+.video-card {
+  background: white;
+  border-radius: 16px;
+  padding: 0;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .static-screenshot {
   width: 100%;
   border-radius: 16px;
@@ -483,7 +504,8 @@ body {
     padding: 6px 16px;
   }
   
-  .screenshot-wrapper {
+  .screenshot-wrapper,
+  .video-card {
     max-width: 250px;
     width: 100%;
     height: auto;
@@ -652,7 +674,8 @@ body {
     height: 45px;
   }
   
-  .screenshot-wrapper {
+  .screenshot-wrapper,
+  .video-card {
     max-width: 200px;
   }
   
