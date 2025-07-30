@@ -18,15 +18,13 @@
           <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
         </div>
       </section>
-
       <section class="right">
         <div class="screenshot-wrapper">
           <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
         </div>
       </section>
     </main>
-
-    <!-- Footer -->
+    <!-- Footer - positioned inside page-wrapper for proper flexbox layout -->
     <footer class="footer-nav">
       <div class="nav-buttons">
         <a href="about.html" class="nav-btn">About us</a>
@@ -34,8 +32,8 @@
       </div>
     </footer>
   </div>
-
-  <!-- Modal -->
+  
+  <!-- Modal - positioned outside page-wrapper to avoid layout conflicts -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
       <button class="close-btn" onclick="closeModal()" aria-label="Close modal">×</button>
