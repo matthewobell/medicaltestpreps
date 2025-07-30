@@ -295,7 +295,7 @@ body {
 /* Style the container for About and Contact pages */
 .page-container {
   min-height: 100vh; /* Minimum height of full viewport */
-  padding: 80px 40px; /* 80px top/bottom padding, 40px left/right padding */
+  padding: 70px 40px; /* 70px top/bottom padding (reduced from 80px), 40px left/right padding */
   background-color: #FAD37C; /* Yellow background */
   text-align: left; /* Left-align text */
   max-width: 800px; /* Maximum width of 800 pixels */
@@ -305,7 +305,7 @@ body {
 /* Style the main page title */
 .page-title {
   font-size: 48px; /* 48px text size */
-  color: #333; /* Dark gray text color */
+  color: blue; /* Blue text color (changed from #333) */
   font-weight: 700; /* Bold text */
   letter-spacing: -0.5px; /* Slightly tighten letter spacing */
   margin-bottom: 30px; /* 30px space below title */
@@ -604,14 +604,14 @@ body {
   
   /* Adjust page container padding for mobile */
   .page-container {
-    padding: 60px 40px; /* Reduced from 80px 40px */
+    padding: 50px 40px; /* Reduced from 60px 40px (now 10px less) */
   }
   
-  /* Keep page title same size on mobile */
+  /* Keep page title same size on mobile but make it blue */
   .page-title {
     font-size: 48px; /* Same as desktop */
     font-weight: 700; /* Bold text */
-    color: #333; /* Dark gray text */
+    color: blue; /* Blue text color (changed from #333) */
     line-height: 1.0; /* Tight line spacing */
   }
   
@@ -680,7 +680,7 @@ body {
   /* Style the mobile form container */
   .mobile-contact-form-wrapper {
     background: white; /* White background */
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 30px; /* Rounded corners */
     padding: 20px 20px; /* 20px padding on all sides */
     margin-top: 20px; /* 20px space above */
   }
@@ -713,7 +713,7 @@ body {
     border: none; /* No border */
     border-radius: 25px; /* Rounded corners */
     font-size: 16px; /* 16px text size */
-    font-weight: 700; /* Normal font weight */
+    font-weight: 400; /* Normal font weight */
     font-family: inherit; /* Use parent font */
     background-color: #f5f5f5; /* Light gray background */
     color: #666; /* Gray text color */
@@ -804,12 +804,13 @@ body {
   
   /* Reduce page container padding on small mobile */
   .page-container {
-    padding: 40px 15px; /* 40px top/bottom, 15px left/right */
+    padding: 30px 15px; /* 30px top/bottom (reduced from 40px), 15px left/right */
   }
   
-  /* Make page title smaller on small mobile */
+  /* Make page title smaller on small mobile but keep it blue */
   .page-title {
     font-size: 28px; /* Much smaller (was 48px) */
+    color: blue; /* Blue text color (changed from default) */
   }
   
   /* Make page content text smaller on small mobile */
