@@ -254,7 +254,7 @@ body {
   color: #333;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   line-height: 1.0;
 }
 
@@ -273,7 +273,7 @@ body {
   color: #333;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin: 80px 0 40px 0;
+  margin: 40px 0 20px 0;
   line-height: 1.0;
 }
 
@@ -286,7 +286,7 @@ body {
 }
 
 .page-content p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 18px;
   color: #333;
   font-weight: 400;
