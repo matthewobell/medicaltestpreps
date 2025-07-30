@@ -7,31 +7,30 @@
   <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
-  <div class="contact-container">
-    <div class="contact-left">
-      <h1>Contact Us</h1>
-      <p>We'd love to hear from you!</p>
+  <div class="mobile-contact-container">
+    <div class="mobile-contact-header">
+      <h1>Thanks for messaging us!</h1>
       <p>Whether you have questions about our app, feedback on your learning experience, or suggestions for improvement, please don't hesitate to reach out.</p>
     </div>
 
-    <div class="contact-right">
-      <form class="contact-form" id="unified-contact-form">
-        <div class="form-group">
-          <label for="email">Email</label>
+    <div class="mobile-contact-form-wrapper">
+      <form class="mobile-contact-form" id="unified-contact-form">
+        <div class="mobile-form-group">
+          <label for="email" class="sr-only">Email</label>
           <input type="email" id="email" name="email" placeholder="Email" required>
         </div>
 
-        <div class="form-group">
-          <label for="subject">Subject</label>
+        <div class="mobile-form-group">
+          <label for="subject" class="sr-only">Subject</label>
           <input type="text" id="subject" name="subject" placeholder="Subject" required>
         </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+        <div class="mobile-form-group">
+          <label for="message" class="sr-only">Message</label>
+          <textarea id="message" name="message" placeholder="Message" required></textarea>
         </div>
 
-        <button type="submit" class="submit-btn">Submit</button>
+        <button type="submit" class="mobile-submit-btn">Submit!</button>
       </form>
     </div>
   </div>
