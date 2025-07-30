@@ -55,6 +55,12 @@ body {
   letter-spacing: -1px;
 }
 
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 /* COMING SOON TEXT - Positioned above Google Play button */
 .coming-soon {
   font-weight: 700;
