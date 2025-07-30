@@ -143,7 +143,7 @@ body {
   transition: opacity 0.2s ease;
   border: none;
   cursor: pointer;
-  margin: 0 30px;
+  margin: 0px;
 }
 
 .nav-btn:hover {
