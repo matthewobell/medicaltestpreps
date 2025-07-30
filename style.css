@@ -333,7 +333,7 @@ margin-bottom: 20px;
 
 .contact-right {
 flex: 1;
-background-color: white;
+background-color: #FAD37C;
 border-radius: 0;
 padding: 60px;
 display: flex;
@@ -367,7 +367,7 @@ border: none;
 border-radius: 25px;
 font-size: 16px;
 font-family: inherit;
-background-color: #f5f5f5;
+background-color: white;
 color: #000;
 font-weight: 700;
 box-sizing: border-box;
@@ -382,7 +382,7 @@ font-weight: 700;
 .form-group input:focus,
 .form-group textarea:focus {
 outline: none;
-box-shadow: 0 0 0 3px rgba(250, 211, 124, 0.3);
+box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .form-group textarea {
