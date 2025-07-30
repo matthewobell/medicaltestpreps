@@ -246,146 +246,59 @@ body {
 /* PAGE LAYOUT FOR SECONDARY PAGES */
 .page-container {
   min-height: 100vh;
-  padding: 80px 120px;
+  padding: 80px 40px;
   background-color: #FAD37C;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .page-title {
-  font-size: 34px;
+  font-size: 48px;
   color: #333;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 60px;
   line-height: 1.1;
 }
 
 .page-content {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.5;
   color: #333;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-weight: 600;
-  letter-spacing: -0.2px;
+  font-weight: 400;
 }
 
 .page-content h2 {
-  font-size: 34px;
+  font-size: 40px;
   color: #333;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-  margin: 40px 0 20px 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 80px 0 40px 0;
+  line-height: 1.1;
 }
 
 .page-content h3 {
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
-  font-weight: 600;
-  letter-spacing: -0.2px;
+  font-weight: 400;
   margin: 30px 0 15px 0;
 }
 
 .page-content p {
-  margin-bottom: 24px;
-  font-size: 14px;
-  color: #333;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-}
-
-/* CONTACT FORM STYLING */
-.contact-container {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  padding: 40px;
-  background-color: #FAD37C;
-  gap: 60px;
-}
-
-.contact-left {
-  flex: 1;
-  padding-right: 40px;
-}
-
-.contact-left h1 {
-  font-size: 64px;
-  color: #000;
-  font-weight: 700;
   margin-bottom: 40px;
-  line-height: 1.1;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.contact-left p {
-  font-size: 20px;
-  color: #000;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.contact-right {
-  flex: 1;
-  background-color: #FFB614;
-  border-radius: 30px;
-  padding: 40px;
-  max-width: 500px;
-}
-
-.contact-form {
-  width: 100%;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
-  font-family: inherit;
-  background-color: white;
-  color: #000;
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: #666;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
-}
-
-.form-group textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.submit-btn {
-  background-color: #FFC035;
-  color: #000;
-  border: none;
-  padding: 16px 40px;
-  border-radius: 25px;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.submit-btn:hover {
-  background-color: #FFD966;
-  transform: translateY(-2px);
+/* MOBILE CONTACT FORM - Default (Desktop) Hidden */
+.mobile-contact-container {
+  display: none;
 }
 
 /* BLOG STYLING */
@@ -462,13 +375,15 @@ body {
   }
   
   .left h1 {
-    font-size: 36px;
+    font-size: 60px;
     margin-bottom: 30px;
+    font-weight: 700;
   }
   
   .left h2 {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 20px;
+    font-weight: 700;
   }
   
   .coming-soon {
@@ -495,11 +410,13 @@ body {
   .nav-buttons {
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: center;
   }
   
   .nav-btn {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 40px;
+    font-weight: 700;
   }
   
   .page-container {
@@ -507,46 +424,119 @@ body {
   }
   
   .page-title {
-    font-size: 36px;
+    font-size: 60px;
+    font-weight: 700;
   }
   
   .page-content {
-    font-size: 16px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .page-content h2 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  .page-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .page-content p {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  /* Mobile Contact Form Styling */
+  .mobile-contact-container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #FAD37C;
+  }
+  
+  .mobile-contact-header h1 {
+    font-size: 60px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    text-align: left;
+  }
+  
+  .mobile-contact-header p {
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .mobile-contact-form-wrapper {
+    background: white;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin-top: 40px;
+  }
+  
+  .mobile-form-group {
+    margin-bottom: 30px;
+  }
+  
+  .mobile-form-group input {
+    width: 100%;
+    max-width: 907px;
+    height: 147px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: #f5f5f5;
+    color: #666;
+    box-sizing: border-box;
+  }
+  
+  .mobile-form-group textarea {
+    width: 100%;
+    max-width: 907px;
+    height: 644px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: #f5f5f5;
+    color: #666;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  .mobile-form-group input::placeholder,
+  .mobile-form-group textarea::placeholder {
+    color: #999;
+    font-weight: 700;
+  }
+  
+  .mobile-submit-btn {
+    width: 296px;
+    height: 147px;
+    background-color: #FFB614;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 30px auto 0;
+    display: block;
   }
   
   .contact-container {
-    flex-direction: column;
-    padding: 20px;
-    gap: 30px;
-  }
-  
-  .contact-left {
-    padding-right: 0;
-  }
-  
-  .contact-left h1 {
-    font-size: 36px;
-  }
-  
-  .contact-left p {
-    font-size: 16px;
-  }
-  
-  .contact-right {
-    max-width: 100%;
-    padding: 30px;
-  }
-  
-  .blog-container {
-    padding: 60px 20px;
-  }
-  
-  .blog-title {
-    font-size: 36px;
-  }
-  
-  .blog-post-content {
-    font-size: 16px;
+    display: none;
   }
 }
 
