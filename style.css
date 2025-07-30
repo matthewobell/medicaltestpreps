@@ -8,11 +8,16 @@ body {
   background-color: #fad37c;
   margin: 0;
   padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* MAIN CONTAINER - Controls the overall page layout */
 .container {
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
   max-width: none;
   width: 100vw;
