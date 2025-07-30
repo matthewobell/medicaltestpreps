@@ -4,387 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medical Test Prep</title>
-  <style>
-    /* LAYOUT STRUCTURE */
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: #FAD37C;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* MAIN CONTAINER - Controls the overall page layout */
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: none;
-      width: 100vw;
-      min-height: 100vh;
-      margin: 0;
-      padding: 0;
-      align-items: stretch;
-      justify-content: stretch;
-      gap: 0;
-    }
-
-    /* LEFT SECTION - Contains all text content and app store buttons */
-    .left {
-      flex: 1;
-      min-width: 50%;
-      padding: 60px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    /* TYPOGRAPHY - Controls all text elements */
-    .left h2 {
-      font-size: 44px;
-      margin-bottom: 30px;
-      color: #333;
-      font-weight: 600;
-      letter-spacing: -0.2px;
-    }
-    .left h1 {
-      font-size: 84px;
-      line-height: 1.1;
-      margin: 0 0 40px;
-      color: #000;
-      font-weight: 700;
-      letter-spacing: -1px;
-    }
-
-    /* COMING SOON TEXT - Positioned above Google Play button */
-    .coming-soon {
-      font-weight: 700;
-      margin: 0 0 5px;
-      color: #000;
-      font-size: 14px;
-      position: relative;
-      left: 95px;
-      background-color: #FFB614;
-      border-radius: 25px;
-      padding: 8px 20px;
-      width: fit-content;
-      animation: colorPulse 2s ease-in-out infinite;
-    }
-
-    /* COLOR PULSE ANIMATION */
-    @keyframes colorPulse {
-      0% {
-        background-color: #FFB614;
-      }
-      50% {
-        background-color: #FFC035;
-      }
-      100% {
-        background-color: #FFB614;
-      }
-    }
-
-    /* APP STORE BUTTONS CONTAINER */
-    .badges {
-      margin-top: 0;
-      display: flex;
-      gap: 15px;
-      margin-bottom: 20px;
-    }
-    .badges img {
-      height: 60px;
-      margin-right: 0;
-      transition: transform 0.2s ease;
-      cursor: pointer;
-    }
-    .badges img:hover {
-      transform: translateY(-2px);
-    }
-
-    /* LEARN MORE BUTTON */
-    .learn-more-btn {
-      background: none;
-      border: none;
-      color: #333;
-      font-size: 16px;
-      font-weight: 700;
-      cursor: pointer;
-      text-decoration: underline;
-      margin-top: 10px;
-      transition: color 0.2s ease;
-    }
-    .learn-more-btn:hover {
-      color: #000;
-    }
-
-    /* FOOTER NAVIGATION */
-    .footer {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: rgba(0, 0, 0, 0.1);
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    .footer-nav {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .footer-nav a {
-      color: #333;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 16px;
-      transition: color 0.2s ease;
-    }
-
-    .footer-nav a:hover {
-      color: #000;
-      text-decoration: underline;
-    }
-
-    /* OVERLAY STYLES */
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.3s ease, visibility 0.3s ease;
-    }
-
-    .overlay.active {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .modal {
-      background: white;
-      border-radius: 20px;
-      padding: 50px 40px;
-      max-width: 750px;
-      width: 90%;
-      min-height: 500px;
-      max-height: 80vh;
-      overflow-y: auto;
-      position: relative;
-      transform: translateY(20px);
-      transition: transform 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .overlay.active .modal {
-      transform: translateY(0);
-    }
-
-    .modal-header {
-      background-color: #FAD37C;
-      border-radius: 25px;
-      padding: 15px 30px;
-      text-align: center;
-      margin: 0 auto 30px auto;
-      font-size: 24px;
-      font-weight: 700;
-      color: #000;
-      max-width: 350px;
-      width: fit-content;
-    }
-
-    .modal-content {
-      text-align: center;
-      line-height: 1.6;
-      font-size: 18px;
-      color: #333;
-    }
-
-    .modal-content p {
-      margin-bottom: 20px;
-    }
-
-    .close-btn {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      background: transparent;
-      color: black;
-      border: none;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      font-size: 20px;
-      font-weight: bold;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background-color 0.2s ease;
-      line-height: 1;
-    }
-
-    .close-btn:hover {
-      background: #333;
-    }
-
-    /* RIGHT SECTION - Now contains only the static screenshot container */
-    .right {
-      flex: 1;
-      min-width: 50%;
-      padding: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #FAD37C;
-    }
-
-    /* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
-    .screenshot-wrapper {
-      background: white;
-      border-radius: 16px;
-      padding: 0;
-      width: 100%;
-      max-width: 200px;
-      height: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    /* STATIC IMAGE */
-    .static-screenshot {
-      width: 100%;
-      border-radius: 16px;
-    }
-
-    /* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        height: auto;
-        min-height: 100vh;
-        overflow-x: hidden;
-        position: relative;
-        padding-bottom: 80px; /* Space for footer */
-      }
-      .left {
-        min-width: 100%;
-        padding: 40px 20px 20px 20px;
-        min-height: auto;
-        flex-shrink: 0;
-      }
-      .right {
-        min-width: 100%;
-        padding: 20px;
-        min-height: auto;
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .left h1 {
-        font-size: 36px;
-        margin-bottom: 30px;
-      }
-      .left h2 {
-        font-size: 20px;
-        margin-bottom: 20px;
-      }
-      .coming-soon {
-        font-size: 12px;
-        left: 68px;
-        margin-bottom: 10px;
-        padding: 6px 16px;
-      }
-      .screenshot-wrapper {
-        max-width: 180px;
-        width: 100%;
-        height: auto;
-      }
-      .badges {
-        gap: 10px;
-      }
-      .badges img {
-        height: 50px;
-      }
-      .modal {
-        padding: 50px 20px 30px 20px;
-      }
-      .modal-content {
-        font-size: 16px;
-      }
-      
-      /* Footer stays horizontal on mobile */
-      .footer-nav {
-        gap: 20px;
-      }
-      
-      .footer {
-        padding: 15px 0;
-      }
-    }
-
-    /* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
-    @media (max-width: 480px) {
-      .left {
-        padding: 30px 15px 15px 15px;
-      }
-      .right {
-        padding: 15px;
-      }
-      .left h1 {
-        font-size: 28px;
-        margin-bottom: 20px;
-      }
-      .left h2 {
-        font-size: 18px;
-        margin-bottom: 15px;
-      }
-      .coming-soon {
-        font-size: 11px;
-        margin-bottom: 8px;
-        padding: 5px 14px;
-      }
-      .badges img {
-        height: 45px;
-      }
-      .screenshot-wrapper {
-        max-width: 150px;
-      }
-      .modal {
-        padding: 45px 15px 25px 15px;
-      }
-      .modal-content {
-        font-size: 14px;
-      }
-      .modal-header {
-        font-size: 20px;
-        padding: 12px 20px;
-      }
-      
-      .footer-nav a {
-        font-size: 14px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="container">
@@ -396,8 +16,15 @@
         <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
         <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
       </div>
-      <button class="learn-more-btn" onclick="openModal()">Learn more about us! →</button>
+      
+      <!-- New Navigation Buttons -->
+      <div class="nav-buttons">
+        <a href="about.html" class="nav-btn">About Us</a>
+        <a href="contact.html" class="nav-btn">Contact</a>
+        <a href="blog.html" class="nav-btn">Blog</a>
+      </div>
     </section>
+    
     <section class="right">
       <div class="video-card">
         <div class="video-content">
@@ -405,15 +32,6 @@
         </div>
       </div>
     </section>
-    
-    <!-- Footer Navigation -->
-    <footer class="footer">
-      <nav class="footer-nav">
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </footer>
   </main>
 
   <!-- Overlay Modal -->
@@ -437,21 +55,19 @@
     function openModal() {
       const overlay = document.getElementById('overlay');
       overlay.classList.add('active');
-      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+      document.body.style.overflow = 'hidden';
     }
     
     function closeModal(event) {
-      // Only close if clicking the overlay itself or the close button
       if (event && event.target !== document.getElementById('overlay') && !event.target.classList.contains('close-btn')) {
         return;
       }
       
       const overlay = document.getElementById('overlay');
       overlay.classList.remove('active');
-      document.body.style.overflow = 'auto'; // Restore scrolling
+      document.body.style.overflow = 'auto';
     }
     
-    // Close modal on Escape key
     document.addEventListener('keydown', function(event) {
       if (event.key === 'Escape') {
         closeModal();

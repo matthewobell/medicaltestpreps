@@ -85,7 +85,7 @@ body {
   margin-top: 0;
   display: flex;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .badges img {
   height: 60px;
@@ -97,53 +97,29 @@ body {
   transform: translateY(-2px);
 }
 
-/* LEARN MORE BUTTON */
-.learn-more-btn {
-  background: none;
-  border: none;
-  color: #333;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  text-decoration: underline;
-  margin-top: 10px;
-  transition: color 0.2s ease;
-}
-.learn-more-btn:hover {
-  color: #000;
-}
-
-/* FOOTER NAVIGATION */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer-nav {
+/* NAVIGATION BUTTONS */
+.nav-buttons {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.footer-nav a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  transition: color 0.2s ease;
-}
-
-.footer-nav a:hover {
+.nav-btn {
+  background-color: #FFB614;
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #FFC035;
+  transform: translateY(-2px);
 }
 
 /* OVERLAY STYLES */
@@ -237,7 +213,7 @@ body {
   background: #333;
 }
 
-/* RIGHT SECTION - Now contains only the static screenshot container */
+/* RIGHT SECTION */
 .right {
   flex: 1;
   min-width: 50%;
@@ -248,7 +224,7 @@ body {
   background-color: #FAD37C;
 }
 
-/* STATIC IMAGE CONTAINER - Replaces carousel and yellow container */
+/* STATIC IMAGE CONTAINER */
 .screenshot-wrapper {
   background: white;
   border-radius: 16px;
@@ -262,7 +238,6 @@ body {
   overflow: hidden;
 }
 
-/* STATIC IMAGE */
 .static-screenshot {
   width: 100%;
   border-radius: 16px;
@@ -271,124 +246,199 @@ body {
 /* PAGE LAYOUT FOR SECONDARY PAGES */
 .page-container {
   min-height: 100vh;
-  padding: 80px 40px 100px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.page-header {
-  text-align: center;
-  margin-bottom: 60px;
+  padding: 80px 60px;
+  background-color: #FAD37C;
 }
 
 .page-title {
-  font-size: 48px;
+  font-size: 64px;
   color: #000;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  line-height: 1.1;
 }
 
 .page-content {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
-  color: #333;
-  margin-bottom: 40px;
+  color: #000;
+  max-width: 1200px;
 }
 
 .page-content h2 {
   font-size: 32px;
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
   margin: 40px 0 20px 0;
 }
 
 .page-content h3 {
   font-size: 24px;
-  color: #333;
+  color: #000;
   font-weight: 600;
   margin: 30px 0 15px 0;
 }
 
+.page-content p {
+  margin-bottom: 24px;
+}
+
+/* CONTACT FORM STYLING */
+.contact-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #FAD37C;
+  gap: 60px;
+}
+
+.contact-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.contact-left h1 {
+  font-size: 64px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.contact-left p {
+  font-size: 20px;
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #FFB614;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 500px;
+}
+
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #333;
-}
-
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 12px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 25px;
   font-size: 16px;
   font-family: inherit;
+  background-color: white;
+  color: #000;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #FFB614;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
 .submit-btn {
-  background-color: #FFB614;
+  background-color: #FFC035;
   color: #000;
   border: none;
-  padding: 15px 30px;
+  padding: 16px 40px;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .submit-btn:hover {
-  background-color: #FFC035;
+  background-color: #FFD966;
+  transform: translateY(-2px);
+}
+
+/* BLOG STYLING */
+.blog-container {
+  min-height: 100vh;
+  padding: 80px 60px;
+  background-color: #FAD37C;
+}
+
+.blog-title {
+  font-size: 64px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 60px;
+  line-height: 1.1;
 }
 
 .blog-post {
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 60px;
 }
 
-.blog-post:last-child {
-  border-bottom: none;
+.blog-post-title {
+  background-color: #FFB614;
+  border-radius: 25px;
+  padding: 16px 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
-.blog-date {
-  color: #666;
-  font-size: 14px;
-  margin-bottom: 10px;
+.blog-post-content {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000;
 }
 
-/* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
+.blog-post-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 30px 0 15px 0;
+}
+
+.blog-post-content p {
+  margin-bottom: 24px;
+}
+
+/* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     height: auto;
     min-height: 100vh;
     overflow-x: hidden;
-    position: relative;
-    padding-bottom: 80px; /* Space for footer */
   }
+  
   .left {
     min-width: 100%;
     padding: 40px 20px 20px 20px;
     min-height: auto;
     flex-shrink: 0;
   }
+  
   .right {
     min-width: 100%;
     padding: 20px;
@@ -398,50 +448,50 @@ body {
     align-items: center;
     justify-content: center;
   }
+  
   .left h1 {
     font-size: 36px;
     margin-bottom: 30px;
   }
+  
   .left h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
+  
   .coming-soon {
     font-size: 12px;
     left: 68px;
     margin-bottom: 10px;
     padding: 6px 16px;
   }
+  
   .screenshot-wrapper {
     max-width: 180px;
     width: 100%;
     height: auto;
   }
+  
   .badges {
     gap: 10px;
   }
+  
   .badges img {
     height: 50px;
   }
-  .modal {
-    padding: 50px 20px 30px 20px;
-  }
-  .modal-content {
-    font-size: 16px;
+  
+  .nav-buttons {
+    flex-wrap: wrap;
+    gap: 15px;
   }
   
-  /* Footer stays horizontal on mobile */
-  .footer-nav {
-    gap: 20px;
+  .nav-btn {
+    padding: 10px 20px;
+    font-size: 14px;
   }
   
-  .footer {
-    padding: 15px 0;
-  }
-  
-  /* Page layout adjustments */
   .page-container {
-    padding: 60px 20px 100px 20px;
+    padding: 60px 20px;
   }
   
   .page-title {
@@ -452,59 +502,86 @@ body {
     font-size: 16px;
   }
   
-  .page-content h2 {
-    font-size: 28px;
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .contact-left {
+    padding-right: 0;
+  }
+  
+  .contact-left h1 {
+    font-size: 36px;
+  }
+  
+  .contact-left p {
+    font-size: 16px;
+  }
+  
+  .contact-right {
+    max-width: 100%;
+    padding: 30px;
+  }
+  
+  .blog-container {
+    padding: 60px 20px;
+  }
+  
+  .blog-title {
+    font-size: 36px;
+  }
+  
+  .blog-post-content {
+    font-size: 16px;
   }
 }
 
-/* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
 @media (max-width: 480px) {
   .left {
     padding: 30px 15px 15px 15px;
   }
+  
   .right {
     padding: 15px;
   }
+  
   .left h1 {
     font-size: 28px;
     margin-bottom: 20px;
   }
+  
   .left h2 {
     font-size: 18px;
     margin-bottom: 15px;
   }
+  
   .coming-soon {
     font-size: 11px;
     margin-bottom: 8px;
     padding: 5px 14px;
   }
+  
   .badges img {
     height: 45px;
   }
+  
   .screenshot-wrapper {
     max-width: 150px;
   }
-  .modal {
-    padding: 45px 15px 25px 15px;
-  }
-  .modal-content {
-    font-size: 14px;
-  }
-  .modal-header {
-    font-size: 20px;
-    padding: 12px 20px;
+  
+  .nav-buttons {
+    gap: 10px;
   }
   
-  .footer-nav a {
-    font-size: 14px;
-  }
-  
-  .footer-nav {
-    gap: 15px;
+  .nav-btn {
+    padding: 8px 16px;
+    font-size: 12px;
   }
   
   .page-container {
-    padding: 40px 15px 80px 15px;
+    padding: 40px 15px;
   }
   
   .page-title {
@@ -512,6 +589,34 @@ body {
   }
   
   .page-content {
+    font-size: 14px;
+  }
+  
+  .contact-container {
+    padding: 15px;
+  }
+  
+  .contact-left h1 {
+    font-size: 28px;
+  }
+  
+  .contact-left p {
+    font-size: 14px;
+  }
+  
+  .contact-right {
+    padding: 20px;
+  }
+  
+  .blog-container {
+    padding: 40px 15px;
+  }
+  
+  .blog-title {
+    font-size: 28px;
+  }
+  
+  .blog-post-content {
     font-size: 14px;
   }
 }
