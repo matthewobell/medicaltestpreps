@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Medical Test Prep</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main class="container">
+<section class="left">
+<h1 class="site-name">Medical Test Prep</h1>
+<h2 class="tagline">Your study time, optimized</h2>
+<p class="coming-soon">Coming soon! 🚀</p>
+<div class="badges">
+<a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
+<a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
+</div>
+<div class="nav-buttons">
+<a href="about.html" class="nav-btn">About us</a>
+<a href="contact.html" class="nav-btn">Contact</a>
+</div>
+</section>
+<section class="right">
+<div class="screenshot-wrapper">
+<img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
+</div>
+</section>
+</main>
 
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+<div class="modal" onclick="event.stopPropagation()">
+<button class="close-btn" onclick="closeModal()">×</button>
+<div class="modal-header">We're Medical Test Prep!</div>
+<div class="modal-content">
+<p><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
+<p class="shared-about-text"></p>
+</div>
+</div>
+</div>
+
+<script>
+function openModal() {
+document.getElementById('overlay').classList.add('active');
+document.body.style.overflow = 'hidden';
+}
+
+function closeModal(event) {
+if (event && event.target !== document.getElementById('overlay') && !event.target.classList.contains('close-btn')) return;
+document.getElementById('overlay').classList.remove('active');
+document.body.style.overflow = 'auto';
+}
+
+document.addEventListener('keydown', function(event) {
+if (event.key === 'Escape') closeModal();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+const sharedText = `Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools. Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties. We create short, focused question bank exams that fit seamlessly into the rare gaps in a busy physician's schedule. Our approach is grounded in educational research: brief, frequent bursts of learning outperform cramming and foster deeper, longer-lasting knowledge retention. These tools are designed not only to help physicians succeed on high-stakes exams, but also to strengthen clinical excellence throughout their careers. Best of luck as you continue your journey in medicine --- we're here to help!`;
+document.querySelector('.shared-about-text').innerText = sharedText;
+});
+</script>
+</body>
+</html>
