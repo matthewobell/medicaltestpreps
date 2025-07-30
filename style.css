@@ -85,7 +85,7 @@ body {
   margin-top: 0;
   display: flex;
   gap: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .badges img {
   height: 60px;
@@ -101,7 +101,7 @@ body {
 .nav-buttons {
   display: flex;
   gap: 40px;
-  margin-top: 20px;
+  margin-top: 15px;
   justify-content: center;
 }
 
@@ -112,7 +112,7 @@ body {
   padding: 0;
   border-radius: 0;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 24px;
   transition: none;
   border: none;
   cursor: pointer;
