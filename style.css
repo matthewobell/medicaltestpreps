@@ -311,19 +311,22 @@ body {
 
 .contact-left {
   flex: 1;
+  padding-left: 120px;  /* Increase as needed */
+  padding-right: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
-  padding: 60px;
+  justify-content: center;
+  align-items: left;    /* Optional: centers horizontally */
+  text-align: left;     /* Optional: centers text */
 }
 
 .contact-left h1 {
   font-size: 50px;
   color: #000;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 1;
 }
 
@@ -331,7 +334,7 @@ body {
   font-size: 20px;
   color: #000;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact-right {
