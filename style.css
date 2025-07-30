@@ -236,7 +236,7 @@ body {
 
 .static-screenshot {
   width: 100%;           /* Fill container */
-  max-width: 500px;      /* Prevent it from getting too large */
+  max-width: 800px;      /* Prevent it from getting too large */
   height: auto;          /* Maintain aspect ratio */
   display: block;
   margin: 0 auto;        /* Center it horizontally */
@@ -319,20 +319,22 @@ body {
   text-align: left;     /* Optional: centers text */
 }
 
+/* Replicating header style */
 .contact-left h1 {
-  font-size: 70px; /* Contact us header text */
-  color: #000;
+  font-size: 48px;
   font-weight: 700;
-  margin-bottom: 10px;
+  color: #333;
+  letter-spacing: -0.5px;
   line-height: 1;
 }
 
-.contact-left p { 
-  font-size: 30px; /* Contact us body text */
-  color: #000;
-  font-weight: 700; 
-  line-height: 1;
-  margin-bottom: 10px;
+/* Replicating body text style */
+.contact-left p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .contact-right {
@@ -419,51 +421,4 @@ body {
 .submit-btn:hover {
   background-color: #ffb614;
   transform: translateY(-2px);
-}
-
-/* BLOG STYLING */
-.blog-container {
-  min-height: 100vh;
-  padding: 80px 60px;
-  background-color: #fad37c;
-}
-
-.blog-title {
-  font-size: 64px;
-  color: #000;
-  font-weight: 700;
-  margin-bottom: 60px;
-  line-height: 1.1;
-}
-
-.blog-post {
-  margin-bottom: 60px;
-}
-
-.blog-post-title {
-  background-color: #ffb614;
-  border-radius: 25px;
-  padding: 16px 30px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 30px;
-  display: inline-block;
-}
-
-.blog-post-content {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #000;
-}
-
-.blog-post-content h3 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #000;
-  margin: 30px 0 15px 0;
-}
-
-.blog-post-content p {
-  margin-bottom: 24px;
 }
