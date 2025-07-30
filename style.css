@@ -540,6 +540,7 @@ body {
   
   /* Mobile Contact Form Styling */
   .mobile-contact-container {
+    display: block;
     min-height: 100vh;
     padding: 40px 20px;
     background-color: #FAD37C;
