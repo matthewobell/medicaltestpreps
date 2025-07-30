@@ -101,7 +101,7 @@ body {
 .nav-buttons {
   display: flex;
   gap: 40px;
-  margin-top: 5px;
+  margin-top: 15px;
   justify-content: center;
 }
 
@@ -527,7 +527,7 @@ body {
   }
   
   .page-content h2 {
-    font-size: 10px;
+    font-size: 48px;
     font-weight: 700;
     color: #333;
   }
