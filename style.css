@@ -49,6 +49,8 @@ body {
   color: #000;
   font-weight: 700;
   letter-spacing: -1px;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* COMING SOON */
@@ -65,6 +67,7 @@ body {
   width: fit-content;
   animation: colorPulse 2s ease-in-out infinite;
 }
+
 @keyframes colorPulse {
   0% { background-color: #FFB614; }
   50% { background-color: #FFC035; }
@@ -241,13 +244,44 @@ body {
   transform: translateY(-2px);
 }
 
-/* MOBILE CONTACT FORM (default hidden) */
+/* MOBILE CONTACT FORM */
 .mobile-contact-container {
   display: none;
 }
 
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
+  .left h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .left h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-buttons {
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-btn {
+    font-size: 20px;
+  }
+
   .mobile-contact-container {
     display: block;
     min-height: 100vh;
@@ -317,5 +351,36 @@ body {
 
   .contact-container {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .left h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .left h2 {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .coming-soon {
+    font-size: 11px;
+    left: auto;
+    margin: 10px auto;
+    display: block;
+    padding: 5px 14px;
+  }
+
+  .badges img {
+    height: 45px;
+  }
+
+  .nav-btn {
+    font-size: 16px;
+    padding: 8px 16px;
   }
 }
