@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Medical Test Prep</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="page-header">
+      <h1 class="page-title">Contact Us</h1>
+    </header>
+    
+    <div class="page-content">
+      <p>We'd love to hear from you! Whether you have questions about our app, feedback on your learning experience, or suggestions for improvement, please don't hesitate to reach out.</p>
+      
+      <h2>Get in Touch</h2>
+      <p>Our team is here to support your learning journey and help you succeed in your medical career. We typically respond to inquiries within 24-48 hours.</p>
+      
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="specialty">Medical Specialty</label>
+          <input type="text" id="specialty" name="specialty" placeholder="e.g., Internal Medicine, Emergency Medicine">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      
+      <h2>Other Ways to Connect</h2>
+      <p>Follow us on social media for updates, study tips, and medical education insights. We're committed to building a community of lifelong learners in medicine.</p>
+      
+      <h3>Response Time</h3>
+      <p>We aim to respond to all inquiries within 24-48 hours during business days. For urgent technical issues, please include "URGENT" in your subject line.</p>
+      
+      <h3>Feedback Welcome</h3>
+      <p>Your feedback drives our continuous improvement. We value input from medical professionals at all stages of their careers and use your suggestions to enhance our learning platform.</p>
+    </div>
+    
+    <!-- Footer Navigation -->
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </footer>
+  </div>
+  
+  <script>
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will get back to you within 24-48 hours.');
+    });
+  </script>
+</body>
+</html>
