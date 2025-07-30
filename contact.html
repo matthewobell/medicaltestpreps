@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Contact Us - Medical Test Prep</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Medical Test Prep</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="contact-container">
-<div class="contact-left">
-<h1>Contact Us</h1>
-<p>We'd love to hear from you!</p>
-<p>Whether you have questions about our app, feedback on your learning experience, or suggestions for improvement, please don't hesitate to reach out.</p>
-</div>
+  <div class="contact-container">
+    <div class="contact-left">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you!</p>
+      <p>Whether you have questions about our app, feedback on your learning experience, or suggestions for improvement, please don't hesitate to reach out.</p>
+    </div>
 
-<div class="contact-right">
-<div class="contact-form-header">Get in touch!</div>
-<form class="contact-form" id="contact-form">
-<div class="form-group">
-<input type="email" id="email" name="email" placeholder="Email" required>
-</div>
+    <div class="contact-right">
+      <form class="contact-form" id="contact-form">
+        <div class="contact-form-header">Get in touch!</div>
 
-<div class="form-group">
-<input type="text" id="subject" name="subject" placeholder="Subject" required>
-</div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
 
-<div class="form-group">
-<textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
-</div>
+        <div class="form-group">
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
 
-<button type="submit" class="submit-btn">Submit!</button>
-</form>
-</div>
-</div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit!</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
 
 <script>
 document.getElementById('contact-form').addEventListener('submit', function(e) {
