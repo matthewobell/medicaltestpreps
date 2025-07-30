@@ -40,14 +40,15 @@ body {
 .left h2 {
   font-size: 84px;
   margin-bottom: 30px;
+  margin-top: 15px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
-  line-height: 1.1;
+  line-height: 1;
 }
 .left h1 {
   font-size: 44px;
-  line-height: 1.1;
+  line-height: 1;
   margin: 0 0 40px;
   color: #000;
   font-weight: 700;
@@ -114,7 +115,7 @@ body {
   padding: 0;
   border-radius: 0;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   transition: none;
   border: none;
   cursor: pointer;
@@ -323,16 +324,17 @@ body {
 }
 
 .contact-left h1 {
-  font-size: 50px;
+  font-size: 70px; /* Contact us header text */
   color: #000;
   font-weight: 700;
   margin-bottom: 10px;
   line-height: 1;
 }
 
-.contact-left p {
-  font-size: 20px;
+.contact-left p { 
+  font-size: 30px; /* Contact us body text */
   color: #000;
+  font-weight: 700; 
   line-height: 1;
   margin-bottom: 10px;
 }
