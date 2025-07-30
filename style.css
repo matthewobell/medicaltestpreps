@@ -277,7 +277,6 @@ body {
 /* FOOTER NAVIGATION BUTTONS - STICKY AT BOTTOM */
 .footer-nav {
   background-color: #fad37c;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding: 20px 0;
   text-align: center;
   flex-shrink: 0; /* Prevents footer from shrinking */
