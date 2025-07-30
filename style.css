@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
   max-width: none;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   align-items: stretch;
@@ -111,6 +111,39 @@ body {
 }
 .learn-more-btn:hover {
   color: #000;
+}
+
+/* FOOTER NAVIGATION */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 /* OVERLAY STYLES */
@@ -235,6 +268,111 @@ body {
   border-radius: 16px;
 }
 
+/* PAGE LAYOUT FOR SECONDARY PAGES */
+.page-container {
+  min-height: 100vh;
+  padding: 80px 40px 100px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.page-title {
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.page-content h2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: 600;
+  margin: 40px 0 20px 0;
+}
+
+.page-content h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #FFB614;
+}
+
+.submit-btn {
+  background-color: #FFB614;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #FFC035;
+}
+
+.blog-post {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-post:last-child {
+  border-bottom: none;
+}
+
+.blog-date {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
 /* RESPONSIVE DESIGN FOR TABLETS AND PHONES */
 @media (max-width: 768px) {
   .container {
@@ -242,6 +380,8 @@ body {
     height: auto;
     min-height: 100vh;
     overflow-x: hidden;
+    position: relative;
+    padding-bottom: 80px; /* Space for footer */
   }
   .left {
     min-width: 100%;
@@ -289,6 +429,32 @@ body {
   .modal-content {
     font-size: 16px;
   }
+  
+  /* Footer stays horizontal on mobile */
+  .footer-nav {
+    gap: 20px;
+  }
+  
+  .footer {
+    padding: 15px 0;
+  }
+  
+  /* Page layout adjustments */
+  .page-container {
+    padding: 60px 20px 100px 20px;
+  }
+  
+  .page-title {
+    font-size: 36px;
+  }
+  
+  .page-content {
+    font-size: 16px;
+  }
+  
+  .page-content h2 {
+    font-size: 28px;
+  }
 }
 
 /* RESPONSIVE DESIGN FOR SMALL MOBILE PHONES */
@@ -327,5 +493,25 @@ body {
   .modal-header {
     font-size: 20px;
     padding: 12px 20px;
+  }
+  
+  .footer-nav a {
+    font-size: 14px;
+  }
+  
+  .footer-nav {
+    gap: 15px;
+  }
+  
+  .page-container {
+    padding: 40px 15px 80px 15px;
+  }
+  
+  .page-title {
+    font-size: 28px;
+  }
+  
+  .page-content {
+    font-size: 14px;
   }
 }
