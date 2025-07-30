@@ -1,1 +1,860 @@
+/* LAYOUT STRUCTURE */
+/* Apply box-sizing to all elements - makes padding and border included in element's total width/height */
+* {
+  box-sizing: border-box; /* Ensures consistent sizing across all elements */
+}
 
+/* Style the main body element */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; /* Use system fonts for better performance and native look */
+  background-color: #FAD37C; /* Set yellow/gold background color */
+  margin: 0; /* Remove default browser margins */
+  padding: 0; /* Remove default browser padding */
+}
+
+/* MAIN CONTAINER - Controls the overall page layout */
+/* Style the main container that holds left and right sections */
+.container {
+  display: flex; /* Use flexbox layout for responsive design */
+  flex-wrap: wrap; /* Allow items to wrap to next line on smaller screens */
+  max-width: none; /* No maximum width restriction */
+  width: 100vw; /* Full viewport width (100% of screen width) */
+  min-height: 100vh; /* Minimum height of full viewport height (100% of screen height) */
+  margin: 0; /* No external spacing */
+  padding: 0; /* No internal spacing */
+  align-items: stretch; /* Make child elements stretch to same height */
+  justify-content: stretch; /* Distribute space evenly between child elements */
+  gap: 0; /* No gap between flex items */
+}
+
+/* LEFT SECTION - Contains all text content and app store buttons */
+/* Style the left section with text content */
+.left {
+  flex: 1; /* Take up equal space with right section */
+  min-width: 50%; /* Never be smaller than 50% width */
+  padding: 60px; /* Add 60px of internal spacing on all sides */
+  display: flex; /* Use flexbox for internal layout */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center-align all text */
+}
+
+/* TYPOGRAPHY - Controls all text elements */
+/* Style the h2 heading (Medical Test Prep) */
+.left h2 {
+  font-size: 44px; /* Set text size to 44 pixels */
+  margin-bottom: 30px; /* Add 30px space below the heading */
+  color: #333; /* Dark gray text color */
+  font-weight: 600; /* Semi-bold font weight */
+  letter-spacing: -0.2px; /* Slightly tighten letter spacing */
+}
+
+/* Style the h1 heading (Your study time, optimized) */
+.left h1 {
+  font-size: 84px; /* Large text size of 84 pixels */
+  line-height: 1.1; /* Tight line spacing (1.1 times the font size) */
+  margin: 0 0 40px; /* No top margin, 40px bottom margin, no side margins */
+  color: #000; /* Pure black text color */
+  font-weight: 700; /* Bold font weight */
+  letter-spacing: -1px; /* Tighten letter spacing by 1 pixel */
+}
+
+/* COMING SOON TEXT - Positioned above Google Play button */
+/* Style the "Coming soon!" badge */
+.coming-soon {
+  font-weight: 700; /* Bold text */
+  margin: 0 0 5px; /* No top margin, 5px bottom margin, no side margins */
+  color: #000; /* Black text color */
+  font-size: 14px; /* Small text size */
+  position: relative; /* Enable relative positioning */
+  left: 95px; /* Move 95px to the right */
+  background-color: #FFB614; /* Orange/yellow background */
+  border-radius: 25px; /* Rounded corners with 25px radius */
+  padding: 8px 20px; /* 8px top/bottom padding, 20px left/right padding */
+  width: fit-content; /* Width adjusts to content size */
+  animation: colorPulse 2s ease-in-out infinite; /* Apply pulsing animation */
+}
+
+/* COLOR PULSE ANIMATION */
+/* Define the pulsing color animation for coming soon badge */
+@keyframes colorPulse {
+  0% { /* At start of animation */
+    background-color: #FFB614; /* Original orange color */
+  }
+  50% { /* At middle of animation */
+    background-color: #FFC035; /* Lighter orange color */
+  }
+  100% { /* At end of animation */
+    background-color: #FFB614; /* Back to original orange color */
+  }
+}
+
+/* APP STORE BUTTONS CONTAINER */
+/* Style the container holding both app store buttons */
+.badges {
+  margin-top: 0; /* No top margin */
+  display: flex; /* Use flexbox layout */
+  gap: 15px; /* 15px space between buttons */
+  margin-bottom: 10px; /* 10px space below the button container */
+}
+
+/* Style the app store button images */
+.badges img {
+  height: 60px; /* Set image height to 60 pixels */
+  margin-right: 0; /* No right margin */
+  transition: transform 0.2s ease; /* Smooth transform animation over 0.2 seconds */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Add hover effect to app store buttons */
+.badges img:hover {
+  transform: translateY(-2px); /* Move image up by 2 pixels when hovered */
+}
+
+/* NAVIGATION BUTTONS */
+/* Style the container for About us and Contact buttons */
+.nav-buttons {
+  display: flex; /* Use flexbox layout */
+  gap: 40px; /* 40px space between navigation buttons */
+  margin-top: 15px; /* 15px space above the navigation */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+/* Style individual navigation buttons */
+.nav-btn {
+  background: none; /* No background color */
+  color: #000; /* Black text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 0; /* No internal padding */
+  border-radius: 0; /* No rounded corners */
+  font-weight: 700; /* Bold text */
+  font-size: 24px; /* 24px text size */
+  transition: none; /* No transition effects */
+  border: none; /* No border */
+  cursor: pointer; /* Show pointer cursor */
+}
+
+/* OVERLAY STYLES */
+/* Style the modal overlay background */
+.overlay {
+  position: fixed; /* Fixed position relative to viewport */
+  top: 0; /* Position at top of screen */
+  left: 0; /* Position at left of screen */
+  width: 100%; /* Full width of screen */
+  height: 100%; /* Full height of screen */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 1000; /* High z-index to appear above other content */
+  opacity: 0; /* Initially transparent */
+  visibility: hidden; /* Initially hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade in/out animation */
+}
+
+/* Style overlay when active/visible */
+.overlay.active {
+  opacity: 1; /* Fully visible */
+  visibility: visible; /* Make visible */
+}
+
+/* Style the modal content box */
+.modal {
+  background: white; /* White background */
+  border-radius: 20px; /* Rounded corners */
+  padding: 50px 40px; /* 50px top/bottom padding, 40px left/right padding */
+  max-width: 750px; /* Maximum width of 750 pixels */
+  width: 90%; /* 90% of available width */
+  min-height: 500px; /* Minimum height of 500 pixels */
+  max-height: 80vh; /* Maximum height of 80% of viewport height */
+  overflow-y: auto; /* Add scrollbar if content overflows vertically */
+  position: relative; /* Enable positioning for child elements */
+  transform: translateY(20px); /* Initially offset down by 20 pixels */
+  transition: transform 0.3s ease; /* Smooth slide-in animation */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+}
+
+/* Style modal when overlay is active */
+.overlay.active .modal {
+  transform: translateY(0); /* Move to normal position (slide up effect) */
+}
+
+/* Style the modal header */
+.modal-header {
+  background-color: #FAD37C; /* Yellow background matching site */
+  border-radius: 25px; /* Rounded corners */
+  padding: 15px 30px; /* 15px top/bottom padding, 30px left/right padding */
+  text-align: center; /* Center the text */
+  margin: 0 auto 30px auto; /* Center horizontally, 30px bottom margin */
+  font-size: 24px; /* 24px text size */
+  font-weight: 700; /* Bold text */
+  color: #000; /* Black text color */
+  max-width: 350px; /* Maximum width of 350 pixels */
+  width: fit-content; /* Width adjusts to content */
+}
+
+/* Style the modal content area */
+.modal-content {
+  text-align: center; /* Center-align text */
+  line-height: 1.6; /* 1.6 times font size for line spacing */
+  font-size: 18px; /* 18px text size */
+  color: #333; /* Dark gray text color */
+}
+
+/* Style paragraphs within modal content */
+.modal-content p {
+  margin-bottom: 20px; /* 20px space below each paragraph */
+}
+
+/* Style the modal close button */
+.close-btn {
+  position: absolute; /* Position relative to modal */
+  top: 10px; /* 10px from top of modal */
+  right: 15px; /* 15px from right edge of modal */
+  background: transparent; /* No background color */
+  color: black; /* Black text/icon color */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular shape */
+  width: 40px; /* 40px wide */
+  height: 40px; /* 40px tall (circular) */
+  font-size: 20px; /* 20px font size for × symbol */
+  font-weight: bold; /* Bold × symbol */
+  cursor: pointer; /* Show pointer cursor */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  transition: background-color 0.2s ease; /* Smooth background color change */
+  line-height: 1; /* Tight line height for × symbol */
+}
+
+/* Style close button on hover */
+.close-btn:hover {
+  background: #333; /* Dark background on hover */
+}
+
+/* RIGHT SECTION */
+/* Style the right section containing the screenshot */
+.right {
+  flex: 1; /* Take up equal space with left section */
+  min-width: 50%; /* Never be smaller than 50% width */
+  padding: 40px; /* 40px internal padding on all sides */
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-color: #FAD37C; /* Yellow background matching site */
+}
+
+/* STATIC IMAGE CONTAINER */
+/* Style the container around the screenshot image */
+.screenshot-wrapper {
+  background: white; /* White background behind image */
+  border-radius: 16px; /* Rounded corners */
+  padding: 0; /* No internal padding */
+  width: 100%; /* Full width of parent container */
+  max-width: 350px; /* Maximum width of 350 pixels on desktop */
+  height: auto; /* Height adjusts automatically */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
+  overflow: hidden; /* Hide any image overflow */
+}
+
+/* VIDEO CARD STRUCTURE - For larger screenshot */
+/* Alternative styling for video card structure (same as screenshot-wrapper) */
+.video-card {
+  background: white; /* White background behind image */
+  border-radius: 16px; /* Rounded corners */
+  padding: 0; /* No internal padding */
+  width: 100%; /* Full width of parent container */
+  max-width: 350px; /* Maximum width of 350 pixels on desktop */
+  height: auto; /* Height adjusts automatically */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  overflow: hidden; /* Hide any content overflow */
+}
+
+/* Style the video content wrapper */
+.video-content {
+  width: 100%; /* Full width of parent */
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+/* Style the actual screenshot image */
+.static-screenshot {
+  width: 100%; /* Full width of container */
+  border-radius: 16px; /* Rounded corners matching container */
+}
+
+/* PAGE LAYOUT FOR SECONDARY PAGES */
+/* Style the container for About and Contact pages */
+.page-container {
+  min-height: 100vh; /* Minimum height of full viewport */
+  padding: 70px 40px; /* 70px top/bottom padding (reduced from 80px), 40px left/right padding */
+  background-color: #FAD37C; /* Yellow background */
+  text-align: left; /* Left-align text */
+  max-width: 800px; /* Maximum width of 800 pixels */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Style the main page title */
+.page-title {
+  font-size: 48px; /* 48px text size */
+  color: blue; /* Blue text color (changed from #333) */
+  font-weight: 700; /* Bold text */
+  letter-spacing: -0.5px; /* Slightly tighten letter spacing */
+  margin-bottom: 30px; /* 30px space below title */
+  line-height: 1.0; /* Tight line spacing */
+}
+
+/* Style the page content area */
+.page-content {
+  font-size: 18px; /* 18px base text size */
+  line-height: 1.3; /* 1.3 times font size for line spacing */
+  color: #333; /* Dark gray text color */
+  max-width: 100%; /* Full width of container */
+  margin: 0 auto; /* Center horizontally */
+  text-align: left; /* Left-align text */
+  font-weight: 400; /* Normal font weight */
+}
+
+/* Style h2 headings within page content */
+.page-content h2 {
+  font-size: 48px; /* 48px text size */
+  color: #333; /* Dark gray text color */
+  font-weight: 700; /* Bold text */
+  letter-spacing: -0.5px; /* Slightly tighten letter spacing */
+  margin: 40px 0 20px 0; /* 40px top margin, 20px bottom margin, no side margins */
+  line-height: 1.0; /* Tight line spacing */
+}
+
+/* Style h3 headings within page content */
+.page-content h3 {
+  font-size: 18px; /* 18px text size */
+  color: #333; /* Dark gray text color */
+  font-weight: 400; /* Normal font weight */
+  margin: 30px 0 15px 0; /* 30px top margin, 15px bottom margin, no side margins */
+  line-height: 1.3; /* 1.3 times font size for line spacing */
+}
+
+/* Style paragraphs within page content */
+.page-content p {
+  margin-bottom: 20px; /* 20px space below each paragraph */
+  font-size: 18px; /* 18px text size */
+  color: #333; /* Dark gray text color */
+  font-weight: 400; /* Normal font weight */
+  line-height: 1.3; /* 1.3 times font size for line spacing */
+}
+
+/* MOBILE CONTACT FORM - Default (Desktop) Hidden */
+/* Hide mobile contact form on desktop */
+.mobile-contact-container {
+  display: none; /* Hidden by default (shown only on mobile) */
+}
+
+/* DESKTOP CONTACT FORM */
+/* Style the main contact form container */
+.contact-container {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Minimum height of full viewport */
+  padding: 40px; /* 40px padding on all sides */
+  background-color: #FAD37C; /* Yellow background */
+  gap: 60px; /* 60px space between left and right sections */
+}
+
+/* Style the left side of contact form */
+.contact-left {
+  flex: 1; /* Take up available space */
+  padding-right: 40px; /* 40px padding on right side */
+}
+
+/* Style the contact form heading */
+.contact-left h1 {
+  font-size: 64px; /* Large 64px text size */
+  color: #000; /* Black text color */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 40px; /* 40px space below heading */
+  line-height: 1.1; /* Tight line spacing */
+}
+
+/* Style paragraphs in contact form left section */
+.contact-left p {
+  font-size: 20px; /* 20px text size */
+  color: #000; /* Black text color */
+  line-height: 1.6; /* 1.6 times font size for line spacing */
+  margin-bottom: 20px; /* 20px space below each paragraph */
+}
+
+/* Style the right side of contact form (form container) */
+.contact-right {
+  flex: 1; /* Take up available space */
+  background-color: #FFB614; /* Orange background */
+  border-radius: 30px; /* Rounded corners */
+  padding: 40px; /* 40px padding on all sides */
+  max-width: 500px; /* Maximum width of 500 pixels */
+}
+
+/* Style the contact form itself */
+.contact-form {
+  width: 100%; /* Full width of container */
+}
+
+/* Style form field groups */
+.form-group {
+  margin-bottom: 20px; /* 20px space below each form group */
+}
+
+/* Style form inputs and textareas */
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Full width of form group */
+  padding: 16px 20px; /* 16px top/bottom padding, 20px left/right padding */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 16px; /* 16px text size */
+  font-family: inherit; /* Use same font as parent */
+  background-color: white; /* White background */
+  color: blue; /* Blue text color (changed from #000) */
+  font-weight: 700; /* Bold text (added) */
+}
+
+/* Style placeholder text in form fields */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666; /* Gray placeholder text */
+}
+
+/* Style form fields when focused (clicked/selected) */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none; /* Remove default browser outline */
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3); /* Add white glow effect */
+}
+
+/* Style textarea fields specifically */
+.form-group textarea {
+  min-height: 120px; /* Minimum height of 120 pixels */
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Style the form submit button */
+.submit-btn {
+  background-color: #FFC035; /* Light orange background */
+  color: #000; /* Black text color */
+  border: none; /* No border */
+  padding: 16px 40px; /* 16px top/bottom padding, 40px left/right padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 16px; /* 16px text size */
+  font-weight: 700; /* Bold text */
+  cursor: pointer; /* Show pointer cursor */
+  transition: all 0.2s ease; /* Smooth animation for all properties */
+  width: 100%; /* Full width of form */
+  margin-top: 10px; /* 10px space above button */
+}
+
+/* Style submit button on hover */
+.submit-btn:hover {
+  background-color: #FFD966; /* Lighter orange on hover */
+  transform: translateY(-2px); /* Move up by 2 pixels on hover */
+}
+
+/* BLOG STYLING */
+/* Style the blog container */
+.blog-container {
+  min-height: 100vh; /* Minimum height of full viewport */
+  padding: 80px 60px; /* 80px top/bottom padding, 60px left/right padding */
+  background-color: #FAD37C; /* Yellow background */
+}
+
+/* Style the main blog title */
+.blog-title {
+  font-size: 64px; /* Large 64px text size */
+  color: #000; /* Black text color */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 60px; /* 60px space below title */
+  line-height: 1.1; /* Tight line spacing */
+}
+
+/* Style individual blog post containers */
+.blog-post {
+  margin-bottom: 60px; /* 60px space below each blog post */
+}
+
+/* Style blog post titles */
+.blog-post-title {
+  background-color: #FFB614; /* Orange background */
+  border-radius: 25px; /* Rounded corners */
+  padding: 16px 30px; /* 16px top/bottom padding, 30px left/right padding */
+  font-size: 24px; /* 24px text size */
+  font-weight: 700; /* Bold text */
+  color: #000; /* Black text color */
+  margin-bottom: 30px; /* 30px space below title */
+  display: inline-block; /* Display as inline block element */
+}
+
+/* Style blog post content */
+.blog-post-content {
+  font-size: 20px; /* 20px text size */
+  line-height: 1.6; /* 1.6 times font size for line spacing */
+  color: #000; /* Black text color */
+}
+
+/* Style h3 headings in blog posts */
+.blog-post-content h3 {
+  font-size: 24px; /* 24px text size */
+  font-weight: 700; /* Bold text */
+  color: #000; /* Black text color */
+  margin: 30px 0 15px 0; /* 30px top margin, 15px bottom margin, no side margins */
+}
+
+/* Style paragraphs in blog posts */
+.blog-post-content p {
+  margin-bottom: 24px; /* 24px space below each paragraph */
+}
+
+/* RESPONSIVE DESIGN */
+/* Media query for tablet and mobile devices (768px width and below) */
+@media (max-width: 768px) {
+  /* Change container to vertical layout on mobile */
+  .container {
+    flex-direction: column; /* Stack left and right sections vertically */
+    height: auto; /* Auto height instead of fixed */
+    min-height: 100vh; /* Minimum full viewport height */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* Adjust left section for mobile */
+  .left {
+    min-width: 100%; /* Full width on mobile */
+    padding: 40px 20px 20px 20px; /* Reduced padding: 40px top, 20px other sides */
+    min-height: auto; /* Auto height */
+    flex-shrink: 0; /* Don't shrink this section */
+  }
+  
+  /* Adjust right section for mobile */
+  .right {
+    min-width: 100%; /* Full width on mobile */
+    padding: 20px; /* 20px padding on all sides */
+    min-height: auto; /* Auto height */
+    flex: 1; /* Take up remaining space */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Reduce h1 text size on mobile */
+  .left h1 {
+    font-size: 60px; /* Smaller than desktop (was 84px) */
+    margin-bottom: 30px; /* 30px space below */
+    font-weight: 700; /* Bold text */
+  }
+  
+  /* Reduce h2 text size on mobile */
+  .left h2 {
+    font-size: 40px; /* Smaller than desktop (was 44px) */
+    margin-bottom: 20px; /* 20px space below */
+    font-weight: 700; /* Bold text */
+  }
+  
+  /* Adjust coming soon badge for mobile */
+  .coming-soon {
+    font-size: 12px; /* Smaller text */
+    left: 68px; /* Adjusted positioning */
+    margin-bottom: 10px; /* 10px space below */
+    padding: 6px 16px; /* Reduced padding */
+  }
+  
+  /* Make screenshot larger on mobile (90% of available width) */
+  .screenshot-wrapper,
+  .video-card {
+    max-width: 90%; /* 90% of container width */
+    width: 100%; /* Full width up to max-width */
+    height: auto; /* Auto height to maintain aspect ratio */
+  }
+  
+  /* Reduce gap between app store badges */
+  .badges {
+    gap: 10px; /* Smaller gap than desktop (was 15px) */
+  }
+  
+  /* Make app store badges smaller on mobile */
+  .badges img {
+    height: 50px; /* Smaller than desktop (was 60px) */
+  }
+  
+  /* Adjust navigation buttons for mobile */
+  .nav-buttons {
+    flex-wrap: wrap; /* Allow buttons to wrap to next line */
+    gap: 40px; /* Keep same gap as desktop */
+    justify-content: center; /* Center the buttons */
+  }
+  
+  /* Make navigation buttons larger on mobile for easier tapping */
+  .nav-btn {
+    padding: 0; /* No padding */
+    font-size: 40px; /* Larger text for easier tapping */
+    font-weight: 700; /* Bold text */
+    background: none; /* No background */
+  }
+  
+  /* Adjust page container padding for mobile */
+  .page-container {
+    padding: 50px 40px; /* Reduced from 60px 40px (now 10px less) */
+  }
+  
+  /* Keep page title same size on mobile but make it blue */
+  .page-title {
+    font-size: 48px; /* Same as desktop */
+    font-weight: 700; /* Bold text */
+    color: blue; /* Blue text color (changed from #333) */
+    line-height: 1.0; /* Tight line spacing */
+  }
+  
+  /* Make page content text bold on mobile */
+  .page-content {
+    font-size: 18px; /* Same as desktop */
+    font-weight: 700; /* Bold (was 400 on desktop) */
+    color: #333; /* Dark gray text */
+    line-height: 1.3; /* Same line spacing */
+  }
+  
+  /* Keep h2 headings same size on mobile */
+  .page-content h2 {
+    font-size: 48px; /* Same as desktop */
+    font-weight: 700; /* Bold text */
+    color: #333; /* Dark gray text */
+    line-height: 1.0; /* Tight line spacing */
+  }
+  
+  /* Make h3 headings bold on mobile */
+  .page-content h3 {
+    font-size: 18px; /* Same as desktop */
+    font-weight: 700; /* Bold (was 400 on desktop) */
+    color: #333; /* Dark gray text */
+    line-height: 1.3; /* Same line spacing */
+  }
+  
+  /* Make paragraphs bold on mobile with reduced margin */
+  .page-content p {
+    font-size: 18px; /* Same as desktop */
+    font-weight: 700; /* Bold (was 400 on desktop) */
+    color: #333; /* Dark gray text */
+    line-height: 1.3; /* Same line spacing */
+    margin-bottom: 15px; /* Reduced from 20px */
+  }
+  
+  /* MOBILE CONTACT FORM - Show and style on mobile */
+  .mobile-contact-container {
+    display: block !important; /* Force show on mobile with !important */
+    min-height: 100vh; /* Full viewport height */
+    padding: 10px 40px !important; /* Much less top padding - 10px instead of 40px */
+    background-color: #FAD37C; /* Yellow background */
+  }
+  
+  /* Style the mobile contact header with reduced line spacing */
+  .mobile-contact-header h1 {
+    font-size: 48px; /* Large heading size */
+    color: #333; /* Dark gray text */
+    font-weight: 700; /* Bold text */
+    margin-bottom: 20px; /* 20px space below */
+    line-height: 0.9 !important; /* Much tighter line spacing with !important */
+    text-align: left; /* Left-align text */
+  }
+  
+  /* Style mobile contact description text */
+  .mobile-contact-header p {
+    font-size: 18px; /* 18px text size */
+    color: #333; /* Dark gray text */
+    font-weight: 700; /* Bold text */
+    line-height: 1.3; /* Line spacing */
+    margin-bottom: 20px; /* 20px space below */
+    text-align: left; /* Left-align text */
+  }
+  
+  /* Style the mobile form container */
+  .mobile-contact-form-wrapper {
+    background: white; /* White background */
+    border-radius: 30px; /* Rounded corners */
+    padding: 20px 20px; /* 20px padding on all sides */
+    margin-top: 20px; /* 20px space above */
+  }
+  
+  /* Style mobile form field groups */
+  .mobile-form-group {
+    margin-bottom: 15px; /* 15px space below each group */
+  }
+  
+  /* Style mobile form input fields with bold blue text */
+  .mobile-form-group input {
+    width: 100% !important; /* Full width with !important */
+    height: 50px; /* Fixed height */
+    padding: 12px 20px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* 16px text size */
+    font-weight: 700 !important; /* Bold font weight with !important */
+    font-family: inherit; /* Use parent font */
+    background-color: #f5f5f5; /* Light gray background */
+    color: blue !important; /* Blue text color with !important */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Style mobile form textarea fields with bold blue text */
+  .mobile-form-group textarea {
+    width: 100% !important; /* Full width with !important */
+    height: 120px; /* Fixed height */
+    padding: 12px 20px; /* Padding inside textarea */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* 16px text size */
+    font-weight: 700 !important; /* Bold font weight with !important */
+    font-family: inherit; /* Use parent font */
+    background-color: #f5f5f5; /* Light gray background */
+    color: blue !important; /* Blue text color with !important */
+    resize: none; /* Disable resizing */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Style placeholder text in mobile form fields */
+  .mobile-form-group input::placeholder,
+  .mobile-form-group textarea::placeholder {
+    color: #999; /* Light gray placeholder text */
+    font-weight: 400; /* Normal font weight for placeholder */
+  }
+  
+  /* Style the mobile form submit button */
+  .mobile-submit-btn {
+    width: 120px; /* Fixed width of 120 pixels */
+    height: 50px; /* Fixed height of 50 pixels */
+    background-color: #FFB614; /* Orange background */
+    color: #000; /* Black text color */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* 16px text size */
+    font-weight: 700; /* Bold text */
+    cursor: pointer; /* Show pointer cursor */
+    margin: 15px auto 0; /* 15px top margin, centered horizontally, no bottom margin */
+    display: block; /* Display as block element (takes full line) */
+  }
+  
+  /* Hide desktop contact form on mobile */
+  .contact-container {
+    display: none; /* Hide desktop contact form on mobile devices */
+  }
+}
+
+/* Media query for small mobile devices (480px width and below) */
+@media (max-width: 480px) {
+  /* Reduce left section padding on small mobile */
+  .left {
+    padding: 30px 15px 15px 15px; /* 30px top, 15px other sides */
+  }
+  
+  /* Reduce right section padding on small mobile */
+  .right {
+    padding: 15px; /* 15px padding on all sides */
+  }
+  
+  /* Make h1 much smaller on small mobile */
+  .left h1 {
+    font-size: 28px; /* Much smaller than tablet (was 60px) */
+    margin-bottom: 20px; /* 20px space below */
+  }
+  
+  /* Make h2 smaller on small mobile */
+  .left h2 {
+    font-size: 18px; /* Smaller than tablet (was 40px) */
+    margin-bottom: 15px; /* 15px space below */
+  }
+  
+  /* Make coming soon badge smaller on small mobile */
+  .coming-soon {
+    font-size: 11px; /* Very small text */
+    margin-bottom: 8px; /* 8px space below */
+    padding: 5px 14px; /* Reduced padding */
+  }
+  
+  /* Make app store badges smaller on small mobile */
+  .badges img {
+    height: 45px; /* Smaller than regular mobile (was 50px) */
+  }
+  
+  /* Make screenshot smaller on small mobile (85% of available width) */
+  .screenshot-wrapper,
+  .video-card {
+    max-width: 85%; /* 85% of container width (was 90% on regular mobile) */
+  }
+  
+  /* Reduce gap between navigation buttons on small mobile */
+  .nav-buttons {
+    gap: 10px; /* Much smaller gap (was 40px) */
+  }
+  
+  /* Make navigation buttons much smaller on small mobile */
+  .nav-btn {
+    padding: 8px 16px; /* Add some padding back */
+    font-size: 12px; /* Very small text (was 40px on regular mobile) */
+  }
+  
+  /* Reduce page container padding on small mobile */
+  .page-container {
+    padding: 30px 15px; /* 30px top/bottom (reduced from 40px), 15px left/right */
+  }
+  
+  /* Make page title smaller on small mobile but keep it blue */
+  .page-title {
+    font-size: 28px; /* Much smaller (was 48px) */
+    color: blue; /* Blue text color (changed from default) */
+  }
+  
+  /* Make page content text smaller on small mobile */
+  .page-content {
+    font-size: 14px; /* Smaller text (was 18px) */
+  }
+  
+  /* Make h2 headings smaller on small mobile */
+  .page-content h2 {
+    font-size: 28px; /* Smaller heading (was 48px) */
+  }
+  
+  /* Reduce contact container padding on small mobile */
+  .contact-container {
+    padding: 15px; /* 15px padding on all sides */
+  }
+  
+  /* Make contact heading smaller on small mobile */
+  .contact-left h1 {
+    font-size: 28px; /* Smaller heading (was 64px on desktop) */
+  }
+  
+  /* Make contact description text smaller on small mobile */
+  .contact-left p {
+    font-size: 14px; /* Smaller text (was 20px on desktop) */
+  }
+  
+  /* Reduce contact form padding on small mobile */
+  .contact-right {
+    padding: 20px; /* 20px padding (was 40px on desktop) */
+  }
+  
+  /* Reduce blog container padding on small mobile */
+  .blog-container {
+    padding: 40px 15px; /* 40px top/bottom, 15px left/right */
+  }
+  
+  /* Make blog title smaller on small mobile */
+  .blog-title {
+    font-size: 28px; /* Much smaller (was 64px on desktop) */
+  }
+  
+  /* Make blog post content smaller on small mobile */
+  .blog-post-content {
+    font-size: 14px; /* Smaller text (was 20px on desktop) */
+  }
+}
