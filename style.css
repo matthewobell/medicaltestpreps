@@ -100,26 +100,22 @@ body {
 /* NAVIGATION BUTTONS */
 .nav-buttons {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .nav-btn {
-  background-color: #FFB614;
+  background: none;
   color: #000;
   text-decoration: none;
-  padding: 12px 24px;
-  border-radius: 25px;
+  padding: 0;
+  border-radius: 0;
   font-weight: 700;
   font-size: 16px;
-  transition: all 0.2s ease;
+  transition: none;
   border: none;
   cursor: pointer;
-}
-
-.nav-btn:hover {
-  background-color: #FFC035;
-  transform: translateY(-2px);
 }
 
 /* OVERLAY STYLES */
@@ -301,6 +297,99 @@ body {
   display: none;
 }
 
+/* DESKTOP CONTACT FORM */
+.contact-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #FAD37C;
+  gap: 60px;
+}
+
+.contact-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.contact-left h1 {
+  font-size: 64px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.contact-left p {
+  font-size: 20px;
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #FFB614;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 500px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: white;
+  color: #000;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #FFC035;
+  color: #000;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #FFD966;
+  transform: translateY(-2px);
+}
+
 /* BLOG STYLING */
 .blog-container {
   min-height: 100vh;
@@ -409,14 +498,15 @@ body {
   
   .nav-buttons {
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 40px;
     justify-content: center;
   }
   
   .nav-btn {
-    padding: 10px 20px;
+    padding: 0;
     font-size: 40px;
     font-weight: 700;
+    background: none;
   }
   
   .page-container {
@@ -424,28 +514,28 @@ body {
   }
   
   .page-title {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
   }
   
   .page-content {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
   }
   
   .page-content h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
   }
   
   .page-content h3 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
   }
   
   .page-content p {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
   }
   
   /* Mobile Contact Form Styling */
