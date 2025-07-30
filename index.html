@@ -26,7 +26,7 @@
     </section>
   </main>
 
-  <!-- ✅ Footer with nav buttons -->
+  <!-- Footer -->
   <footer class="footer-nav">
     <div class="nav-buttons">
       <a href="about.html" class="nav-btn">About us</a>
@@ -34,9 +34,10 @@
     </div>
   </footer>
 
+  <!-- Modal -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
-      <button class="close-btn" onclick="closeModal()">×</button>
+      <button class="close-btn" onclick="closeModal()" aria-label="Close modal">×</button>
       <div class="modal-header">We're Medical Test Prep!</div>
       <div class="modal-content">
         <p><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
@@ -44,3 +45,24 @@
       </div>
     </div>
   </div>
+
+  <script>
+    function closeModal(event) {
+      const overlay = document.getElementById('overlay');
+      if (!event || event.target === overlay || event.target.classList.contains('close-btn')) {
+        overlay.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') closeModal();
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const sharedText = `Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools. Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties. We create short, focused question bank exams that fit seamlessly into the rare gaps in a busy physician's schedule. Our approach is grounded in educational research: brief, frequent bursts of learning outperform cramming and foster deeper, longer-lasting knowledge retention. These tools are designed not only to help physicians succeed on high-stakes exams, but also to strengthen clinical excellence throughout their careers. Best of luck as you continue your journey in medicine --- we're here to help!`;
+      document.querySelector('.shared-about-text').innerText = sharedText;
+    });
+  </script>
+</body>
+</html>
