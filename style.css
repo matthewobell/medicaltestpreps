@@ -851,12 +851,9 @@ body {
 
 /* FOOTER NAVIGATION BUTTONS */
 .footer-nav {
-  width: 100%;
   text-align: center;
   padding: 20px 0;
-  background-color: transparent; /* Change if you want a visible footer */
-  position: relative; /* Use 'fixed' or 'absolute' if needed */
-  bottom: 0;
+  background-color: transparent;
 }
 
 .footer-nav .nav-buttons {
@@ -875,4 +872,3 @@ body {
   padding: 0;
   border: none;
 }
-
