@@ -117,21 +117,21 @@ body {
 }
 
 .screenshot-wrapper {
-  background: white;
-  border-radius: 16px;
+  background: transparent;
+  border-radius: 35px;
   padding: 0;
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .static-screenshot {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 35px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
 /* PAGE STRUCTURE */
