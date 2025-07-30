@@ -24,7 +24,8 @@
         </div>
       </section>
     </main>
-    <!-- Footer - positioned inside page-wrapper for proper flexbox layout -->
+    
+    <!-- Footer - sticky at bottom as part of page layout -->
     <footer class="footer-nav">
       <div class="nav-buttons">
         <a href="about.html" class="nav-btn">About us</a>
@@ -33,7 +34,7 @@
     </footer>
   </div>
   
-  <!-- Modal - positioned outside page-wrapper to avoid layout conflicts -->
+  <!-- Modal - positioned outside page-wrapper -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
       <button class="close-btn" onclick="closeModal()" aria-label="Close modal">×</button>
@@ -44,3 +45,12 @@
       </div>
     </div>
   </div>
+
+  <script>
+    function closeModal(event) {
+      if (event && event.target !== event.currentTarget) return;
+      document.getElementById('overlay').classList.remove('active');
+    }
+  </script>
+</body>
+</html>
