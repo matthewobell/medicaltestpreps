@@ -37,14 +37,15 @@ text-align: center;
 
 /* TYPOGRAPHY - Controls all text elements */
 .left h2 {
-font-size: 44px;
+font-size: 84px;
 margin-bottom: 30px;
 color: #333;
 font-weight: 600;
 letter-spacing: -0.2px;
+line-height: 1.1;
 }
 .left h1 {
-font-size: 84px;
+font-size: 44px;
 line-height: 1.1;
 margin: 0 0 40px;
 color: #000;
