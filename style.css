@@ -695,6 +695,10 @@ body {
     font-size: 14px;
   }
   
+  .page-content h2 {
+    font-size: 28px;
+  }
+  
   .contact-container {
     padding: 15px;
   }
