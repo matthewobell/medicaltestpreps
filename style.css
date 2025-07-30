@@ -506,7 +506,7 @@ body {
   
   .screenshot-wrapper,
   .video-card {
-    max-width: 300px;
+    max-width: 90%;
     width: 100%;
     height: auto;
   }
@@ -694,7 +694,7 @@ body {
   
   .screenshot-wrapper,
   .video-card {
-    max-width: 250px;
+    max-width: 85%;
   }
   
   .nav-buttons {
