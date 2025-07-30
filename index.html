@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
+
+  <!-- Optional: TEMP test styles to confirm if CSS is loading -->
+  <!-- Remove once confirmed -->
+  <style>
+    /* DEBUG: Highlight if CSS loads */
+    /* body { border: 5px solid red; } */
+  </style>
 </head>
 <body>
   <main class="container">
@@ -12,18 +19,18 @@
       <h2>Medical Test Prep</h2>
       <h1>Your study time,<br>optimized</h1>
       <p class="coming-soon">Coming soon! 🚧</p>
+
       <div class="badges">
         <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
         <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
       </div>
-      
-      <!-- Navigation Buttons -->
+
       <div class="nav-buttons">
         <a href="about.html" class="nav-btn">About us</a>
         <a href="contact.html" class="nav-btn">Contact</a>
       </div>
     </section>
-    
+
     <section class="right">
       <div class="video-card">
         <div class="video-content">
@@ -32,14 +39,12 @@
       </div>
     </section>
   </main>
-  
-  <!-- Overlay Modal -->
+
+  <!-- Optional Modal (unchanged) -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
       <button class="close-btn" onclick="closeModal()">×</button>
-      <div class="modal-header">
-        We're Medical Test Prep!
-      </div>
+      <div class="modal-header">We're Medical Test Prep!</div>
       <div class="modal-content">
         <p><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
         <p>Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools. Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties.</p>
@@ -49,24 +54,23 @@
       </div>
     </div>
   </div>
-  
+
   <script>
     function openModal() {
       const overlay = document.getElementById('overlay');
       overlay.classList.add('active');
       document.body.style.overflow = 'hidden';
     }
-    
+
     function closeModal(event) {
       if (event && event.target !== document.getElementById('overlay') && !event.target.classList.contains('close-btn')) {
         return;
       }
-      
       const overlay = document.getElementById('overlay');
       overlay.classList.remove('active');
       document.body.style.overflow = 'auto';
     }
-    
+
     document.addEventListener('keydown', function(event) {
       if (event.key === 'Escape') {
         closeModal();
