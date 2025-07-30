@@ -261,7 +261,7 @@ body {
 }
 
 .page-content {
-  font-size: 44px;
+  font-size: 34px;
   line-height: 1.1;
   color: #333;
   max-width: 1200px;
@@ -272,7 +272,7 @@ body {
 }
 
 .page-content h2 {
-  font-size: 44px;
+  font-size: 34px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
@@ -280,7 +280,7 @@ body {
 }
 
 .page-content h3 {
-  font-size: 44px;
+  font-size: 34px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
@@ -289,7 +289,7 @@ body {
 
 .page-content p {
   margin-bottom: 24px;
-  font-size: 44px;
+  font-size: 34px;
   color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
