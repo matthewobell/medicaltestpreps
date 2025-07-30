@@ -429,3 +429,463 @@ body {
   background-color: #ffb614;
   transform: translateY(-2px);
 }
+
+/* LAYOUT STRUCTURE */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fad37c;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN CONTAINER - Controls the overall page layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: none;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 0;
+}
+
+/* LEFT SECTION - Contains all text content and app store buttons */
+.left {
+  flex: 1;
+  min-width: 50%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* TYPOGRAPHY - Controls all text elements */
+.left h2 {
+  font-size: 84px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 1;
+}
+.left h1 {
+  font-size: 44px;
+  line-height: 1;
+  margin: 0 0 40px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* COMING SOON TEXT - Positioned above Google Play button */
+.coming-soon {
+  font-weight: 700;
+  margin: 0 0 5px;
+  color: #000;
+  font-size: 14px;
+  position: relative;
+  left: 95px;
+  background-color: #ffb614;
+  border-radius: 25px;
+  padding: 8px 20px;
+  width: fit-content;
+  animation: colorPulse 2s ease-in-out infinite;
+}
+
+/* COLOR PULSE ANIMATION */
+@keyframes colorPulse {
+  0% {
+    background-color: #ffb614;
+  }
+  50% {
+    background-color: #ffc035;
+  }
+  100% {
+    background-color: #ffb614;
+  }
+}
+
+/* APP STORE BUTTONS CONTAINER */
+.badges {
+  margin-top: 0;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.badges img {
+  height: 60px;
+  margin-right: 0;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.badges img:hover {
+  transform: translateY(-2px);
+}
+
+/* NAVIGATION BUTTONS */
+.nav-buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.nav-btn {
+  background: none;
+  color: #000;
+  text-decoration: none;
+  padding: 0;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 20px;
+  transition: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+/* OVERLAY STYLES */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: white;
+  border-radius: 20px;
+  padding: 50px 40px;
+  max-width: 750px;
+  width: 90%;
+  min-height: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay.active .modal {
+  transform: translateY(0);
+}
+
+.modal-header {
+  background-color: #000;
+  border-radius: 25px;
+  padding: 15px 30px;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 350px;
+  width: fit-content;
+}
+
+.modal-content {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  line-height: 1;
+}
+
+.close-btn:hover {
+  background: #333;
+}
+
+/* RIGHT SECTION */
+.right {
+  flex: 1;
+  min-width: 50%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fad37c;
+}
+
+/* STATIC IMAGE CONTAINER */
+.screenshot-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.static-screenshot {
+  width: 100%;           /* Fill container */
+  max-width: 800px;      /* Prevent it from getting too large */
+  height: auto;          /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;        /* Center it horizontally */
+}
+
+/* PAGE LAYOUT FOR SECONDARY PAGES */
+.page-container {
+  min-height: 100vh;
+  padding: 80px 40px;
+  background-color: #fad37c;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 48px;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.page-content {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #333;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 400;
+}
+
+.page-content h2 {
+  font-size: 48px;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 40px 0 20px 0;
+  line-height: 1;
+}
+
+.page-content h3 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  margin: 30px 0 15px 0;
+  line-height: 1.3;
+}
+
+.page-content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* DESKTOP CONTACT FORM */
+.contact-container {
+  display: flex;
+  align-items: stretch;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #fad37c;
+  gap: 0;
+}
+
+.contact-left {
+  flex: 1;
+  padding-left: 120px;  /* Increase as needed */
+  padding-right: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;    /* Optional: centers horizontally */
+  text-align: left;     /* Optional: centers text */
+}
+
+/* Replicating header style */
+.contact-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+
+/* Replicating body text style */
+.contact-left p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #fad37c;
+  border-radius: 0;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  min-height: 600px;
+  padding-bottom: 40px;
+}
+
+.contact-form-header {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 24px 28px;      /* taller input fields */
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: inherit;
+  background-color: #f5f5f5;
+  color: #000;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666;
+  font-weight: 700;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-group textarea {
+  min-height: 220px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #fad37c;
+  color: #000;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 250px;               /* Shrink to fit content */
+  margin: 25px auto 0 auto;  /* Center horizontally */
+  display: block;            /* Needed for margin auto to work */
+  margin-top: 35px;
+}
+
+.submit-btn:hover {
+  background-color: #ffb614;
+  transform: translateY(-2px);
+}
+
+/* FOOTER NAVIGATION BUTTONS */
+.footer-nav {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: transparent; /* Change if you want a visible footer */
+  position: relative; /* Use 'fixed' or 'absolute' if needed */
+  bottom: 0;
+}
+
+.footer-nav .nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-nav .nav-btn {
+  background: none;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
