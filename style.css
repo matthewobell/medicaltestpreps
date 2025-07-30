@@ -116,6 +116,138 @@ body {
   background-color: #FAD37C;
 }
 
+/* APP SHOWCASE - New dynamic layout */
+.app-showcase {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PHONE MOCKUPS */
+.phone-mockup {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-phone {
+  left: 0;
+  top: 50px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
+.right-phone {
+  right: 0;
+  top: 50px;
+  transform: rotate(15deg);
+  z-index: 1;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* CENTER CONTENT */
+.center-content {
+  position: relative;
+  z-index: 2;
+  background: white;
+  border-radius: 20px;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  min-width: 280px;
+}
+
+/* MENU ICON */
+.menu-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-lines span {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 1px;
+}
+
+/* STATUS INDICATOR */
+.status-indicator {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #FFB614;
+  border-radius: 50%;
+}
+
+/* CTA HEADING */
+.cta-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 20px 0 25px 0;
+  line-height: 1.2;
+}
+
+/* ACTION BUTTONS */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.action-btn {
+  background-color: #FFB614;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.action-btn:hover {
+  background-color: #FFC035;
+  transform: translateY(-1px);
+}
+
+/* Keep existing screenshot wrapper for backwards compatibility */
 .screenshot-wrapper {
   background: white;
   border-radius: 16px;
@@ -449,6 +581,48 @@ body {
 
   .screenshot-wrapper {
     max-width: 85%;
+  }
+
+  /* SMALL MOBILE APP SHOWCASE */
+  .app-showcase {
+    height: 350px;
+    padding: 15px;
+  }
+
+  .phone-mockup {
+    width: 120px;
+    height: 240px;
+    padding: 8px;
+  }
+
+  .left-phone {
+    left: -30px;
+    top: 40px;
+  }
+
+  .right-phone {
+    right: -30px;
+    top: 40px;
+  }
+
+  .center-content {
+    min-width: 180px;
+    padding: 15px 12px;
+  }
+
+  .cta-heading {
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+  }
+
+  .action-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .action-buttons {
+    gap: 8px;
   }
 
   .page-container {
