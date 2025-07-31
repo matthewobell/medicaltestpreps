@@ -7,15 +7,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Fixed Navigation -->
-  <nav class="fixed-nav">
-    <div class="nav-buttons">
-      <a href="#hero" class="nav-btn text-base font-bold text-black">Home</a>
-      <a href="#about" class="nav-btn text-base font-bold text-black">About</a>
-      <a href="#contact" class="nav-btn text-base font-bold text-black">Contact</a>
-    </div>
-  </nav>
-
   <!-- Hero Section -->
   <section id="hero" class="section hero-section">
     <div class="section-content">
@@ -27,6 +18,7 @@
           <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
           <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
         </div>
+        <a href="#about" class="learn-more-btn">Learn more +</a>
       </div>
       <div class="hero-image">
         <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
@@ -110,28 +102,7 @@
       alert('Thank you for your message! We will get back to you within 24-48 hours.');
     });
 
-    // Scroll spy for active navigation states
-    window.addEventListener('scroll', function() {
-      const sections = document.querySelectorAll('section[id]');
-      const navLinks = document.querySelectorAll('.nav-btn');
-      
-      let current = '';
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
-        if (window.pageYOffset >= sectionTop) {
-          current = section.getAttribute('id');
-        }
-      });
-
-      navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === '#' + current) {
-          link.classList.add('active');
-        }
-      });
-    });
-
-    // Smooth scrolling enhancement for older browsers
+    // Smooth scrolling for learn more button
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
