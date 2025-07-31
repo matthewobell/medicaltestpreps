@@ -49,18 +49,6 @@
       line-height: 1.1;
     }
 
-    .coming-soon {
-      font-size: 15px;
-      font-weight: bold;
-      color: #000;
-      background-color: #ffb614;
-      border-radius: 25px;
-      padding: 8px 20px;
-      width: fit-content;
-      margin-bottom: 30px;
-      animation: pulse 2s ease-in-out infinite;
-    }
-
     @keyframes pulse {
       0% { background-color: #ffb614; }
       50% { background-color: #ffc035; }
@@ -85,6 +73,7 @@
     .badge-wrapper {
       position: relative;
       display: inline-block;
+      padding-top: 40px; /* Make room for the absolute badge above */
     }
 
     .badge-wrapper .coming-soon {
