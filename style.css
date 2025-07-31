@@ -549,3 +549,76 @@ html, body {
 .close-btn:hover {
   background: var(--color-dark);
 }
+
+/* ========== Responsive: Tablet (max-width: 1024px) ========== */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .left, .right {
+    flex: none;
+    width: 100%;
+    padding: 20px 40px;
+    text-align: center;
+  }
+
+  .heading-hero {
+    font-size: 40px;
+  }
+
+  .heading-primary {
+    font-size: 30px;
+  }
+
+  .badges {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* ========== Responsive: Mobile (max-width: 768px) ========== */
+@media (max-width: 768px) {
+  .heading-hero {
+    font-size: 30px;
+  }
+
+  .heading-primary {
+    font-size: 24px;
+  }
+
+  .badges img {
+    height: 48px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .left {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .right {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .static-screenshot {
+    max-height: 60vh;
+    width: auto;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 12px;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+}
