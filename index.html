@@ -82,6 +82,27 @@
       transform: translateY(-2px);
     }
 
+    .badge-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
+    .badge-wrapper .coming-soon {
+      position: absolute;
+      top: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 15px;
+      font-weight: bold;
+      color: #000;
+      background-color: #ffb614;
+      border-radius: 25px;
+      padding: 8px 20px;
+      white-space: nowrap;
+      animation: pulse 2s ease-in-out infinite;
+      text-align: center;
+    }
+
     .right {
       flex: 1;
       display: flex;
@@ -127,10 +148,12 @@
     <section class="left">
       <h1 class="heading-primary">Medical Test Prep</h1>
       <h2 class="heading-hero">Your study time,<br>optimized</h2>
-      <p class="coming-soon">Coming soon! 🎉</p>
       <div class="badges">
         <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
-        <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
+        <div class="badge-wrapper">
+          <div class="coming-soon">Coming Soon 🎉</div>
+          <img src="google-play-badge.png" alt="Get it on Google Play" />
+        </div>
       </div>
     </section>
     <section class="right">
