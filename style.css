@@ -237,6 +237,24 @@ body {
 .hero-section {
   background-color: var(--color-yellow);
   padding-top: var(--space-xxl);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-main-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xxl);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.learn-more-container {
+  text-align: center;
+  margin-top: var(--space-xl);
+  width: 100%;
 }
 
 .hero-content {
