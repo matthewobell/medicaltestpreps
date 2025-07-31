@@ -8,6 +8,8 @@
   --font-size-base: 20px;
   --font-size-lg: 30px;
   --font-size-xl: 60px;
+
+  /* Letter Spacing */
   --letter-spacing-tight: -0.5px;
 
   /* Font Weights */
@@ -48,6 +50,7 @@ html, body {
   font-family: var(--font-main);
   background-color: var(--color-yellow);
   overflow: hidden;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 /* ========== Typography ========== */
@@ -62,6 +65,7 @@ html, body {
   color: var(--color-black);
   line-height: var(--line-tight);
   text-align: left;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 .body-text,
@@ -76,12 +80,14 @@ html, body {
   color: var(--color-dark);
   line-height: var(--line-normal);
   text-align: left;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 .small-text {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-regular);
   color: var(--color-black);
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 /* ========== Landing Page Layout ========== */
@@ -145,6 +151,7 @@ html, body {
   margin-bottom: 30px;
   animation: pulse 2s ease-in-out infinite;
   text-align: center;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 @keyframes pulse {
@@ -167,12 +174,14 @@ html, body {
   font-size: var(--font-size-xs);
   font-weight: bold;
   z-index: 999;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 .footer-nav a {
   text-decoration: none;
   color: var(--color-black);
   transition: opacity 0.2s ease;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 .footer-nav a:hover {
@@ -212,6 +221,7 @@ html, body {
 .feedback-text {
   font-weight: bold;
   margin-top: 30px;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 /* ========== Mission Page ========== */
