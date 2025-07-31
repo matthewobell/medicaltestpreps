@@ -176,7 +176,7 @@ html, body {
   color: var(--color-black);
   background-color: var(--color-highlight);
   border-radius: 25px;
-  padding: 8px var(--space-md);
+  padding: 30px var(--space-md);
   width: fit-content;
   margin-bottom: 30px;
   animation: pulse 2s ease-in-out infinite;
