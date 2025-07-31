@@ -169,23 +169,19 @@ html, body {
   transform: translateY(-2px);
 }
 
-.badge-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
 /* ========== Coming Soon ========== */
 .coming-soon {
-  font-size: 13px;
+  font-size: var(--font-size-xs);
   font-weight: bold;
-  color: #000;
-  background-color: #ffb614;
-  border-radius: 20px;
-  padding: 6px 16px;
+  color: var(--color-black);
+  background-color: var(--color-highlight);
+  border-radius: 25px;
+  padding: 8px var(--space-md);
   width: fit-content;
-  margin: 15px 0 0 0; /* moved below badges, add top margin */
+  margin-bottom: 30px;
   animation: pulse 2s ease-in-out infinite;
   text-align: center;
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 @keyframes pulse {
@@ -548,117 +544,4 @@ html, body {
 
 .close-btn:hover {
   background: var(--color-dark);
-}
-
-/* ========== Responsive: Tablet (max-width: 1024px) ========== */
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 40px;
-  }
-
-  .left, .right {
-    flex: none;
-    width: 100%;
-    padding: 20px 40px;
-    text-align: center;
-  }
-
-  .heading-hero {
-    font-size: 40px;
-  }
-
-  .heading-primary {
-    font-size: 30px;
-  }
-
-  .badges {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-/* ========== Responsive: Mobile (max-width: 768px) ========== */
-@media (max-width: 768px) {
-  .heading-hero {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .heading-primary {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .badges img {
-    height: 48px;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    justify-content: flex-start;
-  }
-
-  .left {
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .right {
-    padding: 0 20px;
-    margin-top: 20px;
-    justify-content: center;
-  }
-
-  .static-screenshot {
-    max-height: 60vh;
-    width: auto;
-  }
-
-  .footer-nav {
-    flex-direction: column;
-    gap: 12px;
-    font-size: 14px;
-    padding: 20px 0;
-  }
-
-  .about-container,
-  .contact-container {
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px 100px 20px;
-    text-align: center;
-  }
-
-  .about-content,
-  .contact-left,
-  .contact-right {
-    padding: 0;
-    align-items: center;
-  }
-
-  .about-title,
-  .about-intro,
-  .about-founding,
-  .mission-title,
-  .mission-text,
-  .closing-text,
-  .signature,
-  .contact-title,
-  .contact-text,
-  .feedback-text {
-    text-align: left;
-    padding: 0;
-    margin: 0 auto 20px auto;
-    max-width: 90%;
-  }
-
-  .contact-form {
-    margin: 0 auto;
-  }
 }
