@@ -180,6 +180,8 @@ html, body {
 /* ========== About Page ========== */
 .about-container {
   display: flex;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
@@ -211,6 +213,8 @@ html, body {
 /* ========== Contact Page (no form) ========== */
 .contact-container {
   display: flex;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
