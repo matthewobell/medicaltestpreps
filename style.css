@@ -190,7 +190,7 @@ html, body {
 
 .about-content {
   max-width: 600px;
-  text-align: center;
+  text-align: left;
 }
 
 /* ========== Contact Page ========== */
@@ -205,7 +205,7 @@ html, body {
 
 .contact-content {
   max-width: 600px;
-  text-align: center;
+  text-align: left;
 }
 
 .feedback-text {
@@ -225,5 +225,5 @@ html, body {
 
 .mission-content {
   max-width: 600px;
-  text-align: center;
+  text-align: left;
 }
