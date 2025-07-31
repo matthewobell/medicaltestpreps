@@ -71,26 +71,24 @@
     }
 
     .badge-wrapper {
-      position: relative;
-      display: inline-block;
-      padding-top: 40px; /* Make room for the absolute badge above */
-    }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .badge-wrapper .coming-soon {
-      position: absolute;
-      top: -35px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 15px;
-      font-weight: bold;
-      color: #000;
-      background-color: #ffb614;
-      border-radius: 25px;
-      padding: 8px 20px;
-      white-space: nowrap;
-      animation: pulse 2s ease-in-out infinite;
-      text-align: center;
-    }
+.badge-wrapper .coming-soon {
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  background-color: #ffb614;
+  border-radius: 25px;
+  padding: 8px 20px;
+  white-space: nowrap;
+  animation: pulse 2s ease-in-out infinite;
+  text-align: center;
+}
 
     .right {
       flex: 1;
