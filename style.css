@@ -584,10 +584,12 @@ html, body {
 @media (max-width: 768px) {
   .heading-hero {
     font-size: 30px;
+    text-align: center;
   }
 
   .heading-primary {
     font-size: 24px;
+    text-align: center;
   }
 
   .badges img {
@@ -598,16 +600,19 @@ html, body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    justify-content: flex-start;
   }
 
   .left {
     padding: 20px;
     align-items: center;
+    text-align: center;
   }
 
   .right {
     padding: 0 20px;
     margin-top: 20px;
+    justify-content: center;
   }
 
   .static-screenshot {
@@ -620,5 +625,40 @@ html, body {
     gap: 12px;
     font-size: 14px;
     padding: 20px 0;
+  }
+
+  .about-container,
+  .contact-container {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 100px 20px;
+    text-align: center;
+  }
+
+  .about-content,
+  .contact-left,
+  .contact-right {
+    padding: 0;
+    align-items: center;
+  }
+
+  .about-title,
+  .about-intro,
+  .about-founding,
+  .mission-title,
+  .mission-text,
+  .closing-text,
+  .signature,
+  .contact-title,
+  .contact-text,
+  .feedback-text {
+    text-align: left;
+    padding: 0;
+    margin: 0 auto 20px auto;
+    max-width: 90%;
+  }
+
+  .contact-form {
+    margin: 0 auto;
   }
 }
