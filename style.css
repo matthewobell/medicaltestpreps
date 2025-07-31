@@ -169,19 +169,28 @@ html, body {
   transform: translateY(-2px);
 }
 
+.badge-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 /* ========== Coming Soon ========== */
 .coming-soon {
+  position: absolute;
+  top: -50px; /* Adjust this as needed */
+  left: 50%;
+  transform: translateX(-50%);
   font-size: var(--font-size-xs);
   font-weight: bold;
   color: var(--color-black);
   background-color: var(--color-highlight);
   border-radius: 25px;
-  padding: 30px var(--space-md);
+  padding: 8px var(--space-md);
   width: fit-content;
-  margin-bottom: 30px;
   animation: pulse 2s ease-in-out infinite;
   text-align: center;
   letter-spacing: var(--letter-spacing-tight);
+  white-space: nowrap;
 }
 
 @keyframes pulse {
