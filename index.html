@@ -1,56 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Medical Test Prep</title>
-<link rel="stylesheet" href="style.css" />
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Test Prep</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #F6EDD7;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex: 1;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .left {
+      flex: 1;
+      padding-left: 85px;
+      padding-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .heading-primary {
+      font-size: 40px;
+      font-weight: 700;
+      color: #000;
+      margin: 0 0 20px 0;
+    }
+
+    .heading-hero {
+      font-size: 60px;
+      font-weight: 600;
+      color: #000;
+      margin: 0 0 30px 0;
+      line-height: 1.1;
+    }
+
+    .coming-soon {
+      font-size: 15px;
+      font-weight: bold;
+      color: #000;
+      background-color: #ffb614;
+      border-radius: 25px;
+      padding: 8px 20px;
+      width: fit-content;
+      margin-bottom: 30px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0% { background-color: #ffb614; }
+      50% { background-color: #ffc035; }
+      100% { background-color: #ffb614; }
+    }
+
+    .badges {
+      display: flex;
+      gap: 15px;
+    }
+
+    .badges img {
+      height: 55px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .badges img:hover {
+      transform: translateY(-2px);
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 50px;
+    }
+
+    .static-screenshot {
+      max-height: 80vh;
+      max-width: 90%;
+      object-fit: contain;
+    }
+
+    .footer-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #F6EDD7;
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      gap: 54px;
+      font-size: 15px;
+      font-weight: bold;
+      z-index: 999;
+    }
+
+    .footer-nav a {
+      text-decoration: none;
+      color: #000;
+      transition: opacity 0.2s ease;
+    }
+
+    .footer-nav a:hover {
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-<div class="page-wrapper">
-<main class="container">
-<section class="left">
-<h1 class="heading-primary">Medical Test Prep</h1>
-<h2 class="heading-hero">Your study time,<br>optimized</h2>
-<p class="coming-soon small-text font-bold text-black bg-highlight rounded-md">Coming soon! 🎉</p>
-<div class="badges">
-<a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
-<a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
-</div>
-</section>
-<section class="right">
-<div class="screenshot-wrapper">
-<img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
-</div>
-</section>
-</main>
+  <main class="container">
+    <section class="left">
+      <h1 class="heading-primary">Medical Test Prep</h1>
+      <h2 class="heading-hero">Your study time,<br>optimized</h2>
+      <p class="coming-soon">Coming soon! 🎉</p>
+      <div class="badges">
+        <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
+        <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
+      </div>
+    </section>
+    <section class="right">
+      <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
+    </section>
+  </main>
 
-<!-- Footer - sticky at bottom as part of page layout -->
-<footer class="footer-nav">
-<div class="nav-buttons">
-<a href="about.html" class="nav-btn">About us</a>
-<a href="contact.html" class="nav-btn">Contact</a>
-</div>
-</footer>
-</div>
-
-<!-- Modal - positioned outside page-wrapper -->
-<div class="overlay" id="overlay" onclick="closeModal(event)">
-<div class="modal" onclick="event.stopPropagation()">
-<button class="close-btn text-xl font-bold text-black line-tight" onclick="closeModal()" aria-label="Close modal">×</button>
-<div class="modal-header text-xl font-bold text-white">We're Medical Test Prep!</div>
-<div class="modal-content body-text line-relaxed text-center">
-<p class="mb-md"><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
-<p class="shared-about-text mb-md"></p>
-</div>
-</div>
-</div>
-<script>
-function closeModal(event) {
-if (event && event.target !== event.currentTarget) return;
-document.getElementById('overlay').classList.remove('active');
-}
-</script>
+  <footer class="footer-nav">
+    <a href="about.html">About us</a>
+    <a href="contact.html">Contact</a>
+  </footer>
 </body>
 </html>
