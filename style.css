@@ -545,3 +545,118 @@ html, body {
 .close-btn:hover {
   background: var(--color-dark);
 }
+
+/* ========== Mobile Responsive ========== */
+@media (max-width: 768px) {
+  html, body {
+    overflow: auto;
+  }
+  
+  /* Main page mobile */
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .left {
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    order: 1;
+  }
+  
+  .right {
+    padding: 0 20px 20px 20px;
+    order: 3;
+  }
+  
+  .footer-nav {
+    order: 2;
+    position: relative;
+    margin: 20px 0;
+    padding: 15px 0;
+  }
+  
+  .heading-primary {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .heading-hero {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .badges {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .badges img {
+    height: 45px;
+  }
+  
+  .coming-soon {
+    margin: 0 auto 20px auto;
+  }
+  
+  .static-screenshot {
+    max-height: 35vh;
+    max-width: 85%;
+  }
+  
+  /* About/Contact pages mobile */
+  .about-container,
+  .contact-container {
+    padding: 40px 30px 120px 30px;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .about-content,
+  .contact-left {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .about-title,
+  .about-intro,
+  .about-founding,
+  .mission-title,
+  .mission-text,
+  .closing-text,
+  .signature,
+  .contact-title,
+  .contact-text,
+  .feedback-text {
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  
+  .about-title,
+  .mission-title,
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  .mission-title {
+    margin-top: 30px;
+  }
+  
+  .contact-form {
+    max-width: 350px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .footer-nav {
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    gap: 20px;
+  }
+}
