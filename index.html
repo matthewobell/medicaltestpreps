@@ -10,12 +10,12 @@
   <div class="page-wrapper">
     <main class="container">
       <section class="left">
-        <h1 class="site-name">Medical Test Prep</h1>
-        <h2 class="tagline">Your study time,<br>optimized</h2>
-        <p class="coming-soon">Coming soon! 🚀</p>
+        <h1 class="heading-primary mb-xl">Medical Test Prep</h1>
+        <h2 class="heading-hero mb-lg mt-sm">Your study time,<br>optimized</h2>
+        <p class="coming-soon small-text font-bold text-black bg-highlight rounded-md">Coming soon! 🚀</p>
         <div class="badges">
-          <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" /></a>
-          <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" /></a>
+          <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
+          <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
         </div>
       </section>
       <section class="right">
@@ -28,8 +28,8 @@
     <!-- Footer - sticky at bottom as part of page layout -->
     <footer class="footer-nav">
       <div class="nav-buttons">
-        <a href="about.html" class="nav-btn">About us</a>
-        <a href="contact.html" class="nav-btn">Contact</a>
+        <a href="about.html" class="nav-btn text-base font-bold text-black">About us</a>
+        <a href="contact.html" class="nav-btn text-base font-bold text-black">Contact</a>
       </div>
     </footer>
   </div>
@@ -37,15 +37,14 @@
   <!-- Modal - positioned outside page-wrapper -->
   <div class="overlay" id="overlay" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
-      <button class="close-btn" onclick="closeModal()" aria-label="Close modal">×</button>
-      <div class="modal-header">We're Medical Test Prep!</div>
-      <div class="modal-content">
-        <p><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
-        <p class="shared-about-text"></p>
+      <button class="close-btn text-xl font-bold text-black line-tight" onclick="closeModal()" aria-label="Close modal">×</button>
+      <div class="modal-header text-xl font-bold text-white">We're Medical Test Prep!</div>
+      <div class="modal-content body-text line-relaxed text-center">
+        <p class="mb-md"><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
+        <p class="shared-about-text mb-md"></p>
       </div>
     </div>
   </div>
-
   <script>
     function closeModal(event) {
       if (event && event.target !== event.currentTarget) return;
