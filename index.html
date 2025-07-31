@@ -7,49 +7,143 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-wrapper">
-    <main class="container">
-      <section class="left">
+  <!-- Fixed Navigation -->
+  <nav class="fixed-nav">
+    <div class="nav-buttons">
+      <a href="#hero" class="nav-btn text-sm font-bold text-black">Home</a>
+      <a href="#about" class="nav-btn text-sm font-bold text-black">About</a>
+      <a href="#contact" class="nav-btn text-sm font-bold text-black">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero-section">
+    <div class="section-content">
+      <div class="hero-content">
         <h1 class="heading-primary mb-xl">Medical Test Prep</h1>
-        <h2 class="heading-hero mb-lg mt-sm">Your study time,<br>optimized</h2>
+        <h2 class="heading-hero mb-lg">Your study time,<br>optimized</h2>
         <p class="coming-soon small-text font-bold text-black bg-highlight rounded-md">Coming soon! 🚀</p>
         <div class="badges">
           <a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
           <a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
         </div>
-      </section>
-      <section class="right">
-        <div class="screenshot-wrapper">
-          <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
-        </div>
-      </section>
-    </main>
-    
-    <!-- Footer - sticky at bottom as part of page layout -->
-    <footer class="footer-nav">
-      <div class="nav-buttons">
-        <a href="about.html" class="nav-btn text-base font-bold text-black">About us</a>
-        <a href="contact.html" class="nav-btn text-base font-bold text-black">Contact</a>
       </div>
-    </footer>
-  </div>
-  
-  <!-- Modal - positioned outside page-wrapper -->
-  <div class="overlay" id="overlay" onclick="closeModal(event)">
-    <div class="modal" onclick="event.stopPropagation()">
-      <button class="close-btn text-xl font-bold text-black line-tight" onclick="closeModal()" aria-label="Close modal">×</button>
-      <div class="modal-header text-xl font-bold text-white">We're Medical Test Prep!</div>
-      <div class="modal-content body-text line-relaxed text-center">
-        <p class="mb-md"><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
-        <p class="shared-about-text mb-md"></p>
+      <div class="hero-image">
+        <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="section-content">
+      <div class="about-content">
+        <h2 class="heading-secondary text-dark line-tight tracking-normal mb-lg text-center">About Us</h2>
+        <div class="body-text text-dark line-normal">
+          <p class="mb-md">Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools.</p>
+          
+          <p class="mb-md">Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties.</p>
+          
+          <h3 class="heading-secondary text-dark font-bold line-tight tracking-normal mt-xl mb-md">Our Mission</h3>
+          
+          <p class="mb-md">We create short, focused question bank exams that fit seamlessly into the rare gaps in a busy physician's schedule. Our approach is grounded in educational research: brief, frequent bursts of learning outperform cramming and foster deeper, longer-lasting knowledge retention. These tools are designed not only to help physicians succeed on high-stakes exams, but also to strengthen clinical excellence throughout their careers.</p>
+          
+          <p class="mb-md">Best of luck as you continue your journey in medicine, we're here to help!</p>
+          
+          <p class="mb-md text-center"><strong class="font-bold">- The Medical Test Prep Team</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="section-content contact-content">
+      <div class="contact-left-content">
+        <h2 class="heading-secondary text-dark line-tight tracking-normal mb-lg">Contact Us</h2>
+        <p class="body-text text-dark line-tight mb-md">We'd love to hear from you!</p>
+        <p class="body-text text-dark line-tight mb-md">Whether you have questions about our app, feedback on your learning experience, or suggestions for improvement, please don't hesitate to reach out.</p>
+      </div>
+      <div class="contact-right-content">
+        <form class="contact-form bg-white rounded-lg p-md" id="contact-form">
+          <div class="contact-form-header text-lg font-bold text-black text-center mt-md mb-xl">Get in touch!</div>
+          <div class="form-group mb-sm">
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Email" 
+              required
+              class="text-sm font-bold text-black bg-light-gray border-none rounded-md">
+          </div>
+          <div class="form-group mb-sm">
+            <input 
+              type="text" 
+              id="subject" 
+              name="subject" 
+              placeholder="Subject" 
+              required
+              class="text-sm font-bold text-black bg-light-gray border-none rounded-md">
+          </div>
+          <div class="form-group mb-sm">
+            <textarea 
+              id="message" 
+              name="message" 
+              placeholder="What's on your mind?" 
+              required
+              class="text-sm font-bold text-black bg-light-gray border-none rounded-md"></textarea>
+          </div>
+          <button 
+            type="submit" 
+            class="submit-btn bg-yellow text-black border-none rounded-md text-sm font-bold cursor-pointer transition-all">
+            Submit!
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <script>
-    function closeModal(event) {
-      if (event && event.target !== event.currentTarget) return;
-      document.getElementById('overlay').classList.remove('active');
-    }
+    // Form submission handler
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! We will get back to you within 24-48 hours.');
+    });
+
+    // Scroll spy for active navigation states
+    window.addEventListener('scroll', function() {
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-btn');
+      
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    // Smooth scrolling enhancement for older browsers
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
   </script>
 </body>
 </html>
