@@ -6,7 +6,7 @@
   --font-size-xs: 15px;
   --font-size-sm: 18px;
   --font-size-base: 20px;
-  --font-size-lg: 40px;
+  --font-size-lg: 30px;
   --font-size-xl: 60px;
 
   /* Font Weights */
@@ -201,7 +201,7 @@ html, body {
 .mission-text,
 .closing-text,
 .signature {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-regular);
   color: var(--color-dark);
   line-height: var(--line-normal);
