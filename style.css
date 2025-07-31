@@ -551,62 +551,68 @@ html, body {
   html, body {
     overflow: auto;
   }
-  
+
   /* Main page mobile */
   .container {
     flex-direction: column;
     height: auto;
     padding: 20px;
   }
-  
+
   .left {
     padding: 20px 20px 0 20px;
     text-align: center;
     order: 1;
   }
-  
-  .right {
-    padding: 0 20px 20px 20px;
-    order: 3;
+
+  .right,
+  .contact-right,
+  .screenshot-wrapper {
+    display: none;
   }
-  
+
   .footer-nav {
-    order: 2;
-    position: relative;
-    margin: 20px 0;
+    position: fixed;
+    bottom: 0;
     padding: 15px 0;
+    gap: 20px;
+    background-color: var(--color-yellow);
+    width: 100%;
+    justify-content: center;
+    z-index: 999;
   }
-  
+
   .heading-primary {
     font-size: 24px;
     text-align: center;
     margin-bottom: 15px;
   }
-  
+
   .heading-hero {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
   }
-  
+
   .badges {
     justify-content: center;
     margin-bottom: 15px;
   }
-  
+
   .badges img {
     height: 45px;
   }
-  
+
   .coming-soon {
     margin: 0 auto 20px auto;
   }
-  
+
   .static-screenshot {
-    max-height: 35vh;
-    max-width: 85%;
+    max-height: 40vh;
+    width: 80%;
+    margin: 0 auto;
   }
-  
+
   /* About/Contact pages mobile */
   .about-container,
   .contact-container {
@@ -614,13 +620,20 @@ html, body {
     height: auto;
     min-height: 100vh;
   }
-  
+
   .about-content,
   .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 !important;
+    text-align: center;
+    box-sizing: border-box;
   }
-  
+
   .about-title,
   .about-intro,
   .about-founding,
@@ -631,32 +644,26 @@ html, body {
   .contact-title,
   .contact-text,
   .feedback-text {
-    padding: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     text-align: center;
     font-size: 16px;
     margin-bottom: 18px;
   }
-  
+
   .about-title,
   .mission-title,
   .contact-title {
     font-size: 28px;
     margin-bottom: 25px;
   }
-  
+
   .mission-title {
     margin-top: 30px;
   }
-  
+
   .contact-form {
     max-width: 350px;
     margin: 40px auto 0 auto;
-  }
-  
-  .footer-nav {
-    position: fixed;
-    bottom: 0;
-    padding: 15px 0;
-    gap: 20px;
   }
 }
