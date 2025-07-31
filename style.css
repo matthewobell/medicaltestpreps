@@ -50,31 +50,31 @@ html, body {
 }
 
 /* ========== Typography ========== */
-.heading-primary {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-black);
-}
-
-.heading-hero {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-black);
-  line-height: var(--line-tight);
-}
-
-.heading-secondary {
-  font-size: var(--font-size-lg);
+.heading-primary,
+.heading-hero,
+.heading-secondary,
+.about-title,
+.mission-title,
+.contact-title {
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
   line-height: var(--line-tight);
+  text-align: center;
 }
 
-.body-text {
-  font-size: var(--font-size-base);
+.body-text,
+.about-intro,
+.about-founding,
+.mission-text,
+.closing-text,
+.signature,
+.contact-text {
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-regular);
   color: var(--color-dark);
   line-height: var(--line-normal);
+  text-align: center;
 }
 
 .small-text {
@@ -143,6 +143,7 @@ html, body {
   width: fit-content;
   margin-bottom: 30px;
   animation: pulse 2s ease-in-out infinite;
+  text-align: center;
 }
 
 @keyframes pulse {
@@ -180,61 +181,31 @@ html, body {
 /* ========== About Page ========== */
 .about-container {
   display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
-  padding-left: 352px;
-  padding-right: 360px;
-  padding-bottom: 70px;
+  padding: 0 var(--space-lg) 70px;
 }
 
-.about-title,
-.mission-title {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-black);
-  margin-bottom: 25px;
+.about-content {
+  max-width: 600px;
+  text-align: center;
 }
 
-.about-intro,
-.about-founding,
-.mission-text,
-.closing-text,
-.signature {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-regular);
-  color: var(--color-dark);
-  line-height: var(--line-normal);
-  margin-bottom: 20px;
-}
-
-/* ========== Contact Page (no form) ========== */
+/* ========== Contact Page ========== */
 .contact-container {
   display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
-  padding-left: 422px;
-  padding-right: 274px;
-  padding-bottom: 70px;
+  padding: 0 var(--space-lg) 70px;
 }
 
-.contact-title {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-black);
-  margin-bottom: 35px;
-}
-
-.contact-text {
-  font-size: var(--font-size-xs);
-  color: var(--color-dark);
-  line-height: var(--line-normal);
-  margin-bottom: 20px;
+.contact-content {
+  max-width: 600px;
+  text-align: center;
 }
 
 .feedback-text {
