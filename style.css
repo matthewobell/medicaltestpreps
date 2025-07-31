@@ -8,6 +8,7 @@
   --font-size-base: 20px;
   --font-size-lg: 30px;
   --font-size-xl: 60px;
+  --letter-spacing-tight: -0.5px;
 
   /* Font Weights */
   --font-weight-regular: 400;
