@@ -1,27 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us - Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>About Us - Medical Test Prep</title>
+<style>
+:root {
+/* Font families */
+--font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+/* Font sizes */
+--font-size-xs: 15px;
+--font-size-sm: 20px;
+--font-size-base: 20px;
+--font-size-lg: 40px;
+--font-size-xl: 60px;
+--font-size-xxl: 72px;
+
+/* Font weights */
+--font-weight-regular: 400;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+
+/* Colors */
+--color-black: #000;
+--color-dark: #333;
+--color-gray: #666;
+--color-light-gray: #f5f5f5;
+--color-white: #fff;
+--color-yellow: #F6EDD7;
+--color-highlight: #ffb614;
+--color-pulse: #ffc035;
+
+/* Line heights */
+--line-tight: 1;
+--line-normal: 1.3;
+--line-relaxed: 1.6;
+
+/* Spacing */
+--space-xs: 5px;
+--space-sm: 15px;
+--space-md: 20px;
+--space-lg: 30px;
+--space-xl: 40px;
+--space-xxl: 60px;
+
+/* Border radius */
+--radius-sm: 20px;
+--radius-md: 25px;
+--radius-lg: 30px;
+--radius-full: 50%;
+
+/* Shadows */
+--shadow-focus: 0 0 0 3px rgba(0, 0, 0, 0.1);
+--shadow-overlay: rgba(0, 0, 0, 0.6);
+}
+
+/* Typography */
+.text-xs { font-size: var(--font-size-xs); }
+.text-sm { font-size: var(--font-size-sm); }
+.text-base { font-size: var(--font-size-base); }
+.text-lg { font-size: var(--font-size-lg); }
+.text-xl { font-size: var(--font-size-xl); }
+.text-xxl { font-size: var(--font-size-xxl); }
+
+.font-regular { font-weight: var(--font-weight-regular); }
+.font-semibold { font-weight: var(--font-weight-semibold); }
+.font-bold { font-weight: var(--font-weight-bold); }
+
+.text-black { color: var(--color-black); }
+.text-dark { color: var(--color-dark); }
+.text-gray { color: var(--color-gray); }
+.text-white { color: var(--color-white); }
+
+.line-tight { line-height: var(--line-tight); }
+.line-normal { line-height: var(--line-normal); }
+.line-relaxed { line-height: var(--line-relaxed); }
+
+/* Text alignment */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* Letter spacing */
+.tracking-tight { letter-spacing: -1px; }
+.tracking-normal { letter-spacing: -0.5px; }
+.tracking-loose { letter-spacing: -0.2px; }
+
+/* Spacing - Margin */
+.m-0 { margin: 0; }
+.mt-xs { margin-top: var(--space-xs); }
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mt-xl { margin-top: var(--space-xl); }
+
+.mb-xs { margin-bottom: var(--space-xs); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+.mb-xl { margin-bottom: var(--space-xl); }
+
+.mr-0 { margin-right: 0; }
+.ml-0 { margin-left: 0; }
+
+/* Background colors */
+.bg-yellow { background-color: var(--color-yellow); }
+.bg-highlight { background-color: var(--color-highlight); }
+.bg-white { background-color: var(--color-white); }
+.bg-black { background-color: var(--color-black); }
+.bg-light-gray { background-color: var(--color-light-gray); }
+
+/* Semantic Typography Classes */
+.heading-secondary {
+font-size: var(--font-size-lg);
+font-weight: var(--font-weight-bold);
+color: var(--color-black);
+line-height: var(--line-tight);
+letter-spacing: -0.5px;
+}
+
+.body-text {
+font-size: var(--font-size-base);
+font-weight: var(--font-weight-regular);
+color: var(--color-black);
+line-height: var(--line-normal);
+}
+
+/* ====================================
+LAYOUT STRUCTURE
+==================================== */
+* {
+box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+overflow: hidden;
+}
+
+body {
+font-family: var(--font-main);
+background-color: var(--color-yellow);
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+}
+
+/* About page specific layout */
+.about-container {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--color-yellow);
+padding: 0;
+padding-bottom: 70px; /* Account for footer */
+}
+
+.about-content {
+max-width: none;
+width: 100%;
+text-align: left;
+}
+
+.about-content .about-title {
+padding-left: 352px;
+margin-bottom: 35px;
+}
+
+.about-content .about-intro {
+padding-left: 352px;
+padding-right: 361px;
+margin-bottom: 20px;
+}
+
+.about-content .about-founding {
+padding-left: 352px;
+padding-right: 361px;
+margin-bottom: 40px;
+}
+
+.about-content .mission-title {
+padding-left: 348px;
+margin-bottom: 25px;
+}
+
+.about-content .mission-text {
+padding-left: 348px;
+padding-right: 357px;
+margin-bottom: 30px;
+}
+
+.about-content .closing-text {
+padding-left: 348px;
+padding-right: 357px;
+margin-bottom: 20px;
+}
+
+.about-content .signature {
+padding-left: 348px;
+margin-bottom: 0;
+}
+
+/* FOOTER NAVIGATION */
+.footer-nav {
+background-color: var(--color-yellow);
+padding: 24px 0;
+text-align: center;
+flex-shrink: 0;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 999;
+}
+
+.footer-nav .nav-buttons {
+display: flex;
+justify-content: center;
+gap: 54px;
+}
+
+.footer-nav .nav-btn {
+background: none;
+text-decoration: none;
+cursor: pointer;
+padding: 0;
+border: none;
+border-radius: 0;
+transition: all 0.2s ease;
+font-size: 15px;
+font-weight: bold;
+color: var(--color-black);
+}
+
+.footer-nav .nav-btn:hover {
+opacity: 0.7;
+}
+</style>
 </head>
 <body>
-  <div class="page-container">
-    <h1 class="page-title heading-secondary text-dark line-tight tracking-normal mb-lg">About Us</h1>
-    <div class="page-content body-text text-dark line-normal text-left">
-      <p class="mb-md">Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools.</p>
-      
-      <p class="mb-md">Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties.</p>
-      
-      <h2 class="heading-secondary text-dark font-bold line-tight tracking-normal mt-xl mb-md">Our Mission</h2>
-      
-      <p class="mb-md">We create short, focused question bank exams that fit seamlessly into the rare gaps in a busy physician's schedule. Our approach is grounded in educational research: brief, frequent bursts of learning outperform cramming and foster deeper, longer-lasting knowledge retention. These tools are designed not only to help physicians succeed on high-stakes exams, but also to strengthen clinical excellence throughout their careers.</p>
-      
-      <p class="mb-md">Best of luck as you continue your journey in medicine, we're here to help!</p>
-      
-      <p class="mb-md"><strong class="font-bold">- The Medical Test Prep Team</strong></p>
-    </div>
-  </div>
+<div class="about-container">
+<div class="about-content">
+<h1 class="heading-secondary about-title">About Us</h1>
+<p class="body-text about-intro">Medical Test Prep, LLC is a physician-led medical education company committed to empowering residents and attending physicians through high-yield, app-based learning tools.</p>
+<p class="body-text about-founding">Founded by a board-certified physician, a skilled tech team, and part-time legal support, our mission is to promote lifelong learning and board success across a wide range of specialties.</p>
+<h2 class="heading-secondary mission-title">Our Mission</h2>
+<p class="body-text mission-text">We create short, focused question bank exams that fit seamlessly into the rare gaps in a busy physician's schedule. Our approach is grounded in educational research: brief, frequent bursts of learning outperform cramming and foster deeper, longer-lasting knowledge retention. These tools are designed not only to help physicians succeed on high-stakes exams, but also to strengthen clinical excellence throughout their careers.</p>
+<p class="body-text closing-text">Best of luck as you continue your journey in medicine, we're here to help!</p>
+<p class="body-text signature"><strong class="font-bold">- The Medical Test Prep Team</strong></p>
+</div>
+</div>
+
+<!-- Footer - sticky at bottom -->
+<footer class="footer-nav">
+<div class="nav-buttons">
+<a href="index.html" class="nav-btn">Home</a>
+<a href="contact.html" class="nav-btn">Contact</a>
+</div>
+</footer>
 </body>
 </html>
