@@ -56,11 +56,11 @@ html, body {
 .about-title,
 .mission-title,
 .contact-title {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
   line-height: var(--line-tight);
-  text-align: center;
+  text-align: left;
 }
 
 .body-text,
@@ -74,7 +74,7 @@ html, body {
   font-weight: var(--font-weight-regular);
   color: var(--color-dark);
   line-height: var(--line-normal);
-  text-align: center;
+  text-align: left;
 }
 
 .small-text {
