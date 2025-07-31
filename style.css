@@ -1,500 +1,164 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Medical Test Prep</title>
-<link rel="stylesheet" href="style.css" />
-</style>
 :root {
-/* Font families */
---font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
-/* Font sizes */
---font-size-xs: 15px;
---font-size-sm: 20px;
---font-size-base: 20px;
---font-size-lg: 40px;
---font-size-xl: 60px;
---font-size-xxl: 72px;
+  /* Font sizes */
+  --font-size-xs: 15px;
+  --font-size-base: 20px;
+  --font-size-lg: 40px;
+  --font-size-xl: 60px;
 
-/* Font weights */
---font-weight-regular: 400;
---font-weight-semibold: 600;
---font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
 
-/* Colors */
---color-black: #000;
---color-dark: #333;
---color-gray: #666;
---color-light-gray: #f5f5f5;
---color-white: #fff;
---color-yellow: #F6EDD7;
---color-highlight: #ffb614;
---color-pulse: #ffc035;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-dark: #333;
+  --color-gray: #666;
+  --color-yellow: #F6EDD7;
+  --color-highlight: #ffb614;
+  --color-pulse: #ffc035;
 
-/* Line heights */
---line-tight: 1;
---line-normal: 1.3;
---line-relaxed: 1.6;
+  --line-tight: 1.1;
+  --line-normal: 1.4;
 
-/* Spacing */
---space-xs: 5px;
---space-sm: 15px;
---space-md: 20px;
---space-lg: 30px;
---space-xl: 40px;
---space-xxl: 60px;
-
-/* Border radius */
---radius-sm: 20px;
---radius-md: 25px;
---radius-lg: 30px;
---radius-full: 50%;
-
-/* Shadows */
---shadow-focus: 0 0 0 3px rgba(0, 0, 0, 0.1);
---shadow-overlay: rgba(0, 0, 0, 0.6);
+  --space-sm: 15px;
+  --space-md: 20px;
+  --space-lg: 30px;
+  --space-xl: 40px;
 }
 
-/* ====================================
-UTILITY CLASSES
-==================================== */
-
-/* Typography */
-.text-xs { font-size: var(--font-size-xs); }
-.text-sm { font-size: var(--font-size-sm); }
-.text-base { font-size: var(--font-size-base); }
-.text-lg { font-size: var(--font-size-lg); }
-.text-xl { font-size: var(--font-size-xl); }
-.text-xxl { font-size: var(--font-size-xxl); }
-
-.font-regular { font-weight: var(--font-weight-regular); }
-.font-semibold { font-weight: var(--font-weight-semibold); }
-.font-bold { font-weight: var(--font-weight-bold); }
-
-.text-black { color: var(--color-black); }
-.text-dark { color: var(--color-dark); }
-.text-gray { color: var(--color-gray); }
-.text-white { color: var(--color-white); }
-
-.line-tight { line-height: var(--line-tight); }
-.line-normal { line-height: var(--line-normal); }
-.line-relaxed { line-height: var(--line-relaxed); }
-
-/* Text alignment */
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-
-/* Letter spacing */
-.tracking-tight { letter-spacing: -1px; }
-.tracking-normal { letter-spacing: -0.5px; }
-.tracking-loose { letter-spacing: -0.2px; }
-
-/* Spacing - Margin */
-.m-0 { margin: 0; }
-.mt-xs { margin-top: var(--space-xs); }
-.mt-sm { margin-top: var(--space-sm); }
-.mt-md { margin-top: var(--space-md); }
-.mt-lg { margin-top: var(--space-lg); }
-.mt-xl { margin-top: var(--space-xl); }
-
-.mb-xs { margin-bottom: var(--space-xs); }
-.mb-sm { margin-bottom: var(--space-sm); }
-.mb-md { margin-bottom: var(--space-md); }
-.mb-lg { margin-bottom: var(--space-lg); }
-.mb-xl { margin-bottom: var(--space-xl); }
-
-.mr-0 { margin-right: 0; }
-.ml-0 { margin-left: 0; }
-
-/* Spacing - Padding */
-.p-0 { padding: 0; }
-.p-sm { padding: var(--space-sm); }
-.p-md { padding: var(--space-md); }
-.p-lg { padding: var(--space-lg); }
-.p-xl { padding: var(--space-xl); }
-.p-xxl { padding: var(--space-xxl); }
-
-/* Background colors */
-.bg-yellow { background-color: var(--color-yellow); }
-.bg-highlight { background-color: var(--color-highlight); }
-.bg-white { background-color: var(--color-white); }
-.bg-black { background-color: var(--color-black); }
-.bg-light-gray { background-color: var(--color-light-gray); }
-.bg-transparent { background: transparent; }
-.bg-none { background: none; }
-
-/* Border radius */
-.rounded-sm { border-radius: var(--radius-sm); }
-.rounded-md { border-radius: var(--radius-md); }
-.rounded-lg { border-radius: var(--radius-lg); }
-.rounded-full { border-radius: var(--radius-full); }
-.rounded-none { border-radius: 0; }
-
-/* Borders */
-.border-none { border: none; }
-
-/* Display */
-.flex { display: flex; }
-.flex-col { flex-direction: column; }
-.items-center { align-items: center; }
-.items-stretch { align-items: stretch; }
-.justify-center { justify-content: center; }
-.justify-stretch { justify-content: stretch; }
-
-/* Positioning */
-.relative { position: relative; }
-.absolute { position: absolute; }
-.fixed { position: fixed; }
-
-/* Cursor */
-.cursor-pointer { cursor: pointer; }
-
-/* Transitions */
-.transition-opacity { transition: opacity 0.2s ease; }
-.transition-all { transition: all 0.2s ease; }
-.transition-transform { transition: transform 0.2s ease; }
-
-/* Semantic Typography Classes */
-.heading-hero {
-font-size: var(--font-size-xl);
-font-weight: var(--font-weight-regular);
-color: var(--color-black);
-line-height: var(--line-tight);
-letter-spacing: -0.2px;
-}
-
-.heading-primary {
-font-size: var(--font-size-lg);
-font-weight: var(--font-weight-bold);
-color: var(--color-black);
-line-height: var(--line-tight);
-letter-spacing: -1px;
-}
-
-.heading-secondary {
-font-size: var(--font-size-lg);
-font-weight: var(--font-weight-bold);
-color: var(--color-black);
-line-height: var(--line-tight);
-letter-spacing: -0.5px;
-}
-
-.body-text {
-font-size: var(--font-size-base);
-font-weight: var(--font-weight-regular);
-color: var(--color-black);
-line-height: var(--line-normal);
-}
-
-.small-text {
-font-size: var(--font-size-xs);
-font-weight: var(--font-weight-regular);
-color: var(--color-black);
-}
-
-/* ====================================
-LAYOUT STRUCTURE
-==================================== */
+/* General reset and base */
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-height: 100%;
-overflow: hidden;
-}
-
-body {
-font-family: var(--font-main);
-background-color: var(--color-yellow);
-margin: 0;
-padding: 0;
-display: flex;
-flex-direction: column;
-}
-
-/* PAGE WRAPPER */
-.page-wrapper {
-display: flex;
-flex-direction: column;
-height: 100vh;
-overflow: hidden;
-}
-
-/* MAIN CONTAINER */
-.container {
-display: flex;
-flex: 1;
-flex-wrap: wrap;
-max-width: none;
-width: 100vw;
-margin: 0;
-padding: 0;
-align-items: stretch;
-justify-content: stretch;
-gap: 0;
-overflow: hidden;
-}
-
-/* LEFT SECTION */
-.left {
-flex: 1;
-min-width: 50%;
-padding: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-text-align: left;
-overflow: hidden;
-padding-left: 85px;
-padding-bottom: 70px; /* Account for footer */
+  height: 100%;
+  font-family: var(--font-main);
+  background-color: var(--color-yellow);
+  overflow: hidden;
 }
 
 /* Typography */
-.left h2 {
-margin-bottom: 25px;
-margin-top: var(--space-sm);
+.heading-primary {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
 }
 
-.left h1 {
-margin: 0 0 20px 0;
+.heading-hero {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-black);
+  line-height: var(--line-tight);
 }
 
-/* COMING SOON TEXT */
-.coming-soon {
-margin: 0 0 var(--space-xs);
-position: relative;
-border-radius: var(--radius-md);
-padding: 8px var(--space-md);
-width: fit-content;
-animation: colorPulse 2s ease-in-out infinite;
-margin-bottom: 30px;
+.body-text {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-dark);
+  line-height: var(--line-normal);
 }
 
-/* ANIMATIONS */
-@keyframes colorPulse {
-0% { background-color: var(--color-highlight); }
-50% { background-color: var(--color-pulse); }
-100% { background-color: var(--color-highlight); }
+.small-text {
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
 }
 
-/* APP STORE BUTTONS */
+/* Layout */
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  padding-left: 85px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/* Hero image */
+.static-screenshot {
+  max-height: 80vh;
+  max-width: 90%;
+  object-fit: contain;
+}
+
+/* App badges */
 .badges {
-margin-top: 0;
-display: flex;
-gap: var(--space-sm);
-margin-bottom: 10px;
+  display: flex;
+  gap: var(--space-sm);
 }
 
 .badges img {
-height: 55px;
-margin-right: 0;
-transition: transform 0.2s ease;
-cursor: pointer;
+  height: 55px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .badges img:hover {
-transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
-/* RIGHT SECTION */
-.right {
-flex: 1;
-min-width: 50%;
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: var(--color-yellow);
-overflow: hidden;
+/* Coming soon */
+.coming-soon {
+  font-size: var(--font-size-xs);
+  font-weight: bold;
+  color: var(--color-black);
+  background-color: var(--color-highlight);
+  border-radius: 25px;
+  padding: 8px var(--space-md);
+  width: fit-content;
+  margin-bottom: 30px;
+  animation: pulse 2s ease-in-out infinite;
 }
 
-/* STATIC IMAGE CONTAINER */
-.screenshot-wrapper {
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-width: 100%;
+@keyframes pulse {
+  0% { background-color: var(--color-highlight); }
+  50% { background-color: var(--color-pulse); }
+  100% { background-color: var(--color-highlight); }
 }
 
-.static-screenshot {
-width: 100%;
-max-width: none;
-height: auto;
-max-height: 100vh;
-object-fit: contain;
-display: block;
-margin: 0 auto;
-}
-
-/* FOOTER NAVIGATION */
+/* Footer */
 .footer-nav {
-background-color: var(--color-yellow);
-padding: 24px 0;
-text-align: center;
-flex-shrink: 0;
-position: fixed;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-yellow);
+  padding: var(--space-sm) 0;
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  font-size: var(--font-size-xs);
+  font-weight: bold;
+  z-index: 999;
 }
 
-.footer-nav .nav-buttons {
-display: flex;
-justify-content: center;
-gap: 54px;
+.footer-nav a {
+  text-decoration: none;
+  color: var(--color-black);
+  transition: opacity 0.2s ease;
 }
 
-.footer-nav .nav-btn {
-background: none;
-text-decoration: none;
-cursor: pointer;
-padding: 0;
-border: none;
-border-radius: 0;
-transition: all 0.2s ease;
-font-size: 15px;
-font-weight: bold;
-color: var(--color-black);
+.footer-nav a:hover {
+  opacity: 0.7;
 }
-
-.footer-nav .nav-btn:hover {
-opacity: 0.7;
-}
-
-/* OVERLAY STYLES */
-.overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: var(--shadow-overlay);
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 1000;
-opacity: 0;
-visibility: hidden;
-transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.overlay.active {
-opacity: 1;
-visibility: visible;
-}
-
-.modal {
-background: var(--color-white);
-border-radius: var(--radius-sm);
-padding: 50px var(--space-xl);
-max-width: 750px;
-width: 90%;
-min-height: 500px;
-max-height: 80vh;
-overflow-y: auto;
-position: relative;
-transform: translateY(var(--space-md));
-transition: transform 0.3s ease;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-.overlay.active .modal {
-transform: translateY(0);
-}
-
-.modal-header {
-background-color: var(--color-black);
-border-radius: var(--radius-md);
-padding: var(--space-sm) var(--space-lg);
-text-align: center;
-margin: 0 auto var(--space-lg) auto;
-max-width: 350px;
-width: fit-content;
-}
-
-.modal-content {
-text-align: center;
-}
-
-.modal-content p {
-margin-bottom: var(--space-md);
-}
-
-.close-btn {
-position: absolute;
-top: 10px;
-right: var(--space-sm);
-background: transparent;
-border: none;
-border-radius: var(--radius-full);
-width: var(--space-xl);
-height: var(--space-xl);
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: background-color 0.2s ease;
-}
-
-.close-btn:hover {
-background: var(--color-dark);
-}
-</style>
-</head>
-<body>
-<div class="page-wrapper">
-<main class="container">
-<section class="left">
-<h1 class="heading-primary">Medical Test Prep</h1>
-<h2 class="heading-hero">Your study time,<br>optimized</h2>
-<p class="coming-soon small-text font-bold text-black bg-highlight rounded-md">Coming soon! 🎉</p>
-<div class="badges">
-<a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
-<a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
-</div>
-</section>
-<section class="right">
-<div class="screenshot-wrapper">
-<img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
-</div>
-</section>
-</main>
-
-<!-- Footer - sticky at bottom as part of page layout -->
-<footer class="footer-nav">
-<div class="nav-buttons">
-<a href="about.html" class="nav-btn">About us</a>
-<a href="contact.html" class="nav-btn">Contact</a>
-</div>
-</footer>
-</div>
-
-<!-- Modal - positioned outside page-wrapper -->
-<div class="overlay" id="overlay" onclick="closeModal(event)">
-<div class="modal" onclick="event.stopPropagation()">
-<button class="close-btn text-xl font-bold text-black line-tight" onclick="closeModal()" aria-label="Close modal">×</button>
-<div class="modal-header text-xl font-bold text-white">We're Medical Test Prep!</div>
-<div class="modal-content body-text line-relaxed text-center">
-<p class="mb-md"><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
-<p class="shared-about-text mb-md"></p>
-</div>
-</div>
-</div>
-<script>
-function closeModal(event) {
-if (event && event.target !== event.currentTarget) return;
-document.getElementById('overlay').classList.remove('active');
-}
-</script>
-</body>
-</html>
