@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Medical Test Prep</title>
+<link rel="stylesheet" href="style.css" />
+</style>
 :root {
 /* Font families */
 --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -256,12 +264,6 @@ margin-top: var(--space-sm);
 margin: 0 0 20px 0;
 }
 
-.logo {
-max-width: 150px;
-height: auto;
-margin-bottom: var(--space-md);
-}
-
 /* COMING SOON TEXT */
 .coming-soon {
 margin: 0 0 var(--space-xs);
@@ -299,25 +301,71 @@ cursor: pointer;
 transform: translateY(-2px);
 }
 
-/* NAVIGATION BUTTONS */
-.nav-buttons {
+/* RIGHT SECTION */
+.right {
+flex: 1;
+min-width: 50%;
+padding: 0;
 display: flex;
-gap: 10px;
-margin-top: var(--space-sm);
 justify-content: center;
+align-items: center;
+background-color: var(--color-yellow);
+overflow: hidden;
 }
 
-.nav-btn {
+/* STATIC IMAGE CONTAINER */
+.screenshot-wrapper {
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+
+.static-screenshot {
+width: 100%;
+max-width: none;
+height: auto;
+max-height: 100vh;
+object-fit: contain;
+display: block;
+margin: 0 auto;
+}
+
+/* FOOTER NAVIGATION */
+.footer-nav {
+background-color: var(--color-yellow);
+padding: 24px 0;
+text-align: center;
+flex-shrink: 0;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 999;
+}
+
+.footer-nav .nav-buttons {
+display: flex;
+justify-content: center;
+gap: 54px;
+}
+
+.footer-nav .nav-btn {
 background: none;
 text-decoration: none;
+cursor: pointer;
 padding: 0;
-border-radius: 0;
-transition: opacity 0.2s ease;
 border: none;
-margin: 0;
+border-radius: 0;
+transition: all 0.2s ease;
+font-size: 15px;
+font-weight: bold;
+color: var(--color-black);
 }
 
-.nav-btn:hover {
+.footer-nav .nav-btn:hover {
 opacity: 0.7;
 }
 
@@ -401,288 +449,52 @@ transition: background-color 0.2s ease;
 .close-btn:hover {
 background: var(--color-dark);
 }
+</style>
+</head>
+<body>
+<div class="page-wrapper">
+<main class="container">
+<section class="left">
+<h1 class="heading-primary">Medical Test Prep</h1>
+<h2 class="heading-hero">Your study time,<br>optimized</h2>
+<p class="coming-soon small-text font-bold text-black bg-highlight rounded-md">Coming soon! 🎉</p>
+<div class="badges">
+<a href="#"><img src="appstore-badge.png" alt="Download on the App Store" class="transition-transform" /></a>
+<a href="#"><img src="googleplay-badge.png" alt="Get it on Google Play" class="transition-transform" /></a>
+</div>
+</section>
+<section class="right">
+<div class="screenshot-wrapper">
+<img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
+</div>
+</section>
+</main>
 
-/* RIGHT SECTION */
-.right {
-flex: 1;
-min-width: 50%;
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: var(--color-yellow);
-overflow: hidden;
-}
+<!-- Footer - sticky at bottom as part of page layout -->
+<footer class="footer-nav">
+<div class="nav-buttons">
+<a href="about.html" class="nav-btn">About us</a>
+<a href="contact.html" class="nav-btn">Contact</a>
+</div>
+</footer>
+</div>
 
-/* STATIC IMAGE CONTAINER */
-.screenshot-wrapper {
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-width: 100%;
+<!-- Modal - positioned outside page-wrapper -->
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+<div class="modal" onclick="event.stopPropagation()">
+<button class="close-btn text-xl font-bold text-black line-tight" onclick="closeModal()" aria-label="Close modal">×</button>
+<div class="modal-header text-xl font-bold text-white">We're Medical Test Prep!</div>
+<div class="modal-content body-text line-relaxed text-center">
+<p class="mb-md"><strong>Medical Test Prep is the best way to prep for EMIGS!</strong></p>
+<p class="shared-about-text mb-md"></p>
+</div>
+</div>
+</div>
+<script>
+function closeModal(event) {
+if (event && event.target !== event.currentTarget) return;
+document.getElementById('overlay').classList.remove('active');
 }
-
-.static-screenshot {
-width: 100%;
-max-width: none;
-height: auto;
-max-height: 100vh;
-object-fit: contain;
-display: block;
-margin: 0 auto;
-}
-
-/* FOOTER NAVIGATION */
-.footer-nav {
-background-color: var(--color-yellow);
-padding: 24px 0;
-text-align: center;
-flex-shrink: 0;
-position: fixed;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 999;
-}
-
-.footer-nav .nav-buttons {
-display: flex;
-justify-content: center;
-gap: 54px;
-}
-
-.footer-nav .nav-btn {
-background: none;
-text-decoration: none;
-cursor: pointer;
-padding: 0;
-border: none;
-border-radius: 0;
-transition: all 0.2s ease;
-font-size: 15px;
-font-weight: bold;
-color: var(--color-black);
-}
-
-.footer-nav .nav-btn:hover {
-opacity: 0.7;
-}
-
-/* PAGE LAYOUT FOR SECONDARY PAGES */
-.page-container {
-height: 100vh;
-padding: 0;
-background-color: var(--color-yellow);
-text-align: left;
-max-width: none;
-margin: 0;
-overflow-y: auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
-.page-content-wrapper {
-max-width: 800px;
-width: 100%;
-padding: 0 40px;
-}
-
-.page-title {
-margin-bottom: var(--space-lg);
-}
-
-.page-content {
-max-width: 100%;
-margin: 0 auto;
-text-align: left;
-}
-
-.page-content h2 {
-margin: var(--space-xl) 0 var(--space-md) 0;
-}
-
-.page-content h3 {
-margin: var(--space-lg) 0 var(--space-sm) 0;
-}
-
-.page-content p {
-margin-bottom: var(--space-md);
-}
-
-/* CONTACT FORM LAYOUT */
-.contact-container {
-display: flex;
-align-items: stretch;
-height: 100vh;
-padding: 0;
-background-color: var(--color-yellow);
-gap: 0;
-overflow: hidden;
-padding-bottom: 70px; /* Account for footer */
-}
-
-.contact-left {
-flex: 1;
-padding: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-text-align: left;
-padding-left: 422px;
-padding-right: 40px;
-}
-
-.contact-left h1 {
-margin-bottom: 35px;
-}
-
-.contact-left p {
-margin: 0 0 var(--space-md) 0;
-font-family: var(--font-main);
-}
-
-.contact-left .feedback-text {
-font-weight: bold;
-margin-top: 30px;
-}
-
-.contact-right {
-flex: 1;
-background-color: var(--color-yellow);
-border-radius: 0;
-padding: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding-right: 274px;
-padding-left: 40px;
-}
-
-.contact-form {
-width: 100%;
-max-width: 400px;
-background-color: var(--color-white);
-border-radius: var(--radius-lg);
-padding: var(--space-md);
-min-height: 500px;
-padding-bottom: var(--space-xl);
-}
-
-.contact-form-header {
-text-align: center;
-margin-top: var(--space-md);
-margin-bottom: var(--space-xl);
-}
-
-.form-group {
-margin-bottom: var(--space-sm);
-}
-
-.form-group input,
-.form-group textarea {
-width: 100%;
-padding: var(--space-md) 24px;
-border: none;
-border-radius: var(--radius-md);
-font-family: inherit;
-background-color: var(--color-light-gray);
-box-sizing: border-box;
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-color: var(--color-gray);
-font-weight: var(--font-weight-bold);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-outline: none;
-box-shadow: var(--shadow-focus);
-}
-
-.form-group textarea {
-min-height: 180px;
-resize: vertical;
-}
-
-.submit-btn {
-background-color: var(--color-yellow);
-border: none;
-padding: 16px var(--space-xl);
-border-radius: var(--radius-md);
-cursor: pointer;
-transition: all 0.2s ease;
-width: 250px;
-margin: 25px auto 0 auto;
-display: block;
-margin-top: 35px;
-}
-
-.submit-btn:hover {
-background-color: var(--color-highlight);
-transform: translateY(-2px);
-}
-
-/* About page specific spacing */
-.about-container {
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: var(--color-yellow);
-padding: 0;
-padding-bottom: 70px; /* Account for footer */
-}
-
-.about-content {
-max-width: none;
-width: 100%;
-text-align: left;
-}
-
-.about-content .about-title {
-padding-left: 352px;
-margin-bottom: 35px;
-}
-
-.about-content .about-intro {
-padding-left: 352px;
-padding-right: 361px;
-margin-bottom: 20px;
-}
-
-.about-content .about-founding {
-padding-left: 352px;
-padding-right: 361px;
-margin-bottom: 40px;
-}
-
-.about-content .mission-title {
-padding-left: 348px;
-margin-bottom: 25px;
-}
-
-.about-content .mission-text {
-padding-left: 348px;
-padding-right: 357px;
-margin-bottom: 30px;
-}
-
-.about-content .closing-text {
-padding-left: 348px;
-padding-right: 357px;
-margin-bottom: 20px;
-}
-
-.about-content .signature {
-padding-left: 348px;
-margin-bottom: 0;
-}
+</script>
+</body>
+</html>
