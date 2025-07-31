@@ -176,21 +176,16 @@ html, body {
 
 /* ========== Coming Soon ========== */
 .coming-soon {
-  position: absolute;
-  top: -50px; /* Adjust this as needed */
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: var(--font-size-xs);
+  font-size: 13px;
   font-weight: bold;
-  color: var(--color-black);
-  background-color: var(--color-highlight);
-  border-radius: 25px;
-  padding: 8px var(--space-md);
+  color: #000;
+  background-color: #ffb614;
+  border-radius: 20px;
+  padding: 6px 16px;
   width: fit-content;
+  margin: 10px 0 20px 0;
   animation: pulse 2s ease-in-out infinite;
   text-align: center;
-  letter-spacing: var(--letter-spacing-tight);
-  white-space: nowrap;
 }
 
 @keyframes pulse {
