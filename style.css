@@ -156,6 +156,7 @@ html, body {
 /* ========== App Store Badges ========== */
 .badges {
   display: flex;
+  align-items: center;
   gap: var(--space-sm);
 }
 
