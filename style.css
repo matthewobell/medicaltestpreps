@@ -581,7 +581,12 @@ html, body {
   }
 
   .contact-right {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
   }
 
   .screenshot-wrapper {
