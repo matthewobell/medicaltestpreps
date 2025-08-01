@@ -179,7 +179,7 @@ html, body {
   border-radius: 25px;
   padding: 8px var(--space-md);
   width: fit-content;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   animation: pulse 2s ease-in-out infinite;
   text-align: center;
   letter-spacing: var(--letter-spacing-tight);
