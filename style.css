@@ -162,6 +162,11 @@ html, body {
 
 .badges img {
   height: 55px;
+  width: 180px;
+  object-fit: contain;
+  display: block; /* Remove extra vertical space caused by inline images */
+  margin: 0; /* Reset any default margins */
+  padding: 0;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
