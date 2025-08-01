@@ -642,15 +642,23 @@ html, body {
   }
 
   /* About/Contact pages mobile */
-  .about-container,
-  .contact-container {
-    padding: 40px 30px 120px 30px;
-    height: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  .about-container {
+  padding: 40px 30px 120px 30px;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-container {
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  padding: 40px 30px 120px 30px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
 
   .about-content {
     max-width: 100%;
@@ -679,14 +687,16 @@ html, body {
   }
 
   .contact-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    padding: 0 20px;
-    text-align: left;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 20px !important;
+  text-align: left;
+  width: 100%;
+  order: 1;
+  margin-bottom: 40px;
+}
 
   .contact-title,
   .contact-text,
@@ -710,4 +720,8 @@ html, body {
     margin: 40px auto 0 auto;
     display: block;
   }
+.contact-right {
+  order: 2;
+  padding: 0 20px !important;
+} 
 }
