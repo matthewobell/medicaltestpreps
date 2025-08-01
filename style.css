@@ -696,6 +696,8 @@ html, body {
   .about-title,
   .about-intro,
   .about-founding,
+  .mission-title,
+  .mission-text,
   .closing-text,
   .signature {
     padding-left: 0 !important;
@@ -705,13 +707,8 @@ html, body {
     margin-bottom: 18px;
   }
 
-  .mission-title,
-  .mission-text {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    text-align: left;
-    font-size: 20px;
-    margin-bottom: 18px;
+  .mission-title {
+    margin-top: 30px;
   }
 
   .contact-left {
