@@ -198,7 +198,7 @@ html, body {
   left: 0;
   right: 0;
   background-color: var(--color-yellow);
-  padding: 24px 0;
+  padding: 40px 0;
   display: flex;
   justify-content: center;
   z-index: 999;
