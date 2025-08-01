@@ -156,18 +156,13 @@ html, body {
 /* ========== App Store Badges ========== */
 .badges {
   display: flex;
-  align-items: center;
   gap: var(--space-sm);
 }
 
 .badges img {
   height: 55px;
-  width: 180px;
-  object-fit: contain;
-  display: block;
-  vertical-align: middle;  /* Prevent inline alignment issues */
-  margin: 0;
-  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .badges img:hover {
@@ -175,7 +170,7 @@ html, body {
 }
 
 /* ========== Coming Soon ========== */
-..coming-soon {
+.coming-soon {
   font-size: var(--font-size-xs);
   font-weight: bold;
   color: var(--color-black);
