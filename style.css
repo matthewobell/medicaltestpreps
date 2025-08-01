@@ -187,7 +187,7 @@ html, body {
 
 @keyframes pulse {
   0% { background-color: var(--color-highlight); }
-  50% { background-color: var(--color-pulse); }
+  50% { background-color: #EEE3C9; } 
   100% { background-color: var(--color-highlight); }
 }
 
@@ -548,7 +548,7 @@ html, body {
 }
 
 /* ========== Mobile Responsive ========== */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   html, body {
     overflow: auto;
   }
