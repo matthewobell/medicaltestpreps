@@ -641,8 +641,8 @@ html, body {
   }
 
   .coming-soon {
-    margin: 0 auto 20px auto;
-  }
+  margin: 0;
+}
 
   /* About/Contact pages mobile */
   .about-container {
