@@ -640,6 +640,7 @@ html, body {
 
   .heading-hero {
     font-size: 40px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
   }
