@@ -148,8 +148,9 @@ html, body {
 }
 
 .static-screenshot {
-  max-height: 100vh;
-  max-width: 100%;
+  max-height: 75vh;
+  width: 110%;
+  max-width: 110%;
   object-fit: contain;
 }
 
