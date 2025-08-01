@@ -554,22 +554,23 @@ html, body {
 
   /* Main page mobile */
   .container {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-  }
+  flex-direction: column;
+  height: auto;
+  padding: 60px 20px 20px 20px;
+  align-items: center;
+  text-align: center;
+}
 
   .left {
-    padding: 0 20px;
-    text-align: center;
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  padding: 0 20px;
+  text-align: center;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
 
   .right {
     order: 3;
@@ -604,15 +605,16 @@ html, body {
   }
 
   .footer-nav {
-    position: relative;
-    bottom: 0;
-    padding: 15px 0;
-    background-color: var(--color-yellow);
-    width: 100%;
-    justify-content: center;
-    z-index: 999;
-    margin-top: 40px;
-  }
+  position: relative;
+  bottom: 0;
+  padding: 40px 0;
+  background-color: var(--color-yellow);
+  width: 100%;
+  justify-content: center;
+  z-index: 999;
+  margin-top: 0;
+  gap: 54px;
+}
 
   .heading-primary {
     font-size: 24px;
@@ -627,11 +629,11 @@ html, body {
   }
 
   .badges {
-    justify-content: center;
-    margin-bottom: 15px;
-    margin-top: 0;
-    display: flex;
-  }
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 40px;
+  display: flex;
+}
 
   .badges img {
     height: 50px;
