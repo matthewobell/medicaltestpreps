@@ -176,7 +176,7 @@ html, body {
 }
 
 /* ========== Coming Soon ========== */
-.coming-soon {
+..coming-soon {
   font-size: var(--font-size-xs);
   font-weight: bold;
   color: var(--color-black);
