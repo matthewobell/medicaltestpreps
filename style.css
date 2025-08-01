@@ -562,7 +562,7 @@ html, body {
   }
 
   .left {
-    padding: 20px;
+    padding: 0 20px;
     text-align: center;
     order: 1;
     display: flex;
@@ -623,12 +623,13 @@ html, body {
   .heading-hero {
     font-size: 32px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .badges {
     justify-content: center;
     margin-bottom: 15px;
+    margin-top: 0;
     display: flex;
   }
 
