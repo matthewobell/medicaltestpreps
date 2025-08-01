@@ -550,9 +550,8 @@ html, body {
 /* ========== Mobile Responsive ========== */
 @media (max-width: 768px) {
   .static-screenshot {
-    max-height: 120vh;
-    width: 110%;
-    max-width: 110%;
+    max-height: 120vh; /* or 150vh for even larger */
+    width: 100%;
     object-fit: contain;
   }
 }
