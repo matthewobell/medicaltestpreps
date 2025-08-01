@@ -557,25 +557,43 @@ html, body {
     flex-direction: column;
     height: auto;
     padding: 20px;
+    align-items: center;
+    text-align: center;
   }
 
   .left {
-    padding: 20px 20px 0 20px;
+    padding: 20px;
     text-align: center;
     order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .right,
-  .contact-right,
-  .screenshot-wrapper {
+  .contact-right {
     display: none;
   }
 
+  .screenshot-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .static-screenshot {
+    max-height: 60vh;
+    width: 90%;
+    object-fit: contain;
+    margin: 0 auto 20px auto;
+  }
+
   .footer-nav {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     padding: 15px 0;
-    gap: 20px;
     background-color: var(--color-yellow);
     width: 100%;
     justify-content: center;
@@ -589,7 +607,7 @@ html, body {
   }
 
   .heading-hero {
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -597,20 +615,15 @@ html, body {
   .badges {
     justify-content: center;
     margin-bottom: 15px;
+    display: flex;
   }
 
   .badges img {
-    height: 45px;
+    height: 50px;
   }
 
   .coming-soon {
     margin: 0 auto 20px auto;
-  }
-
-  .static-screenshot {
-    max-height: 40vh;
-    width: 80%;
-    margin: 0 auto;
   }
 
   /* About/Contact pages mobile */
@@ -621,16 +634,11 @@ html, body {
     min-height: 100vh;
   }
 
-  .about-content,
-  .contact-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .about-content {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 !important;
-    text-align: center;
+    padding: 0 20px;
+    text-align: left;
     box-sizing: border-box;
   }
 
@@ -640,13 +648,34 @@ html, body {
   .mission-title,
   .mission-text,
   .closing-text,
-  .signature,
+  .signature {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .mission-title {
+    margin-top: 30px;
+  }
+
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 20px;
+    text-align: left;
+    width: 100%;
+  }
+
   .contact-title,
   .contact-text,
   .feedback-text {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     margin-bottom: 18px;
   }
@@ -656,10 +685,6 @@ html, body {
   .contact-title {
     font-size: 28px;
     margin-bottom: 25px;
-  }
-
-  .mission-title {
-    margin-top: 30px;
   }
 
   .contact-form {
