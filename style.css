@@ -556,7 +556,7 @@ html, body {
   .container {
     flex-direction: column;
     height: auto;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
     align-items: center;
     text-align: center;
   }
@@ -569,24 +569,17 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 60px;
   }
 
   .right {
-    order: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .contact-right {
+    order: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin-top: 40px;
-    padding: 0 20px;
+    margin-bottom: 80px;
   }
 
   .screenshot-wrapper {
@@ -598,7 +591,7 @@ html, body {
   }
 
   .static-screenshot {
-    max-height: 60vh;
+    max-height: 50vh;
     width: 100%;
     object-fit: contain;
   }
@@ -606,59 +599,86 @@ html, body {
   .footer-nav {
     position: relative;
     bottom: 0;
-    padding: 15px 0;
+    padding: 20px 0;
     background-color: var(--color-yellow);
     width: 100%;
     justify-content: center;
     z-index: 999;
-    margin-top: 40px;
+    margin-top: 0;
+    order: 3;
+  }
+
+  .footer-nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--font-size-xs);
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+    letter-spacing: var(--letter-spacing-tight);
+  }
+
+  .footer-nav a:hover {
+    opacity: 0.7;
   }
 
   .heading-primary {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .heading-hero {
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    line-height: 1.1;
   }
 
   .badges {
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-top: 0;
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
   }
 
   .badges img {
-    height: 50px;
+    height: 55px;
+  }
+
+  .google-badge-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
   }
 
   .coming-soon {
-    margin: 0 auto 20px auto;
+    margin: 0;
+    font-size: 12px;
+    padding: 4px 12px;
   }
 
   /* About/Contact pages mobile */
   .about-container {
-  padding: 40px 30px 120px 30px;
-  height: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+    padding: 40px 30px 120px 30px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.contact-container {
-  flex-direction: column;
-  height: auto;
-  min-height: 100vh;
-  padding: 40px 30px 120px 30px;
-  justify-content: flex-start;
-  align-items: stretch;
-}
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 30px 120px 30px;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
 
   .about-content {
     max-width: 100%;
@@ -687,16 +707,16 @@ html, body {
   }
 
   .contact-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0 20px !important;
-  text-align: left;
-  width: 100%;
-  order: 1;
-  margin-bottom: 40px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 20px !important;
+    text-align: left;
+    width: 100%;
+    order: 1;
+    margin-bottom: 40px;
+  }
 
   .contact-title,
   .contact-text,
