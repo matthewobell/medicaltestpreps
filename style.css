@@ -333,14 +333,13 @@ html, body {
 
 .contact-left {
   flex: 1;
-  padding: 0;
+  padding-left: 348px;
+  padding-right: 357px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   text-align: left;
-  padding-left: 422px;
-  padding-right: 40px;
 }
 
 .contact-title {
