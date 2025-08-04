@@ -346,12 +346,6 @@ html, body {
     gap: 12px;
   }
 
-  .nav-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
   .nav-btn,
   .footer-nav a {
     text-decoration: none;
