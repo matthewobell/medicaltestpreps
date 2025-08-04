@@ -663,7 +663,7 @@ html, body {
     gap: 2px;
   }
 
-  /* About / Contact / Mission pages */
+  /* Unified Page Layout (About / Contact / Mission) */
   .about-container {
     padding: 40px 30px 120px 30px;
     height: auto;
@@ -682,29 +682,21 @@ html, body {
     letter-spacing: -1px;
   }
 
-  .about-title,
-  .about-intro,
-  .about-founding,
-  .mission-title,
-  .mission-text,
-  .closing-text,
-  .signature {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    text-align: left;
-    font-size: 15px;
-    margin-bottom: 18px;
-    letter-spacing: -1px;
-  }
-
-  .about-title,
-  .mission-title {
+  /* ✨ Unified Text Styling ✨ */
+  .page-heading {
     font-size: 28px;
+    font-weight: var(--font-weight-bold);
+    text-align: left;
     margin-bottom: 25px;
+    letter-spacing: -0.5px;
   }
 
-  .mission-title {
-    margin-top: 30px;
+  .page-text {
+    font-size: 18px;
+    font-weight: var(--font-weight-regular);
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
   }
 
   .contact-form {
