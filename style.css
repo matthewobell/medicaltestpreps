@@ -35,9 +35,8 @@
   /* Spacing */
   --space-sm: 15px;
   --space-md: 20px;
-  --space-lg: 30px; 
+  --space-lg: 30px;
   --space-xl: 40px;
-  --space-xxl: 60px; /* NEW: Added for extra spacing */
 }
 
 /* Reset */
@@ -181,26 +180,22 @@ html, body {
   left: 0;
   right: 0;
   background-color: var(--color-yellow);
-  padding: var(--space-lg) 0;
+  padding: var(--space-xl) 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   z-index: 999;
-  gap: var(--space-xxl); /* Wider spacing between links */
+  gap: 54px;
 }
 
 .footer-nav a {
   text-decoration: none;
   color: var(--color-black);
-  font-size: var(--font-size-base); /* Up from xs for better tap targets */
+  font-size: var(--font-size-xs);
   font-weight: bold;
   transition: opacity 0.2s ease;
   letter-spacing: var(--letter-spacing-tight);
-  padding: 6px 12px; /* Add breathing room */
 }
 
-/* Optional hover */
 .footer-nav a:hover {
   opacity: 0.7;
 }
