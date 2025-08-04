@@ -552,17 +552,7 @@ html, body {
     overflow: auto;
   }
 
-  .heading-secondary,
-.body-text {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  font-size: 15px;
-  margin-bottom: 18px;
-  letter-spacing: -1px;
-  text-align: left;
-}
-
-  /* Main page mobile */
+  /* Homepage: layout stack */
   .container {
     flex-direction: column;
     height: auto;
@@ -588,26 +578,17 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px;
     padding: 0;
-  }
-
-  .contact-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
   }
 
   .screenshot-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
   }
 
   .static-screenshot {
@@ -616,6 +597,7 @@ html, body {
     object-fit: contain;
   }
 
+  /* Footer */
   .footer-nav {
     position: relative;
     bottom: 0;
@@ -642,6 +624,7 @@ html, body {
     opacity: 0.7;
   }
 
+  /* Typography for homepage */
   .heading-primary {
     font-size: 24px;
     text-align: center;
@@ -655,11 +638,11 @@ html, body {
     margin-bottom: 10px;
   }
 
+  /* App Store badges */
   .badges {
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 20px;
     display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
   }
 
   .badges img {
@@ -667,11 +650,11 @@ html, body {
   }
 
   .coming-soon {
-  margin: 0;
-  padding: 6px 16px;
-  font-size: 12px;
-  border-radius: 20px;
-}
+    margin: 0;
+    padding: 6px 16px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
 
   .google-badge-group {
     display: flex;
@@ -680,7 +663,7 @@ html, body {
     gap: 2px;
   }
 
-  /* About/Contact pages mobile */
+  /* About / Contact / Mission pages */
   .about-container {
     padding: 40px 30px 120px 30px;
     height: auto;
@@ -688,15 +671,6 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    height: auto;
-    min-height: 100vh;
-    padding: 40px 30px 120px 30px;
-    justify-content: flex-start;
-    align-items: stretch;
   }
 
   .about-content {
@@ -723,37 +697,14 @@ html, body {
     letter-spacing: -1px;
   }
 
-  .mission-title {
-    margin-top: 30px;
-  }
-
-  .contact-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    padding: 0 20px !important;
-    text-align: left;
-    width: 100%;
-    order: 1;
-    margin-bottom: 40px;
-  }
-
-  .contact-title,
-  .contact-text,
-  .feedback-text {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    text-align: left;
-    font-size: 20px;
-    margin-bottom: 18px;
-  }
-
   .about-title,
-  .mission-title,
-  .contact-title {
+  .mission-title {
     font-size: 28px;
     margin-bottom: 25px;
+  }
+
+  .mission-title {
+    margin-top: 30px;
   }
 
   .contact-form {
@@ -765,5 +716,8 @@ html, body {
   .contact-right {
     order: 2;
     padding: 0 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
