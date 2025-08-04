@@ -118,6 +118,8 @@ html, body {
   padding-left: 85px;
   padding-bottom: 70px;
   flex-direction: column;
+  align-items: center; /* ← This helps center the child content like h1 */
+  text-align: center;  /* ← Optional, to center everything in .left */
 }
 
 .right {
