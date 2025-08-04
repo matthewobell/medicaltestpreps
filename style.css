@@ -106,6 +106,10 @@ html, body {
   min-height: 100vh;
 }
 
+.footer-nav {
+  margin-top: auto; /* Pushes footer to bottom when content is short */
+}
+
 .container {
   display: flex;
   width: 100vw;
