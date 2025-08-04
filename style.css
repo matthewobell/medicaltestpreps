@@ -370,11 +370,11 @@ html, body {
   }
 
   .heading-hero {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-regular);
+  text-align: center;
+  margin: 0 auto;
+}
 
   /* App Store section */
   .badges {
