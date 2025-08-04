@@ -552,6 +552,16 @@ html, body {
     overflow: auto;
   }
 
+  .heading-secondary,
+.body-text {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-size: 15px;
+  margin-bottom: 18px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
   /* Main page mobile */
   .container {
     flex-direction: column;
