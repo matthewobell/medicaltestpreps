@@ -175,16 +175,13 @@ html, body {
 
 /* Footer */
 .footer-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: var(--color-yellow);
-  padding: var(--space-xl) 0;
   display: flex;
   justify-content: center;
-  z-index: 999;
-  gap: 54px;
+  align-items: center;
+  gap: 32px; /* Adjust spacing between buttons */
+  padding: var(--space-lg) 0;
+  background-color: var(--color-yellow);
+  width: 100%;
 }
 
 .footer-nav a {
@@ -331,19 +328,14 @@ html, body {
   }
 
   /* Footer navigation (stacked or spaced for mobile) */
-  .footer-nav {
-  flex-direction: row;             /* ✅ Align buttons in a row */
-  justify-content: center;         /* ✅ Center buttons */
+.footer-nav {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 32px;                        /* ✅ Adjust spacing between buttons */
-  padding: 20px 0;
+  gap: 32px; /* Adjust spacing between buttons */
+  padding: var(--space-lg) 0;
   background-color: var(--color-yellow);
   width: 100%;
-  position: fixed;                 /* ✅ Ensure it's sticky */
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
 }
 
   .nav-buttons {
