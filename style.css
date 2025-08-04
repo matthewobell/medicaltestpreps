@@ -35,7 +35,7 @@
   /* Spacing */
   --space-sm: 15px;
   --space-md: 20px;
-  --space-lg: 30px;
+  --space-lg: 30px; 
   --space-xl: 40px;
   --space-xxl: 60px; /* NEW: Added for extra spacing */
 }
