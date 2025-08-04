@@ -37,6 +37,7 @@
   --space-md: 20px;
   --space-lg: 30px;
   --space-xl: 40px;
+  --space-xxl: 60px; /* NEW: Added for extra spacing */
 }
 
 /* Reset */
@@ -180,22 +181,26 @@ html, body {
   left: 0;
   right: 0;
   background-color: var(--color-yellow);
-  padding: var(--space-xl) 0;
+  padding: var(--space-lg) 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   z-index: 999;
-  gap: 54px;
+  gap: var(--space-xxl); /* Wider spacing between links */
 }
 
 .footer-nav a {
   text-decoration: none;
   color: var(--color-black);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-base); /* Up from xs for better tap targets */
   font-weight: bold;
   transition: opacity 0.2s ease;
   letter-spacing: var(--letter-spacing-tight);
+  padding: 6px 12px; /* Add breathing room */
 }
 
+/* Optional hover */
 .footer-nav a:hover {
   opacity: 0.7;
 }
@@ -286,7 +291,7 @@ html, body {
     overflow: auto;
   }
 
-  /* Homepage: layout stack */
+  /* Homepage layout stack */
   .container {
     flex-direction: column;
     height: auto;
@@ -312,7 +317,6 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 0;
     margin-bottom: 10px;
     padding: 0;
   }
@@ -331,29 +335,35 @@ html, body {
     object-fit: contain;
   }
 
-  /* Footer */
+  /* Footer navigation (stacked or spaced for mobile) */
   .footer-nav {
-    position: relative;
-    bottom: 0;
-    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
     background-color: var(--color-yellow);
     width: 100%;
-    justify-content: center;
     z-index: 999;
-    margin-top: 0;
-    gap: 54px;
-    order: 3;
+    gap: 12px;
   }
 
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-btn,
   .footer-nav a {
     text-decoration: none;
     color: var(--color-black);
-    font-size: var(--font-size-xs);
+    font-size: 16px;
     font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
     transition: opacity 0.2s ease;
-    letter-spacing: var(--letter-spacing-tight);
   }
 
+  .nav-btn:hover,
   .footer-nav a:hover {
     opacity: 0.7;
   }
@@ -372,7 +382,7 @@ html, body {
     margin-bottom: 10px;
   }
 
-  /* App Store badges */
+  /* App Store section */
   .badges {
     display: flex;
     justify-content: center;
@@ -397,7 +407,7 @@ html, body {
     gap: 2px;
   }
 
-  /* Unified Layout for About / Contact / Mission */
+  /* Unified Layout for Info Pages (About, Contact, Mission) */
   .about-container {
     padding: 40px 30px 120px 30px;
     min-height: 100vh;
@@ -415,7 +425,7 @@ html, body {
     letter-spacing: -1px;
   }
 
-  /* ✨ Unified Typography for Info Pages ✨ */
+  /* ✨ Typography for Info Pages ✨ */
   .about-title,
   .mission-title,
   .page-heading {
