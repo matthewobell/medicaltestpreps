@@ -47,10 +47,10 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100vh;
   font-family: var(--font-main);
   background-color: var(--color-yellow);
-  overflow: hidden;
+  overflow-x: hidden;
   letter-spacing: var(--letter-spacing-tight);
 }
 
@@ -92,8 +92,7 @@ html, body {
 .page-wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
 .container {
@@ -178,10 +177,12 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px; /* Adjust spacing between buttons */
+  gap: 32px;
   padding: var(--space-lg) 0;
   background-color: var(--color-yellow);
   width: 100%;
+  position: relative; /* Not fixed or absolute */
+  bottom: 0;
 }
 
 .footer-nav a {
@@ -332,10 +333,12 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px; /* Adjust spacing between buttons */
+  gap: 32px;
   padding: var(--space-lg) 0;
   background-color: var(--color-yellow);
   width: 100%;
+  position: relative; /* Not fixed or absolute */
+  bottom: 0;
 }
 
   .nav-buttons {
