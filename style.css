@@ -49,6 +49,7 @@
 
 html, body {
   height: 100%;
+  overflow-x: hidden;
   font-family: var(--font-main);
   background-color: var(--color-yellow);
   letter-spacing: var(--letter-spacing-tight);
