@@ -39,7 +39,7 @@
   --space-xl: 40px;
 }
 
-/* Reset */
+/* Reset & Base */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -71,8 +71,8 @@ html, body {
 
 .heading-hero {
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold); /* Make it bold */
-  text-align: center;                   /* Center the text */
+  font-weight: var(--font-weight-bold);
+  text-align: center;
 }
 
 .heading-secondary {
@@ -99,28 +99,28 @@ html, body {
   font-size: var(--font-size-xs);
 }
 
-/* Layout */
+/* Layout Wrapper */
 .page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.footer-nav {
-  margin-top: auto; /* Pushes footer to bottom when content is short */
-}
-
+/* Main Container */
 .container {
   display: flex;
+  flex: 1;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
-  flex: 1;
+  overflow: visible;
 }
 
-.left, .right {
+/* Left and Right Sections */
+.left,
+.right {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -129,7 +129,7 @@ html, body {
 
 .left {
   padding-left: 85px;
-  padding-bottom: 70px;
+  padding-bottom: 30px; /* Reduced from 70px */
   flex-direction: column;
 }
 
@@ -137,6 +137,7 @@ html, body {
   padding-right: 50px;
 }
 
+/* Screenshot */
 .screenshot-wrapper {
   display: flex;
   justify-content: center;
@@ -152,7 +153,7 @@ html, body {
   object-fit: contain;
 }
 
-/* App Store */
+/* App Store Section */
 .badges {
   display: flex;
   gap: var(--space-sm);
@@ -187,7 +188,7 @@ html, body {
   50% { background-color: #FFD874; }
 }
 
-/* Footer */
+/* Footer Navigation */
 .footer-nav {
   display: flex;
   justify-content: center;
@@ -196,8 +197,7 @@ html, body {
   padding: var(--space-sm) 0;
   background-color: var(--color-yellow);
   width: 100%;
-  position: relative; /* Not fixed or absolute */
-  bottom: 0;
+  margin-top: auto;
 }
 
 .footer-nav a {
@@ -213,7 +213,7 @@ html, body {
   opacity: 0.7;
 }
 
-/* Page Content Blocks */
+/* Content Blocks */
 .about-container,
 .contact-container {
   display: flex;
