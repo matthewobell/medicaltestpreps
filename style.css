@@ -49,9 +49,9 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden;
   font-family: var(--font-main);
   background-color: var(--color-yellow);
+  overflow: hidden;
   letter-spacing: var(--letter-spacing-tight);
 }
 
@@ -118,8 +118,6 @@ html, body {
   padding-left: 85px;
   padding-bottom: 70px;
   flex-direction: column;
-  align-items: center; /* ← This helps center the child content like h1 */
-  text-align: center;  /* ← Optional, to center everything in .left */
 }
 
 .right {
@@ -339,13 +337,20 @@ html, body {
 
   /* Footer navigation (stacked or spaced for mobile) */
   .footer-nav {
-  flex-direction: row;         
-  flex-wrap: wrap;              
-  justify-content: center;      
-  align-items: center;
-  gap: 16px;                   
-  padding: 16px 0;
-}
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--color-yellow);
+    width: 100%;
+    z-index: 999;
+    gap: 12px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 
   .nav-btn,
   .footer-nav a {
@@ -371,11 +376,11 @@ html, body {
   }
 
   .heading-hero {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-regular);
-  text-align: center; 
-  margin: 0 auto;      
-}
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
   /* App Store section */
   .badges {
@@ -407,6 +412,7 @@ html, body {
     padding: 40px 30px 120px 30px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
