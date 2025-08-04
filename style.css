@@ -65,13 +65,20 @@ html, body {
   margin-bottom: var(--space-md);
 }
 
-.heading-primary { font-size: var(--font-size-lg); }
+.heading-primary {
+  font-size: var(--font-size-lg);
+}
+
 .heading-hero {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold); /* Make it bold */
   text-align: center;                   /* Center the text */
 }
-.heading-secondary { font-size: var(--font-size-lg); padding-left: 348px; }
+
+.heading-secondary {
+  font-size: var(--font-size-lg);
+  padding-left: 348px;
+}
 
 .body-text,
 .small-text {
