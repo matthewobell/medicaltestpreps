@@ -682,13 +682,15 @@ html, body {
     letter-spacing: -1px;
   }
 
-  /* ✨ Unified Text Styling ✨ */
+  /* ✨ Unified Text Styling for About, Contact, Mission ✨ */
   .page-heading {
     font-size: 28px;
     font-weight: var(--font-weight-bold);
     text-align: left;
     margin-bottom: 25px;
     letter-spacing: -0.5px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .page-text {
@@ -697,6 +699,8 @@ html, body {
     text-align: left;
     margin-bottom: 20px;
     letter-spacing: -0.5px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .contact-form {
