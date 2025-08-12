@@ -33,19 +33,19 @@
   --line-relaxed: 1.6;
 
   /* Spacing */
-  --space-xs: 10px;
   --space-sm: 15px;
   --space-md: 20px;
   --space-lg: 30px;
   --space-xl: 40px;
+
+  /* Badges / Logo sizing */
+  --badge-height: 55px;        /* default height for store badges */
+  --emits-logo-height: 36px;    /* desktop emits logo size */
+  --emits-logo-gap: 8px;        /* space below logo */
 }
 
 /* Reset & Base */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 html, body {
   min-height: 100vh;
@@ -66,9 +66,7 @@ html, body {
   margin-bottom: var(--space-md);
 }
 
-.heading-primary {
-  font-size: var(--font-size-lg);
-}
+.heading-primary { font-size: var(--font-size-lg); }
 
 .heading-hero {
   font-size: var(--font-size-xl);
@@ -96,9 +94,7 @@ html, body {
   margin-bottom: var(--space-lg);
 }
 
-.small-text {
-  font-size: var(--font-size-xs);
-}
+.small-text { font-size: var(--font-size-xs); }
 
 /* Layout Wrapper */
 .page-wrapper {
@@ -120,8 +116,7 @@ html, body {
 }
 
 /* Left and Right Sections */
-.left,
-.right {
+.left, .right {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -134,25 +129,7 @@ html, body {
   flex-direction: column;
 }
 
-.right {
-  padding-right: 50px;
-}
-
-/* Logos */
-.main-logo {
-  width: clamp(80px, 12vw, 140px);
-  height: auto;
-  border-radius: 16px;           /* rounded corners */
-  display: block;
-  margin: 0 auto var(--space-sm);
-}
-
-.emits-logo {
-  width: clamp(50px, 10vw, 100px);
-  height: auto;
-  display: block;
-  margin: 0 auto var(--space-xs); /* sits just above the App Store badge */
-}
+.right { padding-right: 50px; }
 
 /* Screenshot */
 .screenshot-wrapper {
@@ -170,37 +147,49 @@ html, body {
   object-fit: contain;
 }
 
-/* App Store / Badges Section */
+/* Badges & Logo */
 .badges {
   display: flex;
   gap: var(--space-sm);
   align-items: flex-start;
 }
 
-.badges img {
-  height: 55px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.badges img:hover {
-  transform: translateY(-2px);
-}
-
-/* Apple badge + Emits logo stacked together */
+/* Apple group: emits logo sits above the badge */
 .apple-badge-group {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Emits logo above Apple badge */
+.emits-logo {
+  height: var(--emits-logo-height);
+  width: auto;
+  display: block;
+  margin: 0 auto var(--emits-logo-gap);
+  border-radius: 10px;       /* rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Google group: pushed down to align with Apple badge (below logo) */
 .google-badge-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 6px;
+  padding-top: calc(var(--emits-logo-height) + var(--emits-logo-gap));
 }
 
+/* Store badges */
+.badges img {
+  height: var(--badge-height);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.badges img:hover { transform: translateY(-2px); }
+
+/* "Coming Soon" pill under Google badge */
 .coming-soon {
   font-size: var(--font-size-xs);
   font-weight: bold;
@@ -241,9 +230,7 @@ html, body {
   letter-spacing: var(--letter-spacing-tight);
 }
 
-.footer-nav a:hover {
-  opacity: 0.7;
-}
+.footer-nav a:hover { opacity: 0.7; }
 
 /* Content Blocks */
 .about-container,
@@ -257,8 +244,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.about-content,
-.contact-left {
+.about-content, .contact-left {
   width: 100%;
   max-width: 100%;
 }
@@ -278,9 +264,7 @@ html, body {
   margin-bottom: 20px;
 }
 
-.signature {
-  margin-bottom: 0;
-}
+.signature { margin-bottom: 0; }
 
 /* Contact Form */
 .contact-form {
@@ -321,15 +305,11 @@ html, body {
   transition: background-color 0.2s ease;
 }
 
-.contact-form button:hover {
-  background-color: var(--color-pulse);
-}
+.contact-form button:hover { background-color: var(--color-pulse); }
 
 /* ========== Mobile Responsive ========== */
 @media (max-width: 768px) {
-  html, body {
-    overflow: auto;
-  }
+  html, body { overflow: auto; }
 
   /* Homepage layout stack */
   .container {
@@ -375,7 +355,7 @@ html, body {
     object-fit: contain;
   }
 
-  /* Footer navigation (stacked or spaced for mobile) */
+  /* Footer navigation (mobile) */
   .footer-nav {
     display: flex;
     justify-content: center;
@@ -388,14 +368,9 @@ html, body {
     bottom: 0;
   }
 
-  .nav-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
+  .nav-buttons { flex-direction: column; align-items: center; gap: 12px; }
 
-  .nav-btn,
-  .footer-nav a {
+  .nav-btn, .footer-nav a {
     text-decoration: none;
     color: var(--color-black);
     font-size: 16px;
@@ -405,12 +380,9 @@ html, body {
     transition: opacity 0.2s ease;
   }
 
-  .nav-btn:hover,
-  .footer-nav a:hover {
-    opacity: 0.7;
-  }
+  .nav-btn:hover, .footer-nav a:hover { opacity: 0.7; }
 
-  /* Typography for homepage */
+  /* Typography (mobile) */
   .heading-primary {
     font-size: 24px;
     text-align: center;
@@ -424,15 +396,17 @@ html, body {
     margin-bottom: 10px;
   }
 
-  /* App Store section */
+  /* App Store section (mobile) */
+  :root {
+    --badge-height: 50px;     /* slightly smaller badges on mobile */
+    --emits-logo-height: 28px;
+    --emits-logo-gap: 6px;
+  }
+
   .badges {
     display: flex;
     justify-content: center;
     margin: 20px 0 0;
-  }
-
-  .badges img {
-    height: 50px;
   }
 
   .coming-soon {
@@ -443,22 +417,8 @@ html, body {
   }
 
   .google-badge-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 2px;
-  }
-
-  /* Mobile logos */
-  .main-logo {
-    width: clamp(70px, 24vw, 110px);
-    border-radius: 12px;
-    margin-bottom: 12px;
-  }
-
-  .emits-logo {
-    width: clamp(40px, 18vw, 80px);
-    margin-bottom: 6px;
+    /* padding-top recalculates automatically via variables above */
   }
 
   /* Unified Layout for Info Pages (About, Contact, Mission) */
