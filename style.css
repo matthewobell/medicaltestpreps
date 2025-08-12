@@ -133,6 +133,15 @@ html, body {
   flex-direction: column;
 }
 
+/* ✨ Logo styling (size down + rounded corners) */
+.left img[src="medicaltestpreplogo.png"] {
+  width: clamp(80px, 12vw, 140px); /* responsive size */
+  height: auto;                    /* keep proportions */
+  border-radius: 16px;             /* rounded corners */
+  display: block;                  /* remove inline gaps */
+  margin: 0 auto 16px;             /* center & spacing */
+}
+
 .right {
   padding-right: 50px;
 }
@@ -319,6 +328,13 @@ html, body {
     text-align: center;
   }
 
+  /* Mobile logo adjustments */
+  .left img[src="medicaltestpreplogo.png"] {
+    width: clamp(70px, 24vw, 110px);
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+
   .right {
     order: 2;
     display: flex;
@@ -344,17 +360,17 @@ html, body {
   }
 
   /* Footer navigation (stacked or spaced for mobile) */
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  padding: var(--space-lg) 0;
-  background-color: var(--color-yellow);
-  width: 100%;
-  position: relative; /* Not fixed or absolute */
-  bottom: 0;
-}
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: var(--space-lg) 0;
+    background-color: var(--color-yellow);
+    width: 100%;
+    position: relative; /* Not fixed or absolute */
+    bottom: 0;
+  }
 
   .nav-buttons {
     flex-direction: column;
