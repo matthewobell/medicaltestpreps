@@ -257,7 +257,12 @@ html, body {
   .heading-primary { font-size: 24px; text-align: center; margin-bottom: 15px; }
   .heading-hero { font-size: 40px; font-weight: bold; text-align: center; margin-bottom: 10px; }
 
-  .badges { justify-content: center; margin: 20px 0 0; }
+  .badges { 
+    justify-content: center; 
+    margin: 20px 0 0; 
+    flex-direction: row;
+    gap: var(--space-sm);
+  }
   .badge img { height: 50px; }
 
   .main-logo {
