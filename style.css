@@ -167,7 +167,7 @@ html, body {
 .badges {
   display: flex;
   gap: var(--space-sm);
-  align-items: center;   /* ✅ keeps Apple + Google level */
+  align-items: center;
   justify-content: center;
 }
 
@@ -181,25 +181,32 @@ html, body {
   transform: translateY(-2px);
 }
 
-/* Removed emits-logo and stacked groups */
-.apple-badge-group,
-.google-badge-group,
-.emits-logo {
-  display: none;
+/* Apple badge group */
+.apple-badge-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
 
+/* Google badge disabled style */
+.google-badge-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.google-badge-group img {
+  filter: grayscale(100%) brightness(85%); /* ✅ grayed out */
+  cursor: not-allowed;                     /* show it’s inactive */
+  pointer-events: none;                    /* disable clicking */
+  opacity: 0.6;                            /* subtle fade */
+}
+
+/* Coming-soon banner removed */
 .coming-soon {
-  font-size: var(--font-size-xs);
-  font-weight: bold;
-  color: var(--color-black);
-  background-color: var(--color-highlight);
-  border-radius: 25px;
-  padding: 8px var(--space-md);
-  width: fit-content;
-  margin-bottom: 10px;
-  animation: pulse 2s ease-in-out infinite;
-  text-align: center;
-  letter-spacing: var(--letter-spacing-tight);
+  display: none;
 }
 
 @keyframes pulse {
@@ -413,20 +420,12 @@ html, body {
     height: 50px;
   }
 
-  .coming-soon {
-    margin: 0;
-    padding: 6px 16px;
-    font-size: 12px;
-    border-radius: 20px;
-  }
-
   .main-logo {
     width: clamp(70px, 24vw, 110px);
     border-radius: 12px;
     margin-bottom: 12px;
   }
 
-  /* Info Pages */
   .about-container {
     padding: 40px 30px 120px 30px;
     min-height: 100vh;
