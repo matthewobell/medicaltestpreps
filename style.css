@@ -124,6 +124,14 @@ html, body {
   justify-content: center;
 }
 
+/* Wrapper to stack the Apple badge with a pill underneath */
+.badge-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px; /* space between badge and pill */
+}
+
 .badge {
   display: inline-block;   /* works for <a> or <span> */
   line-height: 0;          /* remove inline spacing */
@@ -135,15 +143,15 @@ html, body {
   transition: transform 0.2s ease;
 }
 
-/* ✅ Apple badge lowered slightly */
+/* Apple badge (active) */
 .badge--active img {
   transform: translateY(0px);
 }
 .badge--active img:hover {
-  transform: translateY(4px); /* lift up by 2px on hover */
+  transform: translateY(4px); /* subtle lift on hover */
 }
 
-/* ✅ Google badge grayed out & disabled */
+/* Google badge (disabled) */
 .badge--disabled img {
   filter: grayscale(100%) brightness(85%);
   opacity: 0.6;
@@ -151,6 +159,32 @@ html, body {
 .badge--disabled {
   cursor: not-allowed;
   pointer-events: none; /* make unclickable */
+}
+
+/* Pulsing pill under Apple badge */
+.pill {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  background-color: var(--color-highlight);
+  padding: 8px 16px;
+  border-radius: 9999px; /* fully rounded */
+  line-height: 1;
+  letter-spacing: var(--letter-spacing-tight);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+  white-space: nowrap; /* keep it on one line */
+}
+
+.pill--pulse { animation: pillPulse 2s ease-in-out infinite; }
+
+@keyframes pillPulse {
+  0%, 100% { background-color: var(--color-highlight); }
+  50%      { background-color: var(--color-pulse); }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .pill--pulse { animation: none; }
 }
 
 /* Footer Navigation */
