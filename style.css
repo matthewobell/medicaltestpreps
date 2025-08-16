@@ -130,7 +130,7 @@ html, body {
 
 .left {
   padding-left: 85px;
-  padding-bottom: 30px; /* Reduced from 70px */
+  padding-bottom: 30px;
   flex-direction: column;
 }
 
@@ -142,16 +142,9 @@ html, body {
 .main-logo {
   width: clamp(80px, 12vw, 140px);
   height: auto;
-  border-radius: 16px;           /* rounded corners */
+  border-radius: 16px;
   display: block;
   margin: 0 auto var(--space-sm);
-}
-
-.emits-logo {
-  width: clamp(50px, 10vw, 100px);
-  height: auto;
-  display: block;
-  margin: 0 auto var(--space-xs); /* sits just above the App Store badge */
 }
 
 /* Screenshot */
@@ -174,7 +167,8 @@ html, body {
 .badges {
   display: flex;
   gap: var(--space-sm);
-  align-items: flex-start;
+  align-items: center;   /* ✅ keeps Apple + Google level */
+  justify-content: center;
 }
 
 .badges img {
@@ -187,19 +181,11 @@ html, body {
   transform: translateY(-2px);
 }
 
-/* Apple badge + Emits logo stacked together */
-.apple-badge-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.google-badge-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  margin-top: 63px;
+/* Removed emits-logo and stacked groups */
+.apple-badge-group,
+.google-badge-group,
+.emits-logo {
+  display: none;
 }
 
 .coming-soon {
@@ -332,7 +318,6 @@ html, body {
     overflow: auto;
   }
 
-  /* Homepage layout stack */
   .container {
     flex-direction: column;
     height: auto;
@@ -344,7 +329,6 @@ html, body {
   .left {
     padding: 0 20px;
     order: 1;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -354,7 +338,6 @@ html, body {
 
   .right {
     order: 2;
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -363,7 +346,6 @@ html, body {
   }
 
   .screenshot-wrapper {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -376,9 +358,7 @@ html, body {
     object-fit: contain;
   }
 
-  /* Footer navigation (stacked or spaced for mobile) */
   .footer-nav {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
@@ -411,7 +391,6 @@ html, body {
     opacity: 0.7;
   }
 
-  /* Typography for homepage */
   .heading-primary {
     font-size: 24px;
     text-align: center;
@@ -425,9 +404,7 @@ html, body {
     margin-bottom: 10px;
   }
 
-  /* App Store section */
   .badges {
-    display: flex;
     justify-content: center;
     margin: 20px 0 0;
   }
@@ -443,30 +420,16 @@ html, body {
     border-radius: 20px;
   }
 
-  .google-badge-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-  }
-
-  /* Mobile logos */
   .main-logo {
     width: clamp(70px, 24vw, 110px);
     border-radius: 12px;
     margin-bottom: 12px;
   }
 
-  .emits-logo {
-    width: clamp(40px, 18vw, 80px);
-    margin-bottom: 6px;
-  }
-
-  /* Unified Layout for Info Pages (About, Contact, Mission) */
+  /* Info Pages */
   .about-container {
     padding: 40px 30px 120px 30px;
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -480,7 +443,6 @@ html, body {
     letter-spacing: -1px;
   }
 
-  /* ✨ Typography for Info Pages ✨ */
   .about-title,
   .mission-title,
   .page-heading {
@@ -489,8 +451,6 @@ html, body {
     text-align: left;
     margin-bottom: 25px;
     letter-spacing: -0.5px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
   }
 
   .about-intro,
@@ -504,8 +464,6 @@ html, body {
     text-align: left;
     margin-bottom: 20px;
     letter-spacing: -0.5px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
   }
 
   .contact-form {
@@ -517,7 +475,6 @@ html, body {
   .contact-right {
     order: 2;
     padding: 0 20px !important;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
