@@ -154,36 +154,37 @@ html, body {
   pointer-events: none;
 }
 
-/* ===== Pill with pulsing background ===== */
+/* ===== Pill with stronger, centered look ===== */
 .pill {
   position: relative;
-  display: inline-block;
-  padding: 6px 14px;
+  display: block;                 /* allows centering with margin auto */
+  margin: 12px auto 0 auto;       /* centered under the badge with space above */
+  padding: 10px 24px;             /* more filled-out */
   border-radius: 999px;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm); /* slightly larger text */
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
   background: var(--color-highlight); /* colored pill background */
-  margin-top: 10px; /* spacing between badge and pill */
   text-align: center;
+  letter-spacing: 0.2px;
 }
 
 /* soft animated glow behind the pill */
 .pill--pulse::before {
   content: "";
   position: absolute;
-  inset: -4px;
+  inset: -6px;                    /* larger glow */
   border-radius: 999px;
   background: var(--color-highlight);
   opacity: 0.5;
   z-index: -1;
   animation: pillPulse 1.6s ease-out infinite;
-  filter: blur(6px);
+  filter: blur(10px);             /* stronger glow */
 }
 
 @keyframes pillPulse {
   0%   { transform: scale(1);    opacity: 0.45; }
-  60%  { transform: scale(1.12); opacity: 0.12; }
+  60%  { transform: scale(1.15); opacity: 0.12; }
   100% { transform: scale(1);    opacity: 0.45; }
 }
 
