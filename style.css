@@ -116,7 +116,7 @@ html, body {
 .screenshot-wrapper { display: flex; justify-content: center; align-items: center; height: 100%; width: 100%; }
 .static-screenshot { max-height: 75vh; width: 110%; max-width: 110%; object-fit: contain; }
 
-/* ===== Badges (conflict-proof) ===== */
+/* ===== Badges ===== */
 .badges {
   display: flex;
   gap: var(--space-sm);
@@ -125,8 +125,8 @@ html, body {
 }
 
 .badge {
-  display: inline-block;   /* works for <a> or <img> */
-  line-height: 0;          /* remove extra inline spacing */
+  display: inline-block;   /* works for <a> or <span> */
+  line-height: 0;          /* remove inline spacing */
 }
 
 .badge img {
@@ -135,19 +135,22 @@ html, body {
   transition: transform 0.2s ease;
 }
 
-.badge--active {
+/* ✅ Apple badge lowered slightly */
+.badge--active img {
   transform: translateY(6px);
 }
+.badge--active img:hover {
+  transform: translateY(4px); /* lift up by 2px on hover */
+}
 
-/* Disabled (Google) */
+/* ✅ Google badge grayed out & disabled */
 .badge--disabled img {
   filter: grayscale(100%) brightness(85%);
   opacity: 0.6;
 }
-
 .badge--disabled {
   cursor: not-allowed;
-  pointer-events: none;     /* unclickable */
+  pointer-events: none; /* make unclickable */
 }
 
 /* Footer Navigation */
