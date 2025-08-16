@@ -116,18 +116,19 @@ html, body {
 .screenshot-wrapper { display: flex; justify-content: center; align-items: center; height: 100%; width: 100%; }
 .static-screenshot { max-height: 75vh; width: 110%; max-width: 110%; object-fit: contain; }
 
-/* ===== Badges layout ===== */
+/* ===== Badges layout (closer spacing) ===== */
 .badges {
   display: flex;
-  gap: var(--space-sm);
-  align-items: flex-start;   /* top-align the two badge blocks */
+  gap: 8px;                    /* ✅ badges closer together */
+  align-items: flex-start;     /* top-align the two badge blocks */
   justify-content: center;
+  margin-top: 20px;
 }
 
 .badge-block {
   display: flex;
-  flex-direction: column;    /* badge on top, pill underneath */
-  align-items: center;       /* center pill under badge */
+  flex-direction: column;      /* badge on top, pill underneath */
+  align-items: center;         /* center pill under badge */
 }
 
 .badge {
@@ -136,7 +137,7 @@ html, body {
 }
 
 .badge img {
-  height: 55px;              /* equal height for Apple & Google */
+  height: 50px;                /* ✅ slightly smaller, balanced */
   display: block;
   transition: transform 0.2s ease;
 }
@@ -154,36 +155,37 @@ html, body {
   pointer-events: none;
 }
 
-/* ===== Pill with pulsing background ===== */
+/* ===== Pill with stronger, centered look ===== */
 .pill {
   position: relative;
-  display: inline-block;
-  padding: 6px 14px;
+  display: block;              /* allows centering with margin auto */
+  margin: 6px auto 0 auto;     /* ✅ tighter to the badge + centered */
+  padding: 8px 18px;           /* ✅ filled-out pill */
   border-radius: 999px;
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
+  font-size: 15px;             /* between xs and sm */
+  font-weight: 600;
   color: var(--color-black);
-  background: var(--color-highlight); /* colored pill background */
-  margin-top: 10px; /* spacing between badge and pill */
+  background: var(--color-highlight);
   text-align: center;
+  letter-spacing: 0.2px;
 }
 
 /* soft animated glow behind the pill */
 .pill--pulse::before {
   content: "";
   position: absolute;
-  inset: -4px;
+  inset: -5px;                 /* ✅ tighter glow area */
   border-radius: 999px;
   background: var(--color-highlight);
   opacity: 0.5;
   z-index: -1;
   animation: pillPulse 1.6s ease-out infinite;
-  filter: blur(6px);
+  filter: blur(8px);           /* ✅ softer, compact glow */
 }
 
 @keyframes pillPulse {
   0%   { transform: scale(1);    opacity: 0.45; }
-  60%  { transform: scale(1.12); opacity: 0.12; }
+  60%  { transform: scale(1.15); opacity: 0.12; }
   100% { transform: scale(1);    opacity: 0.45; }
 }
 
@@ -253,8 +255,8 @@ html, body {
   .heading-hero { font-size: 40px; font-weight: bold; text-align: center; margin-bottom: 10px; }
 
   /* stack badges on mobile for readability */
-  .badges { flex-direction: column; gap: 20px; }
-  .badge img { height: 50px; }
+  .badges { flex-direction: column; gap: 16px; }
+  .badge img { height: 48px; }
 
   .main-logo {
     width: clamp(70px, 24vw, 110px);
