@@ -137,7 +137,7 @@ html, body {
 
 /* ✅ Apple badge lowered slightly */
 .badge--active img {
-  transform: translateY(6px);
+  transform: translateY(2px);
 }
 .badge--active img:hover {
   transform: translateY(4px); /* lift up by 2px on hover */
