@@ -12,17 +12,18 @@
       <img src="medicaltestpreplogo.png" alt="Medical Test Prep Logo" class="main-logo">
       <h1 class="heading-primary">Medical Test Prep</h1>
       <h2 class="heading-hero">Your study time,<br>optimized</h2>
-      
-      <div class="badges">
-        <div class="apple-badge-group">
-          <a href="https://testflight.apple.com/join/due7E2h1" target="_blank" rel="noopener noreferrer">
-            <img src="appstore-badge.png" alt="Join Beta on TestFlight" />
-          </a>
-        </div>
 
-        <div class="google-badge-group">
-          <img src="googleplay-badge.png" alt="Get it on Google Play (coming soon)" />
-        </div>
+      <!-- Simple, wrapper-free badges -->
+      <div class="badges">
+        <!-- Apple: active, clickable -->
+        <a class="badge badge--active" href="https://testflight.apple.com/join/due7E2h1" target="_blank" rel="noopener noreferrer" aria-label="Join Beta on TestFlight">
+          <img src="appstore-badge.png" alt="Download on the App Store">
+        </a>
+
+        <!-- Google: disabled, grayed out -->
+        <span class="badge badge--disabled" aria-label="Google Play coming soon">
+          <img src="googleplay-badge.png" alt="Get it on Google Play (coming soon)">
+        </span>
       </div>
     </section>
 
@@ -30,7 +31,7 @@
       <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
     </section>
   </main>
-  
+
   <footer class="footer-nav">
     <a href="about.html">About Us</a>
     <a href="ourmission.html">Our Mission</a>
