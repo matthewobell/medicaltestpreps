@@ -162,7 +162,9 @@ html, body {
   padding: var(--space-sm) 0;
   background-color: var(--color-yellow);
   width: 100%;
-  margin-top: auto;
+  margin-top: 40px;   /* ✅ space above footer */
+  margin-bottom: 40px;/* ✅ pull it up from the page bottom */
+  position: relative; /* keeps it in normal flow */
 }
 
 .footer-nav a {
