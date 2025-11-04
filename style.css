@@ -102,7 +102,7 @@ html, body {
 .left, .right { flex: 1; display: flex; justify-content: center; align-items: center; }
 .left { padding-left: 85px; padding-bottom: 30px; flex-direction: column; }
 
-/* ===== Right section fix: Stack image + FLS text vertically ===== */
+/* ===== Right section: Stack image + FLS text vertically ===== */
 .right {
   display: flex;
   flex-direction: column;
@@ -129,7 +129,7 @@ html, body {
 .badges {
   display: flex;
   gap: var(--space-sm);
-  align-items: flex-end; /* align badges to same bottom level */
+  align-items: flex-end; /* align badges to same bottom level on desktop */
   justify-content: center;
 }
 
@@ -174,14 +174,14 @@ html, body {
   margin-bottom: var(--space-xs);
 }
 
-/* Slight offset for Google Play badge */
+/* Slight offset for Google Play badge (second badge) on desktop */
 .badges .badge-block:last-child { margin-top: 8px; }
 
 /* ===== FLS note under hero image ===== */
 .right .fls-note {
   font-family: var(--font-main);
   font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-base);  /* larger on desktop */
   color: var(--color-black);
   text-align: center;
   margin-top: var(--space-xs);
@@ -227,27 +227,6 @@ html, body {
 .page-text { font-size: var(--font-size-base); font-weight: var(--font-weight-regular); line-height: var(--line-normal); text-align: left; margin-bottom: 20px; }
 .signature { margin-bottom: 0; }
 
-/* Contact Form */
-.contact-form {
-  max-width: 400px;
-  background-color: var(--color-white);
-  border-radius: 30px;
-  padding: var(--space-lg);
-  margin-top: var(--space-lg);
-  box-sizing: border-box;
-}
-.contact-form input, .contact-form textarea {
-  width: 100%; padding: var(--space-md); border-radius: 25px;
-  background-color: var(--color-light-gray); border: none; font-family: inherit; margin-bottom: var(--space-md);
-}
-.contact-form textarea { min-height: 180px; resize: vertical; }
-.contact-form button {
-  width: 100%; padding: var(--space-md); border-radius: 25px; border: none;
-  font-size: var(--font-size-sm); font-weight: bold; background-color: var(--color-highlight);
-  color: var(--color-black); cursor: pointer; transition: background-color 0.2s ease;
-}
-.contact-form button:hover { background-color: var(--color-pulse); }
-
 /* ========== Mobile Responsive ========== */
 @media (max-width: 768px) {
   html, body { overflow: auto; }
@@ -284,48 +263,43 @@ html, body {
   .static-screenshot { max-height: 100vh; width: 100%; object-fit: contain; }
 
   .right .fls-note {
+    font-size: var(--font-size-sm);  /* 18px on mobile */
     margin-top: var(--space-xs);
     text-align: center;
     max-width: 90%;
   }
 
-  .footer-nav {
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    padding: var(--space-lg) 0;
-    background-color: var(--color-yellow);
-    width: 100%;
-    position: relative;
-    bottom: 0;
+  /* ===== Mobile polish: badges alignment + size ===== */
+  .badges {
+    align-items: flex-end;       /* bottom-align blocks so caption doesn't lift Apple */
+    gap: var(--space-xs);        /* tighter gap on phones */
+    margin-top: var(--space-sm);
   }
 
-  .nav-buttons { flex-direction: column; align-items: center; gap: 12px; }
-  .nav-btn, .footer-nav a {
-    text-decoration: none;
-    color: var(--color-black);
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 0;
-    transition: opacity 0.2s ease;
+  /* Nudge Google Play so it sits level with Apple */
+  .badges .badge-block:last-child { margin-top: 6px; }
+
+  .badge img { height: 48px; }
+
+  .badge-block .badge-caption {
+    font-size: 14px;
+    margin-bottom: 6px;
   }
-  .nav-btn:hover, .footer-nav a:hover { opacity: 0.7; }
+
+  /* Footer: reduce spacing and allow wrapping */
+  .footer-nav {
+    gap: 18px;         /* was 32px */
+    row-gap: 8px;      /* vertical spacing when wrapped */
+    padding: 14px 0;
+    flex-wrap: wrap;
+  }
+
+  .footer-nav a {
+    font-size: 14px;
+  }
 
   .heading-primary { font-size: 24px; text-align: center; margin-bottom: 15px; }
   .heading-hero { font-size: 40px; font-weight: bold; text-align: center; margin-bottom: 10px; }
-
-  .badges {
-    justify-content: center;
-    margin: 20px 0 0;
-    flex-direction: row;
-    gap: var(--space-sm);
-    align-items: center;
-  }
-
-  .badges .badge-block:last-child { margin-top: 0; }
-
-  .badge img { height: 50px; }
 
   .main-logo {
     width: clamp(70px, 24vw, 110px);
@@ -373,4 +347,12 @@ html, body {
     justify-content: center;
     align-items: center;
   }
+}
+
+/* Extra-narrow devices (e.g., iPhone SE width) */
+@media (max-width: 360px) {
+  .badge img { height: 44px; }
+  .badge-block .badge-caption { font-size: 13px; }
+  .footer-nav { gap: 14px; row-gap: 6px; }
+  .footer-nav a { font-size: 13px; }
 }
