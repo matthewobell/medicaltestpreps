@@ -341,3 +341,30 @@ html, body {
   .right .fls-note { margin-top: var(--space-xs); }
 }
 
+/* ===== Alignment adjustments for homepage badges and FLS note ===== */
+
+/* Ensure Google Play badge aligns lower to match Apple badge */
+.badges {
+  align-items: flex-end; /* aligns bottom edges of both badges */
+}
+
+/* Fine-tune spacing between badges if needed */
+.badge-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Subtle top offset for Google badge so it sits slightly lower */
+.badges .badge-block:last-child {
+  margin-top: 8px; /* Adjust this value between 6–10px if needed */
+}
+
+/* Center FLS Prep text visually under app mockup */
+.right .fls-note {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
