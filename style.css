@@ -309,4 +309,35 @@ html, body {
     order: 2; padding: 0 20px !important;
     justify-content: center; align-items: center;
   }
+
+/* ===== New homepage labels ===== */
+
+/* Caption above the App Store badge */
+.badge-block .badge-caption {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-tight);
+  color: var(--color-black);
+  text-align: center;
+  margin-bottom: var(--space-xs); /* space between label and badge */
 }
+
+/* Note under the hero image on the right */
+.right .fls-note {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-tight);
+  color: var(--color-black);
+  text-align: center;
+  margin-top: var(--space-sm);   /* space below the screenshot */
+  opacity: 0.9;
+}
+
+/* Optional fine-tuning on small screens */
+@media (max-width: 768px) {
+  .badge-block .badge-caption { margin-bottom: var(--space-xs); }
+  .right .fls-note { margin-top: var(--space-xs); }
+}
+
