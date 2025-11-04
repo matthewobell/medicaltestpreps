@@ -101,7 +101,16 @@ html, body {
 /* Left and Right Sections */
 .left, .right { flex: 1; display: flex; justify-content: center; align-items: center; }
 .left { padding-left: 85px; padding-bottom: 30px; flex-direction: column; }
-.right { padding-right: 50px; }
+
+/* ===== Right section fix: Stack image + FLS text vertically ===== */
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 50px;
+  gap: 12px; /* space between screenshot and FLS note */
+}
 
 /* Logos */
 .main-logo {
@@ -120,7 +129,7 @@ html, body {
 .badges {
   display: flex;
   gap: var(--space-sm);
-  align-items: center;
+  align-items: flex-end; /* align badges to same bottom level */
   justify-content: center;
 }
 
@@ -145,6 +154,39 @@ html, body {
 .badge--disabled {
   cursor: not-allowed;
   pointer-events: none;
+}
+
+/* ===== EMIGS caption above App Store badge ===== */
+.badge-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.badge-block .badge-caption {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-tight);
+  color: var(--color-black);
+  text-align: center;
+  margin-bottom: var(--space-xs);
+}
+
+/* Slight offset for Google Play badge */
+.badges .badge-block:last-child { margin-top: 8px; }
+
+/* ===== FLS note under hero image ===== */
+.right .fls-note {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  text-align: center;
+  margin-top: var(--space-xs);
+  opacity: 0.9;
+  max-width: 80%;
 }
 
 /* Footer Navigation */
@@ -230,38 +272,59 @@ html, body {
 
   .right {
     order: 2;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     margin-bottom: 10px;
-    padding: 0;
+    padding-right: 0;
+    gap: 8px;
   }
 
-  .screenshot-wrapper { justify-content: center; align-items: center; width: 100%; margin: 0 auto; }
   .static-screenshot { max-height: 100vh; width: 100%; object-fit: contain; }
 
+  .right .fls-note {
+    margin-top: var(--space-xs);
+    text-align: center;
+    max-width: 90%;
+  }
+
   .footer-nav {
-    justify-content: center; align-items: center; gap: 32px;
-    padding: var(--space-lg) 0; background-color: var(--color-yellow);
-    width: 100%; position: relative; bottom: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: var(--space-lg) 0;
+    background-color: var(--color-yellow);
+    width: 100%;
+    position: relative;
+    bottom: 0;
   }
 
   .nav-buttons { flex-direction: column; align-items: center; gap: 12px; }
   .nav-btn, .footer-nav a {
-    text-decoration: none; color: var(--color-black); font-size: 16px; font-weight: bold;
-    text-align: center; padding: 10px 0; transition: opacity 0.2s ease;
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    transition: opacity 0.2s ease;
   }
   .nav-btn:hover, .footer-nav a:hover { opacity: 0.7; }
 
   .heading-primary { font-size: 24px; text-align: center; margin-bottom: 15px; }
   .heading-hero { font-size: 40px; font-weight: bold; text-align: center; margin-bottom: 10px; }
 
-  .badges { 
-    justify-content: center; 
-    margin: 20px 0 0; 
+  .badges {
+    justify-content: center;
+    margin: 20px 0 0;
     flex-direction: row;
     gap: var(--space-sm);
+    align-items: center;
   }
+
+  .badges .badge-block:last-child { margin-top: 0; }
+
   .badge img { height: 50px; }
 
   .main-logo {
@@ -305,50 +368,9 @@ html, body {
   .contact-form { max-width: 350px; margin: 40px auto 0 auto; display: block; }
 
   .contact-right {
-    order: 2; padding: 0 20px !important;
-    justify-content: center; align-items: center;
+    order: 2;
+    padding: 0 20px !important;
+    justify-content: center;
+    align-items: center;
   }
-}
-
-/* ===== New homepage labels ===== */
-
-/* Caption above the App Store badge */
-.badge-block .badge-caption {
-  font-family: var(--font-main);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-xs);
-  line-height: var(--line-tight);
-  color: var(--color-black);
-  text-align: center;
-  margin-bottom: var(--space-xs);
-}
-
-/* Note under the hero image on the right */
-.right .fls-note {
-  font-family: var(--font-main);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-xs);
-  line-height: var(--line-tight);
-  color: var(--color-black);
-  text-align: center;
-  width: 100%;
-  margin: var(--space-sm) auto 0;
-  opacity: 0.9;
-}
-
-/* ===== Desktop alignment: make Google Play sit a bit lower ===== */
-.badges { align-items: flex-end; }
-.badge-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-.badges .badge-block:last-child { margin-top: 8px; }
-
-/* ===== Mobile tweaks ===== */
-@media (max-width: 768px) {
-  .badges { align-items: center; }
-  .badges .badge-block:last-child { margin-top: 0; }
-  .right .fls-note { margin-top: var(--space-xs); }
 }
