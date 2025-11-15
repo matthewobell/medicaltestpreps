@@ -41,14 +41,9 @@
 }
 
 /* Reset & Base */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-html,
-body {
+html, body {
   min-height: 100vh;
   font-family: var(--font-main);
   background-color: var(--color-yellow);
@@ -57,9 +52,7 @@ body {
 }
 
 /* Typography */
-.heading-primary,
-.heading-hero,
-.heading-secondary {
+.heading-primary, .heading-hero {
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
   text-align: left;
@@ -67,46 +60,8 @@ body {
   margin-bottom: var(--space-md);
 }
 
-.heading-primary {
-  font-size: var(--font-size-lg);
-}
-
-.heading-hero {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  text-align: center;
-}
-
-.heading-secondary {
-  font-size: var(--font-size-lg);
-  padding-left: 348px;
-}
-
-.body-text,
-.small-text {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-regular);
-  color: var(--color-black);
-  line-height: var(--line-normal);
-  text-align: left;
-  letter-spacing: var(--letter-spacing-tight);
-}
-
-.body-text {
-  padding: 0 357px 0 348px;
-  margin-bottom: var(--space-lg);
-}
-
-.small-text {
-  font-size: var(--font-size-xs);
-}
-
-/* Layout Wrapper */
-.page-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+.heading-primary { font-size: var(--font-size-lg); }
+.heading-hero { font-size: var(--font-size-xl); text-align: center; }
 
 /* Main Container */
 .container {
@@ -114,15 +69,12 @@ body {
   flex: 1;
   width: 100vw;
   min-height: 100vh;
-  height: auto;
   justify-content: space-between;
   align-items: center;
-  overflow: visible;
 }
 
-/* Left and Right Sections */
-.left,
-.right {
+/* Left / Right Sections */
+.left, .right {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -135,14 +87,11 @@ body {
   flex-direction: column;
 }
 
-/* Right section: screenshot only */
 .right {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   padding-right: 50px;
-  gap: 12px;
 }
 
 /* Logos */
@@ -150,32 +99,20 @@ body {
   width: clamp(80px, 12vw, 140px);
   height: auto;
   border-radius: 16px;
-  display: block;
-  margin: 0 auto var(--space-sm);
+  margin-bottom: var(--space-sm);
 }
 
-/* Badge logos (EMIGS + FLS) */
 .badge-logo {
-  width: 110px;       /* adjust if needed */
+  width: 110px;
   height: auto;
   margin-bottom: 8px;
-  display: block;
-  border-radius: 16px; /* match Medical Test Prep logo */
+  border-radius: 16px;
 }
 
 /* Screenshot */
-.screenshot-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
 .static-screenshot {
   max-height: 75vh;
   width: 110%;
-  max-width: 110%;
   object-fit: contain;
 }
 
@@ -187,20 +124,13 @@ body {
   justify-content: center;
 }
 
-.badge {
-  display: inline-block;
-  line-height: 0;
-}
-
 .badge img {
   height: 55px;
   display: block;
   transition: transform 0.2s ease;
 }
 
-.badge--active img:hover {
-  transform: translateY(-2px);
-}
+.badge--active img:hover { transform: translateY(-2px); }
 
 .badge--disabled img {
   filter: grayscale(100%) brightness(85%);
@@ -212,62 +142,37 @@ body {
   pointer-events: none;
 }
 
-/* Optional caption style (no longer used, but harmless to keep) */
-.badge-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.badge-block .badge-caption {
-  font-family: var(--font-main);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-xs);
-  line-height: var(--line-tight);
-  color: var(--color-black);
-  text-align: center;
-  margin-bottom: var(--space-xs);
-}
-
-/* Slight offset for second badge on desktop */
-.badges .badge-block:last-child {
-  margin-top: 8px;
-}
-
-/* ===== Instagram row under badges ===== */
+/* ===== Instagram Row (UPDATED) ===== */
 .instagram-row {
+  margin-top: 22px;        /* moved downward slightly */
+}
+
+.instagram-link {
   display: flex;
-  align-items: center;
+  align-items: center;     /* centers logo vertically */
   justify-content: center;
-  gap: 6px;
-  margin-top: 14px;
+  gap: 8px;                /* spacing between text + icon */
+  text-decoration: none;
 }
 
 .instagram-text {
-  font-family: var(--font-main);
   font-size: 16px;
   font-weight: 600;
   color: var(--color-black);
-  text-align: center;
 }
 
 .instagram-logo {
-  width: 20px;
+  width: 26px;             /* slightly larger icon */
   height: auto;
   display: block;
 }
 
-/* Footer Navigation */
+/* Footer */
 .footer-nav {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 32px;
   padding: var(--space-sm) 0;
-  background-color: var(--color-yellow);
-  width: 100%;
-  margin-top: auto;
 }
 
 .footer-nav a {
@@ -275,221 +180,4 @@ body {
   color: var(--color-black);
   font-size: var(--font-size-xs);
   font-weight: bold;
-  transition: opacity 0.2s ease;
-  letter-spacing: var(--letter-spacing-tight);
-}
-
-.footer-nav a:hover {
-  opacity: 0.7;
-}
-
-/* Content Blocks */
-.about-container,
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 60px 352px 120px;
-  background-color: var(--color-yellow);
-  box-sizing: border-box;
-}
-
-.about-content,
-.contact-left {
-  width: 100%;
-  max-width: 100%;
-}
-
-.page-heading {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  margin-bottom: 35px;
-  text-align: left;
-}
-
-.page-text {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-normal);
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.signature {
-  margin-bottom: 0;
-}
-
-/* ========== Mobile Responsive ========== */
-@media (max-width: 768px) {
-  html,
-  body {
-    overflow: auto;
-  }
-
-  .container {
-    flex-direction: column;
-    height: auto;
-    padding: 60px 20px 20px 20px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .left {
-    padding: 0 20px;
-    order: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .right {
-    order: 2;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-right: 0;
-    gap: 8px;
-  }
-
-  .static-screenshot {
-    max-height: 100vh;
-    width: 100%;
-    object-fit: contain;
-  }
-
-  .instagram-text {
-    font-size: 14px;
-  }
-
-  .instagram-logo {
-    width: 18px;
-  }
-
-  /* Mobile badges */
-  .badges {
-    align-items: flex-end;
-    gap: var(--space-xs);
-    margin-top: var(--space-sm);
-  }
-
-  .badges .badge-block:last-child {
-    margin-top: 6px;
-  }
-
-  .badge img {
-    height: 48px;
-  }
-
-  .badge-block .badge-caption {
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-
-  /* Footer: reduce spacing and allow wrapping */
-  .footer-nav {
-    gap: 18px;
-    row-gap: 8px;
-    padding: 14px 0;
-    flex-wrap: wrap;
-  }
-
-  .footer-nav a {
-    font-size: 14px;
-  }
-
-  .heading-primary {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .heading-hero {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .main-logo {
-    width: clamp(70px, 24vw, 110px);
-    border-radius: 12px;
-    margin-bottom: 12px;
-  }
-
-  .about-container {
-    padding: 40px 30px 120px 30px;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .about-content {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: left;
-    box-sizing: border-box;
-    letter-spacing: -1px;
-  }
-
-  .about-title,
-  .mission-title,
-  .page-heading {
-    font-size: 40px;
-    font-weight: var(--font-weight-bold);
-    text-align: left;
-    margin-bottom: 25px;
-    letter-spacing: -0.5px;
-  }
-
-  .about-intro,
-  .about-founding,
-  .mission-text,
-  .page-text,
-  .closing-text,
-  .signature {
-    font-size: 20px !important;
-    font-weight: var(--font-weight-regular);
-    text-align: left;
-    margin-bottom: 20px;
-    letter-spacing: -0.5px;
-  }
-
-  .contact-form {
-    max-width: 350px;
-    margin: 40px auto 0 auto;
-    display: block;
-  }
-
-  .contact-right {
-    order: 2;
-    padding: 0 20px !important;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Extra-narrow devices (e.g., iPhone SE width) */
-@media (max-width: 360px) {
-  .badge img {
-    height: 44px;
-  }
-
-  .badge-block .badge-caption {
-    font-size: 13px;
-  }
-
-  .footer-nav {
-    gap: 14px;
-    row-gap: 6px;
-  }
-
-  .footer-nav a {
-    font-size: 13px;
-  }
 }
