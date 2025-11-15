@@ -219,7 +219,7 @@ body {
   display: none;
 }
 
-/* Mobile header text size (we override in media query) */
+/* Mobile header text size (overridden in media query) */
 .explore-title {
   font-weight: 600;
 }
