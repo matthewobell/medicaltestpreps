@@ -116,7 +116,7 @@ body {
 }
 
 .badge-logo {
-  width: 110px;
+  width: clamp(80px, 12vw, 140px); /* match main logo */
   height: auto;
   margin-bottom: 20px;
   border-radius: 16px;
@@ -309,7 +309,7 @@ white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
   }
 
   .badge-logo {
-    width: 100px;
+    width: clamp(70px, 25vw, 110px);
     margin-bottom: 20px;
   }
 
