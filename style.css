@@ -340,43 +340,52 @@ body {
 /* =============================== */
 
 .about-container {
-  min-height: 100vh;                 
+  /* fill the full visible screen height on desktop + mobile */
+  min-height: 100vh;
+  min-height: 100svh;
+
   display: flex;
-  justify-content: center;           /* center left–right */
-  align-items: center;               /* center top–bottom */
-  padding: 40px 24px;                /* left/right padding */
+  justify-content: center;      /* center left–right */
+  align-items: center;          /* center top–bottom */
+
+  /* side padding only so it stays visually centered */
+  padding-inline: 24px;
+
   background-color: var(--color-yellow);
 }
 
 .about-content {
-  max-width: 700px;                  /* readable width */
+  max-width: 700px;             /* readable column width */
   width: 100%;
-  text-align: left;                  /* keep text left-aligned */
+  text-align: left;             /* keep paragraphs left-aligned */
 }
 
-/* Headings */
+/* Headings on footer pages */
 .page-heading {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 24px;
 }
 
-/* Paragraph text */
+/* Paragraph text on footer pages */
 .page-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
 }
 
+/* Lists inside footer pages (e.g., privacy policy) */
+.page-text li {
+  margin-bottom: 8px;
+}
 
 /* =============================== */
 /*           MOBILE ONLY           */
 /* =============================== */
 
 @media (max-width: 480px) {
-
   .about-container {
-    padding: 30px 20px;              /* tighter padding on small screens */
+    padding-inline: 20px;       /* a bit tighter on small screens */
   }
 
   .page-heading {
