@@ -204,19 +204,9 @@ body {
   line-height: 1.4;
 }
 
-/* Footer Navigation */
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  padding: var(--space-sm) 0;
-}
-
-.footer-nav a {
-  text-decoration: none;
-  color: var(--color-black);
-  font-size: var(--font-size-xs);
-  font-weight: bold;
+/* NEW — Prevent mobile cards from showing on desktop */
+.explore-row-mobile {
+  display: none;
 }
 
 /* ============================= */
