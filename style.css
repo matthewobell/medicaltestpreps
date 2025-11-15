@@ -210,6 +210,36 @@ body {
 }
 
 /* ============================= */
+/*        FOOTER NAV LINKS       */
+/* ============================= */
+
+.footer-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* vertical alignment */
+
+  white-space: nowrap;       /* keep links on one line */
+  gap: 14px;                 /* spacing between links */
+  padding: 20px 0 25px;      /* spacing above/below */
+
+  position: relative;
+  bottom: 5px;               /* lift slightly up */
+}
+
+.footer-nav a {
+  color: var(--color-black);
+  font-weight: 700;          /* bold text */
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer-nav a:hover {
+  opacity: 0.7;
+}
+
+/* ============================= */
 /*      MOBILE ADJUSTMENTS       */
 /* ============================= */
 
@@ -287,34 +317,17 @@ body {
     max-height: none;
   }
 
-/* ============================= */
-/*   IMPROVED FOOTER STYLING     */
-/* ============================= */
+  /* Mobile footer: allow wrapping & smaller text */
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+    bottom: 0;                 /* don’t offset on very small screens */
+  }
 
-.footer-nav {
-  width: 100%;               /* ensure full-width centering */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;   /* center the links horizontally */
-  align-items: center;
-
-  white-space: nowrap;       /* keep links on one line */
-  gap: 14px;                 /* slightly closer spacing */
-  padding: 20px 0 25px;      /* reduce bottom padding so it sits higher */
-
-  position: relative;
-  bottom: 5px;               /* gentle upward lift */
-}
-
-.footer-nav a {
-  color: var(--color-black);
-  font-weight: 700;          /* bold text */
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.footer-nav a:hover {
-  opacity: 0.7;
+  .footer-nav a {
+    font-size: 13px;
+  }
 }
 
 /* Extra-small phones */
@@ -348,25 +361,25 @@ body {
 /*   CENTERED FOOTER INFO PAGES   */
 /* =============================== */
 
-.about-container {
-  /* fill the entire visible screen height */
+/* This matches your About / Mission / Contact / Privacy HTML:
+   <div class="page-content"><div class="about-content">...</div></div>
+*/
+.page-content {
   height: 100vh;
-  height: 100svh;                /* better on mobile Safari */
+  height: 100svh;              /* better on mobile Safari */
 
   display: flex;
-  justify-content: center;       /* center vertically */
-  align-items: center;           /* center horizontally */
+  justify-content: center;     /* vertical centering */
+  align-items: center;         /* horizontal centering */
 
-  /* side padding for “breathing room” */
-  padding-inline: 24px;
-
+  padding-inline: 24px;        /* side padding */
   background-color: var(--color-yellow);
 }
 
 .about-content {
-  max-width: 700px;              /* column width like your mockup */
+  max-width: 700px;            /* column width like your mockup */
   width: 100%;
-  text-align: left;              /* keep text left-aligned */
+  text-align: left;            /* keep text left-aligned */
 }
 
 /* Headings on footer pages */
@@ -393,8 +406,8 @@ body {
 /* =============================== */
 
 @media (max-width: 480px) {
-  .about-container {
-    padding-inline: 20px;        /* a bit tighter on small screens */
+  .page-content {
+    padding-inline: 20px;      /* a bit tighter on small screens */
   }
 
   .page-heading {
