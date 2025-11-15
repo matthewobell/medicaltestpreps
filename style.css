@@ -179,7 +179,7 @@ html, body {
 
 /* ===== Instagram logo under hero image ===== */
 .instagram-logo {
-  width: 48px;
+  width: 16px;
   height: auto;
   margin-top: var(--space-xs);
   display: block;
