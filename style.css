@@ -226,13 +226,14 @@ body {
 
 /* Chevron for mobile dropdown */
 .chevron-mobile::before {
-  content: "▼";
-  font-size: 24px;
+  content: "›";  /* right chevron rotated visually */
+  transform: rotate(90deg);
+  display: inline-block;
+  font-size: 22px;
 }
 
-/* When dropdown open, flip chevron */
 .explore-details[open] .chevron-mobile::before {
-  content: "▲";
+  transform: rotate(-90deg);
 }
 
 .explore-body {
