@@ -387,10 +387,6 @@ white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
   .badge img {
     height: 44px;
   }
-
-  .explore-title {
-  white-space: nowrap;
-  }
   
   .badge-logo {
     width: 90px;
