@@ -15,11 +15,32 @@
       <h1 class="heading-primary">Medical Test Prep</h1>
       <h2 class="heading-hero">Your study time,<br>optimized</h2>
 
-      <div class="badges">
+      <!-- DESKTOP EXPLORE ROW (NAV, NO DROPDOWN) -->
+      <div class="explore-row explore-row-desktop">
+        <!-- FLS DESKTOP CARD -->
+        <div class="explore-card">
+          <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
 
-        <!-- EMIGS Prep -->
-        <div class="badge-block">
+          <a href="fls.html" class="explore-nav">
+            <span class="explore-nav-text">Explore FLS</span>
+            <span class="chevron-nav">&rsaquo;</span>
+          </a>
+
+          <a class="badge badge--active"
+             href="#"
+             aria-disabled="true">
+            <img src="appstore-badge.png" alt="Download on the App Store">
+          </a>
+        </div>
+
+        <!-- EMIGS DESKTOP CARD -->
+        <div class="explore-card">
           <img src="EMIGS Prep Logo" alt="EMIGS Prep Logo" class="badge-logo">
+
+          <a href="emigs.html" class="explore-nav">
+            <span class="explore-nav-text">Explore EMIGS</span>
+            <span class="chevron-nav">&rsaquo;</span>
+          </a>
 
           <a class="badge badge--active"
              href="https://apps.apple.com/us/app/emigs-prep/id6754616578?itscg=30200&itsct=apps_box_link&mttnsubad=6754616578"
@@ -28,34 +49,63 @@
             <img src="appstore-badge.png" alt="Download on the App Store">
           </a>
         </div>
-
-        <!-- FLS Prep (disabled) -->
-        <div class="badge-block">
-          <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
-
-          <span class="badge badge--disabled">
-            <img src="appstore-badge.png" alt="Coming soon">
-          </span>
-        </div>
-
       </div>
 
-      <!-- Instagram Row -->
-      <div class="instagram-row">
-        <a href="https://www.instagram.com/medical_test_prep/"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="instagram-link">
-          <span class="instagram-text">Find us on Instagram!</span>
-          <img src="Instagram_Glyph_Gradient.png"
-               alt="Instagram Logo"
-               class="instagram-logo" />
-        </a>
+      <!-- MOBILE EXPLORE ROW (DROPDOWNS) -->
+      <div class="explore-row explore-row-mobile">
+        <!-- FLS MOBILE CARD -->
+        <div class="explore-card">
+          <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
+
+          <details class="explore-details">
+            <summary class="explore-summary">
+              <span class="explore-title">Explore FLS</span>
+              <span class="chevron-mobile"></span>
+            </summary>
+
+            <p class="explore-body">
+              Medical Test Prep, LLC is a physician-led medical education company
+              committed to empowering residents and attending physicians through
+              high-yield, app-based learning tools.
+            </p>
+
+            <a class="badge badge--active"
+               href="#"
+               aria-disabled="true">
+              <img src="appstore-badge.png" alt="Download on the App Store">
+            </a>
+          </details>
+        </div>
+
+        <!-- EMIGS MOBILE CARD -->
+        <div class="explore-card">
+          <img src="EMIGS Prep Logo" alt="EMIGS Prep Logo" class="badge-logo">
+
+          <details class="explore-details">
+            <summary class="explore-summary">
+              <span class="explore-title">Explore EMIGS</span>
+              <span class="chevron-mobile"></span>
+            </summary>
+
+            <p class="explore-body">
+              Medical Test Prep, LLC is a physician-led medical education company
+              committed to empowering residents and attending physicians through
+              high-yield, app-based learning tools.
+            </p>
+
+            <a class="badge badge--active"
+               href="https://apps.apple.com/us/app/emigs-prep/id6754616578?itscg=30200&itsct=apps_box_link&mttnsubad=6754616578"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img src="appstore-badge.png" alt="Download on the App Store">
+            </a>
+          </details>
+        </div>
       </div>
 
     </section>
 
-    <!-- RIGHT SIDE -->
+    <!-- RIGHT SIDE: HERO IMAGE -->
     <section class="right">
       <img src="screenshot1.png" alt="App screenshot" class="static-screenshot" />
     </section>
