@@ -158,7 +158,7 @@ body {
 .explore-row {
   display: flex;
   justify-content: center;
-  gap: 50px;           /* spacing between FLS and EMIGS */
+  gap: 50px;           /* spacing between EMIGS and FLS */
   margin-top: 40px;
 }
 
@@ -167,9 +167,13 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  /* ensure EMIGS and FLS stacks visually line up */
+  min-height: 280px;
+  justify-content: flex-start;
 }
 
-/* Desktop explore links (no dropdown) */
+/* Desktop explore links (no dropdowns) */
 .explore-row-desktop {
   /* visible on desktop by default */
 }
@@ -196,51 +200,20 @@ body {
   font-size: 24px;
 }
 
-/* ============================= */
-/*      MOBILE DROPDOWN UI       */
-/* ============================= */
-
-.explore-details {
-  width: 100%;
+/* Mobile “Explore …” text styles */
+.explore-mobile-header {
+  margin-bottom: 10px;
 }
 
-.explore-summary {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  cursor: pointer;
-  user-select: none;
-}
-
-/* hide default disclosure triangle */
-.explore-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Mobile header text size (overridden in media query) */
-/* Mobile header text base */
 .explore-title {
-font-weight: 600;
-white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
-}
-
-/* Chevron for mobile dropdown */
-.chevron-mobile::before {
-  content: "›";  /* right chevron rotated visually */
-  transform: rotate(90deg);
-  display: inline-block;
-  font-size: 22px;
-}
-
-.explore-details[open] .chevron-mobile::before {
-  transform: rotate(-90deg);
+  font-weight: 600;
+  white-space: nowrap;   /* keep “Explore EMIGS/FLS” on one line */
 }
 
 .explore-body {
-  margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 /* Footer */
@@ -313,14 +286,14 @@ white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
     margin-bottom: 20px;
   }
 
-  /* Use mobile explore row (with dropdowns) */
+  /* Use mobile explore row (always open) */
   .explore-row-desktop {
     display: none;
   }
 
   .explore-row-mobile {
     display: flex;
-    flex-direction: row-reverse;   /* EMIGS on left, FLS on right */
+    flex-direction: row;           /* EMIGS left, FLS right (HTML order) */
     justify-content: center;
     gap: 15px;                     /* spacing between stacks */
     margin-top: 25px;              /* spacing below hero text */
@@ -328,20 +301,15 @@ white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
 
   .explore-card {
     max-width: 45%;
+    min-height: 260px;             /* slightly shorter on mobile */
   }
 
-  /* Mobile header + body sizes per your spec */
   .explore-title {
     font-size: 15px;
   }
 
   .explore-body {
     font-size: 15px;
-    line-height: 1.4;
-  }
-
-  .explore-details {
-    margin-top: 10px;
   }
 
   .badge img {
@@ -377,17 +345,17 @@ white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
   }
 
   .explore-title {
-    font-size: 25px;
+    font-size: 14px;
   }
 
   .explore-body {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .badge img {
     height: 44px;
   }
-  
+
   .badge-logo {
     width: 90px;
   }
