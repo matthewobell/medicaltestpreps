@@ -118,6 +118,15 @@ html, body {
   border-radius: 16px;
 }
 
+/* Small visual correction if logos feel slightly off-center */
+.badge-block:first-child .badge-logo {
+  transform: translateX(1px);   /* tweak until it looks centered */
+}
+
+.badge-block:last-child .badge-logo {
+  transform: translateX(-1px);  /* tweak separately if needed */
+}
+
 /* Screenshot */
 .static-screenshot {
   max-height: 75vh;
