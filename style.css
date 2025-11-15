@@ -336,34 +336,34 @@ body {
 }
 
 /* ============================= */
-/*   SIMPLE CENTERED FOOTER PAGES */
+/*   CENTERED FOOTER PAGE LAYOUT */
 /* ============================= */
 
 .about-container {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
   background-color: var(--color-yellow);
-  padding: 40px 16px;
-  text-align: left;
+  padding: 40px 24px;           /* comfortable side padding */
 }
 
 .about-content {
-  max-width: 700px;
+  max-width: 700px;             /* keeps text narrow & readable */
   width: 100%;
+  text-align: left;             /* left-align text inside centered block */
 }
 
 .page-heading {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 24px;
-  text-align: center;
+  text-align: left;             /* left-align heading */
 }
 
 .page-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
-  text-align: center;
+  text-align: left;             /* left-align paragraphs */
 }
