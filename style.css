@@ -81,6 +81,15 @@ html, body {
   align-items: center;
 }
 
+.badge-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+}
+
 .left {
   padding-left: 85px;
   padding-bottom: 30px;
