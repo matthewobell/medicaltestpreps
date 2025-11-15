@@ -15,31 +15,15 @@
       <h1 class="heading-primary">Medical Test Prep</h1>
       <h2 class="heading-hero">Your study time,<br>optimized</h2>
 
-      <!-- DESKTOP EXPLORE ROW (NAV, NO DROPDOWN) -->
+      <!-- DESKTOP: EXPLORE CARDS (LINKS, NO DROPDOWNS) -->
       <div class="explore-row explore-row-desktop">
-        <!-- FLS DESKTOP CARD -->
-        <div class="explore-card">
-          <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
-
-          <a href="fls.html" class="explore-nav">
-            <span class="explore-nav-text">Explore FLS</span>
-            <span class="chevron-nav">&rsaquo;</span>
-          </a>
-
-          <a class="badge badge--active"
-             href="#"
-             aria-disabled="true">
-            <img src="appstore-badge.png" alt="Download on the App Store">
-          </a>
-        </div>
-
-        <!-- EMIGS DESKTOP CARD -->
+        <!-- EMIGS DESKTOP CARD (LEFT) -->
         <div class="explore-card">
           <img src="EMIGS Prep Logo" alt="EMIGS Prep Logo" class="badge-logo">
 
           <a href="emigs.html" class="explore-nav">
             <span class="explore-nav-text">Explore EMIGS</span>
-            <span class="chevron-nav">&rsaquo;</span>
+            <span class="chevron-nav">›</span>
           </a>
 
           <a class="badge badge--active"
@@ -49,55 +33,61 @@
             <img src="appstore-badge.png" alt="Download on the App Store">
           </a>
         </div>
-      </div>
 
-      <!-- MOBILE EXPLORE ROW (DROPDOWNS) -->
-      <div class="explore-row explore-row-mobile">
-        <!-- FLS MOBILE CARD -->
+        <!-- FLS DESKTOP CARD (RIGHT) -->
         <div class="explore-card">
           <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
 
-          <details class="explore-details">
-            <summary class="explore-summary">
-              <span class="explore-title">Explore FLS</span>
-              <span class="chevron-mobile"></span>
-            </summary>
+          <a href="fls.html" class="explore-nav">
+            <span class="explore-nav-text">Explore FLS</span>
+            <span class="chevron-nav">›</span>
+          </a>
 
-            <!-- FLS filler text – update this later -->
-            <p class="explore-body">
-              This is placeholder text for FLS Prep. Replace this with a short description of the FLS app when you’re ready.
-            </p>
-
-            <a class="badge badge--active"
-               href="#"
-               aria-disabled="true">
-              <img src="appstore-badge.png" alt="Download on the App Store">
-            </a>
-          </details>
+          <span class="badge badge--disabled">
+            <img src="appstore-badge.png" alt="Coming soon">
+          </span>
         </div>
+      </div>
 
-        <!-- EMIGS MOBILE CARD -->
+      <!-- MOBILE: ALWAYS-OPEN STACKS (NO DROPDOWN, NO CHEVRON) -->
+      <div class="explore-row explore-row-mobile">
+        <!-- EMIGS MOBILE CARD (LEFT) -->
         <div class="explore-card">
           <img src="EMIGS Prep Logo" alt="EMIGS Prep Logo" class="badge-logo">
 
-          <details class="explore-details">
-            <summary class="explore-summary">
-              <span class="explore-title">Explore EMIGS</span>
-              <span class="chevron-mobile"></span>
-            </summary>
+          <div class="explore-mobile-header">
+            <span class="explore-title">Explore EMIGS</span>
+          </div>
 
-            <!-- EMIGS filler text – update this later -->
-            <p class="explore-body">
-              This is placeholder text for EMIGS Prep. Replace this with a short description of the EMIGS app when you’re ready.
-            </p>
+          <p class="explore-body">
+            This is placeholder copy for EMIGS Prep. Replace this with a short,
+            high-yield description of your EMIGS app when you’re ready.
+          </p>
 
-            <a class="badge badge--active"
-               href="https://apps.apple.com/us/app/emigs-prep/id6754616578?itscg=30200&itsct=apps_box_link&mttnsubad=6754616578"
-               target="_blank"
-               rel="noopener noreferrer">
-              <img src="appstore-badge.png" alt="Download on the App Store">
-            </a>
-          </details>
+          <a class="badge badge--active"
+             href="https://apps.apple.com/us/app/emigs-prep/id6754616578?itscg=30200&itsct=apps_box_link&mttnsubad=6754616578"
+             target="_blank"
+             rel="noopener noreferrer">
+            <img src="appstore-badge.png" alt="Download on the App Store">
+          </a>
+        </div>
+
+        <!-- FLS MOBILE CARD (RIGHT) -->
+        <div class="explore-card">
+          <img src="FLS Prep Logo" alt="FLS Prep Logo" class="badge-logo">
+
+          <div class="explore-mobile-header">
+            <span class="explore-title">Explore FLS</span>
+          </div>
+
+          <p class="explore-body">
+            This is placeholder copy for FLS Prep. Replace this with a short,
+            high-yield description of your FLS app once that copy is ready.
+          </p>
+
+          <span class="badge badge--disabled">
+            <img src="appstore-badge.png" alt="Coming soon">
+          </span>
         </div>
       </div>
 
