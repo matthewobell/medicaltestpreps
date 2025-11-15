@@ -340,24 +340,24 @@ body {
 /* =============================== */
 
 .about-container {
-  /* fill the full visible screen height on desktop + mobile */
-  min-height: 100vh;
-  min-height: 100svh;
+  /* fill the entire visible screen height */
+  height: 100vh;
+  height: 100svh;                /* better on mobile Safari */
 
   display: flex;
-  justify-content: center;      /* center left–right */
-  align-items: center;          /* center top–bottom */
+  justify-content: center;       /* center vertically */
+  align-items: center;           /* center horizontally */
 
-  /* side padding only so it stays visually centered */
+  /* side padding for “breathing room” */
   padding-inline: 24px;
 
   background-color: var(--color-yellow);
 }
 
 .about-content {
-  max-width: 700px;             /* readable column width */
+  max-width: 700px;              /* column width like your mockup */
   width: 100%;
-  text-align: left;             /* keep paragraphs left-aligned */
+  text-align: left;              /* keep text left-aligned */
 }
 
 /* Headings on footer pages */
@@ -374,7 +374,7 @@ body {
   margin-bottom: 16px;
 }
 
-/* Lists inside footer pages (e.g., privacy policy) */
+/* Lists inside footer pages (privacy policy, etc.) */
 .page-text li {
   margin-bottom: 8px;
 }
@@ -385,7 +385,7 @@ body {
 
 @media (max-width: 480px) {
   .about-container {
-    padding-inline: 20px;       /* a bit tighter on small screens */
+    padding-inline: 20px;        /* a bit tighter on small screens */
   }
 
   .page-heading {
