@@ -319,7 +319,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;          /* spacing between FLS and EMIGS */
+    gap: 25px;          /* spacing between FLS and EMIGS */
     margin-top: 50px;   /* spacing below hero text */
   }
 
