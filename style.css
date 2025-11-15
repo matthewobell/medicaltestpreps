@@ -61,9 +61,9 @@ body {
 .heading-hero {
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
-  text-align: left;
   letter-spacing: var(--letter-spacing-tight);
   margin-bottom: var(--space-md);
+  text-align: left;
 }
 
 .heading-primary {
@@ -101,9 +101,7 @@ body {
 }
 
 .right {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   padding-right: 50px;
 }
 
@@ -116,7 +114,7 @@ body {
 }
 
 .badge-logo {
-  width: clamp(80px, 12vw, 140px); /* match main logo */
+  width: clamp(80px, 12vw, 140px);
   height: auto;
   margin-bottom: 20px;
   border-radius: 16px;
@@ -154,11 +152,10 @@ body {
 /*       EXPLORE SECTIONS        */
 /* ============================= */
 
-/* Shared layout for explore cards */
 .explore-row {
   display: flex;
   justify-content: center;
-  gap: 50px;           /* spacing between EMIGS and FLS */
+  gap: 50px;
   margin-top: 40px;
 }
 
@@ -168,18 +165,9 @@ body {
   align-items: center;
   text-align: center;
 
-  /* ensure EMIGS and FLS stacks visually line up */
+  /* Align EMIGS & FLS stacks */
   min-height: 280px;
   justify-content: flex-start;
-}
-
-/* Desktop explore links (no dropdowns) */
-.explore-row-desktop {
-  /* visible on desktop by default */
-}
-
-.explore-row-mobile {
-  display: none;       /* hidden by default; shown on mobile */
 }
 
 .explore-nav {
@@ -200,14 +188,14 @@ body {
   font-size: 24px;
 }
 
-/* Mobile “Explore …” text styles */
+/* Mobile Explore Styles */
 .explore-mobile-header {
   margin-bottom: 10px;
 }
 
 .explore-title {
   font-weight: 600;
-  white-space: nowrap;   /* keep “Explore EMIGS/FLS” on one line */
+  white-space: nowrap;
 }
 
 .explore-body {
@@ -216,7 +204,7 @@ body {
   line-height: 1.4;
 }
 
-/* Footer */
+/* Footer Navigation */
 .footer-nav {
   display: flex;
   justify-content: center;
@@ -232,50 +220,39 @@ body {
 }
 
 /* ============================= */
-/*       MOBILE ADJUSTMENTS      */
+/*      MOBILE ADJUSTMENTS       */
 /* ============================= */
 
 @media (max-width: 768px) {
-  /* Stack hero vertically; hero image under explore stacks */
   .container {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 24px 16px 40px;
-    min-height: auto;
-  }
-
-  .left,
-  .right {
-    width: 100%;
   }
 
   .left {
     padding-left: 0;
     padding-bottom: 20px;
-    align-items: center;
     text-align: center;
+    align-items: center;
   }
 
   .right {
     padding-right: 0;
-    margin-top: 50px; /* hero nests under explore stacks */
+    margin-top: 50px;
   }
 
-  /* Typography adjustments */
   .heading-primary {
     font-size: 26px;
     text-align: center;
-    margin-bottom: 12px;
   }
 
   .heading-hero {
     font-size: 34px;
-    text-align: center;
     line-height: 1.1;
   }
 
-  /* Logo sizing */
   .main-logo {
     width: 90px;
     margin-bottom: 14px;
@@ -283,25 +260,24 @@ body {
 
   .badge-logo {
     width: clamp(70px, 25vw, 110px);
-    margin-bottom: 20px;
   }
 
-  /* Use mobile explore row (always open) */
+  /* Switch to mobile explore layout */
   .explore-row-desktop {
     display: none;
   }
 
   .explore-row-mobile {
     display: flex;
-    flex-direction: row;           /* EMIGS left, FLS right (HTML order) */
+    flex-direction: row;
     justify-content: center;
-    gap: 15px;                     /* spacing between stacks */
-    margin-top: 25px;              /* spacing below hero text */
+    gap: 15px;
+    margin-top: 25px;
   }
 
   .explore-card {
     max-width: 45%;
-    min-height: 260px;             /* slightly shorter on mobile */
+    min-height: 260px;
   }
 
   .explore-title {
@@ -316,13 +292,11 @@ body {
     height: 48px;
   }
 
-  /* Screenshot should not overflow */
   .static-screenshot {
     width: 100%;
     max-height: none;
   }
 
-  /* Footer: allow wrapping & smaller text */
   .footer-nav {
     flex-wrap: wrap;
     gap: 16px;
@@ -359,4 +333,37 @@ body {
   .badge-logo {
     width: 90px;
   }
+}
+
+/* ============================= */
+/*   SIMPLE CENTERED FOOTER PAGES */
+/* ============================= */
+
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-yellow);
+  padding: 40px 16px;
+  text-align: left;
+}
+
+.about-content {
+  max-width: 700px;
+  width: 100%;
+}
+
+.page-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.page-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  text-align: center;
 }
