@@ -102,14 +102,14 @@ html, body {
 .left, .right { flex: 1; display: flex; justify-content: center; align-items: center; }
 .left { padding-left: 85px; padding-bottom: 30px; flex-direction: column; }
 
-/* ===== Right section: Stack image + FLS text vertically ===== */
+/* ===== Right section: Stack image + logo vertically ===== */
 .right {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding-right: 50px;
-  gap: 12px; /* space between screenshot and FLS note */
+  gap: 12px; /* space between screenshot and logo */
 }
 
 /* Logos */
@@ -156,7 +156,7 @@ html, body {
   pointer-events: none;
 }
 
-/* ===== EMIGS caption above App Store badge ===== */
+/* ===== Caption above App Store badges ===== */
 .badge-block {
   display: flex;
   flex-direction: column;
@@ -174,19 +174,17 @@ html, body {
   margin-bottom: var(--space-xs);
 }
 
-/* Slight offset for Google Play badge (second badge) on desktop */
+/* Slight offset for second badge on desktop */
 .badges .badge-block:last-child { margin-top: 8px; }
 
-/* ===== FLS note under hero image ===== */
-.right .fls-note {
-  font-family: var(--font-main);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-base);  /* larger on desktop */
-  color: var(--color-black);
-  text-align: center;
+/* ===== Instagram logo under hero image ===== */
+.instagram-logo {
+  width: 48px;
+  height: auto;
   margin-top: var(--space-xs);
-  opacity: 0.9;
-  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer Navigation */
@@ -262,21 +260,19 @@ html, body {
 
   .static-screenshot { max-height: 100vh; width: 100%; object-fit: contain; }
 
-  .right .fls-note {
-    font-size: var(--font-size-sm);  /* 18px on mobile */
+  .instagram-logo {
+    width: 40px;
     margin-top: var(--space-xs);
-    text-align: center;
-    max-width: 90%;
   }
 
   /* ===== Mobile polish: badges alignment + size ===== */
   .badges {
-    align-items: flex-end;       /* bottom-align blocks so caption doesn't lift Apple */
+    align-items: flex-end;       /* bottom-align blocks */
     gap: var(--space-xs);        /* tighter gap on phones */
     margin-top: var(--space-sm);
   }
 
-  /* Nudge Google Play so it sits level with Apple */
+  /* Nudge second badge so it sits level with first */
   .badges .badge-block:last-child { margin-top: 6px; }
 
   .badge img { height: 48px; }
