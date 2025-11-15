@@ -94,15 +94,6 @@ body {
   align-items: center;
 }
 
-.badge-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 150px;
-}
-
 .left {
   padding-left: 85px;
   padding-bottom: 30px;
@@ -127,17 +118,8 @@ body {
 .badge-logo {
   width: 110px;
   height: auto;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   border-radius: 16px;
-}
-
-/* Small visual correction if logos feel slightly off-center */
-.badge-block:first-child .badge-logo {
-  transform: translateX(1px);   /* tweak until it looks centered */
-}
-
-.badge-block:last-child .badge-logo {
-  transform: translateX(-1px);  /* tweak separately if needed */
 }
 
 /* Screenshot */
@@ -147,14 +129,7 @@ body {
   object-fit: contain;
 }
 
-/* ===== Badges ===== */
-.badges {
-  display: flex;
-  gap: var(--space-sm);
-  align-items: flex-end;
-  justify-content: center;
-}
-
+/* App Store badge */
 .badge img {
   height: 55px;
   display: block;
@@ -175,29 +150,94 @@ body {
   pointer-events: none;
 }
 
-/* ===== Instagram Row ===== */
-.instagram-row {
-  margin-top: 22px;        /* moved downward slightly */
-}
+/* ============================= */
+/*       EXPLORE SECTIONS        */
+/* ============================= */
 
-.instagram-link {
+/* Shared layout for explore cards */
+.explore-row {
   display: flex;
-  align-items: center;     /* centers logo vertically */
   justify-content: center;
-  gap: 8px;                /* spacing between text + icon */
-  text-decoration: none;
+  gap: 50px;           /* spacing between FLS and EMIGS */
+  margin-top: 40px;
 }
 
-.instagram-text {
-  font-size: 16px;
-  font-weight: 600;
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Desktop explore links (no dropdown) */
+.explore-row-desktop {
+  /* visible on desktop by default */
+}
+
+.explore-row-mobile {
+  display: none;       /* hidden by default; shown on mobile */
+}
+
+.explore-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  text-decoration: none;
   color: var(--color-black);
 }
 
-.instagram-logo {
-  width: 26px;             /* slightly larger icon */
-  height: auto;
-  display: block;
+.explore-nav-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.chevron-nav {
+  font-size: 24px;
+}
+
+/* ============================= */
+/*      MOBILE DROPDOWN UI       */
+/* ============================= */
+
+.explore-details {
+  width: 100%;
+}
+
+.explore-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* hide default disclosure triangle */
+.explore-summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Mobile header text size (we override in media query) */
+.explore-title {
+  font-weight: 600;
+}
+
+/* Chevron for mobile dropdown */
+.chevron-mobile::before {
+  content: "▼";
+  font-size: 24px;
+}
+
+/* When dropdown open, flip chevron */
+.explore-details[open] .chevron-mobile::before {
+  content: "▲";
+}
+
+.explore-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Footer */
@@ -220,7 +260,7 @@ body {
 /* ============================= */
 
 @media (max-width: 768px) {
-  /* Stack hero vertically */
+  /* Stack hero vertically; hero image under explore stacks */
   .container {
     flex-direction: column;
     justify-content: flex-start;
@@ -243,7 +283,7 @@ body {
 
   .right {
     padding-right: 0;
-    margin-top: 24px;
+    margin-top: 50px; /* hero nests under explore stacks */
   }
 
   /* Typography adjustments */
@@ -259,25 +299,46 @@ body {
     line-height: 1.1;
   }
 
-  /* Logo + badges sizing */
+  /* Logo sizing */
   .main-logo {
     width: 90px;
     margin-bottom: 14px;
   }
 
   .badge-logo {
-    width: 90px;
-    margin-bottom: 6px;
+    width: 100px;
+    margin-bottom: 20px;
   }
 
-  .badges {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
+  /* Use mobile explore row (with dropdowns) */
+  .explore-row-desktop {
+    display: none;
   }
 
-  .badge-block {
-    width: auto;   /* let blocks shrink to content on mobile */
+  .explore-row-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;          /* spacing between FLS and EMIGS */
+    margin-top: 50px;   /* spacing below hero text */
+  }
+
+  .explore-card {
+    max-width: 45%;
+  }
+
+  /* Mobile header + body sizes per your spec */
+  .explore-title {
+    font-size: 50px;
+  }
+
+  .explore-body {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .explore-details {
+    margin-top: 10px;
   }
 
   .badge img {
@@ -288,19 +349,6 @@ body {
   .static-screenshot {
     width: 100%;
     max-height: none;
-  }
-
-  /* Instagram row tighter on mobile */
-  .instagram-row {
-    margin-top: 18px;
-  }
-
-  .instagram-text {
-    font-size: 14px;
-  }
-
-  .instagram-logo {
-    width: 22px;
   }
 
   /* Footer: allow wrapping & smaller text */
@@ -325,19 +373,19 @@ body {
     font-size: 30px;
   }
 
+  .explore-title {
+    font-size: 40px;
+  }
+
+  .explore-body {
+    font-size: 22px;
+  }
+
   .badge img {
     height: 44px;
   }
 
   .badge-logo {
-    width: 80px;
-  }
-
-  .instagram-text {
-    font-size: 13px;
-  }
-
-  .instagram-logo {
-    width: 20px;
+    width: 90px;
   }
 }
