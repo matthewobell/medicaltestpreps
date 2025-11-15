@@ -287,33 +287,15 @@ body {
     max-height: none;
   }
 
-/* ============================= */
-/*   IMPROVED FOOTER STYLING     */
-/* ============================= */
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+  }
 
-.footer-nav {
-  display: flex;
-  justify-content: center;     /* center horizontally */
-  align-items: center;
-
-  gap: 28px;                   /* even spacing between links */
-  padding: 20px 0 40px;        /* move footer UP by reducing bottom padding */
-
-  position: relative;
-  bottom: 20px;                /* visually lifts the footer upward */
-
-  text-align: center;
-}
-
-.footer-nav a {
-  color: #000;                 /* black text */
-  font-weight: 700;            /* heavy weight */
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.footer-nav a:hover {
-  opacity: 0.75;
+  .footer-nav a {
+    font-size: 13px;
+  }
 }
 
 /* Extra-small phones */
