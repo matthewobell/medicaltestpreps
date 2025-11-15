@@ -220,8 +220,10 @@ body {
 }
 
 /* Mobile header text size (overridden in media query) */
+/* Mobile header text base */
 .explore-title {
-  font-weight: 600;
+font-weight: 600;
+white-space: nowrap;   /* keep “Explore EMIGS” on a single line */
 }
 
 /* Chevron for mobile dropdown */
@@ -318,10 +320,10 @@ body {
 
   .explore-row-mobile {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;   /* EMIGS on left, FLS on right */
     justify-content: center;
-    gap: 15px;          /* spacing between FLS and EMIGS */
-    margin-top: 25px;   /* spacing below hero text */
+    gap: 15px;                     /* spacing between stacks */
+    margin-top: 25px;              /* spacing below hero text */
   }
 
   .explore-card {
@@ -386,6 +388,10 @@ body {
     height: 44px;
   }
 
+  .explore-title {
+  white-space: nowrap;
+  }
+  
   .badge-logo {
     width: 90px;
   }
