@@ -357,47 +357,46 @@ body {
   }
 }
 
-/* =============================== */
-/*   CENTERED FOOTER INFO PAGES   */
-/* =============================== */
+/* ========================================= */
+/*  CENTERED, PADDED FOOTER INFORMATION PAGES */
+/* ========================================= */
 
-/* Match your HTML: <div class="page-content"> */
 .page-content {
   min-height: 100vh;
-  min-height: 100svh;         /* better on mobile Safari */
+  min-height: 100svh;
 
   display: flex;
-  flex-direction: column;     /* stack content vertically */
-  justify-content: center;    /* center vertically */
-  align-items: center;        /* center horizontally */
+  justify-content: center;     /* center vertically */
+  align-items: center;         /* center horizontally */
 
-  padding: 0 24px;            /* left/right padding like the mockup */
+  /* padding on all four sides */
+  padding: 40px 32px;
+
   background-color: var(--color-yellow);
 }
 
-/* Inner column that holds the text */
 .about-content {
-  max-width: 700px;           /* readable column width */
+  max-width: 700px;            /* readable width */
   width: 100%;
-  text-align: left;           /* keep text left-aligned */
-  margin: 0 auto;
+  text-align: left;
+
+  /* additional interior padding so text never touches edges */
+  padding: 24px;
 }
 
-/* Headings on footer pages */
+/* Typography */
 .page-heading {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 24px;
 }
 
-/* Paragraph text on footer pages */
 .page-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
 }
 
-/* Lists inside footer pages (privacy policy, etc.) */
 .page-text li {
   margin-bottom: 8px;
 }
@@ -408,7 +407,11 @@ body {
 
 @media (max-width: 480px) {
   .page-content {
-    padding: 0 20px;          /* slightly tighter padding on small screens */
+    padding: 32px 20px;       /* tighter padding on small screens */
+  }
+
+  .about-content {
+    padding: 20px;            /* still has internal spacing */
   }
 
   .page-heading {
