@@ -161,11 +161,13 @@ body {
 
 .explore-card {
   display: flex;
-  flex-direction: row;      /* horizontal layout */
-  align-items: center;      /* center vertically */
-  justify-content: space-between;
-  gap: 16px;                /* spacing between items */
-  width: 100%;              /* full width row */
+  flex-direction: column;   /* stacked vertically on desktop */
+  align-items: center;
+  text-align: center;
+
+  /* Align EMIGS & FLS stacks */
+  min-height: 280px;
+  justify-content: flex-start;
 }
 
   /* Align EMIGS & FLS stacks */
@@ -271,12 +273,29 @@ body {
   }
 
   .explore-card {
-    max-width: 100%;
+    display: flex;
+    flex-direction: row;       /* horizontal on mobile */
+    align-items: center;       /* vertically centered */
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
     min-height: auto;
+    max-width: 100%;
+  }
+
+  .explore-card img.badge-logo {
+    flex-shrink: 0;            /* keep logo from shrinking too small */
   }
 
   .explore-body {
+    flex: 1;                   /* let text take the middle space */
+    margin: 0;
+    text-align: left;
     font-size: 15px;
+  }
+
+  .explore-card .badge {
+    flex-shrink: 0;            /* keep App Store badge a stable size */
   }
 
   .badge img {
