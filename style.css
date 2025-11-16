@@ -361,25 +361,26 @@ body {
 /*   CENTERED FOOTER INFO PAGES   */
 /* =============================== */
 
-/* This matches your About / Mission / Contact / Privacy HTML:
-   <div class="page-content"><div class="about-content">...</div></div>
-*/
+/* Match your HTML: <div class="page-content"> */
 .page-content {
-  height: 100vh;
-  height: 100svh;              /* better on mobile Safari */
+  min-height: 100vh;
+  min-height: 100svh;         /* better on mobile Safari */
 
   display: flex;
-  justify-content: center;     /* vertical centering */
-  align-items: center;         /* horizontal centering */
+  flex-direction: column;     /* stack content vertically */
+  justify-content: center;    /* center vertically */
+  align-items: center;        /* center horizontally */
 
-  padding-inline: 24px;        /* side padding */
+  padding: 0 24px;            /* left/right padding like the mockup */
   background-color: var(--color-yellow);
 }
 
+/* Inner column that holds the text */
 .about-content {
-  max-width: 700px;            /* column width like your mockup */
+  max-width: 700px;           /* readable column width */
   width: 100%;
-  text-align: left;            /* keep text left-aligned */
+  text-align: left;           /* keep text left-aligned */
+  margin: 0 auto;
 }
 
 /* Headings on footer pages */
@@ -407,7 +408,7 @@ body {
 
 @media (max-width: 480px) {
   .page-content {
-    padding-inline: 20px;      /* a bit tighter on small screens */
+    padding: 0 20px;          /* slightly tighter padding on small screens */
   }
 
   .page-heading {
