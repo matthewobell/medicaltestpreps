@@ -161,9 +161,12 @@ body {
 
 .explore-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-direction: row;      /* horizontal layout */
+  align-items: center;      /* center vertically */
+  justify-content: space-between;
+  gap: 16px;                /* spacing between items */
+  width: 100%;              /* full width row */
+}
 
   /* Align EMIGS & FLS stacks */
   min-height: 280px;
