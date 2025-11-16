@@ -170,11 +170,6 @@ body {
   justify-content: flex-start;
 }
 
-  /* Align EMIGS & FLS stacks */
-  min-height: 280px;
-  justify-content: flex-start;
-}
-
 .explore-body {
   margin-bottom: 20px;
   font-size: 15px;
