@@ -251,7 +251,7 @@ body {
   }
 
   .badge-logo {
-    width: clamp(70px, 25vw, 110px);
+    width: clamp(55px, 20vw, 85px); /* mobile logo dimenions */
   }
 
   /* Switch to mobile explore layout */
