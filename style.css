@@ -164,9 +164,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
-  /* Align EMIGS & FLS stacks */
-  min-height: 280px;
+  min-height: 280px;     /* aligns EMIGS & FLS stacks */
   justify-content: flex-start;
 }
 
@@ -176,7 +174,7 @@ body {
   line-height: 1.4;
 }
 
-/* Hide mobile row on desktop by default */
+/* Hide mobile row on desktop */
 .explore-row-mobile {
   display: none;
 }
@@ -189,26 +187,49 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* vertical alignment */
+  justify-content: center;
+  align-items: center;
 
-  white-space: nowrap;       /* keep links on one line */
-  gap: 14px;                 /* spacing between links */
-  padding: 20px 0 25px;      /* spacing above/below */
+  white-space: nowrap;
+  gap: 14px;
+  padding: 20px 0 25px;
 
   position: relative;
-  bottom: 5px;               /* lift slightly up */
+  bottom: 5px;
 }
 
 .footer-nav a {
   color: var(--color-black);
-  font-weight: 700;          /* bold text */
+  font-weight: 700;
   text-decoration: none;
   font-size: 15px;
 }
 
 .footer-nav a:hover {
   opacity: 0.7;
+}
+
+/* ================================================= */
+/*  DESKTOP-ONLY: ALIGN APP STORE BUTTONS LEVEL      */
+/* ================================================= */
+
+@media (min-width: 769px) {
+  .explore-row-desktop {
+    align-items: flex-start;
+  }
+
+  .explore-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* This forces the App Store button to align across both cards */
+  .explore-card .badge {
+    margin-top: auto;         /* pushes it to the bottom of each card */
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ============================= */
@@ -285,12 +306,12 @@ body {
     max-height: none;
   }
 
-  /* Mobile footer: allow wrapping & smaller text */
+  /* Mobile footer */
   .footer-nav {
     flex-wrap: wrap;
     gap: 16px;
     padding: 16px 0;
-    bottom: 0;                 /* don’t offset on very small screens */
+    bottom: 0;
   }
 
   .footer-nav a {
@@ -322,9 +343,8 @@ body {
 }
 
 /* ========================================= */
-/*  CENTERED, PADDED FOOTER INFORMATION PAGES */
+/*  FOOTER INFORMATION PAGES (CENTERED)      */
 /* ========================================= */
-/* Supports both .page-content and .about-container so either HTML works */
 
 .page-content,
 .about-container {
@@ -332,25 +352,20 @@ body {
   min-height: 100svh;
 
   display: flex;
-  justify-content: center;     /* center vertically */
-  align-items: center;         /* center horizontally */
+  justify-content: center;
+  align-items: center;
 
-  /* padding on all four sides */
   padding: 40px 32px;
-
   background-color: var(--color-yellow);
 }
 
 .about-content {
-  max-width: 700px;            /* readable width */
+  max-width: 700px;
   width: 100%;
   text-align: left;
-
-  /* additional interior padding so text never touches edges */
   padding: 24px;
 }
 
-/* Typography for footer pages */
 .page-heading {
   font-size: 36px;
   font-weight: 700;
@@ -367,18 +382,15 @@ body {
   margin-bottom: 8px;
 }
 
-/* =============================== */
-/*      MOBILE FOOTER PAGES        */
-/* =============================== */
-
+/* Mobile footer pages */
 @media (max-width: 480px) {
   .page-content,
   .about-container {
-    padding: 32px 20px;       /* tighter padding on small screens */
+    padding: 32px 20px;
   }
 
   .about-content {
-    padding: 20px;            /* still has internal spacing */
+    padding: 20px;
   }
 
   .page-heading {
