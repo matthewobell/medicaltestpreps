@@ -251,36 +251,36 @@ body {
   }
 
   .badge-logo {
-    width: clamp(55px, 20vw, 85px); /* mobile logo dimenions */
+    width: clamp(55px, 20vw, 85px); /* mobile logo dimensions */
   }
 
-    /* Switch to mobile explore layout */
+  /* 🔧 MOBILE: EMIGS & FLS CARDS SIDE BY SIDE, SAME HEIGHT */
   .explore-row-desktop {
     display: none;
   }
 
   .explore-row-mobile {
-  display: flex;
-  flex-direction: row;        /* EMIGS and FLS cards next to each other */
-  justify-content: center;
-  align-items: stretch;       /* 🔧 make both cards equal height */
-  gap: 16px;
-  margin-top: 25px;
-}
+    display: flex;
+    flex-direction: row;        /* EMIGS and FLS cards next to each other */
+    justify-content: center;
+    align-items: stretch;       /* make both cards equal height */
+    gap: 16px;
+    margin-top: 25px;
+  }
 
   .explore-card {
-  display: flex;
-  flex-direction: column;     /* logo, text, App Store button stacked */
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  gap: 12px;
+    display: flex;
+    flex-direction: column;     /* logo, text, App Store button stacked */
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 12px;
 
-  width: 100%;
-  max-width: 48%;             /* roughly two cards per row */
-  min-height: auto;
-  height: 100%;               /* 🔧 fill the available column height */
-}
+    width: 100%;
+    max-width: 48%;             /* roughly two cards per row */
+    min-height: auto;
+    height: 100%;               /* fill the available column height */
+  }
 
   .explore-card img.badge-logo {
     flex-shrink: 0;             /* keep logo from shrinking too much */
@@ -294,9 +294,9 @@ body {
   }
 
   .explore-card .badge {
-  flex-shrink: 0;             /* keep App Store badge a stable size */
-  margin-top: auto;           /* 🔧 push App Store button to bottom of card */
-}
+    flex-shrink: 0;             /* keep App Store badge a stable size */
+    margin-top: auto;           /* 🔧 push App Store button to bottom of card */
+  }
 
   .badge img {
     height: 48px;
