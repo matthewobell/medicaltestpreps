@@ -263,7 +263,7 @@ body {
     display: flex;
     flex-direction: row;        /* EMIGS and FLS cards next to each other */
     justify-content: center;
-    align-items: stretch;       /* make both cards equal height */
+    align-items: stretch;       /* make both cards the same height */
     gap: 16px;
     margin-top: 25px;
   }
@@ -272,14 +272,12 @@ body {
     display: flex;
     flex-direction: column;     /* logo, text, App Store button stacked */
     align-items: center;
-    justify-content: flex-start;
     text-align: center;
     gap: 12px;
 
-    width: 100%;
+    flex: 1 1 0;                /* each card takes equal width & stretches */
     max-width: 48%;             /* roughly two cards per row */
-    min-height: auto;
-    height: 100%;               /* fill the available column height */
+    min-height: 0;              /* allow flexbox to control height */
   }
 
   .explore-card img.badge-logo {
@@ -287,15 +285,14 @@ body {
   }
 
   .explore-body {
-    flex: 0 0 auto;             /* let text size itself */
+    flex: 1 1 auto;             /* text can grow and fill middle space */
     margin: 0 0 8px;            /* space above App Store button */
-    text-align: center;
     font-size: 15px;
   }
 
   .explore-card .badge {
-    flex-shrink: 0;             /* keep App Store badge a stable size */
-    margin-top: auto;           /* 🔧 push App Store button to bottom of card */
+    margin-top: auto;           /* push App Store button to the bottom */
+    flex-shrink: 0;
   }
 
   .badge img {
