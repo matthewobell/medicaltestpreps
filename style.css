@@ -75,41 +75,34 @@ body {
   text-align: center;
 }
 
-/* ============================= */
-/*         MAIN CONTAINER        */
-/* ============================= */
-
-/* Use the mobile-style stacked layout as default for ALL screens */
+/* Main Container */
 .container {
   display: flex;
-  flex-direction: column;          /* stack left + right vertically */
-  justify-content: flex-start;
-  align-items: center;
+  flex: 1;
   width: 100vw;
   min-height: 100vh;
-  padding: 24px 16px 40px;         /* same padding as mobile */
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Left / Right Sections */
 .left,
 .right {
-  width: 100%;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .left {
-  padding-left: 0;
-  padding-bottom: 20px;
+  padding-left: 85px;
+  padding-bottom: 30px;
   flex-direction: column;
-  text-align: center;
 }
 
 .right {
   flex-direction: column;
-  padding-right: 0;
-  margin-top: 50px;                /* hero image sits under stacks */
+  padding-right: 50px;
 }
 
 /* Logos */
@@ -130,7 +123,7 @@ body {
 /* Screenshot */
 .static-screenshot {
   max-height: 75vh;
-  width: 100%;
+  width: 110%;
   object-fit: contain;
 }
 
@@ -159,25 +152,11 @@ body {
 /*       EXPLORE SECTIONS        */
 /* ============================= */
 
-/* Shared layout for explore stacks — now used on DESKTOP + MOBILE */
 .explore-row {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 25px;
-}
-
-/* Never show the old desktop variant */
-.explore-row-desktop {
-  display: none;
-}
-
-/* Always show the mobile variant on all screens */
-.explore-row-mobile {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 15px;
+  gap: 50px;
+  margin-top: 40px;
 }
 
 .explore-card {
@@ -185,17 +164,10 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 45%;
-  min-height: 260px;
-}
 
-.explore-mobile-header {
-  margin-bottom: 10px;
-}
-
-.explore-title {
-  font-weight: 600;
-  white-space: nowrap;
+  /* Align EMIGS & FLS stacks */
+  min-height: 280px;
+  justify-content: flex-start;
 }
 
 .explore-body {
@@ -204,23 +176,9 @@ body {
   line-height: 1.4;
 }
 
-/* (Keep these in case you ever bring back link-style nav) */
-.explore-nav {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 20px;
-  text-decoration: none;
-  color: var(--color-black);
-}
-
-.explore-nav-text {
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.chevron-nav {
-  font-size: 24px;
+/* Hide mobile row on desktop by default */
+.explore-row-mobile {
+  display: none;
 }
 
 /* ============================= */
@@ -254,25 +212,89 @@ body {
 }
 
 /* ============================= */
-/*      RESPONSIVE TWEAKS        */
+/*      MOBILE ADJUSTMENTS       */
 /* ============================= */
 
-@media (min-width: 1024px) {
-  /* On larger desktops you can bump typography slightly if you want */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 16px 40px;
+  }
+
+  .left {
+    padding-left: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .right {
+    padding-right: 0;
+    margin-top: 50px;
+  }
+
   .heading-primary {
-    font-size: 42px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .heading-hero {
-    font-size: 60px;
+    font-size: 34px;
+    line-height: 1.1;
   }
 
-  .badge img {
-    height: 55px;
+  .main-logo {
+    width: 90px;
+    margin-bottom: 14px;
+  }
+
+  .badge-logo {
+    width: clamp(70px, 25vw, 110px);
+  }
+
+  /* Switch to mobile explore layout */
+  .explore-row-desktop {
+    display: none;
+  }
+
+  .explore-row-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 25px;
   }
 
   .explore-card {
-    max-width: 400px;        /* give a bit more width on big screens */
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  .explore-body {
+    font-size: 15px;
+  }
+
+  .badge img {
+    height: 48px;
+  }
+
+  .static-screenshot {
+    width: 100%;
+    max-height: none;
+  }
+
+  /* Mobile footer: allow wrapping & smaller text */
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+    bottom: 0;                 /* don’t offset on very small screens */
+  }
+
+  .footer-nav a {
+    font-size: 13px;
   }
 }
 
@@ -284,10 +306,6 @@ body {
 
   .heading-hero {
     font-size: 30px;
-  }
-
-  .explore-title {
-    font-size: 14px;
   }
 
   .explore-body {
@@ -306,8 +324,10 @@ body {
 /* ========================================= */
 /*  CENTERED, PADDED FOOTER INFORMATION PAGES */
 /* ========================================= */
+/* Supports both .page-content and .about-container so either HTML works */
 
-.page-content {
+.page-content,
+.about-container {
   min-height: 100vh;
   min-height: 100svh;
 
@@ -348,11 +368,12 @@ body {
 }
 
 /* =============================== */
-/*  MOBILE TWEAKS FOR FOOTER PAGES */
+/*      MOBILE FOOTER PAGES        */
 /* =============================== */
 
 @media (max-width: 480px) {
-  .page-content {
+  .page-content,
+  .about-container {
     padding: 32px 20px;       /* tighter padding on small screens */
   }
 
