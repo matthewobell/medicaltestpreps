@@ -259,43 +259,46 @@ body {
     width: clamp(55px, 20vw, 85px); /* mobile logo dimenions */
   }
 
-  /* Switch to mobile explore layout */
+    /* Switch to mobile explore layout */
   .explore-row-desktop {
     display: none;
   }
 
   .explore-row-mobile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;        /* EMIGS and FLS cards next to each other */
     justify-content: center;
-    gap: 24px;
+    align-items: flex-start;
+    gap: 16px;
     margin-top: 25px;
   }
 
   .explore-card {
     display: flex;
-    flex-direction: row;       /* horizontal on mobile */
-    align-items: center;       /* vertically centered */
-    justify-content: space-between;
-    gap: 16px;
+    flex-direction: column;     /* logo, text, App Store button stacked */
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 12px;
+
     width: 100%;
+    max-width: 48%;             /* roughly two cards per row */
     min-height: auto;
-    max-width: 100%;
   }
 
   .explore-card img.badge-logo {
-    flex-shrink: 0;            /* keep logo from shrinking too small */
+    flex-shrink: 0;             /* keep logo from shrinking too much */
   }
 
   .explore-body {
-    flex: 1;                   /* let text take the middle space */
-    margin: 0;
-    text-align: left;
+    flex: 0 0 auto;             /* let text size itself */
+    margin: 0 0 8px;            /* space above App Store button */
+    text-align: center;
     font-size: 15px;
   }
 
   .explore-card .badge {
-    flex-shrink: 0;            /* keep App Store badge a stable size */
+    flex-shrink: 0;             /* keep App Store badge a stable size */
   }
 
   .badge img {
@@ -312,7 +315,7 @@ body {
     flex-wrap: wrap;
     gap: 16px;
     padding: 16px 0;
-    bottom: 0;                 /* don’t offset on very small screens */
+    bottom: 0;                  /* don’t offset on very small screens */
   }
 
   .footer-nav a {
