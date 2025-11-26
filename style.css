@@ -1,23 +1,18 @@
 :root {
-  /* Fonts */
   --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
-  /* Font Sizes */
   --font-size-xs: 15px;
   --font-size-sm: 18px;
   --font-size-base: 20px;
   --font-size-lg: 40px;
   --font-size-xl: 60px;
 
-  /* Letter Spacing */
   --letter-spacing-tight: -0.5px;
 
-  /* Font Weights */
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 
-  /* Colors */
   --color-black: #000;
   --color-dark: #333;
   --color-gray: #666;
@@ -27,12 +22,10 @@
   --color-highlight: #ffb614;
   --color-pulse: #ffc035;
 
-  /* Line Heights */
   --line-tight: 1.1;
   --line-normal: 1.4;
   --line-relaxed: 1.6;
 
-  /* Spacing */
   --space-xs: 10px;
   --space-sm: 15px;
   --space-md: 20px;
@@ -40,7 +33,6 @@
   --space-xl: 40px;
 }
 
-/* Reset & Base */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -56,12 +48,10 @@ body {
   letter-spacing: var(--letter-spacing-tight);
 }
 
-/* Typography */
 .heading-primary,
 .heading-hero {
   font-weight: var(--font-weight-bold);
   color: var(--color-black);
-  letter-spacing: var(--letter-spacing-tight);
   margin-bottom: var(--space-md);
   text-align: left;
 }
@@ -75,7 +65,6 @@ body {
   text-align: center;
 }
 
-/* Main Container */
 .container {
   display: flex;
   flex: 1;
@@ -85,7 +74,6 @@ body {
   align-items: center;
 }
 
-/* Left / Right Sections */
 .left,
 .right {
   flex: 1;
@@ -105,7 +93,6 @@ body {
   padding-right: 50px;
 }
 
-/* Logos */
 .main-logo {
   width: clamp(80px, 12vw, 140px);
   height: auto;
@@ -120,14 +107,12 @@ body {
   border-radius: 16px;
 }
 
-/* Screenshot */
 .static-screenshot {
   max-height: 75vh;
   width: 110%;
   object-fit: contain;
 }
 
-/* App Store badge */
 .badge img {
   height: 55px;
   display: block;
@@ -148,10 +133,6 @@ body {
   pointer-events: none;
 }
 
-/* ============================= */
-/*       EXPLORE SECTIONS        */
-/* ============================= */
-
 .explore-row {
   display: flex;
   justify-content: center;
@@ -167,10 +148,9 @@ body {
 
   min-height: 280px;
   justify-content: flex-start;
-  flex: 1 1 0;          /* both cards stretch to equal height */
+  flex: 1 1 0;
 }
 
-/* Desktop: align App Store button to bottom */
 .explore-card .badge {
   margin-top: auto;
 }
@@ -181,33 +161,28 @@ body {
   line-height: 1.4;
 }
 
-/* Hide mobile row on desktop by default */
 .explore-row-mobile {
   display: none;
 }
-
-/* ============================= */
-/*        FOOTER NAV LINKS       */
-/* ============================= */
 
 .footer-nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* vertical alignment */
+  justify-content: center;
+  align-items: center;
 
-  white-space: nowrap;       /* keep links on one line */
-  gap: 14px;                 /* spacing between links */
-  padding: 20px 0 25px;      /* spacing above/below */
+  white-space: nowrap;
+  gap: 14px;
+  padding: 20px 0 25px;
 
   position: relative;
-  bottom: 5px;               /* lift slightly up */
+  bottom: 5px;
 }
 
 .footer-nav a {
   color: var(--color-black);
-  font-weight: 700;          /* bold text */
+  font-weight: 700;
   text-decoration: none;
   font-size: 15px;
 }
@@ -215,10 +190,6 @@ body {
 .footer-nav a:hover {
   opacity: 0.7;
 }
-
-/* ============================= */
-/*      MOBILE ADJUSTMENTS       */
-/* ============================= */
 
 @media (max-width: 768px) {
   .container {
@@ -256,48 +227,36 @@ body {
   }
 
   .badge-logo {
-    width: clamp(55px, 20vw, 85px); /* mobile logo dimensions */
+    width: clamp(55px, 20vw, 85px);
   }
 
-  /* 🔧 MOBILE: EMIGS & FLS CARDS SIDE BY SIDE, SAME HEIGHT */
   .explore-row-desktop {
     display: none;
   }
 
   .explore-row-mobile {
     display: flex;
-    flex-direction: row;        /* EMIGS and FLS cards next to each other */
+    flex-direction: row;
     justify-content: center;
-    align-items: stretch;       /* make both cards the same height */
+    align-items: stretch;
     gap: 16px;
     margin-top: 25px;
   }
 
   .explore-card {
     display: flex;
-    flex-direction: column;     /* logo, text, App Store button stacked */
+    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 12px;
 
-    flex: 1 1 0;                /* each card takes equal width & stretches */
-    max-width: 48%;             /* roughly two cards per row */
-    min-height: 0;              /* allow flexbox to control height */
-  }
-
-  .explore-card img.badge-logo {
-    flex-shrink: 0;             /* keep logo from shrinking too much */
+    flex: 1 1 0;
+    max-width: 48%;
   }
 
   .explore-body {
-    flex: 1 1 auto;             /* text can grow and fill middle space */
-    margin: 0 0 8px;            /* space above App Store button */
+    margin-bottom: 8px;
     font-size: 15px;
-  }
-
-  .explore-card .badge {
-    margin-top: auto;           /* push App Store button to the bottom */
-    flex-shrink: 0;
   }
 
   .badge img {
@@ -309,12 +268,11 @@ body {
     max-height: none;
   }
 
-  /* Mobile footer: allow wrapping & smaller text */
   .footer-nav {
     flex-wrap: wrap;
     gap: 16px;
     padding: 16px 0;
-    bottom: 0;                  /* don’t offset on very small screens */
+    bottom: 0;
   }
 
   .footer-nav a {
@@ -322,7 +280,6 @@ body {
   }
 }
 
-/* Extra-small phones */
 @media (max-width: 360px) {
   .heading-primary {
     font-size: 24px;
@@ -345,10 +302,9 @@ body {
   }
 }
 
-/* ========================================= */
-/*  CENTERED, PADDED FOOTER INFORMATION PAGES */
-/* ========================================= */
-/* Supports both .page-content and .about-container so either HTML works */
+/* =============================== */
+/* CENTERED INFORMATION PAGES */
+/* =============================== */
 
 .page-content,
 .about-container {
@@ -356,25 +312,21 @@ body {
   min-height: 100svh;
 
   display: flex;
-  justify-content: center;     /* center vertically */
-  align-items: center;         /* center horizontally */
+  justify-content: center;
+  align-items: center;
 
-  /* padding on all four sides */
   padding: 40px 32px;
 
   background-color: var(--color-yellow);
 }
 
 .about-content {
-  max-width: 700px;            /* readable width */
+  max-width: 700px;
   width: 100%;
   text-align: left;
-
-  /* additional interior padding so text never touches edges */
   padding: 24px;
 }
 
-/* Typography for footer pages */
 .page-heading {
   font-size: 36px;
   font-weight: 700;
@@ -391,18 +343,14 @@ body {
   margin-bottom: 8px;
 }
 
-/* =============================== */
-/*      MOBILE FOOTER PAGES        */
-/* =============================== */
-
 @media (max-width: 480px) {
   .page-content,
   .about-container {
-    padding: 32px 20px;       /* tighter padding on small screens */
+    padding: 32px 20px;
   }
 
   .about-content {
-    padding: 20px;            /* still has internal spacing */
+    padding: 20px;
   }
 
   .page-heading {
@@ -414,4 +362,39 @@ body {
     font-size: 16px;
     margin-bottom: 14px;
   }
+}
+
+/* ============================= */
+/* ⭐ INSTAGRAM FOLLOW BLOCK ⭐ */
+/* ============================= */
+
+.instagram-follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  margin-top: 25px;
+
+  position: relative;
+  top: -10px;
+}
+
+.instagram-icon {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.instagram-follow span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.instagram-follow:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+  transition: 0.2s ease;
 }
