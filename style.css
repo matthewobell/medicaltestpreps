@@ -427,7 +427,7 @@ body {
 
 @media (min-width: 769px) {
   .layout-scale {
-    transform: scale(0.50);
+    transform: scale(0.75);
     transform-origin: top left;
   }
 
