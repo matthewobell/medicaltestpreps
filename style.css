@@ -148,9 +148,9 @@ body {
   pointer-events: none;
 }
 
-/* ------------------------------ */
-/* Explore Cards                  */
-/* ------------------------------ */
+/* ============================= */
+/*       EXPLORE SECTIONS        */
+/* ============================= */
 
 .explore-row {
   display: flex;
@@ -170,6 +170,7 @@ body {
   flex: 1 1 0;
 }
 
+/* Desktop: align App Store button to bottom */
 .explore-card .badge {
   margin-top: auto;
 }
@@ -180,13 +181,14 @@ body {
   line-height: 1.4;
 }
 
+/* Hide mobile row on desktop by default */
 .explore-row-mobile {
   display: none;
 }
 
-/* ------------------------------ */
-/* Footer Nav                     */
-/* ------------------------------ */
+/* ============================= */
+/*        FOOTER NAV LINKS       */
+/* ============================= */
 
 .footer-nav {
   width: 100%;
@@ -214,9 +216,9 @@ body {
   opacity: 0.7;
 }
 
-/* ------------------------------ */
-/* Mobile Adjustments             */
-/* ------------------------------ */
+/* ============================= */
+/*      MOBILE ADJUSTMENTS       */
+/* ============================= */
 
 @media (max-width: 768px) {
   .container {
@@ -257,6 +259,7 @@ body {
     width: clamp(55px, 20vw, 85px);
   }
 
+  /* 🔧 MOBILE */
   .explore-row-desktop {
     display: none;
   }
@@ -324,9 +327,9 @@ body {
   }
 }
 
-/* ------------------------------ */
-/* Centered Footer Pages          */
-/* ------------------------------ */
+/* ========================================= */
+/*  CENTERED FOOTER PAGES */
+/* ========================================= */
 
 .page-content,
 .about-container {
@@ -386,9 +389,9 @@ body {
   }
 }
 
-/* ------------------------------ */
-/* Instagram Follow Block         */
-/* ------------------------------ */
+/* ============================= */
+/*   ⭐ INSTAGRAM FOLLOW BLOCK ⭐   */
+/* ============================= */
 
 .instagram-follow {
   display: flex;
@@ -403,6 +406,7 @@ body {
   top: -10px;
 }
 
+/* 🔥 Updated size: ~25% of EMIGS logo */
 .instagram-icon {
   width: clamp(22px, 4vw, 34px);
   height: auto;
@@ -419,19 +423,4 @@ body {
   opacity: 0.85;
   transform: translateY(-2px);
   transition: 0.2s ease;
-}
-
-/* ========================================= */
-/*   DESKTOP SCALE-DOWN (reduce non-text)    */
-/* ========================================= */
-
-@media (min-width: 769px) {
-  .layout-scale {
-    transform: scale(0.75);
-    transform-origin: top left;
-  }
-
-  .layout-scale * {
-    font-size: inherit;
-  }
 }
