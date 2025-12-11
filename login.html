@@ -1,105 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>EMIGS Prep – Sign in</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>Open in Medical Test Prep</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Optional: reuse your main site CSS if you want it to look consistent -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Page-specific styles for the magic-link screen -->
+  <style>
+    :root {
+      --bg-color: #f4e4c3;
+      --button-color: #f5d489;
+      --button-text: #000000;
+      --text-color: #000000;
+    }
 
-    <!--
-      This meta tag is for future use when the app is in the App Store.
-      For now, it's harmless. Later you’ll replace YOUR_APP_STORE_ID with
-      the real numeric ID.
-    -->
-    <meta name="apple-itunes-app" content="app-id=YOUR_APP_STORE_ID">
+    * {
+      box-sizing: border-box;
+    }
 
-    <style>
-        /* Simple inline styles so the page looks okay even without style.css */
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-            background-color: #F6EDD7;
-            color: #222;
-            margin: 0;
-            padding: 0;
-        }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        system-ui, -webkit-system-font, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
 
-        .container {
-            max-width: 480px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            text-align: center;
-        }
+    .page-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
 
-        h1 {
-            font-size: 28px;
-            margin-bottom: 16px;
-        }
+    .card {
+      width: 100%;
+      max-width: 480px;
+      text-align: center;
+    }
 
-        p {
-            font-size: 16px;
-            line-height: 1.4;
-            margin-bottom: 24px;
-        }
+    h1 {
+      margin: 0 0 16px;
+      font-size: 32px;
+      line-height: 1.2;
+      font-weight: 800;
+    }
 
-        .button {
-            display: inline-block;
-            padding: 14px 24px;
-            border-radius: 999px;
-            background-color: #F4C869;
-            color: #000;
-            font-weight: 600;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-        }
+    .subtitle {
+      font-size: 17px;
+      line-height: 1.4;
+      margin-bottom: 40px;
+    }
 
-        .small {
-            font-size: 13px;
-            color: #555;
-            margin-top: 16px;
-        }
-    </style>
+    .primary-button {
+      display: inline-block;
+      padding: 18px 32px;
+      border-radius: 999px;
+      border: none;
+      background-color: var(--button-color);
+      color: var(--button-text);
+      font-size: 18px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.12s ease-out, box-shadow 0.12s ease-out;
+    }
+
+    .primary-button:active {
+      transform: translateY(1px) scale(0.98);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Optional tiny debug link, hidden visually but still there if needed */
+    .debug-link {
+      margin-top: 16px;
+      font-size: 11px;
+      color: #555;
+      word-break: break-all;
+      display: none; /* set to "block" if you ever want to see it */
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-    <h1>Open EMIGS Prep</h1>
-    <p>
-        We’re opening your EMIGS Prep app to finish signing you in.
+  <div class="page-wrapper">
+    <div class="card">
+      <h1>Open in<br />Medical Test Prep</h1>
+      <p class="subtitle">
+        We’re opening your Medical Test Prep app to finish signing you in.
         If nothing happens, tap the button below.
-    </p>
+      </p>
 
-    <!-- This button’s link will be filled in by the script below -->
-    <a id="openInApp" class="button" href="#">
-        Open in EMIGS Prep
-    </a>
+      <button id="open-app-button" class="primary-button">
+        Open in Medical Test Prep
+      </button>
 
-    <p class="small" id="debugInfo"></p>
-</div>
+      <a id="debug-link" href="#" class="debug-link"></a>
+    </div>
+  </div>
 
-<script>
+  <script>
     (function () {
-        // Take the query string from /login?mode=…&oobCode=…&apiKey=…
-        var query = window.location.search || "";
+      // Take everything after the "?" in the current URL
+      var queryString = window.location.search || "";
 
-        // This is the custom deep link that your app will eventually handle.
-        // You’ll also need to define the "emigsprep" URL scheme in Xcode.
-        var deepLink = "emigsprep://magic" + query;
+      // Build the deep link that your app understands.
+      // Example: emigsprep://magic?mode=signIn&oobCode=...&apiKey=...
+      var deepLink = "emigsprep://magic" + queryString;
 
-        // Set the button href so the user can tap manually
-        var btn = document.getElementById("openInApp");
-        btn.setAttribute("href", deepLink);
+      // Hook up the button to open the deep link
+      var button = document.getElementById("open-app-button");
+      button.addEventListener("click", function () {
+        window.location.href = deepLink;
+      });
 
-        // Optional: show the deep link for debugging
-        var debug = document.getElementById("debugInfo");
-        debug.textContent = "Deep link: " + deepLink;
-
-        // Try to auto-redirect after a short delay
-        setTimeout(function () {
-            window.location.href = deepLink;
-        }, 800);
+      // Optional: tiny hidden debug link if you ever need it
+      var debug = document.getElementById("debug-link");
+      debug.href = deepLink;
+      debug.textContent = "Deep link: " + deepLink;
     })();
-</script>
+  </script>
 </body>
 </html>
