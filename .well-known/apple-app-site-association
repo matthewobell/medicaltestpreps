@@ -3,8 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appID": "G0KAJ3288Y.com.medicaltestprep.emigsprep",
+        "appID": "GOKAJ3288Y.com.medicaltestprep.emigsprep",
         "paths": [
+          "/__/auth/*",
           "/login",
           "/login/*",
           "/magic",
