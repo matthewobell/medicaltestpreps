@@ -101,22 +101,27 @@
     </div>
   </div>
 
-  <script>
+    <script>
     (function () {
-      // Take everything after the "?" in the current URL
+      // Everything after the "?" in the current URL (mode, oobCode, apiKey, etc.)
       var queryString = window.location.search || "";
 
-      // Build the deep link that your app understands.
-      // Example: emigsprep://magic?mode=signIn&oobCode=...&apiKey=...
+      // Deep link your iOS app understands, e.g.:
+      // emigsprep://magic?mode=signIn&oobCode=...&apiKey=...
       var deepLink = "emigsprep://magic" + queryString;
 
-      // Hook up the button to open the deep link
+      // 1️⃣ Try to open the app automatically shortly after page load
+      setTimeout(function () {
+        window.location.href = deepLink;
+      }, 700); // small delay gives the page time to render first
+
+      // 2️⃣ Still wire up the button as a manual fallback
       var button = document.getElementById("open-app-button");
       button.addEventListener("click", function () {
         window.location.href = deepLink;
       });
 
-      // Optional: tiny hidden debug link if you ever need it
+      // Optional tiny debug link (kept hidden in CSS)
       var debug = document.getElementById("debug-link");
       debug.href = deepLink;
       debug.textContent = "Deep link: " + deepLink;
