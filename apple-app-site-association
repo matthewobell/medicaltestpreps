@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "QKAJ3I28BY.com.medicaltestprep.emigsprep",
+        "paths": [
+          "/login",
+          "/login/*",
+          "/magic",
+          "/magic/*"
+        ]
+      }
+    ]
+  }
+}
