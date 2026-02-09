@@ -43,7 +43,7 @@ html,
 body {
   min-height: 100vh;
   font-family: var(--font-main);
-  background-color: var(--color-white); /* UPDATED */
+  background-color: var(--color-yellow); /* UPDATED */
   overflow-x: hidden;
   letter-spacing: var(--letter-spacing-tight);
 }
