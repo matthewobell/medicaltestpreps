@@ -4,33 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
-  <!-- TOP NAV (same links as footer, left-aligned) -->
-  <nav class="footer-nav top-nav">
-    <a href="about.html">About Us</a>
-    <a href="ourmission.html">Our Mission</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacypolicy.html">Privacy Policy</a>
-    <a href="termsofuse.html">Terms of Use</a>
-    <a href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">Instagram</a>
-  </nav>
+  <!-- HEADER NAV -->
+  <header class="site-header">
+    <a class="home-logo" href="index.html" aria-label="Go to Home">
+      <img src="medicaltestpreplogo.png" alt="Medical Test Prep Logo" class="nav-logo">
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="nav-link" href="ourmission.html">Our Mission</a>
+
+      <details class="nav-dropdown">
+        <summary class="nav-link nav-summary">About us</summary>
+        <div class="dropdown-menu" role="menu">
+          <a role="menuitem" href="ourmission.html">Our Mission</a>
+          <a role="menuitem" href="contact.html">Contact</a>
+          <a role="menuitem" href="privacypolicy.html">Privacy Policy</a>
+          <a role="menuitem" href="termsofuse.html">Terms of Use</a>
+        </div>
+      </details>
+
+      <a class="nav-link" href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
+    </nav>
+  </header>
 
   <main class="container">
 
     <!-- LEFT SIDE -->
     <section class="left">
-      <img src="medicaltestpreplogo.png" alt="Medical Test Prep Logo" class="main-logo">
       <h1 class="heading-primary">Medical Test Prep</h1>
       <h2 class="heading-hero">Your study time,<br>optimized</h2>
+
+      <!-- App Store badge (replace href with your real App Store link) -->
+      <a class="appstore-badge" href="#" aria-label="Download on the App Store">
+        <span class="apple-mark" aria-hidden="true"></span>
+        <span class="badge-text">
+          <span class="badge-small">Download on the</span>
+          <span class="badge-big">App Store</span>
+        </span>
+      </a>
     </section>
 
     <!-- RIGHT SIDE -->
     <section class="right">
       <img src="Group 1607.png" alt="App screenshot" class="static-screenshot" />
-      <!-- Instagram block removed; link moved to footer -->
     </section>
 
   </main>
@@ -43,5 +65,6 @@
     <a href="termsofuse.html">Terms of Use</a>
     <a href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">Instagram</a>
   </footer>
+
 </body>
 </html>
