@@ -231,6 +231,7 @@ a {
   justify-content: space-between;
   align-items: center;          /* centers left + right vertically */
   padding: 0 40px;              /* consistent side padding */
+  gap: 80px;
 }
 
 .left,
