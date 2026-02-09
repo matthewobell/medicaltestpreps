@@ -171,7 +171,7 @@ a {
 
 .heading-primary {
   font-size: var(--font-size-lg);
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
