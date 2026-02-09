@@ -83,10 +83,11 @@ a {
 }
 
 .nav-logo {
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
   object-fit: cover;
+  display: block;
 }
 
 .site-nav {
@@ -218,7 +219,7 @@ a {
   object-fit: contain;
 }
 
-/* App Store badge (centered under hero text) */
+/* App Store badge (SVG, centered under hero text) */
 .appstore-badge {
   margin-top: 18px;
   align-self: center;
@@ -238,6 +239,7 @@ a {
   opacity: 0.96;
 }
 
+/* SVG image sizing */
 .appstore-badge-img {
   height: 60px;
   width: auto;
@@ -245,7 +247,7 @@ a {
 }
 
 /* =============================== */
-/* FOOTER NAV (kept, as requested earlier) */
+/* FOOTER NAV */
 /* =============================== */
 
 .footer-nav {
@@ -399,10 +401,19 @@ a {
     font-size: 16px;
     margin-bottom: 14px;
   }
+
+  /* Slightly smaller badge on mobile */
+  .appstore-badge-img {
+    height: 54px;
+  }
 }
 
 @media (max-width: 360px) {
   .heading-hero {
     font-size: 30px;
+  }
+
+  .appstore-badge-img {
+    height: 50px;
   }
 }
