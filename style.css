@@ -389,7 +389,8 @@ a {
   }
 
   .heading-primary {
-  font-size: 28px;
+   font-size: 28px;
+   padding-top: 18px;
   }
 
   .heading-hero {
