@@ -18,7 +18,10 @@
   --color-gray: #666;
   --color-light-gray: #f5f5f5;
   --color-white: #fff;
-  --color-yellow: #52927F; /* your new background color */
+
+  /* Site background */
+  --color-yellow: #52927F;
+
   --color-highlight: #ffb614;
   --color-pulse: #ffc035;
 
@@ -46,38 +49,146 @@ body {
   background-color: var(--color-yellow);
   overflow-x: hidden;
   letter-spacing: var(--letter-spacing-tight);
-  color: var(--color-white); /* ✅ ALL TEXT DEFAULTS TO WHITE */
+  color: var(--color-white);
 }
 
-/* Optional: make links inherit white unless overridden */
+/* Helps header + main + footer stack naturally on every page */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links default to white */
 a {
   color: inherit;
 }
 
+/* =============================== */
+/* HEADER NAV (matches your mockup) */
+/* =============================== */
+
+.site-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 20px 40px;
+}
+
+.home-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-link,
+.nav-summary {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+/* DETAILS dropdown: remove default marker */
+.nav-dropdown > summary {
+  list-style: none;
+}
+.nav-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Add a small caret like the mock */
+.nav-summary::after {
+  content: "▾";
+  margin-left: 8px;
+  font-size: 16px;
+  opacity: 0.9;
+  position: relative;
+  top: -1px;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 220px;
+
+  background: rgba(255, 255, 255, 0.96);
+  color: #111;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.20);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.nav-dropdown:not([open]) .dropdown-menu {
+  display: none;
+}
+
+/* =============================== */
+/* HOMEPAGE HERO */
+/* =============================== */
+
 .heading-primary,
 .heading-hero {
   font-weight: var(--font-weight-bold);
-  color: var(--color-white); /* UPDATED (was black) */
+  color: var(--color-white);
   margin-bottom: var(--space-md);
-  text-align: left;
 }
 
 .heading-primary {
   font-size: var(--font-size-lg);
+  text-align: left;
+  width: 100%;
 }
 
 .heading-hero {
   font-size: var(--font-size-xl);
   text-align: center;
+  line-height: 1.05;
 }
 
+/* Main two-column layout */
 .container {
   display: flex;
   flex: 1;
   width: 100vw;
-  min-height: 100vh;
+  min-height: auto;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .left,
@@ -92,6 +203,7 @@ a {
   padding-left: 85px;
   padding-bottom: 30px;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .right {
@@ -99,78 +211,64 @@ a {
   padding-right: 50px;
 }
 
-.main-logo {
-  width: clamp(80px, 12vw, 140px);
-  height: auto;
-  border-radius: 16px;
-  margin-bottom: var(--space-sm);
-}
-
-.badge-logo {
-  width: clamp(80px, 12vw, 140px);
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 16px;
-}
-
+/* Screenshot stack */
 .static-screenshot {
   max-height: 75vh;
   width: 110%;
   object-fit: contain;
 }
 
-.badge img {
-  height: 55px;
-  display: block;
-  transition: transform 0.2s ease;
+/* App Store badge (centered under hero text) */
+.appstore-badge {
+  margin-top: 18px;
+  align-self: center;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 14px;
+  padding: 12px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
 }
 
-.badge--active img:hover {
-  transform: translateY(-2px);
+.appstore-badge:hover {
+  transform: translateY(-1px);
+  transition: 0.18s ease;
+  opacity: 0.96;
 }
 
-.badge--disabled img {
-  filter: grayscale(100%) brightness(85%);
-  opacity: 0.6;
+.apple-mark {
+  font-size: 28px;
+  line-height: 1;
 }
 
-.badge--disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-.explore-row {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 40px;
-}
-
-.explore-card {
+.badge-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  min-height: 280px;
-  justify-content: flex-start;
-  flex: 1 1 0;
+  line-height: 1.05;
 }
 
-.explore-card .badge {
-  margin-top: auto;
+.badge-small {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.9;
 }
 
-.explore-body {
-  margin-bottom: 20px;
-  font-size: 15px;
-  line-height: 1.4;
-  color: var(--color-white); /* ensures card text is white */
+.badge-big {
+  font-size: 20px;
+  font-weight: 800;
 }
 
-.explore-row-mobile {
-  display: none;
-}
+/* =============================== */
+/* FOOTER NAV (kept, as requested earlier) */
+/* =============================== */
 
 .footer-nav {
   width: 100%;
@@ -188,7 +286,7 @@ a {
 }
 
 .footer-nav a {
-  color: var(--color-white); /* UPDATED (was black) */
+  color: var(--color-white);
   font-weight: 700;
   text-decoration: none;
   font-size: 15px;
@@ -198,138 +296,13 @@ a {
   opacity: 0.7;
 }
 
-/* ✅ Top nav: same styles as footer-nav, but left-aligned */
-.top-nav {
-  justify-content: flex-start;
-  flex-wrap: wrap;            /* prevents overflow on narrower widths */
-  padding: 20px 0 10px 85px;  /* aligns with left section padding */
-  bottom: auto;               /* overrides footer-nav bottom: 5px */
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 24px 16px 40px;
-  }
-
-  .left {
-    padding-left: 0;
-    padding-bottom: 20px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .right {
-    padding-right: 0;
-    margin-top: 50px;
-  }
-
-  .heading-primary {
-    font-size: 26px;
-    text-align: center;
-  }
-
-  .heading-hero {
-    font-size: 34px;
-    line-height: 1.1;
-  }
-
-  .main-logo {
-    width: 90px;
-    margin-bottom: 14px;
-  }
-
-  .badge-logo {
-    width: clamp(55px, 20vw, 85px);
-  }
-
-  .explore-row-desktop {
-    display: none;
-  }
-
-  .explore-row-mobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    gap: 16px;
-    margin-top: 25px;
-  }
-
-  .explore-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 12px;
-
-    flex: 1 1 0;
-    max-width: 48%;
-  }
-
-  .explore-body {
-    margin-bottom: 8px;
-    font-size: 15px;
-  }
-
-  .badge img {
-    height: 48px;
-  }
-
-  .static-screenshot {
-    width: 100%;
-    max-height: none;
-  }
-
-  .footer-nav {
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px 0;
-    bottom: 0;
-  }
-
-  .footer-nav a {
-    font-size: 13px;
-  }
-
-  /* mobile padding for top nav */
-  .top-nav {
-    padding: 16px 16px 10px;
-  }
-}
-
-@media (max-width: 360px) {
-  .heading-primary {
-    font-size: 24px;
-  }
-
-  .heading-hero {
-    font-size: 30px;
-  }
-
-  .explore-body {
-    font-size: 14px;
-  }
-
-  .badge img {
-    height: 44px;
-  }
-
-  .badge-logo {
-    width: 90px;
-  }
-}
-
 /* =============================== */
 /* CENTERED INFORMATION PAGES */
 /* =============================== */
 
 .page-content,
 .about-container {
-  min-height: 100vh;
-  min-height: 100svh;
+  flex: 1;
 
   display: flex;
   justify-content: center;
@@ -337,8 +310,8 @@ a {
 
   padding: 40px 32px;
 
-  background-color: var(--color-yellow); /* UPDATED so white text is readable */
-  color: var(--color-white); /* ensures all info-page text stays white */
+  background-color: var(--color-yellow);
+  color: var(--color-white);
 }
 
 .about-content {
@@ -366,7 +339,70 @@ a {
   margin-bottom: 8px;
 }
 
-@media (max-width: 480px) {
+/* =============================== */
+/* RESPONSIVE */
+/* =============================== */
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 16px 16px;
+    gap: 14px;
+  }
+
+  .nav-link,
+  .nav-summary {
+    font-size: 16px;
+  }
+
+  .site-nav {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 16px 40px;
+  }
+
+  .left {
+    padding-left: 0;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+
+  .heading-primary {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .heading-hero {
+    font-size: 34px;
+    line-height: 1.1;
+  }
+
+  .right {
+    padding-right: 0;
+    margin-top: 40px;
+  }
+
+  .static-screenshot {
+    width: 100%;
+    max-height: none;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px 0;
+    bottom: 0;
+  }
+
+  .footer-nav a {
+    font-size: 13px;
+  }
+
   .page-content,
   .about-container {
     padding: 32px 20px;
@@ -387,55 +423,8 @@ a {
   }
 }
 
-/* ============================= */
-/* ⭐ INSTAGRAM FOLLOW BLOCK ⭐ */
-/* ============================= */
-
-.instagram-follow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  text-decoration: none;
-  margin-top: 25px;
-  position: relative;
+@media (max-width: 360px) {
+  .heading-hero {
+    font-size: 30px;
+  }
 }
-
-.instagram-icon {
-  width: 15px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.instagram-follow span {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-white); /* UPDATED (was black) */
-}
-
-.instagram-follow:hover {
-  opacity: 0.85;
-  transform: translateY(-2px);
-  transition: 0.2s ease;
-}
-
-/* ========================================================= */
-/* OPTIONAL: HIDE EMIGS/FLS LOGOS + TEXT (REQUIRES CONFIRM)   */
-/* ========================================================= */
-
-/*
-.main-logo,
-.badge-logo {
-  display: none !important;
-}
-
-   For the EMIGS/FLS *text*, CSS needs a real selector (class/id) from your HTML.
-   If you paste the snippet, I’ll make this exact.
-   Examples (ONLY enable the one that matches your HTML):
-
-.explore-card .badge-title,
-.explore-card .badge-label {
-  display: none !important;
-}
-*/
