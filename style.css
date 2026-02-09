@@ -326,6 +326,23 @@ a {
   color: var(--color-white);
 }
 
+/* Smaller section headings inside policy pages (H2) */
+.page-subheading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .page-subheading {
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+}
+
 .page-text {
   font-size: 18px;
   line-height: 1.5;
