@@ -88,47 +88,67 @@
 
   <!-- Dropdown close behavior: close on outside click + Esc + close on menu click -->
   <script>
-    (function () {
-      const dropdowns = [
-        document.getElementById("aboutDropdown"),
-        document.getElementById("socialsDropdown"),
-      ].filter(Boolean);
+  (function () {
+    const about = document.getElementById("aboutDropdown");
+    const socials = document.getElementById("socialsDropdown");
+    const overlay = document.getElementById("dropdownOverlay");
 
-      if (!dropdowns.length) return;
+    const dropdowns = [about, socials].filter(Boolean);
+    if (!dropdowns.length) return;
 
-      function closeAll(exceptEl) {
-        dropdowns.forEach((d) => {
-          if (d !== exceptEl) d.open = false;
-        });
-      }
+    function anyOpen() {
+      return dropdowns.some(d => d.open);
+    }
 
-      // Close when clicking outside
-      document.addEventListener("click", (e) => {
-        const clickedDropdown = dropdowns.find((d) => d.contains(e.target));
+    function closeAll() {
+      dropdowns.forEach(d => d.open = false);
+      if (overlay) overlay.classList.remove("is-open");
+    }
 
-        if (!clickedDropdown) {
-          closeAll(null);
-          return;
-        }
+    function syncOverlay() {
+      if (!overlay) return;
+      if (anyOpen()) overlay.classList.add("is-open");
+      else overlay.classList.remove("is-open");
+    }
 
-        closeAll(clickedDropdown);
-      });
-
-      // Close on Escape
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") closeAll(null);
-      });
-
-      // Close when a menu item is clicked
-      dropdowns.forEach((d) => {
-        d.querySelectorAll(".dropdown-menu a").forEach((link) => {
-          link.addEventListener("click", () => {
-            d.open = false;
+    // Keep only one dropdown open at a time
+    dropdowns.forEach(d => {
+      d.addEventListener("toggle", () => {
+        if (d.open) {
+          dropdowns.forEach(other => {
+            if (other !== d) other.open = false;
           });
-        });
+        }
+        syncOverlay();
       });
-    })();
-  </script>
+    });
+
+    // Close when overlay is clicked (outside click)
+    if (overlay) {
+      overlay.addEventListener("click", () => closeAll());
+    }
+
+    // Close on Esc
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeAll();
+    });
+
+    // Close when a menu item is clicked
+    dropdowns.forEach(d => {
+      d.querySelectorAll(".dropdown-menu a").forEach(link => {
+        link.addEventListener("click", () => closeAll());
+      });
+    });
+
+    // Safety: if user taps anywhere and something is open but overlay didn't catch (mobile edge cases)
+    document.addEventListener("click", (e) => {
+      if (!anyOpen()) return;
+
+      const clickedInsideSomeDropdown = dropdowns.some(d => d.contains(e.target));
+      if (!clickedInsideSomeDropdown) closeAll();
+    }, true);
+  })();
+</script>
 
 </body>
 </html>
