@@ -1,5 +1,5 @@
 :root {
-  --font-main: -apple-system, system-ui, BlinkMacSystemFont, "SF Pro Display", "SF
+  --font-main: -apple-system, BlinkMacSystemFont, system-ui, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 
   --font-size-xs: 15px;
   --font-size-sm: 18px;
