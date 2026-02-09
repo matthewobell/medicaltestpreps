@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy - Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=6" />
 </head>
 <body>
 
@@ -17,9 +17,18 @@
     <nav class="site-nav" aria-label="Primary navigation">
       <a class="nav-link" href="ourmission.html">Our Mission</a>
 
-      <details class="nav-dropdown">
-        <summary class="nav-link nav-summary">About us</summary>
-        <div class="dropdown-menu" role="menu">
+      <details class="nav-dropdown" id="aboutDropdown">
+        <summary class="nav-link nav-summary">
+          About us
+          <span class="nav-chevron" aria-hidden="true">
+            <svg viewBox="0 0 20 20" width="16" height="16" focusable="false" aria-hidden="true">
+              <path d="M5.5 7.5L10 12l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </summary>
+
+        <div class="dropdown-menu" role="menu" aria-label="About us menu">
+          <a role="menuitem" href="about.html">About Us</a>
           <a role="menuitem" href="ourmission.html">Our Mission</a>
           <a role="menuitem" href="contact.html">Contact</a>
           <a role="menuitem" href="privacypolicy.html">Privacy Policy</a>
@@ -27,11 +36,26 @@
         </div>
       </details>
 
-      <a class="nav-link" href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">
-        Instagram
-      </a>
+      <details class="nav-dropdown" id="socialsDropdown">
+        <summary class="nav-link nav-summary">
+          Socials
+          <span class="nav-chevron" aria-hidden="true">
+            <svg viewBox="0 0 20 20" width="16" height="16" focusable="false" aria-hidden="true">
+              <path d="M5.5 7.5L10 12l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </summary>
+
+        <div class="dropdown-menu" role="menu" aria-label="Socials menu">
+          <a role="menuitem" href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+        </div>
+      </details>
     </nav>
   </header>
+
+  <div class="dropdown-overlay" id="dropdownOverlay" aria-hidden="true"></div>
 
   <div class="page-content">
     <div class="about-content">
@@ -141,14 +165,68 @@
     </div>
   </div>
 
-  <footer class="footer-nav">
-    <a href="about.html">About Us</a>
-    <a href="ourmission.html">Our Mission</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacypolicy.html">Privacy Policy</a>
-    <a href="termsofuse.html">Terms of Use</a>
-    <a href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">Instagram</a>
-  </footer>
+  <script>
+  (function () {
+    const about = document.getElementById("aboutDropdown");
+    const socials = document.getElementById("socialsDropdown");
+    const overlay = document.getElementById("dropdownOverlay");
+
+    const dropdowns = [about, socials].filter(Boolean);
+    if (!dropdowns.length) return;
+
+    function anyOpen() {
+      return dropdowns.some(d => d.open);
+    }
+
+    function syncOverlay() {
+      if (!overlay) return;
+      overlay.classList.toggle("is-open", anyOpen());
+    }
+
+    function closeAll() {
+      dropdowns.forEach(d => d.open = false);
+      syncOverlay();
+    }
+
+    function openOnly(target) {
+      dropdowns.forEach(d => d.open = (d === target));
+      syncOverlay();
+    }
+
+    dropdowns.forEach(d => {
+      const summary = d.querySelector("summary");
+      if (!summary) return;
+
+      summary.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (d.open) {
+          d.open = false;
+          syncOverlay();
+        } else {
+          openOnly(d);
+        }
+      });
+    });
+
+    if (overlay) overlay.addEventListener("click", () => closeAll());
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeAll();
+    });
+
+    dropdowns.forEach(d => {
+      d.querySelectorAll(".dropdown-menu a").forEach(link => {
+        link.addEventListener("click", () => closeAll());
+      });
+    });
+
+    document.addEventListener("pointerdown", (e) => {
+      if (!anyOpen()) return;
+      const clickedInside = dropdowns.some(d => d.contains(e.target));
+      if (!clickedInside) closeAll();
+    });
+  })();
+  </script>
 
 </body>
 </html>
