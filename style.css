@@ -224,18 +224,12 @@ a {
   align-self: center;
 
   display: inline-flex;
-  align-items: center;
-  gap: 12px;
-
-  background: #000;
-  color: #fff;
   text-decoration: none;
 
-  border-radius: 14px;
-  padding: 12px 18px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-
-  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+  background: transparent;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
 }
 
 .appstore-badge:hover {
@@ -244,26 +238,10 @@ a {
   opacity: 0.96;
 }
 
-.apple-mark {
-  font-size: 28px;
-  line-height: 1;
-}
-
-.badge-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-
-.badge-small {
-  font-size: 12px;
-  font-weight: 700;
-  opacity: 0.9;
-}
-
-.badge-big {
-  font-size: 20px;
-  font-weight: 800;
+.appstore-badge-img {
+  height: 60px;
+  width: auto;
+  display: block;
 }
 
 /* =============================== */
