@@ -347,6 +347,10 @@ a {
     gap: 14px;
   }
 
+  .container {
+  gap: 24px;
+  }
+
   .nav-link,
   .nav-summary {
     font-size: 16px;
