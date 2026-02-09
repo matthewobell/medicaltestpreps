@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medical Test Prep</title>
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=6" />
 </head>
 <body>
 
@@ -17,9 +17,20 @@
     <nav class="site-nav" aria-label="Primary navigation">
       <a class="nav-link" href="ourmission.html">Our Mission</a>
 
-      <details class="nav-dropdown">
-        <summary class="nav-link nav-summary">About us</summary>
-        <div class="dropdown-menu" role="menu">
+      <!-- About dropdown -->
+      <details class="nav-dropdown" id="aboutDropdown">
+        <summary class="nav-link nav-summary">
+          About us
+          <span class="nav-chevron" aria-hidden="true">
+            <!-- Chevron icon -->
+            <svg viewBox="0 0 20 20" width="16" height="16" focusable="false" aria-hidden="true">
+              <path d="M5.5 7.5L10 12l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </summary>
+
+        <div class="dropdown-menu" role="menu" aria-label="About us menu">
+          <a role="menuitem" href="about.html">About Us</a>
           <a role="menuitem" href="ourmission.html">Our Mission</a>
           <a role="menuitem" href="contact.html">Contact</a>
           <a role="menuitem" href="privacypolicy.html">Privacy Policy</a>
@@ -27,9 +38,24 @@
         </div>
       </details>
 
-      <a class="nav-link" href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">
-        Instagram
-      </a>
+      <!-- Socials dropdown -->
+      <details class="nav-dropdown" id="socialsDropdown">
+        <summary class="nav-link nav-summary">
+          Socials
+          <span class="nav-chevron" aria-hidden="true">
+            <!-- Chevron icon -->
+            <svg viewBox="0 0 20 20" width="16" height="16" focusable="false" aria-hidden="true">
+              <path d="M5.5 7.5L10 12l4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </summary>
+
+        <div class="dropdown-menu" role="menu" aria-label="Socials menu">
+          <a role="menuitem" href="https://www.instagram.com/medical_test_prep/" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+        </div>
+      </details>
     </nav>
   </header>
 
@@ -56,6 +82,50 @@
     </section>
 
   </main>
+
+  <!-- Dropdown close behavior: close on outside click + Esc + close on menu click -->
+  <script>
+    (function () {
+      const dropdowns = [
+        document.getElementById("aboutDropdown"),
+        document.getElementById("socialsDropdown"),
+      ].filter(Boolean);
+
+      if (!dropdowns.length) return;
+
+      function closeAll(exceptEl) {
+        dropdowns.forEach((d) => {
+          if (d !== exceptEl) d.open = false;
+        });
+      }
+
+      // Close when clicking outside
+      document.addEventListener("click", (e) => {
+        const clickedDropdown = dropdowns.find((d) => d.contains(e.target));
+
+        if (!clickedDropdown) {
+          closeAll(null);
+          return;
+        }
+
+        closeAll(clickedDropdown);
+      });
+
+      // Close on Escape
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeAll(null);
+      });
+
+      // Close when a menu item is clicked
+      dropdowns.forEach((d) => {
+        d.querySelectorAll(".dropdown-menu a").forEach((link) => {
+          link.addEventListener("click", () => {
+            d.open = false;
+          });
+        });
+      });
+    })();
+  </script>
 
 </body>
 </html>
