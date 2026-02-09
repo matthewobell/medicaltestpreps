@@ -100,26 +100,35 @@
       return dropdowns.some(d => d.open);
     }
 
-    function closeAll() {
-      dropdowns.forEach(d => d.open = false);
-      if (overlay) overlay.classList.remove("is-open");
-    }
-
     function syncOverlay() {
       if (!overlay) return;
-      if (anyOpen()) overlay.classList.add("is-open");
-      else overlay.classList.remove("is-open");
+      overlay.classList.toggle("is-open", anyOpen());
     }
 
-    // Keep only one dropdown open at a time
+    function closeAll() {
+      dropdowns.forEach(d => d.open = false);
+      syncOverlay();
+    }
+
+    function openOnly(target) {
+      dropdowns.forEach(d => d.open = (d === target));
+      syncOverlay();
+    }
+
+    // Make summary clicks toggle reliably across browsers
     dropdowns.forEach(d => {
-      d.addEventListener("toggle", () => {
+      const summary = d.querySelector("summary");
+      if (!summary) return;
+
+      summary.addEventListener("click", (e) => {
+        e.preventDefault(); // we’ll control open/close ourselves
+
         if (d.open) {
-          dropdowns.forEach(other => {
-            if (other !== d) other.open = false;
-          });
+          d.open = false;
+          syncOverlay();
+        } else {
+          openOnly(d);
         }
-        syncOverlay();
       });
     });
 
@@ -140,13 +149,12 @@
       });
     });
 
-    // Safety: if user taps anywhere and something is open but overlay didn't catch (mobile edge cases)
-    document.addEventListener("click", (e) => {
+    // Extra safety: if user clicks anywhere outside dropdowns, close
+    document.addEventListener("pointerdown", (e) => {
       if (!anyOpen()) return;
-
-      const clickedInsideSomeDropdown = dropdowns.some(d => d.contains(e.target));
-      if (!clickedInsideSomeDropdown) closeAll();
-    }, true);
+      const clickedInside = dropdowns.some(d => d.contains(e.target));
+      if (!clickedInside) closeAll();
+    });
   })();
 </script>
 
