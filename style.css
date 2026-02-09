@@ -43,7 +43,7 @@ html,
 body {
   min-height: 100vh;
   font-family: var(--font-main);
-  background-color: var(--color-yellow);
+  background-color: var(--color-white); /* UPDATED */
   overflow-x: hidden;
   letter-spacing: var(--letter-spacing-tight);
 }
@@ -317,7 +317,7 @@ body {
 
   padding: 40px 32px;
 
-  background-color: var(--color-yellow);
+  background-color: var(--color-white); /* UPDATED */
 }
 
 .about-content {
@@ -370,10 +370,10 @@ body {
 
 .instagram-follow {
   display: flex;
-  flex-direction: row;      
-  align-items: center;      
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  gap: 8px;                 
+  gap: 8px;
   text-decoration: none;
   margin-top: 25px;
   position: relative;
@@ -396,3 +396,23 @@ body {
   transform: translateY(-2px);
   transition: 0.2s ease;
 }
+
+/* ========================================================= */
+/* OPTIONAL: HIDE EMIGS/FLS LOGOS + TEXT (REQUIRES CONFIRM)   */
+/* ========================================================= */
+
+/*
+.main-logo,
+.badge-logo {
+  display: none !important;
+}
+
+   For the EMIGS/FLS *text*, CSS needs a real selector (class/id) from your HTML.
+   If you paste the snippet, I’ll make this exact.
+   Examples (ONLY enable the one that matches your HTML):
+
+.explore-card .badge-title,
+.explore-card .badge-label {
+  display: none !important;
+}
+*/
