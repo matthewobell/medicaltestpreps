@@ -121,9 +121,10 @@ a {
 .dropdown-overlay {
   position: fixed;
   inset: 0;
-  z-index: 60;      /* below dropdown menu (80) and header (70), above page content */
+  z-index: 75;      /* ABOVE header (70), BELOW menus (80) */
   display: none;
   background: transparent;
+  pointer-events: auto;
 }
 
 /* When a dropdown is open, we enable the overlay */
