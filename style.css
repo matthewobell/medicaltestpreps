@@ -52,7 +52,7 @@ body {
   color: var(--color-white);
 }
 
-/* Helps header + main + footer stack naturally on every page */
+/* Helps header + main stack naturally on every page */
 body {
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ a {
 }
 
 /* =============================== */
-/* HEADER NAV (matches your mockup) */
+/* HEADER NAV (matches mockup) */
 /* =============================== */
 
 .site-header {
@@ -113,14 +113,25 @@ a {
   display: none;
 }
 
-/* Add a small caret like the mock */
-.nav-summary::after {
-  content: "▾";
-  margin-left: 8px;
-  font-size: 16px;
-  opacity: 0.9;
-  position: relative;
-  top: -1px;
+/* Chevron instead of text arrow */
+.nav-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+  transform: translateY(1px);
+}
+
+/* Rotate chevron when open */
+.nav-dropdown[open] .nav-chevron {
+  transform: translateY(1px) rotate(180deg);
+  transition: transform 0.18s ease;
 }
 
 .nav-dropdown {
@@ -167,6 +178,9 @@ a {
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
   margin-bottom: var(--space-md);
+
+  /* 4Y + 4Blur drop shadow (matches mock) */
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .heading-primary {
@@ -247,34 +261,10 @@ a {
 }
 
 /* =============================== */
-/* FOOTER NAV */
+/* FOOTER NAV REMOVED */
 /* =============================== */
+/* (Footer HTML removed; no footer CSS needed) */
 
-.footer-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  white-space: nowrap;
-  gap: 14px;
-  padding: 20px 0 25px;
-
-  position: relative;
-  bottom: 5px;
-}
-
-.footer-nav a {
-  color: var(--color-white);
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.footer-nav a:hover {
-  opacity: 0.7;
-}
 
 /* =============================== */
 /* CENTERED INFORMATION PAGES */
@@ -352,12 +342,6 @@ a {
     align-items: center;
   }
 
-  .heading-primary {
-  font-size: var(--font-size-lg);
-  text-align: center;
-  width: 100%;
-  }
-
   .heading-hero {
     font-size: 34px;
     line-height: 1.1;
@@ -371,17 +355,6 @@ a {
   .static-screenshot {
     width: 100%;
     max-height: none;
-  }
-
-  .footer-nav {
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px 0;
-    bottom: 0;
-  }
-
-  .footer-nav a {
-    font-size: 13px;
   }
 
   .page-content,
