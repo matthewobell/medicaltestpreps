@@ -113,6 +113,25 @@ a {
   display: none;
 }
 
+/* Click-catcher overlay so outside clicks reliably close dropdowns */
+.dropdown-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: none;
+}
+
+/* When a dropdown is open, we enable the overlay */
+.dropdown-overlay.is-open {
+  display: block;
+}
+
+/* Make sure the dropdown menu appears above the overlay */
+.nav-dropdown {
+  position: relative;
+  z-index: 60;
+}
+
 /* Chevron instead of text arrow */
 .nav-summary {
   display: inline-flex;
