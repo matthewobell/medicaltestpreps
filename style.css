@@ -198,6 +198,14 @@ a {
   opacity: 0.7;
 }
 
+/* ✅ Top nav: same styles as footer-nav, but left-aligned */
+.top-nav {
+  justify-content: flex-start;
+  flex-wrap: wrap;            /* prevents overflow on narrower widths */
+  padding: 20px 0 10px 85px;  /* aligns with left section padding */
+  bottom: auto;               /* overrides footer-nav bottom: 5px */
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -284,6 +292,11 @@ a {
 
   .footer-nav a {
     font-size: 13px;
+  }
+
+  /* mobile padding for top nav */
+  .top-nav {
+    padding: 16px 16px 10px;
   }
 }
 
