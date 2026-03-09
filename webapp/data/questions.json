@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "Which structure carries bile from the liver to the gallbladder?",
+      "options": [
+        "Cystic duct",
+        "Common bile duct",
+        "Hepatic duct",
+        "Pancreatic duct"
+      ],
+      "correctAnswer": "Cystic duct"
+    },
+    {
+      "question": "What instrument is commonly used for laparoscopic grasping?",
+      "options": [
+        "Maryland dissector",
+        "Needle driver",
+        "Babcock forceps",
+        "Allis clamp"
+      ],
+      "correctAnswer": "Babcock forceps"
+    }
+  ]
+}
