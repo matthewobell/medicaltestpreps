@@ -115,3 +115,26 @@ transform:translateY(-4px);
 opacity:0.5;
 pointer-events:none;
 }
+
+.answer-button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.answer-button:hover {
+  background-color: #f2f2f2;
+}
+
+.answer-button.selected {
+  background-color: #6758D8;
+  color: white;
+  border-color: #6758D8;
+}
