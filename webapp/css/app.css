@@ -297,3 +297,41 @@ margin-bottom:12px;
 font-size:20px;
 line-height:1.4;
 }
+
+.score-ring{
+position:relative;
+width:160px;
+height:160px;
+margin:20px auto;
+}
+
+.score-ring svg{
+transform:rotate(-90deg);
+}
+
+.ring-background{
+fill:none;
+stroke:#D9D9D9;
+stroke-width:14;
+}
+
+.ring-progress{
+fill:none;
+stroke:#5E8774;
+stroke-width:14;
+stroke-linecap:round;
+
+stroke-dasharray:440;
+stroke-dashoffset:440;
+
+transition:stroke-dashoffset 1.2s ease;
+}
+
+.score-ring-inner{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+font-size:36px;
+font-weight:700;
+}
