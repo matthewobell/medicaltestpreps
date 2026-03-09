@@ -3,10 +3,11 @@ let currentQuestionIndex = 0;
 let selectedAnswer = null;
 let score = 0;
 
+// Shuffle question order
 function shuffleArray(array){
   for(let i = array.length - 1; i > 0; i--){
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i],array[j]] = [array[j],array[i]];
+    [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
@@ -47,6 +48,11 @@ async function loadQuestions(){
 
 function showQuestion(){
 
+  if(!questions || questions.length === 0){
+    console.error("No questions loaded");
+    return;
+  }
+
   selectedAnswer = null;
 
   const question = questions[currentQuestionIndex];
@@ -63,7 +69,7 @@ function showQuestion(){
 
   const options = question.options || question.answerOptions;
 
-  options.forEach(option=>{
+  options.forEach(option => {
 
     const button = document.createElement("button");
 
@@ -73,30 +79,26 @@ function showQuestion(){
 
     button.classList.add("answer-button");
 
-    button.onclick = ()=>{
+    button.onclick = () => {
 
       selectedAnswer = option;
 
-      document.querySelectorAll(".answer-button").forEach(btn=>{
+      document.querySelectorAll(".answer-button").forEach(btn => {
         btn.classList.remove("selected");
       });
 
       button.classList.add("selected");
-
     };
 
     optionsDiv.appendChild(button);
-
   });
-
 }
 
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("submit").onclick = submitAnswer;
 
   loadQuestions();
-
 });
 
 function submitAnswer(){
@@ -116,11 +118,10 @@ function submitAnswer(){
     score++;
   }
 
-  showFeedback(question,isCorrect);
-
+  showFeedback(question, isCorrect);
 }
 
-function showFeedback(question,isCorrect){
+function showFeedback(question, isCorrect){
 
   const quizCard = document.getElementById("quiz-card");
   const feedbackCard = document.getElementById("feedback-card");
@@ -131,7 +132,7 @@ function showFeedback(question,isCorrect){
   const options = question.options || question.answerOptions;
 
   const correctOption =
-    options.find(o=>o.isCorrect) || question.correctAnswer;
+    options.find(o => o.isCorrect) || question.correctAnswer;
 
   const iconClass = isCorrect ? "correct" : "incorrect";
 
@@ -157,7 +158,7 @@ function showFeedback(question,isCorrect){
     <button id="next-question">Next Question</button>
   `;
 
-  document.getElementById("next-question").onclick = ()=>{
+  document.getElementById("next-question").onclick = () => {
 
     currentQuestionIndex++;
 
@@ -168,15 +169,11 @@ function showFeedback(question,isCorrect){
 
       showQuestion();
 
-    }
-    else{
+    } else {
 
       showResults();
-
     }
-
   };
-
 }
 
 function showResults(){
