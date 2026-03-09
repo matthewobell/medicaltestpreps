@@ -3,6 +3,18 @@ let currentQuestionIndex = 0;
 let selectedAnswer = null;
 let score = 0;
 
+function shuffleArray(array) {
+
+  for (let i = array.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [array[i], array[j]] = [array[j], array[i]];
+
+  }
+
+}
+
 async function loadQuestions() {
 
   const params = new URLSearchParams(window.location.search);
@@ -30,6 +42,9 @@ async function loadQuestions() {
     console.error("Unsupported question format");
     return;
   }
+
+  // RANDOMIZE QUESTION ORDER
+  shuffleArray(questions);
 
   showQuestion();
 }
