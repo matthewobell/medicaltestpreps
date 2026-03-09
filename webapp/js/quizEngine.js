@@ -212,9 +212,100 @@ function showResults(){
   const percentage = Math.round((score / questions.length) * 100);
 
   feedbackCard.innerHTML = `
-    <h2>Quiz Complete</h2>
-    <p>You scored ${score} out of ${questions.length}</p>
-    <h3>${percentage}%</h3>
-    <button onclick="location.reload()">Retake Quiz</button>
+    <h2 class="quiz-complete-title">Quiz Complete!</h2>
+
+    <div class="score-ring">
+        <div class="score-ring-inner">
+            ${percentage}%
+        </div>
+    </div>
+
+    <div class="score-text">
+        Your score: ${score}/${questions.length}
+    </div>
+
+    <button id="next-quiz" class="primary-button">
+        Next Quiz
+    </button>
+
+    <button id="review-answers" class="primary-button">
+        Review Answers
+    </button>
+
+    <div class="return-home">
+        <a href="index.html">Return home</a>
+    </div>
   `;
+
+  document.getElementById("next-quiz").onclick = () => {
+    location.reload();
+  };
+
+  document.getElementById("review-answers").onclick = () => {
+    showReviewPage();
+  };
+
+}
+
+function showReviewPage(){
+
+  const feedbackCard = document.getElementById("feedback-card");
+
+  let reviewHTML = `<div class="review-container">`;
+
+  questions.forEach((q, index) => {
+
+    const userAnswer = selectedAnswers[index] || "No answer";
+
+    reviewHTML += `
+      <div class="review-card">
+
+        <div class="review-header">
+          <div class="review-counter">
+            Question ${index + 1} of ${questions.length}
+          </div>
+
+          <div class="review-toggle" onclick="toggleReview(this)">
+            ✓
+          </div>
+        </div>
+
+        <div class="review-question">
+          ${q.question || q.text}
+        </div>
+
+        <div class="review-details">
+
+          <div class="review-label">Your Answer</div>
+          <div class="review-answer">${userAnswer}</div>
+
+          <div class="review-label">Explanation</div>
+          <div class="review-explanation">
+            ${q.explanation || "Explanation coming soon."}
+          </div>
+
+        </div>
+
+      </div>
+    `;
+
+  });
+
+  reviewHTML += `</div>`;
+
+  feedbackCard.innerHTML = reviewHTML;
+
+}
+
+function toggleReview(element){
+
+  const card = element.closest(".review-card");
+  const details = card.querySelector(".review-details");
+
+  if(details.style.display === "block"){
+      details.style.display = "none";
+  } else {
+      details.style.display = "block";
+  }
+
 }
