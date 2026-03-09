@@ -81,14 +81,17 @@ function showQuestion(){
 
     button.onclick = () => {
 
-      selectedAnswer = option;
+  selectedAnswer = option;
 
-      document.querySelectorAll(".answer-button").forEach(btn => {
-        btn.classList.remove("selected");
-      });
+  const buttons = document.querySelectorAll(".answer-button");
 
-      button.classList.add("selected");
-    };
+  buttons.forEach(btn=>{
+    btn.classList.remove("selected");
+  });
+
+  button.classList.add("selected");
+
+};
 
     optionsDiv.appendChild(button);
   });
