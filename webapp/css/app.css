@@ -40,7 +40,7 @@ h1{
 .answer-button{
   width:100%;
   padding:24px 18px;   /* taller button */
-  margin:6px 0;        /* less spacing between buttons */
+  margin:2px 0;        /* less spacing between buttons */
   border-radius:40px;
   border:3px solid #4A6C5E;
   background:#5E8774;
