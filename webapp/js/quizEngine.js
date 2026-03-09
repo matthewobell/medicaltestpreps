@@ -20,7 +20,9 @@ function shuffleArray(array){
 function getModuleTitle(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "";
-  const base = file.replace(/\.json$/i, "");
+  // Strip folder path (everything up to and including the last /)
+  const filename = file.split("/").pop();
+  const base = filename.replace(/\.json$/i, "");
   if(!base) return "Quiz";
   return base
     .replace(/[-_]/g, " ")
