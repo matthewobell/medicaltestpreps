@@ -297,41 +297,43 @@ function showReviewPage(){
   questions.forEach((q, index) => {
 
     const answers = userAnswers[index] || [];
+    const correct = answersCorrect(q, answers);
+
+    const iconSVG = correct
+      ? `<div class="review-icon-circle correct">
+           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+             <path d="M4 10l4 4 8-8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+           </svg>
+         </div>`
+      : `<div class="review-icon-circle incorrect">
+           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+             <path d="M5 5l10 10M15 5L5 15" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+           </svg>
+         </div>`;
 
     reviewHTML += `
       <div class="review-card">
 
-<div class="review-top">
+        <div class="review-top">
+          <div class="review-top-text">
+            <div class="review-counter">Question ${index + 1} of ${questions.length}</div>
+            <div class="review-question">${q.question || q.text}</div>
+          </div>
+          ${iconSVG}
+        </div>
 
-<div>
-<div class="review-counter">
-Question ${index + 1} of ${questions.length}
-</div>
-
-<div class="review-question">
-${q.question || q.text}
-</div>
-</div>
-
-<div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
-
-</div>
-
-<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
-
-<div class="review-details">
-
+        <div class="review-details">
           <div class="review-label">Your Answer</div>
           <div class="review-answer">
-          ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
+            ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
           </div>
-
           <div class="review-label">Explanation</div>
           <div class="review-explanation">
             ${q.explanation || "Explanation coming soon."}
           </div>
-
         </div>
+
+        <div class="review-arrow" onclick="toggleReview(this)">⌄</div>
 
       </div>
     `;
