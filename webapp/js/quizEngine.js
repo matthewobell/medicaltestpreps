@@ -143,6 +143,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+function nextQuestionHandler() {
+
+  if(selectedAnswer === null){
+    alert("Please select an answer before continuing.");
+    return;
+  }
+
+  const question = questions[currentQuestionIndex];
+
+  let resultMessage = "";
+
+  const isCorrect =
+    selectedAnswer.isCorrect ||
+    selectedAnswer === question.correctAnswer;
+
+  if(isCorrect){
+    score++;
+    resultMessage = "Correct!";
+  } else {
+    resultMessage = "Incorrect.";
+  }
+
+  showExplanation(question, resultMessage);
+}
+
 function showExplanation(question, resultMessage) {
 
   const container = document.getElementById("quiz-container");
