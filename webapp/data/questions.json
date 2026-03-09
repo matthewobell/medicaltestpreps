@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "q1",
       "question": "Which structure carries bile from the liver to the gallbladder?",
       "options": [
         "Cystic duct",
@@ -8,9 +9,13 @@
         "Hepatic duct",
         "Pancreatic duct"
       ],
-      "correctAnswer": "Cystic duct"
+      "correctAnswer": "Cystic duct",
+      "explanation": "The cystic duct carries bile between the gallbladder and the common bile duct.",
+      "difficulty": "easy",
+      "tags": ["hepatobiliary"]
     },
     {
+      "id": "q2",
       "question": "What instrument is commonly used for laparoscopic grasping?",
       "options": [
         "Maryland dissector",
@@ -18,7 +23,10 @@
         "Babcock forceps",
         "Allis clamp"
       ],
-      "correctAnswer": "Babcock forceps"
+      "correctAnswer": "Babcock forceps",
+      "explanation": "Babcock forceps are designed to grasp delicate tissue without crushing.",
+      "difficulty": "easy",
+      "tags": ["laparoscopy"]
     }
   ]
 }
