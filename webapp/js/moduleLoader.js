@@ -17,11 +17,7 @@ async function loadModules(type) {
       card.href = `quiz.html?file=${file}`;
       card.className = "portal-card";
 
-      const title = file
-        .replace(".json", "")
-        .replace(/-/g, " ")
-        .replace(/\bemigs\b/i, "EMIGS")
-        .replace(/\bfls\b/i, "FLS");
+      const title = formatModuleTitle(file);
 
       card.innerHTML = `
         <h3>${title}</h3>
@@ -31,5 +27,37 @@ async function loadModules(type) {
       container.appendChild(card);
 
     });
+
+}
+
+function formatModuleTitle(file) {
+
+  let name = file.replace(".json", "");
+
+  const isEMIGS = name.startsWith("emigs");
+  const isFLS = name.startsWith("fls");
+
+  name = name.replace("emigs-", "").replace("fls-", "");
+
+  const words = name.split("-");
+
+  const formatted = words.map(word => {
+
+    if(word === "module") return "Module";
+
+    if(word === "part") return "– Part";
+
+    if(word === "final") return "Final";
+
+    if(word === "assessment") return "Assessment";
+
+    return word.charAt(0).toUpperCase() + word.slice(1);
+
+  }).join(" ");
+
+  if(isEMIGS) return "EMIGS " + formatted;
+  if(isFLS) return "FLS " + formatted;
+
+  return formatted;
 
 }
