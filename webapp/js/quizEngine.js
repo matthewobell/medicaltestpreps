@@ -3,6 +3,11 @@ let currentQuestionIndex = 0;
 let selectedAnswer = null;
 let score = 0;
 
+// Remove A), B), C) style prefixes
+function cleanAnswerText(text){
+  return (text || "").replace(/^[A-E]\)\s*/, "");
+}
+
 // Shuffle question order
 function shuffleArray(array){
   for(let i = array.length - 1; i > 0; i--){
@@ -40,7 +45,6 @@ async function loadQuestions(){
   }
 
   shuffleArray(questions);
-
   currentQuestionIndex = 0;
 
   showQuestion();
@@ -61,7 +65,6 @@ function showQuestion(){
     `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
   const questionText = question.question || question.text;
-
   document.getElementById("question").innerText = questionText;
 
   const optionsDiv = document.getElementById("options");
@@ -73,25 +76,23 @@ function showQuestion(){
 
     const button = document.createElement("button");
 
-    const optionText = option.text || option;
+    const optionText = cleanAnswerText(option.text || option);
 
     button.innerText = optionText;
-
     button.classList.add("answer-button");
 
     button.onclick = () => {
 
-  selectedAnswer = option;
+      selectedAnswer = option;
 
-  const buttons = document.querySelectorAll(".answer-button");
+      const buttons = document.querySelectorAll(".answer-button");
 
-  buttons.forEach(btn=>{
-    btn.classList.remove("selected");
-  });
+      buttons.forEach(btn=>{
+        btn.classList.remove("selected");
+      });
 
-  button.classList.add("selected");
-
-};
+      button.classList.add("selected");
+    };
 
     optionsDiv.appendChild(button);
   });
@@ -148,15 +149,15 @@ function showFeedback(question, isCorrect){
     </div>
 
     <div class="answer-header">Your Answer</div>
-<div class="answer-body">${selectedAnswer.text || selectedAnswer}</div>
+    <div class="answer-body">${cleanAnswerText(selectedAnswer.text || selectedAnswer)}</div>
 
-${!isCorrect ? `
-  <div class="answer-header">Correct Answer</div>
-  <div class="answer-body">${correctOption.text || correctOption}</div>
-` : ``}
+    ${!isCorrect ? `
+      <div class="answer-header">Correct Answer</div>
+      <div class="answer-body">${cleanAnswerText(correctOption.text || correctOption)}</div>
+    ` : ``}
 
-<div class="answer-header">Explanation</div>
-<div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
+    <div class="answer-header">Explanation</div>
+    <div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
 
     <button id="next-question">Next Question</button>
   `;
