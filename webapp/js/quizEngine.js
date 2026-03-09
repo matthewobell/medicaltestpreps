@@ -24,7 +24,7 @@ async function loadQuestions(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
 
-  const response = await fetch(`data/${file}`);
+  const response = await fetch(data/${file});
   const data = await response.json();
 
   if(Array.isArray(data) && data[0]?.questions){
@@ -65,7 +65,7 @@ function showQuestion(){
   const question = questions[currentQuestionIndex];
 
   document.getElementById("question-counter").innerText =
-`Question ${currentQuestionIndex + 1} of ${questions.length}`;
+    Question ${currentQuestionIndex + 1} of ${questions.length};
 
   const questionText = question.question || question.text;
   document.getElementById("question").innerText = questionText;
@@ -79,7 +79,7 @@ function showQuestion(){
 
 if(correctCount > 1){
   document.getElementById("question").innerText =
-    questionText + ` (Select ${correctCount})`;
+    questionText +  (Select ${correctCount});
 }
 
   options.forEach(option => {
@@ -177,14 +177,14 @@ function showFeedback(question, isCorrect){
   cleanAnswerText(a.text || a)
 ).join("<br>")}</div>
 
-    ${!isCorrect ? `
-  <div class="answer-header">Correct Answer</div>
-  <div class="answer-body">
+    ${!isCorrect ? 
+      <div class="answer-header">Correct Answer</div>
+      <div class="answer-body">
 ${correctOptions.map(o =>
   cleanAnswerText(o.text || o)
 ).join("<br>")}
 </div>
-` : ``}
+     : }
 
     <div class="answer-header">Explanation</div>
     <div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
@@ -290,77 +290,71 @@ function showReviewPage(){
 
   const feedbackCard = document.getElementById("feedback-card");
 
-  // Remove container styling so review cards control layout
-  feedbackCard.style.background = "transparent";
-  feedbackCard.style.padding = "0";
-  feedbackCard.style.width = "520px";
-
-  let reviewHTML = `<div class="review-container">`;
+  let reviewHTML = <div class="review-container">;
 
   questions.forEach((q, index) => {
 
     const answers = userAnswers[index] || [];
 
     reviewHTML += `
+      <div class="review-card">
 
-      <div class="review-card" onclick="toggleReview(this)">
+<div class="review-top">
 
-        <div class="review-header">
+<div>
+<div class="review-counter">
+Question ${index + 1} of ${questions.length}
+</div>
 
-          <div class="review-counter">
-            Question ${index + 1} of ${questions.length}
-          </div>
+<div class="review-question">
+${q.question || q.text}
+</div>
+</div>
 
-          <div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
+<div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
 
-        </div>
+</div>
 
-        <div class="review-question">
-          ${q.question || q.text}
-        </div>
+<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
 
-        <div class="review-details">
+<div class="review-details">
 
           <div class="review-label">Your Answer</div>
-
           <div class="review-answer">
-            ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
+          ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
           </div>
 
           <div class="review-label">Explanation</div>
-
           <div class="review-explanation">
             ${q.explanation || "Explanation coming soon."}
           </div>
 
         </div>
 
-        <div class="review-arrow">⌄</div>
-
       </div>
-
     `;
+
   });
 
-  reviewHTML += `</div>`;
+  reviewHTML += </div>;
 
   feedbackCard.innerHTML = reviewHTML;
 
 }
 
-function toggleReview(card){
+function toggleReview(arrow){
 
-  const details = card.querySelector(".review-details");
-  const arrow = card.querySelector(".review-arrow");
+const card = arrow.closest(".review-card");
+const details = card.querySelector(".review-details");
 
-  if(details.style.display === "block"){
-    details.style.display = "none";
-    arrow.innerHTML = "⌄";
-  }
-  else{
-    details.style.display = "block";
-    arrow.innerHTML = "⌃";
-  }
+if(details.style.display === "block"){
+details.style.display = "none";
+arrow.innerHTML = "⌄";
+}
+else{
+details.style.display = "block";
+arrow.innerHTML = "⌃";
+}
 
 }
 
