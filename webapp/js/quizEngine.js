@@ -1,6 +1,9 @@
 let questions = [];
 let currentQuestionIndex = 0;
-let selectedAnswers = [];
+
+let selectedAnswers = [];      // answers for current question
+let userAnswers = [];          // answers for entire quiz
+
 let score = 0;
 
 // Remove A), B), C) style prefixes
@@ -131,6 +134,8 @@ function submitAnswer(){
   (question.options || question.answerOptions)
     .filter(o => o.isCorrect);
 
+userAnswers[currentQuestionIndex] = [...selectedAnswers];
+  
 const isCorrect =
   selectedAnswers.length === correctOptions.length &&
   selectedAnswers.every(sel =>
@@ -255,7 +260,7 @@ function showReviewPage(){
 
   questions.forEach((q, index) => {
 
-    const userAnswer = selectedAnswers[index] || "No answer";
+    const answers = userAnswers[index] || [];
 
     reviewHTML += `
       <div class="review-card">
@@ -265,8 +270,8 @@ function showReviewPage(){
             Question ${index + 1} of ${questions.length}
           </div>
 
-          <div class="review-toggle" onclick="toggleReview(this)">
-            ✓
+          <div class="review-toggle ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"
+           onclick="toggleReview(this)">
           </div>
         </div>
 
@@ -277,7 +282,9 @@ function showReviewPage(){
         <div class="review-details">
 
           <div class="review-label">Your Answer</div>
-          <div class="review-answer">${userAnswer}</div>
+          <div class="review-answer">
+          ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
+          </div>
 
           <div class="review-label">Explanation</div>
           <div class="review-explanation">
@@ -307,5 +314,18 @@ function toggleReview(element){
   } else {
       details.style.display = "block";
   }
+
+}
+
+function answersCorrect(question, answers){
+
+  const options = question.options || question.answerOptions;
+
+  const correctOptions = options.filter(o => o.isCorrect);
+
+  return (
+    answers.length === correctOptions.length &&
+    answers.every(a => correctOptions.includes(a))
+  );
 
 }
