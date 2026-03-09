@@ -5,8 +5,9 @@ function toggleDropdown(menuId, button){
 
   const isOpen = menu.style.display === "block";
 
-  document.querySelectorAll(".dropdown-menu").forEach(menu=>{
-    menu.style.display = "none";
+  // close all dropdowns
+  document.querySelectorAll(".dropdown-menu").forEach(m=>{
+    m.style.display = "none";
   });
 
   document.querySelectorAll(".arrow").forEach(a=>{
@@ -21,9 +22,9 @@ function toggleDropdown(menuId, button){
 }
 
 
-// ------------------------------------
-// BUILD MODULE MENUS FROM QUIZ INDEX
-// ------------------------------------
+// -------------------------------------
+// LOAD QUIZ INDEX
+// -------------------------------------
 
 async function loadQuizIndex(){
 
@@ -39,13 +40,13 @@ async function loadQuizIndex(){
 
     link.href = `quiz.html?file=${file}`;
 
-    const name = file
+    const label = file
       .replace("emigs/","")
       .replace("fls/","")
       .replace(".json","")
       .replace(/-/g," ");
 
-    link.textContent = name;
+    link.textContent = label;
 
     if(file.startsWith("emigs/")){
       emigsMenu.appendChild(link);
@@ -60,9 +61,9 @@ async function loadQuizIndex(){
 }
 
 
-// ------------------------------------
+// -------------------------------------
 // INITIALIZE
-// ------------------------------------
+// -------------------------------------
 
 document.addEventListener("DOMContentLoaded", () => {
 
