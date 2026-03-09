@@ -138,3 +138,77 @@ pointer-events:none;
   color: white;
   border-color: #6758D8;
 }
+
+body{
+  background:#5E8774;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  text-align:center;
+}
+
+#quiz-card, #feedback-card{
+  width:480px;
+  margin:40px auto;
+  padding:40px;
+  background:#F2F2F2;
+  border-radius:40px;
+}
+
+#question-counter{
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+#question{
+  font-size:22px;
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+.answer-button{
+  width:100%;
+  padding:18px;
+  margin:12px 0;
+  border-radius:40px;
+  border:none;
+  background:#5E8774;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.answer-button.selected{
+  border:4px solid #3D5C4F;
+}
+
+#submit{
+  margin-top:20px;
+  font-size:20px;
+  font-weight:600;
+  background:none;
+  border:none;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+#next-question{
+  padding:16px 40px;
+  border-radius:40px;
+  border:none;
+  background:#5E8774;
+  color:white;
+  font-size:18px;
+  margin-top:30px;
+  cursor:pointer;
+}
+
+.correct-icon{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  position:absolute;
+  right:40px;
+  top:40px;
+}
+
+.correct{ background:#5E8774; }
+.incorrect{ background:#F28C8C; }
