@@ -1,0 +1,298 @@
+[
+  {
+    "id": "fls-module-2-energy-sources-practice-test",
+    "title": "FLS Module 2: Energy Sources",
+    "questions": [
+      {
+        "id": "m2-q1",
+        "text": "Which electrosurgical mode is designed to rapidly heat tissue, causing intracellular water to vaporize and resulting in cellular rupture?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blended mode", "isCorrect": false },
+          { "id": "b", "text": "B) Coagulation mode", "isCorrect": false },
+          { "id": "c", "text": "C) Cutting mode", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cutting mode uses low-voltage, continuous waveforms to quickly heat tissue and create a vapor pocket that bursts cells.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q2",
+        "text": "Applying monopolar energy directly to the tip of a ligated structure, such as the appendix stump, poses the highest risk of thermal injury in which area?",
+        "answerOptions": [
+          { "id": "a", "text": "A) The appendix stump itself", "isCorrect": false },
+          { "id": "b", "text": "B) The tissue immediately proximal to the ligature", "isCorrect": true },
+          { "id": "c", "text": "C) The opposite bowel wall", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Current density is highest just before the ligature where the diameter narrows, increasing the risk of delayed thermal injury.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q3",
+        "text": "Which type of trocar minimizes the risk of capacitive coupling during monopolar electrosurgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Trocars with hybrid plastic-metal construction", "isCorrect": false },
+          { "id": "b", "text": "B) All-metal or all-plastic trocars", "isCorrect": true },
+          { "id": "c", "text": "C) Trocars with removable inner sheaths", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hybrid trocars can act as capacitors and store energy; single-material designs avoid this issue.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q4",
+        "text": "To reduce the risk of inadvertent tissue injury from ultrasonic shears, which strategy is most appropriate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Activate the blade in rapid bursts", "isCorrect": false },
+          { "id": "b", "text": "B) Keep the passive jaw below the target tissue", "isCorrect": false },
+          { "id": "c", "text": "C) Ensure blade orientation and full visualization during use", "isCorrect": true },
+          { "id": "d", "text": "D) Rely on tactile feedback to guide cutting", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The active blade is unshielded; keeping it in view reduces risk of unintended thermal contact.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q5",
+        "text": "Which factor increases current density during monopolar electrosurgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Low generator power", "isCorrect": false },
+          { "id": "b", "text": "B) High tissue impedance", "isCorrect": false },
+          { "id": "c", "text": "C) Small electrode contact area", "isCorrect": true },
+          { "id": "d", "text": "D) Large dispersive electrode size", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Concentrating current into a smaller area increases current density and accelerates tissue heating.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q6",
+        "text": "Which waveform is commonly used for superficial coagulation with wide heat dispersion but minimal tissue penetration?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Intermittent high-voltage waveform", "isCorrect": true },
+          { "id": "b", "text": "B) Low-voltage unmodulated waveform", "isCorrect": false },
+          { "id": "c", "text": "C) Continuous bipolar waveform", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coagulation mode uses high-voltage, pulsed currents for surface-level tissue desiccation.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q7",
+        "text": "Which of the following actions would increase the risk of stray current injury during monopolar laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using bipolar energy for dissection", "isCorrect": false },
+          { "id": "b", "text": "B) Maintaining instrument insulation", "isCorrect": false },
+          { "id": "c", "text": "C) Activating monopolar energy near another instrument", "isCorrect": true },
+          { "id": "d", "text": "D) Choosing a pure cut waveform", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Energy can unintentionally transfer to adjacent instruments and tissues through direct or capacitive coupling.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q8",
+        "text": "What cellular process contributes most to vessel sealing during coagulation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Lipid breakdown", "isCorrect": false },
+          { "id": "b", "text": "B) Protein denaturation and dehydration", "isCorrect": true },
+          { "id": "c", "text": "C) Water vaporization", "isCorrect": false },
+          { "id": "d", "text": "D) Intracellular pH drop", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Heat causes proteins to denature and tissues to dehydrate, forming a fibrous coagulum for hemostasis.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q9",
+        "text": "Which scenario increases the likelihood of capacitive coupling?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Metal port in constant contact with tissue", "isCorrect": false },
+          { "id": "b", "text": "B) Insulated active electrode inside a metal cannula", "isCorrect": true },
+          { "id": "c", "text": "C) Activation of ultrasonic energy outside the field of view", "isCorrect": false },
+          { "id": "d", "text": "D) Bipolar use with exposed metal jaw", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This forms a capacitor system where current can transfer from the active to passive conductor through the insulation.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q10",
+        "text": "A monopolar active electrode accidentally touches a grasper holding bowel. What complication is most likely?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Instrument malfunction", "isCorrect": false },
+          { "id": "b", "text": "B) Tissue ischemia from compression", "isCorrect": false },
+          { "id": "c", "text": "C) Thermal injury to bowel", "isCorrect": true },
+          { "id": "d", "text": "D) Capacitive discharge to the port", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This is a form of unintended direct coupling that can result in significant tissue burns.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q11",
+        "text": "Why is bipolar energy generally safer than monopolar in laparoscopic procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) No electricity is used", "isCorrect": false },
+          { "id": "b", "text": "B) Current is confined between two electrodes in the same instrument", "isCorrect": true },
+          { "id": "c", "text": "C) It always provides better visualization", "isCorrect": false },
+          { "id": "d", "text": "D) No heating of tissue occurs", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar systems limit energy delivery to a small volume of tissue, avoiding the dispersive circuit.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q12",
+        "text": "What is the sealing capacity of most advanced bipolar vessel sealing systems?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 2 mm", "isCorrect": false },
+          { "id": "b", "text": "B) 5 mm", "isCorrect": false },
+          { "id": "c", "text": "C) 7 mm", "isCorrect": true },
+          { "id": "d", "text": "D) 10 mm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Most modern bipolar sealing devices can reliably seal vessels up to 7 mm in diameter.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q13",
+        "text": "Which technology allows bipolar vessel sealing devices to modulate energy based on real-time tissue feedback?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Piezoelectric converter", "isCorrect": false },
+          { "id": "b", "text": "B) Thermal fuse", "isCorrect": false },
+          { "id": "c", "text": "C) Tissue impedance sensors", "isCorrect": true },
+          { "id": "d", "text": "D) Manual pressure release", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "These sensors adjust energy delivery based on the tissue's resistance, improving safety and seal quality.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q14",
+        "text": "In ultrasonic energy devices, what component holds tissue in place while the vibrating blade seals and cuts it?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Torque wrench", "isCorrect": false },
+          { "id": "b", "text": "B) Secondary transducer", "isCorrect": false },
+          { "id": "c", "text": "C) Passive jaw", "isCorrect": true },
+          { "id": "d", "text": "D) Heat shield", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The passive jaw traps tissue against the active blade, allowing for focused energy transfer.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q15",
+        "text": "Which outcome is associated with using higher power settings on ultrasonic instruments?",
+        "answerOptions": [
+          { "id": "a", "text": "A) More effective hemostasis", "isCorrect": false },
+          { "id": "b", "text": "B) Increased risk of capacitive coupling", "isCorrect": false },
+          { "id": "c", "text": "C) Faster tissue cutting", "isCorrect": true },
+          { "id": "d", "text": "D) Cooler blade temperature", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "High power settings increase vibration amplitude, enhancing the cutting speed but reducing coagulation efficiency.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q16",
+        "text": "Which of the following best describes insulation failure in laparoscopic instruments?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Electrical arcing due to power surges", "isCorrect": false },
+          { "id": "b", "text": "B) A break in the instrument's outer coating that allows unintended energy discharge", "isCorrect": true },
+          { "id": "c", "text": "C) Leakage of fluid from within the shaft", "isCorrect": false },
+          { "id": "d", "text": "D) Inadequate sterilization of electrosurgical tools", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Insulation failure allows monopolar current to escape the shaft and potentially burn adjacent tissue, often outside the field of view.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q17",
+        "text": "Which is the safest location for placing the dispersive (grounding) electrode?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Over a scarred area for secure adhesion", "isCorrect": false },
+          { "id": "b", "text": "B) On the bony prominence of the hip", "isCorrect": false },
+          { "id": "c", "text": "C) On dry, hairy skin on the back", "isCorrect": false },
+          { "id": "d", "text": "D) On a well-vascularized, flat muscle surface", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Full contact with vascularized muscle ensures proper energy dispersion and reduces the risk of burns.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q18",
+        "text": "Which of the following factors contributes to dispersive electrode burns?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using bipolar instrumentation", "isCorrect": false },
+          { "id": "b", "text": "B) High ambient room temperature", "isCorrect": false },
+          { "id": "c", "text": "C) Poor pad contact due to hair or scars", "isCorrect": true },
+          { "id": "d", "text": "D) Low-voltage coagulation waveform", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Poor contact increases current concentration, which can cause thermal injury at the pad site.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q19",
+        "text": "Which of the following is an appropriate clinical scenario for using bipolar vessel sealing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cutting through bowel with mesentery", "isCorrect": false },
+          { "id": "b", "text": "B) Transecting the ureter", "isCorrect": false },
+          { "id": "c", "text": "C) Sealing the infundibulopelvic ligament during salpingo-oophorectomy", "isCorrect": true },
+          { "id": "d", "text": "D) Opening a cyst with monopolar energy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar sealing is effective for controlling vascular pedicles such as the infundibulopelvic ligament in adnexal surgery.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q20",
+        "text": "Which energy source typically produces the least lateral thermal spread?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monopolar coagulation", "isCorrect": false },
+          { "id": "b", "text": "B) Advanced bipolar sealing", "isCorrect": false },
+          { "id": "c", "text": "C) Ultrasonic shears", "isCorrect": true },
+          { "id": "d", "text": "D) Laser energy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Ultrasonic shears rely on mechanical vibration with minimal heat transfer to surrounding tissues.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q21",
+        "text": "Why is it important to use a torque wrench when attaching the ultrasonic transducer?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It prevents thermal spread", "isCorrect": false },
+          { "id": "b", "text": "B) It ensures a secure sterile barrier", "isCorrect": false },
+          { "id": "c", "text": "C) It guarantees optimal energy transfer and function", "isCorrect": true },
+          { "id": "d", "text": "D) It eliminates vibration noise", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Proper torque ensures the transducer and handpiece are coupled effectively for consistent ultrasonic vibration.",
+        "submodule": "Module 2 – Energy Sources",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "fls-module-5-anesthesia-and-patient-positioning",
+    "title": "FLS Module 5: Anesthesia and Patient Positioning",
+    "questions": [
+      {
+        "id": "m5-q1",
+        "text": "Which laparoscopic procedure is most appropriate for use with local anesthesia and mild sedation in a carefully selected patient?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Laparoscopic appendectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Diagnostic laparoscopy", "isCorrect": true },
+          { "id": "c", "text": "C) Laparoscopic cholecystectomy", "isCorrect": false },
+          { "id": "d", "text": "D) Laparoscopic adrenalectomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Local anesthesia may be appropriate for limited procedures such as diagnostic laparoscopy, tubal ligation, or selected inguinal hernia repairs. More complex procedures generally require general anesthesia.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q2",
+        "text": "Which of the following is not a commonly accepted benefit of general anesthesia during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Improved control of ventilation", "isCorrect": false },
+          { "id": "b", "text": "B) Enhanced neuromuscular relaxation", "isCorrect": false },
+          { "id": "c", "text": "C) Fewer hemodynamic changes compared to local anesthesia", "isCorrect": true },
+          { "id": "d", "text": "D) Greater flexibility in patient positioning", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "General anesthesia is associated with more pronounced hemodynamic changes, particularly when combined with pneumoperitoneum, than local anesthesia.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q3",
+        "text": "Which of the following is an important consideration when using a laryngeal mask airway (LMA) for laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is always preferred over endotracheal tubes", "isCorrect": false },
+          { "id": "b", "text": "B) It prevents aspiration during positive pressure ventilation", "isCorrect": false },
+          { "id": "c", "text": "C) It is controversial due to insufflation pressures and airway protection concerns", "isCorrect": true },
+          { "id": "d", "text": "D) It is ideal for long procedures involving Trendelenburg position", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "LMA use in laparoscopy is controversial because it may not adequately protect the airway during insufflation or prolonged positive pressure ventilation.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q4",
+        "text": "What is the primary reason for using acid-reducing medications like H2 blockers or nonparticulate antacids preoperatively in laparoscopic cases?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Prevent postoperative nausea", "isCorrect": false },
+          { "id": "b", "text": "B) Prevent aspiration pneumonitis", "isCorrect": true },
+          { "id": "c", "text": "C) Reduce intraoperative bleeding", "isCorrect": false },
+          { "id": "d", "text": "D) Minimize ileus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Acid-reducing agents like H2 blockers or sodium citrate reduce the severity of lung injury in case of aspiration during anesthesia.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q5",
+        "text": "Which of the following describes a correct positioning strategy to avoid brachial plexus injury in the lateral decubitus position?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Abduct the upper arm beyond 90°", "isCorrect": false },
+          { "id": "b", "text": "B) Use pillows instead of rigid support", "isCorrect": false },
+          { "id": "c", "text": "C) Place a roll under the dependent axilla and support the upper arm", "isCorrect": true },
+          { "id": "d", "text": "D) Extend the lower arm fully beneath the patient", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A roll under the dependent axilla reduces compression, while the upper arm must be padded or supported in a sling to avoid stretch injury.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q6",
+        "text": "When using a beanbag to maintain patient positioning, what is a key safety consideration?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Inflate the bag after final draping", "isCorrect": false },
+          { "id": "b", "text": "B) Ensure edges extend past the midline for stability", "isCorrect": false },
+          { "id": "c", "text": "C) Avoid rigid support in short procedures", "isCorrect": false },
+          { "id": "d", "text": "D) Pad the surface to reduce pressure injuries", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A fully suctioned beanbag becomes rigid, increasing the risk of pressure-related injury. Padding minimizes this risk, especially during long procedures.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q7",
+        "text": "Which position may require use of a footboard and thigh straps to prevent the patient from sliding on the table?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine", "isCorrect": false },
+          { "id": "b", "text": "B) Steep reverse Trendelenburg", "isCorrect": true },
+          { "id": "c", "text": "C) Lithotomy", "isCorrect": false },
+          { "id": "d", "text": "D) Prone", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Gravity may cause patient slippage in steep reverse Trendelenburg, so secure restraints are essential to maintain safety and positioning.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q8",
+        "text": "In the lithotomy position, which of the following helps reduce the risk of nerve injury and pressure complications?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of candy cane stirrups for all patients", "isCorrect": false },
+          { "id": "b", "text": "B) Flexing knees fully to decrease hip angle", "isCorrect": false },
+          { "id": "c", "text": "C) Using Allen stirrups or a split-leg table to conform to body shape", "isCorrect": true },
+          { "id": "d", "text": "D) Tucking both arms to increase exposure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "These devices allow individual adjustment and reduce risk of overextension or compression, especially during long procedures.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q9",
+        "text": "Which of the following positions may interfere with laparoscopic instrument handle movement if not properly set?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Reverse Trendelenburg", "isCorrect": false },
+          { "id": "b", "text": "B) Lithotomy with knees higher than the torso", "isCorrect": true },
+          { "id": "c", "text": "C) Supine with arms tucked", "isCorrect": false },
+          { "id": "d", "text": "D) Left lateral decubitus with beanbag", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "High knees may limit access to upper abdominal structures and obstruct handle manipulation during colon or omental dissection.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q10",
+        "text": "What is the purpose of flexing the OR table when performing retroperitoneal laparoscopic procedures like nephrectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To lower intra-abdominal pressure", "isCorrect": false },
+          { "id": "b", "text": "B) To stabilize the diaphragm", "isCorrect": false },
+          { "id": "c", "text": "C) To increase the distance between the costal margin and iliac crest", "isCorrect": true },
+          { "id": "d", "text": "D) To reduce venous return and minimize bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Flexing the table creates more space in the flank, optimizing trocar placement and access to retroperitoneal structures.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q11",
+        "text": "Which of the following is true regarding arm positioning in upper abdominal laparoscopic procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Arms should always be tucked to the sides", "isCorrect": false },
+          { "id": "b", "text": "B) Arms may be abducted beyond 90° if padded", "isCorrect": false },
+          { "id": "c", "text": "C) Arms may be abducted up to 90°, with careful padding", "isCorrect": true },
+          { "id": "d", "text": "D) Arms are left on the chest to avoid stretch injuries", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Abduction beyond 90° risks brachial plexus injury. If left out to the side, the arms must be well padded and not exceed that angle.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q12",
+        "text": "Which premedication is controversial in adults due to side effects such as dry mouth, despite its theoretical benefit in reducing bradyarrhythmias?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Glycopyrrolate", "isCorrect": false },
+          { "id": "b", "text": "B) Atropine", "isCorrect": true },
+          { "id": "c", "text": "C) Midazolam", "isCorrect": false },
+          { "id": "d", "text": "D) H2 blockers", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "While atropine can reduce bradycardia from pneumoperitoneum, its side effects in adults limit its routine use. It may be used intraoperatively if needed.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q13",
+        "text": "A patient is positioned in a modified lateral decubitus position for laparoscopic adrenalectomy. What is a major advantage of this setup?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Facilitates bilateral port placement", "isCorrect": false },
+          { "id": "b", "text": "B) Allows for rapid repositioning to supine if needed", "isCorrect": true },
+          { "id": "c", "text": "C) Prevents injury to pelvic structures", "isCorrect": false },
+          { "id": "d", "text": "D) Increases room for anesthesia access", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The modified lateral position enables table rotation to supine for specimen removal or emergency conversion to open surgery.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q14",
+        "text": "What is the risk of placing the patient’s hands near a break in the OR table when arms are tucked?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Elbow hyperextension", "isCorrect": false },
+          { "id": "b", "text": "B) Loss of vascular access", "isCorrect": false },
+          { "id": "c", "text": "C) Pressure ulcers from shoulder supports", "isCorrect": false },
+          { "id": "d", "text": "D) Crush injury if the table is flexed", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "If the table bends during surgery, hands at the hinge can be injured. Tucked arms must be placed safely above or below the break.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q15",
+        "text": "Which positioning accessory is especially helpful for splenectomy or nephrectomy in terms of maintaining optimal lateral angulation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Candy cane stirrups", "isCorrect": false },
+          { "id": "b", "text": "B) Trendelenburg footboard", "isCorrect": false },
+          { "id": "c", "text": "C) Beanbag support", "isCorrect": true },
+          { "id": "d", "text": "D) Arm sling", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A beanbag stabilizes the patient in lateral decubitus, critical for procedures involving the spleen, kidney, or adrenal gland.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q16",
+        "text": "Epidural anesthesia may be used in laparoscopic surgery to:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Replace general anesthesia for all major cases", "isCorrect": false },
+          { "id": "b", "text": "B) Increase insufflation tolerance in obese patients", "isCorrect": false },
+          { "id": "c", "text": "C) Provide postoperative analgesia and reduce ileus", "isCorrect": true },
+          { "id": "d", "text": "D) Eliminate need for muscle relaxation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Epidural anesthesia, when used with or without general anesthesia, can improve pain control and shorten postoperative ileus duration.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q17",
+        "text": "How should chronic medical medications (e.g., beta-blockers, antiepileptics) be managed preoperatively for laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Held 12 hours prior to surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Discontinued 3 days before surgery", "isCorrect": false },
+          { "id": "c", "text": "C) Administered as per institutional guidelines", "isCorrect": true },
+          { "id": "d", "text": "D) Replaced with IV equivalents in all cases", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients should continue chronic medications unless contraindicated, following standard protocols that apply to both laparoscopic and open surgery.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q18",
+        "text": "Which of the following is recommended to minimize the risk of deep vein thrombosis in laparoscopic procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Early ambulation alone", "isCorrect": false },
+          { "id": "b", "text": "B) Routine use of diuretics", "isCorrect": false },
+          { "id": "c", "text": "C) Sequential compression devices (SCDs)", "isCorrect": true },
+          { "id": "d", "text": "D) Trendelenburg positioning", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "SCDs are commonly used during laparoscopic procedures, especially when lithotomy or long operative times are involved.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q19",
+        "text": "Why is a modified lateral decubitus position helpful for laparoscopic splenectomy or nephrectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It limits diaphragm excursion", "isCorrect": false },
+          { "id": "b", "text": "B) It prevents hypotension in supine patients", "isCorrect": false },
+          { "id": "c", "text": "C) It offers exposure while allowing repositioning to supine", "isCorrect": true },
+          { "id": "d", "text": "D) It increases renal blood flow", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This position provides optimal access and facilitates conversion to open surgery if needed, avoiding flank/subcostal incisions.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q20",
+        "text": "When placing a patient in lithotomy for laparoscopy, what is a key positioning principle?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fit the patient to the stirrups", "isCorrect": false },
+          { "id": "b", "text": "B) Adjust positioning devices to the patient’s anatomy", "isCorrect": true },
+          { "id": "c", "text": "C) Keep knees fully extended", "isCorrect": false },
+          { "id": "d", "text": "D) Apply firm tourniquets to reduce bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For safety and comfort, equipment should conform to the patient's body—not the reverse.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q21",
+        "text": "What feature of the operating room table is critical for optimal laparoscopic exposure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ability to rotate 360 degrees", "isCorrect": false },
+          { "id": "b", "text": "B) Compatibility with robotic docking", "isCorrect": false },
+          { "id": "c", "text": "C) Ability to tilt and flex in multiple directions", "isCorrect": true },
+          { "id": "d", "text": "D) Fixed height platform for stability", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopic procedures often require tilting or flexing the table (Trendelenburg, lateral tilt) to use gravity for organ retraction.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-q22",
+        "text": "In which position does gravity help retract small bowel out of the pelvis during lower abdominal laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine", "isCorrect": false },
+          { "id": "b", "text": "B) Reverse Trendelenburg", "isCorrect": false },
+          { "id": "c", "text": "C) Trendelenburg", "isCorrect": true },
+          { "id": "d", "text": "D) Lateral decubitus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Tilting the patient head-down allows the bowel to fall cephalad, improving access to the pelvic organs.",
+        "submodule": "Module 5 – Anesthesia and Patient Positioning",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "fls-module-9-current-and-diagnostic-laparoscopic-procedures",
+    "title": "FLS Module 9: Current and Diagnostic Laparoscopic Procedures",
+    "questions": [
+      {
+        "id": "m9-q1",
+        "text": "Why might consultation with a pathologist be important before beginning a diagnostic laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To ensure availability of angled scopes", "isCorrect": false },
+          { "id": "b", "text": "B) To avoid unnecessary dissection", "isCorrect": false },
+          { "id": "c", "text": "C) To prepare for frozen section or specimen handling", "isCorrect": true },
+          { "id": "d", "text": "D) To determine anesthetic risk", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "If special preparation (e.g., frozen section) is anticipated, consulting pathology ahead of time ensures specimens are processed correctly during the procedure.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q2",
+        "text": "In a patient undergoing diagnostic laparoscopy for suspected appendicitis, which patient positioning provides optimal exposure of the appendix?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine with right-side-up tilt", "isCorrect": false },
+          { "id": "b", "text": "B) Lithotomy with reverse Trendelenburg", "isCorrect": false },
+          { "id": "c", "text": "C) Trendelenburg with right-side-up rotation", "isCorrect": true },
+          { "id": "d", "text": "D) Supine with left arm abducted", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Trendelenburg positioning, combined with rotation to the patient’s right side-up, improves exposure to the right lower quadrant and the appendix.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q3",
+        "text": "For complete laparoscopic examination of the small intestine, what is the recommended proximal starting point?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hepatic flexure", "isCorrect": false },
+          { "id": "b", "text": "B) Ligament of Treitz", "isCorrect": true },
+          { "id": "c", "text": "C) Cecum", "isCorrect": false },
+          { "id": "d", "text": "D) Terminal ileum", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Systematic evaluation should begin at the ligament of Treitz and proceed toward the ileocecal valve to ensure full small bowel assessment.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q4",
+        "text": "Which positioning setup is best when examining retroperitoneal structures such as the kidneys and adrenal glands?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine with arms abducted", "isCorrect": false },
+          { "id": "b", "text": "B) Reverse Trendelenburg with shoulder braces", "isCorrect": false },
+          { "id": "c", "text": "C) Lateral or semi-lateral with Trendelenburg as needed", "isCorrect": true },
+          { "id": "d", "text": "D) Lithotomy with footboard", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A lateral or semi-lateral position allows gravity to retract bowel and improve access to retroperitoneal structures, often combined with Trendelenburg or reverse Trendelenburg.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q5",
+        "text": "Which of the following is a contraindication to diagnostic laparoscopy for trauma?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blunt abdominal trauma", "isCorrect": false },
+          { "id": "b", "text": "B) Stable penetrating injury", "isCorrect": false },
+          { "id": "c", "text": "C) Uncorrectable hemodynamic instability", "isCorrect": true },
+          { "id": "d", "text": "D) Concern for diaphragmatic injury", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Diagnostic laparoscopy should not be performed in patients with severe or uncorrectable hemodynamic instability due to the risk of deterioration under insufflation.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q6",
+        "text": "In diagnostic laparoscopy for suspected pelvic pathology, how is uterine retraction most commonly achieved?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Abdominal wall traction", "isCorrect": false },
+          { "id": "b", "text": "B) Trendelenburg positioning only", "isCorrect": false },
+          { "id": "c", "text": "C) Transvaginal uterine manipulator", "isCorrect": true },
+          { "id": "d", "text": "D) Lateral abdominal wall retraction", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Uterine manipulation is most commonly accomplished with a transvaginal manipulator, though laparoscopic instruments or suture retraction are alternatives.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q7",
+        "text": "Which feature is most important to prevent disorientation during small bowel examination via laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of rigid laparoscope", "isCorrect": false },
+          { "id": "b", "text": "B) Diathermy to mark bowel", "isCorrect": false },
+          { "id": "c", "text": "C) Sequential and directional inspection", "isCorrect": true },
+          { "id": "d", "text": "D) Port placement on the midline", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A systematic and continuous approach from one end of the bowel to the other helps prevent loss of orientation, which may require restarting the exam.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q8",
+        "text": "Which statement best describes why energy sources should be used cautiously during diagnostic laparoscopy with adhesiolysis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They are ineffective at cutting adhesions", "isCorrect": false },
+          { "id": "b", "text": "B) They increase bleeding risk", "isCorrect": false },
+          { "id": "c", "text": "C) They can cause thermal injury to adjacent organs", "isCorrect": true },
+          { "id": "d", "text": "D) They require advanced credentialing", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "While sometimes necessary for hemostasis, energy devices should be used cautiously to avoid inadvertent injury, especially near bowel or other delicate structures.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q9",
+        "text": "Which monitor setup is preferred for small bowel evaluation during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) One monitor near the foot, one near the head", "isCorrect": true },
+          { "id": "b", "text": "B) Monitors placed bilaterally at the mid-abdomen", "isCorrect": false },
+          { "id": "c", "text": "C) One on each side of the patient, angled toward pelvis", "isCorrect": false },
+          { "id": "d", "text": "D) Monitors only on one side for consistency", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Placing one monitor near the foot and one near the head supports full visualization from the left upper quadrant (ligament of Treitz) to the right lower quadrant (ileocecal valve).",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q10",
+        "text": "Which laparoscopic finding is commonly missed on imaging but can be diagnosed via laparoscopy in trauma patients?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Appendicitis", "isCorrect": false },
+          { "id": "b", "text": "B) Diaphragmatic tear", "isCorrect": true },
+          { "id": "c", "text": "C) Cholelithiasis", "isCorrect": false },
+          { "id": "d", "text": "D) Renal cyst", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Traumatic diaphragmatic injuries are often missed on imaging but may be directly visualized during diagnostic laparoscopy.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q11",
+        "text": "Which of the following is the least appropriate indication for diagnostic laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Evaluation of acute abdominal pain when imaging is inconclusive", "isCorrect": false },
+          { "id": "b", "text": "B) Suspected intra-abdominal pathology despite negative imaging studies", "isCorrect": false },
+          { "id": "c", "text": "C) Screening for colorectal cancer in an asymptomatic patient who declines colonoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) Investigation of endometriosis with normal imaging but ongoing pelvic pain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Diagnostic laparoscopy is not an appropriate screening tool for colorectal cancer. It is invasive and carries procedural risks; noninvasive screening is preferred. The other options are reasonable indications when imaging fails to provide a diagnosis.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q12",
+        "text": "What is an important safety measure when placing a patient in steep reverse Trendelenburg?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Shoulder braces", "isCorrect": false },
+          { "id": "b", "text": "B) Lateral tilt", "isCorrect": false },
+          { "id": "c", "text": "C) Footboard and thigh strap", "isCorrect": true },
+          { "id": "d", "text": "D) Double arm boards", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "To prevent patient sliding or knee buckling, a footboard and thigh strap are essential when reverse Trendelenburg is used, particularly in obese patients.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q13",
+        "text": "Which condition could be diagnosed laparoscopically through visual inspection of the liver surface and parenchyma?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cholecystitis", "isCorrect": false },
+          { "id": "b", "text": "B) Cirrhosis", "isCorrect": true },
+          { "id": "c", "text": "C) Portal hypertension", "isCorrect": false },
+          { "id": "d", "text": "D) Hepatitis B", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cirrhosis often presents with macronodularity and other surface changes that can be directly visualized via laparoscopy. Portal hypertension and hepatitis B are diagnosed with hemodynamic and serologic assessments.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q14",
+        "text": "Which laparoscope generally provides the best visualization of the posterior surface of the anterior abdominal wall during diagnostic laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 0-degree laparoscope", "isCorrect": false },
+          { "id": "b", "text": "B) 30-degree angled laparoscope", "isCorrect": true },
+          { "id": "c", "text": "C) 45-degree angled laparoscope", "isCorrect": false },
+          { "id": "d", "text": "D) 0-degree laparoscope with digital enhancement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A 30-degree scope allows the surgeon to look around corners and visualize areas not directly in front of the scope, such as the posterior surface of the anterior abdominal wall. A 0-degree scope has a fixed forward view; 45-degree scopes are less commonly used due to visuospatial complexity.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q15",
+        "text": "Which of the following represents a recent advancement in minimally invasive surgery mentioned in the evolution of laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Open retroperitoneal access", "isCorrect": false },
+          { "id": "b", "text": "B) Natural orifice transluminal endoscopic surgery (NOTES)", "isCorrect": true },
+          { "id": "c", "text": "C) Intravenous robotic manipulators", "isCorrect": false },
+          { "id": "d", "text": "D) Midline robotic trocar deployment", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Natural orifice transluminal endoscopic surgery (NOTES) is a recognized modern innovation in minimally invasive surgery. The other options do not represent paradigm shifts described in the evolution of laparoscopy.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q16",
+        "text": "Which of the following is not a reason why laparoscopy has become more common in pediatric surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It eliminates the need for general anesthesia", "isCorrect": true },
+          { "id": "b", "text": "B) It may offer better visualization than open surgery", "isCorrect": false },
+          { "id": "c", "text": "C) Miniaturized instruments enable precise procedures in newborns", "isCorrect": false },
+          { "id": "d", "text": "D) Some instruments may be placed without ports", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pediatric laparoscopic surgery still requires general anesthesia. Its growth is due to better visualization and miniaturized instruments, not avoidance of anesthesia.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q17",
+        "text": "When evaluating a patient with small bowel obstruction during laparoscopy, what is the preferred starting point for examination?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Area of maximal distention", "isCorrect": false },
+          { "id": "b", "text": "B) Hepatic flexure", "isCorrect": false },
+          { "id": "c", "text": "C) Ileocecal valve", "isCorrect": true },
+          { "id": "d", "text": "D) Splenic flexure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In suspected small bowel obstruction, examination should begin at the ileocecal valve with collapsed bowel and proceed proximally to identify the transition point.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-q18",
+        "text": "Which technique is often necessary to access the kidneys, adrenal glands, or para-aortic lymph nodes above the aortic bifurcation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Trendelenburg positioning with steep lithotomy", "isCorrect": false },
+          { "id": "b", "text": "B) Colon mobilization", "isCorrect": true },
+          { "id": "c", "text": "C) Balloon port insertion", "isCorrect": false },
+          { "id": "d", "text": "D) Right lower quadrant access", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Mobilizing the colon is often required to expose retroperitoneal structures like the kidneys or para-aortic lymph nodes in the upper abdomen.",
+        "submodule": "Module 9 – Current and Diagnostic Laparoscopic Procedures",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

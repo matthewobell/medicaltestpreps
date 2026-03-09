@@ -1,0 +1,302 @@
+[
+  {
+    "id": "fls-module-1-laparoscopic-equipment-practice-test",
+    "title": "FLS Module 1: Laparoscopic Equipment",
+    "questions": [
+      {
+        "id": "m1-q1",
+        "text": "Which gas is most commonly used for creating pneumoperitoneum in laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Nitrous oxide", "isCorrect": false },
+          { "id": "b", "text": "B) Helium", "isCorrect": false },
+          { "id": "c", "text": "C) Carbon dioxide", "isCorrect": true },
+          { "id": "d", "text": "D) Oxygen", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Carbon dioxide is used because it is readily available, inexpensive, and does not support combustion.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q2",
+        "text": "Which of the following is NOT a component typically found on a laparoscopic video tower?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Light source", "isCorrect": false },
+          { "id": "b", "text": "B) Camera control unit", "isCorrect": false },
+          { "id": "c", "text": "C) Gas source", "isCorrect": true },
+          { "id": "d", "text": "D) Monitor", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The gas source is not part of the video tower; it is part of the insufflation system.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q3",
+        "text": "What system is traditionally used in laparoscopes to transmit light from the source to the operative field?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fiber chain system", "isCorrect": false },
+          { "id": "b", "text": "B) Hopkins rod-lens system", "isCorrect": true },
+          { "id": "c", "text": "C) Light prism system", "isCorrect": false },
+          { "id": "d", "text": "D) Digital sensor array", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The Hopkins rod-lens system is a traditional optical system for transmitting light in laparoscopes.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q4",
+        "text": "What might cause a blurry image when using a rod-lens laparoscope?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cracked optical fibers", "isCorrect": false },
+          { "id": "b", "text": "B) Fogging from temperature differential", "isCorrect": false },
+          { "id": "c", "text": "C) Moisture in the eyepiece", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blurry images can result from multiple issues, including fiber damage, fogging, or moisture on the lens.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q5",
+        "text": "Which of the following tasks is performed during the procedure rather than as part of the preoperative setup?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Verifying backup CO₂ tank availability", "isCorrect": false },
+          { "id": "b", "text": "B) Ensuring video and energy systems are powered on", "isCorrect": false },
+          { "id": "c", "text": "C) Confirming surgical instruments and supplies are available", "isCorrect": false },
+          { "id": "d", "text": "D) Assessing the level of neuromuscular blockade in the patient", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Muscle relaxation is monitored intraoperatively, not during equipment and room setup.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q6",
+        "text": "What is a 'reposable' laparoscopic instrument?",
+        "answerOptions": [
+          { "id": "a", "text": "A) A single-use instrument that can be reprocessed", "isCorrect": false },
+          { "id": "b", "text": "B) An instrument that combines reusable and disposable parts", "isCorrect": true },
+          { "id": "c", "text": "C) A fully disposable instrument", "isCorrect": false },
+          { "id": "d", "text": "D) A reusable energy source", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "'Reposable' refers to instruments with both reusable and disposable components.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q7",
+        "text": "If a laparoscopic image disappears entirely from the monitor, which of the following is the least likely explanation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fogging of the lens", "isCorrect": true },
+          { "id": "b", "text": "B) Disconnected video cable", "isCorrect": false },
+          { "id": "c", "text": "C) Burned-out light source bulb", "isCorrect": false },
+          { "id": "d", "text": "D) Power supply issue at the monitor", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fogging may obscure or blur the image but does not typically result in a completely blank screen.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q8",
+        "text": "What indicates a leak in the insufflation circuit?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Low pressure with high flow", "isCorrect": true },
+          { "id": "b", "text": "B) High pressure with low flow", "isCorrect": false },
+          { "id": "c", "text": "C) Stable pressure and flow", "isCorrect": false },
+          { "id": "d", "text": "D) Increased core temperature", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Low pressure with high flow suggests gas is escaping the circuit instead of inflating the abdomen.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q9",
+        "text": "Which laparoscope configuration generally provides the brightest image?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5mm, 30-degree rod lens", "isCorrect": false },
+          { "id": "b", "text": "B) 10mm, 0-degree rod lens", "isCorrect": true },
+          { "id": "c", "text": "C) 5mm digital chip at tip", "isCorrect": false },
+          { "id": "d", "text": "D) 10mm flexible-tip scope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Larger diameter and zero angle provide less optical loss and a brighter image.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q10",
+        "text": "Which solution would best prevent lens fogging at the start of a laparoscopic procedure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using cold saline", "isCorrect": false },
+          { "id": "b", "text": "B) Using a defogging solution and allowing it to dry", "isCorrect": true },
+          { "id": "c", "text": "C) Applying povidone-iodine", "isCorrect": false },
+          { "id": "d", "text": "D) Wiping with gauze and inserting immediately", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fogging is best prevented by applying a defogging solution and allowing it to dry.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q11",
+        "text": "During a laparoscopic procedure, the surgical field begins to collapse. Which of the following should be checked first?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Insufflator pressure and flow settings on the insufflator control panel", "isCorrect": true },
+          { "id": "b", "text": "B) CO₂ tubing connection to the cannula", "isCorrect": false },
+          { "id": "c", "text": "C) Whether the gas tank is empty", "isCorrect": false },
+          { "id": "d", "text": "D) Camera white balance", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Decreased operative space is usually due to loss of insufflation pressure or flow; check the insufflator control panel first.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q12",
+        "text": "How should the circulator manage carbon dioxide during surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Check flow rate periodically", "isCorrect": false },
+          { "id": "b", "text": "B) Monitor tank volume and communicate replacement timing", "isCorrect": true },
+          { "id": "c", "text": "C) Wipe condensation from laparoscope", "isCorrect": false },
+          { "id": "d", "text": "D) Adjust insufflation pressure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "It is the circulator’s responsibility to monitor CO₂ levels and arrange timely changes.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q13",
+        "text": "Which of the following is most critical for preventing intraoperative equipment failure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using the most advanced technology", "isCorrect": false },
+          { "id": "b", "text": "B) Having a central CO₂ line", "isCorrect": false },
+          { "id": "c", "text": "C) Performing preoperative and intraoperative checklists", "isCorrect": true },
+          { "id": "d", "text": "D) Keeping the lights dimmed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Routine checks are the most reliable way to prevent equipment issues.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q14",
+        "text": "Which port issue may lead to pneumoperitoneum loss?",
+        "answerOptions": [
+          { "id": "a", "text": "A) High CO₂ flow", "isCorrect": false },
+          { "id": "b", "text": "B) Mechanical seal leak", "isCorrect": true },
+          { "id": "c", "text": "C) Low abdominal pressure setting", "isCorrect": false },
+          { "id": "d", "text": "D) Short laparoscope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Leaks at the port's mechanical seal can allow CO₂ to escape, reducing working space.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q15",
+        "text": "What safety measure helps prevent operating room fire from light sources?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Turn on light source before connecting", "isCorrect": false },
+          { "id": "b", "text": "B) Use cloth wrap for light cable", "isCorrect": false },
+          { "id": "c", "text": "C) Connect light cable to scope before turning on light", "isCorrect": true },
+          { "id": "d", "text": "D) Switch to halogen light source", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Exposed light cables can ignite drapes—connect before powering on.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q16",
+        "text": "Which of the following energy sources may be used during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Electrosurgical unit", "isCorrect": false },
+          { "id": "b", "text": "B) Ultrasonic coagulator", "isCorrect": false },
+          { "id": "c", "text": "C) Laser", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopic surgery may use various energy sources including electrosurgical units, ultrasonic devices, and sometimes lasers.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q17",
+        "text": "Which component is responsible for recording still or video images during a laparoscopic procedure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Insufflator", "isCorrect": false },
+          { "id": "b", "text": "B) Camera control unit", "isCorrect": false },
+          { "id": "c", "text": "C) Digital capture device", "isCorrect": true },
+          { "id": "d", "text": "D) Light source", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Still or video images are typically saved via a digital capture device connected to the video system.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q18",
+        "text": "What is the correct method for checking the light cable for fiber damage?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Flex the cable sharply to observe flickering", "isCorrect": false },
+          { "id": "b", "text": "B) Immerse the tip in saline to check transmission", "isCorrect": false },
+          { "id": "c", "text": "C) Hold one end to a light source and the other to your eye to check for dark spots", "isCorrect": true },
+          { "id": "d", "text": "D) Check for sparks along the cable length", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This technique reveals broken optical fibers as black dots, indicating reduced transmission capacity.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q19",
+        "text": "Which imaging accessory may be used concurrently with laparoscopy and displayed via picture-in-picture?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Transvaginal ultrasound", "isCorrect": false },
+          { "id": "b", "text": "B) Flexible endoscope", "isCorrect": true },
+          { "id": "c", "text": "C) CT scan", "isCorrect": false },
+          { "id": "d", "text": "D) X-ray", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Picture-in-picture can display images from concurrent flexible endoscopy or intraoperative ultrasound.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q20",
+        "text": "Which method is used to increase light output if the laparoscopic image is too dim?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Switch from automatic to manual iris and increase gain", "isCorrect": true },
+          { "id": "b", "text": "B) Add a second light source", "isCorrect": false },
+          { "id": "c", "text": "C) Change camera cable", "isCorrect": false },
+          { "id": "d", "text": "D) Increase insufflation pressure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Adjusting light source settings, including switching to manual and increasing gain, can brighten the image.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q21",
+        "text": "What is the appropriate management if a suction/irrigation line is occluded?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Replace the CO₂ line", "isCorrect": false },
+          { "id": "b", "text": "B) Detach and flush with sterile saline", "isCorrect": true },
+          { "id": "c", "text": "C) Lower the OR table", "isCorrect": false },
+          { "id": "d", "text": "D) Increase abdominal pressure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Flushing occluded suction or irrigation lines with saline clears clots or debris.",
+        "submodule": "Module 1 – Laparoscopic Equipment",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

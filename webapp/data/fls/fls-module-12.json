@@ -1,0 +1,308 @@
+[
+  {
+    "id": "fls-module-12-hemorrhage-hemostasis",
+    "title": "FLS Module 12: Hemorrhage and Hemostasis",
+    "questions": [
+      {
+        "id": "m12-q1",
+        "text": "Which of the following actions is not recommended when controlling intraoperative bleeding laparoscopically?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Applying pressure with a small gauze pad", "isCorrect": false },
+          { "id": "b", "text": "B) Maintaining a clear scope view", "isCorrect": false },
+          { "id": "c", "text": "C) Applying vascular clips to the general bleeding area without identifying the source", "isCorrect": true },
+          { "id": "d", "text": "D) Adding ports to introduce additional instruments", "isCorrect": false },
+          { "id": "e", "text": "E) Using gentle dissection to identify the bleeding source", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blindly applying clips may lead to failure of hemostasis or injury to adjacent structures. Identifying the specific source is essential.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q2",
+        "text": "Which of the following statements is true about trocar-related bleeding?",
+        "answerOptions": [
+          { "id": "a", "text": "A) External bleeding is usually detected only after insufflation", "isCorrect": false },
+          { "id": "b", "text": "B) Internal bleeding may be masked while the trocar is still in place", "isCorrect": true },
+          { "id": "c", "text": "C) Port bleeding does not occur with blunt trocars", "isCorrect": false },
+          { "id": "d", "text": "D) The epigastric vessels are best avoided by placing ports blindly", "isCorrect": false },
+          { "id": "e", "text": "E) There is no need for visualization during port removal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The trocar itself may tamponade bleeding, making it undetectable until removal. Removal under laparoscopic vision is recommended.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q3",
+        "text": "Compared to monopolar cautery, bipolar devices have which advantage in laparoscopic hemostasis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Greater lateral thermal spread", "isCorrect": false },
+          { "id": "b", "text": "B) Higher peak temperature", "isCorrect": false },
+          { "id": "c", "text": "C) More effective on capillary-sized vessels", "isCorrect": false },
+          { "id": "d", "text": "D) Less collateral thermal damage", "isCorrect": true },
+          { "id": "e", "text": "E) Higher energy output", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar energy causes less lateral thermal spread and is safer near vital structures, particularly for medium-sized vessels.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q4",
+        "text": "When a large vessel is being dissected laparoscopically, what is the most critical preparation step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Choosing braided suture over monofilament", "isCorrect": false },
+          { "id": "b", "text": "B) Identifying a single avascular window", "isCorrect": false },
+          { "id": "c", "text": "C) Gaining proximal and distal control before transection", "isCorrect": true },
+          { "id": "d", "text": "D) Using monopolar cautery first", "isCorrect": false },
+          { "id": "e", "text": "E) Pre-loading a 5 mm clip applier", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Larger vessels require secure control both proximally and distally before division to avoid catastrophic bleeding.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q5",
+        "text": "What is a disadvantage of vascular clips in laparoscopic hemostasis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They can only be used on arteries", "isCorrect": false },
+          { "id": "b", "text": "B) They require two-handed deployment", "isCorrect": false },
+          { "id": "c", "text": "C) They are difficult to sterilize", "isCorrect": false },
+          { "id": "d", "text": "D) Incomplete closure or dislodgement may impede future hemostasis efforts", "isCorrect": true },
+          { "id": "e", "text": "E) They are incompatible with plastic ports", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "If a clip fails to fully close or dislodges, it may obscure the bleeding point and interfere with subsequent attempts to stop bleeding.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q6",
+        "text": "Which hemostatic approach is most appropriate for slow, diffuse bleeding from a raw surface?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bipolar cautery", "isCorrect": false },
+          { "id": "b", "text": "B) Vascular clips", "isCorrect": false },
+          { "id": "c", "text": "C) Hemostatic agent", "isCorrect": true },
+          { "id": "d", "text": "D) Stapler", "isCorrect": false },
+          { "id": "e", "text": "E) Endoloop", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hemostatic agents are most effective for slow, non-pulsatile bleeding where they can adhere and activate clotting mechanisms.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q7",
+        "text": "Which of the following would be most appropriate for temporary tamponade of a bleeding port site?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Roeder’s knot", "isCorrect": false },
+          { "id": "b", "text": "B) Inflated Foley catheter through the port", "isCorrect": true },
+          { "id": "c", "text": "C) Hemostatic agent", "isCorrect": false },
+          { "id": "d", "text": "D) Bipolar cautery", "isCorrect": false },
+          { "id": "e", "text": "E) Steri-strips and gauze", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A Foley balloon can tamponade internal bleeding temporarily until definitive control is established.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q8",
+        "text": "Suture ligation of a port site bleeder is performed by:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Inserting a Veress needle into the site", "isCorrect": false },
+          { "id": "b", "text": "B) Passing sutures blindly through the port tract", "isCorrect": false },
+          { "id": "c", "text": "C) Using a Keith needle to pass suture through and across the site", "isCorrect": true },
+          { "id": "d", "text": "D) Applying an Endoloop extracorporeally", "isCorrect": false },
+          { "id": "e", "text": "E) Injecting thrombin gel into the wound", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Suture compression techniques use a straight or spinal needle (such as a Keith needle) to pass absorbable suture through the abdominal wall and peritoneum to control port bleeding.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q9",
+        "text": "During surgery a patient becomes hemodynamically unstable and a retroperitoneal bleed is suspected but cannot be visualized laparoscopically. What is the best course of action?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Attempt bipolar cautery in the area", "isCorrect": false },
+          { "id": "b", "text": "B) Place an Endoloop blindly", "isCorrect": false },
+          { "id": "c", "text": "C) Irrigate and reassess in 30 minutes", "isCorrect": false },
+          { "id": "d", "text": "D) Convert to open surgery promptly", "isCorrect": true },
+          { "id": "e", "text": "E) Switch to robotic approach", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Suspected retroperitoneal or mesenteric bleeding with hemodynamic instability requires immediate open exploration.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q10",
+        "text": "Which of the following suggests Veress needle injury to retroperitoneal or mesenteric vessels?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bleeding controlled with clips", "isCorrect": false },
+          { "id": "b", "text": "B) Rapid drop in CO₂ pressure", "isCorrect": false },
+          { "id": "c", "text": "C) Hematoma behind overlying bowel with no visible source", "isCorrect": true },
+          { "id": "d", "text": "D) Gas embolism with bradycardia", "isCorrect": false },
+          { "id": "e", "text": "E) Bleeding around the camera port", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A retroperitoneal or mesenteric hematoma that is visible only as a bulge behind bowel without a clear source can indicate injury from blind Veress needle insertion.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q11",
+        "text": "Compared to Veress needle injuries, trocar injuries to vessels are more likely to:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Go unrecognized for hours", "isCorrect": false },
+          { "id": "b", "text": "B) Cause hematomas only", "isCorrect": false },
+          { "id": "c", "text": "C) Produce larger tears and immediate blood loss", "isCorrect": true },
+          { "id": "d", "text": "D) Affect only veins", "isCorrect": false },
+          { "id": "e", "text": "E) Be managed conservatively", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Trocar injuries often result in larger vessel lacerations with brisk bleeding that typically requires urgent intervention.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q12",
+        "text": "What is one limitation of hemostatic agents in laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cannot be applied with a trocar", "isCorrect": false },
+          { "id": "b", "text": "B) Require cautery activation", "isCorrect": false },
+          { "id": "c", "text": "C) Ineffective for rapid or arterial bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Cause foreign body reactions", "isCorrect": false },
+          { "id": "e", "text": "E) Must be applied externally", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hemostatic agents are not suitable for high-flow or arterial bleeding because they can be displaced and do not work quickly enough in those settings.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q13",
+        "text": "Which is an example of mechanical hemostasis in laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bipolar electrocautery", "isCorrect": false },
+          { "id": "b", "text": "B) Roeder’s knot", "isCorrect": true },
+          { "id": "c", "text": "C) Topical thrombin", "isCorrect": false },
+          { "id": "d", "text": "D) Argon plasma coagulation", "isCorrect": false },
+          { "id": "e", "text": "E) Harmonic scalpel", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Sutures, clips, staplers, and knot-tying techniques like Roeder’s knot are mechanical methods of achieving hemostasis.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q14",
+        "text": "For a flat bleeding surface near a hollow organ, which method is most appropriate when energy devices are contraindicated?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Clip application", "isCorrect": false },
+          { "id": "b", "text": "B) Figure-of-eight suture", "isCorrect": true },
+          { "id": "c", "text": "C) Bipolar cautery", "isCorrect": false },
+          { "id": "d", "text": "D) Monopolar hook", "isCorrect": false },
+          { "id": "e", "text": "E) Hemostatic powder only", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A figure-of-eight suture is ideal for flat bleeding surfaces, especially near sensitive structures where cautery is risky.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q15",
+        "text": "Which technique allows suture placement at a port site using only standard laparoscopic tools and percutaneous access?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Roeder’s knot via Endoloop", "isCorrect": false },
+          { "id": "b", "text": "B) Linear stapler", "isCorrect": false },
+          { "id": "c", "text": "C) Keith needle suture passage", "isCorrect": true },
+          { "id": "d", "text": "D) Clip ligation", "isCorrect": false },
+          { "id": "e", "text": "E) Topical hemostatic gel", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Percutaneous placement with a Keith needle allows suture ligation of internal bleeding at the port site using standard instruments.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q16",
+        "text": "What type of vessel can typically be sealed with monopolar cautery alone without proximal control?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Inferior epigastric artery", "isCorrect": false },
+          { "id": "b", "text": "B) Mesenteric artery", "isCorrect": false },
+          { "id": "c", "text": "C) Large portal vein tributary", "isCorrect": false },
+          { "id": "d", "text": "D) Capillary-sized vessel", "isCorrect": true },
+          { "id": "e", "text": "E) Renal artery branch", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Small, capillary-sized vessels can generally be sealed safely with monopolar energy without formal vascular control.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q17",
+        "text": "What is the main risk if vascular clips are placed without isolating the bleeding vessel?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Delayed suture requirement", "isCorrect": false },
+          { "id": "b", "text": "B) Inability to push clips with the applier", "isCorrect": false },
+          { "id": "c", "text": "C) Poor cosmetic outcome", "isCorrect": false },
+          { "id": "d", "text": "D) Failure of the clip to fully close", "isCorrect": true },
+          { "id": "e", "text": "E) Scar formation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "If the vessel is not properly isolated, clips may not close completely around it, leading to inadequate hemostasis and potential dislodgement.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q18",
+        "text": "Which is a key advantage of vascular clip appliers?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Multi-port compatibility", "isCorrect": false },
+          { "id": "b", "text": "B) Single-handed deployment", "isCorrect": true },
+          { "id": "c", "text": "C) High success in diffuse oozing", "isCorrect": false },
+          { "id": "d", "text": "D) Auto-firing mechanism", "isCorrect": false },
+          { "id": "e", "text": "E) Low profile for 3 mm ports", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Clip appliers allow quick, one-handed placement, which is particularly useful in bleeding scenarios where exposure and time are limited.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q19",
+        "text": "Which energy modality is most suitable for controlled sealing of medium-sized vessels with low lateral thermal spread?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monopolar hook cautery", "isCorrect": false },
+          { "id": "b", "text": "B) Argon beam coagulator", "isCorrect": false },
+          { "id": "c", "text": "C) Bipolar advanced energy", "isCorrect": true },
+          { "id": "d", "text": "D) Harmonic scalpel only", "isCorrect": false },
+          { "id": "e", "text": "E) Endoscopic clip applier", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Advanced bipolar devices seal vessels effectively with controlled thermal spread and reduced collateral damage, making them ideal for medium-sized vessels.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-q20",
+        "text": "What is the most important predictive factor for successful laparoscopic hemostasis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Port size", "isCorrect": false },
+          { "id": "b", "text": "B) Number of energy modalities", "isCorrect": false },
+          { "id": "c", "text": "C) Anatomical knowledge and anticipation of hidden vessels", "isCorrect": true },
+          { "id": "d", "text": "D) Brand of bipolar cautery", "isCorrect": false },
+          { "id": "e", "text": "E) Number of trocars placed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Understanding vascular anatomy and anticipating vessel locations during dissection is critical to minimizing and controlling bleeding.",
+        "submodule": "Module 12 – Hemorrhage and Hemostasis",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "fls-module-10-biopsy",
+    "title": "FLS Module 10: Biopsy",
+    "questions": [
+      {
+        "id": "m10-q1",
+        "text": "Which type of biopsy is most likely to provide tissue architecture but not the entire lesion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fine needle aspiration", "isCorrect": false },
+          { "id": "b", "text": "B) Excisional biopsy", "isCorrect": false },
+          { "id": "c", "text": "C) Incisional (wedge) biopsy", "isCorrect": true },
+          { "id": "d", "text": "D) Cytology brush biopsy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Incisional biopsy collects a sample of a lesion and allows evaluation of tissue architecture. It differs from excisional biopsy, which removes the entire lesion.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q2",
+        "text": "Which technique is least recommended when removing a biopsy specimen for culture or cytologic evaluation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using a specimen retrieval pouch", "isCorrect": false },
+          { "id": "b", "text": "B) Extracting through a wound protector", "isCorrect": false },
+          { "id": "c", "text": "C) Electrocautery dissection of the lesion", "isCorrect": true },
+          { "id": "d", "text": "D) Using atraumatic forceps for removal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Electrocautery may sterilize or distort the specimen, compromising cultures or histopathology. Cold instruments or minimal-energy dissection is preferred.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q3",
+        "text": "What is the correct gauge size typically used for laparoscopic core needle biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 20-gauge", "isCorrect": false },
+          { "id": "b", "text": "B) 23–25 gauge", "isCorrect": false },
+          { "id": "c", "text": "C) 14–18 gauge", "isCorrect": true },
+          { "id": "d", "text": "D) 10–12 gauge", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Core biopsy needles commonly used laparoscopically fall in the 14–18 gauge range and provide a tissue cylinder for histologic evaluation.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q4",
+        "text": "Which of the following is most appropriate when performing fine needle aspiration (FNA) under laparoscopic guidance?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Maintain suction while withdrawing the needle from the tissue", "isCorrect": false },
+          { "id": "b", "text": "B) Use electrocautery to control bleeding before specimen collection", "isCorrect": false },
+          { "id": "c", "text": "C) Release suction before removing the needle", "isCorrect": true },
+          { "id": "d", "text": "D) Use a 10 mm trocar for needle placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Releasing the plunger (and thus the suction) before needle withdrawal prevents contamination of surrounding tissues and loss of aspirated cells.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q5",
+        "text": "In which clinical situation is oophorectomy preferred over biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Dermoid cyst in a premenopausal patient", "isCorrect": false },
+          { "id": "b", "text": "B) Corpus luteum cyst < 3 cm in premenopausal patient", "isCorrect": false },
+          { "id": "c", "text": "C) Complex solid-cystic ovarian mass > 5 cm in a postmenopausal patient", "isCorrect": true },
+          { "id": "d", "text": "D) Endometrioma in a 25-year-old", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In this scenario malignancy is potentially suspected; therefore, oophorectomy is preferred to avoid rupture, spillage, and seeding during biopsy.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q6",
+        "text": "Which of the following is not a general principle of safe laparoscopic biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Avoid biopsy of fluid-filled vascular liver lesions", "isCorrect": false },
+          { "id": "b", "text": "B) Use energy sources sparingly near vital structures", "isCorrect": false },
+          { "id": "c", "text": "C) Always remove specimens with cautery to prevent bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Place the specimen in a retrieval sac for extraction if large", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Energy sources should be avoided during removal as they can damage the specimen. Hemostasis should be performed after specimen retrieval.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q7",
+        "text": "Which instrument is designed specifically for laparoscopic tissue biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Maryland dissector", "isCorrect": false },
+          { "id": "b", "text": "B) Carter-Thomason device", "isCorrect": false },
+          { "id": "c", "text": "C) Biopsy forceps", "isCorrect": true },
+          { "id": "d", "text": "D) Endoscopic shears", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopic biopsy forceps are designed with hollowed jaws and cutting rims to obtain clean tissue samples without crushing.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q8",
+        "text": "What is the preferred hemostatic method after liver biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ice lavage", "isCorrect": false },
+          { "id": "b", "text": "B) Direct pressure and hemostatic agents", "isCorrect": true },
+          { "id": "c", "text": "C) Routine suturing", "isCorrect": false },
+          { "id": "d", "text": "D) Compression with ultrasonic probe", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hemostasis after liver biopsy is typically achieved with direct pressure and hemostatic agents; suturing is not routinely required.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q9",
+        "text": "Which site is not typically associated with laparoscopic lymph node biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pelvic lymph nodes along the external iliac vein", "isCorrect": false },
+          { "id": "b", "text": "B) Retroperitoneal lymph nodes along the aorta and common iliac vessels", "isCorrect": false },
+          { "id": "c", "text": "C) Porta hepatis lymph nodes along the hepatoduodenal ligament", "isCorrect": false },
+          { "id": "d", "text": "D) Mesenteric root lymph nodes", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Common laparoscopic lymph node biopsy sites include pelvic, retroperitoneal, and porta hepatis nodes. The mesenteric root is more difficult to access and higher risk, so it is not a typical target.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q10",
+        "text": "Why should peritoneal washings be performed early in a cancer staging laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To avoid contaminating the sample with blood", "isCorrect": true },
+          { "id": "b", "text": "B) Because saline must dwell in the cavity for >30 minutes", "isCorrect": false },
+          { "id": "c", "text": "C) To help with trocar placement planning", "isCorrect": false },
+          { "id": "d", "text": "D) Because cytology equipment is only available early", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Early collection of peritoneal washings avoids blood and manipulation artifacts, ensuring a cleaner specimen for cytology or culture.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q11",
+        "text": "How much fluid is typically used for peritoneal washings in staging procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 20 cc", "isCorrect": false },
+          { "id": "b", "text": "B) 50 cc", "isCorrect": false },
+          { "id": "c", "text": "C) 100 cc", "isCorrect": true },
+          { "id": "d", "text": "D) 500 cc", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Approximately 100 cc of normal saline is instilled and later aspirated for peritoneal washings in staging laparoscopies.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q12",
+        "text": "Which of the following best describes the use of core needle biopsy in the liver?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Preferred for cystic lesions", "isCorrect": false },
+          { "id": "b", "text": "B) Should be avoided in cirrhosis", "isCorrect": false },
+          { "id": "c", "text": "C) Commonly used for parenchymal disease and solid masses", "isCorrect": true },
+          { "id": "d", "text": "D) Rarely used due to bleeding risk", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Core needle biopsy is frequently used for diagnosing cirrhosis or solid liver lesions. Caution is advised near vascular lesions like hemangiomas.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q13",
+        "text": "Which biopsy method provides cytologic information only, not tissue architecture?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Incisional biopsy", "isCorrect": false },
+          { "id": "b", "text": "B) Fine needle aspiration", "isCorrect": true },
+          { "id": "c", "text": "C) Wedge biopsy", "isCorrect": false },
+          { "id": "d", "text": "D) Core needle biopsy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fine needle aspiration yields cells for cytologic assessment but does not preserve tissue architecture.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q14",
+        "text": "Why is care needed when biopsying hollow viscus surface lesions?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Risk of foreign body retention", "isCorrect": false },
+          { "id": "b", "text": "B) Risk of postoperative diarrhea", "isCorrect": false },
+          { "id": "c", "text": "C) Risk of tissue overgrowth", "isCorrect": false },
+          { "id": "d", "text": "D) Risk of leakage or perforation", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Biopsying hollow organs can create defects; surgeons should consider reapproximating tissue to avoid leakage or perforation.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q15",
+        "text": "When removing a larger biopsy specimen, which extraction method is preferred?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Through an EndoCatch bag via port", "isCorrect": true },
+          { "id": "b", "text": "B) Using suction and electrocautery", "isCorrect": false },
+          { "id": "c", "text": "C) Through the main suction cannister", "isCorrect": false },
+          { "id": "d", "text": "D) Grasped directly and pulled through fascia", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Large specimens should be placed in a retrieval pouch to prevent tissue seeding or contamination of the port site during removal.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q16",
+        "text": "Which of the following lesions should generally not be biopsied due to high bleeding risk?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Flat liver lesion", "isCorrect": false },
+          { "id": "b", "text": "B) Ovarian dermoid", "isCorrect": false },
+          { "id": "c", "text": "C) Hepatic hemangioma", "isCorrect": true },
+          { "id": "d", "text": "D) Superficial peritoneal implant", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hepatic hemangiomas are vascular lesions prone to significant bleeding if biopsied and are typically diagnosed radiographically instead.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q17",
+        "text": "What is the primary reason for using ultrasound guidance during laparoscopic biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It replaces specimen handling", "isCorrect": false },
+          { "id": "b", "text": "B) It improves surface tissue architecture", "isCorrect": false },
+          { "id": "c", "text": "C) It helps localize deep or nonvisible lesions", "isCorrect": true },
+          { "id": "d", "text": "D) It avoids the need for anesthesia", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Intraoperative ultrasound allows accurate targeting of lesions not visible on the peritoneal surface and reduces the risk of injury to adjacent structures.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q18",
+        "text": "Which of the following techniques minimizes risk to vital structures during retroperitoneal biopsy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of monopolar electrocautery adjacent to vessels", "isCorrect": false },
+          { "id": "b", "text": "B) Use of suture ligature or Endoloop on nodal blood supply", "isCorrect": true },
+          { "id": "c", "text": "C) Insertion of Veress needle without tenting abdominal walls", "isCorrect": false },
+          { "id": "d", "text": "D) Sharp dissection with Metzenbaum scissors only", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "When dissecting near critical structures (ureters, nerves, vessels), suture ligation is safer than thermal energy.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q19",
+        "text": "What is the recommended technique to avoid specimen loss when collecting peritoneal washings?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Suction into the main canister directly", "isCorrect": false },
+          { "id": "b", "text": "B) Allow saline to dwell for 15 minutes before suction", "isCorrect": false },
+          { "id": "c", "text": "C) Use a trap between suction tubing and canister", "isCorrect": true },
+          { "id": "d", "text": "D) Mix aspirate with formalin immediately", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A fluid trap ensures the sample is collected before reaching the main canister, preserving the specimen for cytology or culture.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10-q20",
+        "text": "In a complex cystic ovarian lesion where complete cystectomy may be difficult, what is the most appropriate next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Perform cyst wall fenestration and aspirate fluid", "isCorrect": false },
+          { "id": "b", "text": "B) Leave the lesion and re-image in 6 months", "isCorrect": false },
+          { "id": "c", "text": "C) Convert to laparotomy for full removal", "isCorrect": false },
+          { "id": "d", "text": "D) Refer to a specialist with expertise in complex laparoscopic cystectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Complete removal of complex cysts may benefit the patient but requires advanced skill. Referral ensures appropriate care without compromising safety.",
+        "submodule": "Module 10 – Biopsy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

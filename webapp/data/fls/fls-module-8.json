@@ -1,0 +1,288 @@
+[
+  {
+    "id": "fls-module-8-exiting-the-abdomen",
+    "title": "FLS Module 8: Exiting the Abdomen",
+    "questions": [
+      {
+        "id": "m8-q1",
+        "text": "At the end of a laparoscopic procedure, which of the following is the most critical purpose of performing a \"last look\" throughout the abdomen?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To ensure all ports are removed", "isCorrect": false },
+          { "id": "b", "text": "B) To locate obscure bleeding or visceral injury", "isCorrect": true },
+          { "id": "c", "text": "C) To verify instrument counts", "isCorrect": false },
+          { "id": "d", "text": "D) To allow spontaneous deflation of pneumoperitoneum", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A final, systematic inspection ensures that remote injuries (e.g., cautery burns, trocar trauma) or hidden bleeding are not missed.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q2",
+        "text": "Which of the following techniques may reveal venous oozing during the final inspection?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Irrigating the abdomen", "isCorrect": false },
+          { "id": "b", "text": "B) Applying Trendelenburg position", "isCorrect": false },
+          { "id": "c", "text": "C) Slightly lowering pneumoperitoneum pressure", "isCorrect": true },
+          { "id": "d", "text": "D) Flushing the CO₂ through the drain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pneumoperitoneum can tamponade venous bleeding; reducing pressure may reveal otherwise hidden venous ooze.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q3",
+        "text": "Which is the most common source of unrecognized bleeding at the conclusion of laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Trocar injury to abdominal wall vessels", "isCorrect": true },
+          { "id": "b", "text": "B) Bladder perforation", "isCorrect": false },
+          { "id": "c", "text": "C) Ligation site hematoma", "isCorrect": false },
+          { "id": "d", "text": "D) Bleeding from adhesions", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Vessel injury at trocar sites may be obscured by pneumoperitoneum and should be checked during desufflation and port removal.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q4",
+        "text": "What is a recommended technique for placing a drain laparoscopically?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of a Veress needle", "isCorrect": false },
+          { "id": "b", "text": "B) Pulling the drain through a port site with a grasper", "isCorrect": true },
+          { "id": "c", "text": "C) Creating a new stab incision", "isCorrect": false },
+          { "id": "d", "text": "D) Use of a robotic arm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A common method is to insert the drain through an existing trocar site using laparoscopic assistance.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q5",
+        "text": "What is a documented risk of placing a surgical drain through a laparoscopic port site?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Persistent pneumoperitoneum", "isCorrect": false },
+          { "id": "b", "text": "B) Difficulty removing the drain postoperatively", "isCorrect": false },
+          { "id": "c", "text": "C) Trocar site hernia due to inadequate fascial closure", "isCorrect": true },
+          { "id": "d", "text": "D) Carbon dioxide reflux into the drain tubing", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Placing a drain through a 10 mm or larger trocar site can compromise fascial closure, increasing the risk of postoperative herniation or even evisceration. Proper closure of port sites is essential, especially when the drain is removed.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q6",
+        "text": "Which of the following is a valid reason to close a trocar site fascia?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To reduce infection", "isCorrect": false },
+          { "id": "b", "text": "B) To minimize postoperative ileus", "isCorrect": false },
+          { "id": "c", "text": "C) To prevent hernia formation", "isCorrect": true },
+          { "id": "d", "text": "D) To avoid CO₂ retention", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fascial closure reduces risk of port site hernia, especially with large, non-dilating trocars.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q7",
+        "text": "Which trocar size is typically considered the threshold for fascial closure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 3 mm", "isCorrect": false },
+          { "id": "b", "text": "B) 5 mm", "isCorrect": false },
+          { "id": "c", "text": "C) 10 mm", "isCorrect": true },
+          { "id": "d", "text": "D) 15 mm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Trocars ≥10 mm often require fascial closure; 5 mm sites may be closed selectively in pediatric or high-risk patients.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q8",
+        "text": "Which of the following port sites is most likely to require fascial closure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5 mm midline port in a healthy adult", "isCorrect": false },
+          { "id": "b", "text": "B) 12 mm lateral port in an obese patient", "isCorrect": true },
+          { "id": "c", "text": "C) 3 mm suprapubic port", "isCorrect": false },
+          { "id": "d", "text": "D) 5 mm subcostal port with a dilating cannula", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Large ports, especially in obese patients, carry increased hernia risk and should be closed.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q9",
+        "text": "Which of the following is least likely to be a risk factor for development of a trocar site hernia?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pediatric age group", "isCorrect": false },
+          { "id": "b", "text": "B) Use of non-dilating trocar", "isCorrect": false },
+          { "id": "c", "text": "C) Obesity", "isCorrect": false },
+          { "id": "d", "text": "D) Use of a blunt-tipped 5 mm dilating trocar in a healthy adult", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fascial closure is typically not required for 5 mm ports, especially if a dilating trocar is used in a low-risk patient. Pediatric patients, obesity, and cutting trocars increase hernia risk.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q10",
+        "text": "Which of the following techniques involves suturing the fascia from within the peritoneal cavity?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Open fascial closure", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic-guided closure", "isCorrect": false },
+          { "id": "c", "text": "C) Purely laparoscopic technique", "isCorrect": true },
+          { "id": "d", "text": "D) Use of a trocar closure device", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This approach uses laparoscopic instruments to suture the fascia from inside the abdomen, but visualization may be limited.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q11",
+        "text": "In the laparoscopic-assisted fascial closure technique, what is the purpose of passing the suture lateral to the trocar?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To minimize seroma formation", "isCorrect": false },
+          { "id": "b", "text": "B) To avoid contact with muscle fibers", "isCorrect": false },
+          { "id": "c", "text": "C) To ensure inclusion of fascia in the stitch", "isCorrect": true },
+          { "id": "d", "text": "D) To allow for drain placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Proper lateral placement captures the fascia effectively for secure closure.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q12",
+        "text": "Which of the following devices is commonly used for fascial closure via a skin-to-skin technique?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monopolar hook", "isCorrect": false },
+          { "id": "b", "text": "B) Keith needle", "isCorrect": true },
+          { "id": "c", "text": "C) Veress needle", "isCorrect": false },
+          { "id": "d", "text": "D) U-stitcher", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A Keith needle can be used to pass suture through both sides of a port site for closure.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q13",
+        "text": "What is the recommended technique for fascial closure in obese patients when using an open method?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of blunt-tipped instruments only", "isCorrect": false },
+          { "id": "b", "text": "B) Use of very curved needles and skin extension if needed", "isCorrect": true },
+          { "id": "c", "text": "C) Avoid fascial closure entirely", "isCorrect": false },
+          { "id": "d", "text": "D) Use of subcuticular stitch only", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Exposure can be challenging; curved needles and enlarging the skin incision can help reach the fascia.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q14",
+        "text": "Which of the following best describes proper skin closure at the end of laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Always close with non-absorbable suture", "isCorrect": false },
+          { "id": "b", "text": "B) Use only staples for rapid closure", "isCorrect": false },
+          { "id": "c", "text": "C) Close with subcuticular stitch and/or Steri-Strips", "isCorrect": true },
+          { "id": "d", "text": "D) Skin closure is not required", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Skin is often closed with subcuticular sutures or skin adhesives/tapes.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q15",
+        "text": "Why is it important to evacuate CO₂ at the end of laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To prevent incisional cellulitis", "isCorrect": false },
+          { "id": "b", "text": "B) To enhance urinary output", "isCorrect": false },
+          { "id": "c", "text": "C) To reduce postoperative shoulder pain", "isCorrect": true },
+          { "id": "d", "text": "D) To prevent port site infection", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Retained gas irritates the diaphragm and phrenic nerve, contributing to shoulder pain.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q16",
+        "text": "In which of the following situations should fascial closure be considered for a 5 mm port site?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Adult patient with BMI of 22", "isCorrect": false },
+          { "id": "b", "text": "B) Use of a dilating trocar", "isCorrect": false },
+          { "id": "c", "text": "C) Pediatric patient undergoing laparoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) Single 5 mm lateral port used for camera access", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Though fascial closure is generally unnecessary for 5 mm ports, it may be indicated in pediatric patients due to a proportionally thinner abdominal wall and higher relative hernia risk.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q17",
+        "text": "Which feature of a non-dilating trocar increases the risk of port site hernia?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blunt-tip entry", "isCorrect": false },
+          { "id": "b", "text": "B) Use of a dilating inner obturator", "isCorrect": false },
+          { "id": "c", "text": "C) Cutting mechanism that creates a fascial defect", "isCorrect": true },
+          { "id": "d", "text": "D) Insertion at an angle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Non-dilating, cutting trocars create a clean fascial defect that doesn’t self-seal, increasing the likelihood of hernia if not closed.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q18",
+        "text": "Which of the following is a true statement regarding CO₂ gas retention post-laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is a marker of incomplete surgery", "isCorrect": false },
+          { "id": "b", "text": "B) It is associated with increased risk of hernia", "isCorrect": false },
+          { "id": "c", "text": "C) It is radiographically detectable for up to 3 days", "isCorrect": true },
+          { "id": "d", "text": "D) It results in delayed gastric emptying", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Residual CO₂ may be visible on imaging following surgery but is typically clinically insignificant and self-resolving.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q19",
+        "text": "What is the primary advantage of laparoscopic-guided fascial closure compared to purely laparoscopic closure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Eliminates the need for suturing", "isCorrect": false },
+          { "id": "b", "text": "B) Allows closure without skin incisions", "isCorrect": false },
+          { "id": "c", "text": "C) Visual control while allowing external instrument use", "isCorrect": true },
+          { "id": "d", "text": "D) Reduces hernia risk more than open closure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The laparoscopic-assisted technique offers the advantage of visual control while allowing external instrument use to close the fascia securely.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-q20",
+        "text": "When using a Keith needle for fascial closure, which of the following is an important safety tip?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use it only through 5 mm ports", "isCorrect": false },
+          { "id": "b", "text": "B) Avoid reversing the needle intra-abdominally", "isCorrect": false },
+          { "id": "c", "text": "C) Use laparoscopic grasper to direct the needle across the fascia", "isCorrect": true },
+          { "id": "d", "text": "D) Use it to place tacking sutures for the drain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A Keith needle is inserted from one side and manipulated intra-abdominally with a grasper to exit on the opposite side of the port site, allowing fascial closure without full skin extension.",
+        "submodule": "Module 8 – Exiting the Abdomen",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

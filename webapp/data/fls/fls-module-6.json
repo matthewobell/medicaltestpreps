@@ -1,0 +1,330 @@
+[
+  {
+    "id": "fls-module-6-pneumoperitoneum-and-trocar-placement",
+    "title": "FLS Module 6: Pneumoperitoneum & Trocar Placement",
+    "questions": [
+      {
+        "id": "m6-q1",
+        "text": "Which location is most commonly used for initial trocar insertion in laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Right upper quadrant", "isCorrect": false },
+          { "id": "b", "text": "B) Periumbilical region", "isCorrect": true },
+          { "id": "c", "text": "C) Left lower quadrant", "isCorrect": false },
+          { "id": "d", "text": "D) Epigastrium", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The umbilicus is commonly chosen due to its thin abdominal wall and central location, which often provides optimal access to the peritoneal cavity.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q2",
+        "text": "Which of the following is the most reliable indicator that the Veress needle is correctly placed intraperitoneally?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Audible click upon insertion", "isCorrect": false },
+          { "id": "b", "text": "B) No resistance to manual pressure", "isCorrect": false },
+          { "id": "c", "text": "C) Low insufflation pressure with CO₂ gas flow", "isCorrect": true },
+          { "id": "d", "text": "D) Hanging drop test with persistent saline drop", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The most accurate indicator of proper intraperitoneal positioning is low pressure with active CO₂ flow during insufflation.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q3",
+        "text": "Which of the following is a contraindication to blind Veress needle insertion at the umbilicus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Previous gastric bypass", "isCorrect": false },
+          { "id": "b", "text": "B) Umbilical hernia repair with mesh", "isCorrect": true },
+          { "id": "c", "text": "C) Prior appendectomy", "isCorrect": false },
+          { "id": "d", "text": "D) BMI > 35", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Mesh placement in the abdominal wall presents a high risk of injury during blind access and is a contraindication, especially without direct visualization.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q4",
+        "text": "When inserting the Veress needle in the umbilical region, why is the abdominal wall lifted?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To reduce pressure in the lower abdomen", "isCorrect": false },
+          { "id": "b", "text": "B) To stabilize the fascia for trocar access", "isCorrect": false },
+          { "id": "c", "text": "C) To create distance between the abdominal wall and vascular structures", "isCorrect": true },
+          { "id": "d", "text": "D) To ensure visible retraction of the umbilicus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Elevating the wall helps avoid inadvertent vascular injury, especially to retroperitoneal structures like the aorta.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q5",
+        "text": "During insertion of a trocar, how should the surgeon position their hand for optimal control?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Palm under the trocar with wrist flexed", "isCorrect": false },
+          { "id": "b", "text": "B) Shaft gripped between thumb and forefinger, elbow elevated", "isCorrect": false },
+          { "id": "c", "text": "C) Trocar against the thenar eminence, wrist in line with shaft", "isCorrect": true },
+          { "id": "d", "text": "D) Use both hands to push the trocar forcefully through the wall", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This grip provides maximum control over force and direction, reducing injury risk during penetration.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q6",
+        "text": "If the Veress needle is placed but there is no gas flow and high intra-abdominal pressure, what is the most likely explanation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) The needle has passed through the bowel", "isCorrect": false },
+          { "id": "b", "text": "B) The needle is in the abdominal wall", "isCorrect": true },
+          { "id": "c", "text": "C) The tubing is disconnected", "isCorrect": false },
+          { "id": "d", "text": "D) The CO₂ tank is empty", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This pattern suggests incorrect placement, typically in the preperitoneal or subcutaneous space, not the peritoneal cavity.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q7",
+        "text": "What should be done if aspiration through the Veress needle yields blood or enteric contents?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Begin insufflation anyway", "isCorrect": false },
+          { "id": "b", "text": "B) Use a larger needle", "isCorrect": false },
+          { "id": "c", "text": "C) Withdraw needle and place a trocar under direct visualization", "isCorrect": true },
+          { "id": "d", "text": "D) Perform the hanging drop test", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Presence of blood or bowel contents indicates visceral or vascular injury, requiring cessation of blind technique.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q8",
+        "text": "What is a key benefit of using the open (Hasson) technique for establishing pneumoperitoneum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Faster insufflation", "isCorrect": false },
+          { "id": "b", "text": "B) Lower CO₂ usage", "isCorrect": false },
+          { "id": "c", "text": "C) Reduced chance of unrecognized bowel or vascular injury", "isCorrect": true },
+          { "id": "d", "text": "D) Easier port placement in obese patients", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "While not risk-free, the open technique allows direct visualization and tactile confirmation, aiding early recognition of injuries.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q9",
+        "text": "After trocar insertion, what is the first step before continuing with the operation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Irrigate the insertion site", "isCorrect": false },
+          { "id": "b", "text": "B) Begin dissection at the operative field", "isCorrect": false },
+          { "id": "c", "text": "C) Inspect under the port for signs of injury", "isCorrect": true },
+          { "id": "d", "text": "D) Remove any residual gas from the peritoneal cavity", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "It's critical to examine the area beneath the port for bleeding, enteral contents, or hematoma.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q10",
+        "text": "Which physical exam finding suggests that a proper pneumoperitoneum has been established?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Abdominal tenderness", "isCorrect": false },
+          { "id": "b", "text": "B) Tympany to percussion", "isCorrect": true },
+          { "id": "c", "text": "C) Hypoactive bowel sounds", "isCorrect": false },
+          { "id": "d", "text": "D) High-pitched bowel sounds", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Tympany suggests gas has entered the peritoneal cavity, expanding it as expected.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q11",
+        "text": "Which of the following trocar sites carries the highest risk of injury to the inferior epigastric vessels?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Suprapubic midline", "isCorrect": false },
+          { "id": "b", "text": "B) Lateral to the rectus muscle", "isCorrect": false },
+          { "id": "c", "text": "C) Within the midline fascia", "isCorrect": false },
+          { "id": "d", "text": "D) Through the middle of the rectus muscle", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The inferior epigastric vessels run within the rectus; placing trocars in the center of the muscle increases risk of vascular injury.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q12",
+        "text": "What is the recommended intra-abdominal pressure range when establishing pneumoperitoneum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 4–8 mmHg", "isCorrect": false },
+          { "id": "b", "text": "B) 8–10 mmHg", "isCorrect": false },
+          { "id": "c", "text": "C) 10–15 mmHg", "isCorrect": true },
+          { "id": "d", "text": "D) 15–20 mmHg", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This pressure range is standard for creating an effective and safe working space in laparoscopic surgery.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q13",
+        "text": "What should be done if proper pneumoperitoneum pressure is achieved with very little CO₂ volume?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Proceed with trocar insertion", "isCorrect": false },
+          { "id": "b", "text": "B) Consider that the patient may be hypovolemic", "isCorrect": false },
+          { "id": "c", "text": "C) Reconfirm that the Veress needle is intraperitoneal", "isCorrect": true },
+          { "id": "d", "text": "D) Switch to nitrous oxide insufflation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Low volume with high pressure may indicate preperitoneal insufflation rather than true pneumoperitoneum.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q14",
+        "text": "What precaution is recommended before left upper quadrant Veress needle insertion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Trendelenburg positioning", "isCorrect": false },
+          { "id": "b", "text": "B) Gastric decompression", "isCorrect": true },
+          { "id": "c", "text": "C) Use of 20-gauge finder needle", "isCorrect": false },
+          { "id": "d", "text": "D) Foley catheter placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This reduces risk of gastric injury, which is more likely at the LUQ where the stomach may be close to the abdominal wall.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q15",
+        "text": "What is a key difference when using an optical trocar for entry as compared to Veress needle entry?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It requires prior insufflation", "isCorrect": false },
+          { "id": "b", "text": "B) It allows visualized trocar entry through abdominal wall layers", "isCorrect": true },
+          { "id": "c", "text": "C) It can only be used in the periumbilical area", "isCorrect": false },
+          { "id": "d", "text": "D) It eliminates the need for positioning the patient", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Optical trocars provide real-time visualization, increasing safety during initial access.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q16",
+        "text": "In the hanging drop test, what observation supports that the Veress needle tip is intraperitoneal?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Saline drop remains at the hub", "isCorrect": false },
+          { "id": "b", "text": "B) Saline flows out onto the skin", "isCorrect": false },
+          { "id": "c", "text": "C) Saline drop disappears into the needle when the abdomen is lifted", "isCorrect": true },
+          { "id": "d", "text": "D) Saline bubbles back toward the syringe", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The vacuum created by lifting the abdominal wall draws saline into the peritoneal cavity if the needle tip is properly positioned.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q17",
+        "text": "After inserting the Veress needle, saline is injected but meets resistance. What does this suggest?",
+        "answerOptions": [
+          { "id": "a", "text": "A) The needle is correctly intraperitoneal", "isCorrect": false },
+          { "id": "b", "text": "B) The needle has entered the bowel", "isCorrect": false },
+          { "id": "c", "text": "C) The needle tip is still in the abdominal wall", "isCorrect": true },
+          { "id": "d", "text": "D) The CO₂ tank is low", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Free saline flow suggests intraperitoneal placement; resistance suggests the needle is in a wall layer or improper location.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q18",
+        "text": "When using the open technique, why might a Kocher clamp be applied to the umbilicus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To lift the fascia for better exposure", "isCorrect": true },
+          { "id": "b", "text": "B) To manipulate the bowel away from the field", "isCorrect": false },
+          { "id": "c", "text": "C) To hold back the bladder", "isCorrect": false },
+          { "id": "d", "text": "D) To clamp the peritoneum closed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Elevating the umbilicus helps expose the fascial layer, particularly in obese patients, improving visualization for safe entry.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q19",
+        "text": "What is a key reason the surgeon must be familiar with the type of trocar used?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Some are incompatible with insufflation tubing", "isCorrect": false },
+          { "id": "b", "text": "B) Insertion technique may vary based on design", "isCorrect": true },
+          { "id": "c", "text": "C) Trocars can only be used once", "isCorrect": false },
+          { "id": "d", "text": "D) Trocar tips are interchangeable intraoperatively", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Different trocar tips (e.g., blade, conical, optical) have different insertion mechanics. Familiarity prevents injury and improves control.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q20",
+        "text": "Why is it important to avoid relying on transillumination to locate the inferior epigastric vessels?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Transillumination causes thermal injury", "isCorrect": false },
+          { "id": "b", "text": "B) The vessels are not visible by this method", "isCorrect": false },
+          { "id": "c", "text": "C) The vessels can be displaced by insufflation", "isCorrect": false },
+          { "id": "d", "text": "D) They cannot be consistently visualized through the abdominal wall", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The vessels are often not visible via transillumination, especially in obese patients, so anatomic knowledge is essential.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q21",
+        "text": "What is the role of a finder needle during placement of secondary trocars?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To inject local anesthetic", "isCorrect": false },
+          { "id": "b", "text": "B) To vent excess pneumoperitoneum", "isCorrect": false },
+          { "id": "c", "text": "C) To identify a safe insertion site via laparoscopic visualization", "isCorrect": true },
+          { "id": "d", "text": "D) To replace the primary trocar", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A long needle helps confirm location and depth before committing to full trocar insertion.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q22",
+        "text": "When using a LUQ entry site for Veress needle insertion, what vascular structure should be avoided?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Superior mesenteric artery", "isCorrect": false },
+          { "id": "b", "text": "B) Inferior vena cava", "isCorrect": false },
+          { "id": "c", "text": "C) Epigastric vessels", "isCorrect": true },
+          { "id": "d", "text": "D) Splenic artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "When inserting laterally, it's essential to remain lateral to the epigastrics to reduce risk of injury.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-q23",
+        "text": "What is the immediate action if a patient becomes hypotensive during insufflation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increase insufflation rate", "isCorrect": false },
+          { "id": "b", "text": "B) Begin Trendelenburg positioning", "isCorrect": false },
+          { "id": "c", "text": "C) Evacuate the pneumoperitoneum and assess for gas embolism or bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Administer midazolam", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hemodynamic instability may result from CO₂ embolism or hidden vascular injury. Decompression and reassessment are the first steps.",
+        "submodule": "Module 6 – Pneumoperitoneum & Trocar Placement",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

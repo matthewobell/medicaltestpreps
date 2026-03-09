@@ -1,0 +1,344 @@
+[
+  {
+    "id": "fls-module-11-suturing-stapling",
+    "title": "FLS Module 11: Suturing, Knot Tying, and Stapling",
+    "questions": [
+      {
+        "id": "m11-q1",
+        "text": "What is the appropriate trocar size for introducing a standard curved SH needle through the cannula?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 3 mm", "isCorrect": false },
+          { "id": "b", "text": "B) 5 mm", "isCorrect": false },
+          { "id": "c", "text": "C) 10–12 mm", "isCorrect": true },
+          { "id": "d", "text": "D) 15 mm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Standard curved needles typically require a 10 to 12 mm trocar for direct introduction through the port without distortion or needle damage.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q2",
+        "text": "What is the ideal suture length for intracorporeal knot tying?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5 cm", "isCorrect": false },
+          { "id": "b", "text": "B) 15 cm", "isCorrect": true },
+          { "id": "c", "text": "C) 25 cm", "isCorrect": false },
+          { "id": "d", "text": "D) 75 cm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For intracorporeal suturing, about 15 cm (6 in) allows sufficient length for manipulation and tying while avoiding excess bulk in the operative field.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q3",
+        "text": "What is the ideal suture length for extracorporeal knot tying techniques?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 10 cm", "isCorrect": false },
+          { "id": "b", "text": "B) 15 cm", "isCorrect": false },
+          { "id": "c", "text": "C) 20 cm", "isCorrect": false },
+          { "id": "d", "text": "D) 75 cm", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A minimum of about 75 cm (30 in) is generally needed for extracorporeal knot tying to allow enough suture to reach and manipulate the knot outside the body.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q4",
+        "text": "Which of the following is not recommended when introducing a suture needle into the abdomen?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Grasping the suture 5–10 mm from the needle", "isCorrect": false },
+          { "id": "b", "text": "B) Using a 10 mm trocar", "isCorrect": false },
+          { "id": "c", "text": "C) Grasping the needle directly for control", "isCorrect": true },
+          { "id": "d", "text": "D) Backloading through the port when needed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Grasping the needle directly when introducing it through a port increases the risk of bending the needle or injuring tissue. It is safer to grasp the suture close to the needle instead.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q5",
+        "text": "Which type of suture is generally easier to handle and visualize for laparoscopic suturing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Undyed monofilament", "isCorrect": false },
+          { "id": "b", "text": "B) Dyed braided", "isCorrect": true },
+          { "id": "c", "text": "C) Dyed monofilament", "isCorrect": false },
+          { "id": "d", "text": "D) Undyed braided", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Braided sutures are more pliable and easier to tie due to reduced memory, and dyed versions improve visibility in a bloody field.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q6",
+        "text": "What is a common advantage of using curved needle drivers facing opposite directions (e.g., left and right curves)?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They are easier to clean post-op", "isCorrect": false },
+          { "id": "b", "text": "B) They prevent suture entanglement", "isCorrect": false },
+          { "id": "c", "text": "C) They improve ergonomics for knot tying", "isCorrect": true },
+          { "id": "d", "text": "D) They increase tissue retraction", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Having concave curves that face each other allows smoother instrument handling and better ergonomics during knot tying, especially for intracorporeal techniques.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q7",
+        "text": "Which of the following is true regarding needle positioning for laparoscopic suturing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) The needle must always be positioned outside the field before pickup", "isCorrect": false },
+          { "id": "b", "text": "B) The needle should be passed in a straight line across the field", "isCorrect": false },
+          { "id": "c", "text": "C) A light glint indicates the needle is perpendicular to the light source", "isCorrect": true },
+          { "id": "d", "text": "D) The assisting instrument should always release the needle before driving it", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A glint of light on the needle helps confirm that it is oriented correctly relative to the light source, which aids in accurate placement.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q8",
+        "text": "Which maneuver best minimizes tissue trauma when placing a curved needle through tissue?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Linear thrust through the target", "isCorrect": false },
+          { "id": "b", "text": "B) Gentle rotational motion that follows the needle curve", "isCorrect": true },
+          { "id": "c", "text": "C) Twisting the wrist to drive the tip", "isCorrect": false },
+          { "id": "d", "text": "D) Lifting the tissue upward before placing needle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Rotating the needle in the direction of its curve allows it to pass smoothly and reduces tissue tearing and distortion.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q9",
+        "text": "When passing a needle through tissue, the assisting instrument should:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hold the needle driver firmly", "isCorrect": false },
+          { "id": "b", "text": "B) Grasp the suture strand", "isCorrect": false },
+          { "id": "c", "text": "C) Grasp the tissue first, then the needle tip", "isCorrect": true },
+          { "id": "d", "text": "D) Hold the camera for stability", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The assistant should stabilize the tissue while the needle is placed, then help by grasping near the needle tip as it exits to guide it through.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q10",
+        "text": "What is the main ergonomic guideline for ideal port placement during suturing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ports <5 cm apart for triangulation", "isCorrect": false },
+          { "id": "b", "text": "B) Surgeon’s elbows abducted 45°", "isCorrect": false },
+          { "id": "c", "text": "C) Port distance ≥10 cm and elbows flexed 90°", "isCorrect": true },
+          { "id": "d", "text": "D) Ports aligned midline for needle angles", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Ports spaced at least about 10 cm apart with the surgeon’s elbows flexed around 90° improves ergonomics, reduces fatigue, and enhances control during suturing.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q11",
+        "text": "Which knot is most appropriate when precise tension and control is needed during tissue approximation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Roeder’s knot", "isCorrect": false },
+          { "id": "b", "text": "B) Sliding square knot", "isCorrect": true },
+          { "id": "c", "text": "C) Endoloop", "isCorrect": false },
+          { "id": "d", "text": "D) Simple overhand knot", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The sliding square knot allows gradual and precise tightening of the tissue, which is useful when delicate control of tension is required.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q12",
+        "text": "Why is it important for surgeons to retain manual suturing skills despite availability of automated devices?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Manual techniques are faster", "isCorrect": false },
+          { "id": "b", "text": "B) Instruments are rarely available in hospitals", "isCorrect": false },
+          { "id": "c", "text": "C) Devices may fail or be unavailable in some situations", "isCorrect": true },
+          { "id": "d", "text": "D) Most laparoscopic procedures are now done robotically", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Automated suturing or knot-tying devices can malfunction or may not be available, so surgeons must still be able to perform essential suturing steps manually.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q13",
+        "text": "Which of the following is true regarding extracorporeal knot tying?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It places less tension on tissue than intracorporeal methods", "isCorrect": false },
+          { "id": "b", "text": "B) It requires shorter suture than intracorporeal methods", "isCorrect": false },
+          { "id": "c", "text": "C) It is more efficient for delicate or friable tissue", "isCorrect": false },
+          { "id": "d", "text": "D) It generally applies more strain to tissues", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Extracorporeal knot tying is efficient but tends to place more tension on tissues as knots are pushed down from outside the abdomen.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q14",
+        "text": "What distinguishes a Roeder’s knot from a standard square knot in laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is a single throw", "isCorrect": false },
+          { "id": "b", "text": "B) It requires intracorporeal wrapping", "isCorrect": false },
+          { "id": "c", "text": "C) It is entirely pre-tied and then pushed down", "isCorrect": true },
+          { "id": "d", "text": "D) It uses barbed suture only", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Roeder’s knots are pre-tied extracorporeally and then slid down with a knot pusher, making them useful for certain ligating tasks.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q15",
+        "text": "Which device is best suited for approximating the end of a transected fallopian tube?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Running suture line", "isCorrect": false },
+          { "id": "b", "text": "B) Roeder’s knot or endoloop", "isCorrect": true },
+          { "id": "c", "text": "C) 15 cm braided suture", "isCorrect": false },
+          { "id": "d", "text": "D) Linear stapler", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pre-tied loops such as Roeder’s knot or an endoloop are efficient and effective for securing tubular structures like the appendix or fallopian tube.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q16",
+        "text": "What is a potential drawback of using undyed suture material in laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased tissue reactivity", "isCorrect": false },
+          { "id": "b", "text": "B) Inability to hold knots", "isCorrect": false },
+          { "id": "c", "text": "C) Reduced tensile strength", "isCorrect": false },
+          { "id": "d", "text": "D) Poor visibility in a bloody field", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Undyed suture can blend into blood and surrounding tissue, making it harder to see and manipulate safely.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q17",
+        "text": "Which cartridge color typically corresponds to 3–3.5 mm staple height for GI tissue (Ethicon Brand)?",
+        "answerOptions": [
+          { "id": "a", "text": "A) White", "isCorrect": false },
+          { "id": "b", "text": "B) Blue", "isCorrect": true },
+          { "id": "c", "text": "C) Green", "isCorrect": false },
+          { "id": "d", "text": "D) Black", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blue cartridges (Ethicon Brand) contain staples in the 3–3.5 mm range and are commonly used for GI tract tissue, though color coding can vary by manufacturer.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q18",
+        "text": "Staplers must be used with caution to avoid including extraneous tissue. What helps prevent this?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Placing a clip before stapling", "isCorrect": false },
+          { "id": "b", "text": "B) Ensuring full articulation of stapler", "isCorrect": false },
+          { "id": "c", "text": "C) Visualizing both tips of the staple cartridge", "isCorrect": true },
+          { "id": "d", "text": "D) Using white cartridge for all applications", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Ensuring that both ends of the staple jaws are clearly seen helps confirm that only the intended tissue is between the jaws and prevents accidental inclusion of adjacent structures.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q19",
+        "text": "Why should the needle be cut off after pulling suture back through the port in extracorporeal tying?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To reduce bleeding", "isCorrect": false },
+          { "id": "b", "text": "B) To improve air seal", "isCorrect": false },
+          { "id": "c", "text": "C) To allow Roeder's knot placement", "isCorrect": false },
+          { "id": "d", "text": "D) To avoid tissue drag and facilitate knot formation", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cutting the needle off allows the suture loop to be closed and prevents the needle from dragging on tissue, making extracorporeal knot formation easier and safer.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q20",
+        "text": "What is the most versatile method of tissue approximation in laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Clips", "isCorrect": false },
+          { "id": "b", "text": "B) Staples", "isCorrect": false },
+          { "id": "c", "text": "C) Suture", "isCorrect": true },
+          { "id": "d", "text": "D) Biologic sealants", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Sutures can be used in the widest range of situations and allow very fine control of tissue approximation compared with clips, staples, or sealants alone.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q21",
+        "text": "What is the primary advantage of using interrupted sutures over a continuous suture line in laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Better cosmetic results", "isCorrect": false },
+          { "id": "b", "text": "B) Less tissue tension overall", "isCorrect": false },
+          { "id": "c", "text": "C) Less suture material in the abdomen at one time", "isCorrect": true },
+          { "id": "d", "text": "D) Fewer knots required", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Interrupted sutures are placed and tied one at a time, so there is less continuous suture length in the field, which reduces clutter and entanglement risk.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q22",
+        "text": "Which technique allows curved needles to be introduced through 3–5 mm ports?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of absorbable suture", "isCorrect": false },
+          { "id": "b", "text": "B) Pushing the needle through the valve while port remains in place", "isCorrect": false },
+          { "id": "c", "text": "C) Backloading the port over the needle holder and introducing the needle through the port site", "isCorrect": true },
+          { "id": "d", "text": "D) Twisting the needle to reduce diameter", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Backloading involves temporarily removing the port, sliding it over the instrument that holds the needle, and then reintroducing both through the same site to bring a curved needle in via a small port size.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q23",
+        "text": "What is the role of an instrument placed between tissue and suture during extracorporeal withdrawal?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To improve tissue grip", "isCorrect": false },
+          { "id": "b", "text": "B) To act as a fulcrum and reduce tissue drag", "isCorrect": true },
+          { "id": "c", "text": "C) To reposition the trocar", "isCorrect": false },
+          { "id": "d", "text": "D) To assist in extracorporeal knot tying", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Placing an instrument between the suture and tissue creates an angle that reduces friction and force on the tissue as the suture is pulled through, minimizing trauma.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-q24",
+        "text": "In forming a square knot with flat throws, which of the following is true?",
+        "answerOptions": [
+          { "id": "a", "text": "A) A random sequence of wraps results in reliable knots", "isCorrect": false },
+          { "id": "b", "text": "B) Only the dominant hand is used in wrapping", "isCorrect": false },
+          { "id": "c", "text": "C) The C-loop should originate from the left, and the wrap should be clockwise", "isCorrect": true },
+          { "id": "d", "text": "D) Flat throws are only needed in continuous sutures", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A consistent technique—such as forming a C-loop from the left and wrapping clockwise—helps produce true square knots with flat, secure throws.",
+        "submodule": "Module 11 – Suturing and Stapling",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

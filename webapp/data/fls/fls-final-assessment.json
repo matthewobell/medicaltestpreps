@@ -1,0 +1,858 @@
+[
+  {
+    "id": "fls-final-assessment",
+    "title": "FLS Final Assessment",
+    "questions": [
+      {
+        "id": "fls-q1",
+        "text": "While performing a laparoscopic salpingectomy, you encounter slow but persistent bleeding from the mesosalpinx despite appropriate bipolar energy application. Visualization is limited due to pooling blood. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q1-a",
+            "text": "A. Apply additional bipolar energy to the entire area",
+            "isCorrect": false
+          },
+          {
+            "id": "q1-b",
+            "text": "B. Suction the area and apply pressure with an instrument or sponge stick",
+            "isCorrect": true
+          },
+          {
+            "id": "q1-c",
+            "text": "C. Convert to laparotomy immediately",
+            "isCorrect": false
+          },
+          {
+            "id": "q1-d",
+            "text": "D. Blindly place a suture ligature across the bleeding zone",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Suction the area and apply pressure with an instrument or sponge stick"],
+        "difficulty": "Medium",
+        "explanation": "When visibility is poor and bleeding persists, the first priority is to clear the field and tamponade the source to restore visualization. This allows for targeted hemostasis and avoids unnecessary escalation or further blind energy application.",
+        "submodule": "References:\nGholami SS, Shekarriz B, Rudnick D, Duh QY, Stoller ML. The laparoscopic cigarette sponge. J Urol. 2001 Jul;166(1):194. PMID: 11435855.\nMaccabee D, Sheppard BC. The laparoscopic sponge. Surg Endosc. 2003 Aug;17(8):1320-1. doi: 10.1007/s00464-002-8779-9. Epub 2003 Apr 28. PMID: 15039864."
+      },
+      {
+        "id": "fls-q2",
+        "text": "You are entering using a 5 mm lateral trocar in a patient with prior cesarean delivery. Under direct visualization, you see the tip enter preperitoneal fat, but no peritoneal entry. What is the most appropriate immediate next step?",
+        "answerOptions": [
+          {
+            "id": "q2-a",
+            "text": "A. Proceed with insufflation through that port",
+            "isCorrect": false
+          },
+          {
+            "id": "q2-b",
+            "text": "B. Withdraw and reattempt insertion at the same site",
+            "isCorrect": false
+          },
+          {
+            "id": "q2-c",
+            "text": "C. Place the port under direct visualization at a new site",
+            "isCorrect": true
+          },
+          {
+            "id": "q2-d",
+            "text": "D. Force the trocar into the peritoneal cavity",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Place the port under direct visualization at a new site"],
+        "difficulty": "Medium",
+        "explanation": "If the trocar does not enter the peritoneal cavity cleanly, it should not be used. Repositioning to a new site and entering under visualization minimizes the risk of bowel or vascular injury. Attempting insufflation or forcing the trocar through preperitoneal fat should be avoided, as this can result in extraperitoneal insufflation, subcutaneous emphysema, and obscured anatomy that complicates subsequent entry attempts.",
+        "submodule": "Taliento C, Pontrelli G, Rondoni A, et al. Major and minor complications in Veress needle (VN) and direct trocar insertion (DTI) for laparoscopic closed-entry techniques: an updated systematic review and meta-analysis. Langenbecks Arch Surg. 2023 Apr 17;408(1):152. doi: 10.1007/s00423-023-02891-8. PMID: 37069276."
+      },
+      {
+        "id": "fls-q3",
+        "text": "During laparoscopic cholecystectomy, the patient experiences sudden hypotension and a rapid drop in end-tidal CO₂. Auscultation reveals a \"mill wheel\" murmur. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q3-a",
+            "text": "A. Administer atropine",
+            "isCorrect": false
+          },
+          {
+            "id": "q3-b",
+            "text": "B. Place the patient in left lateral decubitus with head down",
+            "isCorrect": true
+          },
+          {
+            "id": "q3-c",
+            "text": "C. Increase insufflation pressure to tamponade bleeding",
+            "isCorrect": false
+          },
+          {
+            "id": "q3-d",
+            "text": "D. Clamp the gallbladder pedicle immediately",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Place the patient in left lateral decubitus with head down"],
+        "difficulty": "Difficult",
+        "explanation": "These findings are consistent with venous CO₂ gas embolism. The proper emergency positioning traps gas in the right atrium, reducing pulmonary embolization. Insufflation should also be stopped immediately.",
+        "submodule": "de Jong KIF, de Leeuw PW. Venous carbon dioxide embolism during laparoscopic cholecystectomy a literature review. Eur J Intern Med. 2019 Feb;60:9-12. doi: 10.1016/j.ejim.2018.10.008. Epub 2018 Oct 20. PMID: 30352722."
+      },
+      {
+        "id": "fls-q4",
+        "text": "A patient develops significant pain at a 12 mm port site three days post-op. On exam, the site is tender with a small bulge that enlarges with coughing. What is the most likely diagnosis?",
+        "answerOptions": [
+          {
+            "id": "q4-a",
+            "text": "A. Trocar site cellulitis",
+            "isCorrect": false
+          },
+          {
+            "id": "q4-b",
+            "text": "B. Fascial dehiscence with hernia",
+            "isCorrect": true
+          },
+          {
+            "id": "q4-c",
+            "text": "C. Hematoma",
+            "isCorrect": false
+          },
+          {
+            "id": "q4-d",
+            "text": "D. Seroma",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Fascial dehiscence with hernia"],
+        "difficulty": "Medium",
+        "explanation": "A bulge exacerbated by Valsalva indicates a port site hernia, most common with 10–12 mm trocars, particularly if fascial closure was omitted or inadequate.",
+        "submodule": "References: Kwon CS, Vaseeharan A, Sauer MV. Trocar site hernia after laparoscopy: Early recognition prevents catastrophic sequelae. J Emerg Med. 2022 Dec;63(6):791-794. doi: 10.1016/j.jemermed.2022.09.006. Epub 2022 Oct 28. PMID: 36522813.\nDeerenberg EB, Henriksen NA, Antoniou GA, et al. Updated guideline for closure of abdominal wall incisions from the European and American Hernia Societies. Br J Surg. 2022 Nov 22;109(12):1239-1250. doi: 10.1093/bjs/znac302. Erratum in: Br J Surg. 2023 Jan 10;110(2):287. doi: 10.1093/bjs/znac412. PMID: 36026550; PMCID: PMC10364727.\nGutierrez M, Stuparich M, Behbehani S, et al. Does closure of fascia, type, and location of trocar influence occurrence of port site hernias? A literature review. Surg Endosc. 2020 Dec;34(12):5250-5258. doi: 10.1007/s00464-020-07826-8. Epub 2020 Jul 29. PMID: 32728766."
+      },
+      {
+        "id": "fls-q5",
+        "text": "While dissecting dense adhesions from the anterior abdominal wall, you inadvertently nick a loop of small bowel. The injury appears superficial, without spillage. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q5-a",
+            "text": "A. Continue the case and monitor the patient postoperatively",
+            "isCorrect": false
+          },
+          {
+            "id": "q5-b",
+            "text": "B. Convert to laparotomy immediately",
+            "isCorrect": false
+          },
+          {
+            "id": "q5-c",
+            "text": "C. Mark the area with a clip and proceed with a full-thickness laparoscopic repair",
+            "isCorrect": true
+          },
+          {
+            "id": "q5-d",
+            "text": "D. Cauterize the injury site and observe for bleeding",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Mark the area with a clip and proceed with a full-thickness laparoscopic repair"],
+        "difficulty": "Medium",
+        "explanation": "Even minor bowel injuries require formal repair if they violate the muscularis layer. Laparoscopic repair is acceptable if the surgeon is trained, and marking aids intra-op orientation or post-op imaging if needed.",
+        "submodule": "References: Smyth L, Bendinelli C, Lee N, et al. WSES guidelines on blunt and penetrating bowel injury: diagnosis, investigations, and treatment. World J Emerg Surg. 2022 Mar 4;17(1):13. doi: 10.1186/s13017-022-00418-y. PMID: 35246190; PMCID: PMC8896237.\nBishoff JT, Allaf ME, Kirkels W, et al. Laparoscopic bowel injury: incidence and clinical presentation. J Urol. 1999 Mar;161(3):887-90. doi: 10.1016/s0022-5347(01)61797-x. PMID: 10022706."
+      },
+      {
+        "id": "fls-q6",
+        "text": "During laparoscopic entry using a Veress needle at Palmer's point, you encounter high insufflation pressures and minimal gas flow. There is no obvious abdominal distention. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q6-a",
+            "text": "A. Continue insufflation until pressure normalizes",
+            "isCorrect": false
+          },
+          {
+            "id": "q6-b",
+            "text": "B. Switch to umbilical access with optical trocar",
+            "isCorrect": false
+          },
+          {
+            "id": "q6-c",
+            "text": "C. Withdraw the needle and attempt LUQ access again with improved technique",
+            "isCorrect": true
+          },
+          {
+            "id": "q6-d",
+            "text": "D. Assume safe placement and place a primary trocar",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Withdraw the needle and attempt LUQ access again with improved technique"],
+        "difficulty": "Medium",
+        "explanation": "High pressure with minimal gas flow suggests preperitoneal or improper placement. The needle should be repositioned. Most of the time access can be achieved on a second or third attempt. Blindly continuing insufflation risks gas embolism or retroperitoneal insufflation. B is also reasonable; however, is not the best answer especially if Palmer's point was selected as the initial entry site for a specific reason (i.e. avoid midline adhesions from prior surgery).",
+        "submodule": "Vilos GA, Vilos AG, Abu-Rafea B, et al. Three simple steps during closed laparoscopic entry may minimize major injuries. Surg Endosc. 2009 Apr;23(4):758-64. doi: 10.1007/s00464-008-0060-4. Epub 2008 Jul 15. PMID: 18626703."
+      },
+      {
+        "id": "fls-q7",
+        "text": "A patient undergoing laparoscopic sigmoid resection suddenly develops sinus bradycardia and hypotension during Trendelenburg positioning and insufflation. What is the most appropriate first intervention?",
+        "answerOptions": [
+          {
+            "id": "q7-a",
+            "text": "A. Administer atropine and continue the case",
+            "isCorrect": false
+          },
+          {
+            "id": "q7-b",
+            "text": "B. Decrease insufflation pressure and assess hemodynamics",
+            "isCorrect": true
+          },
+          {
+            "id": "q7-c",
+            "text": "C. Increase the depth of anesthesia",
+            "isCorrect": false
+          },
+          {
+            "id": "q7-d",
+            "text": "D. Return the table to neutral and complete the anastomosis",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Decrease insufflation pressure and assess hemodynamics"],
+        "difficulty": "Medium",
+        "explanation": "Pneumoperitoneum and head-down tilt increase vagal tone and reduce venous return, potentially causing bradycardia and hypotension. Reducing pressure helps restore normal physiology.",
+        "submodule": "Yong J, Hibbert P, Runciman WB, Coventry BJ. Bradycardia as an early warning sign for cardiac arrest during routine laparoscopic surgery. Int J Qual Health Care. 2015 Dec;27(6):473-8. doi: 10.1093/intqhc/mzv077. Epub 2015 Sep 29. PMID: 26424701."
+      },
+      {
+        "id": "fls-q8",
+        "text": "During laparoscopic oophorectomy, a large bleeding vessel is clipped, but bleeding continues around the clip. Visibility remains poor. What is the best next step?",
+        "answerOptions": [
+          {
+            "id": "q8-a",
+            "text": "A. Apply a second clip distal to the first",
+            "isCorrect": false
+          },
+          {
+            "id": "q8-b",
+            "text": "B. Convert to laparotomy without further laparoscopic attempts",
+            "isCorrect": false
+          },
+          {
+            "id": "q8-c",
+            "text": "C. Suction and apply direct pressure before reassessing",
+            "isCorrect": true
+          },
+          {
+            "id": "q8-d",
+            "text": "D. Attempt suture ligation immediately",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Suction and apply direct pressure before reassessing"],
+        "difficulty": "Medium",
+        "explanation": "Poor visibility requires clearing the field before definitive action. Direct pressure often stabilizes bleeding and allows reassessment of clip placement or need for suture.",
+        "submodule": "Klingler CH, Remzi M, Marberger M, Janetschek G. Haemostasis in laparoscopy. Eur Urol. 2006 Nov;50(5):948-56; discussion 956-7. doi: 10.1016/j.eururo.2006.01.058. Epub 2006 Feb 24. PMID: 16647188."
+      },
+      {
+        "id": "fls-q9",
+        "text": "After completing a laparoscopic procedure with 3 ports (5 mm, 5 mm, 12 mm), the surgeon elects not to close the fascial defect at the 12 mm site. On post-op day 2, the patient develops nausea and incisional pain. What complication should be suspected?",
+        "answerOptions": [
+          {
+            "id": "q9-a",
+            "text": "A. Gas retention",
+            "isCorrect": false
+          },
+          {
+            "id": "q9-b",
+            "text": "B. Incisional cellulitis",
+            "isCorrect": false
+          },
+          {
+            "id": "q9-c",
+            "text": "C. Trocar site hernia",
+            "isCorrect": true
+          },
+          {
+            "id": "q9-d",
+            "text": "D. CO₂ embolism",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Trocar site hernia"],
+        "difficulty": "Medium",
+        "explanation": "Large ports (≥10 mm) that are not closed carry a risk of hernia or even small bowel obstruction. Postoperative symptoms should prompt imaging and possible surgical repair.",
+        "submodule": "Lajer H, Widecrantz S, Heisterberg L. Hernias in trocar ports following abdominal laparoscopy. A review. Acta Obstet Gynecol Scand. 1997 May;76(5):389-93. doi: 10.3109/00016349709047816. PMID: 9197437."
+      },
+      {
+        "id": "fls-q10",
+        "text": "After extensive pelvic dissection during laparoscopic endometriosis excision, the assistant notices bubbles in the right upper quadrant while irrigating. The patient remains hemodynamically stable. What is the most likely cause?",
+        "answerOptions": [
+          {
+            "id": "q10-a",
+            "text": "A. Evidence of hollow viscus injury requiring immediate conversion",
+            "isCorrect": false
+          },
+          {
+            "id": "q10-b",
+            "text": "B. CO₂ bubbles trapped under the liver",
+            "isCorrect": true
+          },
+          {
+            "id": "q10-c",
+            "text": "C. Clip dislodgement from an upper abdominal vessel",
+            "isCorrect": false
+          },
+          {
+            "id": "q10-d",
+            "text": "D. Argon embolism from energy application near the liver",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "CO₂ bubbles trapped under the liver"],
+        "difficulty": "Easy",
+        "explanation": "Small gas pockets beneath the diaphragm are a common benign finding after insufflation and do not indicate injury unless accompanied by other signs (e.g., tachycardia, acidosis, peritonitis).",
+        "submodule": "Smyth L, Bendinelli C, Lee N, et al. WSES guidelines on blunt and penetrating bowel injury: diagnosis, investigations, and treatment. World J Emerg Surg. 2022 Mar 4;17(1):13. doi: 10.1186/s13017-022-00418-y. PMID: 35246190; PMCID: PMC8896237."
+      },
+      {
+        "id": "fls-q11",
+        "text": "Which of the following patient characteristics would most strongly warrant selective fascial closure of a 5 mm lateral port site?",
+        "answerOptions": [
+          {
+            "id": "q11-a",
+            "text": "A. BMI 22, 45-minute procedure",
+            "isCorrect": false
+          },
+          {
+            "id": "q11-b",
+            "text": "B. Age 65, chronic corticosteroid use",
+            "isCorrect": true
+          },
+          {
+            "id": "q11-c",
+            "text": "C. Prior laparotomy for bowel obstruction",
+            "isCorrect": false
+          },
+          {
+            "id": "q11-d",
+            "text": "D. Same-day discharge plan",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Age 65, chronic corticosteroid use"],
+        "difficulty": "Medium",
+        "explanation": "Chronic steroids impair wound healing, and fascial defects—even small ones—may fail to close spontaneously. In high-risk patients, even 5 mm sites may warrant closure.",
+        "submodule": "Pereira N, Hutchinson AP, Irani M, et al.. 5-millimeter Trocar-site Hernias After Laparoscopy Requiring Surgical Repair. J Minim Invasive Gynecol. 2016 May-Jun;23(4):505-11. doi: 10.1016/j.jmig.2016.03.001. Epub 2016 Mar 10. PMID: 26973139."
+      },
+      {
+        "id": "fls-q12",
+        "text": "During a laparoscopic hysterectomy, the bladder is inadvertently injured. The defect is 1.5 cm and identified intraoperatively. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q12-a",
+            "text": "A. Complete the case and monitor for hematuria post-op",
+            "isCorrect": false
+          },
+          {
+            "id": "q12-b",
+            "text": "B. Insert a Foley and delay repair to postoperative day 1",
+            "isCorrect": false
+          },
+          {
+            "id": "q12-c",
+            "text": "C. Convert to laparotomy for two-layer repair",
+            "isCorrect": false
+          },
+          {
+            "id": "q12-d",
+            "text": "D. Perform laparoscopic two-layer repair and leave Foley catheter",
+            "isCorrect": true
+          }
+        ],
+        "acceptedWrittenAnswers": ["D", "Perform laparoscopic two-layer repair and leave Foley catheter"],
+        "difficulty": "Medium",
+        "explanation": "Most bladder injuries <2–3 cm can be safely repaired laparoscopically in two layers with absorbable suture, followed by bladder drainage for 7–14 days.",
+        "submodule": "N/A"
+      },
+      {
+        "id": "fls-q13",
+        "text": "You're performing a laparoscopic right salpingo-oophorectomy in a patient with dense pelvic adhesions. Despite careful dissection, bowel injury is suspected due to unexpected serous fluid and tissue discoloration. What is the best next step?",
+        "answerOptions": [
+          {
+            "id": "q13-a",
+            "text": "A. Irrigate and complete the case",
+            "isCorrect": false
+          },
+          {
+            "id": "q13-b",
+            "text": "B. Convert to open exploration for formal evaluation",
+            "isCorrect": true
+          },
+          {
+            "id": "q13-c",
+            "text": "C. Apply topical hemostatic agent and recheck in 10 minutes",
+            "isCorrect": false
+          },
+          {
+            "id": "q13-d",
+            "text": "D. Finish the case and perform CT with contrast post-op",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Convert to open exploration for formal evaluation"],
+        "difficulty": "Medium",
+        "explanation": "In the presence of suspected bowel injury and uncertainty, conversion to laparotomy ensures a safe and thorough evaluation. Delaying diagnosis increases morbidity.",
+        "submodule": "Eisner IS, Wadhwa RK, Downing KT, Singhal PK. Prevention and management of bowel injury during gynecologic laparoscopy: an update. Curr Opin Obstet Gynecol. 2019 Aug;31(4):245-250. doi: 10.1097/GCO.0000000000000552. PMID: 31045654."
+      },
+      {
+        "id": "fls-q14",
+        "text": "At the end of a laparoscopic case, the patient is noted to have a firm, tender, non-reducible bulge at the umbilical trocar site. No hernia was documented preoperatively. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q14-a",
+            "text": "A. Observe for 24 hours with pain control",
+            "isCorrect": false
+          },
+          {
+            "id": "q14-b",
+            "text": "B. Schedule outpatient follow-up in 1 week",
+            "isCorrect": false
+          },
+          {
+            "id": "q14-c",
+            "text": "C. Reduce hernia and place mesh laparoscopically",
+            "isCorrect": false
+          },
+          {
+            "id": "q14-d",
+            "text": "D. Reopen port site to assess for herniation or bowel entrapment",
+            "isCorrect": true
+          }
+        ],
+        "acceptedWrittenAnswers": ["D", "Reopen port site to assess for herniation or bowel entrapment"],
+        "difficulty": "Medium",
+        "explanation": "Acute findings of non-reducible bulge at a 10–12 mm port site are concerning for hernia or bowel incarceration. Early evaluation can prevent delayed obstruction or ischemia. Laparoscopic mesh repair (C) may be reasonable but the hernia should be confirmed. The decision between primary closure versus laparoscopic mesh repair (C) depends on contamination status. If the field is clean without bowel resection, laparoscopic reduction and mesh repair can be performed safely with lower complication rates and shorter hospitalization compared to open repair. However, if bowel compromise is found requiring resection or resection was done, mesh placement increases infection risk and may necessitate staged repair.",
+        "submodule": "Kwon CS, Vaseeharan A, Sauer MV. Trocar site hernia after laparoscopy: Early recognition prevents catastrophic sequelae. J Emerg Med. 2022 Dec;63(6):791-794. doi: 10.1016/j.jemermed.2022.09.006. Epub 2022 Oct 28. PMID: 36522813.\n\nChihara N, Suzuki H, Sukegawa M, et al. Is the Laparoscopic Approach Feasible for Reduction and Herniorrhaphy in Cases of Acutely Incarcerated/Strangulated Groin and Obturator Hernia?: 17-Year Experience from Open to Laparoscopic Approach. J Laparoendosc Adv Surg Tech A. 2019 May;29(5):631-637. doi: 10.1089/lap.2018.0506. Epub 2018 Oct 27. PMID: 30372373."
+      },
+      {
+        "id": "fls-q15",
+        "text": "A general surgery intern assisting in a laparoscopic inguinal hernia repair retracts a loop of small bowel and suddenly sees a small tear in the serosa. There is no bleeding or spillage. What is the best immediate management?",
+        "answerOptions": [
+          {
+            "id": "q15-a",
+            "text": "A. Continue the case and prescribe antibiotics",
+            "isCorrect": false
+          },
+          {
+            "id": "q15-b",
+            "text": "B. Convert to laparotomy",
+            "isCorrect": false
+          },
+          {
+            "id": "q15-c",
+            "text": "C. Clip the area and finish the case",
+            "isCorrect": false
+          },
+          {
+            "id": "q15-d",
+            "text": "D. Mark the injury and assess for deeper damage",
+            "isCorrect": true
+          }
+        ],
+        "acceptedWrittenAnswers": ["D", "Mark the injury and assess for deeper damage"],
+        "difficulty": "Medium",
+        "explanation": "Even minor bowel trauma may require repair if deeper layers are involved. Superficial serosal injuries often heal, but marking the site allows for inspection and documentation.",
+        "submodule": "Smyth L, Bendinelli C, Lee N, et al. WSES guidelines on blunt and penetrating bowel injury: diagnosis, investigations, and treatment. World J Emerg Surg. 2022 Mar 4;17(1):13. doi: 10.1186/s13017-022-00418-y. PMID: 35246190; PMCID: PMC8896237."
+      },
+      {
+        "id": "fls-q16",
+        "text": "While inserting a lateral trocar in the right lower quadrant, brisk bleeding occurs. Inspection reveals injury to a vessel running vertically along the posterior aspect of the rectus muscle. What vessel has most likely been injured?",
+        "answerOptions": [
+          {
+            "id": "q16-a",
+            "text": "A. Deep circumflex iliac",
+            "isCorrect": false
+          },
+          {
+            "id": "q16-b",
+            "text": "B. Inferior epigastric",
+            "isCorrect": true
+          },
+          {
+            "id": "q16-c",
+            "text": "C. Superior mesenteric",
+            "isCorrect": false
+          },
+          {
+            "id": "q16-d",
+            "text": "D. Obturator artery",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Inferior epigastric"],
+        "difficulty": "Medium",
+        "explanation": "The inferior epigastric vessels run posterior to the rectus muscle and are the most common vascular structures injured during lateral trocar placement.",
+        "submodule": "Module 6 - Pneumoperitoneum Establishment & Trocar Placement"
+      },
+      {
+        "id": "fls-q17",
+        "text": "During laparoscopic cholecystectomy, the camera view is obscured by persistent lens fogging. The circulating nurse replaces the laparoscope. The new scope also fogs within seconds. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q17-a",
+            "text": "A. Proceed with dissection using intermittent cleaning",
+            "isCorrect": false
+          },
+          {
+            "id": "q17-b",
+            "text": "B. Desufflate and warm the peritoneal cavity",
+            "isCorrect": false
+          },
+          {
+            "id": "q17-c",
+            "text": "C. Ensure the new laparoscope is properly warmed and antifog solution applied",
+            "isCorrect": true
+          },
+          {
+            "id": "q17-d",
+            "text": "D. Irrigate the port site externally",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Ensure the new laparoscope is properly warmed and antifog solution applied"],
+        "difficulty": "Easy",
+        "explanation": "Lens fogging is often due to cold scope introduction into a warm abdomen. Properly warming the scope and using antifogging agents prevents persistent fogging and improves visualization.",
+        "submodule": "Song T, Lee DH. A randomized Comparison of laparoscopic LEns defogging using Anti-fog solution, waRm saline, and chlorhexidine solution (CLEAR). Surg Endosc. 2020 Feb;34(2):940-945. doi: 10.1007/s00464-019-06852-5. Epub 2019 May 28. PMID: 31139989."
+      },
+      {
+        "id": "fls-q18",
+        "text": "While using a monopolar hook to divide omental adhesions during laparoscopic ventral hernia repair, you notice a sudden flash and blanching of adjacent bowel. There is no obvious perforation. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q18-a",
+            "text": "A. Apply topical hemostatic agent and proceed",
+            "isCorrect": false
+          },
+          {
+            "id": "q18-b",
+            "text": "B. Convert to open surgery for inspection",
+            "isCorrect": false
+          },
+          {
+            "id": "q18-c",
+            "text": "C. Closely inspect and consider resection or repair if any full-thickness damage is seen",
+            "isCorrect": true
+          },
+          {
+            "id": "q18-d",
+            "text": "D. Irrigate and monitor postoperatively with serial exams",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Closely inspect and consider resection or repair if any full-thickness damage is seen"],
+        "difficulty": "Difficult",
+        "explanation": "Energy injury to bowel may initially appear minor but can progress to full-thickness necrosis. Prompt inspection and intraoperative repair reduce the risk of delayed perforation.",
+        "submodule": "References: Module 7 - Physiology of Pneumoperitoneum. Cassaro S. Delayed manifestations of laparoscopic bowel injury. Am Surg. 2015 May;81(5):478-82. PMID: 25975332.\nMartin KE, Moore CM, Tucker R, et al. Quantifying inadvertent thermal bowel injury from the monopolar instrument. Surg Endosc. 2016 Nov;30(11):4776-4784. doi: 10.1007/s00464-016-4807-z. Epub 2016 Apr 29. PMID: 27129548."
+      },
+      {
+        "id": "fls-q19",
+        "text": "A patient undergoing laparoscopic sigmoid resection is placed in steep Trendelenburg and lithotomy position. After 90 minutes, anesthesia notes decreased tidal volumes and increased peak airway pressures. What is the most likely cause?",
+        "answerOptions": [
+          {
+            "id": "q19-a",
+            "text": "A. Disconnection of the endotracheal tube",
+            "isCorrect": false
+          },
+          {
+            "id": "q19-b",
+            "text": "B. CO₂ embolism",
+            "isCorrect": false
+          },
+          {
+            "id": "q19-c",
+            "text": "C. Reduced pulmonary compliance from positioning and pneumoperitoneum",
+            "isCorrect": true
+          },
+          {
+            "id": "q19-d",
+            "text": "D. Hyperkalemia",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Reduced pulmonary compliance from positioning and pneumoperitoneum"],
+        "difficulty": "Medium",
+        "explanation": "Steep Trendelenburg plus pneumoperitoneum can reduce diaphragmatic excursion and lung compliance, increasing airway pressures.",
+        "submodule": "Module 7 - Physiology of Pneumoperitoneum"
+      },
+      {
+        "id": "fls-q20",
+        "text": "After completing a laparoscopic sleeve gastrectomy, you perform a final inspection and notice a small, dark discoloration on the serosa of the gastric staple line. What is the most appropriate next step?",
+        "answerOptions": [
+          {
+            "id": "q20-a",
+            "text": "A. Ignore it since the staple line is intact",
+            "isCorrect": false
+          },
+          {
+            "id": "q20-b",
+            "text": "B. Apply a hemostatic agent and proceed",
+            "isCorrect": false
+          },
+          {
+            "id": "q20-c",
+            "text": "C. Reinforce with a serosal suture or over-sew the area",
+            "isCorrect": true
+          },
+          {
+            "id": "q20-d",
+            "text": "D. Convert to open to evaluate gastric viability",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Reinforce with a serosal suture or over-sew the area"],
+        "difficulty": "Medium",
+        "explanation": "Discoloration may indicate compromised tissue at risk for breakdown. Over-sewing reinforces the area and reduces leak risk.",
+        "submodule": "Kumbhari, Vivek et al. AGA Clinical Practice Update on Evaluation and Management of Early Complications After Bariatric/Metabolic Surgery: Expert Review. Clinical Gastroenterology and Hepatology, Volume 19, Issue 8, 1531 - 1537"
+      },
+      {
+        "id": "fls-q21",
+        "text": "After desufflation and removal of a 12 mm lateral port, a small fascial gap is noted, and the patient's abdomen is obese and redundant. What is the best closure strategy?",
+        "answerOptions": [
+          {
+            "id": "q21-a",
+            "text": "A. Skin closure only",
+            "isCorrect": false
+          },
+          {
+            "id": "q21-b",
+            "text": "B. Subcuticular suture without fascial repair",
+            "isCorrect": false
+          },
+          {
+            "id": "q21-c",
+            "text": "C. Use of a curved needle through an extended incision",
+            "isCorrect": false
+          },
+          {
+            "id": "q21-d",
+            "text": "D. Laparoscopic-assisted fascial closure with a closure device",
+            "isCorrect": true
+          }
+        ],
+        "acceptedWrittenAnswers": ["D", "Laparoscopic-assisted fascial closure with a closure device"],
+        "difficulty": "Medium",
+        "explanation": "In obese patients, deep ports are best closed under direct vision. Closure devices allow secure, controlled closure from outside with laparoscopic guidance.",
+        "submodule": "Module 8 - Exiting the Abdomen"
+      },
+      {
+        "id": "fls-q22",
+        "text": "In a patient undergoing laparoscopic appendectomy, you place the camera in the umbilical port and dissect through a right lower quadrant 5 mm port. During removal, you notice a spurt of bright red blood from the site. What vessel is most likely injured?",
+        "answerOptions": [
+          {
+            "id": "q22-a",
+            "text": "A. Inferior mesenteric artery",
+            "isCorrect": false
+          },
+          {
+            "id": "q22-b",
+            "text": "B. Deep circumflex iliac artery",
+            "isCorrect": true
+          },
+          {
+            "id": "q22-c",
+            "text": "C. Superior epigastric artery",
+            "isCorrect": false
+          },
+          {
+            "id": "q22-d",
+            "text": "D. Superficial external pudendal artery",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Deep circumflex iliac artery"],
+        "difficulty": "Medium",
+        "explanation": "The deep circumflex iliac artery runs near the anterior superior iliac spine and can be injured by low lateral ports. Prompt control with pressure, suction, and potential suture or clip is needed. The inferior epigastric artery (not listed) runs more medially, typically 4-8 cm from the midline, making it less likely to be injured by a right lower quadrant port placed laterally for appendectomy. The superior epigastric artery courses in the upper abdomen near the xiphoid process and would not be encountered in the right lower quadrant.",
+        "submodule": "References: Module 6 - Pneumoperitoneum Establishment & Trocar Placement. Balzer KM, Witte H, Recknagel S, et al. Anatomic guidelines for the prevention of abdominal wall hematoma induced by trocar placement. Surg Radiol Anat. 1999;21(2):87-9. doi: 10.1007/s00276-999-0087-9. PMID: 103992"
+      },
+      {
+        "id": "fls-q23",
+        "text": "You are placing your initial 10 mm trocar with an optical entry system at the umbilicus. As you advance, you see preperitoneal fat and then retroperitoneal tissue. No abdominal structures are visible. What is the best next step?",
+        "answerOptions": [
+          {
+            "id": "q23-a",
+            "text": "A. Continue advancing until bowel or liver is seen",
+            "isCorrect": false
+          },
+          {
+            "id": "q23-b",
+            "text": "B. Inject saline to confirm entry",
+            "isCorrect": false
+          },
+          {
+            "id": "q23-c",
+            "text": "C. Stop, withdraw, and consider an alternative entry site",
+            "isCorrect": true
+          },
+          {
+            "id": "q23-d",
+            "text": "D. Begin insufflation to help define anatomy",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Stop, withdraw, and consider an alternative entry site"],
+        "difficulty": "Medium",
+        "explanation": "Optical entry must show peritoneal cavity structures (e.g., bowel, liver). If not seen, assume incorrect trajectory and redirect safely.",
+        "submodule": "Module 6 - Pneumoperitoneum Establishment & Trocar Placement"
+      },
+      {
+        "id": "fls-q24",
+        "text": "During laparoscopic cholecystectomy, your assistant retracts the gallbladder fundus cephalad, but visualization of Calot's triangle is poor due to fatty tissue. What is the next best maneuver?",
+        "answerOptions": [
+          {
+            "id": "q24-a",
+            "text": "A. Apply more cephalad tension",
+            "isCorrect": false
+          },
+          {
+            "id": "q24-b",
+            "text": "B. Switch to a lateral-to-medial approach",
+            "isCorrect": false
+          },
+          {
+            "id": "q24-c",
+            "text": "C. Reposition retraction to achieve lateral traction on the infundibulum",
+            "isCorrect": true
+          },
+          {
+            "id": "q24-d",
+            "text": "D. Increase insufflation pressure",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Reposition retraction to achieve lateral traction on the infundibulum"],
+        "difficulty": "Medium",
+        "explanation": "Proper retraction of the infundibulum opens Calot's triangle and is essential for safe dissection. Fundal traction alone may be insufficient.",
+        "submodule": "Hunter JG. Avoidance of bile duct injury during laparoscopic cholecystectomy. Am J Surg. 1991 Jul;162(1):71-6. doi: 10.1016/0002-9610(91)90207-t. PMID: 1829588."
+      },
+      {
+        "id": "fls-q25",
+        "text": "A 40-year-old woman undergoes elective laparoscopic ventral hernia repair. On post-op day 3, she presents with shoulder pain and fever. Incisions are clean. What is the most appropriate initial imaging?",
+        "answerOptions": [
+          {
+            "id": "q25-a",
+            "text": "A. Chest X-ray",
+            "isCorrect": false
+          },
+          {
+            "id": "q25-b",
+            "text": "B. Abdominal plain film",
+            "isCorrect": false
+          },
+          {
+            "id": "q25-c",
+            "text": "C. CT abdomen and pelvis with contrast",
+            "isCorrect": true
+          },
+          {
+            "id": "q25-d",
+            "text": "D. Ultrasound of the abdominal wall",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "CT abdomen and pelvis with contrast"],
+        "difficulty": "Medium",
+        "explanation": "Fever and referred pain after laparoscopy may indicate intra-abdominal abscess or fluid collection. CT is the gold standard for evaluation.",
+        "submodule": "Expert Panel on Gastrointestinal Imaging: et al. ACR Appropriateness Criteria® Acute Nonlocalized Abdominal Pain. Journal of the American College of Radiology, Volume 15, Issue 11, S217 - S231."
+      },
+      {
+        "id": "fls-q26",
+        "text": "While performing laparoscopic adhesiolysis, you accidentally cause a 1.5 cm full-thickness enterotomy. The bowel appears healthy. What is the most appropriate repair technique?",
+        "answerOptions": [
+          {
+            "id": "q26-a",
+            "text": "A. Staple across the defect transversely",
+            "isCorrect": false
+          },
+          {
+            "id": "q26-b",
+            "text": "B. Convert to laparotomy in all cases",
+            "isCorrect": false
+          },
+          {
+            "id": "q26-c",
+            "text": "C. Perform a two-layer laparoscopic repair with absorbable sutures",
+            "isCorrect": true
+          },
+          {
+            "id": "q26-d",
+            "text": "D. Use an endoloop to ligate the segment",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C", "Perform a two-layer laparoscopic repair with absorbable sutures"],
+        "difficulty": "Medium",
+        "explanation": "If the surgeon is skilled and tissue is healthy, laparoscopic repair of small enterotomies is safe and effective. Conversion is not mandatory unless visibility or access is compromised.",
+        "submodule": "Ashley E. Aaron, Andrea Amabile, Ciro Andolfi, et al. Gastrointestinal Surgical Emergencies Textbook. American College of Surgeons (2021)."
+      },
+      {
+        "id": "fls-q27",
+        "text": "At the end of a long laparoscopic colorectal case in steep Trendelenburg, you notice extensive facial edema and conjunctival injection in the patient. What is the appropriate response before extubation?",
+        "answerOptions": [
+          {
+            "id": "q27-a",
+            "text": "A. Extubate as normal, these are expected findings",
+            "isCorrect": false
+          },
+          {
+            "id": "q27-b",
+            "text": "B. Delay extubation and assess airway edema",
+            "isCorrect": true
+          },
+          {
+            "id": "q27-c",
+            "text": "C. Administer diuretics immediately",
+            "isCorrect": false
+          },
+          {
+            "id": "q27-d",
+            "text": "D. Perform emergent tracheostomy",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["B", "Delay extubation and assess airway edema"],
+        "difficulty": "Difficult",
+        "explanation": "Facial swelling after steep Trendelenburg may indicate airway edema, increasing the risk of post-extubation stridor or obstruction. Extubation should be delayed until patency is confirmed. Administering systemic corticosteroids to reduce the risk of postextubation laryngeal edema and airway obstruction may be advised.",
+        "submodule": "Module 5 - Anesthesia and Patient Positioning. Heidegger T. Management of the Difficult Airway. N Engl J Med. 2021 May 13;384(19):1836-1847. doi: 10.1056/NEJMra1916801. PMID: 33979490."
+      },
+      {
+        "id": "fls-q28",
+        "text": "During a diagnostic laparoscopy for abdominal pain, with the surgeons on the left-hand side, where should the monitors be placed?",
+        "answerOptions": [
+          {
+            "id": "q28-a",
+            "text": "A",
+            "isCorrect": false
+          },
+          {
+            "id": "q28-b",
+            "text": "B",
+            "isCorrect": false
+          },
+          {
+            "id": "q28-c",
+            "text": "C",
+            "isCorrect": true
+          },
+          {
+            "id": "q28-d",
+            "text": "D",
+            "isCorrect": false
+          }
+        ],
+        "acceptedWrittenAnswers": ["C"],
+        "difficulty": "Medium",
+        "explanation": "Monitors should be placed directly in front of surgeons during surgery, just below eye level. During a diagnostic laparoscopy for abdominal pain, with the surgeons on the left-hand side, the monitors should be placed on the right side of the patient near the head and feet to allow for a monitor to be directly in front of the surgeon when evaluating both the upper and lower abdominal cavity.",
+        "submodule": "van Det MJ, Meijerink WJ, Hoff C, Totté ER, Pierie JP. Optimal ergonomics for laparoscopic surgery in minimally invasive surgery suites: a review and guidelines. Surg Endosc. 2009 Jun;23(6):1279-85. doi: 10.1007/s00464-008-0148-x. Epub 2008 Oct 2. PMID: 18830751.",
+        "images": [
+          {
+            "src": "fls final assessment Question 28",
+            "alt": "Diagram showing different monitor placement options labeled A, B, C, and D around a patient on an operating table with surgeons on the left side",
+            "caption": "Monitor placement options for diagnostic laparoscopy with surgeons on the left side",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      }
+    ]
+  }
+]

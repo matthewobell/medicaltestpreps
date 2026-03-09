@@ -1,0 +1,328 @@
+[
+  {
+    "id": "fls-electrosurgery-supplemental-part-2",
+    "title": "FLS Electrosurgery Supplemental (Part 2)",
+    "questions": [
+      {
+        "id": "es-pt2-q1",
+        "text": "What is the most commonly used energy device in the operating room?",
+        "answerOptions": [
+          { "id": "es-pt2-q1-a", "text": "A) Ultrasonic scalpel", "isCorrect": false },
+          { "id": "es-pt2-q1-b", "text": "B) Radiofrequency electrosurgery", "isCorrect": true },
+          { "id": "es-pt2-q1-c", "text": "C) Argon beam coagulator", "isCorrect": false },
+          { "id": "es-pt2-q1-d", "text": "D) Laser", "isCorrect": false },
+          { "id": "es-pt2-q1-e", "text": "E) Electrocautery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "RF electrosurgery—most commonly the monopolar Bovie—is the predominant energy source used in the OR.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt2-q2",
+        "text": "Why does radiofrequency electrosurgery operate at frequencies around 500,000 Hz?",
+        "answerOptions": [
+          { "id": "es-pt2-q2-a", "text": "A) To increase visibility on electrosurgical monitors", "isCorrect": false },
+          { "id": "es-pt2-q2-b", "text": "B) To maximize cutting power", "isCorrect": false },
+          { "id": "es-pt2-q2-c", "text": "C) To prevent nerve and muscle depolarization", "isCorrect": true },
+          { "id": "es-pt2-q2-d", "text": "D) To allow deeper tissue penetration", "isCorrect": false },
+          { "id": "es-pt2-q2-e", "text": "E) To avoid triggering fire hazards", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "High frequencies (~500 kHz) avoid neuromuscular stimulation seen at 50–60 Hz while still producing thermal effects.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q3",
+        "text": "Which temperature range is most associated with both tissue desiccation and coagulation?",
+        "answerOptions": [
+          { "id": "es-pt2-q3-a", "text": "A) 37–50°C", "isCorrect": false },
+          { "id": "es-pt2-q3-b", "text": "B) 50–60°C", "isCorrect": false },
+          { "id": "es-pt2-q3-c", "text": "C) 60–90°C", "isCorrect": true },
+          { "id": "es-pt2-q3-d", "text": "D) 90–100°C", "isCorrect": false },
+          { "id": "es-pt2-q3-e", "text": "E) 200–600°C", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "At ~60–90°C, water loss and protein denaturation drive desiccation and coagulation without vaporization.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q4",
+        "text": "What best describes the primary difference between monopolar and bipolar electrosurgery?",
+        "answerOptions": [
+          { "id": "es-pt2-q4-a", "text": "A) Bipolar systems have a dispersive pad", "isCorrect": false },
+          { "id": "es-pt2-q4-b", "text": "B) Monopolar devices do not pass current through tissue", "isCorrect": false },
+          { "id": "es-pt2-q4-c", "text": "C) Monopolar devices require a return electrode", "isCorrect": true },
+          { "id": "es-pt2-q4-d", "text": "D) Bipolar systems use higher voltage", "isCorrect": false },
+          { "id": "es-pt2-q4-e", "text": "E) Monopolar systems are safer near delicate structures", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Monopolar current travels from active tip through the patient to a return pad; bipolar current flows only between the two tips of the instrument.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Difficult"
+      },
+      {
+        "id": "es-pt2-q5",
+        "text": "What does the ESU convert standard 60 Hz wall current into?",
+        "answerOptions": [
+          { "id": "es-pt2-q5-a", "text": "A) Direct current", "isCorrect": false },
+          { "id": "es-pt2-q5-b", "text": "B) 100 Hz alternating current", "isCorrect": false },
+          { "id": "es-pt2-q5-c", "text": "C) 60,000 Hz current", "isCorrect": false },
+          { "id": "es-pt2-q5-d", "text": "D) 500,000 Hz alternating current", "isCorrect": true },
+          { "id": "es-pt2-q5-e", "text": "E) Pulsed low-voltage current", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "ESUs transform 60 Hz AC to high-frequency AC (~500 kHz) to avoid neuromuscular stimulation.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt2-q6",
+        "text": "Which of the following is the correct wattage definition used in electrosurgery?",
+        "answerOptions": [
+          { "id": "es-pt2-q6-a", "text": "A) Energy per degree Celsius", "isCorrect": false },
+          { "id": "es-pt2-q6-b", "text": "B) Voltage divided by resistance", "isCorrect": false },
+          { "id": "es-pt2-q6-c", "text": "C) Joules per second", "isCorrect": true },
+          { "id": "es-pt2-q6-d", "text": "D) Amps per minute", "isCorrect": false },
+          { "id": "es-pt2-q6-e", "text": "E) Millivolts per square millimeter", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Power (watts) is energy per unit time: 1 W = 1 joule/second.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q7",
+        "text": "Which waveform characteristic is most associated with “cut” mode on an ESU?",
+        "answerOptions": [
+          { "id": "es-pt2-q7-a", "text": "A) Interrupted, modulated bursts of high voltage", "isCorrect": false },
+          { "id": "es-pt2-q7-b", "text": "B) Continuous sine wave with low voltage", "isCorrect": true },
+          { "id": "es-pt2-q7-c", "text": "C) Blend of sine and square waves", "isCorrect": false },
+          { "id": "es-pt2-q7-d", "text": "D) Pulsed waveform with increasing frequency", "isCorrect": false },
+          { "id": "es-pt2-q7-e", "text": "E) Square wave with constant amplitude", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cut mode is a continuous, low-voltage waveform (≈100% duty cycle) that enables smooth vaporization.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Difficult"
+      },
+      {
+        "id": "es-pt2-q8",
+        "text": "In “coag” mode, what causes the increased risk of collateral tissue injury?",
+        "answerOptions": [
+          { "id": "es-pt2-q8-a", "text": "A) Continuous current flow", "isCorrect": false },
+          { "id": "es-pt2-q8-b", "text": "B) High-frequency oscillation", "isCorrect": false },
+          { "id": "es-pt2-q8-c", "text": "C) High duty cycle", "isCorrect": false },
+          { "id": "es-pt2-q8-d", "text": "D) High-voltage bursts with a low duty cycle", "isCorrect": true },
+          { "id": "es-pt2-q8-e", "text": "E) Use of direct current instead of alternating current", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coag mode’s high-voltage, low-duty-cycle bursts cause rapid desiccation, char, and greater lateral thermal spread.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q9",
+        "text": "What is a common misconception in electrosurgery terminology?",
+        "answerOptions": [
+          { "id": "es-pt2-q9-a", "text": "A) Electrosurgery cannot cut tissue", "isCorrect": false },
+          { "id": "es-pt2-q9-b", "text": "B) “Cut” and “coag” modes are interchangeable", "isCorrect": false },
+          { "id": "es-pt2-q9-c", "text": "C) Electrosurgery is the same as electrocautery", "isCorrect": true },
+          { "id": "es-pt2-q9-d", "text": "D) Bipolar devices don’t conduct electricity", "isCorrect": false },
+          { "id": "es-pt2-q9-e", "text": "E) Current only flows through metal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Electrocautery transfers heat via a hot probe (DC); electrosurgery uses high-frequency AC through tissue—distinct concepts often conflated.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt2-q10",
+        "text": "What happens when intracellular temperatures exceed 100°C?",
+        "answerOptions": [
+          { "id": "es-pt2-q10-a", "text": "A) Desiccation occurs", "isCorrect": false },
+          { "id": "es-pt2-q10-b", "text": "B) Coagulation proteins form", "isCorrect": false },
+          { "id": "es-pt2-q10-c", "text": "C) Carbonization begins", "isCorrect": false },
+          { "id": "es-pt2-q10-d", "text": "D) Intracellular water boils and vaporizes the cell", "isCorrect": true },
+          { "id": "es-pt2-q10-e", "text": "E) Fulguration initiates", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Above 100°C, intracellular water boils; steam formation disrupts cells—this is vaporization (cutting).",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q11",
+        "text": "In modern ESUs, why is “grounding” the patient an inaccurate term?",
+        "answerOptions": [
+          { "id": "es-pt2-q11-a", "text": "A) The ESU only uses battery power", "isCorrect": false },
+          { "id": "es-pt2-q11-b", "text": "B) Modern systems do not require electricity through the body", "isCorrect": false },
+          { "id": "es-pt2-q11-c", "text": "C) They use direct current without a need for ground", "isCorrect": false },
+          { "id": "es-pt2-q11-d", "text": "D) The system forms a closed circuit with a return pad", "isCorrect": true },
+          { "id": "es-pt2-q11-e", "text": "E) Modern pads block current flow altogether", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The circuit is completed by a dispersive return electrode; the patient is not “grounded” to earth as in legacy systems.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Difficult"
+      },
+      {
+        "id": "es-pt2-q12",
+        "text": "What is the purpose of blend mode?",
+        "answerOptions": [
+          { "id": "es-pt2-q12-a", "text": "A) It provides maximum cutting with no coagulation", "isCorrect": false },
+          { "id": "es-pt2-q12-b", "text": "B) It uses direct current to minimize heat", "isCorrect": false },
+          { "id": "es-pt2-q12-c", "text": "C) It combines intermediate duty cycles and voltage", "isCorrect": true },
+          { "id": "es-pt2-q12-d", "text": "D) It activates both monopolar and bipolar electrodes", "isCorrect": false },
+          { "id": "es-pt2-q12-e", "text": "E) It avoids desiccation entirely", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blend sits between cut and coag with intermediate duty cycle/voltage to balance division and hemostasis.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt2-q13",
+        "text": "Which tissue effect is best described as high-voltage arcing across air without contact?",
+        "answerOptions": [
+          { "id": "es-pt2-q13-a", "text": "A) Vaporization", "isCorrect": false },
+          { "id": "es-pt2-q13-b", "text": "B) Coagulation", "isCorrect": false },
+          { "id": "es-pt2-q13-c", "text": "C) Fulguration", "isCorrect": true },
+          { "id": "es-pt2-q13-d", "text": "D) Desiccation", "isCorrect": false },
+          { "id": "es-pt2-q13-e", "text": "E) Electrocautery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fulguration is a no-contact, high-voltage arc used for superficial coagulation over wide surfaces.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q14",
+        "text": "Which tissue effect is characterized by protein denaturation and reformation?",
+        "answerOptions": [
+          { "id": "es-pt2-q14-a", "text": "A) Coagulation", "isCorrect": true },
+          { "id": "es-pt2-q14-b", "text": "B) Fulguration", "isCorrect": false },
+          { "id": "es-pt2-q14-c", "text": "C) Vaporization", "isCorrect": false },
+          { "id": "es-pt2-q14-d", "text": "D) Desiccation", "isCorrect": false },
+          { "id": "es-pt2-q14-e", "text": "E) Carbonization", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coagulation reflects heat-driven protein denaturation and reformation (typically ~60–90°C), aiding hemostasis.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q15",
+        "text": "Why might a surgeon prefer “cut” mode over “coag” when buzzing a vessel held in forceps?",
+        "answerOptions": [
+          { "id": "es-pt2-q15-a", "text": "A) It is faster and produces no lateral spread", "isCorrect": false },
+          { "id": "es-pt2-q15-b", "text": "B) It produces a deeper, more homogeneous seal", "isCorrect": true },
+          { "id": "es-pt2-q15-c", "text": "C) It prevents vessel shrinkage", "isCorrect": false },
+          { "id": "es-pt2-q15-d", "text": "D) It increases instrument sterility", "isCorrect": false },
+          { "id": "es-pt2-q15-e", "text": "E) It avoids using alternating current", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cut’s continuous, lower-voltage waveform avoids rapid surface desiccation, enabling deeper, uniform sealing.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q16",
+        "text": "Which of the following temperature effects is responsible for carbonization?",
+        "answerOptions": [
+          { "id": "es-pt2-q16-a", "text": "A) 50–60°C", "isCorrect": false },
+          { "id": "es-pt2-q16-b", "text": "B) 60–90°C", "isCorrect": false },
+          { "id": "es-pt2-q16-c", "text": "C) ~100°C", "isCorrect": false },
+          { "id": "es-pt2-q16-d", "text": "D) 150–200°C", "isCorrect": false },
+          { "id": "es-pt2-q16-e", "text": "E) 200–600°C", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Carbonization occurs at very high temperatures (≈200–600°C), producing black char and sticky residue.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt2-q17",
+        "text": "What is the main danger when desiccated tissue acts as an insulator during coagulation?",
+        "answerOptions": [
+          { "id": "es-pt2-q17-a", "text": "A) Uncontrolled vessel expansion", "isCorrect": false },
+          { "id": "es-pt2-q17-b", "text": "B) Reduced thermal spread", "isCorrect": false },
+          { "id": "es-pt2-q17-c", "text": "C) Deep penetration and effective hemostasis", "isCorrect": false },
+          { "id": "es-pt2-q17-d", "text": "D) Prevents current from reaching deeper tissue layers", "isCorrect": true },
+          { "id": "es-pt2-q17-e", "text": "E) Causes the ESU to short circuit", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Rapid surface desiccation creates a nonconductive crust that blocks deeper energy transfer and weakens hemostasis.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Difficult"
+      },
+      {
+        "id": "es-pt2-q18",
+        "text": "What principle do advanced bipolar vessel sealing devices (e.g., LigaSure) use?",
+        "answerOptions": [
+          { "id": "es-pt2-q18-a", "text": "A) High-voltage interrupted current", "isCorrect": false },
+          { "id": "es-pt2-q18-b", "text": "B) Low-frequency pulsed mode", "isCorrect": false },
+          { "id": "es-pt2-q18-c", "text": "C) Continuous low-voltage waveform", "isCorrect": true },
+          { "id": "es-pt2-q18-d", "text": "D) Alternating monopolar bursts", "isCorrect": false },
+          { "id": "es-pt2-q18-e", "text": "E) Grounding pads for energy dispersion", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "They deliver a continuous, low-voltage waveform (with feedback) to create uniform, deep seals with minimal spread.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt2-q19",
+        "text": "Why is high-frequency current safer for use in surgery than standard wall current?",
+        "answerOptions": [
+          { "id": "es-pt2-q19-a", "text": "A) It penetrates tissues more quickly", "isCorrect": false },
+          { "id": "es-pt2-q19-b", "text": "B) It avoids heating tissues altogether", "isCorrect": false },
+          { "id": "es-pt2-q19-c", "text": "C) It is less visible on monitors", "isCorrect": false },
+          { "id": "es-pt2-q19-d", "text": "D) It is too fast to depolarize muscles or nerves", "isCorrect": true },
+          { "id": "es-pt2-q19-e", "text": "E) It can be reversed if needed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Frequencies >100 kHz are above neuromuscular response, reducing risk of contractions or arrhythmias while allowing thermal effects.",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Difficult"
+      },
+      {
+        "id": "es-pt2-q20",
+        "text": "What tissue condition is commonly produced by caramelization?",
+        "answerOptions": [
+          { "id": "es-pt2-q20-a", "text": "A) Rapid vaporization", "isCorrect": false },
+          { "id": "es-pt2-q20-b", "text": "B) Protein crystallization", "isCorrect": false },
+          { "id": "es-pt2-q20-c", "text": "C) Sticky eschar on instrument tips", "isCorrect": true },
+          { "id": "es-pt2-q20-d", "text": "D) Explosive gas release", "isCorrect": false },
+          { "id": "es-pt2-q20-e", "text": "E) Water retention in tissues", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "At very high temperatures, sugars/proteins melt and char—creating sticky residue on instruments (caramelization/char).",
+        "submodule": "SAGES Minimally Invasive Surgery Videos. Fundamentals of electrosurgery. YouTube. https://www.youtube.com/watch?v=wJNt4oR-1q0. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]

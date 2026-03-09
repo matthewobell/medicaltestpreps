@@ -1,0 +1,106 @@
+[
+  {
+    "id": "fls-module-3-operating-room-setup",
+    "title": "FLS Module 3: Operating Room Setup",
+    "questions": [
+      {
+        "id": "m3-q1",
+        "text": "Which of the following best describes the optimal placement of the video monitor during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Above eye level to improve visibility over the sterile field", "isCorrect": false },
+          { "id": "b", "text": "B) At or slightly below eye level to reduce neck strain", "isCorrect": true },
+          { "id": "c", "text": "C) On the side opposite the surgeon for ergonomic balance", "isCorrect": false },
+          { "id": "d", "text": "D) It must be placed directly over the patient's head", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Proper monitor height minimizes cervical extension and discomfort during long procedures.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q2",
+        "text": "Which of the following statements about patient positioning is most accurate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Positioning equipment should remain fixed and the patient should be adjusted to it", "isCorrect": false },
+          { "id": "b", "text": "B) Patients should be placed in standard positions without modification", "isCorrect": false },
+          { "id": "c", "text": "C) The patient should be adjusted to fit into pre-set positioning devices", "isCorrect": false },
+          { "id": "d", "text": "D) Positioning equipment should be adapted to the patient to avoid neuromuscular injury", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Positioning equipment should be tailored to each patient. Forcing a patient into rigid positioning devices can cause nerve injury.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q3",
+        "text": "Which of the following best represents the ideal ergonomic posture for the surgeon during laparoscopic procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Arms abducted <30° from the trunk, elbows flexed 60–120°, wrists slightly pronated", "isCorrect": true },
+          { "id": "b", "text": "B) Arms flexed at 90°, wrists extended, thumbs pointing downward", "isCorrect": false },
+          { "id": "c", "text": "C) Elbows locked, arms held high, wrists in neutral position", "isCorrect": false },
+          { "id": "d", "text": "D) Shoulders shrugged to compensate for poor table height", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This ergonomic posture reduces fatigue and improves fine motor control during surgery.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q4",
+        "text": "A surgical assistant finds that their monitor cable isn’t long enough to allow comfortable positioning. What is the best next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Proceed with the case and move the monitor closer during surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Have the assistant switch to the surgeon’s monitor", "isCorrect": false },
+          { "id": "c", "text": "C) Replace the cable or reposition the monitor with sufficient cable length", "isCorrect": true },
+          { "id": "d", "text": "D) Ask the assistant to reposition themselves every 10 minutes to reduce strain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Monitor placement must support proper ergonomics; correct the cable length issue before beginning the case.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q5",
+        "text": "Which of the following statements about ancillary equipment setup is false?",
+        "answerOptions": [
+          { "id": "a", "text": "A) All ancillary equipment should be tested for function before the procedure", "isCorrect": false },
+          { "id": "b", "text": "B) Sterile drapes and radiation protection must be available when appropriate", "isCorrect": false },
+          { "id": "c", "text": "C) Coagulation devices and ultrasound machines should be placed for easy access to the sterile field", "isCorrect": false },
+          { "id": "d", "text": "D) Insufflator settings are not important as long as the pneumoperitoneum is stable", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Insufflator settings must remain visible to the team; pressure changes can be dangerous and must be monitored.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q6",
+        "text": "During a laparoscopic cholecystectomy, a surgeon wants to minimize their muscle strain and fatigue. Which strategy would be most helpful?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fully extending elbows to maximize instrument reach", "isCorrect": false },
+          { "id": "b", "text": "B) Keeping arms close to the trunk with thumbs pointed down", "isCorrect": false },
+          { "id": "c", "text": "C) Standing on a step stool to align body with the monitor", "isCorrect": true },
+          { "id": "d", "text": "D) Rotating positions with the assistant every 20 minutes", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Step stools help correct height mismatches and allow proper ergonomic alignment.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m3-q7",
+        "text": "Which best describes proper setup for intraoperative imaging during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ensure table can tilt side-to-side for C-arm clearance", "isCorrect": false },
+          { "id": "b", "text": "B) Position the table so the C-arm can fit over the surgical drapes", "isCorrect": false },
+          { "id": "c", "text": "C) Ensure the table allows the C-arm or X-ray plate to pass under the table or patient", "isCorrect": true },
+          { "id": "d", "text": "D) Place the C-arm over the sterile instrument table for optimal access", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For procedures requiring imaging, the operating table must allow the C-arm or X-ray plate to pass beneath the patient.",
+        "submodule": "Module 3 – Operating Room Setup",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

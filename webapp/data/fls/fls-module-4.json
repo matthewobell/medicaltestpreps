@@ -1,0 +1,344 @@
+[
+  {
+    "id": "fls-module-4-patient-selection-and-preoperative-assessment",
+    "title": "FLS Module 4: Patient Selection and Preoperative Assessment",
+    "questions": [
+      {
+        "id": "m4-q1",
+        "text": "Which ASA (American Society of Anesthesiologists) classification corresponds to a patient with a severe systemic illness that limits activity but is not life-threatening?",
+        "answerOptions": [
+          { "id": "a", "text": "A) ASA 2", "isCorrect": false },
+          { "id": "b", "text": "B) ASA 3", "isCorrect": true },
+          { "id": "c", "text": "C) ASA 4", "isCorrect": false },
+          { "id": "d", "text": "D) ASA 5", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "ASA 3 denotes a patient with severe systemic disease that limits activity but is not incapacitating. ASA 4 refers to life-threatening conditions, and ASA 5 is for moribund patients. ASA 2 indicates mild systemic disease.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q2",
+        "text": "Which of the following should always be discussed with the patient during the initial preoperative consultation for laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Details about trocar types and camera angle", "isCorrect": false },
+          { "id": "b", "text": "B) The surgeon’s estimated operating time", "isCorrect": false },
+          { "id": "c", "text": "C) Possibility of conversion to open surgery", "isCorrect": true },
+          { "id": "d", "text": "D) Use of advanced energy devices", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "It is essential that patients are informed about all possible outcomes, including the potential need to convert to an open procedure, during the informed consent process.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q3",
+        "text": "Which of the following is considered a relative contraindication to laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Inability to tolerate laparotomy", "isCorrect": false },
+          { "id": "b", "text": "B) Uncorrectable hypovolemic shock", "isCorrect": false },
+          { "id": "c", "text": "C) Lack of surgical training", "isCorrect": false },
+          { "id": "d", "text": "D) Previous abdominal surgery", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "While prior abdominal surgery increases the risk of adhesions, it is not an absolute contraindication. The other choices represent absolute contraindications, such as uncorrectable hypovolemic shock or inadequate surgical training.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q4",
+        "text": "Which of the following is not an absolute contraindication to laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Lack of facility resources for perioperative care", "isCorrect": false },
+          { "id": "b", "text": "B) Severe cardiopulmonary disease", "isCorrect": false },
+          { "id": "c", "text": "C) Unresuscitated hypovolemic shock", "isCorrect": false },
+          { "id": "d", "text": "D) Bowel obstruction with dilated loops", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Although bowel obstruction is a challenge, it may still be approached laparoscopically depending on the clinical scenario. The other options are absolute contraindications due to significant safety concerns.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q5",
+        "text": "What is a recommended strategy for initial access in thin or muscular patients to avoid vascular injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of high insufflation pressures", "isCorrect": false },
+          { "id": "b", "text": "B) Veress needle insertion directly through the umbilicus", "isCorrect": false },
+          { "id": "c", "text": "C) Open access or optical trocar technique away from midline", "isCorrect": true },
+          { "id": "d", "text": "D) Blind trocar insertion through previous scars", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In thin or muscular patients, the aortoiliac vessels are closer to the abdominal wall, increasing injury risk. Using an open or optical technique away from midline helps reduce this risk.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q6",
+        "text": "In a patient with cirrhosis undergoing laparoscopy, which complication is of particular concern?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hypercapnia", "isCorrect": false },
+          { "id": "b", "text": "B) Ascitic fluid leakage through trocar sites", "isCorrect": true },
+          { "id": "c", "text": "C) Ileus", "isCorrect": false },
+          { "id": "d", "text": "D) Deep vein thrombosis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cirrhotic patients often have ascites, which can leak through trocar sites postoperatively. Hemorrhage risk is also elevated due to coagulopathy.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q7",
+        "text": "Which patient condition most strongly warrants avoiding blind initial trocar placement at the umbilicus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pregnancy in the first trimester", "isCorrect": false },
+          { "id": "b", "text": "B) Previous appendectomy", "isCorrect": false },
+          { "id": "c", "text": "C) Umbilical hernia repair with mesh", "isCorrect": true },
+          { "id": "d", "text": "D) Prior gastric bypass surgery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blind trocar or Veress needle placement through previously placed mesh increases the risk of bowel or vascular injury. Access should be performed under direct vision or in an alternate location.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q8",
+        "text": "Which of the following statements is true regarding laparoscopy during pregnancy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is contraindicated in the third trimester", "isCorrect": false },
+          { "id": "b", "text": "B) It can be performed in any trimester with proper precautions", "isCorrect": true },
+          { "id": "c", "text": "C) Only open surgery should be performed in pregnant patients", "isCorrect": false },
+          { "id": "d", "text": "D) Fetal heart monitoring is not necessary perioperatively", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopy is safe in all trimesters when done by experienced teams with adjustments like lateral positioning, lower insufflation pressures, and fetal monitoring.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q9",
+        "text": "Which of the following conditions is often mistaken as a contraindication but is not a contraindication to laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Portal hypertension in laparoscopic cholecystectomy", "isCorrect": false },
+          { "id": "b", "text": "B) COPD", "isCorrect": true },
+          { "id": "c", "text": "C) Inability to resuscitate from shock", "isCorrect": false },
+          { "id": "d", "text": "D) Lack of appropriate team experience", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "COPD was previously thought to be a contraindication, but with appropriate perioperative management, these patients can safely undergo laparoscopy.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q10",
+        "text": "Which precaution is appropriate when planning laparoscopy in a patient with known visceral arterial aneurysm?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of higher insufflation pressure to tamponade the aneurysm", "isCorrect": false },
+          { "id": "b", "text": "B) Preference for blind Veress needle insertion", "isCorrect": false },
+          { "id": "c", "text": "C) Awareness of increased risk for vascular injury during access", "isCorrect": true },
+          { "id": "d", "text": "D) Laparoscopy is contraindicated in all cases", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Aneurysms increase the risk of bleeding during entry. Preoperative knowledge allows the surgeon to adjust the access technique to minimize danger.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q11",
+        "text": "What is the primary reason for continuing cardiac and pulmonary medications perioperatively?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They increase anesthetic depth", "isCorrect": false },
+          { "id": "b", "text": "B) They promote faster extubation", "isCorrect": false },
+          { "id": "c", "text": "C) They maintain baseline organ function and reduce risk", "isCorrect": true },
+          { "id": "d", "text": "D) They interact synergistically with muscle relaxants", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cardiac and pulmonary medications help maintain physiologic stability and should generally be continued unless contraindicated.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q12",
+        "text": "Which of the following supplements is known to affect platelet function and should be reviewed preoperatively?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Folic acid", "isCorrect": false },
+          { "id": "b", "text": "B) Vitamin C", "isCorrect": false },
+          { "id": "c", "text": "C) Fish oil", "isCorrect": true },
+          { "id": "d", "text": "D) Calcium", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fish oil and other supplements like ginkgo and garlic may impair platelet function and increase bleeding risk.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q13",
+        "text": "Which positioning precaution is recommended for a pregnant patient undergoing laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine with no tilt", "isCorrect": false },
+          { "id": "b", "text": "B) Right lateral recumbent decubitus", "isCorrect": false },
+          { "id": "c", "text": "C) Left lateral decubitus", "isCorrect": true },
+          { "id": "d", "text": "D) Steep Trendelenburg", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This position helps reduce uterine compression of the vena cava, improving venous return and minimizing hypotension during pregnancy.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q14",
+        "text": "What is the most important aspect of a successful informed consent process?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using detailed medical terminology", "isCorrect": false },
+          { "id": "b", "text": "B) Providing a copy of the hospital’s consent policy", "isCorrect": false },
+          { "id": "c", "text": "C) Ensuring a two-way dialogue with time for patient questions", "isCorrect": true },
+          { "id": "d", "text": "D) Having a witness sign the consent form", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Informed consent is a dynamic, bidirectional process requiring adequate explanation and patient understanding.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q15",
+        "text": "What is the appropriate perioperative consideration for a patient on long-term corticosteroid therapy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Discontinue steroids 24 hours before surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Delay surgery for 6 weeks after stopping steroids", "isCorrect": false },
+          { "id": "c", "text": "C) Administer stress-dose steroids perioperatively", "isCorrect": true },
+          { "id": "d", "text": "D) Reduce steroid dose postoperatively to prevent adrenal crisis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Chronic steroid use suppresses the hypothalamic-pituitary-adrenal axis. Stress-dose steroids are recommended to reduce the risk of adrenal insufficiency during the perioperative period.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q16",
+        "text": "Which of the following is a common method used to enhance patient education before laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Requiring patients to attend group classes", "isCorrect": false },
+          { "id": "b", "text": "B) Mailing operative reports from prior surgeries", "isCorrect": false },
+          { "id": "c", "text": "C) Providing procedure-specific booklets and/or videos", "isCorrect": true },
+          { "id": "d", "text": "D) Reviewing surgical anatomy in detail during consent", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Many surgeons offer brochures or videos to help patients better understand the procedure and postoperative expectations.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q17",
+        "text": "In obese patients undergoing laparoscopy, which technique can assist in safe secondary trocar placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of a Foley catheter", "isCorrect": false },
+          { "id": "b", "text": "B) Placement of a spinal needle to mark the path", "isCorrect": true },
+          { "id": "c", "text": "C) Lateral decubitus positioning", "isCorrect": false },
+          { "id": "d", "text": "D) Pre-insufflation with oxygen", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In obese patients, finger palpation may be unreliable. Using a spinal needle can help define safe points of trocar entry.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q18",
+        "text": "When should a surgeon consider converting from a laparoscopic to an open approach in a patient with bowel obstruction?",
+        "answerOptions": [
+          { "id": "a", "text": "A) When insufflation pressure exceeds 12 mmHg", "isCorrect": false },
+          { "id": "b", "text": "B) If the obstruction is caused by a hernia", "isCorrect": false },
+          { "id": "c", "text": "C) When visualization is limited by massively distended bowel", "isCorrect": true },
+          { "id": "d", "text": "D) Whenever adhesions are present", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Large bowel dilation limits safe visualization and increases risk of enterotomy. Conversion may be needed to manage this safely.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q19",
+        "text": "Which of the following is a relative contraindication specific to laparoscopic appendectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Prior cesarean section", "isCorrect": false },
+          { "id": "b", "text": "B) Presence of a phlegmon or large abscess", "isCorrect": true },
+          { "id": "c", "text": "C) Mild leukocytosis", "isCorrect": false },
+          { "id": "d", "text": "D) Right lower quadrant pain for less than 24 hours", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Large abscesses or phlegmons may require drainage or conversion to open procedure and present challenges to safe laparoscopy.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q20",
+        "text": "Why is it important to evaluate the institution’s capacity and OR team expertise before deciding on a laparoscopic approach?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To ensure the case duration is under 30 minutes", "isCorrect": false },
+          { "id": "b", "text": "B) To guarantee patient satisfaction", "isCorrect": false },
+          { "id": "c", "text": "C) Because local capabilities directly affect patient safety and outcomes", "isCorrect": true },
+          { "id": "d", "text": "D) Because surgeons need to meet billing benchmarks", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Institutional resources, surgical team experience, and support services influence whether laparoscopy can be performed safely.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q21",
+        "text": "Which of the following is true about laparoscopy in trauma?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is the gold standard for all abdominal trauma", "isCorrect": false },
+          { "id": "b", "text": "B) It should only be used when hemodynamic instability is present", "isCorrect": false },
+          { "id": "c", "text": "C) It is most useful in stable patients for evaluating diaphragm or bowel injury", "isCorrect": true },
+          { "id": "d", "text": "D) It is contraindicated after penetrating injuries", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopy plays a role in diagnosing occult injuries in stable trauma patients. It helps avoid unnecessary laparotomies.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q22",
+        "text": "Which preoperative finding increases concern for adhesions despite absence of visible abdominal scars?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Smoking history", "isCorrect": false },
+          { "id": "b", "text": "B) History of peritonitis", "isCorrect": true },
+          { "id": "c", "text": "C) BMI <20", "isCorrect": false },
+          { "id": "d", "text": "D) Prior endoscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Peritonitis causes adhesions even if no surgical incisions are present. This raises concern for injury during initial access.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q23",
+        "text": "Why is it critical to avoid Veress needle insertion through a previous umbilical hernia repair site?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It causes increased insufflation rates", "isCorrect": false },
+          { "id": "b", "text": "B) Risk of bowel or mesh injury is high", "isCorrect": true },
+          { "id": "c", "text": "C) The scar is too rigid for entry", "isCorrect": false },
+          { "id": "d", "text": "D) Cosmetic outcomes are compromised", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blind entry through repaired hernia sites risks damage to prosthetic mesh and underlying structures.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-q24",
+        "text": "Which of the following is recommended when assessing a patient preoperatively for laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Routine pulmonary function tests in all patients", "isCorrect": false },
+          { "id": "b", "text": "B) Performing treadmill testing for anesthesia clearance", "isCorrect": false },
+          { "id": "c", "text": "C) Reviewing most recent imaging, lab values, and EKG", "isCorrect": true },
+          { "id": "d", "text": "D) Scheduling surgery before any medical clearance is complete", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A thorough pre-op assessment includes review of relevant labs, imaging, and cardiopulmonary clearance when appropriate.",
+        "submodule": "Module 4 – Patient Selection and Preoperative Assessment",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

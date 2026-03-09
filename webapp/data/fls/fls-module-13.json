@@ -1,0 +1,288 @@
+[
+  {
+    "id": "fls-module-13-postoperative-care-complications",
+    "title": "FLS Module 13: Post-Operative Care and Complications",
+    "questions": [
+      {
+        "id": "m13-q1",
+        "text": "Postoperative shoulder pain following laparoscopic surgery typically lasts:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Less than 6 hours", "isCorrect": false },
+          { "id": "b", "text": "B) 1–3 days", "isCorrect": true },
+          { "id": "c", "text": "C) 5–7 days", "isCorrect": false },
+          { "id": "d", "text": "D) More than 1 week", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Referred shoulder pain is due to diaphragmatic irritation from pneumoperitoneum and usually resolves within 1–3 days.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q2",
+        "text": "Which medication class should not be used to treat postoperative nausea and vomiting (PONV)?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Serotonin 5-HT3 antagonists", "isCorrect": false },
+          { "id": "b", "text": "B) Antihistamines", "isCorrect": false },
+          { "id": "c", "text": "C) Corticosteroids", "isCorrect": false },
+          { "id": "d", "text": "D) Opioids", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Opioids contribute to PONV and should be minimized or avoided in its treatment. Other classes are commonly used for prophylaxis and rescue therapy.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q3",
+        "text": "A patient reports increasing postoperative pain several days after a laparoscopic procedure. The appropriate next step is:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Prescribe additional opioids without assessment", "isCorrect": false },
+          { "id": "b", "text": "B) Reassure the patient that it’s normal", "isCorrect": false },
+          { "id": "c", "text": "C) Schedule an in-person evaluation for possible complications", "isCorrect": true },
+          { "id": "d", "text": "D) Recommend hot compresses and rest", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Increasing pain after laparoscopy should raise concern for complications such as infection, hematoma, or bowel injury.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q4",
+        "text": "Which of the following is a well-established risk factor for postoperative nausea and vomiting?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Male sex", "isCorrect": false },
+          { "id": "b", "text": "B) Smoking", "isCorrect": false },
+          { "id": "c", "text": "C) History of motion sickness", "isCorrect": true },
+          { "id": "d", "text": "D) Use of local anesthesia", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A history of motion sickness is a strong risk factor. Other strong factors include female sex, non-smoking status, and prior PONV history.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q5",
+        "text": "If a patient experiences PONV despite prophylaxis with ondansetron, what is the best rescue treatment approach?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increase the ondansetron dose", "isCorrect": false },
+          { "id": "b", "text": "B) Add morphine for pain control", "isCorrect": false },
+          { "id": "c", "text": "C) Switch to a different antiemetic class", "isCorrect": true },
+          { "id": "d", "text": "D) Use metoclopramide only for nausea", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Rescue therapy should use a medication from a different class than that used for prophylaxis to improve efficacy and avoid tolerance.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q6",
+        "text": "What is the best approach to PONV prevention?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Avoid all anesthetics", "isCorrect": false },
+          { "id": "b", "text": "B) Use a single antiemetic agent for all patients", "isCorrect": false },
+          { "id": "c", "text": "C) Risk stratification and tailored multimodal therapy", "isCorrect": true },
+          { "id": "d", "text": "D) Wait until symptoms arise, then treat", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Individualized treatment based on risk factors and combining different antiemetic classes improves outcomes.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q7",
+        "text": "Which of the following is not a recommended PONV prophylactic medication?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ondansetron", "isCorrect": false },
+          { "id": "b", "text": "B) Promethazine", "isCorrect": false },
+          { "id": "c", "text": "C) Morphine", "isCorrect": true },
+          { "id": "d", "text": "D) Dexamethasone", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Morphine and other opioids increase the risk of PONV and are not used as antiemetics.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q8",
+        "text": "Which of the following strategies may help reduce postoperative shoulder pain from laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Raising insufflation pressure", "isCorrect": false },
+          { "id": "b", "text": "B) Avoiding pneumoperitoneum evacuation", "isCorrect": false },
+          { "id": "c", "text": "C) Evacuating pneumoperitoneum at the end of the case", "isCorrect": true },
+          { "id": "d", "text": "D) Avoiding use of shoulder supports", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Removing residual gas can reduce diaphragmatic irritation and referred shoulder pain.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q9",
+        "text": "Postoperative dietary instructions after fundoplication typically include:",
+        "answerOptions": [
+          { "id": "a", "text": "A) High-fiber diet starting on day 1", "isCorrect": false },
+          { "id": "b", "text": "B) No dietary restrictions", "isCorrect": false },
+          { "id": "c", "text": "C) Return to regular diet within 12 hours", "isCorrect": false },
+          { "id": "d", "text": "D) Soft diet for 1–2 weeks", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Temporary dysphagia may occur; a soft diet minimizes discomfort and reduces complication risk.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q10",
+        "text": "Which of the following laparoscopic procedures has the shortest expected return to normal diet?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fundoplication", "isCorrect": false },
+          { "id": "b", "text": "B) Colon resection", "isCorrect": false },
+          { "id": "c", "text": "C) Appendectomy", "isCorrect": true },
+          { "id": "d", "text": "D) Esophagomyotomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Diet is usually resumed within 0–1 day after laparoscopic appendectomy.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q11",
+        "text": "Which strategy is most appropriate for postoperative pain management following laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) High-dose opioid monotherapy", "isCorrect": false },
+          { "id": "b", "text": "B) Heated insufflation gas only", "isCorrect": false },
+          { "id": "c", "text": "C) Multimodal analgesic therapy", "isCorrect": true },
+          { "id": "d", "text": "D) Elevation of the head of bed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Combining local anesthetics, non-opioid medications, and minimizing gas insufflation pressure can improve comfort.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q12",
+        "text": "What is a typical sign of wound complication following laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Painless swelling", "isCorrect": false },
+          { "id": "b", "text": "B) Redness and drainage", "isCorrect": true },
+          { "id": "c", "text": "C) Bruising with dry incision", "isCorrect": false },
+          { "id": "d", "text": "D) Pruritus without rash", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients should be instructed to watch for signs such as increasing pain, erythema, swelling, or discharge.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q13",
+        "text": "When can patients usually shower after laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediately post-op", "isCorrect": false },
+          { "id": "b", "text": "B) 12 hours", "isCorrect": false },
+          { "id": "c", "text": "C) 24–48 hours", "isCorrect": true },
+          { "id": "d", "text": "D) After one week", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Most laparoscopic incisions can be exposed to water after 1–2 days, as long as wounds are clean and dry.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q14",
+        "text": "Which of the following patients is most appropriate for postoperative activity restriction?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Healthy adult after 3-port cholecystectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Patient with steroid-dependent colitis", "isCorrect": true },
+          { "id": "c", "text": "C) Young adult after laparoscopic appendectomy", "isCorrect": false },
+          { "id": "d", "text": "D) Patient with no abdominal wall closure issues", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Impaired healing due to immunosuppression warrants a more cautious return to activity.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q15",
+        "text": "Which technique may improve postoperative pain but has inconsistent evidence?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Heated and humidified insufflation gas", "isCorrect": true },
+          { "id": "b", "text": "B) High-flow CO₂ insufflation", "isCorrect": false },
+          { "id": "c", "text": "C) Early ambulation", "isCorrect": false },
+          { "id": "d", "text": "D) Supine positioning", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Heated and humidified gas may help reduce discomfort, but the evidence supporting this is still mixed.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q16",
+        "text": "Which factor contributes to delayed return to diet after laparoscopic colon resection?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Anesthesia type", "isCorrect": false },
+          { "id": "b", "text": "B) Wound size", "isCorrect": false },
+          { "id": "c", "text": "C) Bowel manipulation and recovery", "isCorrect": true },
+          { "id": "d", "text": "D) Use of surgical staples", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Procedures involving extensive bowel resection typically require 3–6 days before diet is fully resumed, largely due to bowel manipulation and recovery.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q17",
+        "text": "Which discharge practice is recommended to optimize patient safety?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Only verbal instructions", "isCorrect": false },
+          { "id": "b", "text": "B) Discharge without a contact number", "isCorrect": false },
+          { "id": "c", "text": "C) Written and verbal instructions with physician contact info", "isCorrect": true },
+          { "id": "d", "text": "D) Generic printouts without procedure specifics", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Clear, personalized written and verbal instructions with a contact number help identify complications early and ensure safe recovery.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q18",
+        "text": "What postoperative wound dressing is least commonly used in laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Skin strips", "isCorrect": false },
+          { "id": "b", "text": "B) Sterile gauze", "isCorrect": false },
+          { "id": "c", "text": "C) Liquid skin adhesives", "isCorrect": false },
+          { "id": "d", "text": "D) Negative-pressure wound therapy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopic wounds are small and typically don’t require advanced wound dressings like negative-pressure therapy unless complicated.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q19",
+        "text": "What is a key strategy in preoperative counseling for laparoscopic patients?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Avoid discussing complications", "isCorrect": false },
+          { "id": "b", "text": "B) Skip dietary expectations", "isCorrect": false },
+          { "id": "c", "text": "C) Discuss operative findings postoperatively only", "isCorrect": false },
+          { "id": "d", "text": "D) Set realistic expectations for recovery and outcomes", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Educating patients preoperatively about expected recovery and possible complications helps reduce anxiety and improve satisfaction and adherence.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m13-q20",
+        "text": "Which patients require long-term follow-up after laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) All patients", "isCorrect": false },
+          { "id": "b", "text": "B) Only those with wound infections", "isCorrect": false },
+          { "id": "c", "text": "C) Patients treated for morbid obesity or malignancy", "isCorrect": true },
+          { "id": "d", "text": "D) Patients with minimal discomfort", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients treated for morbid obesity or malignancy often require structured long-term monitoring for weight loss, nutrition, or cancer recurrence.",
+        "submodule": "Module 13 – Post-Operative Care and Complications",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

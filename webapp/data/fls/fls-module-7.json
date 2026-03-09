@@ -1,0 +1,330 @@
+[
+  {
+    "id": "fls-module-7-physiology-of-pneumoperitoneum",
+    "title": "FLS Module 7: Physiology of Pneumoperitoneum",
+    "questions": [
+      {
+        "id": "m7-q1",
+        "text": "Which cardiac arrhythmia is most commonly associated with early insufflation during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ventricular fibrillation", "isCorrect": false },
+          { "id": "b", "text": "B) Bradycardia", "isCorrect": true },
+          { "id": "c", "text": "C) Supraventricular tachycardia", "isCorrect": false },
+          { "id": "d", "text": "D) Atrial fibrillation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pneumoperitoneum can stimulate a vagal response leading to bradycardia, particularly early during insufflation.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q2",
+        "text": "Which of the following is the most appropriate emergency position for a patient with suspected gas embolism?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Supine", "isCorrect": false },
+          { "id": "b", "text": "B) Reverse Trendelenburg", "isCorrect": false },
+          { "id": "c", "text": "C) Left lateral decubitus with head down", "isCorrect": true },
+          { "id": "d", "text": "D) Right lateral decubitus with head down", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This position helps trap gas in the right atrium and reduces the risk of embolus entering the pulmonary circulation.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q3",
+        "text": "Which of the following factors contribute to hypercarbia during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) CO₂ absorption from the peritoneum", "isCorrect": false },
+          { "id": "b", "text": "B) Inadequate pulmonary ventilation", "isCorrect": false },
+          { "id": "c", "text": "C) Impaired buffer compensation", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hypercarbia arises from multiple mechanisms including CO₂ absorption, ventilation-perfusion mismatch, and limits of the buffer system.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q4",
+        "text": "Which of the following is least likely to be a clinical sign of gas embolism?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hypotension", "isCorrect": false },
+          { "id": "b", "text": "B) Mill wheel murmur", "isCorrect": false },
+          { "id": "c", "text": "C) Jugular venous distention", "isCorrect": false },
+          { "id": "d", "text": "D) Bradycardia", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Gas embolism typically causes tachycardia and hypotension due to obstructed venous return, not bradycardia.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q5",
+        "text": "Significant hemodynamic changes during laparoscopy may be caused by:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased intra-abdominal pressure", "isCorrect": false },
+          { "id": "b", "text": "B) Elevated CO₂ levels", "isCorrect": false },
+          { "id": "c", "text": "C) Patient positioning", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pressure, chemical changes, and positioning all contribute to altered preload, afterload, and cardiac output.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q6",
+        "text": "Which of the following ventilatory changes is not typically caused by pneumoperitoneum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Decreased lung compliance", "isCorrect": false },
+          { "id": "b", "text": "B) Increased airway pressure", "isCorrect": false },
+          { "id": "c", "text": "C) Increased functional residual capacity", "isCorrect": true },
+          { "id": "d", "text": "D) Decreased diaphragmatic excursion", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pneumoperitoneum decreases FRC by pushing the diaphragm cephalad and reducing lung volumes.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q7",
+        "text": "Pneumoperitoneum tends to have what effect on cardiac index?",
+        "answerOptions": [
+          { "id": "a", "text": "A) No change", "isCorrect": false },
+          { "id": "b", "text": "B) Increase", "isCorrect": false },
+          { "id": "c", "text": "C) Decrease", "isCorrect": true },
+          { "id": "d", "text": "D) Initial rise, then drop", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cardiac output and cardiac index generally decrease due to increased afterload and reduced venous return.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q8",
+        "text": "According to SAGES guidelines, which of the following does NOT increase a patient’s risk for venous thromboembolism during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pelvic surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Age < 30", "isCorrect": true },
+          { "id": "c", "text": "C) Cancer", "isCorrect": false },
+          { "id": "d", "text": "D) Duration of surgery > 1 hour", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Age > 40 is considered a risk factor. Other listed factors are included in VTE risk stratification.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q9",
+        "text": "Which of the following is not a recommended strategy for preventing intraoperative hypothermia during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Warm IV fluids", "isCorrect": false },
+          { "id": "b", "text": "B) Warm room temperature", "isCorrect": false },
+          { "id": "c", "text": "C) A forced-air body surface warmer", "isCorrect": false },
+          { "id": "d", "text": "D) Cold insufflation gas to preserve pneumoperitoneum longer", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cold gas could contribute to hypothermia; warming fluids, air, and the room helps maintain normothermia.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q10",
+        "text": "Which insufflation gas is associated with reduced cardiopulmonary effects but increased fire risk?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Carbon dioxide", "isCorrect": false },
+          { "id": "b", "text": "B) Nitrous oxide", "isCorrect": true },
+          { "id": "c", "text": "C) Helium", "isCorrect": false },
+          { "id": "d", "text": "D) Argon", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Nitrous oxide causes less acidosis but does not suppress combustion and should be avoided in cases of suspected bowel perforation.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q11",
+        "text": "Why are inert gases like helium and argon not commonly used for pneumoperitoneum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They are highly flammable", "isCorrect": false },
+          { "id": "b", "text": "B) They cause rapid bowel distension", "isCorrect": false },
+          { "id": "c", "text": "C) They are poorly soluble and increase gas embolism risk", "isCorrect": true },
+          { "id": "d", "text": "D) They are absorbed too quickly", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Low blood solubility means these gases persist longer and increase risk of extraperitoneal accumulation or embolism.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q12",
+        "text": "A patient develops bradycardia immediately after insufflation. What is the first step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Administer atropine", "isCorrect": false },
+          { "id": "b", "text": "B) Deflate the pneumoperitoneum", "isCorrect": true },
+          { "id": "c", "text": "C) Increase insufflation pressure", "isCorrect": false },
+          { "id": "d", "text": "D) Begin CPR", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bradycardia may be vagally mediated. Immediate decompression often resolves the issue.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q13",
+        "text": "What intraoperative factor leads to decreased renal perfusion and oliguria during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Reverse Trendelenburg", "isCorrect": false },
+          { "id": "b", "text": "B) Increased intra-abdominal pressure", "isCorrect": true },
+          { "id": "c", "text": "C) Hyperthermia", "isCorrect": false },
+          { "id": "d", "text": "D) Use of warmed IV fluids", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Elevated pressure compresses renal vessels, decreasing GFR and promoting ADH-mediated oliguria.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q14",
+        "text": "Which of the following is true about warmed insufflation gas?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It causes hypercapnia", "isCorrect": false },
+          { "id": "b", "text": "B) It reduces clinically significant hypothermia in all cases", "isCorrect": false },
+          { "id": "c", "text": "C) It may reduce postoperative pain but does not significantly affect core temperature", "isCorrect": true },
+          { "id": "d", "text": "D) It increases the risk of bowel fire", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Warmed gas shows small differences in temperature and pain but not large clinical impact for short cases.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q15",
+        "text": "Which of the following is a recommended infection control practice for laparoscopic pneumoperitoneum gas?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Releasing gas directly into the room air", "isCorrect": false },
+          { "id": "b", "text": "B) Using unfiltered insufflation tubing", "isCorrect": false },
+          { "id": "c", "text": "C) Evacuating gas into a suction container", "isCorrect": true },
+          { "id": "d", "text": "D) Avoiding personal protective equipment", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pneumoperitoneum gas can contain aerosolized particles. It should be evacuated through a closed suction system.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q16",
+        "text": "Which patient is at highest risk for VTE during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 22-year-old on oral contraceptives for acne", "isCorrect": false },
+          { "id": "b", "text": "B) 35-year-old with BMI of 27 undergoing appendectomy", "isCorrect": false },
+          { "id": "c", "text": "C) 50-year-old with cancer on hormone replacement", "isCorrect": true },
+          { "id": "d", "text": "D) 40-year-old with recent uncomplicated upper endoscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cancer, hormone therapy, and age >40 are all risk factors. This patient is high risk and should receive tailored VTE prophylaxis.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q17",
+        "text": "Which physiologic effect is most commonly observed during the first 15–20 minutes of pneumoperitoneum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hypocapnia and alkalosis", "isCorrect": false },
+          { "id": "b", "text": "B) Bradycardia from prolonged insufflation", "isCorrect": false },
+          { "id": "c", "text": "C) Rapid rise in end-tidal CO₂ and drop in pH", "isCorrect": true },
+          { "id": "d", "text": "D) Increased tidal volume and minute ventilation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The body absorbs CO₂ quickly after insufflation begins, before reaching steady-state elimination.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q18",
+        "text": "If a patient becomes hypotensive during laparoscopy, what is the first recommended action?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Administer epinephrine", "isCorrect": false },
+          { "id": "b", "text": "B) Increase insufflation pressure", "isCorrect": false },
+          { "id": "c", "text": "C) Evacuate the pneumoperitoneum", "isCorrect": true },
+          { "id": "d", "text": "D) Begin chest compressions", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In the event of hypotension, stop insufflation and allow gas to escape. Then assess ventilatory status, volume status, and rule out bleeding or embolism.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q19",
+        "text": "Which of the following increases the risk of VTE during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Operative time < 60 minutes", "isCorrect": false },
+          { "id": "b", "text": "B) Ambulatory patient undergoing small umbilical hernia repair", "isCorrect": false },
+          { "id": "c", "text": "C) Pelvic procedure lasting 2.5 hours", "isCorrect": true },
+          { "id": "d", "text": "D) Upper endoscopy with sedation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pelvic surgery and duration >1 hour are both VTE risk factors. These contribute to a moderate to high-risk profile.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q20",
+        "text": "Extraperitoneal gas extravasation may present in all the following forms except:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Subcutaneous emphysema", "isCorrect": false },
+          { "id": "b", "text": "B) Gas embolism", "isCorrect": false },
+          { "id": "c", "text": "C) Pneumothorax", "isCorrect": false },
+          { "id": "d", "text": "D) Urinary retention", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Gas extravasation is a pressure-related complication and may be subcutaneous, thoracic, or even embolic. Urinary retention is unrelated.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q21",
+        "text": "Which of the following equipment safety practices is recommended when using CO₂ for insufflation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Allow cylinder to lie on its side", "isCorrect": false },
+          { "id": "b", "text": "B) Use tubing with visible condensation", "isCorrect": false },
+          { "id": "c", "text": "C) Keep cylinder upright and use filtered tubing", "isCorrect": true },
+          { "id": "d", "text": "D) Connect tubing directly to wall oxygen", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Upright cylinders prevent liquid CO₂ escape. Filters protect the insufflator and patient from contamination.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q22",
+        "text": "What cardiac rhythm changes are most commonly seen during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Complete heart block", "isCorrect": false },
+          { "id": "b", "text": "B) Premature ventricular contractions and sinus tachycardia", "isCorrect": true },
+          { "id": "c", "text": "C) Torsades de pointes", "isCorrect": false },
+          { "id": "d", "text": "D) Ventricular fibrillation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "These are common and typically benign changes during pneumoperitoneum, though they may require attention in cardiac patients.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-q23",
+        "text": "Which patient would be considered low risk for VTE according to SAGES guidelines?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 68-year-old with colon cancer on hormone therapy", "isCorrect": false },
+          { "id": "b", "text": "B) 52-year-old undergoing laparoscopic oophorectomy with CHF", "isCorrect": false },
+          { "id": "c", "text": "C) 34-year-old undergoing 45-minute diagnostic laparoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) 45-year-old on dialysis undergoing pelvic exenteration", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This patient lacks VTE risk factors. Short operative time and no comorbidities indicate low risk.",
+        "submodule": "Module 7 – Physiology of Pneumoperitoneum",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]
