@@ -1,0 +1,430 @@
+[
+  {
+    "id": "emigs-module-2-practice-test",
+    "title": "EMIGS Module 2",
+    "questions": [
+      {
+        "id": "m2-nq1",
+        "text": "Which of the following are true regarding the anatomy of the anterior abdominal wall relevant to laparoscopic trocar placement? Select all that apply.",
+        "answerOptions": [
+          { "id": "m2-nq1-a", "text": "A) Inferior epigastric vessels originate from the external iliac artery.", "isCorrect": true },
+          { "id": "m2-nq1-b", "text": "B) Medial umbilical ligament is the obliterated umbilical artery.", "isCorrect": true },
+          { "id": "m2-nq1-c", "text": "C) Round ligament enters the inguinal canal lateral to the inferior epigastric vessels.", "isCorrect": true },
+          { "id": "m2-nq1-d", "text": "D) Superficial epigastric artery injury causes brisk intraperitoneal bleeding.", "isCorrect": false },
+          { "id": "m2-nq1-e", "text": "E) Inferior epigastric vessels run medially to the round ligament.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Inferior epigastric vessels arise from the external iliac artery and run medial to the round ligament. The medial umbilical ligament is the obliterated umbilical artery. Superficial epigastric artery injury causes subcutaneous, not intraperitoneal, bleeding.",
+        "submodule": "Module 2.1 – Pelvic and Abdominal Anatomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m2-nq2",
+        "text": "Which of the following are best practices to maintain orientation and avoid injury during hysteroscopic entry and cavity assessment? Select all that apply.",
+        "answerOptions": [
+          { "id": "m2-nq2-a", "text": "A) Identify the endocervical canal before entering the uterine cavity", "isCorrect": true },
+          { "id": "m2-nq2-b", "text": "B) Advance the scope blindly if visualization is temporarily obscured", "isCorrect": false },
+          { "id": "m2-nq2-c", "text": "C) Confirm bilateral tubal ostia before proceeding with targeted treatment", "isCorrect": true },
+          { "id": "m2-nq2-d", "text": "D) Use a systematic survey of anterior, posterior, and lateral walls", "isCorrect": true },
+          { "id": "m2-nq2-e", "text": "E) Withdraw the scope under direct visualization", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Confirm canal entry first, find both ostia to verify intrauterine location, systematically survey all walls, and withdraw under direct vision. Never advance blindly.",
+        "submodule": "Module 2.2 – Hysteroscopic Landmarks",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m2-nq3",
+        "text": "Which of the following are incorrect regarding avascular pelvic spaces? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m2-nq3-a", "text": "A) The paravesical space is medial to the bladder and lateral to the medial umbilical ligament.", "isCorrect": false },
+          { "id": "m2-nq3-b", "text": "B) The pararectal space is lateral to the ureter and medial to the internal iliac artery.", "isCorrect": true },
+          { "id": "m2-nq3-c", "text": "C) The vesicovaginal space lies between the bladder and anterior vaginal wall.", "isCorrect": true },
+          { "id": "m2-nq3-d", "text": "D) The retropubic space is bounded posteriorly by the bladder and endopelvic fascia.", "isCorrect": true },
+          { "id": "m2-nq3-e", "text": "E) The presacral space is developed between the peritoneum and sacrum.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Paravesical space is lateral (not medial) to the bladder; in the pararectal space the ureter is medial and the internal iliac artery is lateral. Other statements are correct.",
+        "submodule": "Module 2.3 – Retroperitoneal and Avascular Pelvic Spaces",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m2-nq4",
+        "text": "Which surgical steps pose the greatest risk for ureteral injury? Select all that apply.",
+        "answerOptions": [
+          { "id": "m2-nq4-a", "text": "A) Infundibulopelvic ligament transection", "isCorrect": true },
+          { "id": "m2-nq4-b", "text": "B) Round ligament transection", "isCorrect": false },
+          { "id": "m2-nq4-c", "text": "C) Uterine artery ligation", "isCorrect": true },
+          { "id": "m2-nq4-d", "text": "D) Vesicouterine fold development", "isCorrect": false },
+          { "id": "m2-nq4-e", "text": "E) Colpotomy with cuff closure", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Risk zones include the pelvic brim (IP ligament), under the uterine artery near the cervix, and during colpotomy/cuff closure.",
+        "submodule": "Module 2.4 – Course of the Ureter",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m2-nq5",
+        "text": "Which structures provide Level 1 pelvic organ support? Select all that apply.",
+        "answerOptions": [
+          { "id": "m2-nq5-a", "text": "A) Uterosacral ligaments", "isCorrect": true },
+          { "id": "m2-nq5-b", "text": "B) Cardinal ligaments", "isCorrect": true },
+          { "id": "m2-nq5-c", "text": "C) Arcus tendineus fascia pelvis", "isCorrect": false },
+          { "id": "m2-nq5-d", "text": "D) Levator ani muscle", "isCorrect": false },
+          { "id": "m2-nq5-e", "text": "E) Pubocervical fascia", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Level 1 support for the uterus/apex is via the uterosacral and cardinal ligaments; arcus/pubic fascia are Level 2 and levator ani is Level 3.",
+        "submodule": "Module 2.5 – Pelvic Floor Support",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m2-nq6",
+        "text": "Which of the following are incorrect regarding functional ovarian cyst management? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m2-nq6-a", "text": "A) Aspiration is discouraged due to high recurrence and lack of pathology specimen.", "isCorrect": true },
+          { "id": "m2-nq6-b", "text": "B) Simple cysts <5 cm and asymptomatic in premenopausal patients do not require follow-up.", "isCorrect": true },
+          { "id": "m2-nq6-c", "text": "C) Cysts ≥5 cm should be followed with repeat ultrasound in 6–12 weeks.", "isCorrect": true },
+          { "id": "m2-nq6-d", "text": "D) All incidentally found cysts during unrelated surgery should be excised.", "isCorrect": false },
+          { "id": "m2-nq6-e", "text": "E) Symptomatic or persistent cysts may require cystectomy.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Incidental small benign-appearing cysts do not require excision. Aspiration is discouraged; persistent/symptomatic or larger cysts may warrant follow-up or surgery.",
+        "submodule": "Module 2.6 – Management of Functional Ovarian Cysts",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m2-nq7",
+        "text": "Which 2 anatomical landmarks are most helpful in avoiding ureteral injury during pelvic surgery? (Select 2 best answers.)",
+        "answerOptions": [
+          { "id": "m2-nq7-a", "text": "A) Round ligament", "isCorrect": false },
+          { "id": "m2-nq7-b", "text": "B) Uterosacral ligament", "isCorrect": false },
+          { "id": "m2-nq7-c", "text": "C) Infundibulopelvic ligament", "isCorrect": true },
+          { "id": "m2-nq7-d", "text": "D) Uterine artery", "isCorrect": true },
+          { "id": "m2-nq7-e", "text": "E) Medial umbilical ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The ureter crosses beneath the IP ligament and the uterine artery—key high-risk areas to identify.",
+        "submodule": "Module 2.4 – Course of the Ureter",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m2-nq8",
+        "text": "Which 3 structures contribute directly to apical (Level 1) pelvic support? (Select 3 best answers).",
+        "answerOptions": [
+          { "id": "m2-nq8-a", "text": "A) Levator ani muscles", "isCorrect": false },
+          { "id": "m2-nq8-b", "text": "B) Uterosacral ligaments", "isCorrect": true },
+          { "id": "m2-nq8-c", "text": "C) Cardinal ligaments", "isCorrect": true },
+          { "id": "m2-nq8-d", "text": "D) Arcus tendineus fascia pelvis", "isCorrect": false },
+          { "id": "m2-nq8-e", "text": "E) Sacrospinous ligament", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Apical support is via uterosacral and cardinal ligaments; sacrospinous ligament is commonly used surgically to recreate Level 1 support.",
+        "submodule": "Module 2.5 – Pelvic Floor Support",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+
+      {
+        "id": "m2-q1",
+        "text": "Which vessel in the anterior abdominal wall is most likely injured during placement of a right lower quadrant trocar?",
+        "answerOptions": [
+          { "id": "m2-q1-a", "text": "A) Right common iliac artery", "isCorrect": false },
+          { "id": "m2-q1-b", "text": "B) External iliac artery", "isCorrect": false },
+          { "id": "m2-q1-c", "text": "C) Inferior epigastric artery", "isCorrect": true },
+          { "id": "m2-q1-d", "text": "D) Internal iliac artery", "isCorrect": false },
+          { "id": "m2-q1-e", "text": "E) Superficial epigastric artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Inferior epigastric arteries course along the posterior rectus—most commonly injured with lateral trocar placement.",
+        "submodule": "Module 2.1 – Pelvic and Abdominal Anatomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q2",
+        "text": "Which anatomic structure is found immediately medial to the round ligament at the level of the inguinal canal?",
+        "answerOptions": [
+          { "id": "m2-q2-a", "text": "A) External iliac artery", "isCorrect": false },
+          { "id": "m2-q2-b", "text": "B) Inferior epigastric vessels", "isCorrect": true },
+          { "id": "m2-q2-c", "text": "C) Medial umbilical ligament", "isCorrect": false },
+          { "id": "m2-q2-d", "text": "D) Ureter", "isCorrect": false },
+          { "id": "m2-q2-e", "text": "E) Femoral nerve", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "At the inguinal canal, the inferior epigastric vessels lie just medial to the round ligament.",
+        "submodule": "Module 2.1 – Pelvic and Abdominal Anatomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q3",
+        "text": "During laparoscopic evaluation, which of the following is most reliably used to confirm correct orientation in the upper abdomen?",
+        "answerOptions": [
+          { "id": "m2-q3-a", "text": "A) Splenic flexure", "isCorrect": false },
+          { "id": "m2-q3-b", "text": "B) Gallbladder", "isCorrect": false },
+          { "id": "m2-q3-c", "text": "C) Falciform ligament", "isCorrect": true },
+          { "id": "m2-q3-d", "text": "D) Liver segments", "isCorrect": false },
+          { "id": "m2-q3-e", "text": "E) Round ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "The falciform ligament is a consistent midline landmark aiding orientation.",
+        "submodule": "Module 2.1 – Pelvic and Abdominal Anatomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m2-q4",
+        "text": "The primary goals of proper anatomic visualization during hysteroscopy include all the following EXCEPT?",
+        "answerOptions": [
+          { "id": "m2-q4-a", "text": "A) Confirm intrauterine placement", "isCorrect": false },
+          { "id": "m2-q4-b", "text": "B) Ensure full evaluation", "isCorrect": false },
+          { "id": "m2-q4-c", "text": "C) Minimize or identify complication", "isCorrect": false },
+          { "id": "m2-q4-d", "text": "D) Promotes patient safety", "isCorrect": false },
+          { "id": "m2-q4-e", "text": "E) Minimize fluid deficit loss", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Visualization’s primary goals are safe, complete evaluation and complication recognition; fluid deficit minimization is not a direct visualization goal.",
+        "submodule": "Module 2.2 – Hysteroscopic Landmarks",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q5",
+        "text": "Which of the following is the best indicator that a false passage has NOT occurred during hysteroscopy?",
+        "answerOptions": [
+          { "id": "m2-q5-a", "text": "A) Uterine fundus visualized", "isCorrect": false },
+          { "id": "m2-q5-b", "text": "B) Wide-angle view with bilateral tubal ostia", "isCorrect": true },
+          { "id": "m2-q5-c", "text": "C) Visualization of cervix on withdrawal", "isCorrect": false },
+          { "id": "m2-q5-d", "text": "D) Smooth endometrial surface", "isCorrect": false },
+          { "id": "m2-q5-e", "text": "E) Yellow fluid from cervix", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Bilateral ostia in view confirms intrauterine position and rules out false passage.",
+        "submodule": "Module 2.2 – Hysteroscopic Landmarks",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q6",
+        "text": "What is the typical distance from the internal os to the uterine fundus in a normal uterus?",
+        "answerOptions": [
+          { "id": "m2-q6-a", "text": "A) 1–2 cm", "isCorrect": false },
+          { "id": "m2-q6-b", "text": "B) 2–3 cm", "isCorrect": false },
+          { "id": "m2-q6-c", "text": "C) 3–4 cm", "isCorrect": false },
+          { "id": "m2-q6-d", "text": "D) 4–5 cm", "isCorrect": true },
+          { "id": "m2-q6-e", "text": "E) 6–7 cm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "In a normal uterus, fundal depth from the internal os is typically ~4–5 cm.",
+        "submodule": "Module 2.2 – Hysteroscopic Landmarks",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m2-q7",
+        "text": "Which of the following spaces lies between the bladder and the vagina?",
+        "answerOptions": [
+          { "id": "m2-q7-a", "text": "A) Rectovaginal", "isCorrect": false },
+          { "id": "m2-q7-b", "text": "B) Presacral", "isCorrect": false },
+          { "id": "m2-q7-c", "text": "C) Paravesical", "isCorrect": false },
+          { "id": "m2-q7-d", "text": "D) Vesicovaginal", "isCorrect": true },
+          { "id": "m2-q7-e", "text": "E) Retropubic", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "The vesicovaginal space lies between the bladder and anterior vaginal wall.",
+        "submodule": "Module 2.3 – Avascular Spaces",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q8",
+        "text": "What is the medial border of the pararectal space?",
+        "answerOptions": [
+          { "id": "m2-q8-a", "text": "A) Internal iliac artery", "isCorrect": false },
+          { "id": "m2-q8-b", "text": "B) Medial umbilical ligament", "isCorrect": false },
+          { "id": "m2-q8-c", "text": "C) Rectum", "isCorrect": false },
+          { "id": "m2-q8-d", "text": "D) Ureter", "isCorrect": true },
+          { "id": "m2-q8-e", "text": "E) Uterine artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "The ureter forms the medial border; the internal iliac artery is lateral.",
+        "submodule": "Module 2.3 – Avascular Spaces",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q9",
+        "text": "Which of the following statements about the avascular spaces is TRUE?",
+        "answerOptions": [
+          { "id": "m2-q9-a", "text": "A) The paravesical and pararectal spaces are present only on the left side", "isCorrect": false },
+          { "id": "m2-q9-b", "text": "B) The rectovaginal space is lateral to the uterosacral ligaments", "isCorrect": false },
+          { "id": "m2-q9-c", "text": "C) The presacral space contains the common iliac vein", "isCorrect": true },
+          { "id": "m2-q9-d", "text": "D) The retropubic space is bounded anteriorly by the sacrum", "isCorrect": false },
+          { "id": "m2-q9-e", "text": "E) The vesicovaginal space is typically vascularized", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "The presacral space lies anterior to the sacrum and contains major vessels (e.g., common iliac vein, middle sacral artery).",
+        "submodule": "Module 2.3 – Avascular Spaces",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m2-q10",
+        "text": "What anatomical structure crosses over the ureter near the cervix?",
+        "answerOptions": [
+          { "id": "m2-q10-a", "text": "A) Round ligament", "isCorrect": false },
+          { "id": "m2-q10-b", "text": "B) Uterosacral ligament", "isCorrect": false },
+          { "id": "m2-q10-c", "text": "C) Uterine artery", "isCorrect": true },
+          { "id": "m2-q10-d", "text": "D) Internal iliac vein", "isCorrect": false },
+          { "id": "m2-q10-e", "text": "E) Cardinal ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "“Water under the bridge”: the ureter passes beneath the uterine artery.",
+        "submodule": "Module 2.4 – Course of the Ureter",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q11",
+        "text": "During which surgical step is the ureter most likely to be injured at the pelvic brim?",
+        "answerOptions": [
+          { "id": "m2-q11-a", "text": "A) Colpotomy", "isCorrect": false },
+          { "id": "m2-q11-b", "text": "B) Infundibulopelvic ligament transection", "isCorrect": true },
+          { "id": "m2-q11-c", "text": "C) Round ligament transection", "isCorrect": false },
+          { "id": "m2-q11-d", "text": "D) Uterine artery transection", "isCorrect": false },
+          { "id": "m2-q11-e", "text": "E) Vesicouterine fold development", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "At the pelvic brim the ureter lies just medial to the IP ligament.",
+        "submodule": "Module 2.4 – Course of the Ureter",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q12",
+        "text": "Which statement best describes the ureter’s path from the pelvic brim to the bladder?",
+        "answerOptions": [
+          { "id": "m2-q12-a", "text": "A) Medial to uterosacral ligament, then over the uterine artery", "isCorrect": false },
+          { "id": "m2-q12-b", "text": "B) Lateral to uterosacral ligament, then under the uterine artery", "isCorrect": true },
+          { "id": "m2-q12-c", "text": "C) Medial to internal iliac vein, then over the round ligament", "isCorrect": false },
+          { "id": "m2-q12-d", "text": "D) Crosses over the infundibulopelvic ligament, then behind the cardinal ligament", "isCorrect": false },
+          { "id": "m2-q12-e", "text": "E) Passes under the infundibulopelvic ligament and over the uterine artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "From the brim, the ureter courses lateral to the uterosacral ligament and passes under the uterine artery en route to the bladder.",
+        "submodule": "Module 2.4 – Course of the Ureter",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m2-q13",
+        "text": "Which structure provides level 1 support for the uterus and upper vagina?",
+        "answerOptions": [
+          { "id": "m2-q13-a", "text": "A) Arcuate fascia", "isCorrect": false },
+          { "id": "m2-q13-b", "text": "B) Levator ani", "isCorrect": false },
+          { "id": "m2-q13-c", "text": "C) Perineal body", "isCorrect": false },
+          { "id": "m2-q13-d", "text": "D) Rectovaginal fascia", "isCorrect": false },
+          { "id": "m2-q13-e", "text": "E) Uterosacral ligament", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Level 1 (apical) support is via the uterosacral–cardinal complex.",
+        "submodule": "Module 2.5 – Pelvic Floor Support",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q14",
+        "text": "Which of the following muscles is part of the superficial layer of the perineal membrane?",
+        "answerOptions": [
+          { "id": "m2-q14-a", "text": "A) Coccygeus", "isCorrect": false },
+          { "id": "m2-q14-b", "text": "B) Pubococcygeus", "isCorrect": false },
+          { "id": "m2-q14-c", "text": "C) Ischiocavernosus", "isCorrect": true },
+          { "id": "m2-q14-d", "text": "D) Obturator internus", "isCorrect": false },
+          { "id": "m2-q14-e", "text": "E) Piriformis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "The superficial perineal layer (superficial perineal pouch) contains the erectile tissues and muscles associated with sexual function and support of the distal urogenital structures. The key muscular components include the ischiocavernosus, bulbospongiosus, and superficial transverse perineal muscle. These muscles lie superficial to the perineal membrane and play important roles in pelvic floor integrity, stabilization of the perineal body, and sexual function. The coccygeus is part of the pelvic diaphragm. The pubococcygeus, along with the puborectalis and iliococcygeus muscle are components of the levator ani. The obturator internus forms the lateral pelvic wall and the piriformis forms the posterior pelvic wall.",
+        "submodule": "Module 2.5 – Pelvic Floor Support",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q15",
+        "text": "Which level of support failure is most likely in rectal prolapse?",
+        "answerOptions": [
+          { "id": "m2-q15-a", "text": "A) Level 1", "isCorrect": false },
+          { "id": "m2-q15-b", "text": "B) Level 2", "isCorrect": false },
+          { "id": "m2-q15-c", "text": "C) Level 3", "isCorrect": true },
+          { "id": "m2-q15-d", "text": "D) Uterosacral level", "isCorrect": false },
+          { "id": "m2-q15-e", "text": "E) Muscular pelvic diaphragm only", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Rectal prolapse is associated with Level 3 (perineal body/levator ani) support defects.",
+        "submodule": "Module 2.5 – Pelvic Floor Support",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m2-q16",
+        "text": "Which cyst is most likely to appear anechoic, unilocular, and thin-walled on ultrasound?",
+        "answerOptions": [
+          { "id": "m2-q16-a", "text": "A) Corpus luteum cyst", "isCorrect": false },
+          { "id": "m2-q16-b", "text": "B) Dermoid cyst", "isCorrect": false },
+          { "id": "m2-q16-c", "text": "C) Follicular cyst", "isCorrect": true },
+          { "id": "m2-q16-d", "text": "D) Hemorrhagic cyst", "isCorrect": false },
+          { "id": "m2-q16-e", "text": "E) Endometrioma", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Follicular cysts are typically simple (anechoic, unilocular, thin-walled).",
+        "submodule": "Module 2.6 – Functional Ovarian Cysts",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q17",
+        "text": "What is the next best step for a 3 cm simple ovarian cyst found incidentally during laparoscopy in an asymptomatic woman?",
+        "answerOptions": [
+          { "id": "m2-q17-a", "text": "A) Aspirate it", "isCorrect": false },
+          { "id": "m2-q17-b", "text": "B) Cystectomy", "isCorrect": false },
+          { "id": "m2-q17-c", "text": "C) Salpingo-oophorectomy", "isCorrect": false },
+          { "id": "m2-q17-d", "text": "D) Leave it alone", "isCorrect": true },
+          { "id": "m2-q17-e", "text": "E) CT abdomen and pelvis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Small, benign-appearing incidental functional cysts in asymptomatic patients can be observed.",
+        "submodule": "Module 2.6 – Functional Ovarian Cysts",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m2-q18",
+        "text": "Why is aspiration not typically recommended for functional ovarian cysts?",
+        "answerOptions": [
+          { "id": "m2-q18-a", "text": "A) Too costly", "isCorrect": false },
+          { "id": "m2-q18-b", "text": "B) Requires general anesthesia", "isCorrect": false },
+          { "id": "m2-q18-c", "text": "C) High risk of bleeding", "isCorrect": false },
+          { "id": "id-m2-q18-d", "text": "D) High recurrence and no pathology", "isCorrect": true },
+          { "id": "m2-q18-e", "text": "E) Only effective for malignant lesions", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Aspiration has high recurrence and yields no tissue for pathology; cystectomy/observation are preferred based on context.",
+        "submodule": "Module 2.6 – Functional Ovarian Cysts",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "emigs-module-6a",
+    "title": "EMIGS Module 6 (Part 1)",
+    "questions": [
+      {
+        "id": "m6-q1",
+        "text": "Which of the following are limitations of the hanging drop test for verifying Veress needle placement? Select all that apply.",
+        "answerOptions": [
+          { "id": "m6-q1-a", "text": "A) Susceptible to false positives in obese patients", "isCorrect": true },
+          { "id": "m6-q1-b", "text": "B) Relies on patient position and abdominal tone", "isCorrect": true },
+          { "id": "m6-q1-c", "text": "C) Cannot distinguish between preperitoneal and intraperitoneal placement", "isCorrect": true },
+          { "id": "m6-q1-d", "text": "D) Has lower sensitivity than intraabdominal pressure monitoring", "isCorrect": true },
+          { "id": "m6-q1-e", "text": "E) Requires insufflation to perform correctly", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The hanging drop test is unreliable—affected by obesity and abdominal tone, prone to false positives, and cannot reliably differentiate preperitoneal from intraperitoneal placement. Intraabdominal pressure monitoring is more sensitive.",
+        "submodule": "Module 6.1 – Indicators of Intraabdominal Entry",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m6-q2",
+        "text": "Which of the following statements about laparoscopic entry techniques are incorrect? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m6-q2-a", "text": "A) Direct trocar entry requires prior insufflation", "isCorrect": true },
+          { "id": "m6-q2-b", "text": "B) Optical trocars allow visualization during tissue penetration", "isCorrect": false },
+          { "id": "m6-q2-c", "text": "C) Open (Hassan) technique provides tactile feedback but not direct vision", "isCorrect": true },
+          { "id": "m6-q2-d", "text": "D) No single technique is clearly superior in preventing bowel injury", "isCorrect": false },
+          { "id": "m6-q2-e", "text": "E) Surgeon experience influences complication rates", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Direct trocar entry does not need prior insufflation. Hasson/open technique DOES provide direct visualization. Other statements are correct.",
+        "submodule": "Module 6.2 – Laparoscopic Primary Entry",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m6-q3",
+        "text": "Which 3 factors most strongly support the use of Palmer’s Point for laparoscopic entry instead of umbilical access? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "m6-q3-a", "text": "A) Prior midline laparotomy with dense adhesions", "isCorrect": true },
+          { "id": "m6-q3-b", "text": "B) BMI <20 with a thin abdominal wall", "isCorrect": false },
+          { "id": "m6-q3-c", "text": "C) Prior umbilical hernia mesh repair", "isCorrect": true },
+          { "id": "m6-q3-d", "text": "D) Right upper quadrant pain and guarding", "isCorrect": false },
+          { "id": "m6-q3-e", "text": "E) Enlarged fibroid uterus reaching the umbilicus", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Midline laparotomy → adhesions behind umbilicus; prior umbilical mesh repair distorts anatomy; a large fibroid uterus can obstruct/alter umbilical entry—Palmer’s Point is safer in these settings.",
+        "submodule": "Module 6.3 – Alternative Primary Entry",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m6-q4",
+        "text": "Which 2 intraoperative signs most suggest that the Veress needle was placed into the preperitoneal space rather than the peritoneal cavity? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m6-q4-a", "text": "A) Low initial insufflation pressure (<10 mmHg)", "isCorrect": false },
+          { "id": "m6-q4-b", "text": "B) High insufflation pressure (>15 mmHg) with minimal abdominal distension", "isCorrect": true },
+          { "id": "m6-q4-c", "text": "C) Free flow of saline through the Veress needle", "isCorrect": false },
+          { "id": "m6-q4-d", "text": "D) Poor visualization despite expected insufflation volume", "isCorrect": true },
+          { "id": "m6-q4-e", "text": "E) Sudden drop in end-tidal CO₂", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Preperitoneal placement gives high pressure with poor distension and poor visualization despite volume. Low initial pressure is reassuring; ETCO₂ drop suggests gas embolism.",
+        "submodule": "Module 6.4 – Laparoscopic Primary Entry Complications",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m6-q5",
+        "text": "Which of the following increase the risk of trocar-site hernia formation? Select all that apply.",
+        "answerOptions": [
+          { "id": "m6-q5-a", "text": "A) Extraction through midline 10 mm dilating trocar", "isCorrect": true },
+          { "id": "m6-q5-b", "text": "B) Use of 12 mm cutting trocar in LLQ", "isCorrect": true },
+          { "id": "m6-q5-c", "text": "C) Repeated insertion and removal of trocar", "isCorrect": true },
+          { "id": "m6-q5-d", "text": "D) Fascial closure of 5 mm port", "isCorrect": false },
+          { "id": "m6-q5-e", "text": "E) Specimen extraction via transverse suprapubic incision", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Midline extraction, larger cutting trocars, and repeated manipulation enlarge/strain fascial defects; 5 mm closure is usually unnecessary; suprapubic transverse sites have lower hernia risk.",
+        "submodule": "Module 6.5 – Fascial Closure",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m6-q6",
+        "text": "Which 2 anatomic landmarks best predict safe lateral port placement? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m6-q6-a", "text": "A) Medial umbilical ligament", "isCorrect": false },
+          { "id": "m6-q6-b", "text": "B) Inferior epigastric vessels under transillumination", "isCorrect": true },
+          { "id": "m6-q6-c", "text": "C) Round ligament insertion", "isCorrect": false },
+          { "id": "m6-q6-d", "text": "D) Iliac crest height", "isCorrect": false },
+          { "id": "m6-q6-e", "text": "E) ASIS and the course of iliohypogastric nerve", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Identify and avoid the inferior epigastrics (often visible with transillumination) and respect lateral abdominal wall nerve paths near the ASIS (iliohypogastric/ilioinguinal).",
+        "submodule": "Module 6.6 – Safety and Lateral Port Placement",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+
+      {
+        "id": "m6-s1-q1",
+        "text": "Which physical test is most sensitive for confirming successful Veress needle placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hanging drop test", "isCorrect": false },
+          { "id": "b", "text": "B) Saline aspiration test", "isCorrect": false },
+          { "id": "c", "text": "C) Double click test", "isCorrect": false },
+          { "id": "d", "text": "D) Intraabdominal pressure <10 mmHg", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "An initial insufflation pressure <10 mmHg best correlates with correct intraperitoneal placement.",
+        "submodule": "Module 6.1 – Indicators of Intraabdominal Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s1-q2",
+        "text": "When using the double click test at the umbilicus, the clicks correspond to penetration through which structures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Rectus muscle and bladder", "isCorrect": false },
+          { "id": "b", "text": "B) Fascia and peritoneum", "isCorrect": true },
+          { "id": "c", "text": "C) Subcutaneous fat and fascia", "isCorrect": false },
+          { "id": "d", "text": "D) Peritoneum and bowel", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "At the umbilicus, two tactile/audible ‘clicks’ are felt—through fascia and then peritoneum.",
+        "submodule": "Module 6.1 – Indicators of Intraabdominal Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s1-q3",
+        "text": "Why is the hanging drop test considered less reliable for verifying intraperitoneal placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It only detects blood", "isCorrect": false },
+          { "id": "b", "text": "B) It is not useful in thin patients", "isCorrect": false },
+          { "id": "c", "text": "C) It has low sensitivity and can give false reassurance", "isCorrect": true },
+          { "id": "d", "text": "D) It requires carbon dioxide insufflation first", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Low sensitivity and confounders (e.g., tone/obesity) make it unreliable as a standalone test.",
+        "submodule": "Module 6.1 – Indicators of Intraabdominal Entry",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6-s2-q1",
+        "text": "What is the most common site for laparoscopic entry in gynecologic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Palmer’s Point", "isCorrect": false },
+          { "id": "b", "text": "B) Right lower quadrant", "isCorrect": false },
+          { "id": "c", "text": "C) Umbilicus", "isCorrect": true },
+          { "id": "d", "text": "D) Posterior cul-de-sac", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "The umbilicus is standard due to thin fascia and favorable anatomy.",
+        "submodule": "Module 6.2 – Laparoscopic Primary Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s2-q2",
+        "text": "Which of the following statements is true regarding entry techniques?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hassan technique cannot be used in obese patients", "isCorrect": false },
+          { "id": "b", "text": "B) Veress needle is safer than optical trocar in all cases", "isCorrect": false },
+          { "id": "c", "text": "C) Direct trocar entry is always contraindicated", "isCorrect": false },
+          { "id": "d", "text": "D) There is no evidence that one entry technique is superior to others", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Systematic reviews don’t show clear superiority; choice depends on patient factors and surgeon experience.",
+        "submodule": "Module 6.2 – Laparoscopic Primary Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s2-q3",
+        "text": "What is the primary benefit of the Hassan technique?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It avoids need for fascial closure", "isCorrect": false },
+          { "id": "b", "text": "B) It provides direct visualization of tissue layers", "isCorrect": true },
+          { "id": "c", "text": "C) It guarantees faster access", "isCorrect": false },
+          { "id": "d", "text": "D) It avoids use of general anesthesia", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Open (Hasson) technique allows direct vision during fascia/peritoneum entry.",
+        "submodule": "Module 6.2 – Laparoscopic Primary Entry",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6-s3-q1",
+        "text": "Where is Palmer’s Point located?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 2 cm above the umbilicus, midline", "isCorrect": false },
+          { "id": "b", "text": "B) Left midclavicular line, 3 cm below the costal margin", "isCorrect": true },
+          { "id": "c", "text": "C) Right lower quadrant, 4 cm from ASIS", "isCorrect": false },
+          { "id": "d", "text": "D) Posterior vaginal fornix", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Classic Palmer’s Point location minimizes risk to underlying structures.",
+        "submodule": "Module 6.3 – Alternative Primary Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s3-q2",
+        "text": "Which of the following is a contraindication to Palmer’s Point entry?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Obesity", "isCorrect": false },
+          { "id": "b", "text": "B) Large pelvic mass", "isCorrect": false },
+          { "id": "c", "text": "C) History of gastric bypass", "isCorrect": true },
+          { "id": "d", "text": "D) Prior cesarean delivery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Prior upper abdominal surgery raises adhesion/injury risk at Palmer’s Point.",
+        "submodule": "Module 6.3 – Alternative Primary Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s3-q3",
+        "text": "Why is the posterior vaginal fornix not commonly used for laparoscopic insufflation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It's not effective at insufflation", "isCorrect": false },
+          { "id": "b", "text": "B) It carries high risk of peritonitis", "isCorrect": false },
+          { "id": "c", "text": "C) It is contraindicated in cul-de-sac obliteration or masses", "isCorrect": true },
+          { "id": "d", "text": "D) It leads to poor visualization", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Cul-de-sac disease or masses make posterior fornix entry unsafe.",
+        "submodule": "Module 6.3 – Alternative Primary Entry",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6-s4-q1",
+        "text": "What percentage of laparoscopic injuries occur during primary entry?",
+        "answerOptions": [
+          { "id": "a", "text": "A) <5%", "isCorrect": false },
+          { "id": "b", "text": "B) About 10%", "isCorrect": false },
+          { "id": "c", "text": "C) One-third", "isCorrect": true },
+          { "id": "d", "text": "D) None", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A substantial portion—around one-third—occurs during initial access.",
+        "submodule": "Module 6.4 – Entry Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s4-q2",
+        "text": "What is the estimated risk of encountering umbilical adhesions after a vertical midline laparotomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Less than 1%", "isCorrect": false },
+          { "id": "b", "text": "B) 10–20%", "isCorrect": false },
+          { "id": "c", "text": "C) 30–40%", "isCorrect": false },
+          { "id": "d", "text": "D) Greater than 50%", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Umbilical adhesions after midline laparotomy exceed 50%, increasing entry risk.",
+        "submodule": "Module 6.4 – Entry Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s4-q3",
+        "text": "Why is umbilical entry riskier in obese patients?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It increases nerve injury risk", "isCorrect": false },
+          { "id": "b", "text": "B) It limits visualization", "isCorrect": false },
+          { "id": "c", "text": "C) The umbilicus shifts caudally", "isCorrect": true },
+          { "id": "d", "text": "D) There is more fat in the peritoneal cavity", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "With increasing BMI, the umbilicus migrates caudally, the wall thickens, and a 90° entry angle is often preferred to reduce preperitoneal tracking—though depth control is critical.",
+        "submodule": "Module 6.4 – Entry Complications",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6-s5-q1",
+        "text": "Which trocar size always requires fascial closure?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5 mm", "isCorrect": false },
+          { "id": "b", "text": "B) 8 mm", "isCorrect": false },
+          { "id": "c", "text": "C) 10 mm dilating", "isCorrect": false },
+          { "id": "d", "text": "D) 12 mm cutting", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Ports ≥12 mm—particularly cutting trocars—should be closed; some 10 mm sites may also merit closure based on location/use.",
+        "submodule": "Module 6.5 – Fascial Closure",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s5-q2",
+        "text": "What port site has the highest risk of hernia formation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Left lower quadrant", "isCorrect": false },
+          { "id": "b", "text": "B) Transverse suprapubic", "isCorrect": false },
+          { "id": "c", "text": "C) Midline/periumbilical extraction site", "isCorrect": true },
+          { "id": "d", "text": "D) Right upper quadrant", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Midline/periumbilical sites, especially used for extraction, have the highest hernia risk.",
+        "submodule": "Module 6.5 – Fascial Closure",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s5-q3",
+        "text": "Why do dilating trocars create smaller fascial defects than cutting trocars?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They stretch rather than cut the tissue", "isCorrect": true },
+          { "id": "b", "text": "B) They cauterize tissue as they enter", "isCorrect": false },
+          { "id": "c", "text": "C) They are shorter in length", "isCorrect": false },
+          { "id": "d", "text": "D) They only enter subcutaneously", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Dilating tips expand/separate fibers instead of sharply cutting fascia, leaving smaller defects.",
+        "submodule": "Module 6.5 – Fascial Closure",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6-s6-q1",
+        "text": "The inferior epigastric vessels lie:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Medial to the medial umbilical ligament", "isCorrect": false },
+          { "id": "b", "text": "B) Lateral to the medial umbilical ligament", "isCorrect": true },
+          { "id": "c", "text": "C) Posterior to the bladder", "isCorrect": false },
+          { "id": "d", "text": "D) Inferior to the round ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Inferior epigastrics course lateral to the medial umbilical ligament on the posterior rectus surface.",
+        "submodule": "Module 6.6 – Safety and Lateral Port Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s6-q2",
+        "text": "Where should lateral ports be placed to avoid injury to the inferior epigastric vessels?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Anywhere along the midline", "isCorrect": false },
+          { "id": "b", "text": "B) Within 4–8 cm of the midline", "isCorrect": false },
+          { "id": "c", "text": "C) Within 4 cm or beyond 8 cm from the midline", "isCorrect": true },
+          { "id": "d", "text": "D) Directly at the level of ASIS", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Staying either very medial (≤4 cm) or more lateral (≥8 cm) helps avoid the typical epigastric course.",
+        "submodule": "Module 6.6 – Safety and Lateral Port Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6-s6-q3",
+        "text": "Which of the following nerves is most commonly injured during lateral port placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Genitofemoral", "isCorrect": false },
+          { "id": "b", "text": "B) Ilioinguinal", "isCorrect": true },
+          { "id": "c", "text": "C) Obturator", "isCorrect": false },
+          { "id": "d", "text": "D) Pudendal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Ilioinguinal/iliohypogastric nerves are most at risk with lateral ports and can cause chronic pain if injured.",
+        "submodule": "Module 6.6 – Safety and Lateral Port Placement",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "emigs-module-9",
+    "title": "EMIGS Module 9",
+    "questions": [
+      {
+        "id": "m9-q1",
+        "text": "Which of the following are advantages of hysteroscopy over blind endometrial sampling for evaluation of abnormal uterine bleeding? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Improved detection of focal lesions", "isCorrect": true },
+          { "id": "b", "text": "B) Lower cost in all settings", "isCorrect": false },
+          { "id": "c", "text": "C) Direct visualization for biopsy", "isCorrect": true },
+          { "id": "d", "text": "D) More accurate sampling in postmenopausal patients", "isCorrect": true },
+          { "id": "e", "text": "E) Requires no cervical dilation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hysteroscopy allows direct visualization, improves detection of focal pathology, and offers superior accuracy in postmenopausal bleeding. It may require dilation and can be more costly than office biopsy.",
+        "submodule": "Module 9.1 – Hysteroscopic Evaluation of Abnormal Uterine Bleeding",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m9-q2",
+        "text": "Which 2 findings raise the strongest concern for post-ablation tubal ligation syndrome?",
+        "answerOptions": [
+          { "id": "a", "text": "A) History of uterine septum", "isCorrect": false },
+          { "id": "b", "text": "B) Cornual dilation on ultrasound", "isCorrect": true },
+          { "id": "c", "text": "C) Post-ablation amenorrhea", "isCorrect": false },
+          { "id": "d", "text": "D) Prior postpartum tubal ligation", "isCorrect": true },
+          { "id": "e", "text": "E) Endometrial stripe measuring <2 mm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cornual dilation plus prior tubal ligation is classic for PATLS.",
+        "submodule": "Module 9.2 – Endometrial Ablation",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m9-q3",
+        "text": "Which of the following statements about submucosal fibroid classification are correct? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) ESGE classifies fibroids by size and vascularity", "isCorrect": false },
+          { "id": "b", "text": "B) Lasmar STEP-W includes fibroid penetration and wall location", "isCorrect": true },
+          { "id": "c", "text": "C) Type 2 fibroids require laparoscopy for complete removal", "isCorrect": false },
+          { "id": "d", "text": "D) Type 0 fibroids are completely intracavitary", "isCorrect": true },
+          { "id": "e", "text": "E) ESGE classifies fibroids as Type 0, 1, or 2", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "ESGE uses depth of myometrial invasion (Types 0–2). Lasmar STEP-W incorporates size, topography, extension/penetration, and wall location. Type 0 fibroids are fully intracavitary.",
+        "submodule": "Module 9.3 – Hysteroscopic Myomectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m9-q4",
+        "text": "Which 3 preoperative factors are most relevant when determining candidacy for hysteroscopic myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fibroid wall location", "isCorrect": true },
+          { "id": "b", "text": "B) Cervical dilation capacity", "isCorrect": false },
+          { "id": "c", "text": "C) Intramural extension", "isCorrect": true },
+          { "id": "d", "text": "D) Patient's desire for fertility", "isCorrect": true },
+          { "id": "e", "text": "E) Hematocrit level", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Wall location and intramural extension predict technical feasibility; fertility goals guide conservative vs definitive management.",
+        "submodule": "Module 9.3 – Hysteroscopic Myomectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m9-q5",
+        "text": "Which of the following are benefits of mechanical tissue extraction for polypectomy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) No electrosurgical energy required", "isCorrect": true },
+          { "id": "b", "text": "B) Enables resection under direct vision", "isCorrect": true },
+          { "id": "c", "text": "C) Lowest recurrence rate among techniques", "isCorrect": false },
+          { "id": "d", "text": "D) Lower cost than polyp forceps", "isCorrect": false },
+          { "id": "e", "text": "E) Eliminates need for cervical dilation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Mechanical systems resect under direct vision and avoid electrosurgery; they have higher up-front costs and may still require dilation.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m9-q6",
+        "text": "Which 3 complications are most associated with hysteroscopic polypectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Endometritis", "isCorrect": true },
+          { "id": "b", "text": "B) Uterine perforation", "isCorrect": true },
+          { "id": "c", "text": "C) Postoperative adhesions", "isCorrect": false },
+          { "id": "d", "text": "D) Cervical incompetence", "isCorrect": false },
+          { "id": "e", "text": "E) Hyponatremia", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Recognized risks include infection, perforation, and—when hypotonic media are used—hyponatremia.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+
+      {
+        "id": "m9-9_1-easy-1",
+        "text": "What is a primary limitation of office-based endometrial biopsy in the evaluation of abnormal uterine bleeding?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is not tolerated in postmenopausal women", "isCorrect": false },
+          { "id": "b", "text": "B) It requires anesthesia", "isCorrect": false },
+          { "id": "c", "text": "C) It has low sensitivity for focal lesions", "isCorrect": true },
+          { "id": "d", "text": "D) It is more expensive than hysteroscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Blind sampling underdetects focal pathology such as small cancers or polyps.",
+        "submodule": "Module 9.1 – Hysteroscopic Evaluation of Abnormal Uterine Bleeding",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_1-med-1",
+        "text": "Which patient would benefit most from initial hysteroscopic evaluation over biopsy or D&C?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Premenopausal woman with diffuse thickening", "isCorrect": false },
+          { "id": "b", "text": "B) Postmenopausal woman with a focal lesion", "isCorrect": true },
+          { "id": "c", "text": "C) Nulliparous woman with amenorrhea", "isCorrect": false },
+          { "id": "d", "text": "D) Young woman with anovulatory bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Hysteroscopy excels when imaging shows a focal lesion by allowing targeted biopsy/removal.",
+        "submodule": "Module 9.1 – Hysteroscopic Evaluation of Abnormal Uterine Bleeding",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_1-diff-1",
+        "text": "Studies show what percentage of patients undergoing D&C prior to hysterectomy had less than half of the endometrium effectively sampled?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 10%", "isCorrect": false },
+          { "id": "b", "text": "B) 30%", "isCorrect": false },
+          { "id": "c", "text": "C) 60%", "isCorrect": true },
+          { "id": "d", "text": "D) 85%", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "About 60% had under-sampling with blind D&C.",
+        "submodule": "Module 9.1 – Hysteroscopic Evaluation of Abnormal Uterine Bleeding",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m9-9_2-easy-1",
+        "text": "Which condition is a contraindication to endometrial ablation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) History of cesarean section", "isCorrect": false },
+          { "id": "b", "text": "B) Uterine fibroids", "isCorrect": false },
+          { "id": "c", "text": "C) Endometrial hyperplasia", "isCorrect": true },
+          { "id": "d", "text": "D) Age over 40", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Hyperplasia (or malignancy) must be excluded and treated—not ablated.",
+        "submodule": "Module 9.2 – Endometrial Ablation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_2-med-1",
+        "text": "A 47-year-old G2P2 underwent endometrial ablation 2 years ago and previously had a postpartum tubal ligation. She now has cyclic cramping and spotting; ultrasound shows a dilated tube and distended cornua. What is the most likely cause?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Adenomyosis", "isCorrect": false },
+          { "id": "b", "text": "B) Endometrial ablation failure", "isCorrect": false },
+          { "id": "c", "text": "C) Post-ablation tubal ligation syndrome", "isCorrect": true },
+          { "id": "d", "text": "D) Cervical stenosis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "PATLS: trapped endometrium/scarred cornua in the setting of prior tubal ligation.",
+        "submodule": "Module 9.2 – Endometrial Ablation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_2-diff-1",
+        "text": "What is a potentially fatal complication associated with hypotonic distension media during hysteroscopic procedures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Uterine rupture", "isCorrect": false },
+          { "id": "b", "text": "B) Hyponatremia with cerebral edema", "isCorrect": true },
+          { "id": "c", "text": "C) Intra-abdominal bleeding", "isCorrect": false },
+          { "id": "d", "text": "D) Hematometra", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Absorption of hypotonic fluids (e.g., glycine) can cause severe hyponatremia and cerebral edema.",
+        "submodule": "Module 9.2 – Endometrial Ablation",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m9-9_3-easy-1",
+        "text": "Which fibroid classification is most suitable for hysteroscopic myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Type 2", "isCorrect": false },
+          { "id": "b", "text": "B) Type 1", "isCorrect": false },
+          { "id": "c", "text": "C) Type 0", "isCorrect": true },
+          { "id": "d", "text": "D) Subserosal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Type 0 fibroids are pedunculated and fully intracavitary—ideal for hysteroscopic removal.",
+        "submodule": "Module 9.3 – Hysteroscopic Myomectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_3-med-1",
+        "text": "What classification system includes size, topography, penetration, and wall location for fibroids?",
+        "answerOptions": [
+          { "id": "a", "text": "A) AAGL", "isCorrect": false },
+          { "id": "b", "text": "B) ESGE", "isCorrect": false },
+          { "id": "c", "text": "C) Lasmar STEP-W", "isCorrect": true },
+          { "id": "d", "text": "D) RCOG", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Lasmar STEP-W scores Size, Topography, Extension/penetration, and Wall involvement.",
+        "submodule": "Module 9.3 – Hysteroscopic Myomectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_3-diff-1",
+        "text": "A Type 2 submucosal fibroid is discovered to abut the uterine serosa. What is the best surgical management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Expectant management", "isCorrect": false },
+          { "id": "b", "text": "B) Hysteroscopic resection", "isCorrect": false },
+          { "id": "c", "text": "C) Uterine artery embolization", "isCorrect": false },
+          { "id": "d", "text": "D) Laparoscopic myomectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "When the lesion abuts serosa, hysteroscopic access is limited and perforation risk is high; laparoscopy is safer.",
+        "submodule": "Module 9.3 – Hysteroscopic Myomectomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m9-9_4-easy-1",
+        "text": "Which imaging modality offers the highest diagnostic accuracy for identifying endometrial polyps?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Transvaginal ultrasound", "isCorrect": false },
+          { "id": "b", "text": "B) Saline infusion sonography", "isCorrect": false },
+          { "id": "c", "text": "C) MRI", "isCorrect": false },
+          { "id": "d", "text": "D) Hysteroscopy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Hysteroscopy provides direct visualization and allows simultaneous treatment.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_4-med-1",
+        "text": "Which technique for polyp removal carries the highest risk of incomplete resection?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hysteroscopic scissors and graspers", "isCorrect": false },
+          { "id": "b", "text": "B) Blind dilation and curettage", "isCorrect": true },
+          { "id": "c", "text": "C) Mechanical tissue extraction", "isCorrect": false },
+          { "id": "d", "text": "D) Bipolar loop resection", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Blind D&C lacks visualization and often misses the polyp base.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m9-9_4-diff-1",
+        "text": "During polypectomy using mechanical tissue extraction, where should the resection begin?",
+        "answerOptions": [
+          { "id": "a", "text": "A) At the fundus", "isCorrect": false },
+          { "id": "b", "text": "B) At the base of the polyp", "isCorrect": false },
+          { "id": "c", "text": "C) At the tip of the polyp", "isCorrect": true },
+          { "id": "d", "text": "D) From the ostia inward", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Start at the tip and work toward the base to minimize bleeding and maintain visualization.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

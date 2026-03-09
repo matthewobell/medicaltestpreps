@@ -1,0 +1,333 @@
+[
+  {
+    "id": "emigs-module-8a",
+    "title": "EMIGS Module 8 (Part 1)",
+    "questions": [
+      {
+        "id": "m8-q1",
+        "text": "Which factors increase the complexity and risk of laparoscopic adhesiolysis? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Filmy, avascular adhesions", "isCorrect": false },
+          { "id": "b", "text": "B) Adhesions involving small bowel", "isCorrect": true },
+          { "id": "c", "text": "C) Dense cohesive adhesions to pelvic sidewall", "isCorrect": true },
+          { "id": "d", "text": "D) Proximity to major vessels", "isCorrect": true },
+          { "id": "e", "text": "E) Use of laparoscopic scissors for all cases", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Dense adhesions near bowel or major vessels carry higher risk of visceral or vascular injury. Filmy adhesions are low risk; scissors are safe when used selectively.",
+        "submodule": "Module 8.1 – Laparoscopic Adhesiolysis",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m8-q2",
+        "text": "Which of the following are appropriate management steps after salpingostomy for ectopic pregnancy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Administer intramuscular methotrexate if β-hCG remains elevated", "isCorrect": true },
+          { "id": "b", "text": "B) Schedule follow-up ultrasound at 1 week post-op", "isCorrect": false },
+          { "id": "c", "text": "C) Monitor β-hCG levels serially until undetectable", "isCorrect": true },
+          { "id": "d", "text": "D) Repeat laparoscopy in 4 weeks to confirm tubal healing", "isCorrect": false },
+          { "id": "e", "text": "E) Counsel about risk of persistent trophoblastic tissue", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Persistent trophoblastic tissue occurs in up to ~20% after salpingostomy. Serial β-hCG is mandatory; consider methotrexate if levels plateau or rise. Routine US or reoperation isn’t required unless concerns arise.",
+        "submodule": "Module 8.2 – Laparoscopic Treatment of Ectopic Pregnancy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m8-q3",
+        "text": "Which 2 operative techniques are most important for preserving ovarian function during laparoscopic ovarian cystectomy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of monopolar energy for cortical incision away from hilum", "isCorrect": false },
+          { "id": "b", "text": "B) Hydrodissection of cyst wall", "isCorrect": true },
+          { "id": "c", "text": "C) Minimal electrosurgical use on the cyst bed", "isCorrect": true },
+          { "id": "d", "text": "D) En bloc resection of ovary", "isCorrect": false },
+          { "id": "e", "text": "E) Leaving part of cyst wall to avoid bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hydrodissection gently separates the cyst wall; minimizing energy on the bed preserves ovarian reserve. En bloc resection sacrifices tissue; leaving wall risks recurrence.",
+        "submodule": "Module 8.3 – Laparoscopic Treatment of an Adnexal Mass",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m8-q4",
+        "text": "Which of the following steps help prevent ureteral injury during laparoscopic oophorectomy? Select best 2 answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Skeletonizing the IP ligament", "isCorrect": true },
+          { "id": "b", "text": "B) Retroperitoneal identification of ureter", "isCorrect": true },
+          { "id": "c", "text": "C) Clamping and cutting IP ligament near ovary", "isCorrect": false },
+          { "id": "d", "text": "D) Blunt dissection of retroperitoneum", "isCorrect": false },
+          { "id": "e", "text": "E) Entry into retroperitoneum medial to IP ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Skeletonize the IP and identify the ureter retroperitoneally to keep dissection safe. Transection should be away from the ovary after confirming ureter location; lateral entry is preferred.",
+        "submodule": "Module 8.4 – Laparoscopic Oophorectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m8-q5",
+        "text": "Which of the following are not appropriate surgical approaches to suspected ovarian torsion in reproductive-age women? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediate laparoscopic detorsion", "isCorrect": false },
+          { "id": "b", "text": "B) Oophorectomy in all torsion cases", "isCorrect": true },
+          { "id": "c", "text": "C) Ovary conservation unless necrotic", "isCorrect": false },
+          { "id": "d", "text": "D) Suspension to reduce recurrence risk", "isCorrect": false },
+          { "id": "e", "text": "E) Expectant management for classic ultrasound findings", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Detorsion with ovarian conservation is preferred; oophorectomy only if clearly nonviable. Expectant management risks ischemic damage; suspension can reduce recurrence.",
+        "submodule": "Module 8.5 – Ovarian Torsion",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+
+      {
+        "id": "m8-8_1-easy-1",
+        "text": "What is the most appropriate first tool for lysing filmy, delicate, and avascular adhesions?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monopolar electrosurgery", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic scissors", "isCorrect": false },
+          { "id": "c", "text": "C) Traction-countertraction with blunt instruments", "isCorrect": true },
+          { "id": "d", "text": "D) Bipolar electrosurgery", "isCorrect": false },
+          { "id": "e", "text": "E) Ultrasonic scalpel", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Gentle blunt traction–countertraction separates filmy adhesions while avoiding thermal injury.",
+        "submodule": "Module 8.1 – Laparoscopic Adhesiolysis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_1-med-1",
+        "text": "Which of the following is the preferred technique for lysing dense adhesions near the bowel?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blunt dissection", "isCorrect": false },
+          { "id": "b", "text": "B) Sharp dissection with laparoscopic scissors", "isCorrect": true },
+          { "id": "c", "text": "C) Bipolar electrosurgery", "isCorrect": false },
+          { "id": "d", "text": "D) Use of endoloops", "isCorrect": false },
+          { "id": "e", "text": "E) En bloc resection", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Sharp dissection reduces thermal spread and visceral injury risk when working near bowel.",
+        "submodule": "Module 8.1 – Laparoscopic Adhesiolysis",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_1-diff-1",
+        "text": "What is the initial recommended dissection approach for an obliterated anterior cul-de-sac?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Midline dissection from superior to inferior", "isCorrect": false },
+          { "id": "b", "text": "B) Start at the uterine fundus and move posteriorly", "isCorrect": false },
+          { "id": "c", "text": "C) Begin with electrosurgical ablation", "isCorrect": false },
+          { "id": "d", "text": "D) Lateral dissection to find preserved planes", "isCorrect": true },
+          { "id": "e", "text": "E) Perform blunt entry with a trocar", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Lateral entry is more likely to encounter preserved tissue planes and avoid visceral injury.",
+        "submodule": "Module 8.1 – Laparoscopic Adhesiolysis",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8-8_2-easy-1",
+        "text": "What is the most appropriate surgical management for a patient with a ruptured ectopic pregnancy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Repeat ultrasound", "isCorrect": false },
+          { "id": "b", "text": "B) Methotrexate", "isCorrect": false },
+          { "id": "c", "text": "C) Diagnostic laparoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) Expectant management", "isCorrect": false },
+          { "id": "e", "text": "E) Misoprostol", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Hemodynamic concern/hemoperitoneum requires urgent operative management.",
+        "submodule": "Module 8.2 – Laparoscopic Treatment of Ectopic Pregnancy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_2-med-1",
+        "text": "What is the main indication for choosing a salpingostomy over a salpingectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) A normal contralateral tube", "isCorrect": false },
+          { "id": "b", "text": "B) History of pelvic inflammatory disease", "isCorrect": false },
+          { "id": "c", "text": "C) Absence of intraperitoneal bleeding", "isCorrect": false },
+          { "id": "d", "text": "D) Damaged contralateral fallopian tube", "isCorrect": true },
+          { "id": "e", "text": "E) Age over 35", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "When the opposite tube is compromised, salpingostomy preserves fertility.",
+        "submodule": "Module 8.2 – Laparoscopic Treatment of Ectopic Pregnancy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_2-diff-1",
+        "text": "After a salpingostomy is performed, what is the next required step regardless of pathology findings?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pelvic MRI", "isCorrect": false },
+          { "id": "b", "text": "B) Serial β-hCG levels", "isCorrect": true },
+          { "id": "c", "text": "C) Pap smear", "isCorrect": false },
+          { "id": "d", "text": "D) Endometrial biopsy", "isCorrect": false },
+          { "id": "e", "text": "E) No further evaluation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Serial β-hCG tracks for persistent trophoblastic tissue (risk up to ~20%).",
+        "submodule": "Module 8.2 – Laparoscopic Treatment of Ectopic Pregnancy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8-8_3-easy-1",
+        "text": "What technique is commonly used to separate an ovarian dermoid cyst from surrounding ovarian tissue?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Diathermy loop", "isCorrect": false },
+          { "id": "b", "text": "B) Hydrodissection", "isCorrect": true },
+          { "id": "c", "text": "C) Internal stapler", "isCorrect": false },
+          { "id": "d", "text": "D) Rollerball electrode", "isCorrect": false },
+          { "id": "e", "text": "E) Morcellation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Hydrodissection facilitates gentle separation while preserving cortex.",
+        "submodule": "Module 8.3 – Laparoscopic Treatment of an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_3-med-1",
+        "text": "Why is complete removal of the cyst wall critical in ovarian cystectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To allow easier specimen extraction", "isCorrect": false },
+          { "id": "b", "text": "B) To minimize need for electrosurgery", "isCorrect": false },
+          { "id": "c", "text": "C) To prevent ovarian hemorrhage", "isCorrect": false },
+          { "id": "d", "text": "D) To reduce recurrence", "isCorrect": true },
+          { "id": "e", "text": "E) To avoid adhesions", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Residual wall increases recurrence (e.g., dermoids, endometriomas).",
+        "submodule": "Module 8.3 – Laparoscopic Treatment of an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_3-diff-1",
+        "text": "What is the least essential step of laparoscopic ovarian cystectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Removal of the cyst wall", "isCorrect": false },
+          { "id": "b", "text": "B) Hemostasis of the cyst bed", "isCorrect": false },
+          { "id": "c", "text": "C) Limited use of electrosurgery", "isCorrect": false },
+          { "id": "d", "text": "D) Ovarian reconstruction", "isCorrect": true },
+          { "id": "e", "text": "E) Separation of the cyst from ovarian cortex", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Reconstruction isn’t always required; many incisions heal without suturing.",
+        "submodule": "Module 8.3 – Laparoscopic Treatment of an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8-8_4-easy-1",
+        "text": "Which of the following is a critical structure to identify during laparoscopic oophorectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) External obturator artery", "isCorrect": false },
+          { "id": "b", "text": "B) Round ligament", "isCorrect": false },
+          { "id": "c", "text": "C) Ureter", "isCorrect": true },
+          { "id": "d", "text": "D) Appendix", "isCorrect": false },
+          { "id": "e", "text": "E) Urachus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "The ureter courses near the IP ligament—identify it to avoid injury.",
+        "submodule": "Module 8.4 – Laparoscopic Oophorectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_4-med-1",
+        "text": "What is a key advantage of skeletonizing the IP ligament and identifying the ureter retroperitoneally during oophorectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Reduces adhesions", "isCorrect": false },
+          { "id": "b", "text": "B) Avoids need for electrosurgery", "isCorrect": false },
+          { "id": "c", "text": "C) Minimizes ovarian remnant syndrome", "isCorrect": true },
+          { "id": "d", "text": "D) Shortens operative time", "isCorrect": false },
+          { "id": "e", "text": "E) Improves visualization of fallopian tube", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Clear anatomy reduces risk of leaving residual ovarian tissue.",
+        "submodule": "Module 8.4 – Laparoscopic Oophorectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_4-diff-1",
+        "text": "Transecting the infundibulopelvic ligament close to the ovary increases the risk of:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Incomplete excision and ovarian remnant", "isCorrect": true },
+          { "id": "b", "text": "B) Lymphatic leakage", "isCorrect": false },
+          { "id": "c", "text": "C) Endometrioma recurrence", "isCorrect": false },
+          { "id": "d", "text": "D) Uterine artery spasm", "isCorrect": false },
+          { "id": "e", "text": "E) Postoperative cyst formation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Cutting too close risks leaving ovarian tissue → ovarian remnant syndrome.",
+        "submodule": "Module 8.4 – Laparoscopic Oophorectomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8-8_5-easy-1",
+        "text": "What is the preferred initial management of suspected ovarian torsion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pain management and observation", "isCorrect": false },
+          { "id": "b", "text": "B) Operative laparoscopy", "isCorrect": true },
+          { "id": "c", "text": "C) Methotrexate", "isCorrect": false },
+          { "id": "d", "text": "D) Ultrasound-guided cyst aspiration", "isCorrect": false },
+          { "id": "e", "text": "E) CT-guided biopsy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Timely laparoscopy for detorsion preserves ovarian function.",
+        "submodule": "Module 8.5 – Ovarian Torsion",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_5-med-1",
+        "text": "What is a common ultrasound finding in ovarian torsion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) High-resistance arterial flow", "isCorrect": false },
+          { "id": "b", "text": "B) Peripheral vascular rings", "isCorrect": false },
+          { "id": "c", "text": "C) Homogenous ovarian echotexture", "isCorrect": false },
+          { "id": "d", "text": "D) Follicles clustered in the center", "isCorrect": false },
+          { "id": "e", "text": "E) Peripheralized follicles with heterogeneous stroma", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Typical findings: enlarged ovary, heterogeneous stroma, peripheral follicles; Doppler may be normal.",
+        "submodule": "Module 8.5 – Ovarian Torsion",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8-8_5-diff-1",
+        "text": "Which of the following is a surgical method to prevent recurrence of ovarian torsion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Salpingectomy", "isCorrect": false },
+          { "id": "b", "text": "B) IP ligament plication", "isCorrect": false },
+          { "id": "c", "text": "C) Uterosacral nerve transection", "isCorrect": false },
+          { "id": "d", "text": "D) Ovarian suspension", "isCorrect": true },
+          { "id": "e", "text": "E) Midline colpotomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Ovarian suspension or ligament plication strategies can reduce recurrence; suspension is the direct option here.",
+        "submodule": "Module 8.5 – Ovarian Torsion",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

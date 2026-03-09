@@ -1,0 +1,268 @@
+[
+  {
+    "id": "emigs-module-8b",
+    "title": "EMIGS Module 8 (Part 2)",
+    "questions": [
+      {
+        "id": "m8b-q1",
+        "text": "Which 2 strategies most effectively reduce adhesion formation following laparoscopic myomectomy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of multiple interrupted and figure-8 sutures", "isCorrect": false },
+          { "id": "b", "text": "B) Use of running sutures", "isCorrect": true },
+          { "id": "c", "text": "C) Avoidance of dry field dissection", "isCorrect": true },
+          { "id": "d", "text": "D) Leaving myometrial defects unsutured", "isCorrect": false },
+          { "id": "e", "text": "E) Uterine artery embolization post-op", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Running sutures reduce foreign body reaction; keeping tissues moist reduces adhesion risk. Interrupted/figure-8 sutures and unsutured defects increase adhesions. Embolization isn’t a standard post-myomectomy strategy.",
+        "submodule": "Module 8.6 – Myomectomy Complications",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m8b-q2",
+        "text": "Which steps reduce ureteral injury during laparoscopic hysterectomy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ureteral stents in all cases", "isCorrect": false },
+          { "id": "b", "text": "B) Retroperitoneal dissection of ureters", "isCorrect": true },
+          { "id": "c", "text": "C) Use of uterine manipulator", "isCorrect": true },
+          { "id": "d", "text": "D) Cephalad traction on uterus", "isCorrect": true },
+          { "id": "e", "text": "E) Avoiding colpotomy altogether", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Direct visualization via retroperitoneal dissection plus manipulator-driven cephalad traction increases the distance between ureter and operative field. Routine stents are not indicated; colpotomy avoidance is neither practical nor protective.",
+        "submodule": "Module 8.7 – Injury During Hysterectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m8b-q3",
+        "text": "Which statements best reflect known disadvantages of supracervical hysterectomy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Lower ureteral injury rates than total hysterectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Higher risk of vaginal cuff dehiscence", "isCorrect": false },
+          { "id": "c", "text": "C) Persistent cyclic bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Shorter operative time", "isCorrect": false },
+          { "id": "e", "text": "E) Reoperation for trachelectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Retained endometrium can cause ongoing cyclic bleeding; some patients later require trachelectomy.",
+        "submodule": "Module 8.8 – Supracervical Hysterectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m8b-q4",
+        "text": "Which of the following are valid reasons to proceed with surgical treatment for endometrioma? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pain despite hormonal therapy", "isCorrect": true },
+          { "id": "b", "text": "B) Suspicious features on ultrasound", "isCorrect": true },
+          { "id": "c", "text": "C) Cyst >6 cm and growing", "isCorrect": true },
+          { "id": "d", "text": "D) Stable size with no symptoms", "isCorrect": false },
+          { "id": "e", "text": "E) Infertility requiring IVF", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Operate for refractory pain, concerning imaging, enlarging cysts, or when IVF planning is impacted. Asymptomatic stable cysts may be observed.",
+        "submodule": "Module 8.9 – Endometrioma Treatment",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+
+      {
+        "id": "m8b-8_6-easy-1",
+        "text": "What is the most common complication following laparoscopic myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Infection", "isCorrect": false },
+          { "id": "b", "text": "B) Hemorrhage", "isCorrect": true },
+          { "id": "c", "text": "C) Uterine rupture", "isCorrect": false },
+          { "id": "d", "text": "D) Adhesion formation", "isCorrect": false },
+          { "id": "e", "text": "E) Fibroid recurrence", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Blood loss is the most frequent complication, especially with large or multiple fibroids.",
+        "submodule": "Module 8.6 – Myomectomy Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_6-med-1",
+        "text": "Which of the following is most associated with increased blood loss during myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Type of anesthesia", "isCorrect": false },
+          { "id": "b", "text": "B) Location of incision", "isCorrect": false },
+          { "id": "c", "text": "C) Number and size of fibroids", "isCorrect": true },
+          { "id": "d", "text": "D) Use of vasopressin", "isCorrect": false },
+          { "id": "e", "text": "E) Suturing technique", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Larger/more numerous fibroids → longer cases and more dissection → more bleeding.",
+        "submodule": "Module 8.6 – Myomectomy Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_6-diff-1",
+        "text": "Which of the following techniques has been shown to decrease the risk of adhesion formation after laparoscopic myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Multiple interrupted sutures", "isCorrect": false },
+          { "id": "b", "text": "B) Increased tissue traction", "isCorrect": false },
+          { "id": "c", "text": "C) Dry field dissection", "isCorrect": false },
+          { "id": "d", "text": "D) Use of running sutures", "isCorrect": true },
+          { "id": "e", "text": "E) Use of cautery for hemostasis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Running closure uses less material and fewer knots → less foreign body reaction.",
+        "submodule": "Module 8.6 – Myomectomy Complications",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8b-8_7-easy-1",
+        "text": "What structure is most at risk during uterine artery transection in laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Round ligament", "isCorrect": false },
+          { "id": "b", "text": "B) Ureter", "isCorrect": true },
+          { "id": "c", "text": "C) Bladder", "isCorrect": false },
+          { "id": "d", "text": "D) Inferior epigastric artery", "isCorrect": false },
+          { "id": "e", "text": "E) Ovarian vein", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "The ureter (‘water’) courses beneath the uterine artery (‘bridge’) near the cervix/vaginal cuff.",
+        "submodule": "Module 8.7 – Injury During Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_7-med-1",
+        "text": "Which surgical step is most likely to cause ureteral injury at the level of the vaginal fornix?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Broad ligament dissection", "isCorrect": false },
+          { "id": "b", "text": "B) IP ligament transection", "isCorrect": false },
+          { "id": "c", "text": "C) Round ligament transection", "isCorrect": false },
+          { "id": "d", "text": "D) Uterine artery transection", "isCorrect": true },
+          { "id": "e", "text": "E) Vesicouterine fold development", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Risk peaks near the cervix/fornix as the ureter passes under the uterine artery.",
+        "submodule": "Module 8.7 – Injury During Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_7-diff-1",
+        "text": "Which strategy best reduces the risk of ureteral injury during laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Placing the patient in steep Trendelenburg", "isCorrect": false },
+          { "id": "b", "text": "B) Using uterine manipulators for cephalad movement", "isCorrect": true },
+          { "id": "c", "text": "C) Limiting visualization of the ureters to the pelvic brim", "isCorrect": false },
+          { "id": "d", "text": "D) Avoiding use of cautery near the uterosacral ligaments", "isCorrect": false },
+          { "id": "e", "text": "E) Delaying identification of ureters until after colpotomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Manipulator-driven cephalad traction increases the ureter–operative field distance.",
+        "submodule": "Module 8.7 – Injury During Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8b-8_8-easy-1",
+        "text": "Which of the following is a contraindication to supracervical hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Uterine fibroids", "isCorrect": false },
+          { "id": "b", "text": "B) Menorrhagia", "isCorrect": false },
+          { "id": "c", "text": "C) Endometriosis", "isCorrect": false },
+          { "id": "d", "text": "D) History of CIN 2", "isCorrect": true },
+          { "id": "e", "text": "E) Desire to reduce prolapse risk", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Retaining a cervix with prior dysplasia is contraindicated.",
+        "submodule": "Module 8.8 – Supracervical Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_8-med-1",
+        "text": "Which of the following is a known disadvantage of supracervical hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Higher blood loss", "isCorrect": false },
+          { "id": "b", "text": "B) Longer operative time", "isCorrect": false },
+          { "id": "c", "text": "C) Increased risk of cuff dehiscence", "isCorrect": false },
+          { "id": "d", "text": "D) Persistent cyclic bleeding", "isCorrect": true },
+          { "id": "e", "text": "E) Greater injury to ureters", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Residual endometrium in the cervical stump can bleed.",
+        "submodule": "Module 8.8 – Supracervical Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_8-diff-1",
+        "text": "Which of the following is a true statement about supracervical hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It is associated with significantly less adhesion formation", "isCorrect": false },
+          { "id": "b", "text": "B) It provides superior long-term pelvic floor support", "isCorrect": false },
+          { "id": "c", "text": "C) It should be considered for patients with cervical dysplasia", "isCorrect": false },
+          { "id": "d", "text": "D) It has lower reoperation rates than total hysterectomy", "isCorrect": false },
+          { "id": "e", "text": "E) It may result in cyclic bleeding due to residual endometrium", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Retained functional endometrium can lead to ongoing cyclic bleeding.",
+        "submodule": "Module 8.8 – Supracervical Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m8b-8_9-easy-1",
+        "text": "What is the preferred surgical treatment for a symptomatic 6 cm endometrioma in a patient who has failed medical therapy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hormonal suppression", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic cyst drainage", "isCorrect": false },
+          { "id": "c", "text": "C) Laparoscopic ovarian cystectomy", "isCorrect": true },
+          { "id": "d", "text": "D) Hysterectomy", "isCorrect": false },
+          { "id": "e", "text": "E) Expectant management", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Cystectomy offers symptom relief and lower recurrence while preserving ovarian tissue.",
+        "submodule": "Module 8.9 – Endometrioma Treatment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_9-med-1",
+        "text": "Which surgical technique is associated with the lowest recurrence of endometriomas?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cyst wall fenestration", "isCorrect": false },
+          { "id": "b", "text": "B) Simple cyst aspiration", "isCorrect": false },
+          { "id": "c", "text": "C) Laparoscopic ablation", "isCorrect": false },
+          { "id": "d", "text": "D) Cystectomy", "isCorrect": false },
+          { "id": "e", "text": "E) Oophorectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "While cystectomy minimizes recurrence with ovarian preservation, oophorectomy most effectively eliminates recurrence but is reserved for select patients not desiring fertility.",
+        "submodule": "Module 8.9 – Endometrioma Treatment",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m8b-8_9-diff-1",
+        "text": "Following laparoscopic cystectomy for endometrioma, which of the following best reduces recurrence?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Expectant management", "isCorrect": false },
+          { "id": "b", "text": "B) Intermittent NSAIDs", "isCorrect": false },
+          { "id": "c", "text": "C) Cyclic contraceptives", "isCorrect": true },
+          { "id": "d", "text": "D) Routine reoperation", "isCorrect": false },
+          { "id": "e", "text": "E) Antibiotics for inflammation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Postoperative hormonal suppression (e.g., OCPs) reduces recurrence risk.",
+        "submodule": "Module 8.9 – Endometrioma Treatment",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "emigs-module-5",
+    "title": "EMIGS Module 5",
+    "questions": [
+      {
+        "id": "m5-q1",
+        "text": "Which 3 elements of lower extremity positioning help minimize the risk of nerve injury during high lithotomy positioning in gynecologic laparoscopy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "m5-q1-a", "text": "A) Hip abduction ≤90°", "isCorrect": true },
+          { "id": "m5-q1-b", "text": "B) Hip flexion of 80–100°", "isCorrect": true },
+          { "id": "m5-q1-c", "text": "C) Lower leg aligned with contralateral shoulder", "isCorrect": false },
+          { "id": "m5-q1-d", "text": "D) Foot positioned with heel fully supported in boot stirrup", "isCorrect": true },
+          { "id": "m5-q1-e", "text": "E) External rotation of hips to widen exposure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Safe high lithotomy limits hip abduction (≤90°), keeps hip flexion ~80–100°, and supports the heel in the stirrup to avoid peroneal compression. Excess abduction/external rotation increase neuropathy risk.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m5-q2",
+        "text": "During gynecologic laparoscopy in the high lithotomy position, which 2 nerves are most commonly injured due to improper lower extremity positioning? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m5-q2-a", "text": "A) Obturator nerve", "isCorrect": false },
+          { "id": "m5-q2-b", "text": "B) Common peroneal nerve", "isCorrect": true },
+          { "id": "m5-q2-c", "text": "C) Sciatic nerve", "isCorrect": false },
+          { "id": "m5-q2-d", "text": "D) Femoral nerve", "isCorrect": true },
+          { "id": "m5-q2-e", "text": "E) Lateral femoral cutaneous nerve", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Common peroneal nerve is vulnerable to compression at the fibular head; femoral nerve can be stretched/compressed under the inguinal ligament with excessive flexion/abduction/external rotation.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m5-q3",
+        "text": "Which of the following statements about upper extremity positioning are correct? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m5-q3-a", "text": "A) Arms should be abducted to at least 90 degrees", "isCorrect": false },
+          { "id": "m5-q3-b", "text": "B) Foam padding should be placed along the arms", "isCorrect": true },
+          { "id": "m5-q3-c", "text": "C) Arms should be tucked with thumbs pointing down", "isCorrect": false },
+          { "id": "m5-q3-d", "text": "D) Shoulder braces should be avoided in Trendelenburg", "isCorrect": true },
+          { "id": "m5-q3-e", "text": "E) Sheets should secure the arms under the torso", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Use padding to reduce compression/shear; avoid shoulder braces in Trendelenburg due to brachial plexus risk. Arms should not be abducted >90° and thumbs should point up with neutral wrist.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m5-q4",
+        "text": "Which 3 elements help prevent patient slippage during Trendelenburg positioning? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "m5-q4-a", "text": "A) Shoulder braces placed tightly above clavicles", "isCorrect": false },
+          { "id": "m5-q4-b", "text": "B) Foam antiskid materials beneath the body", "isCorrect": true },
+          { "id": "m5-q4-c", "text": "C) Beanbag positioning devices", "isCorrect": true },
+          { "id": "m5-q4-d", "text": "D) Compressive chest straps", "isCorrect": false },
+          { "id": "m5-q4-e", "text": "E) Minimizing steep Trendelenburg angle when possible", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Use antiskid foam and beanbags; reduce the angle when feasible. Shoulder braces/chest straps risk compression injuries and should be avoided or used cautiously.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m5-q5",
+        "text": "Which of the following are recommended ergonomic adjustments for surgeons during laparoscopic gynecologic surgery? Select all that apply.",
+        "answerOptions": [
+          { "id": "m5-q5-a", "text": "A) Monitor positioned directly in front of surgeon", "isCorrect": true },
+          { "id": "m5-q5-b", "text": "B) Elbows flexed at ~90 degrees", "isCorrect": true },
+          { "id": "m5-q5-c", "text": "C) Instruments positioned at shoulder height", "isCorrect": false },
+          { "id": "m5-q5-d", "text": "D) Spine rotated slightly for pelvic access", "isCorrect": false },
+          { "id": "m5-q5-e", "text": "E) Use of footrest or step stool if table height is too high", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Keep the monitor directly ahead at/just below eye level; elbows ~90°; instruments at elbow height; neutral spine; use a step if needed to keep shoulders relaxed.",
+        "submodule": "Module 5.2 – Surgeon Ergonomics",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m5-q6",
+        "text": "Which 2 ergonomic errors most increase the risk of neck and shoulder injury for the surgeon during laparoscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m5-q6-a", "text": "A) Monitors placed below eye level", "isCorrect": false },
+          { "id": "m5-q6-b", "text": "B) Reaching with arms elevated", "isCorrect": true },
+          { "id": "m5-q6-c", "text": "C) Elbows flexed at 90 degrees", "isCorrect": false },
+          { "id": "m5-q6-d", "text": "D) Neck in constant extension", "isCorrect": true },
+          { "id": "m5-q6-e", "text": "E) Instruments placed at elbow height", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Arm elevation above shoulder level and sustained neck extension drive musculoskeletal strain. Keep instruments at elbow height and favor a slight downward gaze.",
+        "submodule": "Module 5.2 – Surgeon Ergonomics",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+
+      {
+        "id": "m5-s1-q1",
+        "text": "Which nerve is most commonly injured during gynecologic surgery due to excessive hip flexion and abduction?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Sciatic nerve", "isCorrect": false },
+          { "id": "b", "text": "B) Obturator nerve", "isCorrect": false },
+          { "id": "c", "text": "C) Common peroneal nerve", "isCorrect": false },
+          { "id": "d", "text": "D) Femoral nerve", "isCorrect": true },
+          { "id": "e", "text": "E) Lateral femoral cutaneous nerve", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Femoral neuropathy is the most frequent iatrogenic lower-extremity nerve injury in gynecologic surgery, often from excessive hip flexion/abduction/external rotation.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-s1-q2",
+        "text": "Which of the following positioning strategies best reduces the risk of brachial plexus injury during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Arms fully abducted and secured with chest straps", "isCorrect": false },
+          { "id": "b", "text": "B) Use of candy cane stirrups and arm boards", "isCorrect": false },
+          { "id": "c", "text": "C) Tucking the arms at the sides with palms down or thumbs up and foam padding", "isCorrect": true },
+          { "id": "d", "text": "D) Shoulder braces with Trendelenburg positioning", "isCorrect": false },
+          { "id": "e", "text": "E) Allowing arms to rest at an obtuse angle from the torso", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Tucking with padding and neutral hand position minimizes brachial plexus/ulnar nerve stretch or compression; shoulder braces and wide abduction increase risk.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-s1-q3",
+        "text": "Which positioning element is most likely to contribute to common peroneal nerve injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Excessive hip flexion", "isCorrect": false },
+          { "id": "b", "text": "B) Direct pressure on the lateral knee", "isCorrect": true },
+          { "id": "c", "text": "C) Excessive external rotation of the hip", "isCorrect": false },
+          { "id": "d", "text": "D) Shoulder braces", "isCorrect": false },
+          { "id": "e", "text": "E) Compression at the medial thigh", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "The common peroneal nerve is superficial at the fibular head and vulnerable to compression from lateral knee pressure or poorly placed stirrups.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-s2-q4",
+        "text": "What is the optimal position for the surgeon's elbows during laparoscopic gynecologic surgery to reduce strain?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fully extended", "isCorrect": false },
+          { "id": "b", "text": "B) At 45-degree angle", "isCorrect": false },
+          { "id": "c", "text": "C) Slightly elevated from the torso", "isCorrect": false },
+          { "id": "d", "text": "D) Resting at 90-degree flexion", "isCorrect": true },
+          { "id": "e", "text": "E) Slightly posterior to the thorax", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Elbows near 90° flexion with instruments at elbow height reduces shoulder load and improves precision.",
+        "submodule": "Module 5.2 – Surgeon Ergonomics",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-s2-q5",
+        "text": "Which of the following best minimizes cervical spine strain during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monitor positioned above the surgeon’s eye level", "isCorrect": false },
+          { "id": "b", "text": "B) Surgeon positioned one step above assistant", "isCorrect": false },
+          { "id": "c", "text": "C) Monitor aligned with surgeon’s shoulder and promoting a 15-degree downward gaze", "isCorrect": true },
+          { "id": "d", "text": "D) Instruments held above chest level", "isCorrect": false },
+          { "id": "e", "text": "E) Use of angled headlamp to view field", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "A monitor straight ahead and slightly below eye level encourages neutral neck with gentle downward gaze, minimizing extension.",
+        "submodule": "Module 5.2 – Surgeon Ergonomics",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m5-s2-q6",
+        "text": "Which ergonomic deviation is most associated with increased shoulder and neck strain in the operating room?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Neck in mild flexion with neutral spine", "isCorrect": false },
+          { "id": "b", "text": "B) Feet flat and hips even", "isCorrect": false },
+          { "id": "c", "text": "C) Elevation of upper extremities away from torso", "isCorrect": true },
+          { "id": "d", "text": "D) Slight trunk lean forward", "isCorrect": false },
+          { "id": "e", "text": "E) Forearms resting on surgical tray", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Sustained arm elevation/abduction increases shoulder and neck load; keep arms close to torso with instruments at elbow height.",
+        "submodule": "Module 5.2 – Surgeon Ergonomics",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

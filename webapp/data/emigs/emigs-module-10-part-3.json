@@ -1,0 +1,313 @@
+[
+  {
+    "id": "emigs-module-10-part-3",
+    "title": "EMIGS Module 10 (Part 3)",
+    "questions": [
+      {
+        "id": "m10p3-q1",
+        "text": "Which 2 clinical features most strongly suggest a vesicovaginal fistula after laparoscopic hysterectomy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Clear vaginal discharge 10 days post-op", "isCorrect": true },
+          { "id": "b", "text": "B) Hematuria during immediate post-op voids", "isCorrect": false },
+          { "id": "c", "text": "C) Normal cystoscopy at time of hysterectomy", "isCorrect": false },
+          { "id": "d", "text": "D) Positive methylene blue dye test", "isCorrect": true },
+          { "id": "e", "text": "E) Inability to void with suprapubic fullness", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Persistent watery vaginal discharge plus a positive dye test are classic for vesicovaginal fistula.",
+        "submodule": "Module 10.11 – Fistula After Hysterectomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m10p3-q2",
+        "text": "Which of the following are typical signs and management principles of postoperative ileus following laparoscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Absence of flatus beyond 72 hours", "isCorrect": true },
+          { "id": "b", "text": "B) Coffee-ground or bloody emesis", "isCorrect": false },
+          { "id": "c", "text": "C) Bowel distension with air-fluid levels on upright X-ray", "isCorrect": true },
+          { "id": "d", "text": "D) Early mobilization to prevent and treat", "isCorrect": true },
+          { "id": "e", "text": "E) Use of semi-synthetic opioids to stimulate bowel function", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Ileus: delayed flatus, diffuse air–fluid levels, distension; management emphasizes early mobilization and supportive care.",
+        "submodule": "Module 10.12 – Ileus After Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p3-q3",
+        "text": "Which statements about port-site hernia prevention are incorrect? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) All 5 mm ports require fascial closure", "isCorrect": true },
+          { "id": "b", "text": "B) 12 mm cutting trocars have higher hernia risk than dilating trocars", "isCorrect": false },
+          { "id": "c", "text": "C) Midline incisions are at higher risk than lateral sites", "isCorrect": false },
+          { "id": "d", "text": "D) Fascial closure is recommended for 10 mm umbilical ports", "isCorrect": false },
+          { "id": "e", "text": "E) Specimen extraction should be done through stretched 5 mm ports to reduce defects", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "5 mm ports generally do not need closure; stretching small ports increases hernia risk.",
+        "submodule": "Module 10.13 – Port Site Hernia Prevention",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p3-q4",
+        "text": "Which of the following are known risk factors for vaginal cuff dehiscence after laparoscopic hysterectomy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Early resumption of intercourse", "isCorrect": true },
+          { "id": "b", "text": "B) Electrosurgical colpotomy", "isCorrect": true },
+          { "id": "c", "text": "C) Use of delayed-absorbable barbed suture", "isCorrect": false },
+          { "id": "d", "text": "D) One-layer cuff closure", "isCorrect": true },
+          { "id": "e", "text": "E) Smoking history", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Thermal injury, smoking, early vaginal activity, and inadequate closure increase dehiscence risk.",
+        "submodule": "Module 10.14 – Vaginal Cuff Dehiscence",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p3-q5",
+        "text": "Which 3 nerves are most commonly injured from improper lithotomy positioning during gynecologic laparoscopy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Common peroneal", "isCorrect": true },
+          { "id": "b", "text": "B) Femoral", "isCorrect": true },
+          { "id": "c", "text": "C) Iliohypogastric", "isCorrect": false },
+          { "id": "d", "text": "D) Obturator", "isCorrect": false },
+          { "id": "e", "text": "E) Lateral femoral cutaneous", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Peroneal (compression at fibular head), femoral (hip flexion/abduction), and lateral femoral cutaneous (inguinal ligament compression) are most common.",
+        "submodule": "Module 10.15 – Neurologic Injury",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m10p3-10_11-v1",
+        "text": "A 42-year-old G0 underwent laparoscopic excision of endometriosis and total hysterectomy seven days ago. She reports constant leakage of urine that worsens with standing despite no prior history of urinary incontinence. What is the most likely diagnosis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Occult stress urinary incontinence", "isCorrect": false },
+          { "id": "b", "text": "B) Urinary tract infection", "isCorrect": false },
+          { "id": "c", "text": "C) Vaginal cuff dehiscence", "isCorrect": false },
+          { "id": "d", "text": "D) Vaginitis", "isCorrect": false },
+          { "id": "e", "text": "E) Vesicovaginal fistula", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Constant watery leakage after hysterectomy is classic for vesicovaginal fistula.",
+        "submodule": "Module 10.11 – Fistula After Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_11-v2",
+        "text": "What is the least helpful test to confirm the presence of a vesicovaginal fistula?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Serum and vaginal fluid creatinine", "isCorrect": false },
+          { "id": "b", "text": "B) Tampon dye test", "isCorrect": false },
+          { "id": "c", "text": "C) Cystourethroscopy", "isCorrect": false },
+          { "id": "d", "text": "D) CT urogram", "isCorrect": false },
+          { "id": "e", "text": "E) Urinalysis", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "UA does not localize a fistula; dye testing and imaging/endoscopy are more diagnostic.",
+        "submodule": "Module 10.11 – Fistula After Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_11-v3",
+        "text": "When is surgical repair of a 3 cm vesicovaginal fistula ideally performed?",
+        "answerOptions": [
+          { "id": "a", "text": "A) More than 48 hours after hysterectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Within 72 hours of symptom onset", "isCorrect": false },
+          { "id": "c", "text": "C) After 3–6 months, if the diagnosis is delayed", "isCorrect": true },
+          { "id": "d", "text": "D) Only after conservative management with catheter fails", "isCorrect": false },
+          { "id": "e", "text": "E) After two or more episodes of urinary tract infection", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "If not recognized immediately, repair is delayed 3–6 months to allow inflammation to subside.",
+        "submodule": "Module 10.11 – Fistula After Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_12-v1",
+        "text": "A 49-year-old G0 diabetic underwent laparoscopic hysterectomy and stage IV endometriosis excision three days ago. She now reports abdominal distension, nausea, vomiting, and no flatus. She denies severe pain or fever. What is the most likely diagnosis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ileus", "isCorrect": true },
+          { "id": "b", "text": "B) Small bowel obstruction", "isCorrect": false },
+          { "id": "c", "text": "C) Large bowel perforation", "isCorrect": false },
+          { "id": "d", "text": "D) Large bowel obstruction", "isCorrect": false },
+          { "id": "e", "text": "E) Gastroenteritis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "POD 3 with distension, N/V, absent flatus and no peritoneal signs favors ileus.",
+        "submodule": "Module 10.12 – Ileus After Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_12-v2",
+        "text": "What is the most appropriate next step in management for a patient with suspected post-operative ileus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Emergent laparotomy", "isCorrect": false },
+          { "id": "b", "text": "B) Oral contrast enema", "isCorrect": false },
+          { "id": "c", "text": "C) NPO status and IV fluids", "isCorrect": true },
+          { "id": "d", "text": "D) Laxative administration", "isCorrect": false },
+          { "id": "e", "text": "E) Prophylactic antibiotics", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Supportive care: bowel rest, IV hydration, electrolytes, mobilization.",
+        "submodule": "Module 10.12 – Ileus After Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_12-v3",
+        "text": "What is a common radiographic finding in a patient with ileus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pneumoperitoneum", "isCorrect": false },
+          { "id": "b", "text": "B) Free air in the mesentery", "isCorrect": false },
+          { "id": "c", "text": "C) Dilated bowel with multiple air-fluid levels throughout GI tract", "isCorrect": true },
+          { "id": "d", "text": "D) Isolated large bowel dilation with collapsed small bowel", "isCorrect": false },
+          { "id": "e", "text": "E) Closed-loop obstruction", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Ileus typically shows diffuse dilation and multiple air–fluid levels, including colon/rectum.",
+        "submodule": "Module 10.12 – Ileus After Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_13-v1",
+        "text": "Which laparoscopic port site always requires fascial closure, regardless of size?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5 mm port placed with a cutting trocar", "isCorrect": false },
+          { "id": "b", "text": "B) 8 mm port placed with a dilating trocar", "isCorrect": false },
+          { "id": "c", "text": "C) 5 mm umbilical port", "isCorrect": false },
+          { "id": "d", "text": "D) 8 mm AirSeal port placed at Palmer’s Point", "isCorrect": false },
+          { "id": "e", "text": "E) Tissue extraction site", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Any site stretched for extraction should be closed due to enlarged fascial defect.",
+        "submodule": "Module 10.13 – Port Site Hernia Prevention",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_13-v2",
+        "text": "Which factor increases the risk of port site hernia formation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Dilating trocar", "isCorrect": false },
+          { "id": "b", "text": "B) Use of stay sutures", "isCorrect": false },
+          { "id": "c", "text": "C) Trocar placed at a 90-degree angle to the fascia", "isCorrect": false },
+          { "id": "d", "text": "D) Fascial stretching during specimen removal", "isCorrect": true },
+          { "id": "e", "text": "E) Trocar placed lateral to the rectus muscle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Stretching enlarges the defect and increases hernia risk.",
+        "submodule": "Module 10.13 – Port Site Hernia Prevention",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_13-v3",
+        "text": "What is the approximate incidence of port site hernia after laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) <0.1%", "isCorrect": false },
+          { "id": "b", "text": "B) 0.2–3.2%", "isCorrect": true },
+          { "id": "c", "text": "C) 5–7%", "isCorrect": false },
+          { "id": "d", "text": "D) 10–15%", "isCorrect": false },
+          { "id": "e", "text": "E) >20%", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Reported rates range roughly 0.2–3.2%, depending on port size, site, and closure.",
+        "submodule": "Module 10.13 – Port Site Hernia Prevention",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_14-v1",
+        "text": "A 44-year-old G2P2 presents with sudden pelvic pain and vaginal bleeding six weeks after total laparoscopic hysterectomy, following intercourse. What is the most appropriate next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Schedule an office visit the next day", "isCorrect": false },
+          { "id": "b", "text": "B) Reassure the patient this is normal", "isCorrect": false },
+          { "id": "c", "text": "C) Advise ibuprofen and monitor at home", "isCorrect": false },
+          { "id": "d", "text": "D) Immediate evaluation in the emergency department", "isCorrect": true },
+          { "id": "e", "text": "E) Order a pelvic ultrasound", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Concern for cuff dehiscence/evisceration warrants emergent evaluation.",
+        "submodule": "Module 10.14 – Vaginal Cuff Dehiscence",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_14-v2",
+        "text": "Which surgical technique reduces the risk of vaginal cuff dehiscence?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of electrosurgery to seal the cuff", "isCorrect": false },
+          { "id": "b", "text": "B) Leaving the vaginal cuff open to drain", "isCorrect": false },
+          { "id": "c", "text": "C) Reapproximation using delayed absorbable monofilament suture", "isCorrect": true },
+          { "id": "d", "text": "D) Closing the cuff in one layer only", "isCorrect": false },
+          { "id": "e", "text": "E) Closing with permanent braided suture", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Full-thickness closure with delayed-absorbable monofilament (or similar) lowers risk.",
+        "submodule": "Module 10.14 – Vaginal Cuff Dehiscence",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_14-v3",
+        "text": "What is a common presenting symptom of vaginal cuff dehiscence?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Urinary frequency", "isCorrect": false },
+          { "id": "b", "text": "B) Hematuria", "isCorrect": false },
+          { "id": "c", "text": "C) Sudden onset of pelvic pressure or bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Constipation", "isCorrect": false },
+          { "id": "e", "text": "E) Intermittent low back pain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Many patients report acute bleeding/pressure; evisceration may be visible.",
+        "submodule": "Module 10.14 – Vaginal Cuff Dehiscence",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_15-v1",
+        "text": "A 40-year-old patient has decreased sensation over her medial thigh and difficulty adducting her hip after laparoscopic hysterectomy. What nerve is most likely injured?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Genitofemoral", "isCorrect": false },
+          { "id": "b", "text": "B) Femoral", "isCorrect": false },
+          { "id": "c", "text": "C) Obturator", "isCorrect": true },
+          { "id": "d", "text": "D) Ilioinguinal", "isCorrect": false },
+          { "id": "e", "text": "E) Common peroneal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Obturator nerve injury causes medial thigh sensory loss and weak hip adduction (note: clinical deficits are classically with adduction).",
+        "submodule": "Module 10.15 – Neurologic Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_15-v2",
+        "text": "Which of the following nerves is most commonly injured due to improper use of self-retaining retractors during pelvic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Obturator nerve", "isCorrect": false },
+          { "id": "b", "text": "B) Femoral nerve", "isCorrect": true },
+          { "id": "c", "text": "C) Sciatic nerve", "isCorrect": false },
+          { "id": "d", "text": "D) Genitofemoral nerve", "isCorrect": false },
+          { "id": "e", "text": "E) Iliohypogastric nerve", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Femoral nerve can be compressed by retractors or malpositioned blades against the psoas/iliacus.",
+        "submodule": "Module 10.15 – Neurologic Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p3-10_15-v3",
+        "text": "What is the most likely mechanism of pudendal nerve injury during pelvic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Compression between sacrum and retractor", "isCorrect": false },
+          { "id": "b", "text": "B) Transection during port placement", "isCorrect": false },
+          { "id": "c", "text": "C) Stretch injury during uterine manipulation", "isCorrect": false },
+          { "id": "d", "text": "D) Entrapment during sacrospinous ligament fixation", "isCorrect": true },
+          { "id": "e", "text": "E) Injury during Trendelenburg positioning", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Pudendal nerve can be injured by entrapment during sacrospinous fixation, leading to perineal pain.",
+        "submodule": "Module 10.15 – Neurologic Injury",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

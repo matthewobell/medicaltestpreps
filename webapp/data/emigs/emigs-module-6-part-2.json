@@ -1,0 +1,349 @@
+[
+  {
+    "id": "emigs-module-6b",
+    "title": "EMIGS Module 6 (Part 2)",
+    "questions": [
+      {
+        "id": "m6b-q1",
+        "text": "Which 2 intraoperative adjustments improve visualization and maneuverability during pelvic laparoscopy in obese patients? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Steep reverse Trendelenburg", "isCorrect": false },
+          { "id": "b", "text": "B) Elevation of insufflation pressure to 18 mmHg", "isCorrect": true },
+          { "id": "c", "text": "C) Use of extra-long instruments", "isCorrect": true },
+          { "id": "d", "text": "D) Operating with the table in full flexion", "isCorrect": false },
+          { "id": "e", "text": "E) Resection of preperitoneal fat at camera port", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Higher insufflation pressure can increase working space; extra-long instruments improve reach. Reverse Trendelenburg/table flexion are not standard for pelvic access; resecting preperitoneal fat is not a routine maneuver for visualization.",
+        "submodule": "Module 6.7 – Port Placement with Extremes of BMI",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m6b-q2",
+        "text": "Which of the following are incorrect statements about port placement in patients with prior laparotomy? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Entry should be made through or near previous scars to reduce new fascial defects", "isCorrect": true },
+          { "id": "b", "text": "B) Palmer’s point is contraindicated in patients with prior splenic surgery", "isCorrect": false },
+          { "id": "c", "text": "C) Bowel adhesions to midline scars are common after laparotomy", "isCorrect": false },
+          { "id": "d", "text": "D) Left upper quadrant access is often used to reduce the risk of encountering bowel adhesions in the lower abdomen", "isCorrect": false },
+          { "id": "e", "text": "E) Entry under direct visualization minimizes risk of injury in reoperative fields", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Avoid prior scars for initial entry because adhesions beneath scars are common. The other statements are accurate: LUQ access (Palmer’s Point) is helpful unless prior splenic surgery; adhesions to midline scars are common; and direct visualization reduces risk.",
+        "submodule": "Module 6.8 – Port Placement with Prior Laparotomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m6b-q3",
+        "text": "Which of the following strategies help reduce complications associated with power morcellation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Confirming benign pathology prior to morcellation", "isCorrect": false },
+          { "id": "b", "text": "B) Avoiding morcellation in postmenopausal women", "isCorrect": true },
+          { "id": "c", "text": "C) Use of containment systems", "isCorrect": true },
+          { "id": "d", "text": "D) Preoperative endometrial biopsy for all patients", "isCorrect": false },
+          { "id": "e", "text": "E) Delaying morcellation until histology returns", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Postmenopausal status raises risk of occult malignancy—avoid morcellation. Contained morcellation reduces intraperitoneal dissemination risk. Definitive pathology is not available until after removal; blanket biopsy or waiting for histology is not practical.",
+        "submodule": "Module 6.9 – Laparoscopic Tissue Extraction",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m6b-q4",
+        "text": "Which 3 suture characteristics make them ideal for laparoscopic suturing of the vaginal cuff? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Minimal memory", "isCorrect": true },
+          { "id": "b", "text": "B) Delayed absorbability", "isCorrect": true },
+          { "id": "c", "text": "C) High tissue reactivity", "isCorrect": false },
+          { "id": "d", "text": "D) Monofilament texture", "isCorrect": false },
+          { "id": "e", "text": "E) Ability to maintain tensile strength >7 days", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cuff closure benefits from sutures with low memory (handling), adequate early tensile strength, and delayed absorbability. Low—not high—tissue reactivity is desirable. Filament choice varies by preference.",
+        "submodule": "Module 6.10 – Needle and Suture Selection",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m6b-q5",
+        "text": "Which 2 surgical practices are most consistently associated with lower adhesion formation in laparoscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Copious peritoneal irrigation with saline", "isCorrect": false },
+          { "id": "b", "text": "B) Use of harmonic scalpel instead of monopolar", "isCorrect": false },
+          { "id": "c", "text": "C) Minimized tissue manipulation", "isCorrect": true },
+          { "id": "d", "text": "D) Routine use of barrier gels", "isCorrect": true },
+          { "id": "e", "text": "E) Placement of multiple suction drains", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Gentle handling preserves mesothelium; barrier agents have evidence for reducing adhesions. Energy choice and irrigation are less consistent; drains don’t prevent adhesions.",
+        "submodule": "Module 6.11 – Risk for Adhesions Following Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m6b-q6",
+        "text": "Which of the following clinical scenarios would justify proactive adhesion prevention strategies during laparoscopy? Select best 3 answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Reproductive-aged patient undergoing myomectomy", "isCorrect": true },
+          { "id": "b", "text": "B) Bowel resection for endometriosis", "isCorrect": true },
+          { "id": "c", "text": "C) Diagnostic laparoscopy in nulliparous patient", "isCorrect": false },
+          { "id": "d", "text": "D) Laparoscopic ovarian cystectomy for dermoid", "isCorrect": false },
+          { "id": "e", "text": "E) Prior history of adhesion-related bowel obstruction", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "High-risk scenarios include fertility-impacting procedures (myomectomy), bowel surgery, and patients with prior obstruction.",
+        "submodule": "Module 6.11 – Risk for Adhesions Following Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+
+      {
+        "id": "m6b-6_7-easy-1",
+        "text": "In obese patients, what is the preferred angle of Veress needle insertion at the umbilicus?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 30 degrees", "isCorrect": false },
+          { "id": "b", "text": "B) 45 degrees", "isCorrect": false },
+          { "id": "c", "text": "C) 60 degrees", "isCorrect": false },
+          { "id": "d", "text": "D) 90 degrees", "isCorrect": true },
+          { "id": "e", "text": "E) 120 degrees", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A perpendicular (90°) approach reduces lateral tracking through a thick abdominal wall.",
+        "submodule": "Module 6.7 – Port Placement with Extremes of BMI",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_7-med-1",
+        "text": "What anatomical change occurs in obese patients that most significantly affects laparoscopic entry technique?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased volume of peritoneal fluid", "isCorrect": false },
+          { "id": "b", "text": "B) Caudal displacement of the umbilicus", "isCorrect": true },
+          { "id": "c", "text": "C) Decreased distance between skin and bowel", "isCorrect": false },
+          { "id": "d", "text": "D) Increased sensitivity to insufflation pressures", "isCorrect": false },
+          { "id": "e", "text": "E) Lateral shift of abdominal vessels", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "The umbilicus migrates caudally with higher BMI, altering safe angles and landmarks.",
+        "submodule": "Module 6.7 – Port Placement with Extremes of BMI",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_7-diff-1",
+        "text": "Which of the following is the best reason to place accessory trocars perpendicular to the contour of the insufflated abdomen?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To reduce CO₂ leakage", "isCorrect": false },
+          { "id": "b", "text": "B) To enhance instrument triangulation", "isCorrect": false },
+          { "id": "c", "text": "C) To reduce torque on fascia and defect enlargement", "isCorrect": true },
+          { "id": "d", "text": "D) To facilitate easier suture passage", "isCorrect": false },
+          { "id": "e", "text": "E) To prevent hernia recurrence", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Perpendicular insertion minimizes instrument shaft length within the wall, reducing torque and fascial stretch.",
+        "submodule": "Module 6.7 – Port Placement with Extremes of BMI",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6b-6_8-easy-1",
+        "text": "What is the preferred site of laparoscopic entry in a patient with prior midline laparotomy and suspected umbilical adhesions?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Umbilicus", "isCorrect": false },
+          { "id": "b", "text": "B) Right lower quadrant", "isCorrect": false },
+          { "id": "c", "text": "C) Left upper quadrant (Palmer's Point)", "isCorrect": true },
+          { "id": "d", "text": "D) Suprapubic", "isCorrect": false },
+          { "id": "e", "text": "E) Right upper quadrant", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Palmer’s Point avoids likely periumbilical adhesions after midline laparotomy.",
+        "submodule": "Module 6.8 – Port Placement with Prior Laparotomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_8-med-1",
+        "text": "Why is stomach decompression required before left upper quadrant entry?",
+        "answerOptions": [
+          { "id": "a", "text": "A) To reduce risk of bowel injury", "isCorrect": false },
+          { "id": "b", "text": "B) To increase peritoneal pressure", "isCorrect": false },
+          { "id": "c", "text": "C) To protect the liver", "isCorrect": false },
+          { "id": "d", "text": "D) To reduce the risk of gastric injury", "isCorrect": true },
+          { "id": "e", "text": "E) To improve anesthetic depth", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "NG/OG decompression minimizes risk of perforating a distended stomach during LUQ entry.",
+        "submodule": "Module 6.8 – Port Placement with Prior Laparotomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_8-diff-1",
+        "text": "Which of the following is an absolute contraindication to posterior fornix Veress needle placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Nulliparity", "isCorrect": false },
+          { "id": "b", "text": "B) Known pelvic adhesions", "isCorrect": true },
+          { "id": "c", "text": "C) Small uterine fibroids", "isCorrect": false },
+          { "id": "d", "text": "D) History of appendectomy", "isCorrect": false },
+          { "id": "e", "text": "E) Prior ovarian cystectomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "An obliterated cul-de-sac or significant adhesions make posterior fornix entry unsafe.",
+        "submodule": "Module 6.8 – Port Placement with Prior Laparotomy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6b-6_9-easy-1",
+        "text": "Which complication is most specifically linked to morcellation of an occult uterine malignancy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ureteral injury", "isCorrect": false },
+          { "id": "b", "text": "B) Vaginal cuff dehiscence", "isCorrect": false },
+          { "id": "c", "text": "C) Upstaging of disease", "isCorrect": true },
+          { "id": "d", "text": "D) Cervical stenosis", "isCorrect": false },
+          { "id": "e", "text": "E) Infertility", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Dissemination during morcellation can upstage an occult malignancy (e.g., LMS).",
+        "submodule": "Module 6.9 – Laparoscopic Tissue Extraction",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_9-med-1",
+        "text": "Which of the following is NOT a known risk associated with morcellation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Parasitic myomatosis", "isCorrect": false },
+          { "id": "b", "text": "B) Difficulty in histopathological assessment", "isCorrect": false },
+          { "id": "c", "text": "C) Increased need for laparotomy", "isCorrect": true },
+          { "id": "d", "text": "D) Injury to nearby viscera", "isCorrect": false },
+          { "id": "e", "text": "E) Peritoneal dissemination", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Morcellation generally avoids laparotomy; other listed issues are recognized risks.",
+        "submodule": "Module 6.9 – Laparoscopic Tissue Extraction",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_9-diff-1",
+        "text": "Which is the most effective strategy to minimize risk of tissue dissemination during power morcellation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of thermal ablation prior to fragmentation", "isCorrect": false },
+          { "id": "b", "text": "B) Contained morcellation with endobag", "isCorrect": true },
+          { "id": "c", "text": "C) Increasing insufflation pressure", "isCorrect": false },
+          { "id": "d", "text": "D) Applying electrocautery to specimen", "isCorrect": false },
+          { "id": "e", "text": "E) Avoiding use of tenaculum", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Performing morcellation within a containment system reduces peritoneal dissemination.",
+        "submodule": "Module 6.9 – Laparoscopic Tissue Extraction",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6b-6_10-easy-1",
+        "text": "Which suture is most appropriate for vaginal cuff closure after total laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Chromic", "isCorrect": false },
+          { "id": "b", "text": "B) Silk", "isCorrect": false },
+          { "id": "c", "text": "C) Polyglactin", "isCorrect": true },
+          { "id": "d", "text": "D) Nylon", "isCorrect": false },
+          { "id": "e", "text": "E) Polypropylene", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Absorbable synthetic (e.g., polyglactin) maintains strength through early healing.",
+        "submodule": "Module 6.10 – Needle and Suture Selection",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_10-med-1",
+        "text": "What is the main advantage of barbed sutures in laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased knot security", "isCorrect": false },
+          { "id": "b", "text": "B) Complete absorption within 5 days", "isCorrect": false },
+          { "id": "c", "text": "C) Less expensive than polyglactin", "isCorrect": false },
+          { "id": "d", "text": "D) Elimination of knot tying", "isCorrect": true },
+          { "id": "e", "text": "E) Reduced needle trauma", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Barbs anchor tissue, obviating knots and improving efficiency in laparoscopy.",
+        "submodule": "Module 6.10 – Needle and Suture Selection",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_10-diff-1",
+        "text": "Which needle type is best suited for closure of the vaginal cuff?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Tapered", "isCorrect": true },
+          { "id": "b", "text": "B) Cutting", "isCorrect": false },
+          { "id": "c", "text": "C) Reverse cutting", "isCorrect": false },
+          { "id": "d", "text": "D) Blunt", "isCorrect": false },
+          { "id": "e", "text": "E) Trocar tip", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Tapered needles pass through soft tissue with less trauma than cutting variants.",
+        "submodule": "Module 6.10 – Needle and Suture Selection",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m6b-6_11-easy-1",
+        "text": "Which of the following is the LEAST effective strategy for adhesion prevention?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Judicious use of electrosurgery", "isCorrect": false },
+          { "id": "b", "text": "B) Meticulous hemostasis", "isCorrect": false },
+          { "id": "c", "text": "C) Minimal tissue manipulation", "isCorrect": false },
+          { "id": "d", "text": "D) Liberal use of electrosurgery", "isCorrect": true },
+          { "id": "e", "text": "E) Reduced operative time", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Excess energy use promotes tissue injury and adhesions.",
+        "submodule": "Module 6.11 – Risk for Adhesions Following Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_11-med-1",
+        "text": "Adhesions form after which of the following biological processes?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Lymphatic congestion", "isCorrect": false },
+          { "id": "b", "text": "B) Fibroblast migration and collagen deposition", "isCorrect": true },
+          { "id": "c", "text": "C) Mesothelial apoptosis", "isCorrect": false },
+          { "id": "d", "text": "D) Hypercapnic peritoneal inflammation", "isCorrect": false },
+          { "id": "e", "text": "E) Mast cell degranulation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Post-injury fibrosis (fibroblast activity and collagen deposition) consolidates adhesions.",
+        "submodule": "Module 6.11 – Risk for Adhesions Following Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m6b-6_11-diff-1",
+        "text": "Which patient is at greatest risk for adhesion-related complications after laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Patient with stage I endometriosis", "isCorrect": false },
+          { "id": "b", "text": "B) Patient with prior cholecystectomy", "isCorrect": false },
+          { "id": "c", "text": "C) Patient with Crohn’s disease", "isCorrect": true },
+          { "id": "d", "text": "D) Patient with nulliparity and fibroids", "isCorrect": false },
+          { "id": "e", "text": "E) Patient with ovarian torsion", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Chronic inflammatory bowel disease predisposes to adhesions and related complications.",
+        "submodule": "Module 6.11 – Risk for Adhesions Following Laparoscopy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

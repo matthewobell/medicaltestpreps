@@ -1,0 +1,380 @@
+[
+  {
+    "id": "emigs-module-7",
+    "title": "EMIGS Module 7",
+    "questions": [
+      {
+        "id": "m7-q1",
+        "text": "Which of the following are recommended strategies to reduce systemic toxicity from local anesthetic use during hysteroscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Aspirating before injection", "isCorrect": true },
+          { "id": "b", "text": "B) Using a vasoconstrictor like epinephrine", "isCorrect": true },
+          { "id": "c", "text": "C) Diluting anesthetic in glycine", "isCorrect": false },
+          { "id": "d", "text": "D) Choosing highly vascular injection sites", "isCorrect": false },
+          { "id": "e", "text": "E) Using the lowest effective dose", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Avoid intravascular injection (aspiration), add epinephrine to reduce systemic absorption when appropriate, and use the lowest effective dose. Glycine is not used for anesthetic dilution; injecting into highly vascular sites increases systemic uptake.",
+        "submodule": "Module 7.1 – Complications and Dosing of Anesthetics",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m7-q2",
+        "text": "Which 3 agents or techniques are commonly used to facilitate cervical preparation in premenopausal women undergoing operative hysteroscopy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Intracervical glycine injection", "isCorrect": false },
+          { "id": "b", "text": "B) Oral or vaginal misoprostol", "isCorrect": true },
+          { "id": "c", "text": "C) Osmotic dilators (e.g., laminaria)", "isCorrect": true },
+          { "id": "d", "text": "D) Intrauterine balloon", "isCorrect": false },
+          { "id": "e", "text": "E) Cervical vasopressin injection", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Misoprostol, osmotic dilators, and dilute vasopressin are standard options. Glycine has no role in ripening; balloons are for tamponade, not ripening.",
+        "submodule": "Module 7.2 – Cervical Ripening",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m7-q3",
+        "text": "Which of the following statements about uterine perforation management are incorrect? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fundal perforations with blunt dilation and stable vitals often require emergency surgery", "isCorrect": true },
+          { "id": "b", "text": "B) Lateral wall perforations with bleeding require surgical exploration", "isCorrect": false },
+          { "id": "c", "text": "C) Electrosurgery use during perforation increases risk of visceral injury", "isCorrect": false },
+          { "id": "d", "text": "D) Hemodynamic instability always necessitates observation only", "isCorrect": true },
+          { "id": "e", "text": "E) Cervical stenosis increases the risk of uterine perforation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Expectant management is typical for uncomplicated fundal perforations (no energy, stable vitals). Instability requires surgical evaluation—not observation only. Lateral wall bleeding, energy use, and stenosis are risk/management factors as stated.",
+        "submodule": "Module 7.3 – Hysteroscopy: Perforation on Entry",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m7-q4",
+        "text": "Which 2 strategies are most effective in reducing the risk of systemic complications during vasopressin injection in hysteroscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Injecting rapidly at 3 and 9 o’clock", "isCorrect": false },
+          { "id": "b", "text": "B) Using concentrations <1 unit/mL", "isCorrect": true },
+          { "id": "c", "text": "C) Drawing back before injecting", "isCorrect": true },
+          { "id": "d", "text": "D) Injecting directly through the cervical os", "isCorrect": false },
+          { "id": "e", "text": "E) Administering 10 units per injection site in the cervical stroma", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Use dilute solutions and aspirate before injection to avoid intravascular delivery. Rapid or blind injections and high doses increase risk.",
+        "submodule": "Module 7.4 – Vasopressin Injection",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m7-q5",
+        "text": "Which of the following are characteristics of electrolyte-poor distention media used in hysteroscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Compatible with bipolar electrosurgery", "isCorrect": false },
+          { "id": "b", "text": "B) Higher risk of hyponatremia if absorbed", "isCorrect": true },
+          { "id": "c", "text": "C) Includes glycine and sorbitol", "isCorrect": true },
+          { "id": "d", "text": "D) Recommended maximum fluid deficit is 1500 mL", "isCorrect": false },
+          { "id": "e", "text": "E) Should be avoided in renal insufficiency", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Electrolyte-poor fluids (e.g., glycine, sorbitol) are for monopolar systems, carry higher hyponatremia risk, and are avoided in renal disease. Typical deficit limit ≈1000 mL (not 1500 mL).",
+        "submodule": "Module 7.5 – Distention Media for Hysteroscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m7-q6",
+        "text": "Which 2 techniques reduce the risk of perforation when using a resectoscope in thin-walled uterine regions? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Slowly advancing the activated loop along base of target tissue", "isCorrect": false },
+          { "id": "b", "text": "B) Ultrasound or laparoscopic guidance", "isCorrect": true },
+          { "id": "c", "text": "C) Applying pressure with the inactive loop to test for weakness", "isCorrect": false },
+          { "id": "d", "text": "D) Resection with loop withdrawal under direct vision", "isCorrect": true },
+          { "id": "e", "text": "E) Maintain fluid pressure above mean arterial pressure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cut on withdrawal under direct vision and add image guidance in high-risk areas. Advancing an activated loop, probing with the loop, or excessive pressure are unsafe.",
+        "submodule": "Module 7.6 – Use of the Resectoscope",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+
+      {
+        "id": "m7-7_1-easy-1",
+        "text": "What is the earliest symptom of bupivacaine toxicity?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cardiac arrest", "isCorrect": false },
+          { "id": "b", "text": "B) Metallic taste", "isCorrect": true },
+          { "id": "c", "text": "C) Muscle spasm", "isCorrect": false },
+          { "id": "d", "text": "D) Seizure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Perioral numbness/metallic taste commonly precede CNS excitation and cardiovascular effects.",
+        "submodule": "Module 7.1 – Complications and Dosing of Anesthetics",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_1-med-1",
+        "text": "Which factor does NOT influence the risk of systemic local anesthetic toxicity?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Site of administration", "isCorrect": false },
+          { "id": "b", "text": "B) Presence of vasoconstrictor", "isCorrect": false },
+          { "id": "c", "text": "C) Type of dispersive electrode", "isCorrect": true },
+          { "id": "d", "text": "D) Dose of anesthetic", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Dose, vascularity, and vasoconstrictor use matter; dispersive electrodes pertain to electrosurgery, not LAST.",
+        "submodule": "Module 7.1 – Complications and Dosing of Anesthetics",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_1-diff-1",
+        "text": "What is the maximum dose of 2% lidocaine with epinephrine in a 70 kg adult?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 315 mg", "isCorrect": false },
+          { "id": "b", "text": "B) 490 mg", "isCorrect": true },
+          { "id": "c", "text": "C) 210 mg", "isCorrect": false },
+          { "id": "d", "text": "D) 385 mg", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Max 7 mg/kg × 70 kg = 490 mg (2% = 20 mg/mL → ~24.5 mL).",
+        "submodule": "Module 7.1 – Complications and Dosing of Anesthetics",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m7-7_2-easy-1",
+        "text": "Which of the following is a benefit of cervical preparation prior to hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Decreases uterine size", "isCorrect": false },
+          { "id": "b", "text": "B) Reduces need for anesthesia", "isCorrect": false },
+          { "id": "c", "text": "C) Decreases risk of perforation", "isCorrect": true },
+          { "id": "d", "text": "D) Prevents endometrial bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Ripening softens/dilates the cervix, facilitating safer entry and reducing false passage/perforation.",
+        "submodule": "Module 7.2 – Cervical Ripening",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_2-med-1",
+        "text": "Which of the following agents is used for cervical ripening in premenopausal women?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Osmotic dilators", "isCorrect": false },
+          { "id": "b", "text": "B) Laminaria", "isCorrect": false },
+          { "id": "c", "text": "C) Misoprostol", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "All listed are valid ripening options depending on timing and indication.",
+        "submodule": "Module 7.2 – Cervical Ripening",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_2-diff-1",
+        "text": "A 43-year-old undergoes hysteroscopy, but resistance is met at the cervix and the procedure is abandoned. Which agent would best facilitate safe future entry?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Dilute vasopressin", "isCorrect": false },
+          { "id": "b", "text": "B) Dinoprostone", "isCorrect": false },
+          { "id": "c", "text": "C) Osmotic dilators", "isCorrect": false },
+          { "id": "d", "text": "D) All of the above", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Prostaglandins and osmotic dilators are reasonable; vasopressin may aid hemostasis/entry. A tailored plan often uses one or more.",
+        "submodule": "Module 7.2 – Cervical Ripening",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m7-7_3-easy-1",
+        "text": "What is the most common location for uterine perforation during hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cervix", "isCorrect": false },
+          { "id": "b", "text": "B) Posterior fornix", "isCorrect": false },
+          { "id": "c", "text": "C) Fundus", "isCorrect": true },
+          { "id": "d", "text": "D) Lateral wall", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "The fundus is most frequently involved with dilators/scope insertion.",
+        "submodule": "Module 7.3 – Hysteroscopy: Perforation on Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_3-med-1",
+        "text": "Which of the following is mostly likely an indication for immediate surgical exploration following uterine perforation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fundal perforation with blunt instrument", "isCorrect": false },
+          { "id": "b", "text": "B) Stable vital signs", "isCorrect": false },
+          { "id": "c", "text": "C) Use of electrosurgical energy during perforation", "isCorrect": true },
+          { "id": "d", "text": "D) Loss of distension without bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Energy at time of perforation raises risk of occult visceral/vascular injury—explore.",
+        "submodule": "Module 7.3 – Hysteroscopy: Perforation on Entry",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_3-diff-1",
+        "text": "During hysteroscopy, a perforation occurs at the left lateral wall with bleeding and hypotension. What is the next best step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Complete the polypectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Perform laparoscopy", "isCorrect": true },
+          { "id": "c", "text": "C) Monitor in PACU", "isCorrect": false },
+          { "id": "d", "text": "D) Use bipolar energy to achieve hemostasis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Instability with bleeding requires operative evaluation (laparoscopy/laparotomy).",
+        "submodule": "Module 7.3 – Hysteroscopy: Perforation on Entry",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m7-7_4-easy-1",
+        "text": "What is a known benefit of cervical vasopressin injection during hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increases cervical rigidity", "isCorrect": false },
+          { "id": "b", "text": "B) Decreases blood loss", "isCorrect": true },
+          { "id": "c", "text": "C) Increases uterine contractility", "isCorrect": false },
+          { "id": "d", "text": "D) Improves anesthesia absorption", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Vasoconstriction lowers intraoperative bleeding.",
+        "submodule": "Module 7.4 – Vasopressin Injection",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_4-med-1",
+        "text": "Which of the following is a potential risk of cervical vasopressin use?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hypertension with reflex bradycardia", "isCorrect": true },
+          { "id": "b", "text": "B) Uterine rupture", "isCorrect": false },
+          { "id": "c", "text": "C) Hyponatremia", "isCorrect": false },
+          { "id": "d", "text": "D) Respiratory alkalosis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Systemic absorption may cause hypertension and bradycardia.",
+        "submodule": "Module 7.4 – Vasopressin Injection",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_4-diff-1",
+        "text": "Which of the following practices helps reduce the risk of vasopressin-related complications?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Using concentrations above 1 unit/mL", "isCorrect": false },
+          { "id": "b", "text": "B) Injecting more than 10 mL at a time", "isCorrect": false },
+          { "id": "c", "text": "C) Drawing back before each injection", "isCorrect": true },
+          { "id": "d", "text": "D) Rapid bolus injection into cervical os", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Aspirate prior to injection to avoid intravascular delivery.",
+        "submodule": "Module 7.4 – Vasopressin Injection",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m7-7_5-easy-1",
+        "text": "Which of the following is an electrolyte-poor distention medium?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Normal saline", "isCorrect": false },
+          { "id": "b", "text": "B) Lactated Ringer’s", "isCorrect": false },
+          { "id": "c", "text": "C) 1.5% glycine", "isCorrect": true },
+          { "id": "d", "text": "D) PlasmaLyte", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Glycine (and sorbitol/mannitol) are electrolyte-poor; saline/Ringer’s/PlasmaLyte are electrolyte-containing.",
+        "submodule": "Module 7.5 – Distention Media for Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_5-med-1",
+        "text": "Which distention fluid is appropriate for use with a monopolar resectoscope?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Normal saline", "isCorrect": false },
+          { "id": "b", "text": "B) Lactated Ringer’s", "isCorrect": false },
+          { "id": "c", "text": "C) 3% sorbitol", "isCorrect": true },
+          { "id": "d", "text": "D) Dextrose 5% in water", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Monopolar systems use non-electrolyte media (e.g., glycine, sorbitol, mannitol).",
+        "submodule": "Module 7.5 – Distention Media for Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_5-diff-1",
+        "text": "In operative hysteroscopy using monopolar energy, when should the procedure be terminated due to fluid deficit?",
+        "answerOptions": [
+          { "id": "a", "text": "A) At 500 mL", "isCorrect": false },
+          { "id": "b", "text": "B) At 1000 mL", "isCorrect": true },
+          { "id": "c", "text": "C) At 2500 mL", "isCorrect": false },
+          { "id": "d", "text": "D) At 3500 mL", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Electrolyte-poor media carry a lower deficit threshold (≈1000 mL) due to hyponatremia risk.",
+        "submodule": "Module 7.5 – Distention Media for Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m7-7_6-easy-1",
+        "text": "What is the recommended direction of electrode movement when using a resectoscope?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pushing forward through tissue", "isCorrect": false },
+          { "id": "b", "text": "B) Cutting away from the camera", "isCorrect": false },
+          { "id": "c", "text": "C) Withdrawing motion over the pathology", "isCorrect": true },
+          { "id": "d", "text": "D) Both A + B", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Standard technique is to cut on withdrawal under direct vision.",
+        "submodule": "Module 7.6 – Use of the Resectoscope",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_6-med-1",
+        "text": "Which uterine locations require extra caution during resectoscopy due to thin myometrium?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Uterine isthmus and fundus", "isCorrect": false },
+          { "id": "b", "text": "B) Fundus and posterior wall", "isCorrect": false },
+          { "id": "c", "text": "C) Cornua and cesarean scar", "isCorrect": true },
+          { "id": "d", "text": "D) Cervical os and anterior wall", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Cornua and cesarean scars have thinner myometrium, increasing perforation risk.",
+        "submodule": "Module 7.6 – Use of the Resectoscope",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m7-7_6-diff-1",
+        "text": "What is a key strategy to reduce perforation risk during resectoscopic surgery in high-risk locations?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Continuous advancement of the loop", "isCorrect": false },
+          { "id": "b", "text": "B) Use of monopolar energy only", "isCorrect": false },
+          { "id": "c", "text": "C) Laparoscopic or ultrasound guidance", "isCorrect": true },
+          { "id": "d", "text": "D) Rapid distension with CO₂ gas", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Adjunct guidance is recommended when anatomy is thin/distorted.",
+        "submodule": "Module 7.6 – Use of the Resectoscope",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

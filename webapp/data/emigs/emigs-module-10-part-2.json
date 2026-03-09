@@ -1,0 +1,327 @@
+[
+  {
+    "id": "emigs-module-10-part-2",
+    "title": "EMIGS Module 10 (Part 2)",
+    "questions": [
+      {
+        "id": "m10p2-q1",
+        "text": "Which of the following intraoperative findings raise suspicion for bladder injury during laparoscopic hysterectomy? Select best 2 answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hematuria", "isCorrect": true },
+          { "id": "b", "text": "B) Clear fluid pooling in the operative field", "isCorrect": true },
+          { "id": "c", "text": "C) Difficulty in identifying anterior vaginal wall during bladder flap development.", "isCorrect": false },
+          { "id": "d", "text": "D) Air bubble in the bladder dome", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hematuria and clear pooling fluid can signal cystotomy. Difficulty identifying the anterior vaginal wall is not specific. Small air bubbles at the bladder dome during cystoscopy can be normal.",
+        "submodule": "Module 10.6 – Bladder Injury",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m10p2-q2",
+        "text": "Which 3 pathophysiologic mechanisms can precipitate cardiac arrest during laparoscopy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) CO₂ embolism", "isCorrect": true },
+          { "id": "b", "text": "B) High flow rate of insufflation in Trendelenburg", "isCorrect": false },
+          { "id": "c", "text": "C) Sudden hypotension due to vasovagal reflex", "isCorrect": true },
+          { "id": "d", "text": "D) Veress needle entry into bladder", "isCorrect": false },
+          { "id": "e", "text": "E) Tension pneumothorax", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "CO₂ embolism, vagal reflex from peritoneal stretch, and tension pneumothorax are established causes of arrest during laparoscopy.",
+        "submodule": "Module 10.7 – Cardiac Arrest During Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m10p2-q3",
+        "text": "Which of the following are appropriate initial management steps for suspected major vascular injury during laparoscopy in gynecologic surgery? Select best 3 answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediate evacuation of pneumoperitoneum", "isCorrect": true },
+          { "id": "b", "text": "B) Laparotomy and direct pressure to bleeding site", "isCorrect": true },
+          { "id": "c", "text": "C) Trendelenburg positioning", "isCorrect": false },
+          { "id": "d", "text": "D) Calling for vascular surgery", "isCorrect": true },
+          { "id": "e", "text": "E) Hold pressure with laparoscopic instrument.", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Deflate, convert for exposure and direct pressure, and mobilize vascular help. Trendelenburg is for gas embolism; laparoscopic pressure alone is a temporizing measure.",
+        "submodule": "Module 10.8 – Vascular Injury and Hemodynamic Instability",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m10p2-q4",
+        "text": "Which 2 findings are most predictive of delayed intestinal thermal injury after electrosurgery? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Air bubbles from bowel noted during surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Progressive leukocytosis and fever 3–5 days post-op", "isCorrect": true },
+          { "id": "c", "text": "C) Mesenteric hematoma", "isCorrect": false },
+          { "id": "d", "text": "D) Blue-gray discoloration of small bowel serosa", "isCorrect": true },
+          { "id": "e", "text": "E) Ileus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Delayed thermal injury often presents days later with fever and leukocytosis; subtle serosal discoloration intraop can herald evolving necrosis.",
+        "submodule": "Module 10.9 – Intestinal Burn",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m10p2-q5",
+        "text": "Which of the following statements about bowel injury after laparoscopy are incorrect? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) All injuries are diagnosed intraoperatively", "isCorrect": true },
+          { "id": "b", "text": "B) Most thermal injuries present within 24 hours", "isCorrect": true },
+          { "id": "c", "text": "C) Post-op peritonitis may indicate delayed perforation", "isCorrect": false },
+          { "id": "d", "text": "D) Laparoscopic repair is appropriate for select injuries", "isCorrect": false },
+          { "id": "e", "text": "E) Enterotomy should be irrigated and closed in two layers", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Many injuries (especially thermal) are recognized post-op and may present days later; peritonitis can signal delayed perforation. Selected injuries are amenable to laparoscopic repair with appropriate closure.",
+        "submodule": "Module 10.10 – Bowel Injury After Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p2-10_6-easy-1",
+        "text": "A 2 cm cystotomy occurs during laparoscopic hysterectomy. Which of the following is least appropriate for management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Backfill the bladder", "isCorrect": false },
+          { "id": "b", "text": "B) Expectant management", "isCorrect": true },
+          { "id": "c", "text": "C) Indwelling urinary catheter", "isCorrect": false },
+          { "id": "d", "text": "D) Two-layer closure", "isCorrect": false },
+          { "id": "e", "text": "E) Visualization of the ureteral orifices", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A 2 cm injury needs repair, bladder fill test, catheter drainage, and cystoscopic evaluation—not observation.",
+        "submodule": "Module 10.6 – Bladder Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_6-med-1",
+        "text": "What is the most common site of bladder injury during laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Anterior bladder wall", "isCorrect": false },
+          { "id": "b", "text": "B) Bladder trigone", "isCorrect": false },
+          { "id": "c", "text": "C) Posterior bladder wall", "isCorrect": true },
+          { "id": "d", "text": "D) Ureteral orifices", "isCorrect": false },
+          { "id": "e", "text": "E) Urethra", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Injuries most often occur at the bladder dome/posterior wall during bladder flap development.",
+        "submodule": "Module 10.6 – Bladder Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_6-diff-1",
+        "text": "Which factor is most associated with unrecognized bladder injuries?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of methylene blue", "isCorrect": false },
+          { "id": "b", "text": "B) Use of absorbable sutures", "isCorrect": false },
+          { "id": "c", "text": "C) Lack of routine cystoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) Bladder drainage before surgery", "isCorrect": false },
+          { "id": "e", "text": "E) Bladder injuries over 2 cm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Routine cystoscopy detects occult injuries; omission increases missed-injury risk.",
+        "submodule": "Module 10.6 – Bladder Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_7-easy-1",
+        "text": "After abdominal insufflation begins with a Veress needle, the patient becomes asystolic. What is the first step in management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Deflate the abdomen", "isCorrect": true },
+          { "id": "b", "text": "B) Convert to laparotomy", "isCorrect": false },
+          { "id": "c", "text": "C) Start chest compressions", "isCorrect": false },
+          { "id": "d", "text": "D) Administer atropine", "isCorrect": false },
+          { "id": "e", "text": "E) Obtain an EKG", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Immediately stop insufflation and release pneumoperitoneum for suspected gas embolism/vagal event.",
+        "submodule": "Module 10.7 – Cardiac Arrest During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_7-med-1",
+        "text": "What is the most likely cause of sudden asystole during initial insufflation with the Veress needle?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pulmonary embolism", "isCorrect": false },
+          { "id": "b", "text": "B) Pneumoperitoneum", "isCorrect": false },
+          { "id": "c", "text": "C) Vagal response", "isCorrect": true },
+          { "id": "d", "text": "D) Shoulder block injury", "isCorrect": false },
+          { "id": "e", "text": "E) Small bowel obstruction", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Peritoneal stretch can trigger a vagal reflex leading to profound bradycardia/asystole.",
+        "submodule": "Module 10.7 – Cardiac Arrest During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_7-diff-1",
+        "text": "Which of the following increases the risk for subcutaneous emphysema during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of shoulder supports", "isCorrect": false },
+          { "id": "b", "text": "B) High intraabdominal pressure >15 mmHg", "isCorrect": true },
+          { "id": "c", "text": "C) Uterine manipulators", "isCorrect": false },
+          { "id": "d", "text": "D) Trendelenburg positioning", "isCorrect": false },
+          { "id": "e", "text": "E) Bladder overdistension", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "High insufflation pressures and prolonged cases increase extraperitoneal gas tracking risk.",
+        "submodule": "Module 10.7 – Cardiac Arrest During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_8-easy-1",
+        "text": "During Veress needle entry, the abdomen fails to insufflate and blood is seen. The patient is hypotensive. What is the next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increase CO₂ flow", "isCorrect": false },
+          { "id": "b", "text": "B) Enter via Palmer’s Point", "isCorrect": false },
+          { "id": "c", "text": "C) Direct trocar insertion", "isCorrect": false },
+          { "id": "d", "text": "D) Perform midline laparotomy", "isCorrect": true },
+          { "id": "e", "text": "E) Backfill the bladder", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Hemodynamic instability with suspected major vascular injury warrants emergent laparotomy.",
+        "submodule": "Module 10.8 – Vascular Injury and Hemodynamic Instability",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_8-med-1",
+        "text": "What is the definition of a massive transfusion?",
+        "answerOptions": [
+          { "id": "a", "text": "A) ≥4 units PRBC in 6 hours", "isCorrect": false },
+          { "id": "b", "text": "B) ≥6 units PRBC in 12 hours", "isCorrect": false },
+          { "id": "c", "text": "C) ≥10 units PRBC in 24 hours", "isCorrect": true },
+          { "id": "d", "text": "D) ≥12 units PRBC in 24 hours", "isCorrect": false },
+          { "id": "e", "text": "E) ≥15 units PRBC in 48 hours", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "≥10 units of PRBCs in 24 hours is the standard definition triggering MTP.",
+        "submodule": "Module 10.8 – Vascular Injury and Hemodynamic Instability",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_8-diff-1",
+        "text": "In postoperative hypovolemic shock, which is not a typical physical exam finding?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Flat neck veins", "isCorrect": false },
+          { "id": "b", "text": "B) Pallor", "isCorrect": false },
+          { "id": "c", "text": "C) Bradycardia", "isCorrect": true },
+          { "id": "d", "text": "D) Delayed capillary refill", "isCorrect": false },
+          { "id": "e", "text": "E) Cool extremities", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Hypovolemia typically causes tachycardia; bradycardia is atypical.",
+        "submodule": "Module 10.8 – Vascular Injury and Hemodynamic Instability",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_9-easy-1",
+        "text": "What is the most appropriate management of a suspected thermal bowel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Expectant management", "isCorrect": false },
+          { "id": "b", "text": "B) Oversew of the injury", "isCorrect": false },
+          { "id": "c", "text": "C) Local excision and repair", "isCorrect": false },
+          { "id": "d", "text": "D) Bowel resection with reanastomosis", "isCorrect": true },
+          { "id": "e", "text": "E) Use of hemostatic agent", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Thermal injury depth is unpredictable; resection with margins is safest.",
+        "submodule": "Module 10.9 – Intestinal Burn",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_9-med-1",
+        "text": "Which of the following mechanisms is least likely to cause thermal bowel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Direct application of monopolar energy", "isCorrect": false },
+          { "id": "b", "text": "B) Insulation failure", "isCorrect": false },
+          { "id": "c", "text": "C) Capacitive coupling", "isCorrect": false },
+          { "id": "d", "text": "D) Bipolar energy used on omentum", "isCorrect": true },
+          { "id": "e", "text": "E) Direct coupling between instruments", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Properly used bipolar energy has limited lateral spread and is least likely to injure bowel.",
+        "submodule": "Module 10.9 – Intestinal Burn",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_9-diff-1",
+        "text": "What is the most common time frame for clinical presentation of thermal bowel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Within 24 hours", "isCorrect": false },
+          { "id": "b", "text": "B) 2–4 days post-op", "isCorrect": false },
+          { "id": "c", "text": "C) 4–10 days post-op", "isCorrect": true },
+          { "id": "d", "text": "D) >14 days", "isCorrect": false },
+          { "id": "e", "text": "E) During surgery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Delayed necrosis commonly declares itself between POD 4–10.",
+        "submodule": "Module 10.9 – Intestinal Burn",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_10-easy-1",
+        "text": "Which of the following symptoms most strongly suggests occult bowel injury postoperatively?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Fever on postoperative day 1", "isCorrect": false },
+          { "id": "b", "text": "B) Urinary retention", "isCorrect": false },
+          { "id": "c", "text": "C) Worsening abdominal pain and distension", "isCorrect": true },
+          { "id": "d", "text": "D) Vaginal spotting", "isCorrect": false },
+          { "id": "e", "text": "E) Headache", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Progressive pain/distension several days post-op is worrisome for bowel injury.",
+        "submodule": "Module 10.10 – Bowel Injury After Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_10-med-1",
+        "text": "What is the imaging modality of choice for suspected postoperative bowel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) KUB", "isCorrect": false },
+          { "id": "b", "text": "B) Ultrasound", "isCorrect": false },
+          { "id": "c", "text": "C) MRI abdomen", "isCorrect": false },
+          { "id": "d", "text": "D) CT abdomen and pelvis with contrast", "isCorrect": true },
+          { "id": "e", "text": "E) Plain chest X-ray", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Contrast-enhanced CT is most sensitive/specific for postoperative bowel injury.",
+        "submodule": "Module 10.10 – Bowel Injury After Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p2-10_10-diff-1",
+        "text": "Which of the following is the most appropriate management when bowel injury is suspected post-op despite a negative CT scan?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Outpatient follow-up", "isCorrect": false },
+          { "id": "b", "text": "B) Nasogastric decompression", "isCorrect": false },
+          { "id": "c", "text": "C) Initiate antibiotics only", "isCorrect": false },
+          { "id": "d", "text": "D) Exploratory surgery", "isCorrect": true },
+          { "id": "e", "text": "E) Enema and observation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "If clinical suspicion remains high, operative exploration is warranted despite negative imaging.",
+        "submodule": "Module 10.10 – Bowel Injury After Laparoscopy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

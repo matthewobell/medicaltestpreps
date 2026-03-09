@@ -1,0 +1,781 @@
+[
+  {
+    "id": "emigs-module-14-final-assessment-part-2",
+    "title": "EMIGS Final Assessment (Part 2)",
+    "questions": [
+      {
+        "id": "fa-q1",
+        "text": "A 41-year-old G3P3 presents with heavy menstrual bleeding and desires uterine-sparing treatment. She has completed childbearing. Transvaginal ultrasound shows a normal uterine cavity with a uterine length of 9 cm and no intracavitary lesions. Endometrial biopsy is benign.\nWhich statement regarding endometrial ablation outcomes is most accurate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) The vast majority of patients achieve amenorrhea after ablation", "isCorrect": false },
+          { "id": "b", "text": "B) Long-term bleeding control is equivalent to hysterectomy", "isCorrect": false },
+          { "id": "c", "text": "C) Reintervention rates increase over time after ablation", "isCorrect": true },
+          { "id": "d", "text": "D) First-generation techniques are more effective than second-generation devices", "isCorrect": false },
+          { "id": "e", "text": "E) Endometrial ablation eliminates future endometrial cancer risk", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Endometrial ablation results in significant short-term improvement in bleeding symptoms, but durability is limited. Multiple randomized trials and systematic reviews demonstrate that reintervention rates, including repeat ablation and hysterectomy, increase with longer follow-up, particularly beyond 2–5 years. Amenorrhea occurs in a minority of patients. Hysterectomy provides more definitive long-term bleeding control. Second-generation ablation devices have comparable efficacy to first-generation techniques with improved safety and efficiency profiles. Endometrial ablation does not eliminate the risk of endometrial cancer and may complicate future diagnostic evaluation.",
+        "submodule": "Kumar P, Malhotra N, Singh A. Endometrial ablation for heavy menstrual bleeding. Indian Journal of Medical Research. 2016;143(Suppl):S61–S70. doi:10.4103/0971-5916.191778.\nBofill Rodriguez M, Lethaby A, Fergusson RJ. Endometrial resection and ablation versus hysterectomy for heavy menstrual bleeding. Cochrane Database of Systematic Reviews. 2021;2:CD000329. doi:10.1002/14651858.CD000329.pub4.\nMunro MG. Endometrial ablation. Best Practice & Research Clinical Obstetrics & Gynaecology. 2018;46:120–139. doi:10.1016/j.bpobgyn.2017.10.003.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q2",
+        "text": "Which of the following are required or recommended considerations before performing endometrial ablation? (Select all that apply)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Exclusion of endometrial hyperplasia or malignancy", "isCorrect": true },
+          { "id": "b", "text": "B) Counseling that pregnancy after ablation is unsafe", "isCorrect": true },
+          { "id": "c", "text": "C) Routine hysteroscopy for all second-generation devices", "isCorrect": false },
+          { "id": "d", "text": "D) Ongoing reliable contraception after ablation", "isCorrect": true },
+          { "id": "e", "text": "E) Uterine cavity dimensions within device-specific limits", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Appropriate patient selection and counseling are critical prior to endometrial ablation. Endometrial hyperplasia or malignancy must be excluded before treatment. Pregnancy following ablation is associated with high rates of maternal and fetal morbidity; therefore, patients must be counseled that pregnancy is unsafe and that effective contraception is required. Uterine cavity size and configuration must fall within the specifications of the chosen device. Routine hysteroscopy is not required for all second-generation ablation systems, although adequate assessment of the uterine cavity is necessary.",
+        "submodule": "Kumar P, Malhotra N, Singh A. Endometrial ablation for heavy menstrual bleeding. Indian Journal of Medical Research. 2016;143(Suppl):S61–S70. doi:10.4103/0971-5916.191778.\nFamuyide AO. Endometrial ablation. Journal of Minimally Invasive Gynecology. 2018;25(2):299–307. doi:10.1016/j.jmig.2017.08.656.\nSociety of Obstetricians and Gynaecologists of Canada. Clinical Practice Guideline No. 453: Endometrial ablation in the management of abnormal uterine bleeding. Journal of Obstetrics and Gynaecology Canada. 2024.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q3",
+        "text": "Which patient is the best candidate for endometrial ablation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 34-year-old with heavy bleeding who desires future fertility", "isCorrect": false },
+          { "id": "b", "text": "B) 45-year-old with a submucosal fibroid distorting the uterine cavity", "isCorrect": false },
+          { "id": "c", "text": "C) 48-year-old with ovulatory heavy menstrual bleeding, normal cavity, and completed childbearing", "isCorrect": true },
+          { "id": "d", "text": "D) 42-year-old with postmenopausal bleeding", "isCorrect": false },
+          { "id": "e", "text": "E) 39-year-old with suspected adenomyosis and uterine length of 13 cm", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The ideal candidate for endometrial ablation is a patient with heavy menstrual bleeding who has completed childbearing, has benign endometrial pathology, and has a normal or minimally distorted uterine cavity that meets device-specific size criteria. Desire for future fertility, postmenopausal bleeding, significant intracavitary distortion, and enlarged uterine size are contraindications or predictors of poor outcomes.",
+        "submodule": "Munro MG. Endometrial ablation. Best Practice & Research Clinical Obstetrics & Gynaecology. 2018;46:120–139. doi:10.1016/j.bpobgyn.2017.10.003.\nFamuyide AO. Endometrial ablation. Journal of Minimally Invasive Gynecology. 2018;25(2):299–307. doi:10.1016/j.jmig.2017.08.656.\nMMinalt N, Canela CD, Marino S. Endometrial Ablation. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan–. Last Update: September 11, 2024. Available from: NCBI Bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK459245/.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q4",
+        "text": "Which statement best reflects current evidence comparing first- and second-generation endometrial ablation techniques?",
+        "answerOptions": [
+          { "id": "a", "text": "A) First-generation techniques provide superior bleeding outcomes", "isCorrect": false },
+          { "id": "b", "text": "B) Second-generation devices have higher complication rates", "isCorrect": false },
+          { "id": "c", "text": "C) Both generations have similar efficacy, with improved safety and efficiency for second-generation devices", "isCorrect": true },
+          { "id": "d", "text": "D) Second-generation devices eliminate the need for anesthesia", "isCorrect": false },
+          { "id": "e", "text": "E) Only first-generation techniques reduce hysterectomy rates", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Systematic reviews and network meta-analyses demonstrate that first- and second-generation endometrial ablation techniques have similar efficacy in reducing heavy menstrual bleeding, while second-generation devices are associated with shorter operative times, fewer complications, and easier implementation. Anesthesia requirements vary by device and patient factors and are not eliminated by newer technologies.",
+        "submodule": "Bofill Rodriguez M, Lethaby A, Grigore M, et al. Endometrial resection and ablation techniques for heavy menstrual bleeding. Cochrane Database of Systematic Reviews. 2019;1:CD001501. doi:10.1002/14651858.CD001501.pub5.\nMarchand GJ, Masoud A, Grover S, et al. First- and second-generation endometrial ablation devices: a network meta-analysis. BMJ Open. 2024;14(5):e065966. doi:10.1136/bmjopen-2022-065966.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q5",
+        "text": "Which counseling statement regarding endometrial ablation is most accurate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ablation reliably treats bulk symptoms from fibroids", "isCorrect": false },
+          { "id": "b", "text": "B) Amenorrhea is the expected outcome", "isCorrect": false },
+          { "id": "c", "text": "C) Persistent or recurrent bleeding may ultimately require hysterectomy", "isCorrect": true },
+          { "id": "d", "text": "D) Endometrial sampling is unnecessary after ablation", "isCorrect": false },
+          { "id": "e", "text": "E) Long-term patient satisfaction equals that of hysterectomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients should be counseled that although endometrial ablation can significantly reduce bleeding, persistent or recurrent symptoms are common, and a proportion of patients will ultimately require hysterectomy, particularly with longer follow-up. Ablation does not address bulk-related symptoms, amenorrhea is not guaranteed, and endometrial evaluation may still be required if symptoms recur. Hysterectomy provides more durable long-term symptom control.",
+        "submodule": "Bofill Rodriguez M, Lethaby A, Fergusson RJ. Endometrial resection and ablation versus hysterectomy for heavy menstrual bleeding. Cochrane Database of Systematic Reviews. 2021;2:CD000329. doi:10.1002/14651858.CD000329.pub4.\nMunro MG. Endometrial ablation. Best Practice & Research Clinical Obstetrics & Gynaecology. 2018;46:120–139. doi:10.1016/j.bpobgyn.2017.10.003.\nMinalt N, Canela CD, Marino S. Endometrial Ablation. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan–. Last Update: September 11, 2024. Available from: NCBI Bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK459245/.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q6",
+        "text": "A 38-year-old has regular, predictable 28–30 day cycles with heavy bleeding for 9 months. Pelvic exam is normal. Pregnancy test is negative and CBC shows mild iron deficiency anemia. She has tried NSAIDs and combined oral contraceptives without improvement. Transvaginal ultrasound shows no focal lesion, but endometrial visualization is suboptimal.\nWhat is the best next diagnostic step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) No further evaluation; continue medical therapy", "isCorrect": false },
+          { "id": "b", "text": "B) Office endometrial biopsy", "isCorrect": false },
+          { "id": "c", "text": "C) Saline infusion sonohysterography (SIS)", "isCorrect": true },
+          { "id": "d", "text": "D) Pelvic MRI", "isCorrect": false },
+          { "id": "e", "text": "E) Coagulation panel and von Willebrand factor testing", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Persistent abnormal uterine bleeding despite medical therapy warrants further evaluation of the uterine cavity. When transvaginal ultrasound does not adequately visualize the endometrium, SIS is preferred because it improves detection of focal intracavitary pathology such as polyps or submucosal leiomyomas. Endometrial biopsy is not first-line in women under 45 without hyperplasia risk factors, MRI is not routine for AUB evaluation, and coagulation testing is reserved for patients with a positive bleeding-disorder screen.",
+        "submodule": "ACOG Practice Bulletin No. 128: Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Obstetrics & Gynecology 120(1):p 197-206, July 2012.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q7",
+        "text": "Which statements regarding imaging in reproductive-aged patients with abnormal uterine bleeding are supported by available evidence and expert guidance?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Saline infusion sonohysterography is more sensitive than transvaginal ultrasound for detecting intracavitary lesions", "isCorrect": true },
+          { "id": "b", "text": "B) MRI is the preferred first-line imaging study when pelvic examination is normal", "isCorrect": false },
+          { "id": "c", "text": "C) Endometrial thickness thresholds reliably exclude focal intracavitary pathology in premenopausal patients", "isCorrect": false },
+          { "id": "d", "text": "D) MRI may be useful when detailed fibroid mapping would change management", "isCorrect": true },
+          { "id": "e", "text": "E) A normal transvaginal ultrasound does not completely exclude focal intracavitary pathology", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Multiple studies and guidelines demonstrate that SIS outperforms transvaginal ultrasound for detecting polyps and submucosal fibroids. MRI is not first-line but can be useful when fibroid mapping will alter treatment decisions (e.g., myomectomy planning). Transvaginal ultrasound may miss focal intracavitary lesions, so a normal study does not fully exclude pathology. Endometrial thickness measurements are unreliable in premenopausal patients, and MRI is not recommended as initial imaging.",
+        "submodule": "ACOG Practice Bulletin No. 128: Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Obstetrics & Gynecology 120(1):p 197-206, July 2012.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q8",
+        "text": "A 44-year-old with obesity and polycystic ovary syndrome presents with irregular uterine bleeding for 6 months. She has failed cyclic progestin therapy. Pregnancy test is negative. Transvaginal ultrasound shows no discrete intracavitary mass.\nWhat is the most appropriate next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Repeat transvaginal ultrasound in 3 months", "isCorrect": false },
+          { "id": "b", "text": "B) Begin tranexamic acid", "isCorrect": false },
+          { "id": "c", "text": "C) Office endometrial biopsy", "isCorrect": true },
+          { "id": "d", "text": "D) Saline infusion sonohysterography only", "isCorrect": false },
+          { "id": "e", "text": "E) Pelvic MRI", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Endometrial sampling is indicated in patients under 45 years old who have abnormal uterine bleeding with risk factors for endometrial hyperplasia, including obesity, chronic anovulation, and failed medical therapy. While SIS may later be helpful for focal pathology, ruling out hyperplasia or malignancy takes priority in this clinical scenario.",
+        "submodule": "ACOG Practice Bulletin No. 128: Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Obstetrics & Gynecology 120(1):p 197-206, July 2012.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q9",
+        "text": "A 16-year-old presents with heavy menstrual bleeding requiring emergency department evaluation. Pregnancy test is negative.\nWhich historical features independently justify laboratory evaluation for an underlying bleeding disorder?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Heavy menstrual bleeding since menarche", "isCorrect": true },
+          { "id": "b", "text": "B) History of postpartum hemorrhage", "isCorrect": true },
+          { "id": "c", "text": "C) Surgery-related bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Bleeding associated with dental procedures", "isCorrect": true },
+          { "id": "e", "text": "E) Two or more of the following: frequent epistaxis, easy bruising 1–2 times per month, frequent gum bleeding, family history of bleeding symptoms", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Structured bleeding-disorder screening relies on historical features rather than bleeding volume alone. Any of the listed features raise concern for an underlying coagulopathy and warrant laboratory evaluation, often including testing for von Willebrand disease. Adolescents with severe bleeding are particularly high risk.",
+        "submodule": "ACOG Practice Bulletin No. 128: Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Obstetrics & Gynecology 120(1):p 197-206, July 2012.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q10",
+        "text": "A 43-year-old has persistent intermenstrual bleeding. Office endometrial biopsy shows proliferative endometrium. Bleeding continues.\nWhich statement is most accurate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) A benign biopsy essentially excludes focal intracavitary pathology", "isCorrect": false },
+          { "id": "b", "text": "B) Persistent bleeding warrants further evaluation because blind biopsy may miss focal lesions", "isCorrect": true },
+          { "id": "c", "text": "C) Pelvic MRI should be the next diagnostic test", "isCorrect": false },
+          { "id": "d", "text": "D) Endometrial thickness measurement should guide next steps in premenopausal patients", "isCorrect": false },
+          { "id": "e", "text": "E) Hysteroscopy is less accurate than blind biopsy for detecting malignancy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blind endometrial biopsy performs best for diffuse processes but can miss focal pathology such as polyps, submucosal fibroids, or localized malignancy. Persistent bleeding after a benign biopsy requires further evaluation with cavity-directed imaging or hysteroscopy. Endometrial thickness is unreliable in premenopausal patients, and MRI is not the preferred next test in this context.",
+        "submodule": "ACOG Practice Bulletin No. 128: Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Obstetrics & Gynecology 120(1):p 197-206, July 2012.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q11",
+        "text": "A 41-year-old patient with symptomatic uterine leiomyomas presents with heavy menstrual bleeding and anemia (Hgb 9.4 g/dL). She desires uterine preservation but does not desire future pregnancy. MRI shows multiple intramural fibroids with minimal cavity distortion. She asks for a treatment with durable symptom improvement, low transfusion risk, and short recovery, and understands that repeat intervention may be needed.\nWhich option best fits this patient's goals?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Laparoscopic myomectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Uterine artery embolization", "isCorrect": true },
+          { "id": "c", "text": "C) Hysteroscopic myomectomy", "isCorrect": false },
+          { "id": "d", "text": "D) Endometrial ablation", "isCorrect": false },
+          { "id": "e", "text": "E) Expectant management", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "UAE provides significant and sustained reduction in bleeding and uterine volume, with lower transfusion risk than surgery and faster recovery, while preserving the uterus. Although reintervention rates are higher than hysterectomy or myomectomy, this trade-off is appropriate for patients prioritizing recovery and uterine preservation without fertility goals. Hysteroscopic myomectomy is not appropriate without a dominant submucosal lesion, and endometrial ablation lacks sufficient evidence for fibroid management.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q12",
+        "text": "Which of the following statements regarding GnRH agonists for fibroid management are supported by available evidence? (Select all that apply)",
+        "answerOptions": [
+          { "id": "a", "text": "A) They are appropriate for long-term definitive treatment", "isCorrect": false },
+          { "id": "b", "text": "B) They reduce uterine and fibroid volume", "isCorrect": true },
+          { "id": "c", "text": "C) Fibroid regrowth typically occurs after discontinuation", "isCorrect": true },
+          { "id": "d", "text": "D) Add-back therapy reduces bone mineral density loss", "isCorrect": true },
+          { "id": "e", "text": "E) They can improve preoperative hemoglobin levels", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "GnRH agonists are short-term therapies used as a bridge to surgery, menopause, or other treatments. They reduce fibroid and uterine size, improve bleeding and bulk symptoms, and increase hemoglobin levels preoperatively. Regrowth commonly occurs within months of discontinuation. Add-back therapy mitigates hypoestrogenic effects, including bone loss. They are not intended as long-term definitive therapy.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q13",
+        "text": "A 34-year-old patient desires future fertility and has a FIGO type 1 submucosal leiomyoma causing heavy menstrual bleeding. She wants the option with the lowest risk of recurrence and fastest recovery. Which management option is most appropriate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Uterine artery embolization", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic myomectomy", "isCorrect": false },
+          { "id": "c", "text": "C) Hysteroscopic myomectomy", "isCorrect": true },
+          { "id": "d", "text": "D) GnRH antagonist with add-back therapy", "isCorrect": false },
+          { "id": "e", "text": "E) Endometrial ablation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For isolated type 0 or type 1 submucosal fibroids, hysteroscopic myomectomy offers rapid recovery, low complication rates, and low reintervention rates when the lesion is <50% intramural. UAE carries fertility concerns, and medical therapies do not provide definitive treatment. Endometrial ablation is not recommended for patients desiring future pregnancy.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q14",
+        "text": "Which statements regarding uterine artery embolization (UAE) are supported by available evidence? (Select all that apply)",
+        "answerOptions": [
+          { "id": "a", "text": "A) It has lower transfusion rates than surgical management", "isCorrect": true },
+          { "id": "b", "text": "B) It has reintervention rates comparable to hysterectomy", "isCorrect": false },
+          { "id": "c", "text": "C) It may increase risk of pregnancy loss compared with expectant management", "isCorrect": true },
+          { "id": "d", "text": "D) It is associated with fewer minor complications than surgery", "isCorrect": false },
+          { "id": "e", "text": "E) Long-term quality-of-life outcomes are similar to hysterectomy and myomectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "UAE is associated with lower transfusion risk than surgery and similar long-term quality-of-life outcomes compared with hysterectomy and myomectomy. However, it has higher reintervention rates and higher minor complication rates. Reproductive data show increased risks of miscarriage and obstetric complications compared with expectant management.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q15",
+        "text": "A 47-year-old patient with bulk-related symptoms from multiple intramural leiomyomas desires definitive management and no future fertility. She has mild anemia but is otherwise healthy. Which statement best reflects evidence-based counseling regarding hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Abdominal hysterectomy offers superior quality-of-life outcomes", "isCorrect": false },
+          { "id": "b", "text": "B) Vaginal hysterectomy is preferred when feasible", "isCorrect": true },
+          { "id": "c", "text": "C) Robotic hysterectomy has fewer complications than laparoscopic hysterectomy", "isCorrect": false },
+          { "id": "d", "text": "D) Hysterectomy with ovarian conservation eliminates long-term cardiovascular risk", "isCorrect": false },
+          { "id": "e", "text": "E) Preoperative anemia does not affect perioperative outcomes", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "When hysterectomy is chosen, the most minimally invasive route is recommended, with vaginal hysterectomy preferred when feasible due to faster recovery and better quality-of-life outcomes. Minimally invasive approaches outperform abdominal hysterectomy. Ovarian conservation does not eliminate long-term cardiovascular risk, and preoperative anemia increases perioperative morbidity.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q16",
+        "text": "A 36-year-old G1P0 patient with symptomatic uterine leiomyomas presents with pelvic pressure and heavy menstrual bleeding. She strongly desires future fertility. MRI shows three intramural fibroids, each measuring 4–6 cm, classified as FIGO type 4, with no cavity distortion. The surgeon is experienced in minimally invasive myomectomy.\nWhich statement best supports laparoscopic myomectomy as the preferred surgical approach in this patient?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Laparoscopic myomectomy has a lower recurrence rate than abdominal myomectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic myomectomy is associated with higher transfusion rates than laparotomy", "isCorrect": false },
+          { "id": "c", "text": "C) Laparoscopic myomectomy allows faster recovery with similar long-term quality-of-life outcomes", "isCorrect": true },
+          { "id": "d", "text": "D) Laparoscopic myomectomy eliminates the risk of future reintervention", "isCorrect": false },
+          { "id": "e", "text": "E) Laparoscopic myomectomy improves fertility outcomes compared with hysteroscopic myomectomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For patients desiring uterine preservation and future fertility, myomectomy is recommended, and when feasible, a minimally invasive approach should be considered. Compared with abdominal myomectomy, laparoscopic myomectomy is associated with shorter hospitalization, less postoperative pain, faster return to work and normal activity, and similar short- and long-term quality-of-life outcomes. Available evidence shows no consistent difference in recurrence risk between laparoscopic and abdominal approaches for patients with a limited number of fibroids, and transfusion risk is similar across routes. Laparoscopic myomectomy does not eliminate recurrence or reintervention risk, which approaches 25% by 40 months. Fertility benefits are most pronounced with removal of submucosal fibroids, not intramural lesions treated laparoscopically.",
+        "submodule": "Management of Symptomatic Uterine Leiomyomas: ACOG Practice Bulletin, Number 228. Obstetrics & Gynecology 137(6):p e100-e115, June 2021.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q17",
+        "text": "A patient is in the PACU after a hysteroscopic resectoscope procedure that was complicated by a known uterine perforation. Electrosurgery was active at the time of perforation. Her vitals are currently: HR 120, BP 90/50. You have been called to assess her for vaginal bleeding.\nWhat is the next best step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Observe as outpatient", "isCorrect": false },
+          { "id": "b", "text": "B) Speculum exam", "isCorrect": false },
+          { "id": "c", "text": "C) Order labs and return to OR only if abnormal", "isCorrect": false },
+          { "id": "d", "text": "D) Diagnostic laparoscopy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A uterine perforation caused by active electrosurgery must be treated as a thermal visceral injury until proven otherwise. ACOG specifically states that perforation by an electrosurgical electrode, major bleeding, or suspicion of visceral injury warrants immediate surgical intervention. Hemodynamic instability (tachycardia and hypotension) further increases concern for bowel or vascular injury. Because thermal bowel injuries may initially appear subtle and progress rapidly, observation or delaying operative evaluation is unsafe. Immediate diagnostic laparoscopy allows timely identification and treatment of bowel, omental, or vascular injury and is the recommended next step.",
+        "submodule": "ACOG Committee Opinion No. 800. The Use of Hysteroscopy for the Diagnosis and Treatment of Intrauterine Pathology. Obstet Gynecol. 2020.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q18",
+        "text": "A patient is in the PACU after a hysteroscopic resectoscope procedure with a known mechanical uterine perforation. No electrosurgery was active during the event. She is hemodynamically stable (HR 90, BP 120/80) but has ongoing vaginal bleeding.\nWhat is the next best step to evaluate the source of bleeding?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Speculum exam", "isCorrect": true },
+          { "id": "b", "text": "B) Observe as outpatient", "isCorrect": false },
+          { "id": "c", "text": "C) Diagnostic laparoscopy", "isCorrect": false },
+          { "id": "d", "text": "D) Order labs and return to OR only if abnormal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In a hemodynamically stable patient with a mechanical (non-electrosurgical) uterine perforation and ongoing vaginal bleeding, it is reasonable clinical practice to begin by identifying the anatomic source of bleeding. A speculum examination is low-risk, can be done immediately at the bedside, and allows assessment for cervical laceration, tenaculum-site injury, or vaginal trauma, all of which are recognized perioperative complications of operative hysteroscopy. ACOG's Committee Opinion on hysteroscopy notes that management of uterine perforation depends on its location, cause, and severity, and that urgent surgical intervention is reserved for cases with major bleeding, suspected visceral injury, or perforation by an electrosurgical electrode—conditions that are not present in this stable patient without electrosurgery. In the absence of hemodynamic instability or concern for thermal visceral injury, diagnostic laparoscopy is not indicated as the initial step.",
+        "submodule": "ACOG Committee Opinion No. 800. The Use of Hysteroscopy for the Diagnosis and Treatment of Intrauterine Pathology. Obstet Gynecol. 2020.\nACOG Technology Assessment No. 13: Hysteroscopy. Obstet Gynecol. 2018.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q19",
+        "text": "A patient in the PACU after a total laparoscopic hysterectomy reports flank pain and new bruising extending from her back down toward the vulva. Her vital signs are: HR 90 bpm, BP 130/85 mmHg, RR 16. She is warm, well-perfused, and otherwise stable.\nWhat is the next best step in management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Obtain a CBC", "isCorrect": false },
+          { "id": "b", "text": "B) Order a CT abdomen/pelvis", "isCorrect": true },
+          { "id": "c", "text": "C) Return to the OR immediately", "isCorrect": false },
+          { "id": "d", "text": "D) Admit for observation overnight", "isCorrect": false },
+          { "id": "e", "text": "E) Proceed with IR embolization of suspected bleeding source", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "In a hemodynamically stable patient with flank/vulvar ecchymosis after laparoscopic hysterectomy, the priority is to localize the bleeding source. The American College of Radiology identifies CT abdomen/pelvis with IV contrast (or CT angiography) as the most appropriate initial imaging modality for suspected retroperitoneal bleeding. CT rapidly detects hematoma, identifies active extravasation, and guides subsequent management decisions. Interventional radiology embolization is appropriate only after imaging identifies an arterial source. Immediate return to OR is indicated for hemodynamic instability, not for a stable patient. CBC alone or observation is insufficient when signs of significant bleeding are present.",
+        "submodule": "ACR Appropriateness Criteria – Suspected Retroperitoneal Bleed (Verma et al., JACR 2021).",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q20",
+        "text": "You are called to evaluate a patient in the PACU after a total laparoscopic hysterectomy. She reports new severe flank pain and has developed extensive bruising from her back down to her vulva. Her vital signs are: HR 130 bpm, BP 80/40 mmHg, RR 24, and she appears pale and diaphoretic.\nWhat is the next best step in management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Obtain a CBC", "isCorrect": false },
+          { "id": "b", "text": "B) Order a CT abdomen/pelvis", "isCorrect": false },
+          { "id": "c", "text": "C) Return to the OR immediately", "isCorrect": true },
+          { "id": "d", "text": "D) Admit for observation overnight", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This patient is hemodynamically unstable with findings consistent with Class III–IV hemorrhagic shock (HR >130, SBP 80 mmHg, pallor, diaphoresis). In this context, postoperative flank and vulvar ecchymosis strongly suggest retroperitoneal or pelvic hemorrhage, which can accumulate large volumes of blood before overt abdominal distention develops. In unstable patients with suspected major bleeding, the priority is immediate operative intervention for hemorrhage control. Any delay for CT imaging or laboratory evaluation risks further decompensation and death. A hypotensive patient does not belong in the CT suite. Management of retroperitoneal bleeding is guided by hemodynamic status—stable patients may undergo imaging or IR intervention, but unstable patients require emergent surgery.",
+        "submodule": "Cannon JW. Hemorrhagic Shock. N Engl J Med. 2018;378:370–379.\nChan YC et al. Management of Spontaneous and Iatrogenic Retroperitoneal Haemorrhage. Int J Clin Pract. 2008;62:1604–1613.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q21",
+        "text": "Which patients are the most likely to have trouble being able to stand up out of bed after surgery? (Select best 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Position A", "isCorrect": false },
+          { "id": "b", "text": "B) Position B", "isCorrect": true },
+          { "id": "c", "text": "C) Position C", "isCorrect": true },
+          { "id": "d", "text": "D) Position D", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hyperextended legs (B) in Trendelenburg position can result in a stretch injury to the femoral nerve. Hyperflexed legs (C) can result in a compression injury to the femoral nerve. Lateral pressure on the knee or calf (A) can cause a common peroneal (fibular) nerve injury and foot drop. Since the femoral nerve provides primary motor function to the quadriceps, a critical muscle in the motion of standing up, B and C are the best answers. D is normal, neutral positioning.",
+        "submodule": "EMIGS Module 5.1",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 },
+        "images": [
+          {
+            "src": "final-assessment-2-Qs-21-23",
+            "alt": "Diagram showing four different leg positioning scenarios (A, B, C, D) during surgery",
+            "caption": "Figure. Leg positioning scenarios during surgery.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q22",
+        "text": "The space indicated by the question mark is:",
+        "answerOptions": [
+          { "id": "a", "text": "A) The pararectal space", "isCorrect": true },
+          { "id": "b", "text": "B) The retrorectal space", "isCorrect": false },
+          { "id": "c", "text": "C) The rectovaginal space", "isCorrect": false },
+          { "id": "d", "text": "D) The Space of Retzius", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The anatomical boundaries of the pararectal space include: Laterally: Internal iliac artery. Medially: Ureter. Cephalad: Uterine artery. Correct identification of these structures facilitates safe tissue separation and protects the ureter.",
+        "submodule": "EMIGS Module 2.3",
+        "questionType": "multiple_choice",
+        "images": [
+          {
+            "src": "pararectal-space",
+            "alt": "Anatomical diagram or laparoscopic image with a question mark indicating the pararectal space",
+            "caption": "Figure. Pelvic avascular space identification.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q23",
+        "text": "A 62-year-old woman with atrial fibrillation is scheduled for an elective laparoscopic hysterectomy in 6 days. She is on warfarin with a target INR of 2–3. She has no mechanical valve and her CHA₂DS₂-VASc score is 3. What is the most appropriate bridging strategy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Stop warfarin 2 days before surgery; begin LMWH the day before", "isCorrect": false },
+          { "id": "b", "text": "B) Stop warfarin 5 days before surgery; no LMWH bridging needed", "isCorrect": true },
+          { "id": "c", "text": "C) Continue warfarin until the night before surgery; begin LMWH post-op only", "isCorrect": false },
+          { "id": "d", "text": "D) Stop warfarin 5 days before surgery; begin therapeutic LMWH when INR <2", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For most atrial fibrillation patients without a mechanical valve and moderate thromboembolic risk (CHA₂DS₂-VASc <7), current guidelines recommend stopping warfarin 5 days preoperatively without heparin bridging, as bridging increases bleeding risk without reducing perioperative stroke risk. LMWH bridging (therapeutic dosing) is reserved for high-risk cases (mechanical mitral valve, recent stroke/TIA, VTE <3 months, CHA₂DS₂-VASc ≥7).",
+        "submodule": "Douketis JD et al. CHEST 2022;162(5):e207–e243. Perioperative Management of Antithrombotic Therapy.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q24",
+        "text": "A 71-year-old woman with a mechanical mitral valve is undergoing elective laparoscopic endometriosis resection. She is chronically anticoagulated on warfarin. Her surgery is in 7 days. According to standard bridging recommendations, when should LMWH be stopped prior to surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Continue LMWH through the morning of surgery", "isCorrect": false },
+          { "id": "b", "text": "B) Stop LMWH 12 hours before surgery", "isCorrect": false },
+          { "id": "c", "text": "C) Stop LMWH 24 hours before surgery", "isCorrect": true },
+          { "id": "d", "text": "D) Stop LMWH 48 hours before surgery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "This patient is high-thrombotic-risk (mechanical mitral valve), so bridging with therapeutic-dose LMWH is appropriate. Therapeutic LMWH should be stopped 24 hours before surgery to reduce bleeding risk. Stopping only 12 hours before is inadequate for major surgery, while 48 hours is longer than necessary and increases thrombotic exposure.",
+        "submodule": "Douketis JD et al. CHEST 2022;162(5):e207–e243. Perioperative Management of Antithrombotic Therapy.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q25",
+        "text": "A 49-year-old woman on warfarin for a provoked DVT 6 months ago is scheduled for a hysteroscopic myomectomy. She has no thrombophilia and no mechanical valve. What is the most appropriate perioperative anticoagulation plan?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Stop warfarin 5 days pre-op and begin therapeutic LMWH bridging", "isCorrect": false },
+          { "id": "b", "text": "B) Stop warfarin 5 days pre-op with no LMWH bridging, resume warfarin after surgery", "isCorrect": true },
+          { "id": "c", "text": "C) Administer vitamin K and start therapeutic LMWH", "isCorrect": false },
+          { "id": "d", "text": "D) Stop warfarin 1 day pre-op and use prophylactic LMWH preoperatively", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A DVT 6 months ago does not meet high-risk criteria for thromboembolism. CHEST 2022 guidelines recommend against routine heparin bridging for most VTE patients because bridging increases bleeding risk without reducing recurrence. Standard management is simply to hold warfarin 5 days before surgery and resume postoperatively, with LMWH prophylaxis only if indicated after surgery.",
+        "submodule": "Douketis JD et al. CHEST 2022;162(5):e207–e243. Perioperative Management of Antithrombotic Therapy.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q26",
+        "text": "A patient presents on postoperative day 4 after an uncomplicated total laparoscopic hysterectomy with abdominal pain and fever. CT scan demonstrates free air and a contained small-bowel perforation consistent with a delayed thermal injury. Operative video review shows the use of both monopolar scissors and a bipolar vessel-sealing device, with no visible contact between either instrument and bowel.\nWhich instrument and mechanism most likely caused the injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bipolar device via direct thermal spread", "isCorrect": false },
+          { "id": "b", "text": "B) Bipolar device via incomplete mesenteric sealing", "isCorrect": false },
+          { "id": "c", "text": "C) Monopolar instrument via capacitive coupling", "isCorrect": true },
+          { "id": "d", "text": "D) Monopolar instrument via spark gap activation", "isCorrect": false },
+          { "id": "e", "text": "E) Ultrasonic device via cavitation injury", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Delayed bowel perforation after laparoscopy is most commonly associated with monopolar electrosurgery, especially when injury occurs through capacitive coupling. Capacitive coupling transfers radiofrequency energy through intact insulation into adjacent tissues—such as small bowel—without any visible contact, so the injury is often not apparent on video review. The damage progresses over several days, leading to delayed perforation, as seen here. Bipolar devices have limited lateral spread and are unlikely to cause occult bowel injury without direct contact. Spark gap activation would be visible on video, and ultrasonic devices produce immediate, not delayed, thermal damage.",
+        "submodule": "Vilos GA, Rajakumar C. Electrosurgical Generators and Monopolar and Bipolar Electrosurgery. J Minim Invasive Gynecol. 2013;20(3):279–287.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q27",
+        "text": "A 14-year-old presents with severe cyclic right-sided pelvic pain. MRI shows a left unicornuate uterus with a right noncommunicating rudimentary horn containing functional endometrium. What is the most appropriate next step in management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hysteroscopic metroplasty (unification procedure)", "isCorrect": false },
+          { "id": "b", "text": "B) Expectant management with NSAIDs", "isCorrect": false },
+          { "id": "c", "text": "C) Laparoscopic removal of the right noncommunicating uterine horn and ipsilateral fallopian tube", "isCorrect": true },
+          { "id": "d", "text": "D) Continuous hormonal suppression", "isCorrect": false },
+          { "id": "e", "text": "E) Hemihysterectomy of the unicornuate uterus", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A noncommunicating rudimentary horn with active endometrium causes obstructed menstrual flow, leading to cyclic pain, hematometra, retrograde menstruation, and endometriosis, and it carries a significant risk of rudimentary horn pregnancy with uterine rupture. The standard of care is laparoscopic excision of the functional horn and the ipsilateral fallopian tube, which resolves symptoms and prevents future complications. Hormonal suppression or NSAIDs may temporarily reduce pain but do not address the anatomic obstruction. A unification (metroplasty) procedure is not feasible for a true noncommunicating horn, and the functional unicornuate hemiuterus should not be removed.",
+        "submodule": "Abboud K, Giannini A, D'Oria O, et al. Laparoscopic Management of Rudimentary Uterine Horns in Patients With Unicornuate Uterus: A Systematic Review. Gynecol Obstet Invest. 2023;88(1):1–10.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q28",
+        "text": "A 32-year-old patient had a provoked DVT due to combined oral contraceptive (COC) use 14 months ago. She completed 3 months of anticoagulation and has had no recurrence. She is scheduled for an elective laparoscopic hysterectomy. What is the most appropriate perioperative VTE prophylaxis strategy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Resume therapeutic anticoagulation 48 hours before surgery and bridge with LMWH", "isCorrect": false },
+          { "id": "b", "text": "B) Begin postoperative therapeutic-dose LMWH for 7 days", "isCorrect": false },
+          { "id": "c", "text": "C) Mechanical prophylaxis only", "isCorrect": false },
+          { "id": "d", "text": "D) Prophylactic-dose LMWH plus mechanical prophylaxis", "isCorrect": true },
+          { "id": "e", "text": "E) Preoperative IVC filter placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Her prior DVT was provoked by COC use, and she completed standard treatment over a year ago. She does not require therapeutic anticoagulation, bridging, or an IVC filter. Her Caprini score is 5 (prior VTE +3, major surgery >45 min +2), placing her in a moderate-to-high risk category. CHEST guidelines recommend pharmacologic prophylaxis (LMWH or low-dose UFH) plus mechanical prophylaxis for patients with Caprini ≥5 who do not have a high bleeding risk. Mechanical prophylaxis alone is inadequate.",
+        "submodule": "Douketis JD et al. CHEST Guideline: Perioperative Management of Antithrombotic Therapy. Chest. 2022.\nKrauss ES, Segal A, Dengler N, et al. Utilization of the Caprini Score for Risk Stratification of the Arthroplasty Patient. Semin Thromb Hemost. 2022.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q29",
+        "text": "During a laparoscopic procedure, you are closing a 12-mm abdominal port site. Which THREE of the following fascial-closure options are appropriate based on current evidence and hernia-prevention guidelines? (Select best 3)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Figure-of-eight closure with 0 polyglactin 910 (Vicryl)", "isCorrect": true },
+          { "id": "b", "text": "B) Closure with 0 or 2-0 delayed-absorbable monofilament (e.g., PDS) on a taper needle", "isCorrect": true },
+          { "id": "c", "text": "C) Closure using a dedicated port-closure device (e.g., Carter-Thomason, neoClose, VersaOne) with delayed-absorbable monofilament", "isCorrect": true },
+          { "id": "d", "text": "D) Leaving the fascial defect open", "isCorrect": false },
+          { "id": "e", "text": "E) Closure with 2-0 chromic gut on a cutting needle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fascial closure is recommended for all ≥10–12 mm trocar sites, including lateral ports, to reduce the risk of port-site hernia. Multiple reviews and guidelines support suturing these defects, although high-quality data on the optimal material are limited. Option A (Vicryl) is an acceptable fascial suture. While it absorbs faster than PDS, it is commonly used and supported in practice with no evidence showing harm in port-site closure. Option B (PDS) is appropriate because delayed-absorbable monofilament sutures maintain tensile strength longer, and broader abdominal wall literature (Cochrane) shows monofilaments reduce hernia rates compared with multifilaments. Option C (closure device) is supported by randomized and prospective trials demonstrating faster, safer, more reliable fascial closure with fewer closure-related complications. Option D (no closure) contradicts hernia-society guidelines. Option E (chromic on a cutting needle) is inappropriate due to rapid loss of strength and increased tissue trauma.",
+        "submodule": "Deerenberg EB, et al. EAHS & AHS Updated Guideline for Closure of Abdominal Wall Incisions. Br J Surg. 2022.\nElashry OM, et al. Comparative Clinical Study of Port-Closure Techniques. J Am Coll Surg. 1996.\nIranmanesh P, et al. neoClose vs standard suture passer: RCT. Surg Endosc. 2020.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "fa-q30",
+        "text": "During a laparoscopic procedure, you are closing a 10–12 mm abdominal port site. Which TWO of the following skin-closure techniques are most appropriate to optimize cosmetic outcome and reduce wound complications? (Select best 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Simple interrupted 4-0 nylon sutures", "isCorrect": false },
+          { "id": "b", "text": "B) Subcuticular closure with 4-0 Monocryl", "isCorrect": true },
+          { "id": "c", "text": "C) Skin staples", "isCorrect": false },
+          { "id": "d", "text": "D) Absorbable subcuticular closure with barbed monofilament (e.g., 4-0 Stratafix or V-Loc)", "isCorrect": true },
+          { "id": "e", "text": "E) Mattress sutures with 2-0 Vicryl", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Subcuticular closure with absorbable monofilament sutures—whether traditional (e.g., Monocryl) or barbed monofilament—provides the best combination of low wound-complication rates, superior cosmesis, and high patient satisfaction. A large Cochrane review (66 studies, 7,487 patients) showed subcuticular sutures reduce wound complications compared with staples and improve patient-reported cosmetic outcomes. Barbed absorbable sutures perform equivalently with the added benefits of faster closure time and no need for knot tying. Staples, interrupted nylon sutures, and mattress sutures are associated with higher infection rates, worse cosmesis, and lower patient satisfaction.",
+        "submodule": "Goto S, Sakamoto T, Ganeko R, et al. Subcuticular Sutures for Skin Closure in Non-Obstetric Surgery. Cochrane Database Syst Rev. 2020;4:CD012124.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q31",
+        "text": "After a total laparoscopic hysterectomy, which TWO of the following approaches represent the most evidence-based vaginal cuff closure techniques to minimize the risk of dehiscence and postoperative complications? (Select best 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Transvaginal closure with 0 polyglactin 910 (Vicryl)", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopic closure with CT-2 tapered needle and 0 or 2-0 polyglactin 910 (Vicryl)", "isCorrect": true },
+          { "id": "c", "text": "C) Laparoscopic closure with barbed absorbable suture (e.g., V-Loc)", "isCorrect": true },
+          { "id": "d", "text": "D) Transvaginal closure with 2-0 plain gut", "isCorrect": false },
+          { "id": "e", "text": "E) Laparoscopic closure with non-absorbable suture requiring later removal", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopic closure of the vaginal cuff reduces dehiscence and overall cuff complications compared with transvaginal closure. Two evidence-supported options are: 1. Delayed-absorbable suture (0 or 2-0 Vicryl) on a taper needle (CT-1 or CT-2). 2. Barbed absorbable suture (e.g., V-Loc). Multiple randomized trials and meta-analyses show no difference in dehiscence rates between barbed and conventional sutures, but barbed sutures reliably shorten suturing and operative time. Transvaginal closure and rapidly absorbable sutures (e.g., plain gut) carry higher dehiscence risk, and non-absorbable sutures requiring later removal are not standard practice.",
+        "submodule": "Uccella S, Malzoni M, Cromi A, et al. Laparoscopic vs transvaginal cuff closure after TLH: Randomized trial. Am J Obstet Gynecol. 2018.\nPlanella LV, García IR, Camps SF, et al. Barbed vs conventional sutures: Systematic review & meta-analysis. JMIG. 2025.\nLópez CC, Ríos JFL, González Y, et al. Barbed vs conventional sutures for cuff closure: Randomized controlled trial. JMIG. 2019.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q32",
+        "text": "During a laparoscopic procedure, a small seromuscular defect is identified on the small bowel. Which TWO of the following needle–suture combinations represent the most appropriate approach for laparoscopic seromuscular repair based on current evidence? (Select best 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cutting needle with 3-0 chromic gut", "isCorrect": false },
+          { "id": "b", "text": "B) Taper needle (SH or RB-1) with 3-0 polydioxanone (PDS)", "isCorrect": true },
+          { "id": "c", "text": "C) Taper needle with 2-0 polyglactin 910 (Vicryl)", "isCorrect": false },
+          { "id": "d", "text": "D) Taper needle with 3-0 barbed absorbable suture", "isCorrect": true },
+          { "id": "e", "text": "E) Cutting needle with 0 silk", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Seromuscular small-bowel repair requires a taper (round-bodied) needle—such as SH or RB-1—to avoid full-thickness penetration and minimize tissue trauma. The preferred sutures are slow-absorbing monofilaments like PDS, which maintain strength through the critical healing period and have low infection risk. Barbed absorbable sutures are an evidence-supported alternative that provide excellent tissue approximation and shorten laparoscopic suturing time with comparable complication rates. Rapidly absorbable sutures (chromic, Vicryl) lose tensile strength too quickly, and cutting needles or silk are inappropriate for bowel repair due to tissue trauma and chronic inflammation.",
+        "submodule": "Smyth L, Bendinelli C, Lee N, et al. WSES Guidelines on Blunt and Penetrating Bowel Injury: Diagnosis, Investigations, and Treatment. World J Emerg Surg. 2022;17(1):13. Gold-standard guideline describing technique, suture principles, and evidence for primary repair.\nChamsy D, King C, Lee T. The Use of Barbed Suture for Bladder and Bowel Repair. J Minim Invasive Gynecol. 2015;22(4):648–652. Direct laparoscopic data supporting both PDS and barbed sutures for bowel repair.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q33",
+        "text": "A patient undergoes repair of a 1.5 cm cystotomy identified during a total laparoscopic hysterectomy. Which of the following represents an evidence-based approach for closing the bladder wall defect?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Single-layer closure with 4-0 chromic suture", "isCorrect": false },
+          { "id": "b", "text": "B) Two-layer closure with 2-0 or 3-0 absorbable suture on a tapered needle", "isCorrect": true },
+          { "id": "c", "text": "C) Single-layer closure with non-absorbable suture", "isCorrect": false },
+          { "id": "d", "text": "D) Three-layer closure with 5-0 PDS", "isCorrect": false },
+          { "id": "e", "text": "E) Fibrin glue application without suture repair", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Current guidelines recommend that intraperitoneal bladder injuries be repaired with a two-layer closure using 2-0 or 3-0 absorbable suture on a tapered (round-bodied) needle, followed by 7–14 days of bladder drainage and confirmation of healing with cystography before catheter removal. Acceptable sutures include Vicryl, PDS, Monocryl, or barbed absorbable suture; no single material has been definitively proven superior, but 2-0 or 3-0 absorbable on a tapered needle (e.g., CT-1, CT-2, RB-1) is standard practice. Single-layer closure, non-absorbable suture, very fine suture (4-0/5-0), or fibrin glue alone are not recommended for routine cystotomy repair.",
+        "submodule": "American College of Surgeons. Best Practices Guidelines: Management of Genitourinary Injuries. 2025.\nde’Angelis N, et al. 2023 WSES guidelines for the prevention, detection, and management of iatrogenic urinary tract injuries. World J Emerg Surg. 2023;18(1):45.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q34",
+        "text": "Which current represents the current used in a bipolar vessel-sealing device?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Waveform A", "isCorrect": false },
+          { "id": "b", "text": "B) Waveform B", "isCorrect": true },
+          { "id": "c", "text": "C) Waveform C", "isCorrect": false },
+          { "id": "d", "text": "D) Waveform D", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar vessel-sealing devices use a continuous, low-voltage cutting current pattern to denature collagen and elastin in vessel walls. In the figure: A shows a coagulation current (intermittent bursts, high voltage). B shows a cutting current (continuous, uniform waveform), which is the pattern used in bipolar vessel sealing. D shows a blended current (mixed cutting + coagulation waveform). C is not a true electrosurgical current pattern.",
+        "submodule": "EMIGS Module 4: Energy Sources",
+        "questionType": "multiple_choice",
+        "images": [
+          {
+            "src": "bipolar-vessel-sealing-device",
+            "alt": "Diagram showing four different electrosurgical waveform patterns labeled A through D",
+            "caption": "Figure. Electrosurgical waveform patterns.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q35",
+        "text": "Regarding the structure indicated by the red arrow, select all that are correct:",
+        "answerOptions": [
+          { "id": "a", "text": "A) This is the infundibulopelvic ligament", "isCorrect": true },
+          { "id": "b", "text": "B) This is the suspensory ligament of the ovary", "isCorrect": true },
+          { "id": "c", "text": "C) This is the ovarian ligament", "isCorrect": false },
+          { "id": "d", "text": "D) Sampson's artery runs with this ligament", "isCorrect": false },
+          { "id": "e", "text": "E) The uterine artery runs with this ligament", "isCorrect": false },
+          { "id": "f", "text": "F) The ureter runs posterior to this structure", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The structure shown is the infundibulopelvic (IP) ligament, also known as the suspensory ligament of the ovary. It extends from the ovary to the pelvic sidewall and carries the ovarian vessels. The ovarian ligament (or utero-ovarian ligament) connects the ovary to the uterus medially, not to the pelvic sidewall. Sampson's artery runs within the round ligament, not the IP ligament. The uterine artery runs in the cardinal ligament, not with the IP ligament. The ureter passes medial and posterior to the IP ligament as it enters the pelvis—a key surgical landmark during adnexectomy or IP ligament ligation.",
+        "submodule": "EMIGS Module 2 – Pelvic Anatomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" },
+        "images": [
+          {
+            "src": "infundibulopelvic-(IP)-ligament",
+            "alt": "Laparoscopic image with red arrow indicating the infundibulopelvic ligament",
+            "caption": "Figure. Pelvic anatomy – IP ligament identification.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q36",
+        "text": "Which of these patients needs a preoperative cardiology visit? (Select the best 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Episodes of unexplained syncope", "isCorrect": true },
+          { "id": "b", "text": "B) Episodes of unexplained palpitations", "isCorrect": true },
+          { "id": "c", "text": "C) History of MI 6 months prior but asymptomatic (>4 METS)", "isCorrect": false },
+          { "id": "d", "text": "D) BP 150/90 at the preop visit", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The two patients who warrant preoperative cardiology evaluation are those with unexplained syncope (A) and unexplained palpitations (B). Syncope is a high-risk cardiac symptom associated with arrhythmia or structural heart disease and receives a strong recommendation for preoperative cardiac evaluation under the 2024 AHA/ACC perioperative cardiovascular guidelines. Palpitations have a weaker indication, but among the available choices remain the second-best answer because they may represent an undiagnosed arrhythmia requiring assessment. An asymptomatic patient with ≥4 METs who had an MI 6 months ago (C) does not require cardiology evaluation under current appropriate-use criteria, because preserved functional capacity substantially reduces perioperative cardiac risk. An isolated BP of 150/90 (D) does not require specialist referral; stage 2 hypertension alone does not mandate cardiology evaluation before surgery in the absence of end-organ damage or severe hypertension.",
+        "submodule": "2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery. Thompson A, Fleischmann KE, Smilowitz NR, et al. J Am Coll Cardiol. 2024;84(19):1869-1969. doi:10.1016/j.jacc.2024.06.013.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q37",
+        "text": "During laparoscopic entry in a patient with a high BMI, you have two failed attempts: one at Palmer's point and one at the umbilicus. What is the next best entry point?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Repeat attempt at the umbilicus", "isCorrect": false },
+          { "id": "b", "text": "B) Repeat attempt at the left upper quadrant", "isCorrect": false },
+          { "id": "c", "text": "C) Right upper quadrant", "isCorrect": false },
+          { "id": "d", "text": "D) Suprapubic", "isCorrect": false },
+          { "id": "e", "text": "E) Left lateral (Jain Point)", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "After failed attempts at the umbilicus and Palmer's point in a high-BMI patient, the most evidence-supported next option is a non-umbilical, non-Palmer's lateral entry site such as the Jain Point. Other described alternatives (not listed among the answer choices) include supraumbilical entry (Lee–Huang point) and posterior cul-de-sac or uterine fundus Veress needle insufflation, though these have less robust outcome data compared with the Jain Point.",
+        "submodule": "Jain N et al. Jain point laparoscopic entry in contraindications of Palmer’s point. Front Surg. 2022;9:928081. https://www.frontiersin.org/articles/10.3389/fsurg.2022.928081/full\nGLOWM – Laparoscopic Entry Techniques.https://www.glowm.com/article/heading/vol-8–gynecological-endoscopy–laparoscopic-entry-techniques/id/420053",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q38",
+        "text": "During laparoscopic entry in a patient with 2 prior midline vertical incisions, you have failed an entry attempt at Palmer's point. What is the next best entry point?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Point A", "isCorrect": false },
+          { "id": "b", "text": "B) Point B", "isCorrect": false },
+          { "id": "c", "text": "C) Point C", "isCorrect": false },
+          { "id": "d", "text": "D) Point D", "isCorrect": true },
+          { "id": "e", "text": "E) Point E", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The Jain Point is a lateral, non-umbilical primary entry site used when umbilical or left upper quadrant (Palmer's point) entry is unsafe or unsuccessful. It is located: 10–13 cm lateral to the umbilicus, at the level of L4, approximately 2.5 cm medial to the ASIS. This position avoids midline adhesions as well as the stomach and spleen, making it a safe alternative in patients with prior midline surgery, obesity, splenomegaly, gastric distention, or contraindications to Palmer's point. Label identification in the image: A = Umbilical, B = Supraumbilical (Lee–Huang point), C = LUQ (Palmer's point), D = Jain Point, E = Suprapubic (not supported for primary entry).",
+        "submodule": "Jain N et al. Jain point laparoscopic entry in contraindications of Palmer’s point. Front Surg. 2022;9:928081. https://www.frontiersin.org/articles/10.3389/fsurg.2022.928081/full \nGLOWM – Laparoscopic Entry Techniques. https://www.glowm.com/article/heading/vol-8–gynecological-endoscopy–laparoscopic-entry-techniques/id/420053",
+        "questionType": "multiple_choice",
+        "images": [
+          {
+            "src": "Jain-Point",
+            "alt": "Diagram of abdomen showing five labeled entry points: A (Umbilical), B (Supraumbilical), C (LUQ/Palmer's), D (Jain Point), E (Suprapubic)",
+            "caption": "Figure. Laparoscopic entry points.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q39",
+        "text": "A 62-year-old woman with a history of right total hip arthroplasty is scheduled for a laparoscopic hysterectomy. The surgical team plans to place her in dorsal lithotomy using boot stirrups. What is the most appropriate step to prevent perioperative hip dislocation or nerve injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Place her in lithotomy after induction of anesthesia to avoid patient discomfort", "isCorrect": false },
+          { "id": "b", "text": "B) Abduct and externally rotate the hips fully to optimize surgical exposure", "isCorrect": false },
+          { "id": "c", "text": "C) Position the patient while awake to confirm comfortable hip abduction and flexion limits", "isCorrect": true },
+          { "id": "d", "text": "D) Place the non-operative leg first to minimize torque on the prosthetic hip", "isCorrect": false },
+          { "id": "e", "text": "E) Use candy-cane stirrups instead of boot stirrups to reduce hip stress", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients with a prior hip replacement are at higher risk for hip dislocation and nerve stretch injuries when placed in lithotomy. Because general anesthesia removes protective muscle tone and the ability to report pain, the safest approach is to position the patient while awake so she can communicate discomfort and confirm her tolerated range of motion, especially hip flexion, abduction, and external rotation.",
+        "submodule": "Practice Advisory for the Prevention of Perioperative Peripheral Neuropathies 2018: An Updated Report by the American Society of Anesthesiologists Task Force on Prevention of Perioperative Peripheral Neuropathies*. Anesthesiology 128(1):p 11-26, January 2018. | DOI: 10.1097/ALN.0000000000001937.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q40",
+        "text": "A 44-year-old woman who weighs 92 kg is scheduled for a total laparoscopic hysterectomy for abnormal uterine bleeding. She has no drug allergies, no recent antibiotic exposure, and no evidence of infection. Which perioperative antibiotic regimen is most appropriate?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Cefazolin 2 g IV prior to incision", "isCorrect": true },
+          { "id": "b", "text": "B) Cefazolin 3 g IV prior to incision", "isCorrect": false },
+          { "id": "c", "text": "C) Doxycycline 200 mg PO", "isCorrect": false },
+          { "id": "d", "text": "D) Ceftriaxone 1 g IV plus metronidazole 500 mg IV", "isCorrect": false },
+          { "id": "e", "text": "E) Clindamycin 900 mg IV plus gentamicin 5 mg/kg IV", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cefazolin is first-line prophylaxis for laparoscopic hysterectomy. Patients weighing less than 120 kg should receive 2 g IV prior to incision, while those at or above 120 kg require 3 g to achieve adequate tissue levels. Doxycycline is not used for hysterectomy prophylaxis and is specific to abortion and miscarriage care. Broader combinations like ceftriaxone plus metronidazole are unnecessary for routine benign hysterectomy, and clindamycin/gentamicin is reserved for patients with true anaphylactic beta-lactam allergy.",
+        "submodule": "Bratzler DW, Dellinger EP, Olsen KM, Perl TM, Auwaerter PG, Bolon MK, Fish DN, Napolitano LM, Sawyer RG, Slain D, Steinberg JP, Weinstein RA. Clinical practice guidelines for antimicrobial prophylaxis in surgery. Am J Health Syst Pharm. 2013;70(3):195–283. doi:10.2146/ajhp120568.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q41",
+        "text": "During a laparoscopic hysterectomy with an adhesion-free anterior cul-de-sac, a cystotomy occurs directly against the cervix at the area where the vesicouterine peritoneum was opened and the bladder was pushed caudally. Which anatomical region of the bladder was most likely injured?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Dome (apex)", "isCorrect": false },
+          { "id": "b", "text": "B) Body or Fundus (base)", "isCorrect": true },
+          { "id": "c", "text": "C) Trigone", "isCorrect": false },
+          { "id": "d", "text": "D) Ureterovesical junction", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Although many surgeons informally describe bladder injuries as occurring at the \"dome,\" the area dissected during laparoscopic hysterectomy is actually the posterior wall, which anatomically belongs to the large central body of the bladder—not the dome or trigone. The dome is the most mobile and distensible portion and typically slides cephalad, away from the dissection plane. The trigone is fixed and lies inferiorly, and the fundus (base) forms the posterior-inferior portion of the bladder. Because the posterior wall lies directly against the cervix and lower uterine segment, injuries during vesicouterine dissection most commonly involve this region of the bladder body or posterior fundus.",
+        "submodule": "Aydin C, Mercimek MN. Laparoscopic management of bladder injury during total laparoscopic hysterectomy. Int J Clin Pract. 2020 Jun;74(6):e13507. doi: 10.1111/ijcp.13507. Epub 2020 Apr 16. PMID: 32267049.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q42",
+        "text": "A surgeon performs a laparoscopic hysterectomy, opens the vesicouterine peritoneum, and mobilizes the bladder without difficulty. At the end of the case, a cystotomy is noted at the dome of the bladder. Which mechanism most likely caused this injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Overuse of blunt dissection of the vesicouterine space", "isCorrect": false },
+          { "id": "b", "text": "B) Excessive traction on the uterosacral ligaments", "isCorrect": false },
+          { "id": "c", "text": "C) Thermal spread during coagulation of the uterine arteries", "isCorrect": false },
+          { "id": "d", "text": "D) Suprapubic trocar insertion", "isCorrect": true },
+          { "id": "e", "text": "E) Direct dissection of the dome during bladder flap creation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "True dome injuries in laparoscopic hysterectomy are uncommon because the dome slides cephalad and away from the operative field during vesicouterine dissection. When dome injuries occur, they are far more likely to result from suprapubic port placement or from abdominal entry (Pfannenstiel/mini-lap), not from the hysterectomy dissection itself.",
+        "submodule": "Levy BF, De Guara J, Willson PD, Soon Y, Kent A, Rockall TA. Bladder injuries in emergency/expedited laparoscopic surgery in the absence of previous surgery: a case series. Ann R Coll Surg Engl. 2012 Apr;94(3):e118-20. doi: 10.1308/003588412X13171221502149. PMID: 22507707; PMCID: PMC3705255.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q43",
+        "text": "A 42-year-old patient is scheduled for a laparoscopic hysterectomy. She has well-controlled hypertension on a single medication and a BMI of 40. She exercises regularly and reports no cardiopulmonary symptoms. Her labs and ECG are normal.\nWhat is the most appropriate ASA classification?",
+        "answerOptions": [
+          { "id": "a", "text": "A) ASA I", "isCorrect": false },
+          { "id": "b", "text": "B) ASA II", "isCorrect": false },
+          { "id": "c", "text": "C) ASA III", "isCorrect": true },
+          { "id": "d", "text": "D) ASA IV", "isCorrect": false },
+          { "id": "e", "text": "E) ASA V", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Morbid obesity (BMI ≥ 40) is automatically ASA III. Well-controlled HTN alone would be ASA II, but BMI ≥ 40 moves the patient to moderate–severe systemic disease (ASA III).",
+        "submodule": "Hurwitz EE, Simon M, Vinta SR, Zehm CF, Shabot SM, Minhajuddin A, Abouleish AE. Adding Examples to the ASA-Physical Status Classification Improves Correct Assignment to Patients. Anesthesiology. 2017 Apr;126(4):614-622. doi: 10.1097/ALN.0000000000001541. PMID: 28212203.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q44",
+        "text": "A 59-year-old patient scheduled for laparoscopic adnexal surgery has a history of MI 4 years ago and a normal stress echo 18 months ago. She reports excellent functional capacity (>4 METs), walks 2 miles daily, and has no symptoms. She takes aspirin and a statin.\nWhat is the most appropriate next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Obtain a new stress test", "isCorrect": false },
+          { "id": "b", "text": "B) Obtain a cardiology consult", "isCorrect": false },
+          { "id": "c", "text": "C) Proceed with surgery; no further testing required", "isCorrect": true },
+          { "id": "d", "text": "D) Delay surgery for cardiac clearance", "isCorrect": false },
+          { "id": "e", "text": "E) Obtain an echocardiogram", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Patients with excellent functional capacity (>4 METs) and no symptoms do not need further testing, even with a prior MI, as long as the last study was <2 years and they remain clinically stable.",
+        "submodule": "Thompson, A, Fleischmann, K, Smilowitz, N. et al. 2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. JACC. 2024 Nov, 84 (19) 1869–1969.https://doi.org/10.1016/j.jacc.2024.06.013",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q45",
+        "text": "A patient scheduled for diagnostic laparoscopy reports new exertional dyspnea and intermittent chest pressure for 1 month. She has diabetes and hyperlipidemia. ECG shows nonspecific ST/T changes.\nWhat is the most appropriate next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Proceed under enhanced monitoring", "isCorrect": false },
+          { "id": "b", "text": "B) Pre-op BNP, proceed if normal", "isCorrect": false },
+          { "id": "c", "text": "C) Delay surgery and obtain cardiology evaluation", "isCorrect": true },
+          { "id": "d", "text": "D) Proceed if symptoms resolve with nitroglycerin", "isCorrect": false },
+          { "id": "e", "text": "E) Reclassify as ASA II and proceed", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "New or worsening cardiac symptoms = active cardiac conditions. These require evaluation and optimization before elective surgery. Proceeding would be unsafe.",
+        "submodule": "Virani, S, Newby, L, Arnold, S. et al. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. JACC. 2023 Aug, 82 (9) 833–955.https://doi.org/10.1016/j.jacc.2023.04.003",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q46",
+        "text": "Should you use an ultrasonic device to cauterize tissue and then use it as a grasper to hold up a piece of omentum?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Yes – ultrasonic devices can both seal/cut and provide enough traction to gently elevate omentum during laparoscopic procedures", "isCorrect": false },
+          { "id": "b", "text": "B) Yes – using the same device reduces the need to switch instruments, which can save operative time and maintain efficiency", "isCorrect": false },
+          { "id": "c", "text": "C) No – these devices are not designed as primary graspers; using them to hold omentum risks tearing friable tissue due to the small surface area of the jaws", "isCorrect": true },
+          { "id": "d", "text": "D) No – energy devices retain residual heat and may be inadvertently activated, increasing the risk of unintended thermal injury when used to grasp tissue", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The ultrasonic device should not be used as a grasper. Its jaws are not designed to securely hold delicate tissues like omentum and can easily tear friable structures. While it may seem efficient to avoid instrument exchange (A, B), patient safety and preservation of tissue integrity are more important. Thermal injury is a theoretical and potential secondary concern (D), but the primary reason is the mechanical risk of tissue trauma, making C the single best answer.",
+        "submodule": "Nanduri B, Pendarvis K, Shack LA, et al. Ultrasonic Incisions Produce Less Inflammatory Mediator Response During Early Healing Than Electrosurgical Incisions. PloS One. 2013.\nOgawa T, Hattori R, Yamamoto T, Gotoh M. Safe Use of Ultrasonically Activated Devices Based on Current Studies. Expert Review of Medical Devices. 2011.",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q47",
+        "text": "When positioning a patient with bilateral hip replacements for gynecologic laparoscopic surgery in lithotomy, which of the following are the most appropriate considerations? (Select 2)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Place the Bovie grounding pad on an area with good soft tissue and muscle mass, such as the thigh or buttock, avoiding placement directly over prosthetic joints", "isCorrect": true },
+          { "id": "b", "text": "B) Keep both legs extended and avoid excessive abduction or external rotation to reduce stress on the prosthetic hips", "isCorrect": false },
+          { "id": "c", "text": "C) Flex and externally rotate both hips to allow easier access for positioning and trocar placement", "isCorrect": false },
+          { "id": "d", "text": "D) Use gentle abduction and padding of the legs, ensuring neutral alignment to protect the hips from dislocation or strain", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For patients with bilateral hip replacements, the Bovie (electrosurgical grounding) pad should be placed on an area of good vascularized muscle mass (e.g., thigh, buttock) but not directly over prosthetic joints, as metal can interfere with safe current dispersion (A). Leg positioning should avoid extremes of motion that risk dislocation; gentle abduction with neutral alignment and appropriate padding helps protect the hips (D). Keeping the legs extended (B) is less protective of joint strain, while flexion/external rotation (C) increases risk of dislocation, making them inappropriate choices.",
+        "submodule": "Brooks PJ. Dislocation Following Total Hip Replacement: Causes and Cures. The Bone & Joint Journal. 2013.\nSze EHM. An Alternate Approach to Using Candy Cane Stirrups in Vaginal Surgery. Obstetrics and Gynecology. 2019.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q48",
+        "text": "Compared to a bladder injury at the dome, a bladder injury involving the trigone is more likely to be associated with which of the following complications? (Select all that apply)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ureteral obstruction or transection", "isCorrect": true },
+          { "id": "b", "text": "B) Vesicovaginal fistula formation", "isCorrect": true },
+          { "id": "c", "text": "C) Need for ureteral reimplantation", "isCorrect": true },
+          { "id": "d", "text": "D) Postoperative urinary retention", "isCorrect": true },
+          { "id": "e", "text": "E) Intraperitoneal urine leak", "isCorrect": false },
+          { "id": "f", "text": "F) Long-term voiding dysfunction", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bladder injuries involving the trigone carry higher risk because this region contains the ureteral orifices and lies adjacent to the bladder neck, making ureteral obstruction or transection more likely and often necessitating distal ureteral reimplantation. These injuries can also disrupt outlet function, resulting in postoperative urinary retention and long-term voiding dysfunction. Intraperitoneal urine leakage is also a feature of dome injuries rather than trigonal injuries, which are typically extraperitoneal.",
+        "submodule": "Niels Johnsen, Hunter Wessells, Krystal Archer-Arroyo, et al. Best Practices Guidelines Management of Genitourinary Injuries. American College of Surgeons (2025). 2025.\nCoccolini F, Moore EE, Kluger Y, et al. Kidney and Uro-Trauma: WSES-AAST Guidelines. World Journal of Emergency Surgery : WJES. 2019.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      }
+    ]
+  }
+]

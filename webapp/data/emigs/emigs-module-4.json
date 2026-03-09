@@ -1,0 +1,318 @@
+[
+  {
+    "id": "emigs-module-4",
+    "title": "EMIGS Module 4",
+    "questions": [
+      {
+        "id": "m4-q1",
+        "text": "Which 2 characteristics of radiofrequency electrosurgery distinguish it from electrocautery? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m4-q1-a", "text": "A) Requires direct tissue contact with a heated element", "isCorrect": false },
+          { "id": "m4-q1-b", "text": "B) Causes intracellular ion oscillation", "isCorrect": true },
+          { "id": "m4-q1-c", "text": "C) Transfers current directly from a heated tip", "isCorrect": false },
+          { "id": "m4-q1-d", "text": "D) Converts electrical current to thermal energy via resistance", "isCorrect": false },
+          { "id": "m4-q1-e", "text": "E) Operates with alternating polarity", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Unlike electrocautery, RF electrosurgery uses alternating polarity and causes intracellular ion oscillation, which creates friction and heat. Electrocautery involves a heated element making contact with tissue.",
+        "submodule": "Module 4.1 – Electrosurgical Principles",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m4-q2",
+        "text": "Which of the following techniques are appropriate to achieve effective coagulation of a 2 mm vessel using monopolar energy? Select all that apply.",
+        "answerOptions": [
+          { "id": "m4-q2-a", "text": "A) Direct tissue contact with the electrode", "isCorrect": true },
+          { "id": "m4-q2-b", "text": "B) Use of coag waveform with spray mode", "isCorrect": false },
+          { "id": "m4-q2-c", "text": "C) Tissue compression prior to activation", "isCorrect": true },
+          { "id": "m4-q2-d", "text": "D) Application of low-voltage continuous current", "isCorrect": true },
+          { "id": "m4-q2-e", "text": "E) Rapid sweeping motion with the electrode", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Effective coagulation requires contact, compression, and controlled heating. Spray mode and rapid sweeping motions reduce energy transfer and can increase lateral spread.",
+        "submodule": "Module 4.2 – Electrosurgical Effects on Tissue",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m4-q3",
+        "text": "Which of the following statements about bipolar vessel sealing are correct? (Select 3 best answers).",
+        "answerOptions": [
+          { "id": "m4-q3-a", "text": "A) High-voltage coagulation waveforms are optimal for deep sealing", "isCorrect": false },
+          { "id": "m4-q3-b", "text": "B) Compression helps align vessel walls for better seal", "isCorrect": true },
+          { "id": "m4-q3-c", "text": "C) Water vapor contributes to tissue dissection", "isCorrect": false },
+          { "id": "m4-q3-d", "text": "D) Electrode surface area affects sealing precision", "isCorrect": true },
+          { "id": "m4-q3-e", "text": "E) Seal failure may occur if temperature rise is too rapid", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Effective vessel sealing requires compression, appropriate electrode geometry, and controlled temperature rise. High-voltage waveforms increase collateral damage; water vapor does not improve sealing.",
+        "submodule": "Module 4.3 – Bipolar Electrosurgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m4-q4",
+        "text": "Which factors increase the risk of capacitive coupling during laparoscopic surgery? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "m4-q4-a", "text": "A) Monopolar energy used with metal cannulas", "isCorrect": true },
+          { "id": "m4-q4-b", "text": "B) Low-voltage continuous current", "isCorrect": false },
+          { "id": "m4-q4-c", "text": "C) Activation in open circuit", "isCorrect": true },
+          { "id": "m4-q4-d", "text": "D) Reusable bipolar grasper with cracked insulation", "isCorrect": false },
+          { "id": "m4-q4-e", "text": "E) Use of plastic trocar with internal metal shaft", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Capacitive coupling risk increases with metal cannulas, open-circuit activation, and plastic trocars that contain internal metal conductors.",
+        "submodule": "Module 4.4 – Complications of Electrosurgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m4-q5",
+        "text": "Which of the following statements correctly describe cavitation during ultrasonic energy application? Select all that apply.",
+        "answerOptions": [
+          { "id": "m4-q5-a", "text": "A) It occurs at sub-boiling temperatures", "isCorrect": true },
+          { "id": "m4-q5-b", "text": "B) It results from ultrasonic blade oscillation", "isCorrect": true },
+          { "id": "m4-q5-c", "text": "C) It causes intracellular vaporization", "isCorrect": false },
+          { "id": "m4-q5-d", "text": "D) It is unique to bipolar radiofrequency devices", "isCorrect": false },
+          { "id": "m4-q5-e", "text": "E) It contributes to both dissection and coagulation", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cavitation is driven by ultrasonic vibration and pressure changes that form vapor bubbles at sub-boiling temperatures, aiding dissection and coagulation. It is not an RF-specific effect.",
+        "submodule": "Module 4.5 – Ultrasonic Energy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+
+      {
+        "id": "m4-s1-q1",
+        "text": "At what temperature range and current configuration does protein denaturation and coagulation typically occur during electrosurgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 60–95°C using low-voltage, focused current", "isCorrect": false },
+          { "id": "b", "text": "B) 60–95°C using low-voltage, unfocused current", "isCorrect": true },
+          { "id": "c", "text": "C) ≥100°C using high-voltage, focused current", "isCorrect": false },
+          { "id": "d", "text": "D) ≥100°C using high-voltage, unfocused current", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Protein denaturation/coagulation occur around 60–95°C, achieved with low-voltage, unfocused current that promotes gradual heating and broader thermal spread.",
+        "submodule": "Module 4.1 – Electrosurgical Principles",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s1-q2",
+        "text": "In a monopolar electrosurgical circuit, which of the following completes the circuit by allowing current to safely exit the patient’s body and return to the electrosurgical generator?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Active electrode tip", "isCorrect": false },
+          { "id": "b", "text": "B) Bipolar forceps", "isCorrect": false },
+          { "id": "c", "text": "C) Dispersive electrode", "isCorrect": true },
+          { "id": "d", "text": "D) Surgical instrument handle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "The dispersive (return) electrode provides a safe, low-resistance pathway back to the generator to complete the circuit.",
+        "submodule": "Module 4.1 – Electrosurgical Principles",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s1-q3",
+        "text": "Why is a low-voltage waveform preferred for precise electrosurgical cutting?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It produces rapid heating with minimal lateral thermal spread", "isCorrect": true },
+          { "id": "b", "text": "B) It increases cavitation", "isCorrect": false },
+          { "id": "c", "text": "C) It enables capacitive coupling for better current delivery", "isCorrect": false },
+          { "id": "d", "text": "D) It reduces the power output to zero", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Low-voltage, continuous current yields smooth cutting with limited lateral spread; high-voltage modulation favors coagulation/charring.",
+        "submodule": "Module 4.1 – Electrosurgical Principles",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m4-s2-q4",
+        "text": "At approximately what tissue temperature does vaporization occur during electrosurgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 37°C", "isCorrect": false },
+          { "id": "b", "text": "B) 60°C", "isCorrect": false },
+          { "id": "c", "text": "C) 95°C", "isCorrect": false },
+          { "id": "d", "text": "D) >100°C", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Vaporization occurs when water becomes steam—at temperatures above 100°C—causing tissue disruption.",
+        "submodule": "Module 4.2 – Effect of Electrosurgery on Tissue",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s2-q5",
+        "text": "Which factor most directly increases the power density (or concentration) of the electrosurgical effect?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Output frequency", "isCorrect": false },
+          { "id": "b", "text": "B) Voltage mode", "isCorrect": false },
+          { "id": "c", "text": "C) Electrode surface area", "isCorrect": true },
+          { "id": "d", "text": "D) Duration of activation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Smaller electrode surface area concentrates power into a smaller region, raising power density.",
+        "submodule": "Module 4.2 – Effect of Electrosurgery on Tissue",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s2-q6",
+        "text": "Which configuration would best minimize lateral thermal spread during vessel sealing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Wide electrode, high voltage output", "isCorrect": false },
+          { "id": "b", "text": "B) Narrow electrode, low voltage continuous current", "isCorrect": true },
+          { "id": "c", "text": "C) Spray coagulation with blend waveform", "isCorrect": false },
+          { "id": "d", "text": "D) Non-contact waveform with high peak voltage", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Focused geometry plus low-voltage continuous current yields controlled heating and minimal spread.",
+        "submodule": "Module 4.2 – Effect of Electrosurgery on Tissue",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m4-s3-q7",
+        "text": "What is a defining feature of bipolar electrosurgical instruments?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They require a dispersive electrode placed on the patient", "isCorrect": false },
+          { "id": "b", "text": "B) They use ultrasound rather than electricity", "isCorrect": false },
+          { "id": "c", "text": "C) Both electrodes are incorporated into the instrument itself", "isCorrect": true },
+          { "id": "d", "text": "D) They can only be used for superficial tissue ablation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Bipolar devices complete the circuit locally between their two jaws; no dispersive pad is needed.",
+        "submodule": "Module 4.3 – Bipolar Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s3-q8",
+        "text": "Which parameter most directly affects the quality of a vessel seal using bipolar energy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Type of gas insufflation", "isCorrect": false },
+          { "id": "b", "text": "B) Degree of tissue compression", "isCorrect": true },
+          { "id": "c", "text": "C) Generator frequency setting", "isCorrect": false },
+          { "id": "d", "text": "D) Patient body temperature", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Optimal compression apposes vessel walls and supports uniform coagulation for a durable seal.",
+        "submodule": "Module 4.3 – Bipolar Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s3-q9",
+        "text": "Why might a high-voltage modulated waveform lead to inadequate vessel sealing?",
+        "answerOptions": [
+          { "id": "a", "text": "A) It cuts tissue too rapidly", "isCorrect": false },
+          { "id": "b", "text": "B) It prevents water vapor formation", "isCorrect": false },
+          { "id": "c", "text": "C) It can cause charring with preserved central lumen", "isCorrect": true },
+          { "id": "d", "text": "D) It creates an open current loop", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "High-voltage modulation can caramelize tissue superficially without fully sealing the vessel lumen.",
+        "submodule": "Module 4.3 – Bipolar Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m4-s4-q10",
+        "text": "Which type of injury is least likely when using a bipolar device correctly?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Lateral thermal spread", "isCorrect": false },
+          { "id": "b", "text": "B) Direct coupling", "isCorrect": true },
+          { "id": "c", "text": "C) Heated instrument contact injury", "isCorrect": false },
+          { "id": "d", "text": "D) Conduction via compressed tissue", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Direct coupling is a monopolar phenomenon; properly used bipolar systems localize current between jaws.",
+        "submodule": "Module 4.4 – Complications of Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s4-q11",
+        "text": "What is the primary concern with insulation failure in monopolar instruments?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Smoke generation", "isCorrect": false },
+          { "id": "b", "text": "B) Water vapor spread", "isCorrect": false },
+          { "id": "c", "text": "C) Unintended current escape causing deep thermal injury", "isCorrect": true },
+          { "id": "d", "text": "D) Deactivation delay", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Cracked insulation allows stray current to arc to adjacent tissues, causing occult burns.",
+        "submodule": "Module 4.4 – Complications of Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s4-q12",
+        "text": "Capacitive coupling is most likely to occur in which of the following scenarios?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bipolar coagulation of a 2 mm vessel", "isCorrect": false },
+          { "id": "b", "text": "B) Reusable bipolar instrument with cracked insulation", "isCorrect": false },
+          { "id": "c", "text": "C) Monopolar activation in a metal cannula during single-port surgery", "isCorrect": true },
+          { "id": "d", "text": "D) Ultrasonic shears set to level 5 cutting mode", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "With monopolar energy near conductive cannulas, RF fields can induce current through intact insulation to adjacent metal.",
+        "submodule": "Module 4.4 – Complications of Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m4-s5-q13",
+        "text": "Which of the following is true regarding ultrasonic surgical devices?",
+        "answerOptions": [
+          { "id": "a", "text": "A) They generate heat via radiofrequency current", "isCorrect": false },
+          { "id": "b", "text": "B) They are not associated with lateral thermal injury", "isCorrect": false },
+          { "id": "c", "text": "C) They operate through mechanical oscillation at ultrasonic frequencies", "isCorrect": true },
+          { "id": "d", "text": "D) They require a dispersive electrode for return current", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Ultrasonic devices convert electrical energy into mechanical oscillation (≈55 kHz) via piezoelectric crystals.",
+        "submodule": "Module 4.5 – Ultrasonic Energy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s5-q14",
+        "text": "Which tissue effect results from the pressure-induced vaporization of intracellular water at sub-boiling temperatures?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Thermal spread", "isCorrect": false },
+          { "id": "b", "text": "B) Cavitation", "isCorrect": true },
+          { "id": "c", "text": "C) Coaptation", "isCorrect": false },
+          { "id": "d", "text": "D) Desiccation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Cavitation arises from pressure changes around the oscillating blade, forming vapor bubbles at sub-boiling temperatures.",
+        "submodule": "Module 4.5 – Ultrasonic Energy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m4-s5-q15",
+        "text": "Which of the following best describes the thermal profile of ultrasonic blades compared to radiofrequency devices?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ultrasonic blades cool more rapidly than RF instruments", "isCorrect": false },
+          { "id": "b", "text": "B) RF instruments reach higher peak temperatures", "isCorrect": false },
+          { "id": "c", "text": "C) Ultrasonic blades maintain temperatures >60°C for longer after deactivation", "isCorrect": true },
+          { "id": "d", "text": "D) RF and ultrasonic instruments cannot exceed 50°C due to design limits", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Ultrasonic blades retain heat longer after deactivation and can remain >60°C, posing contact-burn risk.",
+        "submodule": "Module 4.5 – Ultrasonic Energy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

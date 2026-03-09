@@ -1,0 +1,431 @@
+[
+  {
+    "id": "emigs-module-1-practice-test",
+    "title": "EMIGS Module 1",
+    "questions": [
+      {
+        "id": "m1-nq1",
+        "text": "Which of the following are true regarding initial management of a hemodynamically unstable patient with suspected ruptured ectopic pregnancy? Select all that apply.",
+        "answerOptions": [
+          { "id": "m1-nq1-a", "text": "A) Obtain two large-bore IVs immediately", "isCorrect": true },
+          { "id": "m1-nq1-b", "text": "B) Send type and crossmatch", "isCorrect": true },
+          { "id": "m1-nq1-c", "text": "C) Perform urgent laparoscopy prior to resuscitation", "isCorrect": false },
+          { "id": "m1-nq1-d", "text": "D) Begin rapid IV crystalloid infusion", "isCorrect": true },
+          { "id": "m1-nq1-e", "text": "E) Secure the airway and ensure oxygenation", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The priority in hypovolemic shock is rapid stabilization—airway, breathing, and circulation—before definitive surgery. This includes establishing large-bore IV access, type and crossmatching, and aggressive fluid resuscitation. Surgery follows stabilization; it should not precede it.",
+        "submodule": "Module 1.1 – Hemodynamically Unstable Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m1-nq2",
+        "text": "Which of the following are incorrect regarding patient selection for laparoscopic surgery? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m1-nq2-a", "text": "A) Large adnexal masses suspicious for malignancy are best approached laparoscopically", "isCorrect": false },
+          { "id": "m1-nq2-b", "text": "B) Extensive adhesions may limit safety of minimally invasive surgery", "isCorrect": true },
+          { "id": "m1-nq2-c", "text": "C) Laparoscopy generally offers shorter hospital stays and faster recovery", "isCorrect": true },
+          { "id": "m1-nq2-d", "text": "D) Laparotomy is preferred when intact specimen removal is not feasible laparoscopically", "isCorrect": true },
+          { "id": "m1-nq2-e", "text": "E) Patient’s cardiopulmonary status may determine feasibility of pneumoperitoneum", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Large masses suspicious for malignancy—especially in postmenopausal patients—are best managed by laparotomy to avoid rupture, allow intact removal, and facilitate staging. All other statements are correct considerations for laparoscopy candidacy.",
+        "submodule": "Module 1.2 – Appropriateness for Laparoscopic Surgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m1-nq3",
+        "text": "Which of the following are true indications for hysteroscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "m1-nq3-a", "text": "A) Active pelvic infection", "isCorrect": false },
+          { "id": "m1-nq3-b", "text": "B) Retained products of conception", "isCorrect": true },
+          { "id": "m1-nq3-c", "text": "C) Intrauterine device complications", "isCorrect": true },
+          { "id": "m1-nq3-d", "text": "D) Known cervical cancer", "isCorrect": false },
+          { "id": "m1-nq3-e", "text": "E) Infertility evaluation", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hysteroscopy is indicated for retained products, IUD complications, infertility evaluation, postmenopausal bleeding, and suspected intrauterine pathology. Active infection and known cervical or uterine cancer are contraindications.",
+        "submodule": "Module 1.3 – Appropriateness for Hysteroscopic Surgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m1-nq4",
+        "text": "Which of the following are incorrect regarding management of a simple ovarian cyst in a postmenopausal woman with normal CA-125? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m1-nq4-a", "text": "A) Immediate referral to gynecologic oncology is indicated", "isCorrect": false },
+          { "id": "m1-nq4-b", "text": "B) Repeat ultrasound in 3 months is reasonable for cysts <10 cm with benign features", "isCorrect": true },
+          { "id": "m1-nq4-c", "text": "C) Malignancy risk increases with age", "isCorrect": true },
+          { "id": "m1-nq4-d", "text": "D) CA-125 is always elevated in malignant adnexal masses", "isCorrect": false },
+          { "id": "m1-nq4-e", "text": "E) Simple cysts may resolve spontaneously", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Low-risk simple cysts in postmenopausal patients can be followed conservatively. CA-125 is not always elevated in malignancy. Referral is not required unless there are suspicious features or significant CA-125 elevation.",
+        "submodule": "Module 1.4 – Patient with an Adnexal Mass",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m1-nq5",
+        "text": "A patient with diabetes undergoing gynecologic surgery. Which preoperative considerations are important prior to surgery? Select all that apply.",
+        "answerOptions": [
+          { "id": "m1-nq5-a", "text": "A) Hold metformin on the day of surgery", "isCorrect": true },
+          { "id": "m1-nq5-b", "text": "B) Schedule surgery late in the day to allow normal meals", "isCorrect": false },
+          { "id": "m1-nq5-c", "text": "C) Target perioperative glucose <180 mg/dL", "isCorrect": true },
+          { "id": "m1-nq5-d", "text": "D) Check blood glucose only postoperatively", "isCorrect": false },
+          { "id": "m1-nq5-e", "text": "E) Reduce NPH dose by up 50% on the day of surgery", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Metformin is held to avoid lactic acidosis risk (consider a 24–48 hour preoperative hold if there is renal dysfunction or planned iodinated contrast). The surgical target is glucose <180 mg/dL. NPH insulin doses are halved on the day of surgery; other long-acting basal analogs can be reduced by 75–80% on the day of surgery. Diabetic patients should be scheduled early in the day to minimize fasting effects, and glucose should be checked pre-, intra-, and postoperatively.",
+        "submodule": "Module 1.5 – Preoperative Evaluation: What to Consider?",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m1-nq6",
+        "text": "Which of the following are incorrect regarding abnormal uterine bleeding (AUB) evaluation? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "m1-nq6-a", "text": "A) Endometrial biopsy is indicated for all women >45 with AUB", "isCorrect": true },
+          { "id": "m1-nq6-b", "text": "B) The PALM-COEIN system includes both structural and non-structural causes", "isCorrect": true },
+          { "id": "m1-nq6-c", "text": "C) Saline infusion sonohysterography is a first-line imaging choice for most women", "isCorrect": false },
+          { "id": "m1-nq6-d", "text": "D) Chronic anovulation increases the risk of endometrial hyperplasia", "isCorrect": true },
+          { "id": "m1-nq6-e", "text": "E) Risk factors for malignancy include obesity, nulliparity, and late menopause", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Transvaginal ultrasound is the first-line imaging for AUB. Saline infusion sonohysterography is a secondary option if structural detail is needed. All other statements are correct.",
+        "submodule": "Module 1.6 – Evaluation of Abnormal Uterine Bleeding",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m1-nq7",
+        "text": "Which 2 findings most strongly suggest that an adnexal mass in a postmenopausal woman is malignant? (Select 2 best answers.)",
+        "answerOptions": [
+          { "id": "m1-nq7-a", "text": "A) Anechoic cyst >10 cm", "isCorrect": false },
+          { "id": "m1-nq7-b", "text": "B) Elevated CA-125", "isCorrect": true },
+          { "id": "m1-nq7-c", "text": "C) Thick septations on ultrasound", "isCorrect": true },
+          { "id": "m1-nq7-d", "text": "D) History of DES exposure", "isCorrect": false },
+          { "id": "m1-nq7-e", "text": "E) History of Oral Contraceptive pill use", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Elevated CA-125 and complex ultrasound features like thick septations are strong predictors of malignancy. Simple, anechoic cysts are usually benign even if large. History of diethylstilbestrol exposure and history of oral contraceptive pill use are not considered strong predictors of malignancy; in fact, oral contraceptive use is associated with a reduced risk of ovarian cancer.",
+        "submodule": "Module 1.4 – Patient with an Adnexal Mass",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m1-nq8",
+        "text": "Which are the best step in the initial resuscitation of a patient in hypovolemic shock from ruptured ectopic pregnancy? (Select 3 best answers).",
+        "answerOptions": [
+          { "id": "m1-nq8-a", "text": "A) Apply abdominal binder", "isCorrect": false },
+          { "id": "m1-nq8-b", "text": "B) Establish large-bore IV access", "isCorrect": true },
+          { "id": "m1-nq8-c", "text": "C) Send type and cross", "isCorrect": true },
+          { "id": "m1-nq8-d", "text": "D) Begin IV crystalloid infusion", "isCorrect": true },
+          { "id": "m1-nq8-e", "text": "E) Immediate laparotomy", "isCorrect": false },
+          { "id": "m1-nq8-f", "text": "F) Consult Surgical ICU team", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The ABCs of resuscitation require IV access, volume replacement, and preparation for transfusion. Laparotomy or Laparoscopy may follow, but stabilization must come first. ICU consultation may not be required. Compression garments are not used for internal hemorrhage.",
+        "submodule": "Module 1.1 – Hemodynamically Unstable Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+
+      {
+        "id": "m1-q1",
+        "text": "What is the first priority in managing a hemodynamically unstable patient with suspected ruptured ectopic pregnancy?",
+        "answerOptions": [
+          { "id": "m1-q1-a", "text": "A) Pelvic ultrasound", "isCorrect": false },
+          { "id": "m1-q1-b", "text": "B) Administer methotrexate", "isCorrect": false },
+          { "id": "m1-q1-c", "text": "C) IV access and fluid resuscitation", "isCorrect": true },
+          { "id": "m1-q1-d", "text": "D) Immediate laparotomy", "isCorrect": false },
+          { "id": "m1-q1-e", "text": "E) Check beta-hCG", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "In a hemodynamically unstable patient, immediate resuscitation (Airway, Breathing, Circulation) is essential before diagnostic steps. This includes establishing large-bore IV access and administering fluids.",
+        "submodule": "Module 1.1 – Hemodynamically Unstable Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q2",
+        "text": "Which type of shock is characterized by jugular venous distention and dyspnea?",
+        "answerOptions": [
+          { "id": "m1-q2-a", "text": "A) Hypovolemic", "isCorrect": false },
+          { "id": "m1-q2-b", "text": "B) Cardiogenic", "isCorrect": false },
+          { "id": "m1-q2-c", "text": "C) Distributive", "isCorrect": false },
+          { "id": "m1-q2-d", "text": "D) Obstructive", "isCorrect": true },
+          { "id": "m1-q2-e", "text": "E) Septic", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Obstructive shock is caused by physical obstruction of blood flow (e.g., PE, tamponade). It typically presents with JVD and dyspnea, distinguishing it from other types of shock.",
+        "submodule": "Module 1.1 – Hemodynamically Unstable Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q3",
+        "text": "Which of the following is NOT part of the “Pump–Fluid–Pipes” model in shock assessment?",
+        "answerOptions": [
+          { "id": "m1-q3-a", "text": "A) Heart", "isCorrect": false },
+          { "id": "m1-q3-b", "text": "B) Blood vessels", "isCorrect": false },
+          { "id": "m1-q3-c", "text": "C) Intravascular fluid", "isCorrect": false },
+          { "id": "m1-q3-d", "text": "D) Lymphatic flow", "isCorrect": true },
+          { "id": "m1-q3-e", "text": "E) Circulatory function", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "The \"Pump–Fluid–Pipes\" model includes the heart (pump), intravascular fluid (volume), and blood vessels (pipes). Lymphatic flow is not part of this model.",
+        "submodule": "Module 1.1 – Hemodynamically Unstable Patient",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m1-q4",
+        "text": "Which approach is most appropriate for a suspected ovarian malignancy with a large complex mass?",
+        "answerOptions": [
+          { "id": "m1-q4-a", "text": "A) Vaginal", "isCorrect": false },
+          { "id": "m1-q4-b", "text": "B) Robotic-assisted", "isCorrect": false },
+          { "id": "m1-q4-c", "text": "C) Laparoscopy", "isCorrect": false },
+          { "id": "m1-q4-d", "text": "D) Laparotomy", "isCorrect": true },
+          { "id": "m1-q4-e", "text": "E) Hysteroscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "In cases with high suspicion for malignancy (e.g., complex mass >10 cm with elevated CA-125 in a postmenopausal woman), open surgery (laparotomy) is preferred for safety and oncologic principles.",
+        "submodule": "Module 1.2 – Appropriateness for Laparoscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q5",
+        "text": "Which of the following is NOT a benefit of minimally invasive surgery?",
+        "answerOptions": [
+          { "id": "m1-q5-a", "text": "A) Less blood loss", "isCorrect": false },
+          { "id": "m1-q5-b", "text": "B) Increased risk of infection", "isCorrect": true },
+          { "id": "m1-q5-c", "text": "C) Quicker recovery", "isCorrect": false },
+          { "id": "m1-q5-d", "text": "D) Shorter hospital stay", "isCorrect": false },
+          { "id": "m1-q5-e", "text": "E) Less postoperative pain", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Minimally invasive surgery reduces—not increases—the risk of infection. Benefits also include shorter hospital stays, less pain, and faster recovery.",
+        "submodule": "Module 1.2 – Appropriateness for Laparoscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q6",
+        "text": "Which of the following is most likely a contraindication for laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "m1-q6-a", "text": "A) Morbid obesity", "isCorrect": false },
+          { "id": "m1-q6-b", "text": "B) Three prior C-section sections", "isCorrect": false },
+          { "id": "m1-q6-c", "text": "C) Large uterus with suspected leiomyosarcoma", "isCorrect": true },
+          { "id": "m1-q6-d", "text": "D) Small adnexal cyst", "isCorrect": false },
+          { "id": "m1-q6-e", "text": "E) Nulliparity", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "This large specimen with suspected malignancy likely will not fit out of the vagina intact. Leiomyosarcoma should not be morcellated. In this scenario, laparotomy should be considered.",
+        "submodule": "Module 1.2 – Appropriateness for Laparoscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m1-q7",
+        "text": "What is the most appropriate next step for a postmenopausal woman with non-diagnostic biopsy and a thickened endometrial stripe?",
+        "answerOptions": [
+          { "id": "m1-q7-a", "text": "A) Repeat biopsy", "isCorrect": false },
+          { "id": "m1-q7-b", "text": "B) Hysteroscopy with D&C", "isCorrect": true },
+          { "id": "m1-q7-c", "text": "C) Expectant management", "isCorrect": false },
+          { "id": "m1-q7-d", "text": "D) Start progestins", "isCorrect": false },
+          { "id": "m1-q7-e", "text": "E) MRI pelvis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "For postmenopausal bleeding with non-diagnostic biopsy and a suspicious ultrasound, hysteroscopy allows direct visualization and targeted sampling.",
+        "submodule": "Module 1.3 – Appropriateness for Hysteroscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q8",
+        "text": "Which of the following is a contraindication to hysteroscopy?",
+        "answerOptions": [
+          { "id": "m1-q8-a", "text": "A) Retained products of conception", "isCorrect": false },
+          { "id": "m1-q8-b", "text": "B) Uterine polyps", "isCorrect": false },
+          { "id": "m1-q8-c", "text": "C) Active pelvic infection", "isCorrect": true },
+          { "id": "m1-q8-d", "text": "D) Infertility", "isCorrect": false },
+          { "id": "m1-q8-e", "text": "E) Congenital anomalies", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Active pelvic infection is a contraindication to hysteroscopy due to the risk of spreading infection intrauterinely and into the peritoneal cavity.",
+        "submodule": "Module 1.3 – Appropriateness for Hysteroscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q9",
+        "text": "What is a common barrier to office hysteroscopy in postmenopausal women?",
+        "answerOptions": [
+          { "id": "m1-q9-a", "text": "A) Active bleeding", "isCorrect": false },
+          { "id": "m1-q9-b", "text": "B) Cervical stenosis", "isCorrect": true },
+          { "id": "m1-q9-c", "text": "C) Nulliparity", "isCorrect": false },
+          { "id": "m1-q9-d", "text": "D) Endometrial polyp", "isCorrect": false },
+          { "id": "m1-q9-e", "text": "E) Anovulation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Cervical stenosis is common in postmenopausal women and may prevent office hysteroscopy due to difficulty passing instruments through the cervix.",
+        "submodule": "Module 1.3 – Appropriateness for Hysteroscopic Surgery",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m1-q10",
+        "text": "What is the appropriate next step for a 61-year-old woman with a 4 cm simple ovarian cyst and normal CA-125?",
+        "answerOptions": [
+          { "id": "m1-q10-a", "text": "A) Surgical removal", "isCorrect": false },
+          { "id": "m1-q10-b", "text": "B) Refer to oncology", "isCorrect": false },
+          { "id": "m1-q10-c", "text": "C) Repeat ultrasound", "isCorrect": true },
+          { "id": "m1-q10-d", "text": "D) Aspirate the cyst", "isCorrect": false },
+          { "id": "m1-q10-e", "text": "E) MRI", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A 4 cm simple cyst with normal CA-125 in a postmenopausal woman is low risk. Surveillance with repeat imaging is the standard approach.",
+        "submodule": "Module 1.4 – Patient with an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q11",
+        "text": "Which characteristic is LEAST associated with increased risk of ovarian malignancy?",
+        "answerOptions": [
+          { "id": "m1-q11-a", "text": "A) Nulliparity", "isCorrect": false },
+          { "id": "m1-q11-b", "text": "B) Obesity", "isCorrect": true },
+          { "id": "m1-q11-c", "text": "C) BRCA mutation", "isCorrect": false },
+          { "id": "m1-q11-d", "text": "D) Endometriosis", "isCorrect": false },
+          { "id": "m1-q11-e", "text": "E) Late menopause", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Obesity increases the risk of endometrial cancer but is not as strongly linked to ovarian malignancy risk as factors like BRCA mutation or endometriosis.",
+        "submodule": "Module 1.4 – Patient with an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q12",
+        "text": "What percentage of simple cysts in postmenopausal women resolve spontaneously?",
+        "answerOptions": [
+          { "id": "m1-q12-a", "text": "A) 10%", "isCorrect": false },
+          { "id": "m1-q12-b", "text": "B) 30%", "isCorrect": false },
+          { "id": "m1-q12-c", "text": "C) 50%", "isCorrect": false },
+          { "id": "m1-q12-d", "text": "D) 70%", "isCorrect": true },
+          { "id": "m1-q12-e", "text": "E) 90%", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Up to 70% of simple ovarian cysts in postmenopausal women resolve spontaneously, making observation a reasonable option in low-risk patients.",
+        "submodule": "Module 1.4 – Patient with an Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m1-q13",
+        "text": "What is the surgical risk classification for total laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "m1-q13-a", "text": "A) Low risk", "isCorrect": false },
+          { "id": "m1-q13-b", "text": "B) Intermediate risk", "isCorrect": true },
+          { "id": "m1-q13-c", "text": "C) High risk", "isCorrect": false },
+          { "id": "m1-q13-d", "text": "D) Zero risk", "isCorrect": false },
+          { "id": "m1-q13-e", "text": "E) Unknown", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Total laparoscopic hysterectomy is classified as an intermediate-risk procedure with an estimated complication rate of 1–5%.",
+        "submodule": "Module 1.5 – Preoperative Evaluation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q14",
+        "text": "How should long-acting insulin be managed the day of surgery?",
+        "answerOptions": [
+          { "id": "m1-q14-a", "text": "A) Continue full dose", "isCorrect": false },
+          { "id": "m1-q14-b", "text": "B) Discontinue", "isCorrect": false },
+          { "id": "m1-q14-c", "text": "C) Give short-acting instead", "isCorrect": false },
+          { "id": "m1-q14-d", "text": "D) Reduce by 50%", "isCorrect": true },
+          { "id": "m1-q14-e", "text": "E) Increase by 50%", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "To prevent hypoglycemia and maintain some insulin coverage, long-acting insulin should be reduced by half on the day of surgery.",
+        "submodule": "Module 1.5 – Preoperative Evaluation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q15",
+        "text": "What steroid regimen is indicated for a patient on chronic steroids undergoing major surgery?",
+        "answerOptions": [
+          { "id": "m1-q15-a", "text": "A) No steroids", "isCorrect": false },
+          { "id": "m1-q15-b", "text": "B) Usual dose only", "isCorrect": false },
+          { "id": "m1-q15-c", "text": "C) Hydrocortisone 100 mg IV pre-op, then 50 mg IV q8h x 24h", "isCorrect": true },
+          { "id": "m1-q15-d", "text": "D) Dexamethasone only", "isCorrect": false },
+          { "id": "m1-q15-e", "text": "E) Taper before surgery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "For patients on chronic steroids undergoing major surgery, stress-dose steroids are necessary to prevent adrenal crisis.",
+        "submodule": "Module 1.5 – Preoperative Evaluation",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m1-q16",
+        "text": "What is the most appropriate next step for a 48-year-old with obesity and heavy, irregular bleeding?",
+        "answerOptions": [
+          { "id": "m1-q16-a", "text": "A) CT scan", "isCorrect": false },
+          { "id": "m1-q16-b", "text": "B) Ablation", "isCorrect": false },
+          { "id": "m1-q16-c", "text": "C) Endometrial biopsy", "isCorrect": true },
+          { "id": "m1-q16-d", "text": "D) Hysterectomy", "isCorrect": false },
+          { "id": "m1-q16-e", "text": "E) Wait and see", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "In a woman >45 years with risk factors (obesity, hypertension) and abnormal bleeding, endometrial sampling is needed to rule out hyperplasia or cancer.",
+        "submodule": "Module 1.6 – Evaluation of Abnormal Uterine Bleeding (AUB)",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q17",
+        "text": "Which risk factor increases the likelihood of endometrial hyperplasia?",
+        "answerOptions": [
+          { "id": "m1-q17-a", "text": "A) Multiparity", "isCorrect": false },
+          { "id": "m1-q17-b", "text": "B) Athletic activity", "isCorrect": false },
+          { "id": "m1-q17-c", "text": "C) Unopposed estrogen", "isCorrect": true },
+          { "id": "m1-q17-d", "text": "D) Early menopause", "isCorrect": false },
+          { "id": "m1-q17-e", "text": "E) OCP use", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Conditions like obesity and hormone therapy without progestin lead to unopposed estrogen, which increases endometrial proliferation and cancer risk.",
+        "submodule": "Module 1.6 – Evaluation of Abnormal Uterine Bleeding (AUB)",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m1-q18",
+        "text": "What is the first-line imaging test for evaluating AUB?",
+        "answerOptions": [
+          { "id": "m1-q18-a", "text": "A) MRI", "isCorrect": false },
+          { "id": "m1-q18-b", "text": "B) CT", "isCorrect": false },
+          { "id": "m1-q18-c", "text": "C) PET scan", "isCorrect": false },
+          { "id": "m1-q18-d", "text": "D) Transvaginal ultrasound", "isCorrect": true },
+          { "id": "m1-q18-e", "text": "E) Hysteroscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "This is the first-line imaging for abnormal uterine bleeding due to its sensitivity for detecting polyps, fibroids, and endometrial thickness.",
+        "submodule": "Module 1.6 – Evaluation of Abnormal Uterine Bleeding (AUB)",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

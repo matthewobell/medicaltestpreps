@@ -1,0 +1,273 @@
+[
+  {
+    "id": "emigs-module-3-part-2",
+    "title": "EMIGS Module 3 (Part 2)",
+    "questions": [
+      {
+  "id": "m3-nq1",
+  "text": "Which of the following are incorrect regarding uterine manipulator benefits during laparoscopic hysterectomy? Select all that are incorrect.",
+  "answerOptions": [
+    { "id": "m3-nq7-a", "text": "A) Manipulators do not act as a second assistant by repositioning the uterus to expose surgical landmarks", "isCorrect": false },
+    { "id": "m3-nq7-b", "text": "B) Elevation and retroversion of the uterus improves access to the bladder flap.", "isCorrect": true },
+    { "id": "m3-nq7-c", "text": "C) Inward pressure increases distance between uterine arteries and ureters.", "isCorrect": true },
+    { "id": "m3-nq7-d", "text": "D) The colpotomy cup provides a tactile landmark for vaginal entry.", "isCorrect": true },
+    { "id": "m3-nq7-e", "text": "E) Manipulators decrease visibility of key pelvic structures.", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "explanation": "Manipulators enhance, not reduce, visualization; they also aid exposure and safety. Select statements that are incorrect.",
+  "submodule": "Module 3.6 – Benefits of Uterine Manipulation",
+  "questionType": "multiple_choice",
+  "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+},
+{
+  "id": "m3-nq2",
+  "text": "Which of the following statements are incorrect regarding the use of carbon dioxide (CO₂) for laparoscopy? Select all that are incorrect.",
+  "answerOptions": [
+    { "id": "m3-nq8-a", "text": "A) CO₂ is flammable and must be used cautiously with electrosurgery.", "isCorrect": false },
+    { "id": "m3-nq8-b", "text": "B) CO₂ is excreted through respiration.", "isCorrect": true },
+    { "id": "m3-nq8-c", "text": "C) CO₂ has a low diffusion capacity.", "isCorrect": false },
+    { "id": "m3-nq8-d", "text": "D) CO₂ is the most commonly used insufflation gas.", "isCorrect": true },
+    { "id": "m3-nq8-e", "text": "E) CO₂ absorption can lead to hypercapnia.", "isCorrect": true }
+  ],
+  "acceptedWrittenAnswers": [],
+  "explanation": "CO₂ is nonflammable with high diffusion capacity; it’s absorbed and excreted via the lungs. Select the incorrect statements.",
+  "submodule": "Module 3.7 – Use of Carbon Dioxide During Laparoscopy",
+  "questionType": "multiple_choice",
+  "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+},
+{
+  "id": "m3-nq3",
+  "text": "Which of the following strategies help prevent fluid overload during operative hysteroscopy? Select all that apply.",
+  "answerOptions": [
+    { "id": "m3-nq9-a", "text": "A) Use of glycine instead of saline.", "isCorrect": false },
+    { "id": "m3-nq9-b", "text": "B) Monitoring fluid deficit carefully throughout the case.", "isCorrect": true },
+    { "id": "m3-nq9-c", "text": "C) Using intracervical vasopressin.", "isCorrect": true },
+    { "id": "m3-nq9-d", "text": "D) Maintaining intrauterine pressure below mean arterial pressure.", "isCorrect": true },
+    { "id": "m3-nq9-e", "text": "E) Shortening operative time.", "isCorrect": true }
+  ],
+  "acceptedWrittenAnswers": [],
+  "explanation": "Track deficit, use vasopressin judiciously, keep pressure below MAP, and work efficiently. Avoid hypotonic glycine when saline is appropriate.",
+  "submodule": "Module 3.8 – Hysteroscopy and Fluid Absorption",
+  "questionType": "multiple_choice",
+  "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+},
+{
+  "id": "m3-nq4",
+  "text": "Which of the following are incorrect about monopolar electrosurgery during hysteroscopy? Select all that are incorrect.",
+  "answerOptions": [
+    { "id": "m3-nq10-a", "text": "A) Monopolar loops are compatible with saline irrigation.", "isCorrect": false },
+    { "id": "m3-nq10-b", "text": "B) Glycine is an appropriate distension medium for monopolar electrosurgery.", "isCorrect": true },
+    { "id": "m3-nq10-c", "text": "C) A bipolar loop in a monopolar sheath will function normally.", "isCorrect": false },
+    { "id": "m3-nq10-d", "text": "D) Malfunction may occur if grounding pads are improperly applied.", "isCorrect": true },
+    { "id": "m3-nq10-e", "text": "E) Monopolar and bipolar components are generally incompatible.", "isCorrect": true }
+  ],
+  "acceptedWrittenAnswers": [],
+  "explanation": "Saline disperses monopolar current (so A is incorrect); mixing bipolar electrodes in monopolar systems fails (C incorrect). Glycine is appropriate for monopolar; poor pad placement can malfunction; mono/bipolar parts are generally incompatible.",
+  "submodule": "Module 3.9 – Principles of Monopolar Electrosurgery in Operative Hysteroscopy",
+  "questionType": "multiple_choice",
+  "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+},
+{
+  "id": "m3-nq5",
+  "text": "Which 3 techniques help minimize fluid overload during operative hysteroscopy? Select 3 best answers.",
+  "answerOptions": [
+    { "id": "m3-nq11-a", "text": "A) Use of isotonic saline", "isCorrect": true },
+    { "id": "m3-nq11-b", "text": "B) Keeping intrauterine pressure below MAP", "isCorrect": true },
+    { "id": "m3-nq11-c", "text": "C) Use of glycine as distension media", "isCorrect": false },
+    { "id": "m3-nq11-d", "text": "D) Monitoring fluid deficit closely", "isCorrect": true },
+    { "id": "m3-nq11-e", "text": "E) Inject cervix with vasopressin", "isCorrect": false },
+    { "id": "m3-nq11-f", "text": "F) Using larger hysteroscope", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "explanation": "Use isotonic saline, keep pressure below MAP, and track deficit closely. Glycine increases risk; vasopressin and scope size changes aren’t primary strategies here.",
+  "submodule": "Module 3.8 – Hysteroscopy and Fluid Absorption",
+  "questionType": "multiple_choice",
+  "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+},
+
+{ "id": "m3-q1",
+  "text": "Which of the following is a common benefit of using a uterine manipulator during laparoscopic hysterectomy?",
+  "answerOptions": [
+    { "id": "m3-q16-a", "text": "A) Shortens anesthesia time", "isCorrect": false },
+    { "id": "m3-q16-b", "text": "B) Enhances upper abdominal visualization", "isCorrect": false },
+    { "id": "m3-q16-c", "text": "C) Improves pelvic exposure and anatomical landmarks", "isCorrect": true },
+    { "id": "m3-q16-d", "text": "D) Reduces need for electrosurgical instruments", "isCorrect": false },
+    { "id": "m3-q16-e", "text": "E) Prevents bladder distension", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Easy",
+  "explanation": "Manipulators improve exposure and define landmarks for safe dissection.",
+  "submodule": "Module 3.6 – Uterine Manipulators",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q2",
+  "text": "Which manipulator motion is most useful for identifying and developing the vesicouterine space?",
+  "answerOptions": [
+    { "id": "m3-q17-a", "text": "A) Retroversion", "isCorrect": true },
+    { "id": "m3-q17-b", "text": "B) Antiversion", "isCorrect": false },
+    { "id": "m3-q17-c", "text": "C) Lateral rotation", "isCorrect": false },
+    { "id": "m3-q17-d", "text": "D) Upward elevation", "isCorrect": false },
+    { "id": "m3-q17-e", "text": "E) Inward pressure", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Medium",
+  "explanation": "Retroversion exposes the vesicouterine fold to create the bladder flap.",
+  "submodule": "Module 3.6 – Uterine Manipulators",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q3",
+  "text": "What feature of the colpotomy cup is most critical for a safe colpotomy during TLH?",
+  "answerOptions": [
+    { "id": "m3-q18-a", "text": "A) Transparent design", "isCorrect": false },
+    { "id": "m3-q18-b", "text": "B) Circular circumference", "isCorrect": false },
+    { "id": "m3-q18-c", "text": "C) Tactile rigidity", "isCorrect": false },
+    { "id": "m3-q18-d", "text": "D) Visual and physical delineation of the vaginal–cervical junction", "isCorrect": true },
+    { "id": "m3-q18-e", "text": "E) Ability to seal off fluid leakage", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Difficult",
+  "explanation": "The cup defines the colpotomy plane, reducing injury risk.",
+  "submodule": "Module 3.6 – Uterine Manipulators",
+  "questionType": "multiple_choice"
+},
+
+{ "id": "m3-q4",
+  "text": "Which is a key advantage of carbon dioxide as an insufflation gas?",
+  "answerOptions": [
+    { "id": "m3-q19-a", "text": "A) High flammability", "isCorrect": false },
+    { "id": "m3-q19-b", "text": "B) Excretion through the renal system", "isCorrect": false },
+    { "id": "m3-q19-c", "text": "C) Excretion through respiration", "isCorrect": true },
+    { "id": "m3-q19-d", "text": "D) Strong color for contrast", "isCorrect": false },
+    { "id": "m3-q19-e", "text": "E) High toxicity to peritoneal tissue", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Easy",
+  "explanation": "CO₂ is absorbed and eliminated via the lungs, and is nonflammable.",
+  "submodule": "Module 3.7 – Use of CO₂ in Laparoscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q5",
+  "text": "Which patient is most at risk for complications from CO₂ insufflation during laparoscopy?",
+  "answerOptions": [
+    { "id": "m3-q20-a", "text": "A) Healthy 25-year-old with dysmenorrhea", "isCorrect": false },
+    { "id": "m3-q20-b", "text": "B) 30-year-old with uterine fibroids", "isCorrect": false },
+    { "id": "m3-q20-c", "text": "C) 45-year-old with history of asthma", "isCorrect": false },
+    { "id": "m3-q20-d", "text": "D) 70-year-old with congestive heart failure", "isCorrect": true },
+    { "id": "m3-q20-e", "text": "E) 60-year-old postmenopausal with osteoporosis", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Medium",
+  "explanation": "Elderly patients with cardiac disease are more sensitive to CO₂ absorption/hemodynamic effects.",
+  "submodule": "Module 3.7 – Use of CO₂ in Laparoscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q6",
+  "text": "Primary physiologic effect of excess CO₂ absorption during laparoscopy:",
+  "answerOptions": [
+    { "id": "m3-q21-a", "text": "A) Respiratory alkalosis", "isCorrect": false },
+    { "id": "m3-q21-b", "text": "B) Pulmonary embolism", "isCorrect": false },
+    { "id": "m3-q21-c", "text": "C) Hypercapnia and acidosis", "isCorrect": true },
+    { "id": "m3-q21-d", "text": "D) Bradycardia and vasovagal response", "isCorrect": false },
+    { "id": "m3-q21-e", "text": "E) Peritoneal necrosis", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Difficult",
+  "explanation": "CO₂ absorption elevates PaCO₂ causing respiratory acidosis.",
+  "submodule": "Module 3.7 – Use of CO₂ in Laparoscopy",
+  "questionType": "multiple_choice"
+},
+
+{ "id": "m3-q7",
+  "text": "Which distension media is least likely to contribute to hyponatremia?",
+  "answerOptions": [
+    { "id": "m3-q22-a", "text": "A) Sorbitol", "isCorrect": false },
+    { "id": "m3-q22-b", "text": "B) Glycine", "isCorrect": false },
+    { "id": "m3-q22-c", "text": "C) Normal saline", "isCorrect": true },
+    { "id": "m3-q22-d", "text": "D) Dextrose 5% in water", "isCorrect": false },
+    { "id": "m3-q22-e", "text": "E) Mannitol", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Easy",
+  "explanation": "Isotonic saline with electrolytes minimizes hyponatremia risk.",
+  "submodule": "Module 3.8 – Fluid Absorption During Hysteroscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q8",
+  "text": "Which intraoperative measure is most effective at preventing excessive fluid absorption?",
+  "answerOptions": [
+    { "id": "m3-q23-a", "text": "A) Use of room-temperature distension media", "isCorrect": false },
+    { "id": "m3-q23-b", "text": "B) Keeping the hysteroscope in motion", "isCorrect": false },
+    { "id": "m3-q23-c", "text": "C) Maintaining intrauterine pressure below mean arterial pressure", "isCorrect": true },
+    { "id": "m3-q23-d", "text": "D) Performing cervical dilation prior to procedure", "isCorrect": false },
+    { "id": "m3-q23-e", "text": "E) Increasing operative time gradually", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Medium",
+  "explanation": "Staying below MAP reduces intravasation through venous sinuses.",
+  "submodule": "Module 3.8 – Fluid Absorption During Hysteroscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q9",
+  "text": "What is the maximum safe concentration of vasopressin recommended to reduce fluid absorption risk during hysteroscopy?",
+  "answerOptions": [
+    { "id": "m3-q24-a", "text": "A) 0.1 units/mL", "isCorrect": false },
+    { "id": "m3-q24-b", "text": "B) 0.2 units/mL", "isCorrect": false },
+    { "id": "m3-q24-c", "text": "C) 0.4 units/mL", "isCorrect": true },
+    { "id": "m3-q24-d", "text": "D) 0.8 units/mL", "isCorrect": false },
+    { "id": "m3-q24-e", "text": "E) 1.0 units/mL", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Difficult",
+  "explanation": "Keep vasopressin at or below ~0.4 units/mL to minimize cardiovascular risk.",
+  "submodule": "Module 3.8 – Fluid Absorption During Hysteroscopy",
+  "questionType": "multiple_choice"
+},
+
+{ "id": "m3-q10",
+  "text": "Monopolar electrosurgery requires which of the following to complete the circuit?",
+  "answerOptions": [
+    { "id": "m3-q25-a", "text": "A) Saline-based distension medium", "isCorrect": false },
+    { "id": "m3-q25-b", "text": "B) Bipolar loop electrode", "isCorrect": false },
+    { "id": "m3-q25-c", "text": "C) Grounding pad", "isCorrect": true },
+    { "id": "m3-q25-d", "text": "D) Rechargeable battery pack", "isCorrect": false },
+    { "id": "m3-q25-e", "text": "E) Heated insufflation gas", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Easy",
+  "explanation": "A return electrode completes and safely disperses monopolar current.",
+  "submodule": "Module 3.9 – Monopolar Electrosurgery in Hysteroscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q11",
+  "text": "Which would most likely explain complete failure of monopolar current delivery during hysteroscopy despite pressing the foot pedal?",
+  "answerOptions": [
+    { "id": "m3-q26-a", "text": "A) Inadequate uterine distension", "isCorrect": false },
+    { "id": "m3-q26-b", "text": "B) Bipolar electrode in a monopolar sheath", "isCorrect": true },
+    { "id": "m3-q26-c", "text": "C) Saline being used as distension media", "isCorrect": false },
+    { "id": "m3-q26-d", "text": "D) Sheath too narrow for electrode tip", "isCorrect": false },
+    { "id": "m3-q26-e", "text": "E) Incomplete cervical dilation", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Medium",
+  "explanation": "A mono–bipolar mismatch breaks the circuit. Saline disperses current but doesn’t usually prevent delivery entirely.",
+  "submodule": "Module 3.9 – Monopolar Electrosurgery in Hysteroscopy",
+  "questionType": "multiple_choice"
+},
+{ "id": "m3-q12",
+  "text": "Most likely clinical consequence of repeatedly activating monopolar electrosurgery in saline-filled cavities:",
+  "answerOptions": [
+    { "id": "m3-q27-a", "text": "A) Cervical dilation", "isCorrect": false },
+    { "id": "m3-q27-b", "text": "B) Uterine bradycardia", "isCorrect": false },
+    { "id": "m3-q27-c", "text": "C) Effective vaporization", "isCorrect": false },
+    { "id": "m3-q27-d", "text": "D) Diffuse thermal spread and tissue injury", "isCorrect": true },
+    { "id": "m3-q27-e", "text": "E) Improved visualization due to fluid clarity", "isCorrect": false }
+  ],
+  "acceptedWrittenAnswers": [],
+  "difficulty": "Difficult",
+  "explanation": "In conductive saline, current disperses and can cause unintended thermal injury.",
+  "submodule": "Module 3.9 – Monopolar Electrosurgery in Hysteroscopy",
+  "questionType": "multiple_choice"
+     }
+    ]
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "id": "emigs-module-3-part-1",
+    "title": "EMIGS Module 3 (Part 1)",
+    "questions": [
+      {
+        "id": "m3-nq1",
+        "text": "Which of the following are true regarding endoscope selection in gynecologic surgery? Select all that apply.",
+        "answerOptions": [
+          { "id": "m3-nq1-a", "text": "A) A 0-degree telescope provides the widest field of view in laparoscopy.", "isCorrect": false },
+          { "id": "m3-nq1-b", "text": "B) A 70-degree cystoscope is best for viewing the anterior and lateral bladder walls.", "isCorrect": true },
+          { "id": "m3-nq1-c", "text": "C) A 30-degree laparoscope provides a wider view than a 0-degree laparoscope.", "isCorrect": true },
+          { "id": "m3-nq1-d", "text": "D) Operative hysteroscopy with a 0-degree scope provides a consistent view of instruments.", "isCorrect": true },
+          { "id": "m3-nq1-e", "text": "E) A 30-degree hysteroscope allows visualization of cornual recesses with simple rotation.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A 0° laparoscope has a narrower field than 30°. A 70° cystoscope optimizes anterior/lateral bladder views. Operative hysteroscopy typically uses a 0° lens for constant instrument visualization; a 30° diagnostic scope easily visualizes cornual recesses by rotation.",
+        "submodule": "Module 3.1 – Endoscope Selection",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m3-nq2",
+        "text": "Which of the following factors contribute to increased surgical fire risk? Select all that apply.",
+        "answerOptions": [
+          { "id": "m3-nq2-a", "text": "A) Use of alcohol-based skin prep not allowed to fully dry", "isCorrect": true },
+          { "id": "m3-nq2-b", "text": "B) Use of a bipolar cautery device with glycine distension", "isCorrect": false },
+          { "id": "m3-nq2-c", "text": "C) Open delivery of oxygen (e.g., nasal cannula)", "isCorrect": true },
+          { "id": "m3-nq2-d", "text": "D) Use of monopolar electrosurgery", "isCorrect": true },
+          { "id": "m3-nq2-e", "text": "E) CO₂ laparoscopic environment", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fire risk rises with alcohol prep (if not dry), open oxygen, and ignition sources (monopolar). Glycine/bipolar are fluid/energy compatibility issues, not fire risks. CO₂ is nonflammable.",
+        "submodule": "Module 3.2 – Patient Burns During Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m3-nq3",
+        "text": "Which of the following are true regarding visualization during laparoscopic surgery? Select all that apply.",
+        "answerOptions": [
+          { "id": "m3-nq3-a", "text": "A) Fogging can be prevented by pre-warming the laparoscope.", "isCorrect": true },
+          { "id": "m3-nq3-b", "text": "B) Smoke from electrosurgery can cause complete loss of video signal.", "isCorrect": false },
+          { "id": "m3-nq3-c", "text": "C) Intraoperative blood can impair visibility.", "isCorrect": true },
+          { "id": "m3-nq3-d", "text": "D) Disconnection of the light source may result in a black screen.", "isCorrect": true },
+          { "id": "m3-nq3-e", "text": "E) Fogging is best treated by increasing intra-abdominal pressure.", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Warm the scope or use antifog to prevent fogging. Blood degrades the view. Light-source/camera disconnection can black out the screen. Smoke reduces visibility but doesn’t eliminate the image; pressure doesn’t fix fogging.",
+        "submodule": "Module 3.3 – Poor Visualization During Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m3-nq4",
+        "text": "Which of the following techniques can improve visualization during hysteroscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "m3-nq4-a", "text": "A) Increase fluid outflow and apply suction.", "isCorrect": true },
+          { "id": "m3-nq4-b", "text": "B) Remove the hysteroscope and perform blind sharp curettage as a primary strategy", "isCorrect": false },
+          { "id": "m3-nq4-c", "text": "C) Temporarily increase intrauterine pressure to 80–100 mmHg.", "isCorrect": true },
+          { "id": "m3-nq4-d", "text": "D) Discontinue the procedure if blood is present.", "isCorrect": false },
+          { "id": "m3-nq4-e", "text": "E) Schedule the procedure during the early proliferative phase.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Suction/outflow clears blood. Briefly increasing pressure can help; early proliferative timing minimizes bleeding. Blind curettage and stopping as next steps are not preferred.",
+        "submodule": "Module 3.4 – Poor Visualization During Hysteroscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m3-nq5",
+        "text": "Which of the following statements are incorrect regarding poor uterine distension during hysteroscopy? (Select all that are incorrect.)",
+        "answerOptions": [
+          { "id": "m3-nq5-a", "text": "A) Routine mechanical dilation is always recommended prior to hysteroscopy.", "isCorrect": false },
+          { "id": "m3-nq5-b", "text": "B) An overdilated cervix may result in poor distension.", "isCorrect": true },
+          { "id": "m3-nq5-c", "text": "C) Upsizing the hysteroscope or clamping the cervix can reduce fluid leakage during overdilation.", "isCorrect": true },
+          { "id": "m3-nq5-d", "text": "D) Low intrauterine pressure contributes to under-distension.", "isCorrect": true },
+          { "id": "m3-nq5-e", "text": "E) Purse-string sutures might tighten the cervical seal during overdilation if other measures fail.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Routine dilation isn’t recommended and may worsen leakage. Overdilation, low pressure, and inadequate sealing reduce distension; upsizing/clamping/purse-string can help.",
+        "submodule": "Module 3.5 – Managing Poor Uterine Distension During Hysteroscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "m3-nq6",
+        "text": "A laparoscopic hysterectomy is underway and the video monitor goes completely black. Which next steps are most appropriate to troubleshoot? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "m3-nq6-a", "text": "A) Apply antifog solution to the lens", "isCorrect": false },
+          { "id": "m3-nq6-b", "text": "B) Inspect and reconnect the light source", "isCorrect": true },
+          { "id": "m3-nq6-c", "text": "C) Irrigate the lens with warm saline", "isCorrect": false },
+          { "id": "m3-nq6-d", "text": "D) Inspect the camera cable and connections", "isCorrect": true },
+          { "id": "m3-nq6-e", "text": "E) Increase insufflation pressure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A black screen points to light/camera failure—check the light source and camera connections. Fog/condensation degrade but don’t eliminate the image.",
+        "submodule": "Module 3.3 – Poor Visualization During Laparoscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+
+      { "id": "m3-q1",
+        "text": "Which lens angle provides the most straightforward and intuitive view during laparoscopy?",
+        "answerOptions": [
+          { "id": "m3-q1-a", "text": "A) 0-degree", "isCorrect": true },
+          { "id": "m3-q1-b", "text": "B) 30-degree", "isCorrect": false },
+          { "id": "m3-q1-c", "text": "C) 45-degree", "isCorrect": false },
+          { "id": "m3-q1-d", "text": "D) 70-degree", "isCorrect": false },
+          { "id": "m3-q1-e", "text": "E) 90-degree", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A 0° lens aligns with the natural line of sight, giving the most intuitive view.",
+        "submodule": "Module 3.1 – Endoscope Selection",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q2",
+        "text": "During operative hysteroscopy, which is essential to ensure full visibility of the operative instrument tip?",
+        "answerOptions": [
+          { "id": "m3-q2-a", "text": "A) Use of flexible hysteroscope", "isCorrect": false },
+          { "id": "m3-q2-b", "text": "B) Use of a 30-degree hysteroscope", "isCorrect": false },
+          { "id": "m3-q2-c", "text": "C) Use of a 0-degree hysteroscope", "isCorrect": true },
+          { "id": "m3-q2-d", "text": "D) Use of a small-diameter hysteroscope", "isCorrect": false },
+          { "id": "m3-q2-e", "text": "E) Use of a 90-degree scope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Only a 0° hysteroscope keeps the operative instrument tip fully in view.",
+        "submodule": "Module 3.1 – Endoscope Selection",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q3",
+        "text": "When using a 30-degree laparoscope, image orientation can be manipulated by:",
+        "answerOptions": [
+          { "id": "m3-q3-a", "text": "A) Decreasing insufflation pressure", "isCorrect": false },
+          { "id": "m3-q3-b", "text": "B) Moving the light cord opposite to the desired field of view", "isCorrect": true },
+          { "id": "m3-q3-c", "text": "C) Rotating the scope 360 degrees rapidly", "isCorrect": false },
+          { "id": "m3-q3-d", "text": "D) Changing to a zero-degree lens", "isCorrect": false },
+          { "id": "m3-q3-e", "text": "E) Increasing camera zoom", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "With angled scopes, rotating the light cord steers the viewing direction.",
+        "submodule": "Module 3.1 – Endoscope Selection",
+        "questionType": "multiple_choice"
+      },
+
+      { "id": "m3-q4",
+        "text": "Which of the following is an ignition source during laparoscopy?",
+        "answerOptions": [
+          { "id": "m3-q4-a", "text": "A) Saline", "isCorrect": false },
+          { "id": "m3-q4-b", "text": "B) Surgical drape", "isCorrect": false },
+          { "id": "m3-q4-c", "text": "C) Betadine", "isCorrect": false },
+          { "id": "m3-q4-d", "text": "D) Electrosurgery", "isCorrect": true },
+          { "id": "m3-q4-e", "text": "E) Oxygen", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Electrosurgery is a heat/ignition source when fuel and oxidizer are present.",
+        "submodule": "Module 3.2 – Patient Burns During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q5",
+        "text": "Which scenario represents the lowest risk for a surgical fire?",
+        "answerOptions": [
+          { "id": "m3-q5-a", "text": "A) Open oxygen + alcohol prep + cautery near the face", "isCorrect": false },
+          { "id": "m3-q5-b", "text": "B) Alcohol prep with laparoscopic cautery", "isCorrect": false },
+          { "id": "m3-q5-c", "text": "C) Electrosurgery below the xiphoid with betadine prep and general anesthesia", "isCorrect": true },
+          { "id": "m3-q5-d", "text": "D) Cautery in the oral cavity under open oxygen", "isCorrect": false },
+          { "id": "m3-q5-e", "text": "E) Laser on the scalp under nitrous oxide", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "No open oxygen, no alcohol prep, and a lower anatomic site minimize fire risk.",
+        "submodule": "Module 3.2 – Patient Burns During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q6",
+        "text": "Capacitive coupling in electrosurgery refers to:",
+        "answerOptions": [
+          { "id": "m3-q6-a", "text": "A) Intentional energy transfer to adjacent tissue via clamp", "isCorrect": false },
+          { "id": "m3-q6-b", "text": "B) Electrode-to-metal arcing at the operative tip", "isCorrect": false },
+          { "id": "m3-q6-c", "text": "C) Unintended energy transfer through intact insulation to nearby structures", "isCorrect": true },
+          { "id": "m3-q6-d", "text": "D) Creation of a closed loop for monopolar circuit completion", "isCorrect": false },
+          { "id": "m3-q6-e", "text": "E) Flow of current through the grounding pad", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Capacitive coupling transfers energy across intact insulation due to electric fields, causing unintended burns.",
+        "submodule": "Module 3.2 – Patient Burns During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+
+      { "id": "m3-q7",
+        "text": "First step when the laparoscopic image suddenly goes black during a procedure?",
+        "answerOptions": [
+          { "id": "m3-q7-a", "text": "A) Clean the lens", "isCorrect": false },
+          { "id": "m3-q7-b", "text": "B) Adjust insufflation pressure", "isCorrect": false },
+          { "id": "m3-q7-c", "text": "C) Inspect the light source connection", "isCorrect": true },
+          { "id": "m3-q7-d", "text": "D) Attach smoke evacuator", "isCorrect": false },
+          { "id": "m3-q7-e", "text": "E) Increase camera zoom", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "A black screen suggests loss of light/signal—check the light source first.",
+        "submodule": "Module 3.3 – Poor Visualization During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q8",
+        "text": "All of the following can reduce visualization without making the screen go completely black EXCEPT:",
+        "answerOptions": [
+          { "id": "m3-q8-a", "text": "A) Fogging of the laparoscope", "isCorrect": false },
+          { "id": "m3-q8-b", "text": "B) Blood in the operative field", "isCorrect": false },
+          { "id": "m3-q8-c", "text": "C) Camera disconnection", "isCorrect": true },
+          { "id": "m3-q8-d", "text": "D) Smoke from cautery", "isCorrect": false },
+          { "id": "m3-q8-e", "text": "E) Dirty lens", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Camera disconnection blacks out the image; other issues merely degrade it.",
+        "submodule": "Module 3.3 – Poor Visualization During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q9",
+        "text": "To troubleshoot a blurry laparoscopic image caused by condensation, the most appropriate next step is:",
+        "answerOptions": [
+          { "id": "m3-q9-a", "text": "A) Remove the camera and replace it", "isCorrect": false },
+          { "id": "m3-q9-b", "text": "B) Soak the lens in betadine", "isCorrect": false },
+          { "id": "m3-q9-c", "text": "C) Wipe the scope on a peritoneal surface", "isCorrect": true },
+          { "id": "m3-q9-d", "text": "D) Increase insufflation pressure", "isCorrect": false },
+          { "id": "m3-q9-e", "text": "E) Switch to a 0-degree scope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "A gentle wipe on a peritoneal surface removes condensation quickly.",
+        "submodule": "Module 3.3 – Poor Visualization During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+
+      { "id": "m3-q10",
+        "text": "Which action will most directly improve visualization in a blood-filled uterine cavity during hysteroscopy?",
+        "answerOptions": [
+          { "id": "m3-q10-a", "text": "A) Increase cervical dilation", "isCorrect": false },
+          { "id": "m3-q10-b", "text": "B) Inject vasopressin", "isCorrect": false },
+          { "id": "m3-q10-c", "text": "C) Increase fluid outflow with suction", "isCorrect": true },
+          { "id": "m3-q10-d", "text": "D) Decrease intrauterine pressure", "isCorrect": false },
+          { "id": "m3-q10-e", "text": "E) Use monopolar electrosurgery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Suction/outflow clears blood and immediately improves the view.",
+        "submodule": "Module 3.4 – Poor Visualization During Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q11",
+        "text": "Which uterine phase offers optimal visualization for diagnostic hysteroscopy?",
+        "answerOptions": [
+          { "id": "m3-q11-a", "text": "A) Luteal phase", "isCorrect": false },
+          { "id": "m3-q11-b", "text": "B) Secretory phase", "isCorrect": false },
+          { "id": "m3-q11-c", "text": "C) Early proliferative phase", "isCorrect": true },
+          { "id": "m3-q11-d", "text": "D) Mid-cycle", "isCorrect": false },
+          { "id": "m3-q11-e", "text": "E) Menstrual phase", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Early proliferative phase has a thin endometrium and minimal bleeding.",
+        "submodule": "Module 3.4 – Poor Visualization During Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q12",
+        "text": "What is the most important precaution before advancing a hysteroscope with poor visualization?",
+        "answerOptions": [
+          { "id": "m3-q12-a", "text": "A) Reduce distension pressure", "isCorrect": false },
+          { "id": "m3-q12-b", "text": "B) Place the patient in Trendelenburg", "isCorrect": false },
+          { "id": "m3-q12-c", "text": "C) Use vasopressin in the cavity", "isCorrect": false },
+          { "id": "m3-q12-d", "text": "D) Improve visualization before further advancement", "isCorrect": true },
+          { "id": "m3-q12-e", "text": "E) Use a larger diameter hysteroscope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Never advance blindly—optimize visualization first to avoid perforation.",
+        "submodule": "Module 3.4 – Poor Visualization During Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+
+      { "id": "m3-q13",
+        "text": "Which of the following can cause underdistension during hysteroscopy?",
+        "answerOptions": [
+          { "id": "m3-q13-a", "text": "A) Small fibroids", "isCorrect": false },
+          { "id": "m3-q13-b", "text": "B) Overdilation of the cervix", "isCorrect": true },
+          { "id": "m3-q13-c", "text": "C) Use of vasopressin", "isCorrect": false },
+          { "id": "m3-q13-d", "text": "D) Retroverted uterus", "isCorrect": false },
+          { "id": "m3-q13-e", "text": "E) Use of saline", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Overdilation allows fluid egress, reducing cavity pressure and distension.",
+        "submodule": "Module 3.5 – Managing Poor Uterine Distension During Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q14",
+        "text": "A reasonable technique to manage underdistension caused by a wide cervical opening is:",
+        "answerOptions": [
+          { "id": "m3-q14-a", "text": "A) Increase uterine pressure to 120 mmHg", "isCorrect": false },
+          { "id": "m3-q14-b", "text": "B) Clamp the cervix with a sponge stick or Allis clamp", "isCorrect": true },
+          { "id": "m3-q14-c", "text": "C) Decrease hysteroscope size to 2 mm", "isCorrect": false },
+          { "id": "m3-q14-d", "text": "D) Apply uterine manipulator", "isCorrect": false },
+          { "id": "m3-q14-e", "text": "E) Use vasopressin for hemostasis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Clamping narrows the canal, reducing leakage and restoring pressure.",
+        "submodule": "Module 3.5 – Managing Poor Uterine Distension During Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      { "id": "m3-q15",
+        "text": "Which best explains why overdilation leads to inadequate uterine distension?",
+        "answerOptions": [
+          { "id": "m3-q15-a", "text": "A) Causes uterine rupture", "isCorrect": false },
+          { "id": "m3-q15-b", "text": "B) Induces premature cervical ripening", "isCorrect": false },
+          { "id": "m3-q15-c", "text": "C) Allows backflow of distension fluid", "isCorrect": true },
+          { "id": "m3-q15-d", "text": "D) Increases intrauterine pressure beyond MAP", "isCorrect": false },
+          { "id": "m3-q15-e", "text": "E) Decreases uterine contractility", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Overdilation compromises the seal, allowing fluid to escape.",
+        "submodule": "Module 3.5 – Managing Poor Uterine Distension During Hysteroscopy",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

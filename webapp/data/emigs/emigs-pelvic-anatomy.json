@@ -1,0 +1,939 @@
+[
+  {
+   "id": "emigs-pelvic-anatomy-test",
+   "title": "EMIGS Pelvic Anatomy",
+   "questions": [
+     {
+       "id": "anatomy-q1",
+       "text": "This artery runs with the Round Ligament",
+       "answerOptions": [
+         {
+           "id": "q1-a",
+           "text": "A. Ovarian",
+           "isCorrect": false
+         },
+         {
+           "id": "q1-b",
+           "text": "B. Uterine",
+           "isCorrect": false
+         },
+         {
+           "id": "q1-c",
+           "text": "C. Sampson's",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Sampson's"],
+       "difficulty": "Medium",
+       "explanation": "Sampson's artery runs with the round ligament and is often encountered during hysterectomy.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q2",
+       "text": "The ovarian arteries arise from the aorta. Therefore, it makes sense that the ovarian veins drain into these structures:",
+       "answerOptions": [
+         {
+           "id": "q2-a",
+           "text": "A. IVC",
+           "isCorrect": false
+         },
+         {
+           "id": "q2-b",
+           "text": "B. Right into IVC, Left into Renal",
+           "isCorrect": true
+         },
+         {
+           "id": "q2-c",
+           "text": "C. Right into Renal, Left into IVC",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Right into IVC, Left into Renal"],
+       "difficulty": "Medium",
+       "explanation": "The right ovarian vein drains directly into the IVC; the left drains into the left renal vein.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q3",
+       "text": "These are the three branches that make up the posterior division of the internal iliac artery:",
+       "answerOptions": [
+         {
+           "id": "q3-a",
+           "text": "A. Iliolumbar, Lateral Sacral, Inferior Gluteal",
+           "isCorrect": false
+         },
+         {
+           "id": "q3-b",
+           "text": "B. Iliolumbar, Middle Sacral, Inferior Gluteal",
+           "isCorrect": false
+         },
+         {
+           "id": "q3-c",
+           "text": "C. Iliolumbar, Lateral Sacral, Superior Gluteal",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Iliolumbar, Lateral Sacral, Superior Gluteal"],
+       "difficulty": "Difficult",
+       "explanation": "These are the three main branches of the posterior division of the internal iliac artery.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q4",
+       "text": "The Middle Sacral artery is not the most common site of bleeding during sacral colpopexy. It is actually this structure. However, the middle sacral artery is important to avoid hemorrhage because it arises directly from this other structure:",
+       "answerOptions": [
+         {
+           "id": "q4-a",
+           "text": "A. Sacral Venous Plexus, Aorta",
+           "isCorrect": true
+         },
+         {
+           "id": "q4-b",
+           "text": "B. Sacral Venous Plexus, External Iliac",
+           "isCorrect": false
+         },
+         {
+           "id": "q4-c",
+           "text": "C. Middle Rectal Vein, Internal Iliac",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Sacral Venous Plexus, Aorta"],
+       "difficulty": "Difficult",
+       "explanation": "The most common bleeding source is venous plexus; the middle sacral artery arises from the aorta, making hemorrhage difficult to control.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q5",
+       "text": "Which is not one of the six main branches of the anterior division of the internal iliac artery?",
+       "answerOptions": [
+         {
+           "id": "q5-a",
+           "text": "A. Superior Rectal",
+           "isCorrect": true
+         },
+         {
+           "id": "q5-b",
+           "text": "B. Inferior Gluteal",
+           "isCorrect": false
+         },
+         {
+           "id": "q5-c",
+           "text": "C. Obturator",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Superior Rectal"],
+       "difficulty": "Medium",
+       "explanation": "The superior rectal artery is a branch of the IMA, not of the internal iliac artery.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q6",
+       "text": "Injury to this nerve most commonly occurs with retractors and during pelvic lymph node dissection. It can result in loss of sensation to mons pubis, labia majora, and upper anterior/medial thigh:",
+       "answerOptions": [
+         {
+           "id": "q6-a",
+           "text": "A. Femoral",
+           "isCorrect": false
+         },
+         {
+           "id": "q6-b",
+           "text": "B. Genitofemoral",
+           "isCorrect": true
+         },
+         {
+           "id": "q6-c",
+           "text": "C. Gonadal",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Genitofemoral"],
+       "difficulty": "Medium",
+       "explanation": "This nerve is most at risk during retraction; injury affects the mons and inner thigh.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q7",
+       "text": "Injury to this nerve most commonly occurs during pelvic lymph node dissection. It can make it difficult to ride a horse or keep your legs shut:",
+       "answerOptions": [
+         {
+           "id": "q7-a",
+           "text": "A. Obturator Nerve",
+           "isCorrect": true
+         },
+         {
+           "id": "q7-b",
+           "text": "B. Adductor Nerve",
+           "isCorrect": false
+         },
+         {
+           "id": "q7-c",
+           "text": "C. Abductor Nerve",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Obturator Nerve"],
+       "difficulty": "Easy",
+       "explanation": "Damage to this nerve affects adduction of the thigh---'keeping legs shut.'",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q8",
+       "text": "Laparoscopic side ports should be placed above the Anterior Superior Iliac Spine to avoid entrapment of these structures when closing ports:",
+       "answerOptions": [
+         {
+           "id": "q8-a",
+           "text": "A. Ilioinguinal and Iliohypogastric",
+           "isCorrect": true
+         },
+         {
+           "id": "q8-b",
+           "text": "B. Iliolumbar and Iliohypogastric",
+           "isCorrect": false
+         },
+         {
+           "id": "q8-c",
+           "text": "C. Iliolumbar and Ilioinguinal",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Ilioinguinal and Iliohypogastric"],
+       "difficulty": "Medium",
+       "explanation": "These nerves are close to ASIS and must be avoided when placing ports.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q9",
+       "text": "The nerve that emerges from the border of the psoas muscle before exiting the pelvis at the inguinal ligament is usually injured by retraction. During vaginal surgery it is injured primarily via hyperflexion of the hip. Injury results in inability to 'Get out of bed,' flex hips, climb stairs:",
+       "answerOptions": [
+         {
+           "id": "q9-a",
+           "text": "A. Sciatic",
+           "isCorrect": false
+         },
+         {
+           "id": "q9-b",
+           "text": "B. Femoral",
+           "isCorrect": true
+         },
+         {
+           "id": "q9-c",
+           "text": "C. Femoral branch of genitofemoral nerve",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Femoral"],
+       "difficulty": "Medium",
+       "explanation": "Femoral nerve injury leads to weakness in hip flexion and difficulty rising from a chair.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q10",
+       "text": "One nerve is injured from too much pressure on the lateral aspect of the fibula and may result in acute foot drop. Another nerve may cause vulvar pain after entrapment from sacrospinous ligament fixation. Select the nerve NOT represented here:",
+       "answerOptions": [
+         {
+           "id": "q10-a",
+           "text": "A. Peroneal",
+           "isCorrect": false
+         },
+         {
+           "id": "q10-b",
+           "text": "B. Pudendal",
+           "isCorrect": false
+         },
+         {
+           "id": "q10-c",
+           "text": "C. Tibial",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Tibial"],
+       "difficulty": "Medium",
+       "explanation": "Tibial nerve is not usually affected in the contexts described; peroneal and pudendal are relevant.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q11",
+       "text": "In the event of pelvic hemorrhage, the hypogastric arteries can be ligated bilaterally to reduce pulse pressure in the pelvis. However, it is important to distinguish them from this vessel before ligation:",
+       "answerOptions": [
+         {
+           "id": "q11-a",
+           "text": "A. Circumflex Iliac",
+           "isCorrect": false
+         },
+         {
+           "id": "q11-b",
+           "text": "B. External Iliac",
+           "isCorrect": true
+         },
+         {
+           "id": "q11-c",
+           "text": "C. Internal Iliac",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "External Iliac"],
+       "difficulty": "Medium",
+       "explanation": "Accidental ligation of the external iliac artery instead of the internal iliac can be catastrophic.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q12",
+       "text": "The ureter crosses the pelvic brim at this structure:",
+       "answerOptions": [
+         {
+           "id": "q12-a",
+           "text": "A. Bifurcation of the common iliac artery",
+           "isCorrect": true
+         },
+         {
+           "id": "q12-b",
+           "text": "B. Bifurcation of the aorta",
+           "isCorrect": false
+         },
+         {
+           "id": "q12-c",
+           "text": "C. Bifurcation of the internal iliac artery",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Bifurcation of the common iliac artery"],
+       "difficulty": "Medium",
+       "explanation": "The ureter crosses anterior to the bifurcation of the common iliac artery at the pelvic brim.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q13",
+       "text": "Inserting the Foley catheter is important to avoid injury to the _______ upon entry into the abdominal cavity. The most common injury is to the _______ of this structure:",
+       "answerOptions": [
+         {
+           "id": "q13-a",
+           "text": "A. Bladder, Trigone",
+           "isCorrect": false
+         },
+         {
+           "id": "q13-b",
+           "text": "B. Bowel, Trigone",
+           "isCorrect": false
+         },
+         {
+           "id": "q13-c",
+           "text": "C. Bladder, Dome",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Bladder, Dome"],
+       "difficulty": "Easy",
+       "explanation": "The dome of the bladder is most vulnerable during abdominal entry. Injuries are repaired in two layers.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q14",
+       "text": "What is the purpose of symphysiotomy?",
+       "answerOptions": [
+         {
+           "id": "q14-a",
+           "text": "A. Shoulder stuck, push the head back in and do a C-section",
+           "isCorrect": false
+         },
+         {
+           "id": "q14-b",
+           "text": "B. Cutting pubic symphysis to make more room for childbirth",
+           "isCorrect": true
+         },
+         {
+           "id": "q14-c",
+           "text": "C. Playing symphony music to accelerate labor",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Cutting pubic symphysis to make more room for childbirth"],
+       "difficulty": "Easy",
+       "explanation": "Symphysiotomy widens the pelvis in obstructed labor scenarios, now rarely used.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q15",
+       "text": "You refused the elective primary C-section and now have a bad rectocele. After a midline incision along the vagina to a site above the rectocele, dissection is carried laterally to the lateral vaginal sulcus and medial margin of this muscle, the medial-most part of the levator ani:",
+       "answerOptions": [
+         {
+           "id": "q15-a",
+           "text": "A. Puborectalis",
+           "isCorrect": true
+         },
+         {
+           "id": "q15-b",
+           "text": "B. Iliococcygeus",
+           "isCorrect": false
+         },
+         {
+           "id": "q15-c",
+           "text": "C. Pubococcygeus",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Puborectalis"],
+       "difficulty": "Medium",
+       "explanation": "The puborectalis is the medial-most muscle of the levator ani, involved in rectocele repair.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q16",
+       "text": "This structure is often taken first on an abdominal hysterectomy to give one access to the retroperitoneum, particularly the paravesical space:",
+       "answerOptions": [
+         {
+           "id": "q16-a",
+           "text": "A. Round Ligament",
+           "isCorrect": true
+         },
+         {
+           "id": "q16-b",
+           "text": "B. Fallopian Tube",
+           "isCorrect": false
+         },
+         {
+           "id": "q16-c",
+           "text": "C. Utero-ovarian Ligament",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Round Ligament"],
+       "difficulty": "Medium",
+       "explanation": "Taking the round ligament gives access to the retroperitoneum and the paravesical space during hysterectomy.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q17",
+       "text": "This anterior, midline space must be opened and developed to perform a total or radical hysterectomy:",
+       "answerOptions": [
+         {
+           "id": "q17-a",
+           "text": "A. Prevesicle space",
+           "isCorrect": false
+         },
+         {
+           "id": "q17-b",
+           "text": "B. Vesicovaginal space",
+           "isCorrect": true
+         },
+         {
+           "id": "q17-c",
+           "text": "C. Prevaginal space",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Vesicovaginal space"],
+       "difficulty": "Medium",
+       "explanation": "This space, also called the bladder flap, must be developed during a total or radical hysterectomy.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q18",
+       "text": "What defines the lateral borders of the rectovaginal space?",
+       "answerOptions": [
+         {
+           "id": "q18-a",
+           "text": "A. Ureter",
+           "isCorrect": false
+         },
+         {
+           "id": "q18-b",
+           "text": "B. Anterior Division of Internal Iliacs",
+           "isCorrect": false
+         },
+         {
+           "id": "q18-c",
+           "text": "C. Uterosacral Ligaments",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Uterosacral Ligaments"],
+       "difficulty": "Medium",
+       "explanation": "The uterosacral ligaments define the lateral borders of the rectovaginal space.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q19",
+       "text": "This site, located between the bladder and pubic bone, must be opened during a Burch procedure:",
+       "answerOptions": [
+         {
+           "id": "q19-a",
+           "text": "A. White Line of Toldt",
+           "isCorrect": false
+         },
+         {
+           "id": "q19-b",
+           "text": "B. Space of Retzius",
+           "isCorrect": true
+         },
+         {
+           "id": "q19-c",
+           "text": "C. Transvaginal Space",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Space of Retzius"],
+       "difficulty": "Medium",
+       "explanation": "This prevesical space must be accessed during a Burch procedure for urinary incontinence surgery.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q20",
+       "text": "The pararectal space can be initially opened by cutting the peritoneum traveling caudad and lateral to the IP ligament. Which answer does not contain a border of the pararectal space?",
+       "answerOptions": [
+         {
+           "id": "q20-a",
+           "text": "A. Ureter, Internal Iliac",
+           "isCorrect": false
+         },
+         {
+           "id": "q20-b",
+           "text": "B. Sacrum, Coccygeus",
+           "isCorrect": false
+         },
+         {
+           "id": "q20-c",
+           "text": "C. Broad Ligament, Uterine Artery",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Broad Ligament, Uterine Artery"],
+       "difficulty": "Difficult",
+       "explanation": "These are anterior structures, not borders of the pararectal space. Other borders include ureter (medial), internal iliac (lateral), and sacrum/coccygeus (posterior/floor).",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q21",
+       "text": "This artery supplies blood flow to the upper sigmoid colon:",
+       "answerOptions": [
+         {
+           "id": "q21-a",
+           "text": "A. Celiac",
+           "isCorrect": false
+         },
+         {
+           "id": "q21-b",
+           "text": "B. Superior Mesenteric Artery",
+           "isCorrect": false
+         },
+         {
+           "id": "q21-c",
+           "text": "C. Inferior Mesenteric Artery",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Inferior Mesenteric Artery"],
+       "difficulty": "Medium",
+       "explanation": "The IMA supplies the superior rectal artery, which supplies the upper sigmoid colon.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q22",
+       "text": "In addition to uterus, cervix, tubes, ovaries, nodes, washings, and peritoneal biopsies, this structure should also be removed in ovarian cancer staging. If the tumor is mucinous, this second structure should also be removed:",
+       "answerOptions": [
+         {
+           "id": "q22-a",
+           "text": "A. Omentum, Appendix",
+           "isCorrect": true
+         },
+         {
+           "id": "q22-b",
+           "text": "B. Omentum, Rectosigmoid",
+           "isCorrect": false
+         },
+         {
+           "id": "q22-c",
+           "text": "C. Appendix, Rectosigmoid",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Omentum, Appendix"],
+       "difficulty": "Medium",
+       "explanation": "Both should be removed in ovarian cancer staging, especially mucinous tumors due to appendiceal origin potential.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q23",
+       "text": "Above this point, lymphatics drain to pelvic nodes. Below this point, lymphatics drain to inguinal or femoral nodes:",
+       "answerOptions": [
+         {
+           "id": "q23-a",
+           "text": "A. Upper 1/3 of vagina",
+           "isCorrect": false
+         },
+         {
+           "id": "q23-b",
+           "text": "B. Midpoint of vagina",
+           "isCorrect": false
+         },
+         {
+           "id": "q23-c",
+           "text": "C. Lower 1/3 of vagina",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Lower 1/3 of vagina"],
+       "difficulty": "Medium",
+       "explanation": "This region drains to the inguinal/femoral nodes, while the upper 2/3 drains to pelvic nodes.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q24",
+       "text": "At the anterior superior iliac spine, the Superior Gluteal artery anastomoses with the deep circumflex iliac artery and the ascending branch of the lateral circumflex artery. These arise from the:",
+       "answerOptions": [
+         {
+           "id": "q24-a",
+           "text": "A. Aorta and External Iliac",
+           "isCorrect": false
+         },
+         {
+           "id": "q24-b",
+           "text": "B. Internal Iliac and Femoral",
+           "isCorrect": false
+         },
+         {
+           "id": "q24-c",
+           "text": "C. External Iliac and Femoral",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "External Iliac and Femoral"],
+       "difficulty": "Difficult",
+       "explanation": "These arteries give rise to the deep circumflex iliac and lateral circumflex arteries that anastomose with the superior gluteal.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q25",
+       "text": "Which is not a border of the pelvic lymph node dissection?",
+       "answerOptions": [
+         {
+           "id": "q25-a",
+           "text": "A. Bifurcation of internal iliacs",
+           "isCorrect": true
+         },
+         {
+           "id": "q25-b",
+           "text": "B. Deep iliac circumflex vein",
+           "isCorrect": false
+         },
+         {
+           "id": "q25-c",
+           "text": "C. Superior vesical artery",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Bifurcation of internal iliacs"],
+       "difficulty": "Medium",
+       "explanation": "The cephalad border of a pelvic lymph node dissection is the bifurcation of the common iliacs, not the internal.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q26",
+       "text": "What is the narrowest transverse point in the pelvis?",
+       "answerOptions": [
+         {
+           "id": "q26-a",
+           "text": "A. True conjugate",
+           "isCorrect": false
+         },
+         {
+           "id": "q26-b",
+           "text": "B. Distance between ischial spines",
+           "isCorrect": true
+         },
+         {
+           "id": "q26-c",
+           "text": "C. Transverse diameter of pelvic outlet",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Distance between ischial spines"],
+       "difficulty": "Medium",
+       "explanation": "This is the narrowest transverse diameter and is clinically significant for fetal descent.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q27",
+       "text": "What is the narrowest anterior-posterior diameter of the pelvis (most likely site for obstructed labor)?",
+       "answerOptions": [
+         {
+           "id": "q27-a",
+           "text": "A. Distance between ischial spines",
+           "isCorrect": false
+         },
+         {
+           "id": "q27-b",
+           "text": "B. Obstetric Conjugate",
+           "isCorrect": true
+         },
+         {
+           "id": "q27-c",
+           "text": "C. Pelvic Outlet",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Obstetric Conjugate"],
+       "difficulty": "Medium",
+       "explanation": "This is the narrowest AP diameter of the pelvic inlet and most likely site of obstruction during labor.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q28",
+       "text": "At 0 station, the biparietal diameter (BPD) is at the ____________. The presenting part is at the ____________:",
+       "answerOptions": [
+         {
+           "id": "q28-a",
+           "text": "A. Pelvic Inlet, Ischial Spines",
+           "isCorrect": true
+         },
+         {
+           "id": "q28-b",
+           "text": "B. Pelvic Outlet, Hymenal Ring",
+           "isCorrect": false
+         },
+         {
+           "id": "q28-c",
+           "text": "C. Obstetric Conjugate, Vaginal Opening",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Pelvic Inlet, Ischial Spines"],
+       "difficulty": "Medium",
+       "explanation": "At 0 station, the BPD is at the pelvic inlet; the presenting part is at the ischial spines.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q29",
+       "text": "Of the three conjugates of the pelvis, which one can be measured via pelvic exam?",
+       "answerOptions": [
+         {
+           "id": "q29-a",
+           "text": "A. True",
+           "isCorrect": false
+         },
+         {
+           "id": "q29-b",
+           "text": "B. Obstetrical",
+           "isCorrect": false
+         },
+         {
+           "id": "q29-c",
+           "text": "C. Diagonal",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Diagonal"],
+       "difficulty": "Easy",
+       "explanation": "The diagonal conjugate is the only one that can be measured on pelvic exam.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q30",
+       "text": "Of the four pelvic types, which has the best chance for a normal vaginal delivery?",
+       "answerOptions": [
+         {
+           "id": "q30-a",
+           "text": "A. Anthropoid",
+           "isCorrect": false
+         },
+         {
+           "id": "q30-b",
+           "text": "B. Gynecoid",
+           "isCorrect": true
+         },
+         {
+           "id": "q30-c",
+           "text": "C. Platypelloid",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Gynecoid"],
+       "difficulty": "Easy",
+       "explanation": "The gynecoid pelvis is the most favorable type for vaginal delivery due to its rounded shape.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q31",
+       "text": "What is the pathway of the TVT-O (transobturator) sling?",
+       "answerOptions": [
+         {
+           "id": "q31-a",
+           "text": "A. Vaginal tunnel → space of Retzius → skin",
+           "isCorrect": false
+         },
+         {
+           "id": "q31-b",
+           "text": "B. Vaginal tunnel → obturator internus → obturator membrane → skin",
+           "isCorrect": true
+         },
+         {
+           "id": "q31-c",
+           "text": "C. Vaginal tunnel → rectovaginal space → piriformis → skin",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["B", "Vaginal tunnel → obturator internus → obturator membrane → skin"],
+       "difficulty": "Medium",
+       "explanation": "TVT-O and TOT slings pass through the obturator internus and membrane, avoiding the space of Retzius.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q32",
+       "text": "What is the pathway of the TVT (retropubic) sling?",
+       "answerOptions": [
+         {
+           "id": "q32-a",
+           "text": "A. Vaginal tunnel → space of Retzius → abdominal wall fascia → skin",
+           "isCorrect": true
+         },
+         {
+           "id": "q32-b",
+           "text": "B. Vaginal tunnel → obturator foramen → gluteal space → skin",
+           "isCorrect": false
+         },
+         {
+           "id": "q32-c",
+           "text": "C. Vaginal tunnel → posterior fornix → peritoneum → skin",
+           "isCorrect": false
+         }
+       ],
+       "acceptedWrittenAnswers": ["A", "Vaginal tunnel → space of Retzius → abdominal wall fascia → skin"],
+       "difficulty": "Medium",
+       "explanation": "Retropubic (TVT) slings pass through the space of Retzius and exit suprapubically through the abdominal wall.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q33",
+       "text": "In cervical cancer brachytherapy, at which location is Point A defined in relation to Point 0 (external cervical os)?",
+       "answerOptions": [
+         { "id": "q33-a", "text": "A. 2 cm superior and 2 cm medial", "isCorrect": false },
+         { "id": "q33-b", "text": "B. 2 cm superior and 2 cm lateral", "isCorrect": true },
+         { "id": "q33-c", "text": "C. 2 cm inferior and 2 cm lateral", "isCorrect": false }
+       ],
+       "acceptedWrittenAnswers": ["B", "2 cm superior and 2 cm lateral"],
+       "difficulty": "Medium",
+       "explanation": "Point A and Point B are historical Manchester-system dose-reference points used in cervical cancer brachytherapy. Point A is defined as 2 cm superior to the external cervical os (or tandem flange) and 2 cm lateral to the cervical canal midline, intended to represent the region where the uterine artery crosses the ureter—a presumed pathway of microscopic tumor spread. Point B is located 3 cm lateral to Point A (a total of 5 cm from midline) at the same vertical level and was intended to approximate dose to the pelvic lymph nodes, particularly the obturator and internal iliac basins. These anatomic assumptions, however, have since been shown to be inaccurate: the true uterine artery–ureter crossing lies more than 5 cm away from traditional Point A, receiving only 30–35% of the intended dose, and Point B correlates poorly with actual nodal dosimetry.\n\nWith the advent of MRI-guided brachytherapy, modern practice has transitioned to volume-based planning, using HR-CTV D90 as the primary dosimetric target. Prospective multicenter data and meta-analyses demonstrate that volume-based adaptive brachytherapy provides superior local control, better disease-free survival, and reduced toxicity compared to Point A–based planning. Accordingly, contemporary guidelines from ASTRO and NCCN now recommend volumetric prescription as standard of care, reserving Point A/B–based planning for situations where advanced imaging or 3D planning is unavailable.",
+       "submodule": "References:\n\n1. Wang KL, Yang YC, Chao KS, et al. Int J Radiat Oncol Biol Phys. 2007;69(2):498-503.\n\n2. Pötter R, Tanderup K, Schmid MP, et al. Lancet Oncol. 2021;22(4):538-547.\n\n3. Hande V, Chopra S, Kalra B, et al. Radiother Oncol. 2022;170:70-78.",
+       "images": [
+         {
+           "src": "pelvic-anatomy-q34",
+           "alt": "Diagram showing historical Manchester points A and B relative to the cervical canal and external os",
+           "caption": "Manchester system reference points (Point A and Point B).",
+           "credit": "© Medical Test Prep",
+           "displayMode": "inline",
+           "placement": "answer"
+         }
+       ]
+     },
+     {
+       "id": "anatomy-q34",
+       "text": "In cervical cancer brachytherapy, point B is defined as:",
+       "answerOptions": [
+         {
+           "id": "q34-a",
+           "text": "A. 3 cm lateral to Point A",
+           "isCorrect": false
+         },
+         {
+           "id": "q34-b",
+           "text": "B. 2 cm superior and 5 cm lateral to Point 0",
+           "isCorrect": false
+         },
+         {
+           "id": "q34-c",
+           "text": "C. Both",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "Both"],
+       "difficulty": "Difficult",
+       "explanation": "Point A and Point B are historical Manchester-system dose-reference points used in cervical cancer brachytherapy. Point A is defined as 2 cm superior to the external cervical os (or tandem flange) and 2 cm lateral to the cervical canal midline, intended to represent the region where the uterine artery crosses the ureter—a presumed pathway of microscopic tumor spread. Point B is located 3 cm lateral to Point A (a total of 5 cm from midline) at the same vertical level and was intended to approximate dose to the pelvic lymph nodes, particularly the obturator and internal iliac basins. These anatomic assumptions, however, have since been shown to be inaccurate: the true uterine artery–ureter crossing lies more than 5 cm away from traditional Point A, receiving only 30–35% of the intended dose, and Point B correlates poorly with actual nodal dosimetry.\n\nWith the advent of MRI-guided brachytherapy, modern practice has transitioned to volume-based planning, using HR-CTV D90 as the primary dosimetric target. Prospective multicenter data and meta-analyses demonstrate that volume-based adaptive brachytherapy provides superior local control, better disease-free survival, and reduced toxicity compared to Point A–based planning. Accordingly, contemporary guidelines from ASTRO and NCCN now recommend volumetric prescription as standard of care, reserving Point A/B–based planning for situations where advanced imaging or 3D planning is unavailable.",
+       "submodule": "References:\n\n1. Wang KL, Yang YC, Chao KS, et al. Int J Radiat Oncol Biol Phys. 2007;69(2):498-503.\n\n2. Pötter R, Tanderup K, Schmid MP, et al. Lancet Oncol. 2021;22(4):538-547.\n\n3. Hande V, Chopra S, Kalra B, et al. Radiother Oncol. 2022;170:70-78.",
+       "images": [
+         {
+           "src": "pelvic-anatomy-q34",
+           "alt": "Diagram showing historical Manchester points A and B relative to the cervical canal and external os",
+           "caption": "Manchester system reference points (Point A and Point B).",
+           "credit": "© Medical Test Prep",
+           "displayMode": "inline",
+           "placement": "answer"
+         }
+       ]
+     },
+     {
+       "id": "anatomy-q35",
+       "text": "Which of the following is true about the pubococcygeus muscle?",
+       "answerOptions": [
+         {
+           "id": "q35-a",
+           "text": "A. It is the most medial component of the levator ani",
+           "isCorrect": false
+         },
+         {
+           "id": "q35-b",
+           "text": "B. It is lateral to the iliococcygeus",
+           "isCorrect": false
+         },
+         {
+           "id": "q35-c",
+           "text": "C. It is between the puborectalis and iliococcygeus",
+           "isCorrect": true
+         }
+       ],
+       "acceptedWrittenAnswers": ["C", "It is between the puborectalis and iliococcygeus"],
+       "difficulty": "Medium",
+       "explanation": "The pubococcygeus lies between the medial puborectalis and lateral iliococcygeus in the levator ani group.",
+       "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology."
+     },
+     {
+       "id": "anatomy-q36",
+       "text": "Which patient is most likely to experience acute foot drop after surgery?",
+       "answerOptions": [
+         { "id": "q36-a", "text": "A. A", "isCorrect": true },
+         { "id": "q36-b", "text": "B. B", "isCorrect": false },
+         { "id": "q36-c", "text": "C. C", "isCorrect": false },
+         { "id": "q36-d", "text": "D. D", "isCorrect": false }
+       ],
+       "acceptedWrittenAnswers": ["A", "Patient with excessive lateral pressure on the calf or knee"],
+       "difficulty": "Medium",
+       "explanation": "Too much lateral pressure on the calf or knee during surgery can injure the common peroneal (fibular) nerve and cause foot drop. Hyperextended or hyperflexed legs more commonly injure the femoral nerve. Neutral positioning is safe.",
+       "submodule": "Module 5.1",
+       "images": [
+         {
+           "src": "pelvic-anatomy-q36-q37",
+           "alt": "",
+           "caption": "",
+           "credit": "© Medical Test Prep",
+           "displayMode": "inline",
+           "placement": "question"
+         }
+       ]
+     },
+     {
+       "id": "anatomy-q37",
+       "text": "Which patient is best positioned for surgery?",
+       "answerOptions": [
+         { "id": "q37-a", "text": "A. A", "isCorrect": false },
+         { "id": "q37-b", "text": "B. B", "isCorrect": false },
+         { "id": "q37-c", "text": "C. C", "isCorrect": false },
+         { "id": "q37-d", "text": "D. D", "isCorrect": true }
+       ],
+       "acceptedWrittenAnswers": ["D", "Patient in normal neutral positioning"],
+       "difficulty": "Easy",
+       "explanation": "Normal neutral positioning is safest. Hips should be between 60–170 degrees and knees between 90–120 degrees. Hyperextended legs in Trendelenburg can stretch the femoral nerve, hyperflexed legs can compress the femoral nerve, and lateral knee/calf pressure can injure the common peroneal nerve.",
+       "submodule": "Module 5.1",
+       "images": [
+         {
+           "src": "pelvic-anatomy-q36-q37",
+           "alt": "",
+           "caption": "",
+           "credit": "© Medical Test Prep",
+           "displayMode": "inline",
+           "placement": "question"
+         }
+       ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "emigs-module-10-part-1",
+    "title": "EMIGS Module 10 (Part 1)",
+    "questions": [
+      {
+        "id": "m10p1-q1",
+        "text": "Which 2 strategies most effectively reduce the risk of missed ureteral injury during complex gynecologic laparoscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Routine use of prophylactic ureteral stents", "isCorrect": false },
+          { "id": "b", "text": "B) Preoperative CT urogram in all endometriosis cases", "isCorrect": false },
+          { "id": "c", "text": "C) Intraoperative cystoscopy with visualization of ureteral jets", "isCorrect": true },
+          { "id": "d", "text": "D) Postoperative imaging only if hematuria develops", "isCorrect": false },
+          { "id": "e", "text": "E) Careful dissection along the pelvic sidewall with identification of ureters", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cystoscopy helps identify injuries immediately by confirming efflux from both ureteral orifices. Meticulous sidewall dissection with visual ureter identification reduces inadvertent injury.",
+        "submodule": "Module 10.1 – Ureteral Injury Management",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m10p1-q2",
+        "text": "Which 3 findings should raise suspicion for retroperitoneal vascular injury during laparoscopy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Pulsatile bleeding from the lateral pelvic sidewall", "isCorrect": true },
+          { "id": "b", "text": "B) Expanding hematoma near the psoas muscle", "isCorrect": true },
+          { "id": "c", "text": "C) Persistent venous oozing with normal visualization", "isCorrect": false },
+          { "id": "d", "text": "D) Drop in blood pressure with no intraperitoneal bleeding", "isCorrect": true },
+          { "id": "e", "text": "E) Loss of end-tidal CO₂ during port placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Arterial injury may appear as pulsatile bleeding; expanding retroperitoneal hematoma and hemodynamic instability without visible intraperitoneal bleeding are also concerning.",
+        "submodule": "Module 10.2 – Retroperitoneal Injury",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m10p1-q3",
+        "text": "Which of the following statements about secondary trocar placement are incorrect? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Secondary ports should be placed under direct visualization", "isCorrect": false },
+          { "id": "b", "text": "B) The inferior epigastric vessels lie medial to the lateral umbilical fold", "isCorrect": true },
+          { "id": "c", "text": "C) Blunt trocars eliminate the risk of vessel injury", "isCorrect": true },
+          { "id": "d", "text": "D) Transillumination helps identify safe port placement sites", "isCorrect": false },
+          { "id": "e", "text": "E) Most injuries occur during primary trocar placement, not secondary", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Inferior epigastric vessels are lateral to the lateral umbilical fold. Blunt trocars lessen but do not eliminate vascular risk. Direct visualization and transillumination are good practices, and most injuries occur during primary entry.",
+        "submodule": "Module 10.3 – Injuries during Secondary Port Placement",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p1-q4",
+        "text": "Which of the following are typical intraoperative clues suggesting small bowel injury? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Unexplained bleeding from mesentery", "isCorrect": true },
+          { "id": "b", "text": "B) Serosal blistering or discoloration", "isCorrect": true },
+          { "id": "c", "text": "C) Bowel adherence to the abdominal wall", "isCorrect": false },
+          { "id": "d", "text": "D) Persistent bubbling from small bowel on irrigation", "isCorrect": true },
+          { "id": "e", "text": "E) Leakage of enteric contents during suction", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Thermal or mechanical injury may show serosal changes; bubbles or visible enteric contents indicate perforation. Mesenteric bleeding can accompany bowel trauma; adhesions alone are not diagnostic.",
+        "submodule": "Module 10.4 – Small Bowel Injury",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m10p1-q5",
+        "text": "Which 2 intraoperative tests are most reliable for assessing sigmoid colon integrity after suspected injury? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Serosal scratch test with gauze", "isCorrect": false },
+          { "id": "b", "text": "B) Air leak test with saline immersion", "isCorrect": true },
+          { "id": "c", "text": "C) Methylene blue enema", "isCorrect": true },
+          { "id": "d", "text": "D) Direct visual inspection with 30° scope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Air leak (under saline) and dye enema are commonly used to detect occult defects. Inspection alone may miss subtle or thermal injuries; a gauze ‘scratch’ test is not validated.",
+        "submodule": "Module 10.5 – Evaluation of Bowel Integrity",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+
+      {
+        "id": "m10p1-10_1-easy-1",
+        "text": "Which of the following is the most common sign of a delayed ureteral injury postoperatively?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Constipation", "isCorrect": false },
+          { "id": "b", "text": "B) Fever of unknown origin", "isCorrect": true },
+          { "id": "c", "text": "C) Gross hematuria", "isCorrect": false },
+          { "id": "d", "text": "D) Hematochezia", "isCorrect": false },
+          { "id": "e", "text": "E) Severe headache", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Fever (often with flank pain/ileus) is a common clue to occult ureteral injury.",
+        "submodule": "Module 10.1 – Ureteral Injury Management",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_1-med-1",
+        "text": "A transection injury is identified in the upper third of the ureter. What is the best next step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Psoas hitch", "isCorrect": false },
+          { "id": "b", "text": "B) Ureteroneocystostomy", "isCorrect": false },
+          { "id": "c", "text": "C) Ureteroureterostomy", "isCorrect": true },
+          { "id": "d", "text": "D) Ileal conduit", "isCorrect": false },
+          { "id": "e", "text": "E) Observation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Upper/mid-ureter injuries are typically repaired with tension-free ureteroureterostomy over a stent; lower-third injuries favor ureteroneocystostomy ± psoas hitch.",
+        "submodule": "Module 10.1 – Ureteral Injury Management",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_1-diff-1",
+        "text": "Which of the following increases the risk of delayed recognition of ureteral injury during laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of lighted stents", "isCorrect": false },
+          { "id": "b", "text": "B) Transparent peritoneum", "isCorrect": false },
+          { "id": "c", "text": "C) Not performing cystoscopy", "isCorrect": true },
+          { "id": "d", "text": "D) Bipolar energy only", "isCorrect": false },
+          { "id": "e", "text": "E) Midline uterine position", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Routine cystoscopy increases intraoperative detection; omitting it raises the chance of delayed diagnosis.",
+        "submodule": "Module 10.1 – Ureteral Injury Management",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m10p1-10_2-easy-1",
+        "text": "A retroperitoneal hematoma is noted during laparoscopy and appears stable and non-expanding. What is an appropriate next step in management?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediate conversion to laparotomy", "isCorrect": false },
+          { "id": "b", "text": "B) Release of pneumoperitoneum", "isCorrect": true },
+          { "id": "c", "text": "C) Direct clamping of the hematoma", "isCorrect": false },
+          { "id": "d", "text": "D) Vascular dissection", "isCorrect": false },
+          { "id": "e", "text": "E) Ligating the iliac artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Letting down pneumoperitoneum can unmask active bleeding and guide next steps.",
+        "submodule": "Module 10.2 – Retroperitoneal Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_2-med-1",
+        "text": "What is the initial management of an expanding retroperitoneal hematoma during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Evacuation of hemoperitoneum", "isCorrect": false },
+          { "id": "b", "text": "B) Retroperitoneal dissection", "isCorrect": false },
+          { "id": "c", "text": "C) Apply direct pressure laparoscopically", "isCorrect": true },
+          { "id": "d", "text": "D) Close and observe in recovery", "isCorrect": false },
+          { "id": "e", "text": "E) Remove all ports immediately", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Immediate tamponade is key; prepare for potential conversion and vascular control.",
+        "submodule": "Module 10.2 – Retroperitoneal Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_2-diff-1",
+        "text": "What is the mortality rate associated with delayed diagnosis of retroperitoneal vascular injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 5%", "isCorrect": false },
+          { "id": "b", "text": "B) 10%", "isCorrect": false },
+          { "id": "c", "text": "C) 25%", "isCorrect": false },
+          { "id": "d", "text": "D) 33%", "isCorrect": true },
+          { "id": "e", "text": "E) 50%", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Delayed recognition can be fatal—reported mortality up to ~33%.",
+        "submodule": "Module 10.2 – Retroperitoneal Injury",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m10p1-10_3-easy-1",
+        "text": "Which vessel is most commonly injured during right lower quadrant trocar placement?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Internal iliac artery", "isCorrect": false },
+          { "id": "b", "text": "B) Inferior epigastric artery", "isCorrect": true },
+          { "id": "c", "text": "C) Femoral artery", "isCorrect": false },
+          { "id": "d", "text": "D) Aorta", "isCorrect": false },
+          { "id": "e", "text": "E) Uterine artery", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Runs along the posterior rectus sheath; vulnerable in lateral lower quadrant ports.",
+        "submodule": "Module 10.3 – Injuries during Secondary Port Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_3-med-1",
+        "text": "What is an appropriate initial technique for controlling bleeding from an inferior epigastric vessel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediate conversion to laparotomy", "isCorrect": false },
+          { "id": "b", "text": "B) Placement of a urinary catheter balloon", "isCorrect": true },
+          { "id": "c", "text": "C) Injection of vasopressin", "isCorrect": false },
+          { "id": "d", "text": "D) Abandoning the case", "isCorrect": false },
+          { "id": "e", "text": "E) Prolonged observation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Foley balloon tamponade through the port tract provides rapid hemostasis.",
+        "submodule": "Module 10.3 – Injuries during Secondary Port Placement",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_3-diff-1",
+        "text": "Which of the following is the least appropriate management step for inferior epigastric vessel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Suture ligation", "isCorrect": false },
+          { "id": "b", "text": "B) Electrosurgical coagulation", "isCorrect": false },
+          { "id": "c", "text": "C) Tamponade with urinary catheter", "isCorrect": false },
+          { "id": "d", "text": "D) Conversion to laparotomy", "isCorrect": true },
+          { "id": "e", "text": "E) Third port placement", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Most inferior epigastric injuries can be controlled laparoscopically; immediate laparotomy is seldom required.",
+        "submodule": "Module 10.3 – Injuries during Secondary Port Placement",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m10p1-10_4-easy-1",
+        "text": "Which of the following is least appropriate when bowel injury is identified during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Administering broad-spectrum antibiotics", "isCorrect": false },
+          { "id": "b", "text": "B) Running the bowel to evaluate extent", "isCorrect": false },
+          { "id": "c", "text": "C) Immediate laparotomy for all cases", "isCorrect": true },
+          { "id": "d", "text": "D) Considering general surgery consultation", "isCorrect": false },
+          { "id": "e", "text": "E) Placing secondary ports for visualization", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Not all injuries require laparotomy; many are evaluated/repaired laparoscopically.",
+        "submodule": "Module 10.4 – Small Bowel Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_4-med-1",
+        "text": "What is the recommended method to close a 3 mm laceration of small bowel identified during laparoscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) No closure needed", "isCorrect": false },
+          { "id": "b", "text": "B) Horizontal suture line", "isCorrect": false },
+          { "id": "c", "text": "C) Transverse single-layer closure", "isCorrect": true },
+          { "id": "d", "text": "D) Resection and anastomosis", "isCorrect": false },
+          { "id": "e", "text": "E) Stapled vertical closure", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Transverse closure avoids luminal narrowing for small full-thickness lacerations.",
+        "submodule": "Module 10.4 – Small Bowel Injury",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_4-diff-1",
+        "text": "Which patient factor places someone at higher risk for entry-related small bowel injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Nulliparity", "isCorrect": false },
+          { "id": "b", "text": "B) Prior laparoscopic ovarian cystectomy", "isCorrect": false },
+          { "id": "c", "text": "C) No previous surgeries", "isCorrect": false },
+          { "id": "d", "text": "D) History of Crohn’s disease and prior midline laparotomy", "isCorrect": true },
+          { "id": "e", "text": "E) Age under 30", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Dense adhesions from IBD and prior midline laparotomy increase entry risk.",
+        "submodule": "Module 10.4 – Small Bowel Injury",
+        "questionType": "multiple_choice"
+      },
+
+      {
+        "id": "m10p1-10_5-easy-1",
+        "text": "What is the best technique to assess for small bowel injury intraoperatively?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Air bubble test", "isCorrect": false },
+          { "id": "b", "text": "B) Methylene blue enema", "isCorrect": false },
+          { "id": "c", "text": "C) Sigmoidoscopy", "isCorrect": false },
+          { "id": "d", "text": "D) Running the bowel", "isCorrect": true },
+          { "id": "e", "text": "E) Overnight observation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Easy",
+        "explanation": "Systematic inspection (‘run the bowel’) is the gold standard intraoperatively.",
+        "submodule": "Module 10.5 – Evaluation of Bowel Integrity",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_5-med-1",
+        "text": "During the running of the bowel, what anatomical point should the surgeon begin with?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Appendix", "isCorrect": false },
+          { "id": "b", "text": "B) Ligament of Treitz", "isCorrect": false },
+          { "id": "c", "text": "C) Splenic flexure", "isCorrect": false },
+          { "id": "d", "text": "D) Ileocecal junction", "isCorrect": true },
+          { "id": "e", "text": "E) Cecum", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Medium",
+        "explanation": "Begin at the ileocecal junction and proceed proximally toward the ligament of Treitz.",
+        "submodule": "Module 10.5 – Evaluation of Bowel Integrity",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m10p1-10_5-diff-1",
+        "text": "Which technique is most appropriate for evaluating the rectosigmoid colon for injury?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Running the bowel", "isCorrect": false },
+          { "id": "b", "text": "B) Foley balloon distention", "isCorrect": false },
+          { "id": "c", "text": "C) Sigmoidoscopy with insufflation", "isCorrect": true },
+          { "id": "d", "text": "D) Methylene blue urine instillation", "isCorrect": false },
+          { "id": "e", "text": "E) Veress needle pressure testing", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "difficulty": "Difficult",
+        "explanation": "Flexible sigmoidoscopy with insufflation sensitively evaluates rectosigmoid integrity after pelvic dissection.",
+        "submodule": "Module 10.5 – Evaluation of Bowel Integrity",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

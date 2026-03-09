@@ -1,0 +1,298 @@
+[
+  {
+    "id": "emigs-module-11",
+    "title": "EMIGS Module 11",
+    "questions": [
+      {
+        "id": "m11-add-q1",
+        "text": "Which 3 clinical features most strongly suggest symptomatic fluid overload after hysteroscopy using 1.5% glycine? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Headache, nausea, and confusion", "isCorrect": true },
+          { "id": "b", "text": "B) Tachycardia and hypertension", "isCorrect": false },
+          { "id": "c", "text": "C) Visual disturbances and seizure", "isCorrect": true },
+          { "id": "d", "text": "D) Dry mucous membranes and polyuria", "isCorrect": false },
+          { "id": "e", "text": "E) Serum sodium of 118 mEq/L", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Headache, confusion, seizures, and marked hyponatremia (Na <120) are classic for glycine fluid overload.",
+        "submodule": "Module 11.1 – Excessive Fluid Absorption",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m11-add-q2",
+        "text": "Which of the following are appropriate first-line strategies for managing intrauterine hemorrhage during hysteroscopic myomectomy? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Direct electrocautery to visible vessel", "isCorrect": true },
+          { "id": "b", "text": "B) Hysteroscopic resection of uterine septum", "isCorrect": false },
+          { "id": "c", "text": "C) Intrauterine balloon tamponade", "isCorrect": true },
+          { "id": "d", "text": "D) Administering tranexamic acid IV", "isCorrect": true },
+          { "id": "e", "text": "E) Uterine Artery Embolization", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Electrocautery, balloon tamponade, and IV tranexamic acid are first-line. UAE is reserved for refractory cases.",
+        "submodule": "Module 11.2 – Hysteroscopic Hemorrhage",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m11-add-q3",
+        "text": "Which of the following statements about perforation during hysteroscopy are correct? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blunt perforation without electrosurgery may be observed", "isCorrect": true },
+          { "id": "b", "text": "B) Fundal perforation always requires laparoscopy", "isCorrect": false },
+          { "id": "c", "text": "C) Electrosurgical perforation mandates abdominal exploration", "isCorrect": true },
+          { "id": "d", "text": "D) Hemodynamic instability suggests visceral injury", "isCorrect": true },
+          { "id": "e", "text": "E) Posterior perforation requires cystoscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Observe selected blunt/fundal perforations; electrosurgical perforations need abdominal evaluation; instability implies visceral/vascular injury.",
+        "submodule": "Module 11.3 – Perforation with Electrosurgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m11-add-q4",
+        "text": "Which of the following clinical features are more consistent with vasovagal syncope than anaphylaxis during office hysteroscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Bradycardia", "isCorrect": true },
+          { "id": "b", "text": "B) Flushing and hives", "isCorrect": false },
+          { "id": "c", "text": "C) Gradual onset of symptoms", "isCorrect": true },
+          { "id": "d", "text": "D) Lightheadedness and nausea", "isCorrect": true },
+          { "id": "e", "text": "E) Inspiratory stridor", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Vasovagal: bradycardia, hypotension, nausea, gradual onset. Anaphylaxis: hives, airway symptoms.",
+        "submodule": "Module 11.4 – Adverse Reaction During Office Hysteroscopy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m11-add-q5",
+        "text": "Which 2 complications are most specifically associated with monopolar electrosurgical systems in hysteroscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Capacitive coupling injury", "isCorrect": true },
+          { "id": "b", "text": "B) Uterine perforation with mechanical dilation", "isCorrect": false },
+          { "id": "c", "text": "C) Hyponatremia with fluid overload", "isCorrect": true },
+          { "id": "d", "text": "D) Bladder injury from dilator placement", "isCorrect": false },
+          { "id": "e", "text": "E) Synechiae from balloon ablation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Monopolar systems use non-electrolyte media (risk of hyponatremia) and can cause capacitive coupling injuries.",
+        "submodule": "Module 11.5 – Endometrial Ablation Complications",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m11-11_1-easy",
+        "text": "Which of the following fluid types is electrolyte-poor and carries the highest risk of hyponatremia when used in hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Normal saline", "isCorrect": false },
+          { "id": "b", "text": "B) Lactated Ringer’s", "isCorrect": false },
+          { "id": "c", "text": "C) 1.5% glycine", "isCorrect": true },
+          { "id": "d", "text": "D) Plasma-Lyte", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Glycine is hypotonic/electrolyte-poor and highest risk for hyponatremia.",
+        "submodule": "Module 11.1 – Excessive Fluid Absorption",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_1-medium",
+        "text": "What is the most appropriate next step if a patient develops headache and nausea postoperatively after a hysteroscopic myomectomy with a 1000 mL glycine deficit?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Administer furosemide", "isCorrect": false },
+          { "id": "b", "text": "B) Order a basic metabolic panel and monitor fluid status", "isCorrect": true },
+          { "id": "c", "text": "C) Administer 3% hypertonic saline", "isCorrect": false },
+          { "id": "d", "text": "D) Observe without intervention", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Confirm hyponatremia first; escalate therapy based on severity.",
+        "submodule": "Module 11.1 – Excessive Fluid Absorption",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_1-difficult",
+        "text": "In healthy patients, what is the recommended maximum fluid deficit for hypotonic, electrolyte-poor media before terminating hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 750 mL", "isCorrect": false },
+          { "id": "b", "text": "B) 1000 mL", "isCorrect": true },
+          { "id": "c", "text": "C) 1500 mL", "isCorrect": false },
+          { "id": "d", "text": "D) 2500 mL", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "For glycine and other hypotonic media, 1000 mL is the usual cutoff in healthy patients.",
+        "submodule": "Module 11.1 – Excessive Fluid Absorption",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_2-easy",
+        "text": "What is the first step in managing significant bleeding during hysteroscopic myomectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Place a Foley catheter", "isCorrect": false },
+          { "id": "b", "text": "B) Begin uterine massage", "isCorrect": false },
+          { "id": "c", "text": "C) Evaluate for perforation", "isCorrect": true },
+          { "id": "d", "text": "D) Administer IV tranexamic acid", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Rule out perforation before proceeding with hemostatic measures.",
+        "submodule": "Module 11.2 – Hysteroscopic Hemorrhage",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_2-medium",
+        "text": "Which of the following is an appropriate tamponade option for intrauterine bleeding?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Vaginal packing", "isCorrect": false },
+          { "id": "b", "text": "B) Intrauterine Foley catheter balloon", "isCorrect": true },
+          { "id": "c", "text": "C) Peri-rectal gauze", "isCorrect": false },
+          { "id": "d", "text": "D) Cystoscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A Foley balloon provides effective intrauterine tamponade.",
+        "submodule": "Module 11.2 – Hysteroscopic Hemorrhage",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_2-difficult",
+        "text": "If uterine perforation is ruled out and bleeding is diffuse with no focal source, what is the next best step?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Immediate hysterectomy", "isCorrect": false },
+          { "id": "b", "text": "B) Uterine artery embolization", "isCorrect": false },
+          { "id": "c", "text": "C) Intrauterine balloon tamponade", "isCorrect": true },
+          { "id": "d", "text": "D) Endometrial curettage", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Balloon tamponade is the next step when bleeding is diffuse and perforation is excluded.",
+        "submodule": "Module 11.2 – Hysteroscopic Hemorrhage",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_3-easy",
+        "text": "A perforation during hysteroscopy using a monopolar resectoscope is most concerning due to:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Blood loss", "isCorrect": false },
+          { "id": "b", "text": "B) Risk of synechiae", "isCorrect": false },
+          { "id": "c", "text": "C) Thermal injury to intra-abdominal organs", "isCorrect": true },
+          { "id": "d", "text": "D) Ineffective tissue resection", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Active electrosurgery can thermally injure bowel/bladder if perforation occurs.",
+        "submodule": "Module 11.3 – Perforation with Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_3-medium",
+        "text": "What is the preferred next step in a stable patient with suspected electrosurgical uterine perforation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Observation and discharge", "isCorrect": false },
+          { "id": "b", "text": "B) Laparoscopy for abdominal evaluation", "isCorrect": true },
+          { "id": "c", "text": "C) CT scan with contrast", "isCorrect": false },
+          { "id": "d", "text": "D) Repeat hysteroscopy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopy evaluates for occult thermal/visceral injury.",
+        "submodule": "Module 11.3 – Perforation with Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_3-difficult",
+        "text": "Which of the following most increases the risk for uterine perforation during hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of bipolar energy", "isCorrect": false },
+          { "id": "b", "text": "B) Use of a mechanical morcellator", "isCorrect": false },
+          { "id": "c", "text": "C) Distended bladder", "isCorrect": false },
+          { "id": "d", "text": "D) Cervical stenosis", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cervical stenosis makes entry difficult and increases perforation risk.",
+        "submodule": "Module 11.3 – Perforation with Electrosurgery",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_4-easy",
+        "text": "What is the most common symptom of vasovagal reaction during office hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Chest pain", "isCorrect": false },
+          { "id": "b", "text": "B) Lightheadedness", "isCorrect": true },
+          { "id": "c", "text": "C) Cough", "isCorrect": false },
+          { "id": "d", "text": "D) Facial flushing", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Lightheadedness with nausea/diaphoresis is typical.",
+        "submodule": "Module 11.4 – Adverse Reaction During Office Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_4-medium",
+        "text": "What is the appropriate next step when a vasovagal patient does not improve after IV fluids and positional changes?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Place defibrillator pads", "isCorrect": false },
+          { "id": "b", "text": "B) Administer atropine 0.5 mg IV", "isCorrect": true },
+          { "id": "c", "text": "C) Start CPR", "isCorrect": false },
+          { "id": "d", "text": "D) Observe for another 15 minutes", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Persistent bradycardia/hypotension warrants atropine.",
+        "submodule": "Module 11.4 – Adverse Reaction During Office Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_4-difficult",
+        "text": "Which of the following is a known risk factor for vasovagal reaction during hysteroscopy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Prior C-section", "isCorrect": false },
+          { "id": "b", "text": "B) Use of saline distention", "isCorrect": false },
+          { "id": "c", "text": "C) Use of flexible hysteroscope", "isCorrect": false },
+          { "id": "d", "text": "D) Use of CO₂ as distending medium", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "CO₂ and rigid scopes increase vasovagal risk; saline/flexible scopes reduce it.",
+        "submodule": "Module 11.4 – Adverse Reaction During Office Hysteroscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_5-easy",
+        "text": "Which of the following is an absolute contraindication to endometrial ablation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Heavy menstrual bleeding in a patient desiring permanent sterilization", "isCorrect": false },
+          { "id": "b", "text": "B) History of endometrial hyperplasia without atypia", "isCorrect": false },
+          { "id": "c", "text": "C) Normal endometrial sampling in a premenopausal patient", "isCorrect": false },
+          { "id": "d", "text": "D) Diagnosis of endometrial adenocarcinoma", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Premalignant/malignant endometrium is a contraindication to ablation.",
+        "submodule": "Module 11.5 – Endometrial Ablation Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_5-medium",
+        "text": "A 42-year-old underwent endometrial ablation and tubal ligation seven years ago. She now reports new-onset cyclic pelvic pain. Ultrasound reveals a distended left cornua with an endometrial stripe of 14 mm. What is the most likely diagnosis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Endometriosis", "isCorrect": false },
+          { "id": "b", "text": "B) Post-ablation tubal ligation syndrome (PATSS)", "isCorrect": true },
+          { "id": "c", "text": "C) Chronic pelvic inflammatory disease", "isCorrect": false },
+          { "id": "d", "text": "D) Cervical stenosis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "PATSS: cyclic pain after ablation + tubal ligation with cornual hematometra/thickening.",
+        "submodule": "Module 11.5 – Endometrial Ablation Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m11-11_5-difficult",
+        "text": "Which of the following complications is most closely associated with the use of monopolar energy during hysteroscopic endometrial ablation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Myometrial perforation", "isCorrect": false },
+          { "id": "b", "text": "B) Thermal injury to bowel via capacitive coupling", "isCorrect": true },
+          { "id": "c", "text": "C) Uterine synechiae", "isCorrect": false },
+          { "id": "d", "text": "D) Cervical laceration during dilation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Monopolar systems risk capacitive coupling causing adjacent organ thermal injury.",
+        "submodule": "Module 11.5 – Endometrial Ablation Complications",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]

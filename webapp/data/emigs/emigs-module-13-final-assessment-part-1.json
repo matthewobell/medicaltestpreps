@@ -1,0 +1,557 @@
+[
+  {
+    "id": "emigs-module-13-final-assessment-part-1",
+    "title": "EMIGS Final Assessment (Part 1)",
+    "questions": [
+      {
+        "id": "fa-q1",
+        "text": "Which patient would most benefit from pharmacologic VTE prophylaxis after laparoscopic hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 25-year-old on OCPs, Caprini score 1", "isCorrect": false },
+          { "id": "b", "text": "B) 36-year-old with asthma, Caprini score 2", "isCorrect": false },
+          { "id": "c", "text": "C) 58-year-old with obesity and prior DVT, Caprini score 6", "isCorrect": true },
+          { "id": "d", "text": "D) 42-year-old with fibroids and no comorbidities, Caprini score 2", "isCorrect": false },
+          { "id": "e", "text": "E) 65-year-old with mild anemia, Caprini score 3", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Caprini score ≥5 is considered high risk; pharmacologic prophylaxis with heparin should be considered in the absence of bleeding contraindications.",
+        "submodule": "Module 1.5 – Preoperative Evaluation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q2",
+        "text": "In the PALM-COEIN classification for abnormal uterine bleeding, which of the following is a structural cause?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Coagulopathy", "isCorrect": false },
+          { "id": "b", "text": "B) Ovulatory dysfunction", "isCorrect": false },
+          { "id": "c", "text": "C) Endometritis", "isCorrect": false },
+          { "id": "d", "text": "D) Leiomyoma", "isCorrect": true },
+          { "id": "e", "text": "E) Iatrogenic bleeding", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Structural causes are under “PALM” — Polyp, Adenomyosis, Leiomyoma, Malignancy/hyperplasia. Non-structural are COEIN.",
+        "submodule": "Module 1.6 – Evaluation of AUB",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q3",
+        "text": "Which of the following adnexal mass findings in a postmenopausal woman most warrants referral to gynecologic oncology?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 3 cm simple cyst with CA-125 of 12", "isCorrect": false },
+          { "id": "b", "text": "B) 6 cm hemorrhagic cyst with normal CA-125", "isCorrect": false },
+          { "id": "c", "text": "C) 8 cm cyst with papillary projections and CA-125 of 140", "isCorrect": true },
+          { "id": "d", "text": "D) 4 cm simple cyst with family history of colon cancer", "isCorrect": false },
+          { "id": "e", "text": "E) 5 cm cyst with anechoic fluid and smooth walls", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Suspicious ultrasound features + elevated CA-125 → increased risk for malignancy → referral indicated.",
+        "submodule": "Module 1.4 – Adnexal Mass",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q4",
+        "text": "How many avascular pelvic spaces exist and could be developed during complex gynecologic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 4", "isCorrect": false },
+          { "id": "b", "text": "B) 6", "isCorrect": false },
+          { "id": "c", "text": "C) 7", "isCorrect": false },
+          { "id": "d", "text": "D) 8", "isCorrect": true },
+          { "id": "e", "text": "E) 9", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The 8 pelvic avascular spaces include vesicovaginal, rectovaginal, retropubic, presacral, right and left paravesical, and right and left pararectal.",
+        "submodule": "Module 2.3 – Avascular Spaces",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q5",
+        "text": "Which of the following findings during laparoscopic inspection of the right upper quadrant may suggest Fitz-Hugh–Curtis syndrome?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Omental adhesions", "isCorrect": false },
+          { "id": "b", "text": "B) Nodularity of the uterosacral ligaments", "isCorrect": false },
+          { "id": "c", "text": "C) \"Violin string\" adhesions on the liver capsule", "isCorrect": true },
+          { "id": "d", "text": "D) Free fluid in the posterior cul-de-sac", "isCorrect": false },
+          { "id": "e", "text": "E) Hematoma near the round ligament", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fitz-Hugh–Curtis syndrome is associated with \"violin string\" perihepatic adhesions, visible during upper abdominal inspection.",
+        "submodule": "Module 2.1 – Pelvic and Abdominal Anatomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q6",
+        "text": "Which cystoscope angle is best suited to inspect the anterior and lateral bladder walls?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 0-degree", "isCorrect": false },
+          { "id": "b", "text": "B) 30-degree", "isCorrect": false },
+          { "id": "c", "text": "C) 45-degree", "isCorrect": false },
+          { "id": "d", "text": "D) 70-degree", "isCorrect": true },
+          { "id": "e", "text": "E) 90-degree", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "A 70-degree scope allows optimal visualization of the anterior and lateral bladder walls during cystoscopy.",
+        "submodule": "Module 3.1 – Endoscope Selection",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q7",
+        "text": "A laparoscopic case uses monopolar electrosurgery and alcohol-based skin prep but avoids open oxygen delivery. What is the fire risk score?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 0", "isCorrect": false },
+          { "id": "b", "text": "B) 1", "isCorrect": false },
+          { "id": "c", "text": "C) 2", "isCorrect": true },
+          { "id": "d", "text": "D) 3", "isCorrect": false },
+          { "id": "e", "text": "E) 4", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "1 point for alcohol prep + 1 point for ignition source = fire risk score of 2 (intermediate risk).",
+        "submodule": "Module 3.2 – Patient Burns During Laparoscopy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q8",
+        "text": "Which uterine manipulator includes a disposable tip and integrated colpotomy cup?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hulka", "isCorrect": false },
+          { "id": "b", "text": "B) HUMI", "isCorrect": false },
+          { "id": "c", "text": "C) Pelosi", "isCorrect": false },
+          { "id": "d", "text": "D) V-Care", "isCorrect": true },
+          { "id": "e", "text": "E) ZUMI", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The V-Care is fully disposable and includes a built-in colpotomy cup. Hulka is reusable and lacks colpotomy cup. The Pelosi is fully reusable. The HUMI and ZUMI are disposable but lack colpotomy cups.",
+        "submodule": "Module 3.6 – Benefits of Uterine Manipulation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q9",
+        "text": "Which of the following best describes fulguration in electrosurgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Deep vessel coagulation using continuous current", "isCorrect": false },
+          { "id": "b", "text": "B) Superficial coagulation using high-voltage, non-contact energy", "isCorrect": true },
+          { "id": "c", "text": "C) Tissue vaporization via high-frequency ultrasonic vibration", "isCorrect": false },
+          { "id": "d", "text": "D) Electrocautery-induced desiccation using a grounded pad", "isCorrect": false },
+          { "id": "e", "text": "E) Cutting through fat using bipolar scissors", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fulguration uses a modulated, high-voltage waveform applied just above tissue for superficial coagulation. It is non-contact and ideal for capillary oozing.",
+        "submodule": "Module 4.2 – Effects of Electrosurgery on Tissue",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q10",
+        "text": "Which of the following features is specific to proprietary bipolar vessel sealing devices (e.g., Ligasure, Enseal)?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of monopolar waveform", "isCorrect": false },
+          { "id": "b", "text": "B) Manual clamp pressure", "isCorrect": false },
+          { "id": "c", "text": "C) Feedback control with impedance sensing", "isCorrect": true },
+          { "id": "d", "text": "D) Requirement of dispersive pad", "isCorrect": false },
+          { "id": "e", "text": "E) Inability to cut tissue", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Proprietary bipolar devices often include sensors that detect impedance or temperature to auto-regulate energy delivery and improve safety and consistency.",
+        "submodule": "Module 4.3 – Bipolar Radiofrequency Instruments",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q11",
+        "text": "Which of the following is a primary advantage of boot stirrups compared to candy cane stirrups in gynecologic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Allow full hip abduction", "isCorrect": false },
+          { "id": "b", "text": "B) Support Trendelenburg without antiskid devices", "isCorrect": false },
+          { "id": "c", "text": "C) Provide adjustable support and reduce nerve compression", "isCorrect": true },
+          { "id": "d", "text": "D) Require less padding to protect the heel", "isCorrect": false },
+          { "id": "e", "text": "E) Facilitate direct peroneal nerve compression", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["C", "Provide adjustable support and reduce nerve compression"],
+        "difficulty": "Medium",
+        "explanation": "Boot stirrups reduce nerve compression by distributing pressure more evenly and allowing more controlled positioning of the hips and knees. This is the best answer.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q12",
+        "text": "What is the most effective strategy to prevent patient slippage in Trendelenburg position?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of shoulder braces alone", "isCorrect": false },
+          { "id": "b", "text": "B) Lowering the table height", "isCorrect": false },
+          { "id": "c", "text": "C) Avoiding foam padding to increase traction", "isCorrect": false },
+          { "id": "d", "text": "D) Using antiskid devices such as foam or beanbags", "isCorrect": true },
+          { "id": "e", "text": "E) Flexing the hips more than 90 degrees", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["D", "Using antiskid devices such as foam or beanbags"],
+        "difficulty": "Medium",
+        "explanation": "Foam padding or antiskid materials like beanbags are preferred to prevent slippage in steep Trendelenburg. Shoulder braces increase the risk of brachial plexus injury.",
+        "submodule": "Module 5.1 – Patient Positioning",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q13",
+        "text": "Which approach minimizes the risk of parasitic myomatosis during laparoscopic specimen extraction?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of a bladed 10 mm trocar", "isCorrect": false },
+          { "id": "b", "text": "B) Uncontained manual morcellation", "isCorrect": false },
+          { "id": "c", "text": "C) Contained tissue extraction using an endobag", "isCorrect": true },
+          { "id": "d", "text": "D) Extraction via colpotomy", "isCorrect": false },
+          { "id": "e", "text": "E) Energy application to morcellated fragments", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Use of a containment system reduces risk of dissemination of tissue, including parasitic fibroids or occult malignancy.",
+        "submodule": "Module 6.9 – Laparoscopic Tissue Extraction",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q14",
+        "text": "Which of the following is a common reason for reoperation after supracervical hysterectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Vaginal cuff dehiscence", "isCorrect": false },
+          { "id": "b", "text": "B) Prolapse of the cervical stump", "isCorrect": false },
+          { "id": "c", "text": "C) Persistent cyclic bleeding", "isCorrect": true },
+          { "id": "d", "text": "D) Ureteral obstruction", "isCorrect": false },
+          { "id": "e", "text": "E) Loss of sexual function", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Residual endometrial tissue in the cervical stump may cause cyclic bleeding in up to 38% of patients and is a leading reason for secondary trachelectomy.",
+        "submodule": "Module 8.8 – Supracervical Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q15",
+        "text": "Which fluid should be used with a bipolar hysteroscopic resectoscope?",
+        "answerOptions": [
+          { "id": "a", "text": "A) 3% Sorbitol", "isCorrect": false },
+          { "id": "b", "text": "B) 1.5% Glycine", "isCorrect": false },
+          { "id": "c", "text": "C) Normal saline", "isCorrect": true },
+          { "id": "d", "text": "D) 5% Mannitol", "isCorrect": false },
+          { "id": "e", "text": "E) Sterile water", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar systems are compatible with electrolyte-containing fluids like normal saline or lactated Ringer’s. Monopolar systems require non-electrolyte fluids.",
+        "submodule": "Module 9.2 – Endometrial Ablation",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q16",
+        "text": "Which hysteroscopic device combines tissue cutting and suction for efficient intrauterine pathology removal?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Polyp forceps", "isCorrect": false },
+          { "id": "b", "text": "B) Cold loop electrode", "isCorrect": false },
+          { "id": "c", "text": "C) Tissue retrieval system (morcellator)", "isCorrect": true },
+          { "id": "d", "text": "D) Grasping forceps", "isCorrect": false },
+          { "id": "e", "text": "E) Suction curette", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Hysteroscopic morcellators use a rotating blade with suction to cut and evacuate intrauterine pathology under direct visualization.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q17",
+        "text": "Which of the following most increases the risk of false passage or uterine perforation during hysteroscopic polypectomy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Mechanical tissue extractor", "isCorrect": false },
+          { "id": "b", "text": "B) Blind polyp forceps removal", "isCorrect": true },
+          { "id": "c", "text": "C) Preoperative cervical ripening", "isCorrect": false },
+          { "id": "d", "text": "D) Saline infusion sonography", "isCorrect": false },
+          { "id": "e", "text": "E) Using a 3 mm hysteroscope", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Blind instrumentation increases perforation risk, particularly when multiple passes are needed. Direct visualization lowers this risk.",
+        "submodule": "Module 9.4 – Hysteroscopic Polypectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q18",
+        "text": "A 38-year-old G2P2 presents 10 days after laparoscopic hysterectomy with continuous watery vaginal discharge and left flank pain. Creatinine is elevated. Patient is given oral phenazopyridine and the bladder is backfilled with diluted methylene blue. A tampon dye test shows orange dye only. What is the most likely diagnosis?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Ureterovaginal fistula", "isCorrect": true },
+          { "id": "b", "text": "B) Vesicovaginal fistula", "isCorrect": false },
+          { "id": "c", "text": "C) Stress urinary incontinence", "isCorrect": false },
+          { "id": "d", "text": "D) Postoperative urinary tract infection", "isCorrect": false },
+          { "id": "e", "text": "E) Vaginal cuff dehiscence", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["A", "Ureterovaginal fistula"],
+        "difficulty": "Medium",
+        "explanation": "UVF presents with continuous vaginal leakage and often flank pain. The tampon dye test differentiates UVF from VVF: orange dye (from oral phenazopyridine) suggests urine is bypassing the bladder (i.e., from ureter), while blue dye (from retrograde bladder fill) would indicate a VVF. Creatinine elevation supports ureteral involvement.",
+        "submodule": "Module 10.11 – Fistula After Hysterectomy",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q19",
+        "text": "Which of the following is the most definitive treatment for post-ablation tubal ligation syndrome (PATSS)?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Oral contraceptive pills", "isCorrect": false },
+          { "id": "b", "text": "B) Levonorgestrel IUD insertion", "isCorrect": false },
+          { "id": "c", "text": "C) Repeat endometrial ablation", "isCorrect": false },
+          { "id": "d", "text": "D) Diagnostic hysteroscopy", "isCorrect": false },
+          { "id": "e", "text": "E) Hysterectomy", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": ["E", "Hysterectomy"],
+        "difficulty": "Medium",
+        "explanation": "PATSS results in obstructed cornual hematometra, which is not treatable with hormonal suppression or re-ablation. Hysterectomy is the definitive management for symptom resolution.",
+        "submodule": "Module 11.5 – Endometrial Ablation Complications",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q20",
+        "text": "Which intervention best prevents maternal supine hypotension during laparoscopic surgery in pregnancy?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increasing intra-abdominal pressure", "isCorrect": false },
+          { "id": "b", "text": "B) Trendelenburg positioning", "isCorrect": false },
+          { "id": "c", "text": "C) Placing the patient in left lateral tilt", "isCorrect": true },
+          { "id": "d", "text": "D) Reducing the depth of anesthesia", "isCorrect": false },
+          { "id": "e", "text": "E) Administering IV ephedrine prophylactically", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["C", "Placing the patient in left lateral tilt"],
+        "difficulty": "Medium",
+        "explanation": "Left lateral positioning reduces compression of the inferior vena cava by the gravid uterus, improving maternal cardiac output and fetal perfusion.",
+        "submodule": "Module 12.2 – Considerations for the Pregnant Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q21",
+        "text": "Which trocar type is most appropriate for abdominal entry in a morbidly obese patient where thickened abdominal wall layers obscure landmarks?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Veress needle", "isCorrect": false },
+          { "id": "b", "text": "B) Bladed trocar", "isCorrect": false },
+          { "id": "c", "text": "C) Optical (bladeless) trocar", "isCorrect": true },
+          { "id": "d", "text": "D) Hasson blunt cannula", "isCorrect": false },
+          { "id": "e", "text": "E) Inflatable balloon trocar", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["C", "Optical (bladeless) trocar"],
+        "difficulty": "Medium",
+        "explanation": "Optical trocars allow direct visualization during entry, reducing the risk of vascular or bowel injury in obese patients with distorted anatomy.",
+        "submodule": "Module 12.1 – Considerations for the Obese Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "fa-q22",
+        "text": "Which patient needs cardiac preoperative clearance? (Select 2 best answers.)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Patient with a history of syncope", "isCorrect": true },
+          { "id": "b", "text": "B) Patient with a history of DVT", "isCorrect": false },
+          { "id": "c", "text": "C) Patient with a history of palpitations", "isCorrect": false },
+          { "id": "d", "text": "D) Patient with a history of SOB with exercise", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": ["A", "D"],
+        "difficulty": "Medium",
+        "explanation": "Among the patients described, the two who require most concerning and in need of cardiac preoperative clearance are the patient with a history of syncope and the patient with a history of shortness of breath with exercise. Exertional chest pain, dyspnea, orthopnea, palpitations, recent syncope, and physical examination findings, including murmurs (any diastolic or grade ≥3/6 systolic), gallops, jugular venous distention, or edema, may indicate cardiovascular disease. However, palpations are the most likely finding to be benign. Additionally, acute coronary syndromes and decompensated heart failure are generally contraindications to noncardiac surgery.",
+        "submodule": "Smilowitz NR, Berger JS. Perioperative Cardiovascular Risk Assessment and Management for Noncardiac Surgery: A Review. JAMA. 2020;324(3):279-290. doi:10.1001/jama.2020.7840.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q23",
+        "text": "Which patient undergoing hysteroscopy needs cardiac preoperative clearance? (Select 3 best answers.)",
+        "answerOptions": [
+          { "id": "a", "text": "A) Patient with a history of syncope", "isCorrect": true },
+          { "id": "b", "text": "B) Patient with a history of pulmonary embolism", "isCorrect": false },
+          { "id": "c", "text": "C) Patient with a history of palpitations and murmur on pre-operative examination", "isCorrect": true },
+          { "id": "d", "text": "D) Patient with a jugular venous distention on pre-operative examination", "isCorrect": true },
+          { "id": "e", "text": "E) Patient with a creatinine level of 1.9", "isCorrect": false },
+          { "id": "f", "text": "F) Patient with varicose veins on pre-operative examination", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["A", "C", "D"],
+        "difficulty": "Medium",
+        "explanation": "The three patients undergoing hysteroscopy who need cardiac preoperative clearance are the patient with a history of syncope, the patient with jugular venous distention on pre-operative examination, and the patient with palpitations and a murmur on pre-operative examination. A history of pulmonary embolism, a creatinine level of 1.9 (below the ≥2.0 mg/dL threshold for increased cardiac risk), and varicose veins alone do not independently warrant cardiac clearance in the absence of other cardiac symptoms or risk factors. Exertional chest pain, dyspnea, orthopnea, palpitations, recent syncope, and physical examination findings, including murmurs (any diastolic or grade ≥3/6 systolic), gallops, jugular venous distention, or edema, may indicate cardiovascular disease. Additionally, acute coronary syndromes and decompensated heart failure are generally contraindications to noncardiac surgery.",
+        "submodule": "References: Smilowitz NR, Berger JS. Perioperative Cardiovascular Risk Assessment and Management for Noncardiac Surgery: A Review. JAMA. 2020;324(3):279-290. doi:10.1001/jama.2020.7840.\nThompson A, Fleischmann KE, Smilowitz NR, et al. 2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Journal of the American College of Cardiology. 2024;84(19):1869-1969. doi:10.1016/j.jacc.2024.06.013.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "fa-q24",
+        "text": "Which 2 factors are most critical in minimizing lateral thermal spread during bipolar vessel sealing? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of ultrasonic energy", "isCorrect": false },
+          { "id": "b", "text": "B) Maximum tissue compression", "isCorrect": true },
+          { "id": "c", "text": "C) Use of coagulation waveform", "isCorrect": false },
+          { "id": "d", "text": "D) Low-voltage continuous current", "isCorrect": true },
+          { "id": "e", "text": "E) Intermittent energy bursts", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["B", "D"],
+        "difficulty": "Medium",
+        "explanation": "Proper compression and low-voltage continuous current produce slower, controlled heating that minimizes spread. Coag waveform and intermittent bursts are less effective for vessel sealing.",
+        "submodule": "Module 4.3 – Bipolar Electrosurgery",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q25",
+        "text": "Which 2 features of ultrasonic energy devices contribute most to post-activation thermal injury? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Prolonged energy bursts", "isCorrect": false },
+          { "id": "b", "text": "B) Solid metal blade construction", "isCorrect": true },
+          { "id": "c", "text": "C) High-frequency oscillation", "isCorrect": false },
+          { "id": "d", "text": "D) Delayed blade cooling", "isCorrect": true },
+          { "id": "e", "text": "E) Lateral thermal spread", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": ["B", "D"],
+        "difficulty": "Medium",
+        "explanation": "Ultrasonic blades remain hot after deactivation due to their solid metal construction and slow heat dissipation, making thermal injury possible even after energy delivery stops. Prolonged energy delivery does contribute to intraoperative heating, but it is not uniquely tied to post-activation burns in the same way as the other two features. While longer bursts may indirectly raise residual heat, they are also an operator factor—not a fixed design element of the device. High-frequency oscillation is the mechanism of tissue effect but does not directly affect post-activation blade temperature. Lateral thermal spread, which is low and is a benefit of ultrasonic energy, reflects energy dispersion during activation, not a factor in post-activation injury risk.",
+        "submodule": "Module 4.5 – Ultrasonic Energy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "fa-q26",
+        "text": "From the photo, what is true about this structure? (Select all that apply)",
+        "answerOptions": [
+          { "id": "a", "text": "A) It defines the lateral borders of the rectovaginal space", "isCorrect": true },
+          { "id": "b", "text": "B) It is also known as the cardinal ligament", "isCorrect": false },
+          { "id": "c", "text": "C) It provides level 1 support of the pelvis", "isCorrect": true },
+          { "id": "d", "text": "D) It travels through the inguinal canal to the labia minora", "isCorrect": false },
+          { "id": "e", "text": "E) It is a structure used in McCall’s culdoplasty and sacrospinous ligament fixation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The arrows are pointing to the uterosacral ligaments. These ligaments define the lateral boundaries of the rectovaginal space and provide level 1 (apical) pelvic support. They are often used in McCall’s culdoplasty and uterosacral vaginal vault suspensions. The cardinal ligament is a separate structure that also provides level 1 support but attaches laterally to the cervix and upper vagina. The round ligament, not the uterosacral ligament, travels through the inguinal canal to the labia majora. In sacrospinous ligament fixation, the sacrospinous ligament—not the uterosacral ligament—is the structure used for suspension.",
+        "submodule": "Module 2 – Pelvic Anatomy",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" },
+        "images": [
+          {
+            "src": "final-assessment-q26",
+            "alt": "Laparoscopic view with arrows pointing to the uterosacral ligaments",
+            "caption": "Figure 1. Uterosacral ligaments (arrows).",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q27",
+        "text": "From the photo, select the following 2 answers which are correct:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Surgeon should adjust his feet", "isCorrect": true },
+          { "id": "b", "text": "B) Table height should be adjusted", "isCorrect": false },
+          { "id": "c", "text": "C) Arms should be supinated", "isCorrect": false },
+          { "id": "d", "text": "D) Arm should be extended", "isCorrect": false },
+          { "id": "e", "text": "E) Monitor height should be adjusted", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Surgeon’s spine is straight and in-line with the monitor. Arms are appropriately flexed and slightly pronated. However, feet are not level and monitor should be at or slightly below arm level.",
+        "submodule": "Module 5.1",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 },
+        "images": [
+          {
+            "src": "final-assessment-q27",
+            "alt": "Operating room photo showing surgeon posture and monitor position",
+            "caption": "Figure 2. OR ergonomics scenario A.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q28",
+        "text": "From the photo, select the 3 best answers:",
+        "answerOptions": [
+          { "id": "a", "text": "A) Monitor should be raised", "isCorrect": false },
+          { "id": "b", "text": "B) Arms should be more pronated", "isCorrect": true },
+          { "id": "c", "text": "C) Surgeon should consider getting rid of the step", "isCorrect": true },
+          { "id": "d", "text": "D) Table height could be raised", "isCorrect": true },
+          { "id": "e", "text": "E) Arm should be extended", "isCorrect": false },
+          { "id": "f", "text": "F) Table could be tilted right ward", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Surgeon has level feet, a straight spine, and eyes at or slightly above the monitor. However, arms are extended and supinated. Arms should be slightly pronated (B), and elbows should be flexed close to 90 degrees. This could be accomplished by raising the table (D) or coming down off the step (C). ",
+        "submodule": "Module 5.1",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 },
+        "images": [
+          {
+            "src": "final-assessment-q28",
+            "alt": "Operating room photo showing suboptimal arm position and step use",
+            "caption": "Figure 3. OR ergonomics scenario B.",
+            "credit": "© Medical Test Prep",
+            "displayMode": "inline",
+            "placement": "question"
+          }
+        ]
+      },
+      {
+        "id": "fa-q29",
+        "text": "After undergoing a total hysterectomy in candy cane stirrups, a patient is noted to have acute foot drop postoperatively. Select all that apply.",
+        "answerOptions": [
+          { "id": "fa-q29-a", "text": "A) This was caused during the cuff closure.", "isCorrect": false },
+          { "id": "fa-q29-b", "text": "B) This was caused by too much lateral pressure on the calf from the candy cane stirrups.", "isCorrect": true },
+          { "id": "fa-q29-c", "text": "C) Compression injuries often resolve with observation and physical therapy.", "isCorrect": true },
+          { "id": "fa-q29-d", "text": "D) The common fibular nerve was involved.", "isCorrect": true },
+          { "id": "fa-q29-e", "text": "E) The tibial nerve is involved.", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Foot drop after candy-cane stirrups is classic for common fibular (peroneal) nerve compression at the fibular head. Many compression neuropathies improve with time and PT.",
+        "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q30",
+        "text": "After undergoing a total vaginal hysterectomy in candy cane stirrups, a patient reports difficulty getting out of bed and weakness in the leg. Select all that are NOT correct.",
+        "answerOptions": [
+          { "id": "fa-q30-a", "text": "A) Her quadriceps muscles are weak from a nerve stretch injury.", "isCorrect": true },
+          { "id": "fa-q30-b", "text": "B) This was caused by hyperextension of the hip joint.", "isCorrect": false },
+          { "id": "fa-q30-c", "text": "C) The lateral femoral cutaneous nerve is involved.", "isCorrect": false },
+          { "id": "fa-q30-d", "text": "D) The sciatic nerve is involved.", "isCorrect": false },
+          { "id": "fa-q30-e", "text": "E) This injury will likely resolve with observation and physical therapy.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Presentation fits femoral neuropathy (quadriceps weakness). LFCN is sensory only; sciatic affects posterior leg/foot. Many femoral injuries improve with conservative care; consider early specialty referral if deficits persist.",
+        "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allIncorrect" }
+      },
+      {
+        "id": "fa-q31",
+        "text": "Following a sacrospinous ligament fixation, a patient complains of persistent numbness in the perineum and difficulty voiding. Select all that apply.",
+        "answerOptions": [
+          { "id": "fa-q31-a", "text": "A) The ilioinguinal nerve was damaged during trocar placement.", "isCorrect": false },
+          { "id": "fa-q31-b", "text": "B) The pudendal nerve was likely injured near the ischial spine.", "isCorrect": true },
+          { "id": "fa-q31-c", "text": "C) This is consistent with obturator nerve transection.", "isCorrect": false },
+          { "id": "fa-q31-d", "text": "D) Sacrospinous fixation can result in pudendal neuralgia.", "isCorrect": true },
+          { "id": "fa-q31-e", "text": "E) This injury is consistent with femoral neuropathy.", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "The pudendal nerve courses near the ischial spine/sacrospinous ligament; entrapment can cause perineal numbness, voiding issues, and neuropathic pain.",
+        "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q32",
+        "text": "A patient experiences inability to plantarflex the foot and sensory loss over the sole of the foot after gynecologic surgery in boot stirrups. Select all that apply.",
+        "answerOptions": [
+          { "id": "fa-q32-a", "text": "A) Common fibular nerve injury is likely due to pressure at the fibular head", "isCorrect": false },
+          { "id": "fa-q32-b", "text": "B) Tibial nerve injury is possible from excessive pressure in the popliteal fossa", "isCorrect": true },
+          { "id": "fa-q32-c", "text": "C) Injury to the tibial nerve results in sensory loss to the dorsum of the foot", "isCorrect": false },
+          { "id": "fa-q32-d", "text": "D) Sciatic nerve injury is possible with extreme hip flexion and leg extension", "isCorrect": true },
+          { "id": "fa-q32-e", "text": "E) Obturator nerve injury typically causes weakness with adduction, not plantarflexion", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Findings localize to tibial or sciatic distribution: tibial nerve (sole sensation, plantarflexion) can be compressed in the popliteal fossa; excessive hip flexion/extension can stretch the sciatic. Obturator injury affects thigh adduction.",
+        "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "fa-q33",
+        "text": "A patient complains of deep pelvic pain several weeks after a uterosacral ligament vaginal vault suspension. Select all that apply.",
+        "answerOptions": [
+          { "id": "fa-q33-a", "text": "A) This may be due to sacral nerve root entrapment by permanent suture", "isCorrect": true },
+          { "id": "fa-q33-b", "text": "B) Recurrent apical prolapse is the most likely cause", "isCorrect": false },
+          { "id": "fa-q33-c", "text": "C) The patient may have neuropathic pain from suture-related nerve irritation", "isCorrect": true },
+          { "id": "fa-q33-d", "text": "D) This is most consistent with femoral neuropathy", "isCorrect": false },
+          { "id": "fa-q33-e", "text": "E) Conservative management with pelvic floor physical therapy may be appropriate initially", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Uterosacral suspension can entrap sacral roots or irritate nerves via permanent sutures, producing neuropathic pelvic pain. Start with conservative measures; consider suture removal if persistent.",
+        "submodule": "Lachiewicz, M. P. (2025, April 3 & 7). Pelvic Anatomy Didactics: The Bootcamp Version (v3.4) [PowerPoint slides]. Duke University Department of Obstetrics and Gynecology.",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      
+      },
+    ]
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+  "id": "emigs-uterine-perforation-test",
+  "title": "EMIGS Uterine Perforation",
+  "questions": [
+    {
+      "id": "perforation-q1",
+      "text": "Which of the following is the most common timing for uterine perforation to occur during a gynecologic procedure?",
+      "answerOptions": [
+        {
+          "id": "q1-a",
+          "text": "A. During uterine repair",
+          "isCorrect": false
+        },
+        {
+          "id": "q1-b",
+          "text": "B. During placement of cervical dilators or hysteroscope",
+          "isCorrect": true
+        },
+        {
+          "id": "q1-c",
+          "text": "C. Postoperatively",
+          "isCorrect": false
+        },
+        {
+          "id": "q1-d",
+          "text": "D. During abdominal closure",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["B", "During placement of cervical dilators or hysteroscope"],
+      "difficulty": "Easy",
+      "explanation": "Most perforations occur at the start of the procedure due to forceful entry with instruments---especially in the setting of difficult anatomy.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q2",
+      "text": "Which of the following is the most appropriate initial response when intraoperative uterine perforation is suspected?",
+      "answerOptions": [
+        {
+          "id": "q2-a",
+          "text": "A. Complete the case quickly and monitor postoperatively",
+          "isCorrect": false
+        },
+        {
+          "id": "q2-b",
+          "text": "B. Notify anesthesia and nursing teams and assess hemodynamic status",
+          "isCorrect": true
+        },
+        {
+          "id": "q2-c",
+          "text": "C. Start prophylactic antibiotics and continue the case",
+          "isCorrect": false
+        },
+        {
+          "id": "q2-d",
+          "text": "D. Immediately begin laparotomy in all patients",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["B", "Notify anesthesia and nursing teams and assess hemodynamic status"],
+      "difficulty": "Medium",
+      "explanation": "The first step is communication and rapid evaluation. Stabilization takes priority, especially if the patient is hemodynamically unstable.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q3",
+      "text": "Which uterine perforation site is most associated with risk of broad ligament hematoma due to proximity to uterine vessels?",
+      "answerOptions": [
+        {
+          "id": "q3-a",
+          "text": "A. Fundal",
+          "isCorrect": false
+        },
+        {
+          "id": "q3-b",
+          "text": "B. Lateral",
+          "isCorrect": true
+        },
+        {
+          "id": "q3-c",
+          "text": "C. Posterior",
+          "isCorrect": false
+        },
+        {
+          "id": "q3-d",
+          "text": "D. Anterior",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["B", "Lateral"],
+      "difficulty": "Medium",
+      "explanation": "Lateral perforations are concerning due to proximity to uterine arteries and the broad ligament, increasing the risk of concealed hemorrhage.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q4",
+      "text": "A 42-year-old patient has a lateral uterine perforation during hysteroscopic resection with active bleeding. Despite laparoscopic sponge compression, a broad ligament hematoma continues to expand. What is the next best step?",
+      "answerOptions": [
+        {
+          "id": "q4-a",
+          "text": "A. Close the procedure and observe postoperatively",
+          "isCorrect": false
+        },
+        {
+          "id": "q4-b",
+          "text": "B. Initiate antibiotic therapy only",
+          "isCorrect": false
+        },
+        {
+          "id": "q4-c",
+          "text": "C. Open the space, identify, and ligate bleeding vessels",
+          "isCorrect": true
+        },
+        {
+          "id": "q4-d",
+          "text": "D. Convert to robotic-assisted hysterectomy",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Open the space, identify, and ligate bleeding vessels"],
+      "difficulty": "Difficult",
+      "explanation": "Persistent hematoma expansion despite conservative measures necessitates surgical exploration and vessel ligation.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q5",
+      "text": "Which of the following statements about long-term consequences of uterine perforation is true?",
+      "answerOptions": [
+        {
+          "id": "q5-a",
+          "text": "A. All uterine perforations increase the risk of uterine rupture in future pregnancy",
+          "isCorrect": false
+        },
+        {
+          "id": "q5-b",
+          "text": "B. Cesarean delivery is required for all patients with prior uterine perforation",
+          "isCorrect": false
+        },
+        {
+          "id": "q5-c",
+          "text": "C. Uterine adhesions and infertility can occur as long-term sequelae",
+          "isCorrect": true
+        },
+        {
+          "id": "q5-d",
+          "text": "D. Perforations that occur during initial cervical dilation require laparotomy",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Uterine adhesions and infertility can occur as long-term sequelae"],
+      "difficulty": "Difficult",
+      "explanation": "Perforation may lead to intrauterine adhesions or infertility. However, isolated cervical dilation-related perforation does not mandate cesarean delivery or laparotomy unless other risk factors exist.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q6",
+      "text": "Which of the following is considered a preventive strategy for uterine perforation during gynecologic procedures?",
+      "answerOptions": [
+        {
+          "id": "q6-a",
+          "text": "A. Avoiding use of a tenaculum",
+          "isCorrect": false
+        },
+        {
+          "id": "q6-b",
+          "text": "B. Avoiding preoperative imaging",
+          "isCorrect": false
+        },
+        {
+          "id": "q6-c",
+          "text": "C. Performing a bimanual exam prior to dilation",
+          "isCorrect": true
+        },
+        {
+          "id": "q6-d",
+          "text": "D. Using monopolar energy in the fundus",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Performing a bimanual exam prior to dilation"],
+      "difficulty": "Easy",
+      "explanation": "This helps assess uterine position and minimize misalignment during instrument entry.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q7",
+      "text": "What is a common risk factor that increases the chance of uterine perforation during hysteroscopy?",
+      "answerOptions": [
+        {
+          "id": "q7-a",
+          "text": "A. Parity ≥3",
+          "isCorrect": false
+        },
+        {
+          "id": "q7-b",
+          "text": "B. Menopause",
+          "isCorrect": true
+        },
+        {
+          "id": "q7-c",
+          "text": "C. Nulligravida status",
+          "isCorrect": false
+        },
+        {
+          "id": "q7-d",
+          "text": "D. Use of misoprostol",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["B", "Menopause"],
+      "difficulty": "Medium",
+      "explanation": "Thinner, more fragile uterine walls in postmenopausal women increase perforation risk.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q8",
+      "text": "Which imaging modality is the first-line evaluation for suspected postoperative retroperitoneal hematoma?",
+      "answerOptions": [
+        {
+          "id": "q8-a",
+          "text": "A. CT abdomen/pelvis with IV contrast",
+          "isCorrect": true
+        },
+        {
+          "id": "q8-b",
+          "text": "B. Pelvic MRI",
+          "isCorrect": false
+        },
+        {
+          "id": "q8-c",
+          "text": "C. PET scan",
+          "isCorrect": false
+        },
+        {
+          "id": "q8-d",
+          "text": "D. Pelvic ultrasound",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": [
+        "A",
+        "CT abdomen/pelvis with IV contrast",
+        "CT with IV contrast"
+      ],
+      "difficulty": "Medium",
+      "explanation": "CT with intravenous contrast is the gold standard imaging modality for hemodynamically stable patients with suspected intra-abdominal or retroperitoneal hemorrhage, with sensitivity and specificity approaching 96–100%. MRI can accurately detect hematomas; however, its longer acquisition time makes it less suitable for initial evaluation in acute settings compared to CT. Ultrasound has a limited role in assessing retroperitoneal hematomas.\n\nUltrasound is, however, the first-line imaging modality for suspected broad ligament hematoma, particularly in the postpartum period when these hematomas most commonly occur. An extended focused assessment with sonography for trauma (E-FAST) is also a rapid and useful tool for detecting intra-abdominal free fluid during initial trauma evaluation, though it has significant limitations in identifying retroperitoneal pathology.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687\n\nVerma, Nupur et al. ACR Appropriateness Criteria® Suspected Retroperitoneal Bleed. Journal of the American College of Radiology, Volume 18, Issue 11, S482 - S487"
+    },
+    {
+      "id": "perforation-q9",
+      "text": "Which of the following intraoperative findings should raise suspicion for occult uterine perforation, even in the absence of visible organ injury?",
+      "answerOptions": [
+        {
+          "id": "q9-a",
+          "text": "A. Bradycardia",
+          "isCorrect": false
+        },
+        {
+          "id": "q9-b",
+          "text": "B. Hypoglycemia",
+          "isCorrect": false
+        },
+        {
+          "id": "q9-c",
+          "text": "C. Hematuria",
+          "isCorrect": true
+        },
+        {
+          "id": "q9-d",
+          "text": "D. Normal uterine tone",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Hematuria"],
+      "difficulty": "Medium",
+      "explanation": "Hematuria during hysteroscopy is a red flag for possible bladder or uterine wall injury.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q10",
+      "text": "What is the recommended approach for an anterior uterine perforation during hysteroscopy when bladder involvement is suspected?",
+      "answerOptions": [
+        {
+          "id": "q10-a",
+          "text": "A. Observation",
+          "isCorrect": false
+        },
+        {
+          "id": "q10-b",
+          "text": "B. Proctoscopy",
+          "isCorrect": false
+        },
+        {
+          "id": "q10-c",
+          "text": "C. Cystoscopy",
+          "isCorrect": true
+        },
+        {
+          "id": "q10-d",
+          "text": "D. Pelvic MRI",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Cystoscopy"],
+      "difficulty": "Difficult",
+      "explanation": "Anterior/posterior perforations require cystoscopy or proctoscopy depending on suspected organ injury.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q11",
+      "text": "Which statement best describes fundal perforation caused by a dilator or hysteroscope without active bleeding?",
+      "answerOptions": [
+        {
+          "id": "q11-a",
+          "text": "A. Requires laparotomy for evaluation",
+          "isCorrect": false
+        },
+        {
+          "id": "q11-b",
+          "text": "B. Always needs cystoscopy",
+          "isCorrect": false
+        },
+        {
+          "id": "q11-c",
+          "text": "C. Can be managed expectantly",
+          "isCorrect": true
+        },
+        {
+          "id": "q11-d",
+          "text": "D. Requires thermal coagulation of the defect",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Can be managed expectantly"],
+      "difficulty": "Medium",
+      "explanation": "If no energy device or morcellator was involved and no active bleeding is seen.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q12",
+      "text": "What clinical symptom may signal delayed recognition of a complex uterine perforation postoperatively?",
+      "answerOptions": [
+        {
+          "id": "q12-a",
+          "text": "A. Transient tachycardia",
+          "isCorrect": false
+        },
+        {
+          "id": "q12-b",
+          "text": "B. Mild constipation",
+          "isCorrect": false
+        },
+        {
+          "id": "q12-c",
+          "text": "C. Vaginal discharge with fever",
+          "isCorrect": true
+        },
+        {
+          "id": "q12-d",
+          "text": "D. Uterine contraction pain",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Vaginal discharge with fever"],
+      "difficulty": "Difficult",
+      "explanation": "Delayed signs may include infection, bleeding, or abscess formation.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q13",
+      "text": "A patient develops severe lower abdominal pain and fever 4 days after a uterine procedure. CT scan shows a pelvic abscess. What is the most likely cause in the context of uterine perforation?",
+      "answerOptions": [
+        {
+          "id": "q13-a",
+          "text": "A. Subserosal fibroid degeneration",
+          "isCorrect": false
+        },
+        {
+          "id": "q13-b",
+          "text": "B. Iatrogenic infection from bowel injury",
+          "isCorrect": true
+        },
+        {
+          "id": "q13-c",
+          "text": "C. Retained intrauterine device",
+          "isCorrect": false
+        },
+        {
+          "id": "q13-d",
+          "text": "D. Delayed uterine involution",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["B", "Iatrogenic infection from bowel injury"],
+      "difficulty": "Difficult",
+      "explanation": "Undiagnosed bowel injuries can lead to pelvic abscesses and systemic infection.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q14",
+      "text": "Which of the following would not be an appropriate part of the management plan for a suspected bladder injury during uterine perforation?",
+      "answerOptions": [
+        {
+          "id": "q14-a",
+          "text": "A. Bladder instillation with dye",
+          "isCorrect": false
+        },
+        {
+          "id": "q14-b",
+          "text": "B. Cystoscopic evaluation",
+          "isCorrect": false
+        },
+        {
+          "id": "q14-c",
+          "text": "C. Empirical treatment with ciprofloxacin only",
+          "isCorrect": true
+        },
+        {
+          "id": "q14-d",
+          "text": "D. Urology consult",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Empirical treatment with ciprofloxacin only"],
+      "difficulty": "Medium",
+      "explanation": "Ciprofloxacin alone is not adequate. Broad-spectrum antibiotics should be used, and a urology consult is standard.",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+    },
+    {
+      "id": "perforation-q15",
+      "text": "Which patient is at lowest risk for uterine perforation during hysteroscopy?",
+      "answerOptions": [
+        {
+          "id": "q15-a",
+          "text": "A. Postpartum patient",
+          "isCorrect": false
+        },
+        {
+          "id": "q15-b",
+          "text": "B. Postmenopausal woman with vaginal atrophy",
+          "isCorrect": false
+        },
+        {
+          "id": "q15-c",
+          "text": "C. Premenopausal patient undergoing diagnostic hysteroscopy",
+          "isCorrect": true
+        },
+        {
+          "id": "q15-d",
+          "text": "D. Patient with history of myomectomy",
+          "isCorrect": false
+        }
+      ],
+      "acceptedWrittenAnswers": ["C", "Premenopausal patient undergoing diagnostic hysteroscopy"],
+      "difficulty": "Medium",
+      "explanation": "Diagnostic procedures in premenopausal patients have the lowest documented perforation rates (0.1-0.5%).",
+      "submodule": "Richards, E. G., Rehmer, J. M., & Falcone, T. (2023). Perforation during gynecological procedures. JAMA, 329(11), 933–934. https://doi.org/10.1001/jama.2023.0687"
+     }
+   ]
+ }
+]

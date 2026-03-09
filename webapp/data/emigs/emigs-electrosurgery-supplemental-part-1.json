@@ -1,0 +1,313 @@
+[
+  {
+    "id": "emigs-electrosurgery-supplemental-part-1",
+    "title": "EMIGS Electrosurgery Supplemental (Part 1)",
+    "questions": [
+      {
+        "id": "es-pt1-q1",
+        "text": "What is the primary difference between electrosurgery and electrocautery?",
+        "answerOptions": [
+          { "id": "es-pt1-q1-a", "text": "A) Electrosurgery uses direct current; electrocautery uses alternating current.", "isCorrect": false },
+          { "id": "es-pt1-q1-b", "text": "B) Electrosurgery involves passive heat transfer; electrocautery uses electromagnetic waves.", "isCorrect": false },
+          { "id": "es-pt1-q1-c", "text": "C) Electrosurgery uses alternating current to create intracellular heat; electrocautery uses direct heat transfer.", "isCorrect": true },
+          { "id": "es-pt1-q1-d", "text": "D) Electrosurgery is only used in dermatology; electrocautery is used in all surgeries.", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Electrosurgery uses alternating current (AC) to create intracellular friction by oscillating charged particles, producing thermal effects like vaporization and coagulation. Electrocautery uses direct current (DC) to heat a metal probe; no current passes through tissue.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q2",
+        "text": "Which of the following is TRUE about coagulation waveforms?",
+        "answerOptions": [
+          { "id": "es-pt1-q2-a", "text": "A) They have high frequency and low voltage.", "isCorrect": false },
+          { "id": "es-pt1-q2-b", "text": "B) They operate with a 100% duty cycle.", "isCorrect": false },
+          { "id": "es-pt1-q2-c", "text": "C) They are continuous waveforms with minimal lateral thermal spread.", "isCorrect": false },
+          { "id": "es-pt1-q2-d", "text": "D) They are interrupted waveforms with high voltage.", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coagulation waveforms are interrupted (modulated) with short, high-voltage bursts and a low duty cycle, increasing the risk of lateral thermal damage and char.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q3",
+        "text": "What temperature range is associated with desiccation and coagulation?",
+        "answerOptions": [
+          { "id": "es-pt1-q3-a", "text": "A) 37–50°C", "isCorrect": false },
+          { "id": "es-pt1-q3-b", "text": "B) 50–60°C", "isCorrect": false },
+          { "id": "es-pt1-q3-c", "text": "C) 60–90°C", "isCorrect": true },
+          { "id": "es-pt1-q3-d", "text": "D) 100–150°C", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Around 60–90°C, water leaves cells and proteins denature/reform, producing desiccation and coagulation without vaporization (>100°C).",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q4",
+        "text": "Why does the ESU convert wall current to a higher frequency?",
+        "answerOptions": [
+          { "id": "es-pt1-q4-a", "text": "A) To reduce energy loss through heat", "isCorrect": false },
+          { "id": "es-pt1-q4-b", "text": "B) To avoid depolarizing nerves and muscles", "isCorrect": true },
+          { "id": "es-pt1-q4-c", "text": "C) To ensure higher voltage delivery", "isCorrect": false },
+          { "id": "es-pt1-q4-d", "text": "D) To prevent burns on the return pad", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Raising frequency above ~100 kHz prevents neuromuscular stimulation (seen at 50–60 Hz), allowing controlled thermal effects without depolarization.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q5",
+        "text": "Which of the following best describes fulguration?",
+        "answerOptions": [
+          { "id": "es-pt1-q5-a", "text": "A) Deep coagulation through direct contact", "isCorrect": false },
+          { "id": "es-pt1-q5-b", "text": "B) Cutting through steam formation", "isCorrect": false },
+          { "id": "es-pt1-q5-c", "text": "C) Superficial coagulation through an electrical arc", "isCorrect": true },
+          { "id": "es-pt1-q5-d", "text": "D) Thermal damage from capacitive coupling", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fulguration uses a no-touch arc to create superficial coagulation/carbonization over broad surfaces.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q6",
+        "text": "Why is current density important in electrosurgery?",
+        "answerOptions": [
+          { "id": "es-pt1-q6-a", "text": "A) It determines the waveform type", "isCorrect": false },
+          { "id": "es-pt1-q6-b", "text": "B) It controls the color of tissue post-dissection", "isCorrect": false },
+          { "id": "es-pt1-q6-c", "text": "C) It influences tissue heating based on electrode size", "isCorrect": true },
+          { "id": "es-pt1-q6-d", "text": "D) It affects REM pad adhesion", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Smaller tips concentrate current (higher density) and increase heating/penetration; larger electrodes diffuse current for a shallower effect.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q7",
+        "text": "Which of the following situations increases the risk of stray current?",
+        "answerOptions": [
+          { "id": "es-pt1-q7-a", "text": "A) Short electrosurgical circuits", "isCorrect": false },
+          { "id": "es-pt1-q7-b", "text": "B) Using bipolar devices", "isCorrect": false },
+          { "id": "es-pt1-q7-c", "text": "C) Placing the return electrode near the surgical field", "isCorrect": false },
+          { "id": "es-pt1-q7-d", "text": "D) Return electrode placed far from the surgical site", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Longer current paths raise the chance of unintended flows through alternative routes (e.g., monitoring leads), increasing burn risk.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q8",
+        "text": "What happens if the dispersive electrode starts to peel off?",
+        "answerOptions": [
+          { "id": "es-pt1-q8-a", "text": "A) The ESU increases voltage to compensate", "isCorrect": false },
+          { "id": "es-pt1-q8-b", "text": "B) The ESU halts energy delivery and sounds an alarm", "isCorrect": true },
+          { "id": "es-pt1-q8-c", "text": "C) Only coagulation mode is disabled", "isCorrect": false },
+          { "id": "es-pt1-q8-d", "text": "D) The active electrode becomes hotter", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "REM (Return Electrode Monitoring) detects poor pad contact and stops energy with an alarm to prevent pad-site burns.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q9",
+        "text": "Why should metal clamps not be used to secure instrument cords?",
+        "answerOptions": [
+          { "id": "es-pt1-q9-a", "text": "A) They scratch insulation", "isCorrect": false },
+          { "id": "es-pt1-q9-b", "text": "B) They interfere with REM function", "isCorrect": false },
+          { "id": "es-pt1-q9-c", "text": "C) They can conduct stray current and cause burns", "isCorrect": true },
+          { "id": "es-pt1-q9-d", "text": "D) They cause capacitive coupling", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Conductive metal can route unintended current and burn tissue; use non-conductive clips instead.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q10",
+        "text": "Which tissue type is most resistant to electrical conduction?",
+        "answerOptions": [
+          { "id": "es-pt1-q10-a", "text": "A) Muscle", "isCorrect": false },
+          { "id": "es-pt1-q10-b", "text": "B) Adipose (fat)", "isCorrect": true },
+          { "id": "es-pt1-q10-c", "text": "C) Skin", "isCorrect": false },
+          { "id": "es-pt1-q10-d", "text": "D) Liver", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Adipose tissue has high resistance and low water content, making it a poor conductor compared with vascular tissues like muscle.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q11",
+        "text": "Which instrument type does NOT require a dispersive pad?",
+        "answerOptions": [
+          { "id": "es-pt1-q11-a", "text": "A) Monopolar pencil", "isCorrect": false },
+          { "id": "es-pt1-q11-b", "text": "B) Bipolar vessel sealer", "isCorrect": true },
+          { "id": "es-pt1-q11-c", "text": "C) Monopolar hook", "isCorrect": false },
+          { "id": "es-pt1-q11-d", "text": "D) Monopolar scissors", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Bipolar instruments include both active and return electrodes at the tips; no dispersive pad is needed.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q12",
+        "text": "Which electrosurgical mode is most likely to cause charring and sticking?",
+        "answerOptions": [
+          { "id": "es-pt1-q12-a", "text": "A) Cut", "isCorrect": false },
+          { "id": "es-pt1-q12-b", "text": "B) Coag", "isCorrect": true },
+          { "id": "es-pt1-q12-c", "text": "C) Blend", "isCorrect": false },
+          { "id": "es-pt1-q12-d", "text": "D) Fulguration", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coag uses high-voltage, intermittent bursts that rapidly desiccate tissue, promoting char and tip sticking.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q13",
+        "text": "What does REM stand for in the context of electrosurgery?",
+        "answerOptions": [
+          { "id": "es-pt1-q13-a", "text": "A) Radiated Electromagnetic Monitoring", "isCorrect": false },
+          { "id": "es-pt1-q13-b", "text": "B) Return Electrode Monitoring", "isCorrect": true },
+          { "id": "es-pt1-q13-c", "text": "C) Radiofrequency Electrosurgical Module", "isCorrect": false },
+          { "id": "es-pt1-q13-d", "text": "D) Resistive Energy Meter", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "REM continuously checks pad contact and disables current if contact is inadequate to prevent burns.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q14",
+        "text": "How can capacitive coupling cause injury?",
+        "answerOptions": [
+          { "id": "es-pt1-q14-a", "text": "A) By producing excess steam during vaporization", "isCorrect": false },
+          { "id": "es-pt1-q14-b", "text": "B) By allowing unintended current to transfer between instruments", "isCorrect": true },
+          { "id": "es-pt1-q14-c", "text": "C) By increasing insulation thickness", "isCorrect": false },
+          { "id": "es-pt1-q14-d", "text": "D) By halting the duty cycle", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Charge from an active insulated electrode can induce current in nearby conductors, causing unseen burns away from the visual field.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q15",
+        "text": "What is the best way to manage bleeding when holding a vessel with forceps?",
+        "answerOptions": [
+          { "id": "es-pt1-q15-a", "text": "A) Use coag mode for a faster response", "isCorrect": false },
+          { "id": "es-pt1-q15-b", "text": "B) Use fulguration to avoid deep injury", "isCorrect": false },
+          { "id": "es-pt1-q15-c", "text": "C) Use cut mode for a stronger and more even seal", "isCorrect": true },
+          { "id": "es-pt1-q15-d", "text": "D) Increase wattage in spray mode", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Cut mode’s lower-voltage continuous waveform produces a deeper, more uniform seal compared with rapid superficial desiccation in coag.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q16",
+        "text": "What aspect of electrosurgical waveform primarily determines whether the effect on tissue is vaporization (cut) or coagulation?",
+        "answerOptions": [
+          { "id": "es-pt1-q16-a", "text": "A) Type of electrode used", "isCorrect": false },
+          { "id": "es-pt1-q16-b", "text": "B) Contact between electrode and tissue", "isCorrect": true },
+          { "id": "es-pt1-q16-c", "text": "C) Duration of activation", "isCorrect": false },
+          { "id": "es-pt1-q16-d", "text": "D) Proximity of the return electrode", "isCorrect": false },
+          { "id": "es-pt1-q16-e", "text": "E) Patient body mass", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Firm, direct contact concentrates energy and rapidly exceeds 100°C (vaporization/cutting); lighter or intermittent contact favors 60–90°C (coagulation/desiccation).",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q17",
+        "text": "In what scenario is fulguration most appropriately used during surgery?",
+        "answerOptions": [
+          { "id": "es-pt1-q17-a", "text": "A) Deep vessel sealing during laparotomy", "isCorrect": false },
+          { "id": "es-pt1-q17-b", "text": "B) Fine dissection near a nerve bundle", "isCorrect": false },
+          { "id": "es-pt1-q17-c", "text": "C) Superficial oozing over a wide surface area", "isCorrect": true },
+          { "id": "es-pt1-q17-d", "text": "D) Vaporizing endometriotic implants", "isCorrect": false },
+          { "id": "es-pt1-q17-e", "text": "E) Achieving tissue desiccation in fatty tissue", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Fulguration is a no-touch, high-voltage arc technique ideal for broad, superficial oozing; it is not for deep sealing or precise cutting.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "es-pt1-q18",
+        "text": "Which of the following best explains the clinical significance of capacitive coupling?",
+        "answerOptions": [
+          { "id": "es-pt1-q18-a", "text": "A) It enhances the current’s ability to cut dense tissue", "isCorrect": false },
+          { "id": "es-pt1-q18-b", "text": "B) It can cause unintended burns via ungrounded instruments", "isCorrect": true },
+          { "id": "es-pt1-q18-c", "text": "C) It requires direct contact with active electrode to be dangerous", "isCorrect": false },
+          { "id": "es-pt1-q18-d", "text": "D) It only occurs with reusable bipolar instruments", "isCorrect": false },
+          { "id": "es-pt1-q18-e", "text": "E) It is always detected by modern REM systems", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Induced currents in nearby conductors can arc to tissue out of view, producing burns; this is not reliably detected by REM.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q19",
+        "text": "Why does using the coag setting for vessel sealing risk a weaker hemostatic seal than using cut?",
+        "answerOptions": [
+          { "id": "es-pt1-q19-a", "text": "A) Coag creates too high a temperature for coagulum to form", "isCorrect": false },
+          { "id": "es-pt1-q19-b", "text": "B) Cut mode reaches higher voltages than coag", "isCorrect": false },
+          { "id": "es-pt1-q19-c", "text": "C) Coag mode carbonizes tissue, which prevents sealing", "isCorrect": false },
+          { "id": "es-pt1-q19-d", "text": "D) Superficial desiccation from coag forms an insulating layer", "isCorrect": true },
+          { "id": "es-pt1-q19-e", "text": "E) Coag triggers REM to stop energy delivery too early", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Coag’s rapid superficial drying produces an insulating crust that limits deeper energy transfer, yielding a weaker, heterogeneous seal.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "es-pt1-q20",
+        "text": "Which precaution helps minimize stray current injury in monopolar electrosurgery?",
+        "answerOptions": [
+          { "id": "es-pt1-q20-a", "text": "A) Using maximum power settings", "isCorrect": false },
+          { "id": "es-pt1-q20-b", "text": "B) Placing the dispersive electrode close to the operative site", "isCorrect": true },
+          { "id": "es-pt1-q20-c", "text": "C) Wrapping cords around a grounded clamp", "isCorrect": false },
+          { "id": "es-pt1-q20-d", "text": "D) Using capacitive coupling to direct current", "isCorrect": false },
+          { "id": "es-pt1-q20-e", "text": "E) Avoiding bipolar instrumentation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Shortening the circuit by placing the pad near the operative field over well-vascularized muscle lowers resistance and unintended current paths.",
+        "submodule": "Duke OB/GYN. Playing with fire: Electrosurgery basics. YouTube. https://www.youtube.com/watch?v=X2Wi2aQpak4. Accessed June 18, 2025.",
+        "questionType": "multiple_choice",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+]

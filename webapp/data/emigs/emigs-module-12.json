@@ -1,0 +1,240 @@
+[
+  {
+    "id": "emigs-module-12",
+    "title": "EMIGS Module 12",
+    "questions": [
+      {
+        "id": "m12-add-q1",
+        "text": "Which 3 strategies help reduce perioperative risk in obese patients undergoing minimally invasive gynecologic surgery? Select 3 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Trendelenburg angle >30° for optimal visualization", "isCorrect": false },
+          { "id": "b", "text": "B) Use of optical trocar for abdominal access", "isCorrect": true },
+          { "id": "c", "text": "C) Closing all fascial ports regardless of size", "isCorrect": false },
+          { "id": "d", "text": "D) Tucking arms with padding rather than shoulder braces", "isCorrect": true },
+          { "id": "e", "text": "E) Using Palmer’s point entry in select patients", "isCorrect": true },
+          { "id": "f", "text": "F) Use of 5000u of preop heparin for DVT prophylaxis", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Optical trocars aid safer access; arms should be tucked and padded (avoid shoulder braces); LUQ/Palmer’s point can be safer with thick abdominal walls. Routine closure of <10 mm ports and universal preop heparin are not indicated.",
+        "submodule": "Module 12.1 – Obese Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 3 }
+      },
+      {
+        "id": "m12-add-q2",
+        "text": "Which of the following intraoperative risks are increased in patients with obesity undergoing laparoscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Difficulty with mechanical ventilation", "isCorrect": true },
+          { "id": "b", "text": "B) Aspiration due to increased intra-abdominal pressure", "isCorrect": true },
+          { "id": "c", "text": "C) Reduced cardiac output", "isCorrect": false },
+          { "id": "d", "text": "D) Increased oxygen reserve", "isCorrect": false },
+          { "id": "e", "text": "E) Brachial plexus injury from body shifting", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Obesity: ↓pulmonary compliance → ventilation difficulty, ↑aspiration risk, and higher risk of brachial plexus injury from shifting in Trendelenburg. Cardiac output often increases, and oxygen reserve decreases.",
+        "submodule": "Module 12.1 – Obese Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m12-add-q3",
+        "text": "Which of the following are incorrect regarding surgical care during pregnancy? Select all that are incorrect.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Laparoscopy is contraindicated in the third trimester", "isCorrect": true },
+          { "id": "b", "text": "B) Port sites ≥10 mm should be closed", "isCorrect": false },
+          { "id": "c", "text": "C) Corpus luteum removal before 10 weeks requires progesterone support", "isCorrect": false },
+          { "id": "d", "text": "D) Supine positioning improves maternal venous return", "isCorrect": true },
+          { "id": "e", "text": "E) Lower pneumoperitoneum pressures are advised", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Laparoscopy is acceptable in all trimesters; avoid supine positioning (use left lateral tilt). Closing ≥10 mm ports, progesterone if CL removed <10 weeks, and lower intra-abdominal pressures are correct statements.",
+        "submodule": "Module 12.2 – Pregnant Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m12-add-q4",
+        "text": "Which changes in pregnancy most directly influence laparoscopic surgical planning? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased cardiac output", "isCorrect": true },
+          { "id": "b", "text": "B) Increased clotting factors", "isCorrect": false },
+          { "id": "c", "text": "C) Reduced functional residual capacity", "isCorrect": true },
+          { "id": "d", "text": "D) Increased glomerular filtration rate", "isCorrect": false },
+          { "id": "e", "text": "E) Increased sensitivity to inhalational anesthetics", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "↑CO and ↓FRC drive intraoperative adjustments (e.g., lower insufflation pressure, lateral tilt). Other listed changes are less directly determinative for port/pressure planning.",
+        "submodule": "Module 12.2 – Pregnant Patient",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m12-add-q5",
+        "text": "Which of the following are appropriate surgical considerations in elderly or medically complex patients undergoing laparoscopy? Select all that apply.",
+        "answerOptions": [
+          { "id": "a", "text": "A) Limit Trendelenburg due to reduced diaphragmatic reserve", "isCorrect": true },
+          { "id": "b", "text": "B) Use lower insufflation pressures to preserve renal blood flow", "isCorrect": true },
+          { "id": "c", "text": "C) Opioids are well tolerated in elderly due to slowed metabolism", "isCorrect": false },
+          { "id": "d", "text": "D) Monitor for atypical symptom presentation", "isCorrect": true },
+          { "id": "e", "text": "E) Expect reduced sensitivity to anesthetic agents", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Limit Trendelenburg, consider lower IAP, and anticipate atypical presentations. Elderly are more sensitive to opioids/anesthetics—not less.",
+        "submodule": "Module 12.3 – Medical Comorbidities",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "allCorrect" }
+      },
+      {
+        "id": "m12-add-q6",
+        "text": "Which factors most increase the risk of postoperative respiratory depression in older patients undergoing gynecologic laparoscopy? Select 2 best answers.",
+        "answerOptions": [
+          { "id": "a", "text": "A) History of hypertension", "isCorrect": false },
+          { "id": "b", "text": "B) Age-related changes in neurotransmitter function", "isCorrect": true },
+          { "id": "c", "text": "C) Reduced ventilatory response to hypercapnia", "isCorrect": true },
+          { "id": "d", "text": "D) Duration of surgery >30 minutes", "isCorrect": false },
+          { "id": "e", "text": "E) Use of lactated Ringer’s solution intraoperatively", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Aging → altered CNS neurotransmission and blunted hypercapnic/hypoxic drive, increasing risk of hypoventilation with sedatives/opioids.",
+        "submodule": "Module 12.3 – Medical Comorbidities",
+        "questionType": "multiple_choice",
+        "multiSelect": { "mode": "multiple", "rule": "exactlyN", "requiredCount": 2 }
+      },
+      {
+        "id": "m12-12_1-easy",
+        "text": "Which of the following is the most appropriate initial trocar entry site for a morbidly obese patient undergoing laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Infraumbilical", "isCorrect": false },
+          { "id": "b", "text": "B) Palmer’s point", "isCorrect": true },
+          { "id": "c", "text": "C) Right lower quadrant", "isCorrect": false },
+          { "id": "d", "text": "D) McBurney’s point", "isCorrect": false },
+          { "id": "e", "text": "E) Suprapubic", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Left upper quadrant (Palmer’s point) avoids displaced umbilicus and thickened wall, improving safety.",
+        "submodule": "Module 12.1 – Obese Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_1-medium",
+        "text": "Which of the following physiologic changes in obesity contributes most to increased anesthetic risk during laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Hypokalemia", "isCorrect": false },
+          { "id": "b", "text": "B) Increased lung compliance", "isCorrect": false },
+          { "id": "c", "text": "C) Restrictive lung disease", "isCorrect": true },
+          { "id": "d", "text": "D) Decreased cardiac output", "isCorrect": false },
+          { "id": "e", "text": "E) Increased oxygen saturation", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Obesity → restrictive physiology (↓FRC, ↓compliance) → higher anesthetic/ventilatory risk.",
+        "submodule": "Module 12.1 – Obese Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_1-difficult",
+        "text": "Which positioning technique is most associated with brachial plexus injury in obese patients undergoing laparoscopic surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Use of gel pads", "isCorrect": false },
+          { "id": "b", "text": "B) Tucking the arms with arm sleds", "isCorrect": false },
+          { "id": "c", "text": "C) Use of wider boot stirrups", "isCorrect": false },
+          { "id": "d", "text": "D) Use of shoulder braces", "isCorrect": true },
+          { "id": "e", "text": "E) Egg crate mattress", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Shoulder braces can cause traction on the brachial plexus as patients slide in Trendelenburg.",
+        "submodule": "Module 12.1 – Obese Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_2-easy",
+        "text": "Which laparoscopic access site is most appropriate for a gravid uterus at 20 weeks gestation?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Infraumbilical", "isCorrect": false },
+          { "id": "b", "text": "B) McBurney’s point", "isCorrect": false },
+          { "id": "c", "text": "C) Right lower quadrant", "isCorrect": false },
+          { "id": "d", "text": "D) Suprapubic", "isCorrect": false },
+          { "id": "e", "text": "E) Left upper quadrant", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "LUQ (Palmer’s point) avoids the enlarged uterus in mid-pregnancy.",
+        "submodule": "Module 12.2 – Pregnant Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_2-medium",
+        "text": "Which of the following is the most appropriate next step for a 12-week pregnant patient presenting with a 7 cm simple adnexal mass and absent Doppler flow?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Expectant management", "isCorrect": false },
+          { "id": "b", "text": "B) Interventional radiology drainage", "isCorrect": false },
+          { "id": "c", "text": "C) IV fluid resuscitation and observation", "isCorrect": false },
+          { "id": "d", "text": "D) Urgent laparoscopy for detorsion and possible cystectomy", "isCorrect": true },
+          { "id": "e", "text": "E) Immediate laparotomy", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Absent flow suggests torsion → urgent laparoscopy for detorsion/cystectomy.",
+        "submodule": "Module 12.2 – Pregnant Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_2-difficult",
+        "text": "Which of the following physiologic changes in pregnancy contributes most to the increased risk of aspiration during surgery?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Decreased cardiac output", "isCorrect": false },
+          { "id": "b", "text": "B) Increased intra-abdominal pressure and gastroesophageal reflux", "isCorrect": true },
+          { "id": "c", "text": "C) Increased blood volume", "isCorrect": false },
+          { "id": "d", "text": "D) Decreased pulmonary vascular resistance", "isCorrect": false },
+          { "id": "e", "text": "E) Increased renal clearance", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Gravid uterus → ↑IAP and LES relaxation → reflux/aspiration risk.",
+        "submodule": "Module 12.2 – Pregnant Patient",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_3-easy",
+        "text": "What age-related physiologic change increases the risk of postoperative respiratory depression?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased tidal volume", "isCorrect": false },
+          { "id": "b", "text": "B) Decreased pharmacodynamic sensitivity", "isCorrect": false },
+          { "id": "c", "text": "C) Reduced ventilatory response to hypercapnia", "isCorrect": true },
+          { "id": "d", "text": "D) Enhanced renal clearance", "isCorrect": false },
+          { "id": "e", "text": "E) Increased neuromuscular tone", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Older adults have a blunted CO₂/O₂ ventilatory drive, heightening risk with sedatives/opioids.",
+        "submodule": "Module 12.3 – Medical Comorbidities",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_3-medium",
+        "text": "What is the most important consideration when determining laparoscopic access in a patient with a history of multiple abdominal surgeries?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Presence of varices", "isCorrect": false },
+          { "id": "b", "text": "B) Duration of previous procedures", "isCorrect": false },
+          { "id": "c", "text": "C) Adhesions and altered anatomy", "isCorrect": true },
+          { "id": "d", "text": "D) Total anesthesia time", "isCorrect": false },
+          { "id": "e", "text": "E) Prior BMI", "isCorrect": false }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Prior operations → adhesions/distorted landmarks → choose access site accordingly.",
+        "submodule": "Module 12.3 – Medical Comorbidities",
+        "questionType": "multiple_choice"
+      },
+      {
+        "id": "m12-12_3-difficult",
+        "text": "What intraoperative factor most contributes to renal hypoperfusion in laparoscopic surgery for medically complex patients?",
+        "answerOptions": [
+          { "id": "a", "text": "A) Increased urine output", "isCorrect": false },
+          { "id": "b", "text": "B) Decreased pneumoperitoneum", "isCorrect": false },
+          { "id": "c", "text": "C) Trendelenburg positioning", "isCorrect": false },
+          { "id": "d", "text": "D) Portal venous congestion", "isCorrect": false },
+          { "id": "e", "text": "E) Intra-abdominal pressure from pneumoperitoneum", "isCorrect": true }
+        ],
+        "acceptedWrittenAnswers": [],
+        "explanation": "Elevated IAP from pneumoperitoneum reduces renal perfusion and GFR.",
+        "submodule": "Module 12.3 – Medical Comorbidities",
+        "questionType": "multiple_choice"
+      }
+    ]
+  }
+]
