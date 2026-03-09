@@ -240,7 +240,7 @@ function showResults(){
 </svg>
 
 <div class="score-ring-inner">
-${percentage}%
+<span id="score-number">0</span>%
 </div>
 
 </div>
@@ -348,5 +348,33 @@ function answersCorrect(question, answers){
     answers.length === correctOptions.length &&
     answers.every(a => correctOptions.includes(a))
   );
+
+}
+
+function animateScore(target){
+
+const element = document.getElementById("score-number");
+
+let current = 0;
+
+const duration = 1200; // animation time
+const steps = 40;
+
+const increment = target / steps;
+
+const interval = duration / steps;
+
+const counter = setInterval(()=>{
+
+current += increment;
+
+if(current >= target){
+current = target;
+clearInterval(counter);
+}
+
+element.innerText = Math.round(current);
+
+}, interval);
 
 }
