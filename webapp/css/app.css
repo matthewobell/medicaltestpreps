@@ -370,9 +370,16 @@ h1 {
   line-height: var(--line-height);
 }
 
-.answer-body {
+.answer-explanation {
   font-size: var(--font-body);
   font-weight: var(--weight-normal);
+  line-height: var(--line-height);
+  margin-bottom: 16px;
+}
+
+.answer-body {
+  font-size: var(--font-heading);
+  font-weight: var(--weight-bold);
   line-height: var(--line-height);
   margin-bottom: 16px;
 }
