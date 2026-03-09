@@ -199,7 +199,7 @@ function showResults(){
 
   feedbackCard.innerHTML =
     '<h2 class="quiz-complete-title">Quiz Complete!</h2>' +
-    '<div class="score-ring"><svg width="160" height="160" viewBox="0 0 160 160"><circle class="ring-progress" cx="80" cy="80" r="70"/></svg><div class="score-ring-inner"><span id="score-number">0</span>%</div></div>' +
+    '<div class="score-ring"><svg width="160" height="160" viewBox="0 0 160 160"><circle class="ring-track" cx="80" cy="80" r="70"/><circle class="ring-progress" cx="80" cy="80" r="70"/></svg><div class="score-ring-inner"><span id="score-number">0</span>%</div></div>' +
     '<div class="score-text">Your score: ' + score + '/' + questions.length + '</div>' +
     '<button id="next-quiz" class="primary-button">Next Quiz</button>' +
     '<button id="review-answers" class="primary-button">Review Answers</button>' +
