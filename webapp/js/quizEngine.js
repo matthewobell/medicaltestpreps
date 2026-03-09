@@ -114,7 +114,7 @@ function selectAnswer(option) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  document.getElementById("next").onclick = () => {
+  document.getElementById("next").onclick = nextQuestionHandler;
 
     if(selectedAnswer === null){
       alert("Please select an answer before continuing.");
