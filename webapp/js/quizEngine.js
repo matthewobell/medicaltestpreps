@@ -348,10 +348,10 @@ ${q.question || q.text}
 
 }
 
-function toggleReview(arrow){
+function toggleReview(card){
 
-const card = arrow.closest(".review-card");
 const details = card.querySelector(".review-details");
+const arrow = card.querySelector(".review-arrow");
 
 if(details.style.display === "block"){
 details.style.display = "none";
