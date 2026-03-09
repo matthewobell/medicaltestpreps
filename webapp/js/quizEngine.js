@@ -152,7 +152,9 @@ const isCorrect =
 function showFeedback(question, isCorrect){
 
   const quizCard = document.getElementById("quiz-card");
-  const feedbackCard = document.getElementById("feedback-card");
+  feedbackCard.style.background = "transparent";
+  feedbackCard.style.padding = "0";
+  feedbackCard.style.width = "520px";
 
   quizCard.style.display = "none";
   feedbackCard.style.display = "block";
@@ -301,6 +303,8 @@ function showReviewPage(){
     reviewHTML += `
       <div class="review-card">
 
+<div class="review-card" onclick="toggleReview(this)">
+
 <div class="review-top">
 
 <div>
@@ -317,7 +321,7 @@ ${q.question || q.text}
 
 </div>
 
-<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
+<div class="review-arrow">⌄</div>
 
 <div class="review-details">
 
