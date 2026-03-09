@@ -80,17 +80,31 @@ function showQuestion() {
 
   options.forEach(option => {
 
-    const button = document.createElement("button");
+  const button = document.createElement("button");
 
-    const optionText = option.text || option;
+  const optionText = option.text || option;
 
-    button.innerText = optionText;
+  button.innerText = optionText;
 
-    button.onclick = () => selectAnswer(option);
+  button.classList.add("answer-button");
 
-    optionsDiv.appendChild(button);
+  button.onclick = () => {
 
-  });
+    selectAnswer(option);
+
+    // Remove selection from all buttons
+    document.querySelectorAll(".answer-button").forEach(btn => {
+      btn.classList.remove("selected");
+    });
+
+    // Highlight selected button
+    button.classList.add("selected");
+
+  };
+
+  optionsDiv.appendChild(button);
+
+});
 
 }
 
