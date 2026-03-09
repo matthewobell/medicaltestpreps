@@ -7,7 +7,17 @@ async function loadQuestions() {
   const response = await fetch("data/questions.json");
   const data = await response.json();
 
-  questions = data.questions;
+  // Support multiple JSON structures automatically
+  if (Array.isArray(data)) {
+    questions = data;
+  } else if (data.questions) {
+    questions = data.questions;
+  } else if (data.emigs_questions) {
+    questions = data.emigs_questions;
+  } else {
+    console.error("Unsupported question format");
+    return;
+  }
 
   showQuestion();
 }
