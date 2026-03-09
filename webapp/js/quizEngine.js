@@ -1,34 +1,52 @@
-// Determine where the questions live in the JSON
-if (Array.isArray(data) && data[0]?.questions) {
-  questions = data[0].questions;
-}
-else if (Array.isArray(data)) {
-  questions = data;
-}
-else if (data.questions) {
-  questions = data.questions;
-}
-else if (data.data?.questions) {
-  questions = data.data.questions;
-}
-else if (data.emigs_questions) {
-  questions = data.emigs_questions;
-}
-else {
-  console.error("Unsupported question format", data);
-  return;
+let questions = [];
+let currentQuestionIndex = 0;
+let selectedAnswer = null;
+let score = 0;
+
+// Shuffle question order
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
 }
 
-// Debug check
-console.log("Loaded questions:", questions);
+async function loadQuestions() {
 
-// RANDOMIZE QUESTION ORDER
-shuffleArray(questions);
+  const params = new URLSearchParams(window.location.search);
+  const file = params.get("file") || "questions.json";
 
-currentQuestionIndex = 0;
+  const response = await fetch(`data/${file}`);
+  const data = await response.json();
 
-showQuestion();
+  // Determine where the questions live in the JSON
+  if (Array.isArray(data) && data[0]?.questions) {
+    questions = data[0].questions;
+  }
+  else if (Array.isArray(data)) {
+    questions = data;
+  }
+  else if (data.questions) {
+    questions = data.questions;
+  }
+  else if (data.data?.questions) {
+    questions = data.data.questions;
+  }
+  else if (data.emigs_questions) {
+    questions = data.emigs_questions;
+  }
+  else {
+    console.error("Unsupported question format", data);
+    return;
+  }
 
+  console.log("Loaded questions:", questions);
+
+  shuffleArray(questions);
+
+  currentQuestionIndex = 0;
+
+  showQuestion();
 }
 
 function showQuestion() {
@@ -42,18 +60,15 @@ function showQuestion() {
 
   const question = questions[currentQuestionIndex];
 
-  // Update question counter
   document.getElementById("question-counter").innerText =
     `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
-  // Update progress bar
   const progressPercent =
     (currentQuestionIndex / questions.length) * 100;
 
   document.getElementById("progress").style.width =
     progressPercent + "%";
 
-  // Support both "question" and "text"
   const questionText = question.question || question.text;
 
   document.getElementById("question").innerText = questionText;
@@ -61,7 +76,6 @@ function showQuestion() {
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
 
-  // Support both formats
   const options = question.options || question.answerOptions;
 
   options.forEach(option => {
@@ -84,99 +98,36 @@ function selectAnswer(option) {
   selectedAnswer = option;
 }
 
-document.getElementById("next").onclick = () => {
+document.addEventListener("DOMContentLoaded", () => {
 
-  if(selectedAnswer === null){
-    alert("Please select an answer before continuing.");
-    return;
-  }
+  document.getElementById("next").onclick = () => {
 
-  const question = questions[currentQuestionIndex];
+    if(selectedAnswer === null){
+      alert("Please select an answer before continuing.");
+      return;
+    }
 
-  let resultMessage = "";
+    const question = questions[currentQuestionIndex];
 
-  // Support both answer formats
-  const isCorrect =
-    selectedAnswer.isCorrect ||
-    selectedAnswer === question.correctAnswer;
+    let resultMessage = "";
 
-  if(isCorrect){
-    score++;
-    resultMessage = "Correct!";
-  } else {
-    resultMessage = "Incorrect.";
-  }
+    const isCorrect =
+      selectedAnswer.isCorrect ||
+      selectedAnswer === question.correctAnswer;
 
-  showExplanation(question, resultMessage);
-}
+    if(isCorrect){
+      score++;
+      resultMessage = "Correct!";
+    } else {
+      resultMessage = "Incorrect.";
+    }
 
-loadQuestions();    `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+    showExplanation(question, resultMessage);
+  };
 
-  // Update progress bar
-  const progressPercent =
-    (currentQuestionIndex / questions.length) * 100;
+  loadQuestions();
 
-  document.getElementById("progress").style.width =
-    progressPercent + "%";
-
-  // Support both "question" and "text"
-  const questionText = question.question || question.text;
-
-  document.getElementById("question").innerText = questionText;
-
-  const optionsDiv = document.getElementById("options");
-  optionsDiv.innerHTML = "";
-
-  // Support both formats
-  const options = question.options || question.answerOptions;
-
-  options.forEach(option => {
-
-    const button = document.createElement("button");
-
-    const optionText = option.text || option;
-
-    button.innerText = optionText;
-
-    button.onclick = () => selectAnswer(option);
-
-    optionsDiv.appendChild(button);
-
-  });
-
-}
-
-function selectAnswer(option) {
-  selectedAnswer = option;
-}
-
-document.getElementById("next").onclick = () => {
-
-  if(selectedAnswer === null){
-    alert("Please select an answer before continuing.");
-    return;
-  }
-
-  const question = questions[currentQuestionIndex];
-
-  let resultMessage = "";
-
-  // Support both answer formats
-  const isCorrect =
-    selectedAnswer.isCorrect ||
-    selectedAnswer === question.correctAnswer;
-
-  if(isCorrect){
-    score++;
-    resultMessage = "Correct!";
-  } else {
-    resultMessage = "Incorrect.";
-  }
-
-  showExplanation(question, resultMessage);
-}
-
-loadQuestions();
+});
 
 function showExplanation(question, resultMessage) {
 
@@ -184,11 +135,8 @@ function showExplanation(question, resultMessage) {
 
   container.innerHTML = `
     <h2>${resultMessage}</h2>
-
     <p><strong>Explanation:</strong></p>
-
     <p>${question.explanation || "Explanation coming soon."}</p>
-
     <button id="continue">Continue</button>
   `;
 
@@ -213,11 +161,8 @@ function showResults() {
 
   container.innerHTML = `
     <h2>Quiz Complete</h2>
-
     <p>You scored ${score} out of ${questions.length}</p>
-
     <h3>${percentage}%</h3>
-
     <button onclick="location.reload()">Retake Quiz</button>
   `;
 }
