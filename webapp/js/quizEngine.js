@@ -148,15 +148,30 @@ function showExplanation(question, resultMessage) {
   const container = document.getElementById("quiz-container");
 
   container.innerHTML = `
-    <h2>${resultMessage}</h2>
-    <p><strong>Explanation:</strong></p>
-    <p>${question.explanation || "Explanation coming soon."}</p>
-    <button id="continue">Continue</button>
+    <div id="explanation-screen">
+      <h2>${resultMessage}</h2>
+
+      <p><strong>Explanation:</strong></p>
+
+      <p>${question.explanation || "Explanation coming soon."}</p>
+
+      <button id="continue">Continue</button>
+    </div>
   `;
 
   document.getElementById("continue").onclick = () => {
 
     currentQuestionIndex++;
+
+    // Restore quiz layout
+    container.innerHTML = `
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next">Next Question</button>
+    `;
+
+    // Reconnect next button
+    document.getElementById("next").onclick = nextQuestionHandler;
 
     if(currentQuestionIndex < questions.length){
       showQuestion();
