@@ -1,12 +1,12 @@
 let questions = [];
 let currentQuestionIndex = 0;
 
-let selectedAnswers = [];
-let userAnswers = [];
+let selectedAnswers = [];      // answers for current question
+let userAnswers = [];          // answers for entire quiz
 
 let score = 0;
 
-// Remove A), B), C) prefixes
+// Remove A), B), C) style prefixes
 function cleanAnswerText(text){
   return (text || "").replace(/^[A-E]\)\s*/, "");
 }
@@ -24,7 +24,7 @@ async function loadQuestions(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
 
-  const response = await fetch(`data/${file}`);
+  const response = await fetch(data/${file});
   const data = await response.json();
 
   if(Array.isArray(data) && data[0]?.questions){
@@ -55,22 +55,32 @@ async function loadQuestions(){
 
 function showQuestion(){
 
-  if(!questions.length) return;
+  if(!questions || questions.length === 0){
+    console.error("No questions loaded");
+    return;
+  }
 
   selectedAnswers = [];
 
   const question = questions[currentQuestionIndex];
 
   document.getElementById("question-counter").innerText =
-    `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+    Question ${currentQuestionIndex + 1} of ${questions.length};
 
-  document.getElementById("question").innerText =
-    question.question || question.text;
+  const questionText = question.question || question.text;
+  document.getElementById("question").innerText = questionText;
 
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
 
   const options = question.options || question.answerOptions;
+
+  const correctCount = options.filter(o => o.isCorrect).length;
+
+if(correctCount > 1){
+  document.getElementById("question").innerText =
+    questionText +  (Select ${correctCount});
+}
 
   options.forEach(option => {
 
@@ -83,23 +93,25 @@ function showQuestion(){
 
     button.onclick = () => {
 
-      const optionIndex = selectedAnswers.indexOf(option);
+  const optionIndex = selectedAnswers.indexOf(option);
 
-      if(optionIndex > -1){
-        selectedAnswers.splice(optionIndex,1);
-        button.classList.remove("selected");
-      }
-      else{
-        selectedAnswers.push(option);
-        button.classList.add("selected");
-      }
+  if(optionIndex > -1){
 
-    };
+    // remove selection
+    selectedAnswers.splice(optionIndex,1);
+    button.classList.remove("selected");
+
+  } else {
+
+    selectedAnswers.push(option);
+    button.classList.add("selected");
+
+  }
+
+};
 
     optionsDiv.appendChild(button);
-
   });
-
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -107,7 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("submit").onclick = submitAnswer;
 
   loadQuestions();
-
 });
 
 function submitAnswer(){
@@ -123,18 +134,19 @@ function submitAnswer(){
   (question.options || question.answerOptions)
     .filter(o => o.isCorrect);
 
-  userAnswers[currentQuestionIndex] = [...selectedAnswers];
+userAnswers[currentQuestionIndex] = [...selectedAnswers];
+  
+const isCorrect =
+  selectedAnswers.length === correctOptions.length &&
+  selectedAnswers.every(sel =>
+    correctOptions.includes(sel)
+  );
 
-  const isCorrect =
-    selectedAnswers.length === correctOptions.length &&
-    selectedAnswers.every(sel =>
-      correctOptions.includes(sel)
-    );
-
-  if(isCorrect) score++;
+  if(isCorrect){
+    score++;
+  }
 
   showFeedback(question, isCorrect);
-
 }
 
 function showFeedback(question, isCorrect){
@@ -145,9 +157,10 @@ function showFeedback(question, isCorrect){
   quizCard.style.display = "none";
   feedbackCard.style.display = "block";
 
+  const options = question.options || question.answerOptions;
+
   const correctOptions =
-    (question.options || question.answerOptions)
-    .filter(o => o.isCorrect);
+  options.filter(o => o.isCorrect);
 
   const iconClass = isCorrect ? "correct" : "incorrect";
 
@@ -160,25 +173,21 @@ function showFeedback(question, isCorrect){
     </div>
 
     <div class="answer-header">Your Answer</div>
-    <div class="answer-body">
-      ${selectedAnswers.map(a =>
-        cleanAnswerText(a.text || a)
-      ).join("<br>")}
-    </div>
+    <div class="answer-body">${selectedAnswers.map(a =>
+  cleanAnswerText(a.text || a)
+).join("<br>")}</div>
 
-    ${!isCorrect ? `
+    ${!isCorrect ? 
       <div class="answer-header">Correct Answer</div>
       <div class="answer-body">
-      ${correctOptions.map(o =>
-        cleanAnswerText(o.text || o)
-      ).join("<br>")}
-      </div>
-    ` : ``}
+${correctOptions.map(o =>
+  cleanAnswerText(o.text || o)
+).join("<br>")}
+</div>
+     : }
 
     <div class="answer-header">Explanation</div>
-    <div class="answer-body">
-      ${question.explanation || "Explanation coming soon."}
-    </div>
+    <div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
 
     <button id="next-question">Next Question</button>
   `;
@@ -197,11 +206,8 @@ function showFeedback(question, isCorrect){
     } else {
 
       showResults();
-
     }
-
   };
-
 }
 
 function showResults(){
@@ -211,13 +217,19 @@ function showResults(){
   const percentage = Math.round((score / questions.length) * 100);
 
   feedbackCard.innerHTML = `
+    <h2 class="quiz-complete-title">Quiz Complete!</h2>
 
-<h2 class="quiz-complete-title">Quiz Complete!</h2>
-
-<div class="score-ring">
+    <div class="score-ring">
 
 <svg width="160" height="160" viewBox="0 0 160 160">
-<circle class="ring-progress" cx="80" cy="80" r="70"/>
+
+<circle
+  class="ring-progress"
+  cx="80"
+  cy="80"
+  r="70"
+/>
+
 </svg>
 
 <div class="score-ring-inner">
@@ -241,14 +253,36 @@ Review Answers
 <div class="return-home">
 <a href="index.html">Return home</a>
 </div>
-
 `;
 
-  document.getElementById("next-quiz").onclick = () => location.reload();
+document.getElementById("next-quiz").onclick = () => {
+location.reload();
+};
 
-  document.getElementById("review-answers").onclick = showReviewPage;
+document.getElementById("review-answers").onclick = () => {
+showReviewPage();
+};
 
-  animateScore(percentage);
+// ---- Animate ring ----
+
+setTimeout(()=>{
+
+const circle = document.querySelector(".ring-progress");
+
+if(circle){
+
+const circumference = 440;
+const offset = circumference - (percentage / 100) * circumference;
+
+circle.style.strokeDashoffset = offset;
+
+}
+
+},100);
+
+// ---- Animate number ----
+
+animateScore(percentage);
 
 }
 
@@ -256,80 +290,79 @@ function showReviewPage(){
 
   const feedbackCard = document.getElementById("feedback-card");
 
-  let html = `<div class="review-container">`;
+  let reviewHTML = <div class="review-container">;
 
-  questions.forEach((q,index)=>{
+  questions.forEach((q, index) => {
 
     const answers = userAnswers[index] || [];
 
-    html += `
+    reviewHTML += `
+      <div class="review-card">
 
-<div class="review-card" onclick="toggleReview(this)">
+<div class="review-top">
 
-<div class="review-header">
-
+<div>
 <div class="review-counter">
-Question ${index+1} of ${questions.length}
-</div>
-
-<div class="review-icon ${answersCorrect(q,answers) ? "correct":"incorrect"}"></div>
-
+Question ${index + 1} of ${questions.length}
 </div>
 
 <div class="review-question">
 ${q.question || q.text}
 </div>
+</div>
+
+<div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
+
+</div>
+
+<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
 
 <div class="review-details">
 
-<div class="review-label">Your Answer</div>
+          <div class="review-label">Your Answer</div>
+          <div class="review-answer">
+          ${answers.map(a => cleanAnswerText(a.text || a)).join("<br>") || "No answer"}
+          </div>
 
-<div class="review-answer">
-${answers.map(a=>cleanAnswerText(a.text||a)).join("<br>")}
-</div>
+          <div class="review-label">Explanation</div>
+          <div class="review-explanation">
+            ${q.explanation || "Explanation coming soon."}
+          </div>
 
-<div class="review-label">Explanation</div>
+        </div>
 
-<div class="review-explanation">
-${q.explanation || "Explanation coming soon."}
-</div>
-
-</div>
-
-<div class="review-arrow">⌄</div>
-
-</div>
-
-`;
+      </div>
+    `;
 
   });
 
-  html += `</div>`;
+  reviewHTML += </div>;
 
-  feedbackCard.innerHTML = html;
-
-}
-
-function toggleReview(card){
-
-  const details = card.querySelector(".review-details");
-  const arrow = card.querySelector(".review-arrow");
-
-  if(details.style.display === "block"){
-    details.style.display = "none";
-    arrow.innerHTML = "⌄";
-  } else {
-    details.style.display = "block";
-    arrow.innerHTML = "⌃";
-  }
+  feedbackCard.innerHTML = reviewHTML;
 
 }
 
-function answersCorrect(question,answers){
+function toggleReview(arrow){
+
+const card = arrow.closest(".review-card");
+const details = card.querySelector(".review-details");
+
+if(details.style.display === "block"){
+details.style.display = "none";
+arrow.innerHTML = "⌄";
+}
+else{
+details.style.display = "block";
+arrow.innerHTML = "⌃";
+}
+
+}
+
+function answersCorrect(question, answers){
 
   const options = question.options || question.answerOptions;
 
-  const correctOptions = options.filter(o=>o.isCorrect);
+  const correctOptions = options.filter(o => o.isCorrect);
 
   return (
     answers.length === correctOptions.length &&
@@ -340,29 +373,29 @@ function answersCorrect(question,answers){
 
 function animateScore(target){
 
-  const element = document.getElementById("score-number");
+const element = document.getElementById("score-number");
 
-  if(!element) return;
+if(!element) return;
 
-  let current = 0;
+let current = 0;
 
-  const duration = 1200;
-  const steps = 40;
+const duration = 1200;
+const steps = 40;
 
-  const increment = target/steps;
-  const interval = duration/steps;
+const increment = target / steps;
+const interval = duration / steps;
 
-  const counter = setInterval(()=>{
+const counter = setInterval(()=>{
 
-    current += increment;
+current += increment;
 
-    if(current >= target){
-      current = target;
-      clearInterval(counter);
-    }
+if(current >= target){
+current = target;
+clearInterval(counter);
+}
 
-    element.innerText = Math.round(current);
+element.innerText = Math.round(current);
 
-  },interval);
+}, interval);
 
 }
