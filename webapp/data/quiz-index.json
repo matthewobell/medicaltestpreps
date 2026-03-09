@@ -24,7 +24,7 @@
     "emigs-uterine-perforation.json",
     "emigs-electrosurgery-supplemental-part-1.json",
     "emigs-electrosurgery-supplemental-part-2.json",
-    "emigs-post-release-assessment",
+    "emigs-post-release-assessment.json",
     "fls-module-1.json",
     "fls-module-2.json",
     "fls-module-3.json",
@@ -38,9 +38,9 @@
     "fls-module-11.json",
     "fls-module-12.json",
     "fls-module-13.json",
-    "fls-final-assessment",
+    "fls-final-assessment.json",
     "fls-electrosurgery-supplemental-part-1.json",
     "fls-electrosurgery-supplemental-part-2.json",
-    "fls-supplement-air-embolism"
+    "fls-supplement-air-embolism.json"
   ]
 }
