@@ -1,4 +1,8 @@
-if (Array.isArray(data)) {
+// Determine where the questions live in the JSON
+if (Array.isArray(data) && data[0]?.questions) {
+  questions = data[0].questions;
+}
+else if (Array.isArray(data)) {
   questions = data;
 }
 else if (data.questions) {
@@ -12,11 +16,13 @@ else if (data.emigs_questions) {
 }
 else {
   console.error("Unsupported question format", data);
+  return;
 }
-  else {
-    console.error("Unsupported question format");
-    return;
-  }
+
+// RANDOMIZE QUESTION ORDER
+shuffleArray(questions);
+
+showQuestion();
 
   // RANDOMIZE QUESTION ORDER
   shuffleArray(questions);
