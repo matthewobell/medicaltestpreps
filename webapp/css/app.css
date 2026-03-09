@@ -255,26 +255,18 @@ font-size:20px;
 text-decoration:underline;
 }
 
-.review-container{
-width:520px;
-margin:0 auto;
-}
-
 .review-card{
 background:#F2F2F2;
 border-radius:40px;
-padding:36px;
-margin:28px auto;
-cursor:pointer;
-text-align:left;
-position:relative;
+padding:28px;
+margin:24px auto;
+width:520px;
 }
 
 .review-header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-margin-bottom:8px;
 }
 
 .review-counter{
@@ -285,33 +277,16 @@ font-weight:600;
 .review-question{
 font-size:22px;
 font-weight:700;
-margin-bottom:14px;
-line-height:1.3;
-}
-
-.review-icon{
-width:44px;
-height:44px;
-border-radius:50%;
-flex-shrink:0;
-}
-
-.review-icon.correct{
-background:#5E8774;
-}
-
-.review-icon.incorrect{
-background:#F28C8C;
+margin:10px 0 20px;
 }
 
 .review-details{
-display:block;
-margin-top:10px;
+display:none;
 }
 
 .review-label{
 font-weight:700;
-margin-top:12px;
+margin-top:10px;
 }
 
 .review-answer{
@@ -322,12 +297,6 @@ margin-bottom:12px;
 .review-explanation{
 font-size:20px;
 line-height:1.4;
-}
-
-.review-arrow{
-text-align:center;
-font-size:26px;
-margin-top:16px;
 }
 
 .score-ring{
