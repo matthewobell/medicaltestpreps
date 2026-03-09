@@ -7,26 +7,48 @@ async function loadModules(type) {
 
   container.innerHTML = "";
 
-  data.files
+  const files = data.files
     .filter(file => file.startsWith(type))
-    .filter(file => file.endsWith(".json"))
-    .forEach(file => {
+    .filter(file => file.endsWith(".json"));
 
-      const card = document.createElement("a");
+  for (const file of files) {
 
-      card.href = `quiz.html?file=${file}`;
-      card.className = "portal-card";
+    const card = document.createElement("a");
+    card.href = `quiz.html?file=${file}`;
+    card.className = "portal-card";
 
-      const title = formatModuleTitle(file);
+    const title = formatModuleTitle(file);
 
-      card.innerHTML = `
-        <h3>${title}</h3>
-        <p>Start quiz</p>
-      `;
+    // Load module file to count questions
+    let questionCount = "?";
 
-      container.appendChild(card);
+    try {
 
-    });
+      const moduleResponse = await fetch(`data/${file}`);
+      const moduleData = await moduleResponse.json();
+
+      if (Array.isArray(moduleData)) {
+        questionCount = moduleData.length;
+      }
+      else if (moduleData.questions) {
+        questionCount = moduleData.questions.length;
+      }
+      else if (Array.isArray(moduleData[0]?.questions)) {
+        questionCount = moduleData[0].questions.length;
+      }
+
+    } catch (error) {
+      console.error("Error loading module:", file);
+    }
+
+    card.innerHTML = `
+      <h3>${title}</h3>
+      <p>${questionCount} Questions</p>
+      <p>Start quiz</p>
+    `;
+
+    container.appendChild(card);
+  }
 
 }
 
@@ -44,11 +66,8 @@ function formatModuleTitle(file) {
   const formatted = words.map(word => {
 
     if(word === "module") return "Module";
-
     if(word === "part") return "– Part";
-
     if(word === "final") return "Final";
-
     if(word === "assessment") return "Assessment";
 
     return word.charAt(0).toUpperCase() + word.slice(1);
