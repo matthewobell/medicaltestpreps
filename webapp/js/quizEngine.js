@@ -178,7 +178,7 @@ function showFeedback(question, isCorrect){
     '<div class="answer-body">' + selectedAnswers.map(a => cleanAnswerText(a.text || a)).join("<br>") + '</div>' +
     correctAnswerBlock +
     '<div class="answer-header">Explanation</div>' +
-    '<div class="answer-body">' + (question.explanation || "Explanation coming soon.") + '</div>' +
+    '<div class="answer-explanation">' + (question.explanation || "Explanation coming soon.") + '</div>' +
     '<button id="next-question">Next Question</button>';
 
   document.getElementById("next-question").onclick = () => {
