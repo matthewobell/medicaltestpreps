@@ -114,34 +114,32 @@ function selectAnswer(option) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  document.getElementById("next").onclick = nextQuestionHandler;
-
-    if(selectedAnswer === null){
-      alert("Please select an answer before continuing.");
-      return;
-    }
-
-    const question = questions[currentQuestionIndex];
-
-    let resultMessage = "";
-
-    const isCorrect =
-      selectedAnswer.isCorrect ||
-      selectedAnswer === question.correctAnswer;
-
-    if(isCorrect){
-      score++;
-      resultMessage = "Correct!";
-    } else {
-      resultMessage = "Incorrect.";
-    }
-
-    showExplanation(question, resultMessage);
-  };
+  document.getElementById("submit").onclick = submitAnswer;
 
   loadQuestions();
 
 });
+
+function submitAnswer(){
+
+  if(selectedAnswer === null){
+    alert("Please select an answer before submitting.");
+    return;
+  }
+
+  const question = questions[currentQuestionIndex];
+
+  const isCorrect =
+    selectedAnswer.isCorrect ||
+    selectedAnswer === question.correctAnswer;
+
+  if(isCorrect){
+    score++;
+  }
+
+  showFeedback(question, isCorrect);
+
+}
 
 function nextQuestionHandler() {
 
@@ -168,43 +166,62 @@ function nextQuestionHandler() {
   showExplanation(question, resultMessage);
 }
 
-function showExplanation(question, resultMessage) {
+function showFeedback(question, isCorrect){
 
-  const container = document.getElementById("quiz-container");
+  const quizCard = document.getElementById("quiz-card");
+  const feedbackCard = document.getElementById("feedback-card");
 
-  container.innerHTML = `
-    <div id="explanation-screen">
-      <h2>${resultMessage}</h2>
+  quizCard.style.display = "none";
+  feedbackCard.style.display = "block";
 
-      <p><strong>Explanation:</strong></p>
+  const options = question.options || question.answerOptions;
 
-      <p>${question.explanation || "Explanation coming soon."}</p>
+  const correctOption =
+    options.find(o => o.isCorrect) || question.correctAnswer;
 
-      <button id="continue">Continue</button>
+  const iconClass = isCorrect ? "correct" : "incorrect";
+
+  feedbackCard.innerHTML = `
+
+    <div class="correct-icon ${iconClass}"></div>
+
+    <div id="question-counter">
+      Question ${currentQuestionIndex+1} of ${questions.length}
     </div>
+
+    <p><strong>Your Answer</strong></p>
+    <p>${selectedAnswer.text || selectedAnswer}</p>
+
+    ${!isCorrect ? `
+      <p><strong>Correct Answer</strong></p>
+      <p>${correctOption.text || correctOption}</p>
+    ` : ``}
+
+    <p><strong>Explanation</strong></p>
+    <p>${question.explanation || "Explanation coming soon."}</p>
+
+    <button id="next-question">Next Question</button>
   `;
 
-  document.getElementById("continue").onclick = () => {
+  document.getElementById("next-question").onclick = () => {
 
     currentQuestionIndex++;
 
-    // Restore quiz layout
-    container.innerHTML = `
-      <div id="question"></div>
-      <div id="options"></div>
-      <button id="next">Next Question</button>
-    `;
-
-    // Reconnect next button
-    document.getElementById("next").onclick = nextQuestionHandler;
-
     if(currentQuestionIndex < questions.length){
+
+      quizCard.style.display = "block";
+      feedbackCard.style.display = "none";
+
       showQuestion();
+
     } else {
+
       showResults();
+
     }
 
   };
+
 }
 
 function showResults() {
