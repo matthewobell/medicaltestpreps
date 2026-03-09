@@ -105,7 +105,7 @@ h1 {
   font-size: var(--font-label);
   font-weight: var(--weight-semi);
   text-decoration: underline;
-  margin-top: 32px;
+  margin-top: 45px;
 }
 
 /* Feedback answer / explanation body text */
