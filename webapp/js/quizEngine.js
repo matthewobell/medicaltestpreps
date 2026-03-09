@@ -301,21 +301,25 @@ function showReviewPage(){
     reviewHTML += `
       <div class="review-card">
 
-        <div class="review-header">
-          <div class="review-counter">
-            Question ${index + 1} of ${questions.length}
-          </div>
+<div class="review-top">
 
-          <div class="review-toggle ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"
-           onclick="toggleReview(this)">
-          </div>
-        </div>
+<div>
+<div class="review-counter">
+Question ${index + 1} of ${questions.length}
+</div>
 
-        <div class="review-question">
-          ${q.question || q.text}
-        </div>
+<div class="review-question">
+${q.question || q.text}
+</div>
+</div>
 
-        <div class="review-details">
+<div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
+
+</div>
+
+<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
+
+<div class="review-details">
 
           <div class="review-label">Your Answer</div>
           <div class="review-answer">
@@ -340,16 +344,19 @@ function showReviewPage(){
 
 }
 
-function toggleReview(element){
+function toggleReview(arrow){
 
-  const card = element.closest(".review-card");
-  const details = card.querySelector(".review-details");
+const card = arrow.closest(".review-card");
+const details = card.querySelector(".review-details");
 
-  if(details.style.display === "block"){
-      details.style.display = "none";
-  } else {
-      details.style.display = "block";
-  }
+if(details.style.display === "block"){
+details.style.display = "none";
+arrow.innerHTML = "⌄";
+}
+else{
+details.style.display = "block";
+arrow.innerHTML = "⌃";
+}
 
 }
 
