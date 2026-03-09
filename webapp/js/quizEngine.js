@@ -224,13 +224,6 @@ function showResults(){
 <svg width="160" height="160" viewBox="0 0 160 160">
 
 <circle
-  class="ring-background"
-  cx="80"
-  cy="80"
-  r="70"
-/>
-
-<circle
   class="ring-progress"
   cx="80"
   cy="80"
