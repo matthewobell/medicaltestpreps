@@ -5,25 +5,29 @@ async function loadModules() {
 
   const container = document.getElementById("module-list");
 
-  data.files.forEach(file => {
+  data.files
+    .filter(file => file.endsWith(".json"))
+    .forEach(file => {
 
-    const card = document.createElement("a");
+      const card = document.createElement("a");
 
-    card.href = `quiz.html?file=${file}`;
-    card.className = "portal-card";
+      card.href = `quiz.html?file=${file}`;
+      card.className = "portal-card";
 
-    const title = file
-      .replace(".json", "")
-      .replace(/-/g, " ");
+      const title = file
+        .replace(".json", "")
+        .replace(/-/g, " ")
+        .replace(/\bemigs\b/i, "EMIGS")
+        .replace(/\bfls\b/i, "FLS");
 
-    card.innerHTML = `
-      <h3>${title}</h3>
-      <p>Start quiz</p>
-    `;
+      card.innerHTML = `
+        <h3>${title}</h3>
+        <p>Start quiz</p>
+      `;
 
-    container.appendChild(card);
+      container.appendChild(card);
 
-  });
+    });
 
 }
 
