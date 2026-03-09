@@ -24,7 +24,7 @@ async function loadQuestions(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
 
-  const response = await fetch(`data/${file}`);
+  const response = await fetch(data/${file});
   const data = await response.json();
 
   if(Array.isArray(data) && data[0]?.questions){
@@ -65,7 +65,7 @@ function showQuestion(){
   const question = questions[currentQuestionIndex];
 
   document.getElementById("question-counter").innerText =
-    `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+    Question ${currentQuestionIndex + 1} of ${questions.length};
 
   const questionText = question.question || question.text;
   document.getElementById("question").innerText = questionText;
@@ -79,7 +79,7 @@ function showQuestion(){
 
 if(correctCount > 1){
   document.getElementById("question").innerText =
-    questionText + ` (Select ${correctCount})`;
+    questionText +  (Select ${correctCount});
 }
 
   options.forEach(option => {
@@ -152,9 +152,7 @@ const isCorrect =
 function showFeedback(question, isCorrect){
 
   const quizCard = document.getElementById("quiz-card");
-  feedbackCard.style.background = "transparent";
-  feedbackCard.style.padding = "0";
-  feedbackCard.style.width = "520px";
+  const feedbackCard = document.getElementById("feedback-card");
 
   quizCard.style.display = "none";
   feedbackCard.style.display = "block";
@@ -179,14 +177,14 @@ function showFeedback(question, isCorrect){
   cleanAnswerText(a.text || a)
 ).join("<br>")}</div>
 
-    ${!isCorrect ? `
+    ${!isCorrect ? 
       <div class="answer-header">Correct Answer</div>
       <div class="answer-body">
 ${correctOptions.map(o =>
   cleanAnswerText(o.text || o)
 ).join("<br>")}
 </div>
-    ` : ``}
+     : }
 
     <div class="answer-header">Explanation</div>
     <div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
@@ -265,7 +263,6 @@ document.getElementById("review-answers").onclick = () => {
 showReviewPage();
 };
 
-
 // ---- Animate ring ----
 
 setTimeout(()=>{
@@ -283,7 +280,6 @@ circle.style.strokeDashoffset = offset;
 
 },100);
 
-
 // ---- Animate number ----
 
 animateScore(percentage);
@@ -294,7 +290,7 @@ function showReviewPage(){
 
   const feedbackCard = document.getElementById("feedback-card");
 
-  let reviewHTML = `<div class="review-container">`;
+  let reviewHTML = <div class="review-container">;
 
   questions.forEach((q, index) => {
 
@@ -302,8 +298,6 @@ function showReviewPage(){
 
     reviewHTML += `
       <div class="review-card">
-
-<div class="review-card" onclick="toggleReview(this)">
 
 <div class="review-top">
 
@@ -321,7 +315,7 @@ ${q.question || q.text}
 
 </div>
 
-<div class="review-arrow">⌄</div>
+<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
 
 <div class="review-details">
 
@@ -342,16 +336,16 @@ ${q.question || q.text}
 
   });
 
-  reviewHTML += `</div>`;
+  reviewHTML += </div>;
 
   feedbackCard.innerHTML = reviewHTML;
 
 }
 
-function toggleReview(card){
+function toggleReview(arrow){
 
+const card = arrow.closest(".review-card");
 const details = card.querySelector(".review-details");
-const arrow = card.querySelector(".review-arrow");
 
 if(details.style.display === "block"){
 details.style.display = "none";
