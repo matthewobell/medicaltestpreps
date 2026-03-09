@@ -1,11 +1,14 @@
-async function loadModules() {
+async function loadModules(type) {
 
   const response = await fetch("data/quiz-index.json");
   const data = await response.json();
 
   const container = document.getElementById("module-list");
 
+  container.innerHTML = "";
+
   data.files
+    .filter(file => file.startsWith(type))
     .filter(file => file.endsWith(".json"))
     .forEach(file => {
 
@@ -30,5 +33,3 @@ async function loadModules() {
     });
 
 }
-
-loadModules();
