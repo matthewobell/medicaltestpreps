@@ -18,6 +18,17 @@ function showQuestion() {
 
   const question = questions[currentQuestionIndex];
 
+  // Update question counter
+  document.getElementById("question-counter").innerText =
+    `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+
+  // Update progress bar
+  const progressPercent =
+    (currentQuestionIndex / questions.length) * 100;
+
+  document.getElementById("progress").style.width =
+    progressPercent + "%";
+
   document.getElementById("question").innerText = question.question;
 
   const optionsDiv = document.getElementById("options");
@@ -50,35 +61,46 @@ document.getElementById("next").onclick = () => {
 
   const question = questions[currentQuestionIndex];
 
-  // Update question counter
-document.getElementById("question-counter").innerText =
-  `Question ${currentQuestionIndex + 1} of ${questions.length}`;
-
-// Update progress bar
-const progressPercent =
-  ((currentQuestionIndex) / questions.length) * 100;
-
-document.getElementById("progress").style.width =
-  progressPercent + "%";
+  let resultMessage = "";
 
   if(selectedAnswer === question.correctAnswer){
-  score++;
-  alert("Correct!\n\n" + question.explanation);
-} else {
-  alert("Incorrect.\n\n" + question.explanation);
-}
+    score++;
+    resultMessage = "Correct!";
+  } else {
+    resultMessage = "Incorrect.";
+  }
 
-  currentQuestionIndex++;
-
-  if(currentQuestionIndex < questions.length){
-  showQuestion();
-} else {
-  showResults();
-}
-
+  showExplanation(question, resultMessage);
 }
 
 loadQuestions();
+
+function showExplanation(question, resultMessage) {
+
+  const container = document.getElementById("quiz-container");
+
+  container.innerHTML = `
+    <h2>${resultMessage}</h2>
+
+    <p><strong>Explanation:</strong></p>
+
+    <p>${question.explanation || "Explanation coming soon."}</p>
+
+    <button id="continue">Continue</button>
+  `;
+
+  document.getElementById("continue").onclick = () => {
+
+    currentQuestionIndex++;
+
+    if(currentQuestionIndex < questions.length){
+      showQuestion();
+    } else {
+      showResults();
+    }
+
+  };
+}
 
 function showResults() {
 
