@@ -257,21 +257,19 @@ h1 {
 /* Score ring */
 .score-ring {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   margin: 20px auto;
-  background: #E8E8E8;
-  border-radius: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .score-ring svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.ring-track {
+  fill: none;
+  stroke: #D9D9D9;
+  stroke-width: 14;
 }
 
 .score-ring svg {
@@ -381,6 +379,13 @@ h1 {
   font-size: var(--font-body);
   font-weight: var(--weight-normal);
   line-height: var(--line-height);
+}
+
+.answer-body {
+  font-size: var(--font-body);
+  font-weight: var(--weight-normal);
+  line-height: var(--line-height);
+  margin-bottom: 16px;
 }
 
 /* Chevron arrow */
