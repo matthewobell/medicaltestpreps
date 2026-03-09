@@ -104,7 +104,8 @@ h1 {
 .answer-header {
   font-size: var(--font-label);
   font-weight: var(--weight-semi);
-  margin-top: 18px;
+  text-decoration: underline;
+  margin-top: 32px;
 }
 
 /* Feedback answer / explanation body text */
