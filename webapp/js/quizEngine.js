@@ -62,8 +62,11 @@ document.getElementById("progress").style.width =
   progressPercent + "%";
 
   if(selectedAnswer === question.correctAnswer){
-    score++;
-  }
+  score++;
+  alert("Correct!\n\n" + question.explanation);
+} else {
+  alert("Incorrect.\n\n" + question.explanation);
+}
 
   currentQuestionIndex++;
 
