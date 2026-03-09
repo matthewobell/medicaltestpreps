@@ -442,3 +442,18 @@ a {
     height: 50px;
   }
 }
+
+.webapp-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 22px;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.webapp-button:hover {
+  background: #3654d4;
+}
