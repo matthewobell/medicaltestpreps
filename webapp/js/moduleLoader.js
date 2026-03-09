@@ -23,22 +23,22 @@ async function loadModules(type) {
 
     try {
 
-      const moduleResponse = await fetch(`data/${file}`);
-      const moduleData = await moduleResponse.json();
+  const moduleResponse = await fetch(`data/${file}`);
+  const moduleData = await moduleResponse.json();
 
-      if (Array.isArray(moduleData)) {
-        questionCount = moduleData.length;
-      }
-      else if (moduleData.questions) {
-        questionCount = moduleData.questions.length;
-      }
-      else if (Array.isArray(moduleData[0]?.questions)) {
-        questionCount = moduleData[0].questions.length;
-      }
+  if (Array.isArray(moduleData)) {
+    questionCount = moduleData.length;
+  }
+  else if (moduleData.questions) {
+    questionCount = moduleData.questions.length;
+  }
+  else if (moduleData.data?.questions) {
+    questionCount = moduleData.data.questions.length;
+  }
 
-    } catch (error) {
-      console.error("Error loading module:", file);
-    }
+} catch (error) {
+  console.error("Error loading module:", file);
+}
 
     card.innerHTML = `
       <h3>${title}</h3>
