@@ -147,16 +147,16 @@ function showFeedback(question, isCorrect){
       Question ${currentQuestionIndex+1} of ${questions.length}
     </div>
 
-    <p><strong>Your Answer</strong></p>
-    <p>${selectedAnswer.text || selectedAnswer}</p>
+    <div class="answer-header">Your Answer</div>
+<div class="answer-body">${selectedAnswer.text || selectedAnswer}</div>
 
-    ${!isCorrect ? `
-      <p><strong>Correct Answer</strong></p>
-      <p>${correctOption.text || correctOption}</p>
-    ` : ``}
+${!isCorrect ? `
+  <div class="answer-header">Correct Answer</div>
+  <div class="answer-body">${correctOption.text || correctOption}</div>
+` : ``}
 
-    <p><strong>Explanation</strong></p>
-    <p>${question.explanation || "Explanation coming soon."}</p>
+<div class="answer-header">Explanation</div>
+<div class="answer-body">${question.explanation || "Explanation coming soon."}</div>
 
     <button id="next-question">Next Question</button>
   `;
