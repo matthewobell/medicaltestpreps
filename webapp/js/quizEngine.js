@@ -291,6 +291,7 @@ animateScore(percentage);
 function showReviewPage(){
 
   const feedbackCard = document.getElementById("feedback-card");
+  feedbackCard.classList.add("review-mode");
 
   let reviewHTML = `<div class="review-container">`;
 
