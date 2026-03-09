@@ -1,6 +1,6 @@
 let questions = [];
 let currentQuestionIndex = 0;
-let selectedAnswer = null;
+let selectedAnswers = [];
 let score = 0;
 
 // Remove A), B), C) style prefixes
@@ -57,7 +57,7 @@ function showQuestion(){
     return;
   }
 
-  selectedAnswer = null;
+  selectedAnswers = [];
 
   const question = questions[currentQuestionIndex];
 
@@ -72,6 +72,13 @@ function showQuestion(){
 
   const options = question.options || question.answerOptions;
 
+  const correctCount = options.filter(o => o.isCorrect).length;
+
+if(correctCount > 1){
+  document.getElementById("question").innerText =
+    questionText + ` (Select ${correctCount})`;
+}
+
   options.forEach(option => {
 
     const button = document.createElement("button");
@@ -83,16 +90,22 @@ function showQuestion(){
 
     button.onclick = () => {
 
-      selectedAnswer = option;
+  const optionIndex = selectedAnswers.indexOf(option);
 
-      const buttons = document.querySelectorAll(".answer-button");
+  if(optionIndex > -1){
 
-      buttons.forEach(btn=>{
-        btn.classList.remove("selected");
-      });
+    // remove selection
+    selectedAnswers.splice(optionIndex,1);
+    button.classList.remove("selected");
 
-      button.classList.add("selected");
-    };
+  } else {
+
+    selectedAnswers.push(option);
+    button.classList.add("selected");
+
+  }
+
+};
 
     optionsDiv.appendChild(button);
   });
@@ -107,16 +120,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function submitAnswer(){
 
-  if(selectedAnswer === null){
+  if(selectedAnswers.length === 0){
     alert("Please select an answer before submitting.");
     return;
   }
 
   const question = questions[currentQuestionIndex];
 
-  const isCorrect =
-    selectedAnswer.isCorrect ||
-    selectedAnswer === question.correctAnswer;
+  const correctOptions =
+  (question.options || question.answerOptions)
+    .filter(o => o.isCorrect);
+
+const isCorrect =
+  selectedAnswers.length === correctOptions.length &&
+  selectedAnswers.every(sel =>
+    correctOptions.includes(sel)
+  );
 
   if(isCorrect){
     score++;
@@ -135,8 +154,8 @@ function showFeedback(question, isCorrect){
 
   const options = question.options || question.answerOptions;
 
-  const correctOption =
-    options.find(o => o.isCorrect) || question.correctAnswer;
+  const correctOptions =
+  options.filter(o => o.isCorrect);
 
   const iconClass = isCorrect ? "correct" : "incorrect";
 
@@ -149,11 +168,17 @@ function showFeedback(question, isCorrect){
     </div>
 
     <div class="answer-header">Your Answer</div>
-    <div class="answer-body">${cleanAnswerText(selectedAnswer.text || selectedAnswer)}</div>
+    <div class="answer-body">${selectedAnswers.map(a =>
+  cleanAnswerText(a.text || a)
+).join("<br>")}</div>
 
     ${!isCorrect ? `
       <div class="answer-header">Correct Answer</div>
-      <div class="answer-body">${cleanAnswerText(correctOption.text || correctOption)}</div>
+      <div class="answer-body">
+${correctOptions.map(o =>
+  cleanAnswerText(o.text || o)
+).join("<br>")}
+</div>
     ` : ``}
 
     <div class="answer-header">Explanation</div>
