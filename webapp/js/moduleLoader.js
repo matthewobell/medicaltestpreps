@@ -8,7 +8,7 @@ async function loadModules(type) {
   container.innerHTML = "";
 
   const files = data.files
-    .filter(file => file.startsWith(type))
+    .filter(file => file.toLowerCase().startsWith(type))
     .filter(file => file.endsWith(".json"));
 
   for (const file of files) {
@@ -19,7 +19,6 @@ async function loadModules(type) {
 
     const title = formatModuleTitle(file);
 
-    // Load module file to count questions
     let questionCount = "?";
 
     try {
@@ -54,7 +53,8 @@ async function loadModules(type) {
 
 function formatModuleTitle(file) {
 
-  let name = file.replace(".json", "");
+  // remove folder path first
+  let name = file.split("/").pop().replace(".json", "");
 
   const isEMIGS = name.startsWith("emigs");
   const isFLS = name.startsWith("fls");
