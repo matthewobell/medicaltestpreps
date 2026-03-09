@@ -26,6 +26,13 @@ h1{
   position:relative;
 }
 
+#feedback-card.review-mode{
+  background:none;
+  border-radius:0;
+  padding:0;
+  width:auto;
+}
+
 #question-counter{
   font-weight:600;
   font-size:16px;
