@@ -244,32 +244,54 @@ function showResults(){
 </div>
 
 </div>
-    </div>
 
-    <div class="score-text">
-        Your score: ${score}/${questions.length}
-    </div>
+<div class="score-text">
+Your score: ${score}/${questions.length}
+</div>
 
-    <button id="next-quiz" class="primary-button">
-        Next Quiz
-    </button>
+<button id="next-quiz" class="primary-button">
+Next Quiz
+</button>
 
-    <button id="review-answers" class="primary-button">
-        Review Answers
-    </button>
+<button id="review-answers" class="primary-button">
+Review Answers
+</button>
 
-    <div class="return-home">
-        <a href="index.html">Return home</a>
-    </div>
-  `;
+<div class="return-home">
+<a href="index.html">Return home</a>
+</div>
+`;
 
-  document.getElementById("next-quiz").onclick = () => {
-    location.reload();
-  };
+document.getElementById("next-quiz").onclick = () => {
+location.reload();
+};
 
-  document.getElementById("review-answers").onclick = () => {
-    showReviewPage();
-  };
+document.getElementById("review-answers").onclick = () => {
+showReviewPage();
+};
+
+
+// ---- Animate ring ----
+
+setTimeout(()=>{
+
+const circle = document.querySelector(".ring-progress");
+
+if(circle){
+
+const circumference = 440;
+const offset = circumference - (percentage / 100) * circumference;
+
+circle.style.strokeDashoffset = offset;
+
+}
+
+},100);
+
+
+// ---- Animate number ----
+
+animateScore(percentage);
 
 }
 
@@ -355,13 +377,14 @@ function animateScore(target){
 
 const element = document.getElementById("score-number");
 
+if(!element) return;
+
 let current = 0;
 
-const duration = 1200; // animation time
+const duration = 1200;
 const steps = 40;
 
 const increment = target / steps;
-
 const interval = duration / steps;
 
 const counter = setInterval(()=>{
