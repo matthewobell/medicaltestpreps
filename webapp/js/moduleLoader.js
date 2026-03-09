@@ -26,14 +26,14 @@ async function loadModules(type) {
   const moduleResponse = await fetch(`data/${file}`);
   const moduleData = await moduleResponse.json();
 
-  if (Array.isArray(moduleData)) {
+  if (Array.isArray(moduleData) && moduleData[0]?.questions) {
+    questionCount = moduleData[0].questions.length;
+  }
+  else if (Array.isArray(moduleData)) {
     questionCount = moduleData.length;
   }
   else if (moduleData.questions) {
     questionCount = moduleData.questions.length;
-  }
-  else if (moduleData.data?.questions) {
-    questionCount = moduleData.data.questions.length;
   }
 
 } catch (error) {
