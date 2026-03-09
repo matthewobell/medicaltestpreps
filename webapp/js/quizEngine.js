@@ -19,14 +19,24 @@ else {
   return;
 }
 
+// Debug check
+console.log("Loaded questions:", questions);
+
 // RANDOMIZE QUESTION ORDER
 shuffleArray(questions);
+
+currentQuestionIndex = 0;
 
 showQuestion();
 
 }
 
 function showQuestion() {
+
+  if (!questions || questions.length === 0) {
+    console.error("No questions loaded");
+    return;
+  }
 
   selectedAnswer = null;
 
@@ -35,6 +45,72 @@ function showQuestion() {
   // Update question counter
   document.getElementById("question-counter").innerText =
     `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+
+  // Update progress bar
+  const progressPercent =
+    (currentQuestionIndex / questions.length) * 100;
+
+  document.getElementById("progress").style.width =
+    progressPercent + "%";
+
+  // Support both "question" and "text"
+  const questionText = question.question || question.text;
+
+  document.getElementById("question").innerText = questionText;
+
+  const optionsDiv = document.getElementById("options");
+  optionsDiv.innerHTML = "";
+
+  // Support both formats
+  const options = question.options || question.answerOptions;
+
+  options.forEach(option => {
+
+    const button = document.createElement("button");
+
+    const optionText = option.text || option;
+
+    button.innerText = optionText;
+
+    button.onclick = () => selectAnswer(option);
+
+    optionsDiv.appendChild(button);
+
+  });
+
+}
+
+function selectAnswer(option) {
+  selectedAnswer = option;
+}
+
+document.getElementById("next").onclick = () => {
+
+  if(selectedAnswer === null){
+    alert("Please select an answer before continuing.");
+    return;
+  }
+
+  const question = questions[currentQuestionIndex];
+
+  let resultMessage = "";
+
+  // Support both answer formats
+  const isCorrect =
+    selectedAnswer.isCorrect ||
+    selectedAnswer === question.correctAnswer;
+
+  if(isCorrect){
+    score++;
+    resultMessage = "Correct!";
+  } else {
+    resultMessage = "Incorrect.";
+  }
+
+  showExplanation(question, resultMessage);
+}
+
+loadQuestions();    `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
   // Update progress bar
   const progressPercent =
