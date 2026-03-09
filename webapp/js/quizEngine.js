@@ -12,13 +12,21 @@ async function loadQuestions() {
   const data = await response.json();
 
   // Support multiple JSON structures automatically
-  if (Array.isArray(data)) {
+
+  if (Array.isArray(data) && data[0]?.questions) {
+    // EMIGS module format
+    questions = data[0].questions;
+  }
+  else if (Array.isArray(data)) {
     questions = data;
-  } else if (data.questions) {
+  }
+  else if (data.questions) {
     questions = data.questions;
-  } else if (data.emigs_questions) {
+  }
+  else if (data.emigs_questions) {
     questions = data.emigs_questions;
-  } else {
+  }
+  else {
     console.error("Unsupported question format");
     return;
   }
@@ -43,16 +51,24 @@ function showQuestion() {
   document.getElementById("progress").style.width =
     progressPercent + "%";
 
-  document.getElementById("question").innerText = question.question;
+  // Support both "question" and "text"
+  const questionText = question.question || question.text;
+
+  document.getElementById("question").innerText = questionText;
 
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
 
-  question.options.forEach(option => {
+  // Support both formats
+  const options = question.options || question.answerOptions;
+
+  options.forEach(option => {
 
     const button = document.createElement("button");
 
-    button.innerText = option;
+    const optionText = option.text || option;
+
+    button.innerText = optionText;
 
     button.onclick = () => selectAnswer(option);
 
@@ -77,7 +93,12 @@ document.getElementById("next").onclick = () => {
 
   let resultMessage = "";
 
-  if(selectedAnswer === question.correctAnswer){
+  // Support both answer formats
+  const isCorrect =
+    selectedAnswer.isCorrect ||
+    selectedAnswer === question.correctAnswer;
+
+  if(isCorrect){
     score++;
     resultMessage = "Correct!";
   } else {
