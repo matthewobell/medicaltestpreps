@@ -24,10 +24,6 @@ shuffleArray(questions);
 
 showQuestion();
 
-  // RANDOMIZE QUESTION ORDER
-  shuffleArray(questions);
-
-  showQuestion();
 }
 
 function showQuestion() {
