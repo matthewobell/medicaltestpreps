@@ -2,44 +2,75 @@
 <html>
 <head>
 
-<title>Medical Test Prep Portal</title>
-
+<title>Medical Test Prep</title>
 <link rel="stylesheet" href="css/app.css">
 
 </head>
 
 <body>
 
+<h1 class="main-title">Medical Test Prep</h1>
+
 <div class="portal-container">
 
-<h1>Medical Test Prep Portal</h1>
+  <!-- EMIGS -->
+  <div class="dropdown">
 
-<!-- MAIN ACTIONS -->
-<div class="portal-grid">
+    <button class="dropdown-button" onclick="toggleDropdown('emigs-menu', this)">
+      Study EMIGS
+      <span class="arrow">⌄</span>
+    </button>
 
-<a href="emigs.html" class="portal-card">
-<h2>Practice EMIGS</h2>
-<p>Study the EMIGS question bank.</p>
-</a>
+    <div id="emigs-menu" class="dropdown-menu">
 
-<a href="fls.html" class="portal-card">
-<h2>Practice FLS</h2>
-<p>Study the FLS question bank.</p>
-</a>
+      <a href="quiz.html?file=module1.json">Module 1</a>
+      <a href="quiz.html?file=module2.json">Module 2</a>
+      <a href="quiz.html?file=module3.json">Module 3</a>
+      <a href="quiz.html?file=module4.json">Module 4</a>
+      <a href="quiz.html?file=module5.json">Module 5</a>
+      <a href="quiz.html?file=module6.json">Module 6</a>
 
-<div class="portal-card disabled">
-<h2>Flashcards</h2>
-<p>Coming soon</p>
+    </div>
+
+  </div>
+
+  <!-- FLS -->
+  <div class="dropdown">
+
+    <button class="dropdown-button" onclick="toggleDropdown('fls-menu', this)">
+      Study FLS
+      <span class="arrow">⌄</span>
+    </button>
+
+    <div id="fls-menu" class="dropdown-menu">
+
+      <a href="quiz.html?file=fls1.json">Module 1</a>
+      <a href="quiz.html?file=fls2.json">Module 2</a>
+
+    </div>
+
+  </div>
+
+  <!-- Flashcards -->
+  <div class="dropdown">
+
+    <button class="dropdown-button" onclick="toggleDropdown('flashcards-menu', this)">
+      Study Flashcards
+      <span class="arrow">⌄</span>
+    </button>
+
+    <div id="flashcards-menu" class="dropdown-menu">
+
+      <a href="#">Flashcards 1</a>
+      <a href="#">Flashcards 2</a>
+
+    </div>
+
+  </div>
+
 </div>
 
-<div class="portal-card disabled">
-<h2>Timed Exam Mode</h2>
-<p>Coming soon</p>
-</div>
-
-</div>
-
-<script src="js/moduleLoader.js"></script>
+<script src="js/portal.js"></script>
 
 </body>
 </html>
