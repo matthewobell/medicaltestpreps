@@ -290,34 +290,34 @@ function showReviewPage(){
 
   const feedbackCard = document.getElementById("feedback-card");
 
-  let reviewHTML = `<div class="review-container">`;
+  let reviewHTML = <div class="review-container">;
 
   questions.forEach((q, index) => {
 
     const answers = userAnswers[index] || [];
 
     reviewHTML += `
-<div class="review-card">
+      <div class="review-card">
 
-  <div class="review-header">
+<div class="review-top">
 
-    <div>
-      <div class="review-counter">
-        Question ${index + 1} of ${questions.length}
-      </div>
+<div>
+<div class="review-counter">
+Question ${index + 1} of ${questions.length}
+</div>
 
-      <div class="review-question">
-        ${q.question || q.text}
-      </div>
-    </div>
+<div class="review-question">
+${q.question || q.text}
+</div>
+</div>
 
-    <div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
+<div class="review-icon ${answersCorrect(q, answers) ? 'correct' : 'incorrect'}"></div>
 
-  </div>
+</div>
 
-  <div class="review-details">
+<div class="review-arrow" onclick="toggleReview(this)">⌄</div>
 
-`;
+<div class="review-details">
 
           <div class="review-label">Your Answer</div>
           <div class="review-answer">
@@ -336,7 +336,7 @@ function showReviewPage(){
 
   });
 
-  reviewHTML += `</div>`;
+  reviewHTML += </div>;
 
   feedbackCard.innerHTML = reviewHTML;
 
