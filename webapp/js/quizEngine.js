@@ -4,7 +4,11 @@ let selectedAnswer = null;
 let score = 0;
 
 async function loadQuestions() {
-  const response = await fetch("data/questions.json");
+
+  const params = new URLSearchParams(window.location.search);
+  const file = params.get("file") || "questions.json";
+
+  const response = await fetch(`data/${file}`);
   const data = await response.json();
 
   // Support multiple JSON structures automatically
