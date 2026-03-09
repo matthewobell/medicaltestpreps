@@ -40,11 +40,20 @@ async function loadQuizIndex(){
 
     link.href = `quiz.html?file=${file}`;
 
-    const label = file
-      .replace("emigs/","")
-      .replace("fls/","")
-      .replace(".json","")
-      .replace(/-/g," ");
+    let label = file
+  .replace("emigs/","")
+  .replace("fls/","")
+  .replace(".json","")
+  .replace(/-/g," ");
+
+// Remove program prefix
+label = label.replace(/^emigs /i,"").replace(/^fls /i,"");
+
+// Capitalize words
+label = label.replace(/\b\w/g, l => l.toUpperCase());
+
+// Make "Part" formatting nicer
+label = label.replace(" Part ", " — Part ");
 
     link.textContent = label;
 
