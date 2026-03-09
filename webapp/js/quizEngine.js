@@ -3,15 +3,14 @@ let currentQuestionIndex = 0;
 let selectedAnswer = null;
 let score = 0;
 
-// Shuffle question order
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
+function shuffleArray(array){
+  for(let i = array.length - 1; i > 0; i--){
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+    [array[i],array[j]] = [array[j],array[i]];
   }
 }
 
-async function loadQuestions() {
+async function loadQuestions(){
 
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
@@ -19,28 +18,25 @@ async function loadQuestions() {
   const response = await fetch(`data/${file}`);
   const data = await response.json();
 
-  // Determine where the questions live in the JSON
-  if (Array.isArray(data) && data[0]?.questions) {
+  if(Array.isArray(data) && data[0]?.questions){
     questions = data[0].questions;
   }
-  else if (Array.isArray(data)) {
+  else if(Array.isArray(data)){
     questions = data;
   }
-  else if (data.questions) {
+  else if(data.questions){
     questions = data.questions;
   }
-  else if (data.data?.questions) {
+  else if(data.data?.questions){
     questions = data.data.questions;
   }
-  else if (data.emigs_questions) {
+  else if(data.emigs_questions){
     questions = data.emigs_questions;
   }
-  else {
+  else{
     console.error("Unsupported question format", data);
     return;
   }
-
-  console.log("Loaded questions:", questions);
 
   shuffleArray(questions);
 
@@ -49,12 +45,7 @@ async function loadQuestions() {
   showQuestion();
 }
 
-function showQuestion() {
-
-  if (!questions || questions.length === 0) {
-    console.error("No questions loaded");
-    return;
-  }
+function showQuestion(){
 
   selectedAnswer = null;
 
@@ -62,12 +53,6 @@ function showQuestion() {
 
   document.getElementById("question-counter").innerText =
     `Question ${currentQuestionIndex + 1} of ${questions.length}`;
-
-  const progressPercent =
-    (currentQuestionIndex / questions.length) * 100;
-
-  document.getElementById("progress").style.width =
-    progressPercent + "%";
 
   const questionText = question.question || question.text;
 
@@ -78,41 +63,35 @@ function showQuestion() {
 
   const options = question.options || question.answerOptions;
 
-  options.forEach(option => {
+  options.forEach(option=>{
 
-  const button = document.createElement("button");
+    const button = document.createElement("button");
 
-  const optionText = option.text || option;
+    const optionText = option.text || option;
 
-  button.innerText = optionText;
+    button.innerText = optionText;
 
-  button.classList.add("answer-button");
+    button.classList.add("answer-button");
 
-  button.onclick = () => {
+    button.onclick = ()=>{
 
-    selectAnswer(option);
+      selectedAnswer = option;
 
-    // Remove selection from all buttons
-    document.querySelectorAll(".answer-button").forEach(btn => {
-      btn.classList.remove("selected");
-    });
+      document.querySelectorAll(".answer-button").forEach(btn=>{
+        btn.classList.remove("selected");
+      });
 
-    // Highlight selected button
-    button.classList.add("selected");
+      button.classList.add("selected");
 
-  };
+    };
 
-  optionsDiv.appendChild(button);
+    optionsDiv.appendChild(button);
 
-});
+  });
 
 }
 
-function selectAnswer(option) {
-  selectedAnswer = option;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded",()=>{
 
   document.getElementById("submit").onclick = submitAnswer;
 
@@ -137,36 +116,11 @@ function submitAnswer(){
     score++;
   }
 
-  showFeedback(question, isCorrect);
+  showFeedback(question,isCorrect);
 
 }
 
-function nextQuestionHandler() {
-
-  if(selectedAnswer === null){
-    alert("Please select an answer before continuing.");
-    return;
-  }
-
-  const question = questions[currentQuestionIndex];
-
-  let resultMessage = "";
-
-  const isCorrect =
-    selectedAnswer.isCorrect ||
-    selectedAnswer === question.correctAnswer;
-
-  if(isCorrect){
-    score++;
-    resultMessage = "Correct!";
-  } else {
-    resultMessage = "Incorrect.";
-  }
-
-  showExplanation(question, resultMessage);
-}
-
-function showFeedback(question, isCorrect){
+function showFeedback(question,isCorrect){
 
   const quizCard = document.getElementById("quiz-card");
   const feedbackCard = document.getElementById("feedback-card");
@@ -177,7 +131,7 @@ function showFeedback(question, isCorrect){
   const options = question.options || question.answerOptions;
 
   const correctOption =
-    options.find(o => o.isCorrect) || question.correctAnswer;
+    options.find(o=>o.isCorrect) || question.correctAnswer;
 
   const iconClass = isCorrect ? "correct" : "incorrect";
 
@@ -203,7 +157,7 @@ function showFeedback(question, isCorrect){
     <button id="next-question">Next Question</button>
   `;
 
-  document.getElementById("next-question").onclick = () => {
+  document.getElementById("next-question").onclick = ()=>{
 
     currentQuestionIndex++;
 
@@ -214,7 +168,8 @@ function showFeedback(question, isCorrect){
 
       showQuestion();
 
-    } else {
+    }
+    else{
 
       showResults();
 
@@ -224,13 +179,13 @@ function showFeedback(question, isCorrect){
 
 }
 
-function showResults() {
+function showResults(){
 
-  const container = document.getElementById("quiz-container");
+  const feedbackCard = document.getElementById("feedback-card");
 
   const percentage = Math.round((score / questions.length) * 100);
 
-  container.innerHTML = `
+  feedbackCard.innerHTML = `
     <h2>Quiz Complete</h2>
     <p>You scored ${score} out of ${questions.length}</p>
     <h3>${percentage}%</h3>
