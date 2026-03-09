@@ -1,43 +1,18 @@
-let questions = [];
-let currentQuestionIndex = 0;
-let selectedAnswer = null;
-let score = 0;
-
-function shuffleArray(array) {
-
-  for (let i = array.length - 1; i > 0; i--) {
-
-    const j = Math.floor(Math.random() * (i + 1));
-
-    [array[i], array[j]] = [array[j], array[i]];
-
-  }
-
+if (Array.isArray(data)) {
+  questions = data;
 }
-
-async function loadQuestions() {
-
-  const params = new URLSearchParams(window.location.search);
-  const file = params.get("file") || "questions.json";
-
-  const response = await fetch(`data/${file}`);
-  const data = await response.json();
-
-  // Support multiple JSON structures automatically
-
-  if (Array.isArray(data) && data[0]?.questions) {
-    // EMIGS module format
-    questions = data[0].questions;
-  }
-  else if (Array.isArray(data)) {
-    questions = data;
-  }
-  else if (data.questions) {
-    questions = data.questions;
-  }
-  else if (data.emigs_questions) {
-    questions = data.emigs_questions;
-  }
+else if (data.questions) {
+  questions = data.questions;
+}
+else if (data.data?.questions) {
+  questions = data.data.questions;
+}
+else if (data.emigs_questions) {
+  questions = data.emigs_questions;
+}
+else {
+  console.error("Unsupported question format", data);
+}
   else {
     console.error("Unsupported question format");
     return;
