@@ -15,6 +15,17 @@ h1{
 
 /* ---------------- Quiz Cards ---------------- */
 
+#quiz-card,
+#feedback-card{
+  width:480px;
+  margin:40px auto;
+  padding:50px;
+  background:#F2F2F2;
+  border-radius:40px;
+  text-align:left;
+  position:relative;
+}
+
 #question-counter{
   font-weight:600;
   font-size:16px;
@@ -324,50 +335,4 @@ left:50%;
 transform:translate(-50%, -50%);
 font-size:36px;
 font-weight:700;
-}
-
-.review-top{
-display:flex;
-justify-content:space-between;
-align-items:flex-start;
-}
-
-.review-icon{
-width:40px;
-height:40px;
-border-radius:50%;
-}
-
-.review-icon.correct{
-background:#5E8774;
-}
-
-.review-icon.incorrect{
-background:#F28C8C;
-}
-
-.review-arrow{
-text-align:center;
-font-size:28px;
-margin-top:10px;
-cursor:pointer;
-}
-
-.review-card{
-background:#F2F2F2;
-border-radius:40px;
-padding:30px;
-margin:28px auto;
-width:520px;
-cursor:pointer;
-transition:transform .15s ease;
-}
-
-.review-card:hover{
-transform:scale(1.01);
-}
-
-.review-details{
-display:none;
-margin-top:20px;
 }
