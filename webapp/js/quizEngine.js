@@ -71,7 +71,7 @@ function showResumePrompt(savedState, onResume, onFresh){
       '<div style="font-size:18px; font-weight:600; margin-bottom:8px;">Quiz in Progress</div>' +
       '<div style="font-size:16px; font-weight:600; margin-bottom:32px; color:#555;">Resume on question ' + resumeOn + ' of ' + total + '.</div>' +
       '<button id="resume-btn" class="primary-button">Resume</button>' +
-      '<button id="fresh-btn" class="primary-button" style="background:#ffffff; color:#000000; margin-top:8px;">Start Fresh</button>' +
+      '<button id="fresh-btn" class="primary-button" style="margin-top:8px;">Start Fresh</button>' +
     '</div>';
 
   document.getElementById("resume-btn").onclick = onResume;
