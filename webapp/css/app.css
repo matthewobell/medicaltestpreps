@@ -368,7 +368,7 @@ h1 {
 }
 
 .review-explanation {
-  font-size: var(--font-body);
+  font-size: var(--font-heading);
   font-weight: var(--weight-normal);
   line-height: var(--line-height);
 }
