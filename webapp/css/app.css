@@ -76,18 +76,27 @@ h1 {
   margin-top: 0;
 }
 
+/* Desktop: arrow + text top-left */
 .back-arrow {
   position: absolute;
   left: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 6px;
   text-decoration: none;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: var(--weight-semi);
   opacity: 0.9;
 }
 
 .back-arrow:hover {
   opacity: 1;
+}
+
+/* Mobile back link — hidden on desktop */
+.back-home-mobile {
+  display: none;
 }
 
 #page-title.review-mode {
