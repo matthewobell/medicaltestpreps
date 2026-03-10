@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Medical Test Prep Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body>
+
+<h1 class="main-title">Medical Test Prep</h1>
+
+<div class="login-card">
+
+<input id="email" placeholder="Email">
+
+<input id="password" type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<button onclick="signup()">Create Account</button>
+
+</div>
+
+<script type="module" src="js/firebase-init.js"></script>
+
+<script type="module">
+
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+function login(){
+
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  signInWithEmailAndPassword(firebaseAuth, email, password)
+    .then(()=>{
+      window.location.href = "index.html";
+    })
+    .catch(err=>{
+      alert(err.message);
+    });
+
+}
+
+function signup(){
+
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  createUserWithEmailAndPassword(firebaseAuth, email, password)
+    .then(()=>{
+      alert("Account created. Contact admin to activate premium.");
+    })
+    .catch(err=>{
+      alert(err.message);
+    });
+
+}
+
+window.login = login;
+window.signup = signup;
+
+</script>
+
+</body>
+
+</html>
