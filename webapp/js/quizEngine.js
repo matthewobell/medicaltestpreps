@@ -1,10 +1,9 @@
 let questions = [];
 let currentQuestionIndex = 0;
-
 let selectedAnswers = [];
 let userAnswers = [];
-
 let score = 0;
+let saveKey = "";
 
 function cleanAnswerText(text){
   return (text || "").replace(/^[A-E]\)\s*/, "");
@@ -20,7 +19,6 @@ function shuffleArray(array){
 function getModuleTitle(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "";
-  // Strip folder path (everything up to and including the last /)
   const filename = file.split("/").pop();
   const base = filename.replace(/\.json$/i, "");
   if(!base) return "Quiz";
@@ -30,9 +28,63 @@ function getModuleTitle(){
     .replace(/\b\w/g, c => c.toUpperCase());
 }
 
+// --- Save current progress to localStorage ---
+function saveProgress(){
+  const state = {
+    questions: questions,
+    currentQuestionIndex: currentQuestionIndex,
+    userAnswers: userAnswers,
+    score: score
+  };
+  localStorage.setItem(saveKey, JSON.stringify(state));
+}
+
+// --- Clear saved progress for this module ---
+function clearProgress(){
+  localStorage.removeItem(saveKey);
+}
+
+// --- Load saved progress from localStorage ---
+function loadProgress(){
+  const saved = localStorage.getItem(saveKey);
+  if(!saved) return null;
+  try {
+    return JSON.parse(saved);
+  } catch(e) {
+    return null;
+  }
+}
+
+// --- Show resume/start fresh prompt ---
+function showResumePrompt(savedState, onResume, onFresh){
+  const quizCard = document.getElementById("quiz-card");
+  quizCard.style.display = "none";
+
+  const feedbackCard = document.getElementById("feedback-card");
+  feedbackCard.style.display = "block";
+
+  const completed = savedState.currentQuestionIndex;
+  const total = savedState.questions.length;
+
+  feedbackCard.innerHTML =
+    '<div style="text-align:center; padding: 20px 0;">' +
+      '<div style="font-size:18px; font-weight:600; margin-bottom:8px;">Quiz in Progress</div>' +
+      '<div style="font-size:16px; margin-bottom:32px; color:#555;">You completed ' + completed + ' of ' + total + ' questions last time.</div>' +
+      '<button id="resume-btn" class="primary-button">Resume</button>' +
+      '<button id="fresh-btn" class="primary-button" style="background:#888; margin-top:8px;">Start Fresh</button>' +
+    '</div>';
+
+  document.getElementById("resume-btn").onclick = onResume;
+  document.getElementById("fresh-btn").onclick = onFresh;
+}
+
 async function loadQuestions(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
+
+  // Build a unique save key per module
+  const filename = file.split("/").pop().replace(/\.json$/i, "");
+  saveKey = "quiz_progress_" + filename;
 
   const titleEl = document.getElementById("page-title");
   if(titleEl) titleEl.innerText = getModuleTitle();
@@ -40,29 +92,75 @@ async function loadQuestions(){
   const response = await fetch(`data/${file}`);
   const data = await response.json();
 
+  let loadedQuestions = [];
+
   if(Array.isArray(data) && data[0]?.questions){
-    questions = data[0].questions;
+    loadedQuestions = data[0].questions;
   }
   else if(Array.isArray(data)){
-    questions = data;
+    loadedQuestions = data;
   }
   else if(data.questions){
-    questions = data.questions;
+    loadedQuestions = data.questions;
   }
   else if(data.data?.questions){
-    questions = data.data.questions;
+    loadedQuestions = data.data.questions;
   }
   else if(data.emigs_questions){
-    questions = data.emigs_questions;
+    loadedQuestions = data.emigs_questions;
   }
   else{
     console.error("Unsupported question format", data);
     return;
   }
 
-  shuffleArray(questions);
-  currentQuestionIndex = 0;
-  showQuestion();
+  // Check for saved progress
+  const savedState = loadProgress();
+
+  if(savedState && savedState.currentQuestionIndex > 0 && savedState.currentQuestionIndex < savedState.questions.length){
+    showResumePrompt(
+      savedState,
+      // Resume
+      () => {
+        questions = savedState.questions;
+        currentQuestionIndex = savedState.currentQuestionIndex;
+        userAnswers = savedState.userAnswers;
+        score = savedState.score;
+
+        const feedbackCard = document.getElementById("feedback-card");
+        const quizCard = document.getElementById("quiz-card");
+        feedbackCard.style.display = "none";
+        quizCard.style.display = "block";
+
+        showQuestion();
+      },
+      // Start fresh
+      () => {
+        clearProgress();
+        questions = loadedQuestions;
+        shuffleArray(questions);
+        currentQuestionIndex = 0;
+        userAnswers = [];
+        score = 0;
+
+        const feedbackCard = document.getElementById("feedback-card");
+        const quizCard = document.getElementById("quiz-card");
+        feedbackCard.style.display = "none";
+        quizCard.style.display = "block";
+
+        showQuestion();
+      }
+    );
+  } else {
+    // No saved state — start fresh
+    clearProgress();
+    questions = loadedQuestions;
+    shuffleArray(questions);
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    score = 0;
+    showQuestion();
+  }
 }
 
 function showQuestion(){
@@ -138,6 +236,9 @@ function submitAnswer(){
 
   if(isCorrect) score++;
 
+  // Save progress after each answer
+  saveProgress();
+
   showFeedback(question, isCorrect);
 }
 
@@ -188,6 +289,7 @@ function showFeedback(question, isCorrect){
       feedbackCard.style.display = "none";
       showQuestion();
     } else {
+      clearProgress(); // Quiz complete — clear saved state
       showResults();
     }
   };
