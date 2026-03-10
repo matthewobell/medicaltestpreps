@@ -1,3 +1,41 @@
+// -------------------------------------
+// AUTH GUARD (PREMIUM ACCESS)
+// -------------------------------------
+
+async function verifyPremiumAccess(){
+
+  firebase.auth().onAuthStateChanged(async (user) => {
+
+    if(!user){
+      window.location.href = "login.html";
+      return;
+    }
+
+    try{
+
+      const doc = await firebase
+        .firestore()
+        .collection("users")
+        .doc(user.uid)
+        .get();
+
+      if(!doc.exists || doc.data().premium !== true){
+        window.location.href = "upgrade.html";
+        return;
+      }
+
+      // If premium user → allow portal to load
+      initializePortal();
+
+    }catch(error){
+      console.error("Access verification failed:", error);
+      window.location.href = "login.html";
+    }
+
+  });
+
+}
+
 function toggleDropdown(menuId, button){
 
   const menu = document.getElementById(menuId);
@@ -74,8 +112,14 @@ label = label.replace(" Part ", " — Part ");
 // INITIALIZE
 // -------------------------------------
 
-document.addEventListener("DOMContentLoaded", () => {
+function initializePortal(){
 
   loadQuizIndex();
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  verifyPremiumAccess();
 
 });
