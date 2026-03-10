@@ -63,7 +63,7 @@ function showResumePrompt(savedState, onResume, onFresh){
   const feedbackCard = document.getElementById("feedback-card");
   feedbackCard.style.display = "block";
 
-  const completed = savedState.currentQuestionIndex;
+  const completed = savedState.currentQuestionIndex - 1;
   const total = savedState.questions.length;
 
   feedbackCard.innerHTML =
@@ -123,7 +123,7 @@ async function loadQuestions(){
       // Resume
       () => {
         questions = savedState.questions;
-        currentQuestionIndex = savedState.currentQuestionIndex;
+        currentQuestionIndex = savedState.currentQuestionIndex - 1;
         userAnswers = savedState.userAnswers;
         score = savedState.score;
 
@@ -236,8 +236,10 @@ function submitAnswer(){
 
   if(isCorrect) score++;
 
-  // Save progress after each answer
+  // Advance index before saving so resume knows the next question to show
+  currentQuestionIndex++;
   saveProgress();
+  currentQuestionIndex--;
 
   showFeedback(question, isCorrect);
 }
