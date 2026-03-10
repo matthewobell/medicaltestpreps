@@ -63,13 +63,13 @@ function showResumePrompt(savedState, onResume, onFresh){
   const feedbackCard = document.getElementById("feedback-card");
   feedbackCard.style.display = "block";
 
-  const completed = savedState.currentQuestionIndex;
+  const resumeOn = savedState.currentQuestionIndex + 1;
   const total = savedState.questions.length;
 
   feedbackCard.innerHTML =
     '<div style="text-align:center; padding: 20px 0;">' +
       '<div style="font-size:18px; font-weight:600; margin-bottom:8px;">Quiz in Progress</div>' +
-      '<div style="font-size:16px; margin-bottom:32px; color:#555;">You completed ' + completed + ' of ' + total + ' questions last time.</div>' +
+      '<div style="font-size:16px; margin-bottom:32px; color:#555;">Resume on question ' + resumeOn + ' of ' + total + '.</div>' +
       '<button id="resume-btn" class="primary-button">Resume</button>' +
       '<button id="fresh-btn" class="primary-button" style="background:#888; margin-top:8px;">Start Fresh</button>' +
     '</div>';
@@ -123,7 +123,7 @@ async function loadQuestions(){
       // Resume
       () => {
         questions = savedState.questions;
-        currentQuestionIndex = savedState.currentQuestionIndex - 1;
+        currentQuestionIndex = savedState.currentQuestionIndex;
         userAnswers = savedState.userAnswers;
         score = savedState.score;
 
