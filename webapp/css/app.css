@@ -95,16 +95,16 @@ h1 {
   opacity: 1;
 }
 
-/* Mobile back link — hidden on desktop */
 .back-home-mobile {
   display: block;
   color: var(--color-white);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: var(--weight-semi);
   text-decoration: underline;
   text-align: center;
   margin-top: 8px;
   margin-bottom: 24px;
+  width: 100%;
 }
 
 #page-title.review-mode {
