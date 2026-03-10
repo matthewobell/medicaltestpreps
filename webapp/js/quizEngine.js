@@ -63,7 +63,7 @@ function showResumePrompt(savedState, onResume, onFresh){
   const feedbackCard = document.getElementById("feedback-card");
   feedbackCard.style.display = "block";
 
-  const completed = savedState.currentQuestionIndex - 1;
+  const completed = savedState.currentQuestionIndex;
   const total = savedState.questions.length;
 
   feedbackCard.innerHTML =
