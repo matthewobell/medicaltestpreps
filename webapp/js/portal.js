@@ -13,11 +13,10 @@ async function verifyPremiumAccess(){
 
     try{
 
-      const doc = await firebase
-        .firestore()
-        .collection("users")
-        .doc(user.uid)
-        .get();
+   const doc = await firebaseDB
+    .collection("users")
+    .doc(user.uid)
+    .get();
 
       if(!doc.exists || doc.data().premium !== true){
         window.location.href = "upgrade.html";
@@ -113,6 +112,8 @@ label = label.replace(" Part ", " — Part ");
 // -------------------------------------
 
 function initializePortal(){
+
+  document.getElementById("portal-content").style.display = "block";
 
   loadQuizIndex();
 
