@@ -6,7 +6,7 @@ let score = 0;
 let saveKey = "";
 
 function cleanAnswerText(text){
-  return (text || "").replace(/^[A-E]\)\s*/, "");
+  return (text || "").replace(/^[A-F]\)\s*/, "");
 }
 
 function shuffleArray(array){
