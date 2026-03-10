@@ -2,6 +2,12 @@
 // AUTH GUARD (PREMIUM ACCESS)
 // -------------------------------------
 
+// -------------------------------------
+// AUTH GUARD (PREMIUM ACCESS)
+// -------------------------------------
+
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
+
 async function verifyPremiumAccess(){
 
   firebaseAuth.onAuthStateChanged(async (user) => {
@@ -13,17 +19,23 @@ async function verifyPremiumAccess(){
 
     try{
 
-   const doc = await firebaseDB
-    .collection("users")
-    .doc(user.uid)
-    .get();
+      const userRef = doc(firebaseDB, "users", user.uid);
+      const userSnap = await getDoc(userRef);
 
-      if(!doc.exists || doc.data().premium !== true){
-        window.location.href = "upgrade.html";
+      if(!userSnap.exists()){
+        window.location.href = "signup.html";
         return;
       }
 
-      // If premium user → allow portal to load
+      const userData = userSnap.data();
+
+      // IMPORTANT: match iOS field name
+      if(userData.isPremium !== true){
+        window.location.href = "signup.html";
+        return;
+      }
+
+      // Premium user → allow portal
       initializePortal();
 
     }catch(error){
@@ -124,4 +136,3 @@ document.addEventListener("DOMContentLoaded", () => {
   verifyPremiumAccess();
 
 });
-<script type="module" src="firebase-init.js"></script>
