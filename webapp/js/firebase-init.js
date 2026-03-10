@@ -11,12 +11,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebas
 // Your Firebase configuration
 const firebaseConfig = {
 
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "medical-test-prep",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "XXXXXX",
-  appId: "1:106764694288:ios:319234da530cbb58956b95"
+  apiKey: ""AIzaSyBWe_6sDJOTmsNoRbuPnVHISA8jlwnDab8",",
+  authDomain: ""medical-test-prep.firebaseapp.com",",
+  projectId: ""medical-test-prep",",
+  storageBucket: ""medical-test-prep. firebasestorage.app",",
+  messagingSenderId: ""106764694288",",
+  appId: "1:106764694288: web: b0aa@d15921ee12d956b95"
 
 };
 
