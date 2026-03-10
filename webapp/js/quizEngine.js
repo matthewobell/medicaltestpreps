@@ -234,12 +234,7 @@ function submitAnswer(){
     selectedAnswers.length === correctOptions.length &&
     selectedAnswers.every(sel => correctOptions.includes(sel));
 
-  if(isCorrect) score++;
-
-  // Advance index before saving so resume knows the next question to show
-  currentQuestionIndex++;
-  saveProgress();
-  currentQuestionIndex--;
+if(isCorrect) score++;
 
   showFeedback(question, isCorrect);
 }
@@ -284,14 +279,15 @@ function showFeedback(question, isCorrect){
     '<div class="answer-explanation">' + (question.explanation || "Explanation coming soon.") + '</div>' +
     '<button id="next-question">Next Question</button>';
 
-  document.getElementById("next-question").onclick = () => {
+document.getElementById("next-question").onclick = () => {
     currentQuestionIndex++;
+    saveProgress();
     if(currentQuestionIndex < questions.length){
       quizCard.style.display = "block";
       feedbackCard.style.display = "none";
       showQuestion();
     } else {
-      clearProgress(); // Quiz complete — clear saved state
+      clearProgress();
       showResults();
     }
   };
