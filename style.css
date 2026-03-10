@@ -443,17 +443,18 @@ a {
   }
 }
 
-.webapp-button {
+.nav-study-btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 14px 22px;
-  background: #4a6cf7;
-  color: white;
-  border-radius: 8px;
+  padding: 10px 20px;
+  border: 2.5px solid var(--color-white);
+  border-radius: 10px;
   text-decoration: none;
-  font-weight: 600;
+  color: var(--color-white);
+  font-size: 22px;
+  font-weight: var(--font-weight-bold);
+  white-space: nowrap;
 }
 
-.webapp-button:hover {
-  background: #3654d4;
+.nav-study-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
