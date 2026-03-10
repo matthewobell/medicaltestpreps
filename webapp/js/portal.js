@@ -124,3 +124,4 @@ document.addEventListener("DOMContentLoaded", () => {
   verifyPremiumAccess();
 
 });
+<script type="module" src="firebase-init.js"></script>
