@@ -9,7 +9,7 @@ function toggleDropdown(menuId, button){
   document.querySelectorAll(".dropdown-menu").forEach(m=>{
     m.style.display = "none";
   });
-
+ 
   document.querySelectorAll(".arrow").forEach(a=>{
     a.classList.remove("open");
   });
