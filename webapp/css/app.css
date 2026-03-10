@@ -97,7 +97,14 @@ h1 {
 
 /* Mobile back link — hidden on desktop */
 .back-home-mobile {
-  display: none;
+  display: block;
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: var(--weight-semi);
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 #page-title.review-mode {
@@ -735,20 +742,7 @@ h1 {
   }
 
    /* Hide desktop back arrow on mobile */
-  .back-arrow {
+.back-arrow {
     display: none;
   }
-
-  /* Show mobile back link below card */
-  .back-home-mobile {
-    display: block;
-    color: var(--color-white);
-    font-size: 15px;
-    font-weight: var(--weight-semi);
-    text-decoration: underline;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 24px;
-  }
-
 }
