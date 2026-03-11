@@ -452,6 +452,25 @@ a {
   white-space: nowrap;
 }
 
+.nav-study-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-study-desktop {
+    display: none;
+  }
+
+  .nav-study-mobile {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    text-align: center;
+  }
+}
+
 .nav-study-btn:hover {
   background: rgba(255, 255, 255, 0.15);
 }
