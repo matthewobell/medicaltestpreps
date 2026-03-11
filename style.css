@@ -449,9 +449,6 @@ a {
   border: 2.5px solid var(--color-white);
   border-radius: 10px;
   text-decoration: none;
-  color: var(--color-white);
-  font-size: 22px;
-  font-weight: var(--font-weight-bold);
   white-space: nowrap;
 }
 
