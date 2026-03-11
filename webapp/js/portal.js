@@ -127,7 +127,9 @@ function initializePortal(){
 
   document.getElementById("portal-content").style.display = "block";
 
-  logEvent(firebaseAnalytics, "portal_opened");
+  if(window.firebaseAnalytics){
+    logEvent(firebaseAnalytics, "portal_opened");
+  }
 
   loadQuizIndex();
 
