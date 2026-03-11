@@ -102,7 +102,37 @@
 </div>
 
 <script type="module" src="js/firebase-init.js"></script>
-<script type="module" src="signup.js"></script>
+<script type="module">
+import {
+  createUserWithEmailAndPassword
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+document.getElementById("signup-button").addEventListener("click", () => {
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const confirmPassword = document.getElementById("confirmPassword").value;
+
+  if(password !== confirmPassword){
+    alert("Passwords do not match.");
+    return;
+  }
+
+  if(password.length < 8){
+    alert("Password must be at least 8 characters.");
+    return;
+  }
+
+  createUserWithEmailAndPassword(firebaseAuth, email, password)
+    .then(()=>{
+      alert("Account created successfully!");
+      window.location.href = "index.html";
+    })
+    .catch(err=>{
+      alert(err.message);
+    });
+});
+</script>
 
 </body>
 </html>
