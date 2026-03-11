@@ -82,6 +82,12 @@ async function loadQuestions(){
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file") || "questions.json";
 
+  if(window.firebaseAnalytics){
+  logEvent(firebaseAnalytics, "quiz_started", {
+    quiz_file: file
+  });
+}
+
   // Build a unique save key per module
   const filename = file.split("/").pop().replace(/\.json$/i, "");
   saveKey = "quiz_progress_" + filename;
@@ -234,6 +240,13 @@ function submitAnswer(){
     selectedAnswers.length === correctOptions.length &&
     selectedAnswers.every(sel => correctOptions.includes(sel));
 
+  if(window.firebaseAnalytics){
+  logEvent(firebaseAnalytics, "question_answered", {
+    question_index: currentQuestionIndex,
+    correct: isCorrect
+  });
+}
+
 if(isCorrect) score++;
 
   showFeedback(question, isCorrect);
@@ -296,6 +309,14 @@ document.getElementById("next-question").onclick = () => {
 function showResults(){
   const feedbackCard = document.getElementById("feedback-card");
   const percentage = Math.round((score / questions.length) * 100);
+
+  if(window.firebaseAnalytics){
+  logEvent(firebaseAnalytics, "quiz_completed", {
+    score: score,
+    total_questions: questions.length,
+    percentage: percentage
+  });
+}
 
   feedbackCard.innerHTML =
     '<h2 class="quiz-complete-title">Quiz Complete!</h2>' +
