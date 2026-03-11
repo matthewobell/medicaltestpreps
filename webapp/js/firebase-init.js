@@ -6,6 +6,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js";
 import { getAuth } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
 import { getFirestore, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
+import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-analytics.js";
 
 
 // Firebase configuration
@@ -22,6 +23,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 
 // Initialize services
@@ -33,3 +35,5 @@ const db = getFirestore(app);
 window.firebaseAuth = auth;
 window.firebaseDB = db;
 window.serverTimestamp = serverTimestamp;
+window.firebaseAnalytics = analytics;
+window.logEvent = logEvent;
