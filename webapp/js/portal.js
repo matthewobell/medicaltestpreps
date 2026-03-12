@@ -59,17 +59,22 @@ function toggleDropdown(menuId, button){
   document.querySelectorAll(".dropdown-menu").forEach(m=>{
     m.style.display = "none";
   });
- 
+
   document.querySelectorAll(".arrow").forEach(a=>{
     a.classList.remove("open");
   });
 
   if(!isOpen){
     menu.style.display = "block";
-    arrow.classList.add("open");
+    if(arrow){
+      arrow.classList.add("open");
+    }
   }
 
 }
+
+/* expose function to HTML buttons */
+window.toggleDropdown = toggleDropdown;
 
 
 // -------------------------------------
@@ -137,6 +142,31 @@ function initializePortal(){
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+
   await window.firebaseReady;
+
   verifyPremiumAccess();
+
+  // -------------------------------------
+  // CLOSE DROPDOWNS WHEN CLICKING OUTSIDE
+  // -------------------------------------
+
+  document.addEventListener("click", function(event){
+
+    const clickedInsideDropdown = event.target.closest(".dropdown");
+
+    if(!clickedInsideDropdown){
+
+      document.querySelectorAll(".dropdown-menu").forEach(menu=>{
+        menu.style.display = "none";
+      });
+
+      document.querySelectorAll(".arrow").forEach(arrow=>{
+        arrow.classList.remove("open");
+      });
+
+    }
+
+  });
+
 });
