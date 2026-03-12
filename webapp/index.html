@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <title>Medical Test Prep</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="css/app.css">
+
 </head>
 
 <body>
 
 <div id="portal-content" style="display:none;">
 
-<h1 class="main-title">Medical Test Prep</h1>
+<h1 class="portal-title">Welcome to our Study Portal!</h1>
+
+<p class="portal-subtitle">
+Android users, until we finish your app, please enjoy the same materials iOS users currently get
+</p>
+
 <div class="portal-container">
 
-  <!-- EMIGS -->
-  <div class="dropdown">
+<!-- EMIGS -->
 
-    <button class="dropdown-button" onclick="toggleDropdown('emigs-menu', this)">
-      Study EMIGS
-      <span class="arrow">⌄</span>
-    </button> 
+<div class="dropdown">
 
-    <!-- JS will populate this -->
-    <div id="emigs-menu" class="dropdown-menu"></div>
+<button class="dropdown-button" onclick="toggleDropdown('emigs-menu', this)">
+<span>Study EMIGS</span>
+<span class="arrow">⌄</span>
+</button>
 
-  </div>
+<div id="emigs-menu" class="dropdown-menu"></div>
 
-
-  <!-- FLS -->
-  <div class="dropdown">
-
-    <button class="dropdown-button" onclick="toggleDropdown('fls-menu', this)">
-      Study FLS
-      <span class="arrow">⌄</span>
-    </button>
-
-    <!-- JS will populate this -->
-    <div id="fls-menu" class="dropdown-menu"></div>
-
-  </div>
+</div>
 
 
-  <!-- Flashcards -->
-  <div class="dropdown">
+<!-- FLS -->
 
-    <button class="dropdown-button" onclick="toggleDropdown('flashcards-menu', this)">
-      Study Flashcards
-      <span class="arrow">⌄</span>
-    </button>
+<div class="dropdown">
 
-    <div id="flashcards-menu" class="dropdown-menu">
-      <a href="#">Coming soon</a>
-    </div>
+<button class="dropdown-button" onclick="toggleDropdown('fls-menu', this)">
+<span>Study FLS</span>
+<span class="arrow">⌄</span>
+</button>
 
-  </div>
+<div id="fls-menu" class="dropdown-menu"></div>
+
+</div>
+
+
+<!-- FLASHCARDS -->
+
+<div class="dropdown">
+
+<button class="dropdown-button" onclick="toggleDropdown('flashcards-menu', this)">
+<span>Study Flashcards</span>
+<span class="arrow">⌄</span>
+</button>
+
+<div id="flashcards-menu" class="dropdown-menu">
+<a href="#">Coming soon</a>
+</div>
+
+</div>
 
 </div>
 
@@ -63,4 +74,5 @@
 <script type="module" src="js/portal.js"></script>
 
 </body>
+
 </html>
