@@ -35,11 +35,13 @@ async function signup() {
   }
 
   try {
-    const userCredential = await createUserWithEmailAndPassword(
-      window.firebaseAuth,
-      email,
-      password
-    );
+    await window.firebaseReady;
+
+const userCredential = await createUserWithEmailAndPassword(
+  window.firebaseAuth,
+  email,
+  password
+);
 
     const user = userCredential.user;
 
