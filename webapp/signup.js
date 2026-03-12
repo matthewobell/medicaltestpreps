@@ -4,8 +4,11 @@ import {
 
 import {
   doc,
-  setDoc
+  setDoc,
+  serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
+
+import "./js/firebase-init.js";
 
 async function signup() {
   const name = document.getElementById("name").value.trim();
@@ -33,21 +36,21 @@ async function signup() {
 
   try {
     const userCredential = await createUserWithEmailAndPassword(
-      firebaseAuth,
+      window.firebaseAuth,
       email,
       password
     );
 
     const user = userCredential.user;
 
-    await setDoc(doc(firebaseDB, "users", user.uid), {
+    await setDoc(doc(window.firebaseDB, "users", user.uid), {
       name: name,
       email: email,
       institution: institution,
       residency: residency,
       gradYear: gradYear,
       isPremium: true,
-      createdAt: window.serverTimestamp()
+      createdAt: serverTimestamp()
     });
 
     window.location.href = "index.html";
@@ -62,5 +65,3 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", signup);
   }
 });
-
-window.signup = signup;
