@@ -2,8 +2,8 @@
 // AUTH GUARD (PREMIUM ACCESS)
 // -------------------------------------
 
-import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
-import { doc, getDoc } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 async function verifyPremiumAccess(){
 
@@ -54,19 +54,15 @@ function toggleDropdown(menuId,button){
 const menu=document.getElementById(menuId);
 const arrow=button.querySelector(".arrow");
 
-const isOpen=menu.style.display==="grid";
-
+const isOpen=menu.style.display==="block";
 document.querySelectorAll(".dropdown-menu").forEach(m=>{
 m.style.display="none";
 });
-
 document.querySelectorAll(".arrow").forEach(a=>{
 a.classList.remove("open");
 });
-
 if(!isOpen){
-
-menu.style.display="grid";
+menu.style.display="block";
 
 if(arrow){
 arrow.classList.add("open");
