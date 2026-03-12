@@ -4,115 +4,157 @@
 <title>Medical Test Prep Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/app.css">
+
 <style>
-  .login-title {
-    font-size: 48px;
-    font-weight: var(--weight-bold);
-    color: var(--color-white);
-    text-align: center;
-    margin-bottom: 32px;
-  }
+.login-title {
+  font-size: 48px;
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 32px;
+}
 
-  .auth-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 560px;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
 
-  .auth-input {
-    width: 100%;
-    padding: 20px 38px;
-    margin-bottom: 16px;
-    border-radius: 16px;
-    border: none;
-    background: var(--color-white);
-    font-size: var(--font-body);
-    font-weight: var(--weight-bold);
-    color: var(--color-text);
-    box-sizing: border-box;
-    outline: none;
-    -webkit-appearance: none;
-  }
+.auth-input {
+  width: 100%;
+  padding: 20px 38px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  border: none;
+  background: var(--color-white);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  box-sizing: border-box;
+  outline: none;
+  -webkit-appearance: none;
+}
 
-  .auth-input::placeholder {
-    color: var(--color-text);
-    font-weight: var(--weight-bold);
-  }
+.auth-input::placeholder {
+  color: var(--color-text);
+  font-weight: var(--weight-bold);
+}
 
-  .auth-button {
-    width: 280px;
-    padding: 20px;
-    margin-top: 40px;
-    border-radius: var(--radius-card);
-    border: none;
-    background: var(--color-white);
-    color: var(--color-text);
-    font-size: var(--font-body);
-    font-weight: var(--weight-bold);
-    cursor: pointer;
-  }
+.auth-button {
+  width: 280px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: var(--radius-card);
+  border: none;
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+}
 
-  .auth-footer {
-    margin-top: 24px;
-    color: var(--color-white);
-    font-size: var(--font-body);
-    font-weight: var(--weight-bold);
-    text-align: center;
-  }
+.auth-footer {
+  margin-top: 24px;
+  color: var(--color-white);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  text-align: center;
+}
 
-  .auth-footer a {
-    color: var(--color-white);
-    font-weight: var(--weight-bold);
-    text-decoration: underline;
-  }
+.auth-footer a {
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  text-decoration: underline;
+}
 
-  @media (max-width: 480px) {
-    .login-title {
-      font-size: 32px;
-    }
+@media (max-width: 480px) {
 
-    .auth-input {
-      padding: 22px 24px;
-      font-size: 18px;
-    }
+.login-title {
+  font-size: 32px;
+}
 
-    .auth-button {
-      width: 100%;
-      padding: 22px;
-      font-size: 18px;
-    }
-  }
+.auth-input {
+  padding: 22px 24px;
+  font-size: 18px;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 22px;
+  font-size: 18px;
+}
+
+}
 </style>
 </head>
+
 <body>
+
 <div class="auth-container">
-  <h1 class="login-title">Medical Test Prep</h1>
-  <input id="email" class="auth-input" placeholder="Email" type="email">
-  <input id="password" class="auth-input" placeholder="Password" type="password">
-  <button class="auth-button">Login</button>
-  <p class="auth-footer">Don't have an account? <a href="signup.html">Sign up here, it's free</a>!</p>
+
+<h1 class="login-title">Medical Test Prep</h1>
+
+<input id="email" class="auth-input" placeholder="Email" type="email">
+
+<input id="password" class="auth-input" placeholder="Password" type="password">
+
+<button id="login-button" class="auth-button">Login</button>
+
+<p class="auth-footer">
+Don't have an account? 
+<a href="signup.html">Sign up here, it's free</a>!
+</p>
+
 </div>
+
+
 <script type="module" src="js/firebase-init.js"></script>
+
 <script type="module">
+
 import {
   signInWithEmailAndPassword
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
 
-document.querySelector(".auth-button").addEventListener("click", () => {
-  const email = document.getElementById("email").value;
+
+document.getElementById("login-button").addEventListener("click", async () => {
+
+  const email = document.getElementById("email").value.trim();
   const password = document.getElementById("password").value;
-  signInWithEmailAndPassword(firebaseAuth, email, password)
-    .then(()=>{
-      window.location.href = "index.html";
-    })
-    .catch(err=>{
-      alert(err.message);
-    });
+
+  if(!email || !password){
+    alert("Please enter email and password.");
+    return;
+  }
+
+  try {
+
+    /* Wait for Firebase persistence to initialize */
+    await window.firebaseReady;
+
+    await signInWithEmailAndPassword(
+      window.firebaseAuth,
+      email,
+      password
+    );
+
+    /* Redirect to portal */
+    window.location.href = "index.html";
+
+  } catch(err) {
+
+    console.error("Login error:", err);
+    alert(err.code + " — " + err.message);
+
+  }
+
 });
+
 </script>
+
 </body>
 </html>
