@@ -6,11 +6,12 @@
 // AUTH GUARD (PREMIUM ACCESS)
 // -------------------------------------
 
-import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
 
 async function verifyPremiumAccess(){
 
-  firebaseAuth.onAuthStateChanged(async (user) => {
+  onAuthStateChanged(window.firebaseAuth, async (user) => {
 
     if(!user){
       window.location.href = "login.html";
@@ -135,8 +136,7 @@ function initializePortal(){
 
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-
+document.addEventListener("DOMContentLoaded", async () => {
+  await window.firebaseReady;
   verifyPremiumAccess();
-
 });
