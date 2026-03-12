@@ -496,12 +496,15 @@ h1 {
 }
 
 .arrow {
-  font-size: 18px;
-  transition: transform .25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.18s ease;
+  transform: translateY(1px);
 }
 
 .arrow.open {
-  transform: rotate(180deg);
+  transform: translateY(1px) rotate(180deg);
 }
 
 .dropdown-menu {
