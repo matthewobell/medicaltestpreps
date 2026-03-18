@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reset Password — Medical Test Prep</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/app.css">
+<style>
+.login-title {
+  font-size: 48px;
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.login-subtitle {
+  font-size: 16px;
+  font-weight: var(--weight-semi);
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 360px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.auth-input {
+  width: 100%;
+  padding: 20px 38px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  border: none;
+  background: var(--color-white);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  box-sizing: border-box;
+  outline: none;
+  -webkit-appearance: none;
+}
+.auth-input::placeholder {
+  color: var(--color-text);
+  font-weight: var(--weight-bold);
+}
+.auth-button {
+  width: 280px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: var(--radius-card);
+  border: none;
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+}
+.auth-footer {
+  margin-top: 24px;
+  color: var(--color-white);
+  font-size: var(--font-body);
+  font-weight: var(--weight-bold);
+  text-align: center;
+}
+.auth-footer a {
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  text-decoration: underline;
+}
+#success-message {
+  display: none;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: var(--weight-semi);
+  margin-top: 24px;
+  line-height: 1.5;
+}
+@media (max-width: 480px) {
+  .login-title { font-size: 32px; }
+  .auth-input { padding: 22px 24px; font-size: 18px; }
+  .auth-button { width: 100%; padding: 22px; font-size: 18px; }
+}
+</style>
+</head>
+<body>
+<div class="auth-container">
+  <h1 class="login-title">Reset Password</h1>
+  <p class="login-subtitle">Enter your email address and we'll send you a link to reset your password.</p>
+  <input id="email" class="auth-input" placeholder="Email" type="email">
+  <button id="reset-button" class="auth-button">Send Reset Email</button>
+  <div id="success-message">
+    ✓ Reset email sent!<br>Check your inbox and follow the link to reset your password.
+  </div>
+  <p class="auth-footer">
+    <a href="login.html">Back to login</a>
+  </p>
+</div>
+<script type="module" src="js/firebase-init.js"></script>
+<script type="module">
+import {
+  sendPasswordResetEmail
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+document.getElementById("reset-button").addEventListener("click", async () => {
+  const email = document.getElementById("email").value.trim();
+  if(!email){
+    alert("Please enter your email address.");
+    return;
+  }
+  try {
+    await window.firebaseReady;
+    await sendPasswordResetEmail(window.firebaseAuth, email);
+    document.getElementById("reset-button").style.display = "none";
+    document.getElementById("email").style.display = "none";
+    document.getElementById("success-message").style.display = "block";
+  } catch(err) {
+    console.error("Reset error:", err);
+    alert(err.code + " — " + err.message);
+  }
+});
+</script>
+</body>
+</html>
