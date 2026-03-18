@@ -535,6 +535,14 @@ h1 {
   margin: 6px 0 14px 0;
 }
 
+.answer-source {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  color: var(--color-text);
+}
+
 /* =========================
 PORTAL HEADER
 ========================= */
