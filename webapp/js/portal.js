@@ -2,8 +2,8 @@
 // AUTH GUARD (PREMIUM ACCESS)
 // -------------------------------------
 
-import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-auth.js";
-import { doc, getDoc } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 async function verifyPremiumAccess(){
 
@@ -125,15 +125,20 @@ flsMenu.appendChild(link);
 // -------------------------------------
 
 function initializePortal(){
-
 document.getElementById("portal-content").style.display="block";
-
 if(window.firebaseAnalytics){
 logEvent(firebaseAnalytics,"portal_opened");
 }
-
 loadQuizIndex();
 
+document.getElementById("logout-button").addEventListener("click", async () => {
+  try {
+    await window.firebaseAuth.signOut();
+    window.location.href = "login.html";
+  } catch(err) {
+    console.error("Logout error:", err);
+  }
+});
 }
 
 
