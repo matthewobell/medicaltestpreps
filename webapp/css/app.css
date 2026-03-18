@@ -535,6 +535,25 @@ h1 {
   margin: 6px 0 14px 0;
 }
 
+#logout-button {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid var(--color-white);
+  background: transparent;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: var(--weight-semi);
+  cursor: pointer;
+  z-index: 100;
+}
+
+#logout-button:hover {
+  background: rgba(255,255,255,0.15);
+}
+
 .answer-source {
   font-size: 14px;
   font-weight: 700;
