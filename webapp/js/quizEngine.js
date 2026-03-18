@@ -290,6 +290,7 @@ function showFeedback(question, isCorrect){
     correctAnswerBlock +
     '<div class="answer-header">Explanation</div>' +
     '<div class="answer-explanation">' + (question.explanation || "Explanation coming soon.") + '</div>' +
+    '<div class="answer-source">' + (question.submodule ? 'Source: ' + question.submodule : '') + '</div>' +'<div class="answer-explanation">' + (question.explanation || "Explanation coming soon.") + '</div>' +
     '<button id="next-question">Next Question</button>';
 
 document.getElementById("next-question").onclick = () => {
