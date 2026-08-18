@@ -224,6 +224,20 @@ a { color: inherit; text-decoration: none; }
   display: block;
 }
 
+.btn-primary {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white);
+  background: var(--teal);
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.18s ease;
+}
+.btn-primary:hover { background: var(--teal-dark); }
+
 .btn-secondary {
   font-size: 15px;
   font-weight: 600;
@@ -263,11 +277,11 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-screenshot {
-  width: 100%;
+  width: 130%;
   display: block;
   object-fit: contain;
-  border-radius: 28px;
-  box-shadow: 0 32px 64px rgba(91,157,148,0.18), 0 8px 24px rgba(0,0,0,0.10);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* ============================================================
