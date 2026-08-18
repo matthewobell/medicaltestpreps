@@ -379,9 +379,8 @@ a { color: inherit; text-decoration: none; }
 .founder-photo {
   width: 100%;
   max-width: 320px;
-  height: 400px;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
+  object-fit: contain;
   border-radius: 20px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.15);
   display: block;
@@ -389,9 +388,10 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 900px) {
   .founder-photo {
-    max-width: 100%;
-    height: 200px;
-    object-position: center 20%;
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
   }
 }
 
