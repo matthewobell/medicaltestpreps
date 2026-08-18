@@ -572,7 +572,7 @@ a { color: inherit; text-decoration: none; }
   .founder-name { color: var(--white); }
   .founder-title { color: var(--teal-light); }
   .founder-bio { color: rgba(255,255,255,0.85); }
-  .eyebrow { background: rgba(255,255,255,0.15); color: var(--white); }
+  .founder .eyebrow { background: rgba(255,255,255,0.15); color: var(--white); }
   .hero-left { align-items: center; text-align: center; overflow: visible; }
   .eyebrow { max-width: none; align-self: center; }
   .hero-sub { text-align: center; }
