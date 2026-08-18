@@ -595,7 +595,7 @@ a { color: inherit; text-decoration: none; }
   .stat-divider { display: none; }
 
   .features { padding: 56px 20px; }
-  .founder { padding: 56px 20px; }
+  .founder { padding: 56px 20px 0; }
   .cta { padding: 64px 20px; }
 
   .site-footer {
