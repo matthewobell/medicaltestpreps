@@ -1,5 +1,5 @@
 /* ============================================================
-   MEDICAL TEST PREP — style.css v29
+   MEDICAL TEST PREP — style.css v35
    Full redesign: Fraunces + DM Sans, cream/white + teal
    ============================================================ */
 
@@ -85,7 +85,6 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
 }
 
-/* Eyebrow pills row */
 .eyebrow-row {
   display: flex;
   align-items: center;
@@ -286,11 +285,6 @@ a { color: inherit; text-decoration: none; }
 }
 
 .founder-photo-wrap { display: flex; justify-content: center; }
-
-.founder-eyebrow {
-  display: inline-block;
-  margin-bottom: 24px;
-}
 
 .founder-photo {
   width: 100%;
@@ -547,8 +541,21 @@ a { color: inherit; text-decoration: none; }
   .founder-title { text-align: center; }
   .founder-bio { text-align: center; }
   .founder-text { display: flex; flex-direction: column; align-items: center; }
-  .founder .eyebrow { background: rgba(255,255,255,0.15); color: var(--white); }
-  .founder-eyebrow { align-self: center; }
+  .founder-text .eyebrow { display: none; }
+  .founder-photo-wrap { flex-direction: column; align-items: center; }
+  .founder-photo-wrap::after {
+    content: '👋 Meet the founder';
+    display: inline-block;
+    margin: 16px auto 0;
+    padding: 7px 16px;
+    background: rgba(255,255,255,0.15);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-family: var(--font-body);
+  }
   .hero-left { align-items: center; text-align: center; overflow: visible; }
   .eyebrow-row { justify-content: center; }
   .hero-sub { text-align: center; }
