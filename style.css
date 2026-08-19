@@ -582,8 +582,8 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; gap: 40px; }
-  .hero-right { order: -1; }
-  .phone-frame { max-width: 100%; overflow: hidden; }
+  .hero-right { order: 1; }
+  .phone-frame { max-width: 220px; overflow: hidden; margin: 0 auto; }
   .hero-screenshot { width: 100%; }
   .features-grid { grid-template-columns: 1fr; }
   .founder-inner { grid-template-columns: 1fr; gap: 32px; }
