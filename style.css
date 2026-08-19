@@ -109,11 +109,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .eyebrow-ig {
+  background: #fde8e8;
+  color: #c0392b;
   transition: background 0.18s ease, color 0.18s ease;
 }
 .eyebrow-ig:hover {
-  background: var(--teal);
-  color: var(--white);
+  background: #f5c0c0;
+  color: #a93226;
 }
 
 .ig-icon {
