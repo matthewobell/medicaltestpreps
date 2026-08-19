@@ -546,7 +546,7 @@ a { color: inherit; text-decoration: none; }
   .founder-photo-wrap::before {
      content: '👋 Meet the founder';
      display: inline-block;
-     margin: 0 auto 16px;
+     margin: 0 auto 24px;
      padding: 7px 16px;
      background: rgba(255,255,255,0.15);
      color: var(--white);
