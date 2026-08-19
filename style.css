@@ -119,6 +119,9 @@ a { color: inherit; text-decoration: none; }
 .ig-icon {
   flex-shrink: 0;
   display: block;
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
 }
 
 .hero-headline {
