@@ -267,6 +267,20 @@ a { color: inherit; text-decoration: none; }
 
 /* Hero right — phone frame */
 .hero-right { display: flex; justify-content: center; align-items: center; }
+.hero-img-mobile { display: none; }
+
+@media (max-width: 900px) {
+  .hero-img-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 24px;
+  }
+  .hero-img-mobile .hero-screenshot {
+    width: 220px;
+    object-fit: contain;
+  }
+  .hero-right { display: none; }
+}
 
 .phone-frame {
   position: relative;
